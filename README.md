@@ -31,7 +31,7 @@ The files `dataset1.json`,`dataset2.json` and `dataset3.json` contain the filter
 
 4. CUDA: 12.4
 
-5. other packages please refer to requirements.txt
+5. other packages please refer to requirements.md
 
 ## Train
 -'run':For running the cross fold validation , run `train.py`.
