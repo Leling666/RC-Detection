@@ -34,8 +34,8 @@ The files `dataset1.json`,`dataset2.json` and `dataset3.json` contain the filter
 5. other packages please refer to requirements.md
 
 ## Train
--'run':For running the cross fold validation , run `train.py`.
--'output': the results of the cross fold validation are in the 'crossfold_result'
+- `run` :For running the cross fold validation , run `train.py`.
+- `output` : the results of the cross fold validation are in the `crossfold_result`
 
 
 
