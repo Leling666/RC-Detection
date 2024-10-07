@@ -1,5 +1,6 @@
 # RC-Detection
 Identifying Root Cause of bugs by Capturing Changed Code with Relational Graph Neural Networks
+##The project code is in the master branch
 
 ## Dataset:
 The datasets are collected from 87 open-source projects, including 675 bug-fix commits.
