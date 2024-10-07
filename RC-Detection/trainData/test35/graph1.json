@@ -1,0 +1,803 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "userName = StringUtils.lowerCase(userName)",
+        "dfgs": [
+            1
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "0cbc5fa385412dd7438f794a49c4ae584be54582"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (getUser(userName, userType) != null)",
+        "dfgs": [
+            2
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "40ec645a59b9c27e180d5686ca7513933bd98383"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new AmbariException(\"User \" + userName + \" already exists\")",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "40ec645a59b9c27e180d5686ca7513933bd98383"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return stringValue.compareTo(propertyValue.toString())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "a12bb10131ca66e48e524500092695ecdcc86fea"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return createResource(Resource.Type.User,Collections.singletonMap(Resource.Type.User, StringUtils.lowerCase(userName)))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_UserService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 174,
+        "lineEnd": 175,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "b87dc45ed36daeb9823df1a1849cc8b67fbd6a86",
+            "2b42559f516d0f45072174dac5f9d230b8e7c31c"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "requestScheduleEntity.setCreateUser(\"createduser\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_upgrade_UpgradeCatalog240Test.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2535,
+        "lineEnd": 2535,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "0cbc5fa385412dd7438f794a49c4ae584be54582"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "userEntity.setUserName(\"createduser\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_upgrade_UpgradeCatalog240Test.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2541,
+        "lineEnd": 2541,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "0cbc5fa385412dd7438f794a49c4ae584be54582"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "expect(users.getUserIfUnique(\"createduser\")).andReturn(user).once()",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_upgrade_UpgradeCatalog240Test.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2545,
+        "lineEnd": 2545,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "0cbc5fa385412dd7438f794a49c4ae584be54582"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "userEntity.setUserName(\"username\")",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_SecurityHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "0cbc5fa385412dd7438f794a49c4ae584be54582"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"username\", SecurityHelperImpl.getInstance().getCurrentUserName())",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_SecurityHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "0cbc5fa385412dd7438f794a49c4ae584be54582"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public class UserResourceProvider extends AbstractControllerResourceProvider ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "6320d589f942b41cdab34c1de241423ccb5b4752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "userName = StringUtils.lowerCase(userEntity.getUserName())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_User.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "0cbc5fa385412dd7438f794a49c4ae584be54582"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String TEST_USER_NAME = \"username\"",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_authorization_AmbariUserAuthenticationFilterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "0cbc5fa385412dd7438f794a49c4ae584be54582"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "User existingUser = getUser(userName, userType)",
+        "dfgs": [
+            14
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "if (existingUser != null)",
+        "dfgs": [
+            15
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new AmbariException(\"User \" + existingUser.getUserName() + \" already exists\")",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "public boolean evaluateIgnoreCase(Resource resource) ",
+        "dfgs": [
+            17,
+            18,
+            19
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_EqualsPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Object propertyValue  = resource.getPropertyValue(getPropertyId())",
+        "dfgs": [
+            18,
+            19
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_EqualsPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "Object predicateValue = getValue()",
+        "dfgs": [
+            19
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_EqualsPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return predicateValue == null ?propertyValue == null :propertyValue != null && compareValueToIgnoreCase(propertyValue) == 0",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_EqualsPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "protected int compareValueToIgnoreCase(Object propertyValue) throws ClassCastException",
+        "dfgs": [
+            21
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return compareValueTo(propertyValue, true)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [
+            23
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return compareValueTo(propertyValue, false)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [
+            23
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24,
+            26
+        ],
+        "code": "private int compareValueTo(Object propertyValue, boolean ignoreCase) throws ClassCastException ",
+        "dfgs": [
+            25,
+            27,
+            24
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (ignoreCase)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return stringValue.compareToIgnoreCase(propertyValue.toString())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return stringValue.compareTo(propertyValue.toString())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_predicate_ComparisonPredicate.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return createResource(Resource.Type.User,Collections.singletonMap(Resource.Type.User, userName))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_UserService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 174,
+        "lineEnd": 175,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "requestScheduleEntity.setCreateUser(\"createdUser\")",
+        "dfgs": [
+            31
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_upgrade_UpgradeCatalog240Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2535,
+        "lineEnd": 2535,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "userEntity.setUserName(\"createdUser\")",
+        "dfgs": [
+            31
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_upgrade_UpgradeCatalog240Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2541,
+        "lineEnd": 2541,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(users.getUserIfUnique(\"createdUser\")).andReturn(user).once()",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_upgrade_UpgradeCatalog240Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2545,
+        "lineEnd": 2545,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "userEntity.setUserName(\"userName\")",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_SecurityHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"userName\", SecurityHelperImpl.getInstance().getCurrentUserName())",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_SecurityHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.controller.predicate.EqualsPredicate",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public class UserResourceProvider extends AbstractControllerResourceProvider implements ResourcePredicateEvaluator ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "public boolean evaluate(Predicate predicate, Resource resource) ",
+        "dfgs": [
+            37,
+            38,
+            42,
+            39,
+            40,
+            41
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38,
+            42
+        ],
+        "code": "if (predicate instanceof EqualsPredicate)",
+        "dfgs": [
+            38,
+            42
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 204,
+        "lineEnd": 204,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "EqualsPredicate equalsPredicate = (EqualsPredicate)predicate",
+        "dfgs": [
+            39
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 205,
+        "lineEnd": 205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "String propertyId = equalsPredicate.getPropertyId()",
+        "dfgs": [
+            40,
+            41
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41,
+            42
+        ],
+        "code": "if (propertyId.equals(USER_USERNAME_PROPERTY_ID))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return equalsPredicate.evaluateIgnoreCase(resource)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 208,
+        "lineEnd": 208,
+        "lineMapIndex": -1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return predicate.evaluate(resource)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_UserResourceProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "userName = userEntity.getUserName()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_User.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String TEST_USER_NAME = \"userName\"",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_authorization_AmbariUserAuthenticationFilterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    }
+]

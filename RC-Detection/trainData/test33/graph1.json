@@ -1,0 +1,1256 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (!onlyHosts)",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d1aaecba9127428cbde324aec20c7d58c24953c2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.get(ClientProperty.INSTANCE_ZK_HOST)).andReturn(null)",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "d1aaecba9127428cbde324aec20c7d58c24953c2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.containsKey(Property.INSTANCE_ZK_HOST.getKey())).andReturn(true).atLeastOnce()",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 192,
+        "lineEnd": 192,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "5bd68ef9b751848a441cb56ca82a7e2aafdf1461"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.getString(Property.INSTANCE_ZK_HOST.getKey())).andReturn(\"host1,host2\").atLeastOnce()",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 193,
+        "lineEnd": 193,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "5bd68ef9b751848a441cb56ca82a7e2aafdf1461"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "private static Instance getZooInstance(String instanceName, String keepers, ClientConfiguration clientConfig) ",
+        "dfgs": [
+            7,
+            5,
+            6,
+            8,
+            9,
+            10,
+            12,
+            11,
+            13
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 463,
+        "lineEnd": 463,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "2faafcce4d8a52a3d64fb1318f8315e7a6e0805a"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (keepers == null)",
+        "dfgs": [
+            7,
+            12
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "d1aaecba9127428cbde324aec20c7d58c24953c2"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "keepers = clientConfig.get(ClientProperty.INSTANCE_ZK_HOST)",
+        "dfgs": [
+            7,
+            12,
+            8
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "d1aaecba9127428cbde324aec20c7d58c24953c2"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (instanceName == null || keepers == null)",
+        "dfgs": [
+            9,
+            12
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 471,
+        "lineEnd": 471,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "7ba6f8d749928df49fefd435a42410e1d74a2e50"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "AccumuloConfiguration conf = SiteConfiguration.getInstance(ClientContext.convertClientConfig(clientConfig))",
+        "dfgs": [
+            13,
+            10
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "42c25faa7bdd5c64bcec7b6e9a23d1a9bece3bf9"
+        ]
+    },
+    {
+        "cfgs": [
+            10,
+            12
+        ],
+        "code": "if (instanceName == null)",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "7ba6f8d749928df49fefd435a42410e1d74a2e50"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "Path instanceDir = new Path(VolumeConfiguration.getVolumeUris(conf)[0], \"instance_id\")",
+        "dfgs": [
+            11
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "7c94c086de2945d698d0907c9dc5ec6959042286"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "instanceId = UUID.fromString(ZooUtil.getInstanceIDFromHdfs(instanceDir, conf))",
+        "dfgs": [
+            13
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 475,
+        "lineEnd": 475,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "f2de427f74a8a6ffa05c6209e7161e7349458241"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "if (keepers == null)",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 477,
+        "lineEnd": 477,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "7ba6f8d749928df49fefd435a42410e1d74a2e50"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "keepers = conf.get(Property.INSTANCE_ZK_HOST)",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 478,
+        "lineEnd": 478,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "7ba6f8d749928df49fefd435a42410e1d74a2e50"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "if (configs.isEmpty())",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_accumulo_core_client_ClientConfiguration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "log.warn(\"Found no client.conf in default paths. Using default client configuration values.\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_accumulo_core_client_ClientConfiguration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertEquals",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.HashMap",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Map",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.accumulo.core.client.ClientConfiguration",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.accumulo.core.conf.AccumuloConfiguration",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.accumulo.core.conf.ConfigurationCopy",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.accumulo.core.conf.Property",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testZooKeeperHostFallBackToSite() throws Exception ",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "ClientConfiguration clientConfig = new ClientConfiguration()",
+        "dfgs": [
+            28
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "Map<String,String> data = new HashMap<>()",
+        "dfgs": [
+            26
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "data.put(Property.INSTANCE_ZK_HOST.getKey(), \"site_hostname\")",
+        "dfgs": [
+            27
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "AccumuloConfiguration conf = new ConfigurationCopy(data)",
+        "dfgs": [
+            28
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"site_hostname\", Shell.getZooKeepers(null, clientConfig, conf))",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [
+            59
+        ],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testZooKeeperHostFromClientConfig() throws Exception ",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "ClientConfiguration clientConfig = new ClientConfiguration()",
+        "dfgs": [
+            31
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "clientConfig.withZkHosts(\"cc_hostname\")",
+        "dfgs": [
+            35
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "Map<String,String> data = new HashMap<>()",
+        "dfgs": [
+            33
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "data.put(Property.INSTANCE_ZK_HOST.getKey(), \"site_hostname\")",
+        "dfgs": [
+            34
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "AccumuloConfiguration conf = new ConfigurationCopy(data)",
+        "dfgs": [
+            35
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"cc_hostname\", Shell.getZooKeepers(null, clientConfig, conf))",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": -1,
+        "methodParents": [
+            59
+        ],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testZooKeeperHostFromOption() throws Exception ",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "ClientConfiguration clientConfig = new ClientConfiguration()",
+        "dfgs": [
+            38
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 143,
+        "lineEnd": 143,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "clientConfig.withZkHosts(\"cc_hostname\")",
+        "dfgs": [
+            42
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "Map<String,String> data = new HashMap<>()",
+        "dfgs": [
+            40
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "data.put(Property.INSTANCE_ZK_HOST.getKey(), \"site_hostname\")",
+        "dfgs": [
+            41
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "AccumuloConfiguration conf = new ConfigurationCopy(data)",
+        "dfgs": [
+            42
+        ],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 147,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"opt_hostname\", Shell.getZooKeepers(\"opt_hostname\", clientConfig, conf))",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": -1,
+        "methodParents": [
+            59
+        ],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.accumulo.core.client.impl.ClientContext",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_ShellOptionsJC.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.accumulo.core.conf.AccumuloConfiguration",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_ShellOptionsJC.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.accumulo.core.conf.Property",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_ShellOptionsJC.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.accumulo.core.conf.SiteConfiguration",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_ShellOptionsJC.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "if (!clientConfig.containsKey(ClientProperty.INSTANCE_ZK_HOST.getKey()))",
+        "dfgs": [
+            48
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_ShellOptionsJC.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 313,
+        "lineEnd": 313,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "AccumuloConfiguration siteConf = SiteConfiguration.getInstance(ClientContext.convertClientConfig(clientConfig))",
+        "dfgs": [
+            49
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_ShellOptionsJC.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 314,
+        "lineEnd": 314,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "clientConfig.withZkHosts(siteConf.get(Property.INSTANCE_ZK_HOST))",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_ShellOptionsJC.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 315,
+        "lineEnd": 315,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Arrays",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.containsKey(ClientProperty.INSTANCE_ZK_HOST.getKey())).andReturn(true).atLeastOnce()",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.get(ClientProperty.INSTANCE_ZK_HOST)).andReturn(\"host1,host2\").atLeastOnce()",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.getKeys()).andReturn(Arrays.asList(ClientProperty.INSTANCE_NAME.getKey(), ClientProperty.INSTANCE_ZK_HOST.getKey()).iterator())",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.getString(Property.GENERAL_SECURITY_CREDENTIAL_PROVIDER_PATHS.getKey())).andReturn(null)",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.getString(ClientProperty.INSTANCE_NAME.getKey())).andReturn(\"foo\")",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.getString(ClientProperty.INSTANCE_ZK_HOST.getKey())).andReturn(\"host1,host2\")",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.getString(ClientProperty.INSTANCE_NAME.getKey())).andReturn(\"bar\")",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expect(clientConf.getString(ClientProperty.INSTANCE_ZK_HOST.getKey())).andReturn(\"host3,host4\")",
+        "dfgs": [],
+        "fName": "shell_src_test_java_org_apache_accumulo_shell_ShellSetInstanceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "static String getZooKeepers(String keepers, ClientConfiguration clientConfig, AccumuloConfiguration conf) ",
+        "dfgs": [
+            60,
+            62,
+            64,
+            61,
+            63
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61,
+            62
+        ],
+        "code": "if (null != keepers)",
+        "dfgs": [
+            61
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return keepers",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 470,
+        "lineEnd": 470,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63,
+            64
+        ],
+        "code": "if (clientConfig.containsKey(ClientProperty.INSTANCE_ZK_HOST.getKey()))",
+        "dfgs": [
+            63
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return clientConfig.get(ClientProperty.INSTANCE_ZK_HOST)",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return conf.get(Property.INSTANCE_ZK_HOST)",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 477,
+        "lineEnd": 477,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "private static Instance getZooInstance(String instanceName, String keepersOption, ClientConfiguration clientConfig) ",
+        "dfgs": [
+            68,
+            66,
+            67,
+            69,
+            70
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 484,
+        "lineEnd": 484,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "AccumuloConfiguration conf = SiteConfiguration.getInstance(ClientContext.convertClientConfig(clientConfig))",
+        "dfgs": [
+            67
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 489,
+        "lineEnd": 489,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "String keepers = getZooKeepers(keepersOption, clientConfig, conf)",
+        "dfgs": [
+            69
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": -1,
+        "methodParents": [
+            59
+        ],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "if (instanceName == null)",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 491,
+        "lineEnd": 491,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "Path instanceDir = new Path(VolumeConfiguration.getVolumeUris(conf)[0], \"instance_id\")",
+        "dfgs": [
+            70
+        ],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 492,
+        "lineEnd": 492,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "instanceId = UUID.fromString(ZooUtil.getInstanceIDFromHdfs(instanceDir, conf))",
+        "dfgs": [],
+        "fName": "shell_src_main_java_org_apache_accumulo_shell_Shell.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 493,
+        "lineEnd": 493,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    }
+]

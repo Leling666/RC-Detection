@@ -1,0 +1,78 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "dbAccessor.executeQuery(\"DELETE FROM clusterconfigmapping WHERE type_name like 'druid-superset%'\")",
+        "dfgs": [
+            1
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_upgrade_UpgradeCatalog260Test.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "b96c77a8f9dfd021aa4a0b2f825dc2e270f79050"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "expectLastCall().once()",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_upgrade_UpgradeCatalog260Test.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 491,
+        "lineEnd": 491,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "b96c77a8f9dfd021aa4a0b2f825dc2e270f79050"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "String supersetConfigMappingRemoveSQL = String.format(\"DELETE FROM %s WHERE type_name like '%s%%'\",CLUSTER_CONFIG_MAPPING_TABLE, configPrefix)",
+        "dfgs": [
+            3
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 389,
+        "lineEnd": 391,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "b96c77a8f9dfd021aa4a0b2f825dc2e270f79050"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "dbAccessor.executeQuery(supersetConfigMappingRemoveSQL)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 413,
+        "lineEnd": 413,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "b96c77a8f9dfd021aa4a0b2f825dc2e270f79050"
+        ]
+    }
+]

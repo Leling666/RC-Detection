@@ -1,0 +1,1440 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "List<Long> requiredTimestamps = new ArrayList<>()",
+        "dfgs": [
+            4,
+            3
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 272,
+        "lineEnd": 272,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            2
+        ],
+        "code": "for (Long[] timeSlice : timeSlices)",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 273,
+        "lineEnd": 273,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (!timeSliceValueMap.containsKey(timeSlice[1]))",
+        "dfgs": [
+            3
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 274,
+        "lineEnd": 274,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "0f8c24956b700949aa79943bb841c238a74e2f0b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "requiredTimestamps.add(timeSlice[1])",
+        "dfgs": [
+            4
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Map<Long, Double> interpolatedValuesMap = PostProcessingUtil.interpolate(timelineMetric.getMetricValues(), requiredTimestamps)",
+        "dfgs": [
+            5,
+            9
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (interpolatedValuesMap != null)",
+        "dfgs": [
+            6
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 281,
+        "lineEnd": 281,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "for (Map.Entry<Long, Double> entry : interpolatedValuesMap.entrySet())",
+        "dfgs": [
+            7
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Double interpolatedValue = entry.getValue()",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [
+            9,
+            11
+        ],
+        "code": "if (interpolatedValue != null)",
+        "dfgs": [
+            10
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "0f8c24956b700949aa79943bb841c238a74e2f0b"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "TimelineClusterMetric clusterMetric = new TimelineClusterMetric(timelineMetric.getMetricName(),timelineMetric.getAppId(),timelineMetric.getInstanceId(),entry.getKey(),timelineMetric.getType())",
+        "dfgs": [
+            10
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 286,
+        "lineEnd": 291,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "0f8c24956b700949aa79943bb841c238a74e2f0b",
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "timelineClusterMetricMap.put(clusterMetric, interpolatedValue)",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "0f8c24956b700949aa79943bb841c238a74e2f0b"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "0f8c24956b700949aa79943bb841c238a74e2f0b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"Cannot compute interpolated value, hence skipping.\")",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "0f8c24956b700949aa79943bb841c238a74e2f0b"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Map<TimelineClusterMetric, Double> timelineClusterMetricMap = secondAggregator.sliceFromTimelineMetric(metric, timeSlices)",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "0f8c24956b700949aa79943bb841c238a74e2f0b"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "TimelineClusterMetric timelineClusterMetric = new TimelineClusterMetric(metric.getMetricName(), metric.getAppId(),metric.getInstanceId(), 0l, null)",
+        "dfgs": [
+            15,
+            16
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 76,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "0f8c24956b700949aa79943bb841c238a74e2f0b"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "Assert.assertEquals(timelineClusterMetricMap.get(timelineClusterMetric), 6.0)",
+        "dfgs": [
+            16
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(timelineClusterMetricMap.get(timelineClusterMetric), 12.0)",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "489a9c4b0835558669ab30b0cfda68b60c8a238c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.lang.StringUtils",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19,
+            32
+        ],
+        "code": "if (StringUtils.isNotEmpty(timelineMetric.getType()) && \"COUNTER\".equalsIgnoreCase(timelineMetric.getType()))",
+        "dfgs": [
+            23,
+            51
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "List<Long> requiredTimestamps = new ArrayList<>()",
+        "dfgs": [
+            23,
+            22
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 276,
+        "lineEnd": 276,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23,
+            21
+        ],
+        "code": "for (Long[] timeSlice : timeSlices)",
+        "dfgs": [
+            21,
+            22
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 277,
+        "lineEnd": 277,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "if (!timeSliceValueMap.containsKey(timeSlice[1]))",
+        "dfgs": [
+            22
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "requiredTimestamps.add(timeSlice[1])",
+        "dfgs": [
+            23
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "Map<Long, Double> interpolatedValuesMap = PostProcessingUtil.interpolate(timelineMetric.getMetricValues(), requiredTimestamps)",
+        "dfgs": [
+            24,
+            28
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (interpolatedValuesMap != null)",
+        "dfgs": [
+            25
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "for (Map.Entry<Long, Double> entry : interpolatedValuesMap.entrySet())",
+        "dfgs": [
+            26
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "Double interpolatedValue = entry.getValue()",
+        "dfgs": [
+            27,
+            28
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28,
+            30
+        ],
+        "code": "if (interpolatedValue != null)",
+        "dfgs": [
+            29
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "TimelineClusterMetric clusterMetric = new TimelineClusterMetric(timelineMetric.getMetricName(),timelineMetric.getAppId(),timelineMetric.getInstanceId(),entry.getKey(),timelineMetric.getType())",
+        "dfgs": [
+            29
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 289,
+        "lineEnd": 294,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "timelineClusterMetricMap.put(clusterMetric, interpolatedValue)",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 297,
+        "lineEnd": 297,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"Cannot compute interpolated value, hence skipping.\")",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "for (int sliceNum = 0; sliceNum < timeSlices.size(); sliceNum++)",
+        "dfgs": [
+            34
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "Long[] timeSlice = timeSlices.get(sliceNum)",
+        "dfgs": [
+            35,
+            38,
+            49,
+            51,
+            36,
+            41,
+            46,
+            47
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 306,
+        "lineEnd": 306,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "if (!timeSliceValueMap.containsKey(timeSlice[1]))",
+        "dfgs": [
+            36,
+            42,
+            48
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "LOG.debug(\"Found an empty slice : \" + new Date(timeSlice[0]) + \", \" + new Date(timeSlice[1]))",
+        "dfgs": [
+            49,
+            52,
+            55
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "Double lastSeenValue = null",
+        "dfgs": [
+            40
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "int index = sliceNum - 1",
+        "dfgs": [
+            44,
+            40,
+            41
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 312,
+        "lineEnd": 312,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "Long[] prevTimeSlice = null",
+        "dfgs": [
+            49
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 313,
+        "lineEnd": 313,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41,
+            43
+        ],
+        "code": "while (lastSeenValue == null && index >= 0)",
+        "dfgs": [
+            49,
+            41
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 314,
+        "lineEnd": 314,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "prevTimeSlice = timeSlices.get(index--)",
+        "dfgs": [
+            42,
+            46,
+            47,
+            49
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 315,
+        "lineEnd": 315,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lastSeenValue = timeSliceValueMap.get(prevTimeSlice[1])",
+        "dfgs": [
+            49,
+            48
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 316,
+        "lineEnd": 316,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "Double nextSeenValue = null",
+        "dfgs": [
+            46
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "index = sliceNum + 1",
+        "dfgs": [
+            46,
+            47
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "Long[] nextTimeSlice = null",
+        "dfgs": [
+            49
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 321,
+        "lineEnd": 321,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47,
+            49
+        ],
+        "code": "while (nextSeenValue == null && index < timeSlices.size())",
+        "dfgs": [
+            49,
+            47
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "nextTimeSlice = timeSlices.get(index++)",
+        "dfgs": [
+            48,
+            49
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 323,
+        "lineEnd": 323,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "nextSeenValue = timeSliceValueMap.get(nextTimeSlice[1])",
+        "dfgs": [
+            49
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "Double interpolatedValue = PostProcessingUtil.interpolate(timeSlice[1],(prevTimeSlice != null ? prevTimeSlice[1] : null), lastSeenValue,(nextTimeSlice != null ? nextTimeSlice[1] : null), nextSeenValue)",
+        "dfgs": [
+            50,
+            51
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 327,
+        "lineEnd": 329,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51,
+            54
+        ],
+        "code": "if (interpolatedValue != null)",
+        "dfgs": [
+            52,
+            53
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 331,
+        "lineEnd": 331,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "TimelineClusterMetric clusterMetric = new TimelineClusterMetric(timelineMetric.getMetricName(),timelineMetric.getAppId(),timelineMetric.getInstanceId(),timeSlice[1],timelineMetric.getType())",
+        "dfgs": [
+            53
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 332,
+        "lineEnd": 337,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "LOG.debug(\"Interpolated value : \" + interpolatedValue)",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "timelineClusterMetricMap.put(clusterMetric, interpolatedValue)",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"Cannot compute interpolated value, hence skipping.\")",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_main_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecond.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 342,
+        "lineEnd": 342,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "TimelineMetric counterMetric = new TimelineMetric()",
+        "dfgs": [
+            57
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "counterMetric.setMetricName(\"TestMetric\")",
+        "dfgs": [
+            58
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "counterMetric.setHostName(\"TestHost\")",
+        "dfgs": [
+            59
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 69,
+        "lineEnd": 69,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "counterMetric.setAppId(\"TestAppId\")",
+        "dfgs": [
+            60
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "counterMetric.setMetricValues(metricValues)",
+        "dfgs": [
+            61,
+            70
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "counterMetric.setType(\"COUNTER\")",
+        "dfgs": [
+            62
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "Map<TimelineClusterMetric, Double> timelineClusterMetricMap = secondAggregator.sliceFromTimelineMetric(counterMetric, timeSlices)",
+        "dfgs": [
+            63,
+            65,
+            70
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "TimelineClusterMetric timelineClusterMetric = new TimelineClusterMetric(counterMetric.getMetricName(), counterMetric.getAppId(),counterMetric.getInstanceId(), 0l, null)",
+        "dfgs": [
+            64
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "timelineClusterMetric.setTimestamp(roundedStartTime + 2*sliceInterval)",
+        "dfgs": [
+            65,
+            67
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "Assert.assertTrue(timelineClusterMetricMap.containsKey(timelineClusterMetric))",
+        "dfgs": [
+            66
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "Assert.assertEquals(timelineClusterMetricMap.get(timelineClusterMetric), 6.0)",
+        "dfgs": [
+            67,
+            68
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "timelineClusterMetric.setTimestamp(roundedStartTime + 4*sliceInterval)",
+        "dfgs": [
+            68,
+            72,
+            73
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "Assert.assertTrue(timelineClusterMetricMap.containsKey(timelineClusterMetric))",
+        "dfgs": [
+            69
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "Assert.assertEquals(timelineClusterMetricMap.get(timelineClusterMetric), 12.0)",
+        "dfgs": [
+            72
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "timelineClusterMetricMap = secondAggregator.sliceFromTimelineMetric(metric, timeSlices)",
+        "dfgs": [
+            71,
+            72
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "timelineClusterMetric = new TimelineClusterMetric(metric.getMetricName(), metric.getAppId(),metric.getInstanceId(), 0l, null)",
+        "dfgs": [
+            72,
+            73
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 96,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "Assert.assertEquals(timelineClusterMetricMap.get(timelineClusterMetric), 4.5)",
+        "dfgs": [
+            73
+        ],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(timelineClusterMetricMap.get(timelineClusterMetric), 7.5)",
+        "dfgs": [],
+        "fName": "ambari-metrics_ambari-metrics-timelineservice_src_test_java_org_apache_hadoop_yarn_server_applicationhistoryservice_metrics_timeline_aggregators_TimelineMetricClusterAggregatorSecondTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    }
+]
