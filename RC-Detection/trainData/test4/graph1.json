@@ -1,0 +1,74 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (System.currentTimeMillis() - startTime > 2 * timeout)",
+        "dfgs": [
+            1
+        ],
+        "fName": "fate_src_main_java_org_apache_accumulo_fate_zookeeper_ZooSession.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "59e29ad8742907ee95719bca87cfa3da33b16abd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new RuntimeException(\"Failed to connect to zookeeper (\" + host + \") within 2x zookeeper timeout period \" + timeout)",
+        "dfgs": [],
+        "fName": "fate_src_main_java_org_apache_accumulo_fate_zookeeper_ZooSession.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "59e29ad8742907ee95719bca87cfa3da33b16abd"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (System.currentTimeMillis() - startTime > 2 * timeout)",
+        "dfgs": [
+            3
+        ],
+        "fName": "fate_src_main_java_org_apache_accumulo_fate_zookeeper_ZooSession.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new RuntimeException(\"Failed to connect to zookeeper (\" + host + \") within 2x zookeeper timeout period \" + timeout)",
+        "dfgs": [],
+        "fName": "fate_src_main_java_org_apache_accumulo_fate_zookeeper_ZooSession.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    }
+]

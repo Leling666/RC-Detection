@@ -1,0 +1,574 @@
+[
+    {
+        "cfgs": [],
+        "code": "process(null)",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 14,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "db2dda1b7b6431a2ee57148db2de74c0432b9480"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            4
+        ],
+        "code": "if (pathExists || zoo.exists(path))",
+        "dfgs": [
+            3,
+            5
+        ],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "db2dda1b7b6431a2ee57148db2de74c0432b9480"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "pathExists = true",
+        "dfgs": [
+            3
+        ],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "db2dda1b7b6431a2ee57148db2de74c0432b9480"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "updateHosts(path, zoo.getChildren(path, this))",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "db2dda1b7b6431a2ee57148db2de74c0432b9480"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "db2dda1b7b6431a2ee57148db2de74c0432b9480"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zoo.exists(path, this)",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "db2dda1b7b6431a2ee57148db2de74c0432b9480"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.concurrent.Executors",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.concurrent.ScheduledExecutorService",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.concurrent.TimeUnit",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.zookeeper.KeeperException",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.util.concurrent.ThreadFactoryBuilder",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "long retryPause = 5000l",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "protected void setRetryPause(long pause) ",
+        "dfgs": [
+            13
+        ],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "retryPause = pause",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "setInitialTraceHosts()",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": 0,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "updateHostsFromZooKeeper()",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": -1,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "protected void setInitialTraceHosts() ",
+        "dfgs": [
+            18,
+            26,
+            17
+        ],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "final ScheduledExecutorService svc = Executors.newScheduledThreadPool(1, new ThreadFactoryBuilder().setDaemon(true).build())",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "final Runnable task = new Runnable() {@Overridepublic void run() {try {updateHostsFromZooKeeper();log.info(\"Successfully initialized tracer hosts from ZooKeeper\");// Once this passes, we can issue a shutdown of the poolsvc.shutdown();} catch (Exception e) {log.error(\"Unabled to get destination tracer hosts in ZooKeeper, will retry in 5 seconds\", e);// We failed to connect to ZK, try again in 5secondssvc.schedule(this, retryPause, TimeUnit.MILLISECONDS);}}}",
+        "dfgs": [
+            26
+        ],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "updateHostsFromZooKeeper()",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "log.info(\"Successfully initialized tracer hosts from ZooKeeper\")",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "svc.shutdown()",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (Exception e)",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "log.error(\"Unabled to get destination tracer hosts in ZooKeeper, will retry in 5 seconds\", e)",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "svc.schedule(this, retryPause, TimeUnit.MILLISECONDS)",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "task.run()",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [
+            19
+        ],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "protected void updateHostsFromZooKeeper() throws KeeperException, InterruptedException ",
+        "dfgs": [
+            28,
+            29,
+            30,
+            32
+        ],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29,
+            31
+        ],
+        "code": "if (pathExists || zoo.exists(path))",
+        "dfgs": [
+            30,
+            32
+        ],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "pathExists = true",
+        "dfgs": [
+            30
+        ],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "updateHosts(path, zoo.getChildren(path, this))",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zoo.exists(path, this)",
+        "dfgs": [],
+        "fName": "server_tracer_src_main_java_org_apache_accumulo_tracer_ZooTraceClient.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    }
+]

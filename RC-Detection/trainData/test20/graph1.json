@@ -1,0 +1,108 @@
+[
+    {
+        "cfgs": [],
+        "code": "datafiles.add(new FileRef(entry.getValue().toString(), this.master.fs.getFullPath(FileType.TABLE, Path.SEPARATOR + extent.getTableId()+ entry.getValue().toString())))",
+        "dfgs": [],
+        "fName": "server_master_src_main_java_org_apache_accumulo_master_TabletGroupWatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 518,
+        "lineEnd": 519,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "5eceb10e281b61e1f2b8a27a9b1c28746c2f0fc3"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "String path = entry.getValue().toString()",
+        "dfgs": [
+            2
+        ],
+        "fName": "server_master_src_main_java_org_apache_accumulo_master_TabletGroupWatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 518,
+        "lineEnd": 518,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3,
+            4
+        ],
+        "code": "if (path.contains(\":\"))",
+        "dfgs": [
+            3,
+            5
+        ],
+        "fName": "server_master_src_main_java_org_apache_accumulo_master_TabletGroupWatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 519,
+        "lineEnd": 519,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "datafiles.add(new FileRef(path))",
+        "dfgs": [
+            5
+        ],
+        "fName": "server_master_src_main_java_org_apache_accumulo_master_TabletGroupWatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 520,
+        "lineEnd": 520,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "server_master_src_main_java_org_apache_accumulo_master_TabletGroupWatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 521,
+        "lineEnd": 521,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "datafiles.add(new FileRef(path, this.master.fs.getFullPath(FileType.TABLE, Path.SEPARATOR + extent.getTableId() + path)))",
+        "dfgs": [],
+        "fName": "server_master_src_main_java_org_apache_accumulo_master_TabletGroupWatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 522,
+        "lineEnd": 522,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    }
+]
