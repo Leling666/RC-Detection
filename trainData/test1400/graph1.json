@@ -1,0 +1,551 @@
+[
+    {
+        "cfgs": [],
+        "code": "for (Node c = node.getFirstChild(); c != null; c = c.getNext())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeOptimizationsPass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "e88cd847e5f7f0b0aa23aa3d8860bcf58896fa28"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(options, \"function someTest() {\\n\"+ \"  /** @constructor */\\n\"+ \"  function Foo() { this.instProp = 3; }\\n\"+ \"  Foo.prototype.protoProp = function(a, b) {};\\n\"+ \"  /** @constructor\\n @extends Foo */\\n\"+ \"  function Bar() {}\\n\"+ \"  goog.inherits(Bar, Foo);\\n\"+ \"  var o = new Bar();\\n\"+ \"  o.protoProp(o.protoProp, o.instProp);\\n\"+ \"}\",\"function someTest() {\\n\"+ \"  function Foo() { this.b = 3; }\\n\"+ \"  Foo.prototype.a = function(a, b) {};\\n\"+ \"  function Bar() {}\\n\"+ \"  goog.c(Bar, Foo);\\n\"+ \"  var o = new Bar();\\n\"+ \"  o.a(o.a, o.b);\\n\"+ \"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 353,
+        "lineEnd": 370,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "998b42ba4f616bc4af88ebbb3c5ab7070de082c7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(options,\"var goog = {}; goog.provide('foo.Bar'); \" +\"var foo = {}; foo.Bar = {};\",\"var foo = {}; var foo = {}; foo.Bar = {};\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 790,
+        "lineEnd": 793,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "998b42ba4f616bc4af88ebbb3c5ab7070de082c7"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "String code = \"longLabel: while (true) { break longLabel; }\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1332,
+        "lineEnd": 1332,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "998b42ba4f616bc4af88ebbb3c5ab7070de082c7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String expected = \"a: while (true) { break a; }\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1333,
+        "lineEnd": 1333,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "998b42ba4f616bc4af88ebbb3c5ab7070de082c7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "options.collapseVariableDeclarations = false",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1538,
+        "lineEnd": 1538,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "998b42ba4f616bc4af88ebbb3c5ab7070de082c7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(options,\"/** @suppress{es5Strict} */\\n\" +\"function f() { var arguments; }\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1942,
+        "lineEnd": 1944,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "998b42ba4f616bc4af88ebbb3c5ab7070de082c7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(options,\"/** @constructor\\n\" +\" *  @suppress{checkProvides} */\\n\" +\"function f() { var arguments; }\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1961,
+        "lineEnd": 1964,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "998b42ba4f616bc4af88ebbb3c5ab7070de082c7"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "(new Normalize(compiler, false)).process(externs, n)",
+        "dfgs": [
+            9
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTestCase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "f58f7523c285197df175ad780dbe6288c67bc08c"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "(MakeDeclaredNamesUnique.getContextualRenameInverter(compiler)).process(externs, n)",
+        "dfgs": [
+            10
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTestCase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 212,
+        "lineEnd": 213,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "f58f7523c285197df175ad780dbe6288c67bc08c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "(new Denormalize(compiler)).process(externs, n)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTestCase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 214,
+        "lineEnd": 214,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "f58f7523c285197df175ad780dbe6288c67bc08c"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "Node c = node.getFirstChild()",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeOptimizationsPass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "while(c != null)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeOptimizationsPass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Node next = c.getNext()",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeOptimizationsPass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "c = next",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeOptimizationsPass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(options, \"function someTest() {\\n\"+ \"  /** @constructor */\\n\"+ \"  function Foo() { this.instProp = 3; }\\n\"+ \"  Foo.prototype.protoProp = function(a, b) {};\\n\"+ \"  /** @constructor\\n @extends Foo */\\n\"+ \"  function Bar() {}\\n\"+ \"  goog.inherits(Bar, Foo);\\n\"+ \"  var o = new Bar();\\n\"+ \"  o.protoProp(o.protoProp, o.instProp);\\n\"+ \"}\",\"function someTest() {\\n\"+ \"  function Foo() { this.b = 3; }\\n\"+ \"  function Bar() {}\\n\"+ \"  Foo.prototype.a = function(a, b) {};\\n\"+ \"  goog.c(Bar, Foo);\\n\"+ \"  var o = new Bar();\\n\"+ \"  o.a(o.a, o.b);\\n\"+ \"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 353,
+        "lineEnd": 370,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(options,\"var goog = {}; goog.provide('foo.Bar'); \" +\"var foo = {}; foo.Bar = {};\",\"var foo = {}; foo = {}; foo.Bar = {};\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 790,
+        "lineEnd": 793,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "String code = \"longLabel: for(;true;) { break longLabel; }\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1332,
+        "lineEnd": 1332,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String expected = \"a: for(;true;) { break a; }\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1333,
+        "lineEnd": 1333,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "options.collapseVariableDeclarations = true",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1538,
+        "lineEnd": 1538,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(options,\"/** @suppress{es5Strict} */\\n\" +\"function f() { var arguments; }\",\"function f() {}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1942,
+        "lineEnd": 1945,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(options,\"/** @constructor\\n\" +\" *  @suppress{checkProvides} */\\n\" +\"function f() {}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1962,
+        "lineEnd": 1965,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "public void testIssue787() ",
+        "dfgs": [
+            28,
+            29,
+            25,
+            27,
+            30,
+            23
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2217,
+        "lineEnd": 2217,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "CompilerOptions options = createCompilerOptions()",
+        "dfgs": [
+            25,
+            30
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2218,
+        "lineEnd": 2218,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "CompilationLevel level = CompilationLevel.SIMPLE_OPTIMIZATIONS",
+        "dfgs": [
+            25
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2219,
+        "lineEnd": 2219,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "level.setOptionsForCompilationLevel(options)",
+        "dfgs": [
+            27
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2220,
+        "lineEnd": 2220,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "WarningLevel warnings = WarningLevel.DEFAULT",
+        "dfgs": [
+            27
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2221,
+        "lineEnd": 2221,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "warnings.setOptionsForWarningLevel(options)",
+        "dfgs": [
+            30
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2222,
+        "lineEnd": 2222,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "String code = \"\" +\"function some_function() {\\n\" +\"  var fn1;\\n\" +\"  var fn2;\\n\" +\"\\n\" +\"  if (any_expression) {\\n\" +\"    fn2 = external_ref;\\n\" +\"    fn1 = function (content) {\\n\" +\"      return fn2();\\n\" +\"    }\\n\" +\"  }\\n\" +\"\\n\" +\"  return {\\n\" +\"    method1: function () {\\n\" +\"      if (fn1) fn1();\\n\" +\"      return true;\\n\" +\"    },\\n\" +\"    method2: function () {\\n\" +\"      return false;\\n\" +\"    }\\n\" +\"  }\\n\" +\"}\"",
+        "dfgs": [
+            30
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2224,
+        "lineEnd": 2245,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "String result = \"\" +\"function some_function() {\\n\" +\"  var a, b;\\n\" +\"  any_expression && (b = external_ref, a = function() {\\n\" +\"    return b()\\n\" +\"  });\\n\" +\"  return{method1:function() {\\n\" +\"    a && a();\\n\" +\"    return !0\\n\" +\"  }, method2:function() {\\n\" +\"    return !1\\n\" +\"  }}\\n\" +\"}\\n\" +\"\"",
+        "dfgs": [
+            30
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2247,
+        "lineEnd": 2260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(options, code, result)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2262,
+        "lineEnd": 2262,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    }
+]

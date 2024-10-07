@@ -1,0 +1,7 @@
+{
+    "repo": "oozie",
+    "fix": "7cf82d3122c3d8db45f12f7ae52631d3fefd739f",
+    "induce": [
+        "283cf1c23a9da8288d991bf207ede3f32cd4a23f"
+    ]
+}

@@ -1,0 +1,219 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (lastFieldIsOptional(sortedExpression))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_com_cronutils_parser_CronParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "190b51de680b0b55b4f3fff466e4299516074a0f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "expressions.put(sortedExpression.size() - 1, new ArrayList<>(sortedExpression.subList(0, sortedExpression.size() - 1)))",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_parser_CronParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "190b51de680b0b55b4f3fff466e4299516074a0f"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "List<CronParserField> tempExpression = sortedExpression",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_com_cronutils_parser_CronParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "while(lastFieldIsOptional(tempExpression))",
+        "dfgs": [
+            6,
+            4
+        ],
+        "fName": "src_main_java_com_cronutils_parser_CronParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "int expressionLength = tempExpression.size() - 1",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_cronutils_parser_CronParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "ArrayList<CronParserField> possibleExpression = new ArrayList<>(tempExpression.subList(0, expressionLength))",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_cronutils_parser_CronParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "expressions.put(expressionLength, possibleExpression)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_cronutils_parser_CronParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "tempExpression = possibleExpression",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_parser_CronParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testFiveRequiredFieldsSupported() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_cronutils_model_time_ExecutionTimeCustomDefinitionIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "final CronDefinition cronDefinition = CronDefinitionBuilder.defineCron().withSeconds().and().withMinutes().and().withHours().and().withDayOfMonth().supportsL().supportsW().supportsLW().supportsQuestionMark().and().withMonth().and().withDayOfWeek().withValidRange(1, 7).withMondayDoWValue(2).supportsHash().supportsL().supportsQuestionMark().optional().and().withYear().withValidRange(2000, 2099).optional().and().instance()",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_com_cronutils_model_time_ExecutionTimeCustomDefinitionIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "final CronParser cronParser = new CronParser(cronDefinition)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_com_cronutils_model_time_ExecutionTimeCustomDefinitionIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "cronParser.parse(\"* * 4 3 *\")",
+        "dfgs": [],
+        "fName": "src_test_java_com_cronutils_model_time_ExecutionTimeCustomDefinitionIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

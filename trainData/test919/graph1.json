@@ -1,0 +1,687 @@
+[
+    {
+        "cfgs": [],
+        "code": "private final String originalName",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryEntry.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "c6e4228957cb85f34249fa80f280b21ce0367baa"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "MemoryEntry toCopy = getCopySource(copyContext, sourceEntry)",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1331,
+        "lineEnd": 1331,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "d084e27e596b1e81f385f1a415f64369235080a0"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "MemoryEntry copy = targetContext.path.getMemoryFileSystem().copyEntry(targetContext.path, toCopy, targetElementName)",
+        "dfgs": [
+            5,
+            4
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1332,
+        "lineEnd": 1332,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "d084e27e596b1e81f385f1a415f64369235080a0"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "if (copyContext.operation.isMove() || copyContext.copyAttribues)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1333,
+        "lineEnd": 1333,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "d084e27e596b1e81f385f1a415f64369235080a0"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "copy.initializeAttributes(toCopy)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1334,
+        "lineEnd": 1334,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "d084e27e596b1e81f385f1a415f64369235080a0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "targetParent.addEntry(targetElementName, copy)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1339,
+        "lineEnd": 1339,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "d084e27e596b1e81f385f1a415f64369235080a0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private volatile String originalName",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryEntry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "void setOriginalName(String newOriginalName) ",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryEntry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1021,
+        "lineEnd": 1021,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.originalName = newOriginalName",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryEntry.java",
+        "fieldParents": [
+            6
+        ],
+        "isDel": false,
+        "lineBeg": 1022,
+        "lineEnd": 1022,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void moveNonEmptyFolder() throws IOException ",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2682,
+        "lineEnd": 2682,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "FileSystem fileSystem = this.rule.getFileSystem()",
+        "dfgs": [
+            11,
+            16
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2683,
+        "lineEnd": 2683,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "Path src = fileSystem.getPath(\"/src\")",
+        "dfgs": [
+            13,
+            12
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2684,
+        "lineEnd": 2684,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "Path target = fileSystem.getPath(\"/target\")",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2685,
+        "lineEnd": 2685,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Files.createDirectory(src)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2687,
+        "lineEnd": 2687,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "Files.createFile(src.resolve(\"file\"))",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2688,
+        "lineEnd": 2688,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "Files.move(src, target)",
+        "dfgs": [
+            16,
+            17
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2690,
+        "lineEnd": 2690,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "assertThat(src.resolve(\"file\"), not(exists()))",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2691,
+        "lineEnd": 2691,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(target.resolve(\"file\"), exists())",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2692,
+        "lineEnd": 2692,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void moveSymlink() throws IOException ",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2696,
+        "lineEnd": 2696,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "FileSystem fileSystem = this.rule.getFileSystem()",
+        "dfgs": [
+            20,
+            26
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2697,
+        "lineEnd": 2697,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "Path target = fileSystem.getPath(\"/target\")",
+        "dfgs": [
+            21,
+            22
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2699,
+        "lineEnd": 2699,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "Files.createDirectory(target)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2700,
+        "lineEnd": 2700,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "Path from = fileSystem.getPath(\"/from\")",
+        "dfgs": [
+            23,
+            24
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2701,
+        "lineEnd": 2701,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "Files.createSymbolicLink(from, target)",
+        "dfgs": [
+            25,
+            27
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2702,
+        "lineEnd": 2702,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "Path to = fileSystem.getPath(\"/to\")",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2703,
+        "lineEnd": 2703,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "Files.move(from, to)",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2705,
+        "lineEnd": 2705,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "assertThat(to, isSymbolicLink())",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2706,
+        "lineEnd": 2706,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(target, to.toRealPath())",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_marschall_memoryfilesystem_MemoryFileSystemTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2707,
+        "lineEnd": 2707,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "targetParent.addEntry(targetElementName, sourceEntry)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1333,
+        "lineEnd": 1333,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "String newOriginalName = targetContext.path.getMemoryFileSystem().storeTransformer.transform(targetContext.elementName)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1334,
+        "lineEnd": 1334,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "sourceEntry.setOriginalName(newOriginalName)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1335,
+        "lineEnd": 1335,
+        "lineMapIndex": -1,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1336,
+        "lineEnd": 1336,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "MemoryEntry toCopy = getCopySource(copyContext, sourceEntry)",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1337,
+        "lineEnd": 1337,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "MemoryEntry copy = targetContext.path.getMemoryFileSystem().copyEntry(targetContext.path, toCopy, targetElementName)",
+        "dfgs": [
+            36,
+            35
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1338,
+        "lineEnd": 1338,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35,
+            36
+        ],
+        "code": "if (copyContext.copyAttribues)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1339,
+        "lineEnd": 1339,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "copy.initializeAttributes(toCopy)",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1340,
+        "lineEnd": 1340,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "targetParent.addEntry(targetElementName, copy)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_marschall_memoryfilesystem_MemoryFileSystem.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1342,
+        "lineEnd": 1342,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    }
+]

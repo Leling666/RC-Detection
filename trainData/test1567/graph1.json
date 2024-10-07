@@ -1,0 +1,53 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"success\", environment.getProperty(\"sso.connector.cloud.available\"))",
+        "dfgs": [],
+        "fName": "src_test_java_io_pivotal_spring_cloud_SsoServiceCredentialsListenerTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "c594317337457a7f19166244f6acc66b476be856"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "map.put(\"sso.connector.cloud.available\", \"success\")",
+        "dfgs": [],
+        "fName": "src_main_java_io_pivotal_spring_cloud_SsoServiceCredentialsListener.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "c594317337457a7f19166244f6acc66b476be856"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "applicationContext.getBean( TokenStore.class )",
+        "dfgs": [],
+        "fName": "src_test_java_io_pivotal_spring_cloud_IssuerCheckConfigurationLocalTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "b18e916048900afd4246b86cc0854197291da4f6"
+        ]
+    }
+]

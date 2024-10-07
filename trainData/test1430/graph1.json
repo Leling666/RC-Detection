@@ -1,0 +1,749 @@
+[
+    {
+        "cfgs": [],
+        "code": "Preconditions.checkState(ownerFunction == null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_PrototypeObjectType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 590,
+        "lineEnd": 590,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "5fa514bee8f76534232e4653eaf16cd416e08012"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (\"prototype\".equals(propName))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1386,
+        "lineEnd": 1386,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "Var qVar = scope.getVar(qName)",
+        "dfgs": [
+            3,
+            6
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1387,
+        "lineEnd": 1387,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (qVar != null)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1388,
+        "lineEnd": 1388,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (!qVar.isTypeInferred())",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1389,
+        "lineEnd": 1389,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1391,
+        "lineEnd": 1391,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "if (qVar.getScope() == scope)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1393,
+        "lineEnd": 1393,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "5ce68c90f9951f10b5ee83062ce238d39df60e2f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "scope.undeclare(qVar)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1394,
+        "lineEnd": 1394,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "5ce68c90f9951f10b5ee83062ce238d39df60e2f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (baseType.hasReferenceName() ||baseType.isUnknownType() ||isNativeObjectType() ||baseType.isFunctionPrototypeType() ||!(baseType instanceof PrototypeObjectType))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_FunctionType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 340,
+        "lineEnd": 344,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "5fa514bee8f76534232e4653eaf16cd416e08012"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "boolean replacedPrototype = prototype != null",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_FunctionType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 366,
+        "lineEnd": 366,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "840ddca5b28cea7563a5be20d2624478af67bc02"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"number\", x.getPropertyType(\"bar\").toString())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypedScopeCreatorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "70f817ae4f80ac11dd2dfe97babf5896c690fb48"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Preconditions.checkState(ownerFunction == null || type == null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_PrototypeObjectType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 590,
+        "lineEnd": 590,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "public void testIssue537a() throws Exception ",
+        "dfgs": [
+            13
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5263,
+        "lineEnd": 5263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @constructor */ function Foo() {}\" +\"Foo.prototype = {method: function() {}};\" +\"/**\\n\" +\" * @constructor\\n\" +\" * @extends {Foo}\\n\" +\" */\\n\" +\"function Bar() {\" +\"  Foo.call(this);\" +\"  if (this.baz()) this.method(1);\" +\"}\" +\"Bar.prototype = {\" +\"  baz: function() {\" +\"    return true;\" +\"  }\" +\"};\" +\"Bar.prototype.__proto__ = Foo.prototype;\",\"Function Foo.prototype.method: called with 1 argument(s). \" +\"Function requires at least 0 argument(s) \" +\"and no more than 0 argument(s).\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5264,
+        "lineEnd": 5283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "public void testIssue537b() throws Exception ",
+        "dfgs": [
+            15
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5286,
+        "lineEnd": 5286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @constructor */ function Foo() {}\" +\"Foo.prototype = {method: function() {}};\" +\"/**\\n\" +\" * @constructor\\n\" +\" * @extends {Foo}\\n\" +\" */\\n\" +\"function Bar() {\" +\"  Foo.call(this);\" +\"  if (this.baz(1)) this.method();\" +\"}\" +\"Bar.prototype = {\" +\"  baz: function() {\" +\"    return true;\" +\"  }\" +\"};\" +\"Bar.prototype.__proto__ = Foo.prototype;\",\"Function Bar.prototype.baz: called with 1 argument(s). \" +\"Function requires at least 0 argument(s) \" +\"and no more than 0 argument(s).\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5287,
+        "lineEnd": 5306,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "public void testIssue537c() throws Exception ",
+        "dfgs": [
+            17
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5309,
+        "lineEnd": 5309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @constructor */ function Foo() {}\" +\"/**\\n\" +\" * @constructor\\n\" +\" * @extends {Foo}\\n\" +\" */\\n\" +\"function Bar() {\" +\"  Foo.call(this);\" +\"  if (this.baz2()) alert(1);\" +\"}\" +\"Bar.prototype = {\" +\"  baz: function() {\" +\"    return true;\" +\"  }\" +\"};\" +\"Bar.prototype.__proto__ = Foo.prototype;\",\"Property baz2 never defined on Bar\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5310,
+        "lineEnd": 5326,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "if (\"prototype\".equals(propName))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1405,
+        "lineEnd": 1405,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "Var qVar = scope.getVar(qName)",
+        "dfgs": [
+            20,
+            26
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1406,
+        "lineEnd": 1406,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "if (qVar != null)",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1407,
+        "lineEnd": 1407,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "ObjectType qVarType = ObjectType.cast(qVar.getType())",
+        "dfgs": [
+            26,
+            22,
+            24
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1413,
+        "lineEnd": 1413,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "if (qVarType != null &&rhsValue != null &&rhsValue.getType() == Token.OBJECTLIT)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1414,
+        "lineEnd": 1416,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            24
+        ],
+        "code": "typeRegistry.resetImplicitPrototype(rhsValue.getJSType(), qVarType.getImplicitPrototype())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1417,
+        "lineEnd": 1418,
+        "lineMapIndex": -1,
+        "methodParents": [
+            28
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25,
+            26
+        ],
+        "code": "if (!qVar.isTypeInferred())",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1419,
+        "lineEnd": 1419,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1425,
+        "lineEnd": 1425,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "if (qVar.getScope() == scope)",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1427,
+        "lineEnd": 1427,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "scope.undeclare(qVar)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1428,
+        "lineEnd": 1428,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "public boolean resetImplicitPrototype(JSType type, ObjectType newImplicitProto)",
+        "dfgs": [
+            34,
+            29,
+            30,
+            33,
+            31,
+            32
+        ],
+        "fName": "src_com_google_javascript_rhino_jstype_JSTypeRegistry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1310,
+        "lineEnd": 1311,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30,
+            34
+        ],
+        "code": "if (type instanceof PrototypeObjectType)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_rhino_jstype_JSTypeRegistry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1312,
+        "lineEnd": 1312,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "PrototypeObjectType poType = (PrototypeObjectType) type",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_com_google_javascript_rhino_jstype_JSTypeRegistry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1313,
+        "lineEnd": 1313,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32,
+            34
+        ],
+        "code": "if (!poType.hasCachedValues())",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_com_google_javascript_rhino_jstype_JSTypeRegistry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1314,
+        "lineEnd": 1314,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "poType.setImplicitPrototype(newImplicitProto)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_JSTypeRegistry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1315,
+        "lineEnd": 1315,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_JSTypeRegistry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1316,
+        "lineEnd": 1316,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_JSTypeRegistry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1319,
+        "lineEnd": 1319,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "PrototypeObjectType oldPrototype = this.prototype",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_com_google_javascript_rhino_jstype_FunctionType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "boolean replacedPrototype = oldPrototype != null",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_com_google_javascript_rhino_jstype_FunctionType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 366,
+        "lineEnd": 366,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "if (oldPrototype != null)",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_com_google_javascript_rhino_jstype_FunctionType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 372,
+        "lineEnd": 372,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "oldPrototype.setOwnerFunction(null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_FunctionType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": -1,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "assertEquals(\"Foo.prototype\", x.getImplicitPrototype().toString())",
+        "dfgs": [
+            40
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypedScopeCreatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"?\", x.getPropertyType(\"bar\").toString())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypedScopeCreatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    }
+]

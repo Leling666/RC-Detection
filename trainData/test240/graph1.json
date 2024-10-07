@@ -1,0 +1,871 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "protected void addShareLib(Configuration conf, String actionShareLibName)throws ActionExecutorException",
+        "dfgs": [
+            1
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 392,
+        "lineEnd": 393,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "672fa658961e24f3644929ba8a2b66e0c57e513c",
+            "4637ca417ae31f6b4f0530b8dca2d5fbadc2e03f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "FileSystem fs =Services.get().get(HadoopAccessorService.class).createFileSystem(user, actionLibPath.toUri(), conf)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 400,
+        "lineEnd": 401,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "672fa658961e24f3644929ba8a2b66e0c57e513c",
+            "4637ca417ae31f6b4f0530b8dca2d5fbadc2e03f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addAllShareLibs(conf, context, actionXml)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 485,
+        "lineEnd": 485,
+        "lineMapIndex": 39,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "4637ca417ae31f6b4f0530b8dca2d5fbadc2e03f"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "private void addAllShareLibs(Configuration conf, Context context, Element actionXml)throws ActionExecutorException",
+        "dfgs": [
+            4,
+            5
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 489,
+        "lineEnd": 490,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "672fa658961e24f3644929ba8a2b66e0c57e513c",
+            "4637ca417ae31f6b4f0530b8dca2d5fbadc2e03f"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "addActionShareLib(conf, context, actionXml)",
+        "dfgs": [
+            5
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 492,
+        "lineEnd": 492,
+        "lineMapIndex": 41,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "4637ca417ae31f6b4f0530b8dca2d5fbadc2e03f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addShareLib(conf, JavaActionExecutor.OOZIE_COMMON_LIBDIR)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 494,
+        "lineEnd": 494,
+        "lineMapIndex": 42,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "4637ca417ae31f6b4f0530b8dca2d5fbadc2e03f"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "private void addActionShareLib(Configuration conf, Context context, Element actionXml) throws ActionExecutorException ",
+        "dfgs": [
+            7
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 497,
+        "lineEnd": 497,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "4637ca417ae31f6b4f0530b8dca2d5fbadc2e03f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addShareLib(conf, getShareLibName(context, actionXml, conf))",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 509,
+        "lineEnd": 509,
+        "lineMapIndex": 44,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "4637ca417ae31f6b4f0530b8dca2d5fbadc2e03f"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "public void testAddShareLibSchemeAndAuthority() throws Exception ",
+        "dfgs": [
+            9,
+            11,
+            20,
+            30,
+            15,
+            16,
+            19,
+            28,
+            29,
+            32,
+            12,
+            13,
+            14,
+            17,
+            18,
+            21,
+            24,
+            27,
+            31,
+            23,
+            25,
+            26
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1022,
+        "lineEnd": 1022,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "JavaActionExecutor ae = new JavaActionExecutor() {@Overrideprotected String getDefaultShareLibName(Element actionXml) {return \"java-action-executor\";}}",
+        "dfgs": [
+            18
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1023,
+        "lineEnd": 1028,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return \"java-action-executor\"",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1026,
+        "lineEnd": 1026,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "String actionXml = \"<java>\" + \"<job-tracker>\" + getJobTrackerUri() + \"</job-tracker>\" + \"<name-node>\"+ getNameNodeUri() + \"</name-node>\" + \"<main-class>\" + LauncherMainTester.class.getName()+ \"</main-class>\" + \"</java>\"",
+        "dfgs": [
+            12,
+            13
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1029,
+        "lineEnd": 1031,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "Element eActionXml = XmlUtils.parseXml(actionXml)",
+        "dfgs": [
+            13,
+            18
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1032,
+        "lineEnd": 1032,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Context context = createContext(actionXml, null)",
+        "dfgs": [
+            18,
+            15
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1033,
+        "lineEnd": 1033,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "Services.get().destroy()",
+        "dfgs": [
+            27
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1036,
+        "lineEnd": 1036,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "setSystemProperty(WorkflowAppService.SYSTEM_LIB_PATH, \"/user/\" + getOozieUser() + \"/share/\")",
+        "dfgs": [
+            28,
+            17
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1037,
+        "lineEnd": 1037,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "new Services().init()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1038,
+        "lineEnd": 1038,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Path appPath = getAppPath()",
+        "dfgs": [
+            19,
+            25,
+            28
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1039,
+        "lineEnd": 1039,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "JobConf conf = ae.createBaseHadoopConf(context, eActionXml)",
+        "dfgs": [
+            19,
+            21
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1040,
+        "lineEnd": 1040,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "ae.addShareLib(appPath, conf, \"java-action-executor\")",
+        "dfgs": [
+            21
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1043,
+        "lineEnd": 1043,
+        "lineMapIndex": -1,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "appPath = new Path(\"foo://bar:1234/blah\")",
+        "dfgs": [
+            23
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1045,
+        "lineEnd": 1045,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "conf = ae.createBaseHadoopConf(context, eActionXml)",
+        "dfgs": [
+            31,
+            23
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1046,
+        "lineEnd": 1046,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1049,
+        "lineEnd": 1049,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27,
+            24
+        ],
+        "code": "ae.addShareLib(appPath, conf, \"java-action-executor\")",
+        "dfgs": [
+            31
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1050,
+        "lineEnd": 1050,
+        "lineMapIndex": -1,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "catch (ActionExecutorException aee)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1052,
+        "lineEnd": 1052,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "assertEquals(\"E0902\", aee.getErrorCode())",
+        "dfgs": [
+            26
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1053,
+        "lineEnd": 1053,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "assertTrue(aee.getMessage().contains(\"[No FileSystem for scheme: foo]\"))",
+        "dfgs": [
+            28
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1054,
+        "lineEnd": 1054,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "Services.get().destroy()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1058,
+        "lineEnd": 1058,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "setSystemProperty(WorkflowAppService.SYSTEM_LIB_PATH, getNameNodeUri() + \"/user/\" + getOozieUser() + \"/share/\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1059,
+        "lineEnd": 1059,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "new Services().init()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1060,
+        "lineEnd": 1060,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "appPath = new Path(\"foo://bar:1234/blah\")",
+        "dfgs": [
+            32
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1061,
+        "lineEnd": 1061,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "conf = ae.createBaseHadoopConf(context, eActionXml)",
+        "dfgs": [
+            32
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1062,
+        "lineEnd": 1062,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ae.addShareLib(appPath, conf, \"java-action-executor\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestJavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1065,
+        "lineEnd": 1065,
+        "lineMapIndex": -1,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "protected void addShareLib(Path appPath, Configuration conf, String actionShareLibName)throws ActionExecutorException",
+        "dfgs": [
+            35,
+            36,
+            38
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 392,
+        "lineEnd": 393,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "FileSystem fs",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 400,
+        "lineEnd": 400,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36,
+            37
+        ],
+        "code": "if (actionLibPath.toUri().getScheme() != null && actionLibPath.toUri().getAuthority() != null)",
+        "dfgs": [
+            36
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 404,
+        "lineEnd": 404,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fs = Services.get().get(HadoopAccessorService.class).createFileSystem(user, actionLibPath.toUri(), conf)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fs = Services.get().get(HadoopAccessorService.class).createFileSystem(user, appPath.toUri(), conf)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 408,
+        "lineEnd": 408,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addAllShareLibs(appPath, conf, context, actionXml)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 493,
+        "lineEnd": 493,
+        "lineMapIndex": 2,
+        "methodParents": [
+            40
+        ],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "private void addAllShareLibs(Path appPath, Configuration conf, Context context, Element actionXml)throws ActionExecutorException",
+        "dfgs": [
+            41,
+            42
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 497,
+        "lineEnd": 498,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "addActionShareLib(appPath, conf, context, actionXml)",
+        "dfgs": [
+            42
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 500,
+        "lineEnd": 500,
+        "lineMapIndex": 4,
+        "methodParents": [
+            43
+        ],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addShareLib(appPath, conf, JavaActionExecutor.OOZIE_COMMON_LIBDIR)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 502,
+        "lineEnd": 502,
+        "lineMapIndex": 5,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "private void addActionShareLib(Path appPath, Configuration conf, Context context, Element actionXml)throws ActionExecutorException",
+        "dfgs": [
+            44
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 505,
+        "lineEnd": 506,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addShareLib(appPath, conf, getShareLibName(context, actionXml, conf))",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_JavaActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 518,
+        "lineEnd": 518,
+        "lineMapIndex": 7,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    }
+]

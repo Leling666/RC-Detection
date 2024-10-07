@@ -1,0 +1,232 @@
+[
+    {
+        "cfgs": [],
+        "code": "return Messages.AbstractBuild_KeptBecause(b)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_AbstractBuild.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1111,
+        "lineEnd": 1111,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 0
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "// only for exportingpublic List<AbstractProject> getDownstreamProjectsForApi()",
+        "dfgs": [
+            2,
+            6,
+            3,
+            4,
+            5
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1653,
+        "lineEnd": 1654,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "List<AbstractProject> r = new ArrayList<>()",
+        "dfgs": [
+            6,
+            5
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1655,
+        "lineEnd": 1655,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2
+    },
+    {
+        "cfgs": [
+            6,
+            4
+        ],
+        "code": "for (AbstractProject p : getDownstreamProjects())",
+        "dfgs": [
+            4
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1656,
+        "lineEnd": 1656,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (p.hasPermission(Item.READ))",
+        "dfgs": [
+            5
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1657,
+        "lineEnd": 1657,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4
+    },
+    {
+        "cfgs": [],
+        "code": "r.add(p)",
+        "dfgs": [
+            6
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1658,
+        "lineEnd": 1658,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5
+    },
+    {
+        "cfgs": [],
+        "code": "return r",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1661,
+        "lineEnd": 1661,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "// only for exportingpublic List<AbstractProject> getUpstreamProjectsForApi()",
+        "dfgs": [
+            8,
+            12,
+            9,
+            10,
+            11
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1669,
+        "lineEnd": 1670,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "List<AbstractProject> r = new ArrayList<>()",
+        "dfgs": [
+            12,
+            11
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1671,
+        "lineEnd": 1671,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8
+    },
+    {
+        "cfgs": [
+            12,
+            10
+        ],
+        "code": "for (AbstractProject p : getUpstreamProjects())",
+        "dfgs": [
+            10
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1672,
+        "lineEnd": 1672,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "if (p.hasPermission(Item.READ))",
+        "dfgs": [
+            11
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1673,
+        "lineEnd": 1673,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10
+    },
+    {
+        "cfgs": [],
+        "code": "r.add(p)",
+        "dfgs": [
+            12
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1674,
+        "lineEnd": 1674,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11
+    },
+    {
+        "cfgs": [],
+        "code": "return r",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1677,
+        "lineEnd": 1677,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12
+    },
+    {
+        "cfgs": [],
+        "code": "return Messages.AbstractBuild_KeptBecause(p.hasPermission(Item.READ) ? b.toString() : \"?\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_AbstractBuild.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1111,
+        "lineEnd": 1111,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 13
+    }
+]

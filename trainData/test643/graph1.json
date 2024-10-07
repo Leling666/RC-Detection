@@ -1,0 +1,2056 @@
+[
+    {
+        "cfgs": [
+            1,
+            2
+        ],
+        "code": "private void setDefaultFolderPath(AddFolderToZipTaskParameters taskParameters) ",
+        "dfgs": [
+            1,
+            2
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_tasks_AddFolderToZipTask.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "8650f96455567411216ca531c79484863aa6bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "rootFolderPath = folderToAdd.getParentFile().getPath()",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_tasks_AddFolderToZipTask.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "8650f96455567411216ca531c79484863aa6bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "rootFolderPath = folderToAdd.getAbsolutePath()",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_tasks_AddFolderToZipTask.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 49,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "8650f96455567411216ca531c79484863aa6bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": 58,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": 60,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": 61,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": 62,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(fileHeader, outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": 63,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(fileHeader, outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 64,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(fileHeader, outputFolder.getCanonicalPath(), newFileName)",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(\"test-files/sample_directory/favicon.ico\", outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(\"test-files/sample_directory/favicon.ico\", outputFolder.getCanonicalPath(), newFileName)",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 200,
+        "lineEnd": 200,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 214,
+        "lineEnd": 214,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_testutils_ZipFileVerifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 81,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testGetRelativeFileNameWhenRootFoldersAreNull() ",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_util_FileUtilsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "7d0f0fb3be65925ec0f2b19b4f0de666797c97d1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getCanonicalPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_AddFilesToZipIT.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "d3f304f756156e050771b1f1c859ec9e9c7cd027"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!new File(completePath).getCanonicalPath().startsWith(new File(outPath).getPath()))",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_tasks_AbstractExtractFileTask.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 84,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "c158768c2880615bae983789690b5713e8de6794"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "public static String getRelativeFileName(String file, String rootFolderPath) ",
+        "dfgs": [
+            25,
+            26,
+            33,
+            41,
+            43,
+            27,
+            29,
+            30,
+            31,
+            34,
+            36,
+            28,
+            40,
+            44,
+            45,
+            32,
+            35,
+            38,
+            39,
+            46
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": 85,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "8650f96455567411216ca531c79484863aa6bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            26,
+            42
+        ],
+        "code": "if (isStringNotNullAndNotEmpty(rootFolderPath))",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": 88,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "File rootFolderFile = new File(rootFolderPath)",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": 89,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "String rootFolderFileRef = rootFolderFile.getPath()",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": 90,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            29,
+            30
+        ],
+        "code": "if (!rootFolderFileRef.endsWith(FILE_SEPARATOR))",
+        "dfgs": [
+            29,
+            30
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": 91,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "rootFolderFileRef += FILE_SEPARATOR",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 192,
+        "lineEnd": 192,
+        "lineMapIndex": 92,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "String tmpFileName = file.substring(rootFolderFileRef.length())",
+        "dfgs": [
+            33,
+            31
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": 93,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            32,
+            33
+        ],
+        "code": "if (tmpFileName.startsWith(System.getProperty(\"file.separator\")))",
+        "dfgs": [
+            32,
+            35,
+            38
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 196,
+        "lineEnd": 196,
+        "lineMapIndex": 94,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "tmpFileName = tmpFileName.substring(1)",
+        "dfgs": [
+            35,
+            38
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": 95,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "File tmpFile = new File(file)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 200,
+        "lineEnd": 200,
+        "lineMapIndex": 96,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            35,
+            37
+        ],
+        "code": "if (tmpFile.isDirectory())",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": 97,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "tmpFileName = tmpFileName.replaceAll(\"\\\\\\\\\", \"/\")",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": 98,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "tmpFileName += ZIP_FILE_SEPARATOR",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 204,
+        "lineEnd": 204,
+        "lineMapIndex": 99,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 205,
+        "lineEnd": 205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "String bkFileName = tmpFileName.substring(0, tmpFileName.lastIndexOf(tmpFile.getName()))",
+        "dfgs": [
+            39,
+            40
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": 101,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "bkFileName = bkFileName.replaceAll(\"\\\\\\\\\", \"/\")",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": 102,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "tmpFileName = bkFileName + tmpFile.getName()",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 208,
+        "lineEnd": 208,
+        "lineMapIndex": 103,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fileName = tmpFileName",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": 104,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 212,
+        "lineEnd": 212,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "File relFile = new File(file)",
+        "dfgs": [
+            44
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": 87,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            45,
+            46
+        ],
+        "code": "if (relFile.isDirectory())",
+        "dfgs": [
+            45,
+            46
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 214,
+        "lineEnd": 214,
+        "lineMapIndex": 106,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fileName = relFile.getName() + ZIP_FILE_SEPARATOR",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 215,
+        "lineEnd": 215,
+        "lineMapIndex": 107,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fileName = relFile.getName()",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": 109,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": [
+            "ef13c80ad9450c4acc3c34f68ebf0bf40a59967c"
+        ]
+    },
+    {
+        "cfgs": [
+            48,
+            49
+        ],
+        "code": "private void setDefaultFolderPath(AddFolderToZipTaskParameters taskParameters) throws IOException ",
+        "dfgs": [
+            48,
+            49
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_tasks_AddFolderToZipTask.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "rootFolderPath = folderToAdd.getParentFile().getCanonicalPath()",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_tasks_AddFolderToZipTask.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "rootFolderPath = folderToAdd.getCanonicalPath()",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_tasks_AddFolderToZipTask.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testUnzipFileZipSlipWithNotNormalizedTarget() throws IOException ",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_MiscZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 414,
+        "lineEnd": 414,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "ZipFile zipFile = new ZipFile(generatedZipFile, PASSWORD)",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_test_java_net_lingala_zip4j_MiscZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 415,
+        "lineEnd": 415,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "zipFile.addFiles(FILES_TO_ADD)",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_test_java_net_lingala_zip4j_MiscZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 416,
+        "lineEnd": 416,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(new File(outputFolder.getPath(),\"..\" + InternalZipConstants.FILE_SEPARATOR + outputFolder.getName()).getAbsolutePath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_MiscZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 417,
+        "lineEnd": 418,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import net.lingala.zip4j.util.InternalZipConstants",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(fileHeader, outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(fileHeader, outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(fileHeader, outputFolder.getPath(), newFileName)",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(\"test-files/sample_directory/favicon.ico\", outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractFile(\"test-files/sample_directory/favicon.ico\", outputFolder.getPath(), newFileName)",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 201,
+        "lineEnd": 201,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 215,
+        "lineEnd": 215,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testAddFolderWithNotNormalizedPath() throws IOException ",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "ZipFile zipFile = new ZipFile(generatedZipFile)",
+        "dfgs": [
+            77,
+            80
+        ],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "ZipParameters parameters = new ZipParameters()",
+        "dfgs": [
+            77
+        ],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "String folderToAddPath = TestUtils.getTestFileFromResources(\"\").getPath() + InternalZipConstants.FILE_SEPARATOR + \"..\" + InternalZipConstants.FILE_SEPARATOR + TestUtils.getTestFileFromResources(\"\").getName()",
+        "dfgs": [
+            76,
+            78
+        ],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "File folderToAdd = new File(folderToAddPath)",
+        "dfgs": [
+            77
+        ],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 290,
+        "lineEnd": 290,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "zipFile.addFolder(folderToAdd, parameters)",
+        "dfgs": [
+            79
+        ],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "File fileToAdd = TestUtils.getTestFileFromResources(\"file_PDF_1MB.pdf\")",
+        "dfgs": [
+            79
+        ],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "zipFile.addFile(fileToAdd, parameters)",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ZipFileVerifier.verifyZipFileByExtractingAllFiles(generatedZipFile, outputFolder, 13)",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_ExtractZipFileIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_testutils_ZipFileVerifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testGetRelativeFileNameWhenRootFoldersAreNull() throws ZipException ",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_util_FileUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "zipFile.extractAll(outputFolder.getPath())",
+        "dfgs": [],
+        "fName": "src_test_java_net_lingala_zip4j_AddFilesToZipIT.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (!new File(completePath).getCanonicalPath().startsWith(new File(outPath).getCanonicalPath()))",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_tasks_AbstractExtractFileTask.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "public static String getRelativeFileName(String file, String rootFolderPath) throws ZipException ",
+        "dfgs": [
+            110,
+            87,
+            88,
+            89,
+            96,
+            104,
+            111,
+            105,
+            90,
+            92,
+            93,
+            94,
+            97,
+            99,
+            91,
+            103,
+            106,
+            107,
+            95,
+            98,
+            101,
+            102,
+            109
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            88
+        ],
+        "code": "String fileCanonicalPath = new File(file).getCanonicalPath()",
+        "dfgs": [
+            93,
+            105
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89,
+            105
+        ],
+        "code": "if (isStringNotNullAndNotEmpty(rootFolderPath))",
+        "dfgs": [
+            89
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90
+        ],
+        "code": "File rootFolderFile = new File(rootFolderPath)",
+        "dfgs": [
+            90
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91
+        ],
+        "code": "String rootFolderFileRef = rootFolderFile.getCanonicalPath()",
+        "dfgs": [
+            91
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92,
+            93
+        ],
+        "code": "if (!rootFolderFileRef.endsWith(FILE_SEPARATOR))",
+        "dfgs": [
+            92,
+            93
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 193,
+        "lineEnd": 193,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            93
+        ],
+        "code": "rootFolderFileRef += FILE_SEPARATOR",
+        "dfgs": [
+            93
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 194,
+        "lineEnd": 194,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "String tmpFileName = fileCanonicalPath.substring(rootFolderFileRef.length())",
+        "dfgs": [
+            96,
+            94
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95,
+            96
+        ],
+        "code": "if (tmpFileName.startsWith(System.getProperty(\"file.separator\")))",
+        "dfgs": [
+            95,
+            98,
+            101
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96
+        ],
+        "code": "tmpFileName = tmpFileName.substring(1)",
+        "dfgs": [
+            98,
+            101
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97
+        ],
+        "code": "File tmpFile = new File(fileCanonicalPath)",
+        "dfgs": [
+            97
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98,
+            100
+        ],
+        "code": "if (tmpFile.isDirectory())",
+        "dfgs": [
+            101
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 204,
+        "lineEnd": 204,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            99
+        ],
+        "code": "tmpFileName = tmpFileName.replaceAll(\"\\\\\\\\\", \"/\")",
+        "dfgs": [
+            99
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 205,
+        "lineEnd": 205,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "tmpFileName += ZIP_FILE_SEPARATOR",
+        "dfgs": [
+            104
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            101
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            102
+        ],
+        "code": "String bkFileName = tmpFileName.substring(0, tmpFileName.lastIndexOf(tmpFile.getName()))",
+        "dfgs": [
+            102,
+            103
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 208,
+        "lineEnd": 208,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "bkFileName = bkFileName.replaceAll(\"\\\\\\\\\", \"/\")",
+        "dfgs": [
+            103
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 209,
+        "lineEnd": 209,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "tmpFileName = bkFileName + tmpFile.getName()",
+        "dfgs": [
+            104
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 210,
+        "lineEnd": 210,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "fileName = tmpFileName",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            106
+        ],
+        "code": "File relFile = new File(fileCanonicalPath)",
+        "dfgs": [
+            106
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 215,
+        "lineEnd": 215,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            107,
+            108
+        ],
+        "code": "if (relFile.isDirectory())",
+        "dfgs": [
+            107,
+            109
+        ],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 216,
+        "lineEnd": 216,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "fileName = relFile.getName() + ZIP_FILE_SEPARATOR",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            109
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 218,
+        "lineEnd": 218,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "fileName = relFile.getName()",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 219,
+        "lineEnd": 219,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            111
+        ],
+        "code": "catch (IOException e)",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 222,
+        "lineEnd": 222,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new ZipException(e)",
+        "dfgs": [],
+        "fName": "src_main_java_net_lingala_zip4j_util_FileUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    }
+]

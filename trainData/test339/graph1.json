@@ -1,0 +1,922 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "foundGreater = true",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_TimeNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if(!foundGreater)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_TimeNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "index = values.indexOf(value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_TimeNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "95ec5c8f183014f5aa12ab99d59be03a73871b72"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return forCronField(cronField)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_generator_FieldValueGeneratorFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "81404379e2ee68466f4bc8b0b5d90bb4f74d0b99"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executionTimeBuilder.forMonthsMatching(fields.get(name))",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            8
+        ],
+        "code": "if(nearestValue.getShifts()>0)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "newDate =new DateTime(date.getYear(), 1, 1, 0, 0, 0).plusYears(nearestValue.getShifts())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 152,
+        "lineEnd": 153,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return nextClosestMatch(newDate)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 154,
+        "lineEnd": 154,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return initDateTime(date.getYear(), nextMonths, lowestDay, lowestHour, lowestMinute, lowestSecond)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            10,
+            15
+        ],
+        "code": "if(!days.getValues().contains(date.getDayOfMonth()))",
+        "dfgs": [
+            10,
+            15
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "nearestValue = days.getNextValue(date.getDayOfMonth(), 0)",
+        "dfgs": [
+            11,
+            14,
+            12
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            12,
+            14
+        ],
+        "code": "if(nearestValue.getShifts()>0)",
+        "dfgs": [
+            14,
+            12
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "newDate = new DateTime(date.getYear(), date.getMonthOfYear(), 1, 0, 0, 0).plusMonths(nearestValue.getShifts())",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return nextClosestMatch(newDate)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return initDateTime(date.getYear(), date.getMonthOfYear(), nearestValue.getValue(), lowestHour, lowestMinute, lowestSecond)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            16,
+            20,
+            21
+        ],
+        "code": "if(!hours.getValues().contains(date.getHourOfDay()))",
+        "dfgs": [
+            16,
+            20,
+            21,
+            24
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "nearestValue = hours.getNextValue(date.getHourOfDay(), 0)",
+        "dfgs": [
+            17,
+            19
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "int nextHours = nearestValue.getValue()",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "if(nearestValue.getShifts()>0)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "newDate =new DateTime(date.getYear(), date.getMonthOfYear(),date.getDayOfMonth(), 0, 0, 0).plusDays(nearestValue.getShifts())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 170,
+        "lineEnd": 172,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "int nextMinutes = nearestValue.getValue()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "if(!seconds.getValues().contains(date.getSecondOfMinute()))",
+        "dfgs": [
+            24,
+            22,
+            23
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            23,
+            24
+        ],
+        "code": "if(nearestValue.getShifts()>0)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "newDate =new DateTime(date.getYear(), date.getMonthOfYear(),date.getDayOfMonth(), date.getHourOfDay(),date.getMinuteOfHour(),0).plusMinutes(nearestValue.getShifts())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 192,
+        "lineEnd": 195,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return initDateTime(date.getYear(), date.getMonthOfYear(), date.getDayOfMonth(), date.getHourOfDay(), date.getMinuteOfHour(), nextSeconds)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "List<Integer> year = yearsValueGenerator.generateCandidates(date.getYear(), date.getYear())",
+        "dfgs": [
+            26,
+            28,
+            31,
+            32,
+            35,
+            33,
+            34,
+            36,
+            38,
+            27,
+            29,
+            37,
+            39,
+            40
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "63214957df0f83e0f18faab8f186d2aa7009f922"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "int highestMonth = months.getValues().get(months.getValues().size()-1)",
+        "dfgs": [
+            28,
+            29,
+            31,
+            32,
+            35,
+            33,
+            34,
+            36,
+            38
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "63214957df0f83e0f18faab8f186d2aa7009f922"
+        ]
+    },
+    {
+        "cfgs": [
+            28,
+            29,
+            31,
+            33,
+            36
+        ],
+        "code": "int highestSecond = seconds.getValues().get(seconds.getValues().size()-1)",
+        "dfgs": [
+            28,
+            35,
+            39,
+            34,
+            38
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "63214957df0f83e0f18faab8f186d2aa7009f922"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return initDateTime(yearsValueGenerator.generatePreviousValue(date.getYear()), highestMonth, highestDay, highestHour, highestMinute, highestSecond)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 222,
+        "lineEnd": 222,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "63214957df0f83e0f18faab8f186d2aa7009f922"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "nearestValue = months.getPreviousValue(date.getMonthOfYear(), 0)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 225,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "newDate =new DateTime(date.getYear(), 12, 31, 23, 59, 59).minusYears(nearestValue.getShifts())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 228,
+        "lineEnd": 229,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "if(nearestValue.getShifts()>0)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "newDate = new DateTime(date.getYear(), date.getMonthOfYear(), 1, 23, 59, 59).minusMonths(nearestValue.getShifts()).dayOfMonth().withMaximumValue()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 237,
+        "lineEnd": 238,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            34,
+            35
+        ],
+        "code": "if(nearestValue.getShifts()>0)",
+        "dfgs": [
+            35,
+            34
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return previousClosestMatch(newDate)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": -1,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 34,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return initDateTime(date.getYear(), date.getMonthOfYear(), date.getDayOfMonth(), nearestValue.getValue(), highestMinute, highestSecond)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            37,
+            39
+        ],
+        "code": "if(!minutes.getValues().contains(date.getMinuteOfHour()))",
+        "dfgs": [
+            37,
+            38,
+            39
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "63214957df0f83e0f18faab8f186d2aa7009f922"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "newDate =new DateTime(date.getYear(), date.getMonthOfYear(),date.getDayOfMonth(), date.getHourOfDay(), 59, 59).minusHours(nearestValue.getShifts())",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 256,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return previousClosestMatch(newDate)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 38,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "if(!seconds.getValues().contains(date.getSecondOfMinute()))",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "63214957df0f83e0f18faab8f186d2aa7009f922"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if(nearestValue.getShifts()>0)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": true,
+        "commits": [
+            "e3e2188827100a2236338b7c754057b118daadf1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new OnDayOfWeekValueGenerator(cronField, year, month, mondayDoWValue)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_generator_FieldValueGeneratorFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "newDate = new DateTime(date.getYear(), date.getMonthOfYear(), 1, 0, 0, 0, date.getZone()).plusMonths(nearestValue.getShifts())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "newDate =new DateTime(date.getYear(), date.getMonthOfYear(),date.getDayOfMonth(), 0, 0, 0, date.getZone()).plusDays(nearestValue.getShifts())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 182,
+        "lineEnd": 184,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "newDate =new DateTime(date.getYear(), date.getMonthOfYear(), date.getDayOfMonth(), date.getHourOfDay(),0, 0, date.getZone()).plusHours(nearestValue.getShifts())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 196,
+        "lineEnd": 198,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "newDate =new DateTime(date.getYear(), date.getMonthOfYear(),date.getDayOfMonth(), date.getHourOfDay(),date.getMinuteOfHour(),0, date.getZone()).plusMinutes(nearestValue.getShifts())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cronutils_model_time_ExecutionTime.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 210,
+        "lineEnd": 213,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "return Arrays.binarySearch(excludes, label) == -1",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_Labels.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "34342bec4f11298c9a52997ad066c19e47726e1e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return Arrays.binarySearch(excludes, label) < 0",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_Labels.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

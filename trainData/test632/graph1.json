@@ -1,0 +1,224 @@
+[
+    {
+        "cfgs": [],
+        "code": "return new XMLBuilder((Element) currNode, null)",
+        "dfgs": [],
+        "fName": "src_main_java_com_jamesmurty_utils_XMLBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 592,
+        "lineEnd": 592,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "d3d8bbee0005e8e36ec63b01b51159b8a8ec57b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(EXAMPLE_XML_DOC_START + \"<Location2 type=\\\"Testing\\\"/>\" + EXAMPLE_XML_DOC_END,xmlAsString)",
+        "dfgs": [],
+        "fName": "src_test_java_com_jamesmurty_utils_TestXmlBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 139,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "d3d8bbee0005e8e36ec63b01b51159b8a8ec57b4"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            4
+        ],
+        "code": "if (currNode instanceof Document)",
+        "dfgs": [
+            3,
+            5
+        ],
+        "fName": "src_main_java_com_jamesmurty_utils_XMLBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 592,
+        "lineEnd": 592,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new XMLBuilder((Document) currNode)",
+        "dfgs": [],
+        "fName": "src_main_java_com_jamesmurty_utils_XMLBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 593,
+        "lineEnd": 593,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_jamesmurty_utils_XMLBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 594,
+        "lineEnd": 594,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new XMLBuilder((Element) currNode, null)",
+        "dfgs": [],
+        "fName": "src_main_java_com_jamesmurty_utils_XMLBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 595,
+        "lineEnd": 595,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public void testTraversalDuringBuild() throws ParserConfigurationException, SAXException, IOException, XPathExpressionException, TransformerException",
+        "dfgs": [
+            8,
+            9,
+            10,
+            11,
+            7
+        ],
+        "fName": "src_test_java_com_jamesmurty_utils_TestXmlBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 146,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "XMLBuilder builder = XMLBuilder.create(\"ElemDepth1\").e(\"ElemDepth2\").e(\"ElemDepth3\").e(\"ElemDepth4\")",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_com_jamesmurty_utils_TestXmlBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 150,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "assertEquals(\"ElemDepth3\", builder.up().getElement().getNodeName())",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_com_jamesmurty_utils_TestXmlBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "assertEquals(\"ElemDepth1\", builder.up(3).getElement().getNodeName())",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_com_jamesmurty_utils_TestXmlBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": -1,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "assertEquals(\"ElemDepth1\", builder.up(4).getElement().getNodeName())",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_com_jamesmurty_utils_TestXmlBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 154,
+        "lineEnd": 154,
+        "lineMapIndex": -1,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"ElemDepth1\", builder.up(100).getElement().getNodeName())",
+        "dfgs": [],
+        "fName": "src_test_java_com_jamesmurty_utils_TestXmlBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": -1,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

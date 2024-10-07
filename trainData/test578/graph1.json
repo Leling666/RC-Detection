@@ -1,0 +1,470 @@
+[
+    {
+        "cfgs": [
+            1,
+            2
+        ],
+        "code": "if (dualKey._key1 instanceof Map)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "3bc9460ab8cc7db1facc90be0c1d2b695758014c"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (!(dualKey._key2 instanceof Map))",
+        "dfgs": [
+            3,
+            2
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "3bc9460ab8cc7db1facc90be0c1d2b695758014c"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (dualKey._key1 instanceof SortedMap)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "3bc9460ab8cc7db1facc90be0c1d2b695758014c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!(dualKey._key2 instanceof SortedMap))",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "3bc9460ab8cc7db1facc90be0c1d2b695758014c"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            8,
+            6
+        ],
+        "code": "if (dualKey._key2 instanceof Collection)",
+        "dfgs": [
+            6,
+            10,
+            9
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (dualKey._key2 instanceof SortedSet)",
+        "dfgs": [
+            10,
+            9
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 154,
+        "lineEnd": 154,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9,
+            10
+        ],
+        "code": "if (dualKey._key1 instanceof SortedMap)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "if (!(dualKey._key2 instanceof SortedMap))",
+        "dfgs": [
+            14,
+            13
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            12
+        ],
+        "code": "if (dualKey._key2 instanceof SortedMap)",
+        "dfgs": [
+            14,
+            13
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13,
+            14
+        ],
+        "code": "if (dualKey._key1 instanceof Map)",
+        "dfgs": [
+            14,
+            13
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (!(dualKey._key2 instanceof Map))",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "if (dualKey._key2 instanceof Map)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_DeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "assertFalse(DeepEquals.deepEquals(map1, map2))",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": -1,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "map1 = new TreeMap()",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "fillMap(map1)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 200,
+        "lineEnd": 200,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "map2 = new ConcurrentSkipListMap()",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 201,
+        "lineEnd": 201,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fillMap(map2)",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testSymmetry()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 280,
+        "lineEnd": 281,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "boolean one = DeepEquals.deepEquals(new ArrayList<String>(), new EmptyClass())",
+        "dfgs": [
+            23,
+            24
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": -1,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "boolean two = DeepEquals.deepEquals(new EmptyClass(), new ArrayList<String>())",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assert one == two",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestDeepEquals.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    }
+]

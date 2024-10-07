@@ -1,0 +1,378 @@
+[
+    {
+        "cfgs": [],
+        "code": "long instant = iGregorianChronology.getDateTimeMillis(year, monthOfYear, dayOfMonth,hourOfDay, minuteOfHour, secondOfMinute, millisOfSecond)",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 363,
+        "lineEnd": 365,
+        "lineMapIndex": 3,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "194de43297ee92161aef886025d5aeba42db637e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "long instant",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 363,
+        "lineEnd": 363,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "instant = iGregorianChronology.getDateTimeMillis(year, monthOfYear, dayOfMonth,hourOfDay, minuteOfHour, secondOfMinute, millisOfSecond)",
+        "dfgs": [
+            7,
+            5
+        ],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 365,
+        "lineEnd": 367,
+        "lineMapIndex": 0,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "catch (IllegalFieldValueException ex)",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (monthOfYear != 2 || dayOfMonth != 29)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 369,
+        "lineEnd": 369,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "throw ex",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 370,
+        "lineEnd": 370,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "instant = iGregorianChronology.getDateTimeMillis(year, monthOfYear, 28,hourOfDay, minuteOfHour, secondOfMinute, millisOfSecond)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 372,
+        "lineEnd": 374,
+        "lineMapIndex": -1,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (instant >= iCutoverMillis)",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw ex",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_chrono_GJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.joda.time.IllegalFieldValueException",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "public void testLeapYearRulesConstruction() ",
+        "dfgs": [
+            12,
+            13,
+            14,
+            15
+        ],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 494,
+        "lineEnd": 494,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "DateMidnight dt = new DateMidnight(1500, 2, 29, GJChronology.getInstanceUTC())",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 496,
+        "lineEnd": 496,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(dt.getYear(), 1500)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 497,
+        "lineEnd": 497,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(dt.getMonthOfYear(), 2)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 498,
+        "lineEnd": 498,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(dt.getDayOfMonth(), 29)",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 499,
+        "lineEnd": 499,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "public void testLeapYearRulesConstructionInvalid() ",
+        "dfgs": [
+            18,
+            20,
+            19
+        ],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 502,
+        "lineEnd": 502,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 504,
+        "lineEnd": 504,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "new DateMidnight(1500, 2, 30, GJChronology.getInstanceUTC())",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 505,
+        "lineEnd": 505,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fail()",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 506,
+        "lineEnd": 506,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (IllegalFieldValueException ex)",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_chrono_TestGJChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (!containsKmsDt(actualUgi) &&!actualUgi.hasKerberosCredentials())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_crypto_key_kms_KMSClientProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1100,
+        "lineEnd": 1101,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "a46933e8ce4c1715c11e3e3283bf0e8c2b53b837"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"using loginUser no KMS Delegation Token \"+ \"no Kerberos Credentials\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_crypto_key_kms_KMSClientProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1104,
+        "lineEnd": 1105,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "a46933e8ce4c1715c11e3e3283bf0e8c2b53b837"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "conf.set(\"hadoop.security.authentication\", \"kerberos\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-kms_src_test_java_org_apache_hadoop_crypto_key_kms_server_TestKMS.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2422,
+        "lineEnd": 2422,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "0e57aa3bf689374736939300d8f3525ec38bead7"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (UserGroupInformation.isSecurityEnabled() &&!containsKmsDt(actualUgi) &&!actualUgi.hasKerberosCredentials())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_crypto_key_kms_KMSClientProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1099,
+        "lineEnd": 1101,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"Using loginUser when Kerberos is enabled but the actual user\" +\" does not have either KMS Delegation Token or Kerberos Credentials\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_crypto_key_kms_KMSClientProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1105,
+        "lineEnd": 1106,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (kerberos)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-kms_src_test_java_org_apache_hadoop_crypto_key_kms_server_TestKMS.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2422,
+        "lineEnd": 2422,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "conf.set(\"hadoop.security.authentication\", \"kerberos\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "hadoop-common-project_hadoop-kms_src_test_java_org_apache_hadoop_crypto_key_kms_server_TestKMS.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2423,
+        "lineEnd": 2423,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "UserGroupInformation.setConfiguration(conf)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-kms_src_test_java_org_apache_hadoop_crypto_key_kms_server_TestKMS.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2425,
+        "lineEnd": 2425,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    }
+]

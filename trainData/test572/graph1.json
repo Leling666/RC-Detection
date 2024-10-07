@@ -1,0 +1,49 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.cactoos.scalar.Or",
+        "dfgs": [],
+        "fName": "src_main_java_org_cactoos_collection_CollectionEnvelope.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "3796bf19195a07490f262d3aea96313d2c23afd0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void notEqualToNull() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_cactoos_collection_CollectionEnvelopeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(\"Empty collection equal to null\",new CollectionOf<>(),new IsNot<>(new IsEqual<>(null)))",
+        "dfgs": [],
+        "fName": "src_test_java_org_cactoos_collection_CollectionEnvelopeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    }
+]

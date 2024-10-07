@@ -1,0 +1,1749 @@
+[
+    {
+        "cfgs": [],
+        "code": "Elements els = Jsoup.parse(\"<p id=0 class='one two'><p id=1 class='one'><p id=2 class='two'>\").select(\".one\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "cfc2f773f36f06ca4c6f1b7a25ae126fab07f55c"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "if (tq.matchChomp(\"#\"))",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "byId()",
+        "dfgs": [
+            13,
+            14,
+            16,
+            15,
+            19
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "if (tq.matchChomp(\".\"))",
+        "dfgs": [
+            4,
+            5
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "byClass()",
+        "dfgs": [
+            13,
+            14,
+            16,
+            15,
+            19
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 48,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (tq.matchesWord())",
+        "dfgs": [
+            6,
+            7
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "byTag()",
+        "dfgs": [
+            13,
+            14,
+            16,
+            15,
+            19
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            9
+        ],
+        "code": "if (tq.matchChomp(\"[\"))",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 61,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "byAttribute()",
+        "dfgs": [
+            13,
+            14,
+            16,
+            15,
+            19
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            10,
+            11
+        ],
+        "code": "if (tq.matchChomp(\"*\"))",
+        "dfgs": [
+            13,
+            10
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 63,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "311ecba81a39911f9afd759952a89f901d84a173"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "allElements()",
+        "dfgs": [
+            13,
+            14,
+            16,
+            15,
+            19
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "311ecba81a39911f9afd759952a89f901d84a173"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "throw new SelectorParseException(\"Could not parse query \" + query)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "boolean seenWhite = tq.consumeWhitespace()",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "29223d47d43cb2b16ce7a7d3c36daac682aa415b"
+        ]
+    },
+    {
+        "cfgs": [
+            15,
+            16,
+            18
+        ],
+        "code": "if (!tq.isEmpty())",
+        "dfgs": [
+            16,
+            15
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "29223d47d43cb2b16ce7a7d3c36daac682aa415b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new Elements(elements)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": 53,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "Elements candidates = new Elements(select(tq.remainder(), elements))",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "29223d47d43cb2b16ce7a7d3c36daac682aa415b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return filterForSelf(elements, candidates)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "29223d47d43cb2b16ce7a7d3c36daac682aa415b"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new Elements(elements)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "e59e5a5596c8562d73c72acf97f806a3545a69d0"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "private void byId() ",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "467c04cc8e89a516f9672b47f637278bf4bba301"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.add(found)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": 73,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "467c04cc8e89a516f9672b47f637278bf4bba301"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "private void byClass() ",
+        "dfgs": [
+            23,
+            24
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": 75,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "467c04cc8e89a516f9672b47f637278bf4bba301"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "List<Element> found = root.getElementsByClass(className)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "9eb7221bf8642ef68f56cba8e4d8e19ab362c398"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(found)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "467c04cc8e89a516f9672b47f637278bf4bba301"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "private void byTag() ",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 77,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "467c04cc8e89a516f9672b47f637278bf4bba301"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(root.getElementsByTag(tagName))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "467c04cc8e89a516f9672b47f637278bf4bba301"
+        ]
+    },
+    {
+        "cfgs": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+        ],
+        "code": "private void byAttribute() ",
+        "dfgs": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 79,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "467c04cc8e89a516f9672b47f637278bf4bba301"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(root.getElementsByAttribute(key))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "9eb7221bf8642ef68f56cba8e4d8e19ab362c398"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(root.getElementsByAttributeValue(key, tq.chompTo(\"]\")))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "9eb7221bf8642ef68f56cba8e4d8e19ab362c398"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(root.getElementsByAttributeValueNot(key, tq.chompTo(\"]\")))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "9eb7221bf8642ef68f56cba8e4d8e19ab362c398"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(root.getElementsByAttributeValueStarting(key, tq.chompTo(\"]\")))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "9eb7221bf8642ef68f56cba8e4d8e19ab362c398"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(root.getElementsByAttributeValueEnding(key, tq.chompTo(\"]\")))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "9eb7221bf8642ef68f56cba8e4d8e19ab362c398"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(root.getElementsByAttributeValueContaining(key, tq.chompTo(\"]\")))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "9eb7221bf8642ef68f56cba8e4d8e19ab362c398"
+        ]
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "private void allElements() ",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 88,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "311ecba81a39911f9afd759952a89f901d84a173"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(Collector.collect(new Evaluator.AllElements(), root))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "311ecba81a39911f9afd759952a89f901d84a173"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Elements els = Jsoup.parse(\"<p id=0 class='one two'><p id=1 class='one'><p id=2 class='two'>\").select(\"p.one\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "public void parentWithClassChild() ",
+        "dfgs": [
+            38,
+            41,
+            42,
+            44,
+            45,
+            47,
+            39,
+            40,
+            43,
+            46
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "String h = \"<h1 class=foo><a href=1 /></h1><h1 class=foo><a href=2 class=bar /></h1><h1><a href=3 /></h1>\"",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "Document doc = Jsoup.parse(h)",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "Elements allAs = doc.select(\"h1 > a\")",
+        "dfgs": [
+            41,
+            43
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 180,
+        "lineEnd": 180,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "assertEquals(3, allAs.size())",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "assertEquals(\"a\", allAs.first().tagName())",
+        "dfgs": [
+            44
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "Elements fooAs = doc.select(\"h1.foo > a\")",
+        "dfgs": [
+            44,
+            46
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "assertEquals(2, fooAs.size())",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "assertEquals(\"a\", fooAs.first().tagName())",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "Elements barAs = doc.select(\"h1.foo > a.bar\")",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1, barAs.size())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "addElements(findElements())",
+        "dfgs": [
+            49,
+            53,
+            50,
+            51
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 4,
+        "methodParents": [
+            67
+        ],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50,
+            53
+        ],
+        "code": "while (!tq.isEmpty())",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "boolean seenWhite = tq.consumeWhitespace()",
+        "dfgs": [
+            51,
+            53
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "Elements candidates = findElements()",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 16,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "intersectElements(filterForSelf(elements, candidates))",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 69,
+        "lineEnd": 69,
+        "lineMapIndex": -1,
+        "methodParents": [
+            69
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new Elements(elements)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "private Elements findElements() ",
+        "dfgs": [
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            66
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56,
+            57
+        ],
+        "code": "if (tq.matchChomp(\"#\"))",
+        "dfgs": [
+            56,
+            57
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return byId()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [
+            71
+        ],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58,
+            59
+        ],
+        "code": "if (tq.matchChomp(\".\"))",
+        "dfgs": [
+            58,
+            59
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return byClass()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [
+            75
+        ],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60,
+            61
+        ],
+        "code": "if (tq.matchesWord())",
+        "dfgs": [
+            60,
+            61
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return byTag()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [
+            77
+        ],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62,
+            63
+        ],
+        "code": "if (tq.matchChomp(\"[\"))",
+        "dfgs": [
+            62,
+            63
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return byAttribute()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [
+            79
+        ],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64,
+            65
+        ],
+        "code": "if (tq.matchChomp(\"*\"))",
+        "dfgs": [
+            64
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return allElements()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [
+            88
+        ],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new SelectorParseException(\"Could not parse query \" + query)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "private void addElements(Collection<Element> add) ",
+        "dfgs": [
+            68
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "elements.addAll(add)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "private void intersectElements(Collection<Element> intersect) ",
+        "dfgs": [
+            70
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "elements.retainAll(intersect)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "private Elements byId() ",
+        "dfgs": [
+            72,
+            73,
+            74
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73,
+            74
+        ],
+        "code": "Elements byId = new Elements()",
+        "dfgs": [
+            74,
+            73
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "byId.add(found)",
+        "dfgs": [
+            74
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return byId",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "private Elements byClass() ",
+        "dfgs": [
+            76
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return root.getElementsByClass(className)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "private Elements byTag() ",
+        "dfgs": [
+            78
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return root.getElementsByTag(tagName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+        ],
+        "code": "private Elements byAttribute() ",
+        "dfgs": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            87
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return root.getElementsByAttribute(key)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return root.getElementsByAttributeValue(key, tq.chompTo(\"]\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return root.getElementsByAttributeValueNot(key, tq.chompTo(\"]\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return root.getElementsByAttributeValueStarting(key, tq.chompTo(\"]\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return root.getElementsByAttributeValueEnding(key, tq.chompTo(\"]\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return root.getElementsByAttributeValueContaining(key, tq.chompTo(\"]\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new SelectorParseException(\"Could not parse attribute query \" + query)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 147,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "private Elements allElements() ",
+        "dfgs": [
+            89
+        ],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Collector.collect(new Evaluator.AllElements(), root)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_Selector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "cfgs": [],
+        "code": "isEquals = lhs.equals(rhs)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_builder_EqualsBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 381,
+        "lineEnd": 381,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "8d12cf6b9cc902806bb10d1a1c2e1200851a0648"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "if (lhs instanceof java.math.BigDecimal)",
+        "dfgs": [
+            2,
+            4
+        ],
+        "fName": "src_java_org_apache_commons_lang_builder_EqualsBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 380,
+        "lineEnd": 380,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "isEquals = (((java.math.BigDecimal)lhs).compareTo(rhs) == 0)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_builder_EqualsBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 381,
+        "lineEnd": 381,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_builder_EqualsBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 382,
+        "lineEnd": 382,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "isEquals = lhs.equals(rhs)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_builder_EqualsBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 384,
+        "lineEnd": 384,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.math.BigDecimal",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_lang_builder_EqualsBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public void testBigDecimal() ",
+        "dfgs": [
+            7,
+            8,
+            9,
+            10
+        ],
+        "fName": "src_test_org_apache_commons_lang_builder_EqualsBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 381,
+        "lineEnd": 381,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "BigDecimal o1 = new BigDecimal(\"2.0\")",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_org_apache_commons_lang_builder_EqualsBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 382,
+        "lineEnd": 382,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "BigDecimal o2 = new BigDecimal(\"2.00\")",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_org_apache_commons_lang_builder_EqualsBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 383,
+        "lineEnd": 383,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "assertTrue(new EqualsBuilder().append(o1, o1).isEquals())",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_org_apache_commons_lang_builder_EqualsBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 384,
+        "lineEnd": 384,
+        "lineMapIndex": -1,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(new EqualsBuilder().append(o1, o2).isEquals())",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_lang_builder_EqualsBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 385,
+        "lineEnd": 385,
+        "lineMapIndex": -1,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    }
+]

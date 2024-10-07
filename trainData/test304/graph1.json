@@ -1,0 +1,296 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"\\n<textarea>three</textarea>\", els.last().outerHtml())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_select_ElementsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "13c2af3f24fceda5b44776a5257112ac7218d038"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "assertEquals(\"\\n<title>\u767e\u5ea6\u4e00\u4e0b\uff0c\u4f60\u5c31\u77e5\u9053      </title>\", doc.select(\"title\").outerHtml())",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "57bce6dc8424637621f6b660855f23e72a08c4b3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"\\n<title>&#30334;&#24230;&#19968;&#19979;&#65292;&#20320;&#23601;&#30693;&#36947;      </title>\",doc.select(\"title\").outerHtml())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 107,
+        "lineEnd": 108,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "ce843ec83988e3e3318fa7db38133b06be741a1f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (out.prettyPrint() && (tag.formatAsBlock() || (parent() != null && parent().tag().formatAsBlock())))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_nodes_Element.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 960,
+        "lineEnd": 960,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "13c2af3f24fceda5b44776a5257112ac7218d038"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"\\n<section>\\n <div></div>\\n</section>\", doc.select(\"section\").first().outerHtml())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "9824d000c7b73f52a277dcc83b55602225154fb2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"\\n<img src=\\\"foo\\\" />\", img.toString())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 434,
+        "lineEnd": 434,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "da9b977ef99e2595602a964561906a930b4332f3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<textarea>three</textarea>\", els.last().outerHtml())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_select_ElementsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "assertEquals(\"<title>\u767e\u5ea6\u4e00\u4e0b\uff0c\u4f60\u5c31\u77e5\u9053      </title>\", doc.select(\"title\").outerHtml())",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<title>&#30334;&#24230;&#19968;&#19979;&#65292;&#20320;&#23601;&#30693;&#36947;      </title>\",doc.select(\"title\").outerHtml())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 108,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (accum.length() > 0 && out.prettyPrint() && (tag.formatAsBlock() || (parent() != null && parent().tag().formatAsBlock())))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_nodes_Element.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 960,
+        "lineEnd": 960,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<section>\\n <div></div>\\n</section>\", doc.select(\"section\").first().outerHtml())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "public void testContainerOutput() ",
+        "dfgs": [
+            13,
+            14,
+            15,
+            12
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "Document doc = Jsoup.parse(\"<title>Hello there</title> <div><p>Hello</p><p>there</p></div> <div>Another</div>\")",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(\"<title>Hello there</title>\", doc.select(\"title\").first().outerHtml())",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(\"<div>\\n <p>Hello</p>\\n <p>there</p>\\n</div>\", doc.select(\"div\").first().outerHtml())",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<div>\\n <p>Hello</p>\\n <p>there</p>\\n</div> \\n<div>\\n Another\\n</div>\", doc.select(\"body\").first().html())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<img src=\\\"foo\\\" />\", img.toString())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_ElementTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 441,
+        "lineEnd": 441,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    }
+]

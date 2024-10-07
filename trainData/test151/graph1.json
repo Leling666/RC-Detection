@@ -1,0 +1,1 @@
+[{"cfgs": [], "code": "throw e", "dfgs": [], "fName": "solr_core_src_java_org_apache_solr_update_DirectUpdateHandler2.java", "fieldParents": [], "isDel": false, "lineBeg": 914, "lineEnd": 914, "lineMapIndex": -1, "methodParents": [], "nodeIndex": 0, "rootcause": false, "commits": []}]

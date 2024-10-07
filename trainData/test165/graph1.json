@@ -1,0 +1,476 @@
+[
+    {
+        "cfgs": [],
+        "code": "protected volatile UpdateLog ulog",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "4d32c5d6bcb09aa91f15f9f5d34232861abd0ed8"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "private void initLog(PluginInfo ulogPluginInfo) ",
+        "dfgs": [
+            2
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "0a73b638830e25e257ec4217241695f8b8ac781d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (ulogPluginInfo != null && ulogPluginInfo.isEnabled())",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "1465c3edd4dcf947494bb9aee51d5863817efd57"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "if (updateLog == null)",
+        "dfgs": [
+            6
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "5f618b8000d92f650029f465013539daac3fe6f5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "initLog(ulogPluginInfo)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": 25,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "5f618b8000d92f650029f465013539daac3fe6f5"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "5f618b8000d92f650029f465013539daac3fe6f5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.ulog = updateLog",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "5f618b8000d92f650029f465013539daac3fe6f5"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "UpdateLog existingLog = updateHandler.getUpdateLog()",
+        "dfgs": [
+            8
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_DirectUpdateHandler2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (this.ulog != null && this.ulog == existingLog)",
+        "dfgs": [
+            9
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_DirectUpdateHandler2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.ulog.init(this, core)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_DirectUpdateHandler2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.solr.common.SolrException",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testReload() throws Exception ",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 494,
+        "lineEnd": 494,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "long version = addAndGetVersion(sdoc(\"id\",\"reload1\") , null)",
+        "dfgs": [
+            14
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 495,
+        "lineEnd": 495,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "h.reload()",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 497,
+        "lineEnd": 497,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "version = addAndGetVersion(sdoc(\"id\",\"reload1\", \"_version_\", Long.toString(version)), null)",
+        "dfgs": [
+            15,
+            16
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 499,
+        "lineEnd": 499,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "assertU(commit())",
+        "dfgs": [
+            16
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 501,
+        "lineEnd": 501,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "version = addAndGetVersion(sdoc(\"id\",\"reload1\", \"_version_\", Long.toString(version)), null)",
+        "dfgs": [
+            17,
+            18
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "deleteByQueryAndGetVersion(\"foo_t:hownowbrowncow\", null)",
+        "dfgs": [
+            18
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 512,
+        "lineEnd": 512,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "version = addAndGetVersion(sdoc(\"id\",\"reload1\", \"_version_\", Long.toString(version)), null)",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_search_TestRecovery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 514,
+        "lineEnd": 514,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "if (isClosed())",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_SolrCore.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1355,
+        "lineEnd": 1355,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new SolrException(SolrException.ErrorCode.SERVER_ERROR, \"openNewSearcher called on closed core\")",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_SolrCore.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1356,
+        "lineEnd": 1356,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected UpdateLog ulog",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "private void initLog(PluginInfo ulogPluginInfo, UpdateLog existingUpdateLog) ",
+        "dfgs": [
+            23,
+            24
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "ulog = existingUpdateLog",
+        "dfgs": [
+            24
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (ulog == null && ulogPluginInfo != null && ulogPluginInfo.isEnabled())",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "initLog(ulogPluginInfo, updateLog)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateHandler.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 4,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    }
+]

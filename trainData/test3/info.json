@@ -1,0 +1,8 @@
+{
+    "repo": "accumulo",
+    "fix": "f122beb129913a98f3bd32882ef34c8104c35f96",
+    "induce": [
+        "191bee18078e90f9d7d465c04142e4612404c9f9",
+        "7f20e6aef77f4fe60a93d06ee13e41d8585125cf"
+    ]
+}

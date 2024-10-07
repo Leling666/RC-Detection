@@ -1,0 +1,390 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "for (int i = 0; i < 100; i+=5)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_NormalDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (i < 10)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_NormalDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return 0.5 * (1.0 + Erf.erf((x - mean) /(standardDeviation * FastMath.sqrt(2.0))))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 126,
+        "lineEnd": 127,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9",
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (MaxIterationsExceededException ex)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (x < (mean - 20 * standardDeviation))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return 0",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "4b9b7585dcfb93bc027f6e08931100edee6a00b8"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            9
+        ],
+        "code": "if (x > (mean + 20 * standardDeviation))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return 1",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "4b9b7585dcfb93bc027f6e08931100edee6a00b8"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw ex",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+        ]
+    },
+    {
+        "cfgs": [
+            12,
+            13
+        ],
+        "code": "for (int i = 0; i < 100; i++)",
+        "dfgs": [
+            13,
+            12
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_NormalDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (i < 9)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_NormalDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(distribution.cumulativeProbability(Double.MAX_VALUE), 1, 0)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_NormalDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(distribution.cumulativeProbability(-Double.MAX_VALUE), 0, 0)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_NormalDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "assertEquals(distribution.cumulativeProbability(Double.POSITIVE_INFINITY), 1, 0)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_NormalDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(distribution.cumulativeProbability(Double.NEGATIVE_INFINITY), 0, 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_NormalDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "final double dev = x - mean",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19,
+            20
+        ],
+        "code": "if (FastMath.abs(dev) > 40 * standardDeviation)",
+        "dfgs": [
+            19,
+            20
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return dev < 0 ? 0.0d : 1.0d",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return 0.5 * (1.0 + Erf.erf((dev) /(standardDeviation * FastMath.sqrt(2.0))))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_NormalDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 130,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    }
+]

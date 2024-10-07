@@ -1,0 +1,940 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.apache.http.HttpRequest",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.http.RequestLine",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private HttpRequest request",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private RequestLine requestLine",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"3e84e1e5af4c084e413f9bd103f9f11abb3d5f58c4b0b72a79a986aebe58cd5b\", claims.get(\"rqh\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Comparator",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Arrays.sort(lowercaseHeaders, new Comparator<Header>() {@Overridepublic int compare(Header o1, Header o2) {return o1.getName().compareTo(o2.getName());}})",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 83,
+        "lineEnd": 88,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return o1.getName().compareTo(o2.getName())",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            9
+        ],
+        "code": "for (Header header: lowercaseHeaders)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "if (signedHeaders.contains(header.getName().toLowerCase()))",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "signature.append(header.getName().toLowerCase().trim()).append(\":\").append(header.getValue().trim()).append(NEW_LINE)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 96,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "String hashedPayload = HASH_FUNCTION.hashString(requestBody, Charsets.UTF_8).toString()",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "signature.append(hashedPayload).append(NEW_LINE)",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "1dc65d6491a59738a95f24edf3259bb93e25efd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.http.HttpEntity",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.http.HttpEntityEnclosingRequest",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.ByteArrayInputStream",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.nio.charset.StandardCharsets",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private HttpEntityEnclosingRequest request",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private HttpEntity entity",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"4b3d2666845a38f00259a5231a08765bb2d12564bc4469fd5b2816204c588967\", claims.get(\"rqh\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testTokenFromPostRequest() throws IOException ",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "new Expectations() {{request.getRequestLine().getMethod();result = \"POST\";request.getRequestLine().getUri();result = \"/Messages\";request.getAllHeaders();result = headers;request.getEntity();result = entity;entity.getContent();result = new ByteArrayInputStream(\"testbody\".getBytes(StandardCharsets.UTF_8));}}",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [
+            17
+        ],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "result = \"POST\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "request.getRequestLine().getUri()",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [
+            17
+        ],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "result = \"/Messages\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "request.getAllHeaders()",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [
+            17
+        ],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "result = headers",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "request.getEntity()",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [
+            17
+        ],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "result = entity",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [
+            18
+        ],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "entity.getContent()",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [
+            18
+        ],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "result = new ByteArrayInputStream(\"testbody\".getBytes(StandardCharsets.UTF_8))",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "Jwt jwt = ValidationToken.fromHttpRequest(CREDENTIAL_SID, SECRET, request, SIGNED_HEADERS)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [
+            17
+        ],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "Claims claims =Jwts.parser().setSigningKey(SECRET.getBytes()).parseClaimsJws(jwt.toJwt()).getBody()",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "Assert.assertEquals(\"authorization;host\", claims.get(\"hrh\"))",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"bd792c967c20d546c738b94068f5f72758a10d26c12979677501e1eefe58c65a\", claims.get(\"rqh\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_twilio_jwt_validation_ValidationTokenTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.base.Strings",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6,
+        "lineEnd": 6,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.Lists",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "Map<String, List<String>> combinedHeaders = COMBINE_HEADERS.apply(lowercaseHeaders)",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [
+            47
+        ],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": 6,
+        "methodParents": [
+            48
+        ],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44,
+            39
+        ],
+        "code": "for (String header : signedHeaders)",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "String lowercase = header.toLowerCase().trim()",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "if (combinedHeaders.containsKey(lowercase))",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "List<String> values = combinedHeaders.get(lowercase)",
+        "dfgs": [
+            42,
+            43
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "Collections.sort(values)",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "signature.append(lowercase).append(\":\").append(Joiner.on(',').join(values)).append(NEW_LINE)",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 97,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "if (!Strings.isNullOrEmpty(requestBody))",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "String hashedPayload = HASH_FUNCTION.hashString(requestBody, Charsets.UTF_8).toString()",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "signature.append(hashedPayload)",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static Function<Header[], Map<String, List<String>>> COMBINE_HEADERS = new Function<Header[], Map<String, List<String>>>() {@Overridepublic Map<String, List<String>> apply(Header[] headers) {Map<String, List<String>> combinedHeaders = new HashMap<>();for (Header header : headers)  {if (combinedHeaders.containsKey(header.getName())) {combinedHeaders.get(header.getName()).add(header.getValue());} else {combinedHeaders.put(header.getName(), Lists.newArrayList(header.getValue()));}}return combinedHeaders;}}",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 149,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Map<String, List<String>> combinedHeaders = new HashMap<>()",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "for (Header header : headers)",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 154,
+        "lineEnd": 154,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (combinedHeaders.containsKey(header.getName()))",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "combinedHeaders.get(header.getName()).add(header.getValue())",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "combinedHeaders.put(header.getName(), Lists.newArrayList(header.getValue()))",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return combinedHeaders",
+        "dfgs": [],
+        "fName": "src_main_java_com_twilio_jwt_validation_ValidationToken.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    }
+]

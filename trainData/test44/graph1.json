@@ -1,0 +1,322 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.orm.entities.ResourceEntity",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "b5a2bb8ddbc7badcdd459b443077d429c5e8235d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.security.ClientSecurityType",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "b5a2bb8ddbc7badcdd459b443077d429c5e8235d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "groupEntity.setLdapGroup(true)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": 9,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "2e5d0d1fbe4d0366361836f8c01847a995cf71cf"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "groupEntity.setgroupType(groupType)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 438,
+        "lineEnd": 438,
+        "lineMapIndex": 10,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "b5a2bb8ddbc7badcdd459b443077d429c5e8235d"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "groupEntity.setLdapGroup(true)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 704,
+        "lineEnd": 704,
+        "lineMapIndex": 11,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "17b48bf40ff58a1bf429d1fbc14b3049ef79391d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "groupEntity.setLdapGroup(true)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 740,
+        "lineEnd": 740,
+        "lineMapIndex": 12,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "17b48bf40ff58a1bf429d1fbc14b3049ef79391d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void setLdapGroup(Boolean ldapGroup) ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_entities_GroupEntity.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "00a4991eecb205f7936929e7010856661f0ba59e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void setgroupType(GroupType groupType) ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_entities_GroupEntity.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "b5a2bb8ddbc7badcdd459b443077d429c5e8235d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ldapGroup.setLdapGroup(true)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_ldap_AmbariLdapDataPopulatorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1579,
+        "lineEnd": 1579,
+        "lineMapIndex": 17,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "51bebd3daa97478946bbef65ffd77ee62af19ba2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "groupEntity.setGroupType(GroupType.LDAP)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": 2,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "groupEntity.setGroupType(groupType)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 436,
+        "lineEnd": 436,
+        "lineMapIndex": 3,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "groupEntity.setGroupType(GroupType.LDAP)",
+        "dfgs": [
+            12
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 702,
+        "lineEnd": 702,
+        "lineMapIndex": 4,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "groupEntity.setGroupType(GroupType.LDAP)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_security_authorization_Users.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 738,
+        "lineEnd": 738,
+        "lineMapIndex": 5,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private void setLdapGroup(Boolean ldapGroup) ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_entities_GroupEntity.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "public void setGroupType(GroupType groupType) ",
+        "dfgs": [
+            15
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_entities_GroupEntity.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "setLdapGroup(groupType == GroupType.LDAP)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_entities_GroupEntity.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.security.authorization.GroupType",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_ldap_AmbariLdapDataPopulatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ldapGroup.setGroupType(GroupType.LDAP)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_security_ldap_AmbariLdapDataPopulatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1580,
+        "lineEnd": 1580,
+        "lineMapIndex": 8,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    }
+]

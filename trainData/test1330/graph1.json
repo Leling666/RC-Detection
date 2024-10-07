@@ -1,0 +1,556 @@
+[
+    {
+        "cfgs": [
+            1,
+            2
+        ],
+        "code": "if (yMin * yMax >= 0)",
+        "dfgs": [
+            2,
+            1
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "bb00559975c3b3e115b7ae618548aedc5b2572c6"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "throw new IllegalArgumentException(\"Function values at endpoints do not have different signs.\" +\"  Endpoints: [\" + min + \",\" + max + \"]\" +\"  Values: [\" + yMin + \",\" + yMax + \"]\")",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 139,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "bb00559975c3b3e115b7ae618548aedc5b2572c6",
+            "24d837eafd724642faed1b80856a353f73e993c5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return solve(min, yMin, max, yMax, min, yMin)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 143,
+        "lineEnd": 143,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "bb00559975c3b3e115b7ae618548aedc5b2572c6"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "double ret = Double.NaN",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "double sign = yMin * yMax",
+        "dfgs": [
+            5,
+            6,
+            15,
+            9,
+            17
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6,
+            14
+        ],
+        "code": "if (sign > 0)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7,
+            9
+        ],
+        "code": "if (Math.abs(yMin) <= functionValueAccuracy)",
+        "dfgs": [
+            9,
+            13
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "setResult(min, 0)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "ret = min",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10,
+            12
+        ],
+        "code": "if (Math.abs(yMax) <= functionValueAccuracy)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 143,
+        "lineEnd": 143,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "setResult(max, 0)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "ret = max",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "throw new IllegalArgumentException(\"Function values at endpoints do not have different signs.\" +\"  Endpoints: [\" + min + \",\" + max + \"]\" +\"  Values: [\" + yMin + \",\" + yMax + \"]\")",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 148,
+        "lineEnd": 151,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            16
+        ],
+        "code": "if (sign < 0)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "ret = solve(min, yMin, max, yMax, min, yMin)",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18,
+            19
+        ],
+        "code": "if (yMin == 0.0)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "ret = min",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "ret = max",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return ret",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_analysis_BrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "public void testRootEndpoints() throws Exception ",
+        "dfgs": [
+            23,
+            24,
+            26,
+            28,
+            25,
+            27
+        ],
+        "fName": "src_test_org_apache_commons_math_analysis_BrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "UnivariateRealFunction f = new SinFunction()",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_org_apache_commons_math_analysis_BrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 272,
+        "lineEnd": 272,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "UnivariateRealSolver solver = new BrentSolver(f)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_org_apache_commons_math_analysis_BrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "double result = solver.solve(Math.PI, 4)",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_org_apache_commons_math_analysis_BrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 276,
+        "lineEnd": 276,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "assertEquals(result, Math.PI, solver.getAbsoluteAccuracy())",
+        "dfgs": [
+            28,
+            27
+        ],
+        "fName": "src_test_org_apache_commons_math_analysis_BrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 277,
+        "lineEnd": 277,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "result = solver.solve(3, Math.PI)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_org_apache_commons_math_analysis_BrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(result, Math.PI, solver.getAbsoluteAccuracy())",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_analysis_BrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    }
+]

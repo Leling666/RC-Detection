@@ -1,0 +1,916 @@
+[
+    {
+        "cfgs": [],
+        "code": "private static int[]delta",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "public static byte[] toBytes(char[] inputChars) ",
+        "dfgs": [
+            4,
+            7,
+            5,
+            6
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "byte[] out = new byte[inputChars.length]",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "delta = new int[inputChars.length]",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 9,
+        "lineEnd": 9,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            7
+        ],
+        "code": "for (int i = 0; i < inputChars.length; i++)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "out[i] = (byte) inputChars[i]",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "delta[i] = (int) inputChars[i] - out[i]",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return out",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 14,
+        "lineEnd": 14,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "public static char[] toChars(byte[] in) ",
+        "dfgs": [
+            10,
+            15,
+            11,
+            12,
+            14
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "char[] out = new char[in.length]",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            15
+        ],
+        "code": "for (int i = 0; i < in.length; i++)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            12,
+            13
+        ],
+        "code": "if (i < delta.length)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "out[i] = (char) (in[i] + delta[i])",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "out[i] = (char) in[i]",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return out",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "da87907033e52830aaf8cfcd27f7d53bac4ff6b5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static int[]delta",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "public static byte[] toBytes(char[] inputChars) ",
+        "dfgs": [
+            20,
+            23,
+            21,
+            22
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "byte[] out = new byte[inputChars.length]",
+        "dfgs": [
+            23,
+            22
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "delta = new int[inputChars.length]",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            16
+        ],
+        "isDel": false,
+        "lineBeg": 9,
+        "lineEnd": 9,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21,
+            23
+        ],
+        "code": "for (int i = 0; i < inputChars.length; i++)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "out[i] = (byte) inputChars[i]",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "delta[i] = (int) inputChars[i] - out[i]",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            16
+        ],
+        "isDel": false,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return out",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 14,
+        "lineEnd": 14,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "public static char[] toChars(byte[] in) ",
+        "dfgs": [
+            28,
+            36,
+            25,
+            26,
+            29,
+            30,
+            32,
+            33,
+            35
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            27
+        ],
+        "code": "if (in == null)",
+        "dfgs": [
+            28,
+            30,
+            33,
+            35
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new char[]{}",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "char[] out = new char[in.length]",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29,
+            36
+        ],
+        "code": "for (int i = 0; i < in.length; i++)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30,
+            31
+        ],
+        "code": "if (delta == null)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            16
+        ],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "out[i] = (char) in[i]",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33,
+            34
+        ],
+        "code": "if (i < delta.length)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            16
+        ],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "out[i] = (char) (in[i] + delta[i])",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [
+            16
+        ],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "out[i] = (char) in[i]",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return out",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_gwt_crypto_util_Str.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "public void testEmptyBytes() ",
+        "dfgs": [
+            38,
+            40,
+            41,
+            39
+        ],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "byte[] inputBytes =new byte[]{}",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "char[] output = Str.toChars(inputBytes)",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "assertNotNull(output)",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"\", new String(output))",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "public void testNullBytes() ",
+        "dfgs": [
+            43,
+            45,
+            46,
+            44
+        ],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "byte[] inputBytes = null",
+        "dfgs": [
+            44
+        ],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "char[] output = Str.toChars(inputBytes)",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "assertNotNull(output)",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"\", new String(output))",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_gwt_crypto_util_StrTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "cfgs": [],
+        "code": "throw new UnsupportedOperationException(\"Leaf Nodes do not have child nodes.\")",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_nodes_LeafNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "f71712ba5d28df09c9a5b6e3c8a37f05f5e3372d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Collections",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_nodes_LeafNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final List<Node> EmptyNodes = Collections.emptyList()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_nodes_LeafNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 9,
+        "lineEnd": 9,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return EmptyNodes",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_nodes_LeafNode.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": false,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_TextNodeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "public void testLeadNodesHaveNoChildren() ",
+        "dfgs": [
+            8,
+            10,
+            6,
+            9,
+            7
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_TextNodeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Document doc = Jsoup.parse(\"<div>Hello there</div>\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_TextNodeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Element div = doc.select(\"div\").first()",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_TextNodeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "TextNode tn = (TextNode) div.childNode(0)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_TextNodeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "List<Node> nodes = tn.childNodes()",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_TextNodeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0, nodes.size())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_TextNodeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    }
+]

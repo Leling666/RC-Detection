@@ -1,0 +1,473 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (minutesOffset < 0 || minutesOffset > 59)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "4062cef5ffd76dff4fca40236eb15c79820e86c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "minutesOffset = hoursInMinutes - minutesOffset",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "96f586cb8dac7eee62e9be519a3eab125c47bb23"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"+03:15\"), DateTimeZone.forOffsetHoursMinutes(3, 15))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 306,
+        "lineEnd": 306,
+        "lineMapIndex": 17,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "8a58750637798ab015fa79019e935c89acdf00fa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"-02:30\"), DateTimeZone.forOffsetHoursMinutes(-2, 30))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": 22,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "8a58750637798ab015fa79019e935c89acdf00fa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 318,
+        "lineEnd": 318,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "4062cef5ffd76dff4fca40236eb15c79820e86c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "DateTimeZone.forOffsetHoursMinutes(2, -1)",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": 19,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "8a58750637798ab015fa79019e935c89acdf00fa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fail()",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "4062cef5ffd76dff4fca40236eb15c79820e86c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (IllegalArgumentException ex)",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 321,
+        "lineEnd": 321,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "4062cef5ffd76dff4fca40236eb15c79820e86c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "4062cef5ffd76dff4fca40236eb15c79820e86c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "DateTimeZone.forOffsetHoursMinutes(-2, -1)",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 323,
+        "lineEnd": 323,
+        "lineMapIndex": -1,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "8a58750637798ab015fa79019e935c89acdf00fa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fail()",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "4062cef5ffd76dff4fca40236eb15c79820e86c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (IllegalArgumentException ex)",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 325,
+        "lineEnd": 325,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "4062cef5ffd76dff4fca40236eb15c79820e86c6"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "if (minutesOffset < -59 || minutesOffset > 59)",
+        "dfgs": [
+            13,
+            14,
+            15
+        ],
+        "fName": "src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14,
+            15
+        ],
+        "code": "if (hoursOffset > 0 && minutesOffset < 0)",
+        "dfgs": [
+            15,
+            14
+        ],
+        "fName": "src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "throw new IllegalArgumentException(\"Positive hours must not have negative minutes: \" + minutesOffset)",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "minutesOffset = hoursInMinutes - Math.abs(minutesOffset)",
+        "dfgs": [],
+        "fName": "src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"+02:15\"), DateTimeZone.forOffsetHoursMinutes(2, 15))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"+02:00\"), DateTimeZone.forOffsetHoursMinutes(2, 0))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": 2,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTimeZone.forOffsetHoursMinutes(2, -15)",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 310,
+        "lineEnd": 310,
+        "lineMapIndex": 5,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fail()",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (IllegalArgumentException ex)",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 312,
+        "lineEnd": 312,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"+00:15\"), DateTimeZone.forOffsetHoursMinutes(0, 15))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 314,
+        "lineEnd": 314,
+        "lineMapIndex": 3,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"+00:00\"), DateTimeZone.forOffsetHoursMinutes(0, 0))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 315,
+        "lineEnd": 315,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"-00:15\"), DateTimeZone.forOffsetHoursMinutes(0, -15))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 316,
+        "lineEnd": 316,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"-02:15\"), DateTimeZone.forOffsetHoursMinutes(-2, -15))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(DateTimeZone.forID(\"-02:15\"), DateTimeZone.forOffsetHoursMinutes(-2, 15))",
+        "dfgs": [],
+        "fName": "src_test_java_org_joda_time_TestDateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    }
+]

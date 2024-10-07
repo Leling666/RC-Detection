@@ -1,0 +1,2402 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (x.getWhere() != null)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_visitor_SQLASTOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 760,
+        "lineEnd": 760,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "0609ce5d26f2b6d341aa6f226bab9ae47160ce94"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "x.getWhere().setParent(x)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_visitor_SQLASTOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 763,
+        "lineEnd": 763,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "0609ce5d26f2b6d341aa6f226bab9ae47160ce94"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "x.getWhere().accept(this)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_visitor_SQLASTOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 764,
+        "lineEnd": 764,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "0609ce5d26f2b6d341aa6f226bab9ae47160ce94"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final void scanAlias() ",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 812,
+        "lineEnd": 812,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "63574c47020b85560f9d4d6649cdc778273cc6e5"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "print('\\'')",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 884,
+        "lineEnd": 884,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "f27d3595e6adf8353fa355c75e92f526ca442303"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "String text2 = text.replaceAll(\"\\\\'\", \"\\\\\\\\'\")",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 885,
+        "lineEnd": 885,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "f27d3595e6adf8353fa355c75e92f526ca442303"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "print0(text2)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 886,
+        "lineEnd": 886,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "f27d3595e6adf8353fa355c75e92f526ca442303"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "print('\\'')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 887,
+        "lineEnd": 887,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "f27d3595e6adf8353fa355c75e92f526ca442303"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String sql = //\"SELECT TRIM(BOTH FROM EUCD) AS \\\"value\\\",NTLANG1 AS \\\"text\\\" \" //+ \" FROM T_HT_WREM_ENUMLANG_D\"+ \" WHERE TYPE=?\"+ \" ORDER BY \\\"value\\\" ASC\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 31,
+        "lineEnd": 35,
+        "lineMapIndex": 130,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "print(statementList)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "System.out.println(\"Tables : \" + visitor.getTables())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "System.out.println(\"fields : \" + visitor.getColumns())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "System.out.println(\"coditions : \" + visitor.getConditions())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "System.out.println(\"relationships : \" + visitor.getRelationships())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "System.out.println(\"orderBy : \" + visitor.getOrderByColumns())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(1, visitor.getTables().size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 131,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(4, visitor.getColumns().size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 132,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"SELECT TRIM(EUCD) AS \\\"value\\\", NTLANG1 AS \\\"text\\\"\"+ \"\\nFROM T_HT_WREM_ENUMLANG_D\"+ \"\\nWHERE TYPE = ?\"+ \"\\nORDER BY \\\"value\\\" ASC\", text)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 63,
+        "lineMapIndex": 133,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"select TRIM(EUCD) as \\\"value\\\", NTLANG1 as \\\"text\\\"\"+ \"\\nfrom T_HT_WREM_ENUMLANG_D\"+ \"\\nwhere TYPE = ?\"+ \"\\norder by \\\"value\\\" asc\", text)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 69,
+        "lineEnd": 72,
+        "lineMapIndex": 134,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "9f07744b03c875d3b6cd29db63012f520c9ce58b"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "SQLExpr where = x.getWhere()",
+        "dfgs": [
+            20,
+            21
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_visitor_SQLASTOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 760,
+        "lineEnd": 760,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "if (where != null)",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_visitor_SQLASTOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 761,
+        "lineEnd": 761,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "where.setParent(x)",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_visitor_SQLASTOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 764,
+        "lineEnd": 764,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "where.accept(this)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_visitor_SQLASTOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 765,
+        "lineEnd": 765,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected void scanAlias() ",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 812,
+        "lineEnd": 812,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "protected final void scanAlias2() ",
+        "dfgs": [
+            49,
+            25,
+            26,
+            28,
+            27,
+            36,
+            38,
+            39,
+            40,
+            41,
+            37,
+            51,
+            53,
+            54,
+            55,
+            92,
+            94,
+            96,
+            29,
+            30,
+            31,
+            33,
+            34,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            52,
+            56,
+            93,
+            100,
+            57,
+            60,
+            62,
+            65,
+            68,
+            71,
+            74,
+            77,
+            80,
+            83,
+            86,
+            58,
+            59,
+            63,
+            66,
+            69,
+            72,
+            75,
+            78,
+            81,
+            84,
+            87,
+            89
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 859,
+        "lineEnd": 859,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "boolean hasSpecial = false",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 861,
+        "lineEnd": 861,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "int startIndex = pos + 1",
+        "dfgs": [
+            28,
+            38
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 862,
+        "lineEnd": 862,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "int endIndex = -1",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 863,
+        "lineEnd": 863,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29,
+            36
+        ],
+        "code": "for (int i = startIndex; i < text.length(); ++i)",
+        "dfgs": [
+            38,
+            29
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 864,
+        "lineEnd": 864,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "final char ch = text.charAt(i)",
+        "dfgs": [
+            38,
+            30,
+            34
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 865,
+        "lineEnd": 865,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31,
+            33
+        ],
+        "code": "if (ch == '\\\\')",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 866,
+        "lineEnd": 866,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "hasSpecial = true",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 867,
+        "lineEnd": 867,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 868,
+        "lineEnd": 868,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "if (ch == '\"')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 870,
+        "lineEnd": 870,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "endIndex = i",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 871,
+        "lineEnd": 871,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 872,
+        "lineEnd": 872,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37,
+            38
+        ],
+        "code": "if (endIndex == -1)",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 876,
+        "lineEnd": 876,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "throw new ParserException(\"unclosed str\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 877,
+        "lineEnd": 877,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "String stringVal = subString(startIndex, endIndex - startIndex)",
+        "dfgs": [
+            48,
+            40,
+            41,
+            51,
+            42
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 880,
+        "lineEnd": 880,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40,
+            48
+        ],
+        "code": "if (!hasSpecial)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 883,
+        "lineEnd": 883,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "this.stringVal = stringVal",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 884,
+        "lineEnd": 884,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "int pos = endIndex + 1",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 885,
+        "lineEnd": 885,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "char ch = charAt(pos)",
+        "dfgs": [
+            48,
+            51,
+            43,
+            44
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 886,
+        "lineEnd": 886,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44,
+            48
+        ],
+        "code": "if (ch != '\\'')",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 887,
+        "lineEnd": 887,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "this.pos = pos",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 888,
+        "lineEnd": 888,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "this.ch = ch",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 889,
+        "lineEnd": 889,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "token = LITERAL_CHARS",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 890,
+        "lineEnd": 890,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 891,
+        "lineEnd": 891,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "mark = pos",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 896,
+        "lineEnd": 896,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "boolean hasSpecial = false",
+        "dfgs": [
+            96,
+            57
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 897,
+        "lineEnd": 897,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "for (;;)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 898,
+        "lineEnd": 898,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52,
+            54
+        ],
+        "code": "if (isEOF())",
+        "dfgs": [
+            54,
+            52
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 899,
+        "lineEnd": 899,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "lexError(\"unclosed.str.lit\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 900,
+        "lineEnd": 900,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 901,
+        "lineEnd": 901,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "ch = charAt(++pos)",
+        "dfgs": [
+            55,
+            92,
+            99,
+            56,
+            93,
+            97,
+            100,
+            102
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 904,
+        "lineEnd": 904,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56,
+            92
+        ],
+        "code": "if (ch == '\\\\')",
+        "dfgs": [
+            92,
+            56
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 906,
+        "lineEnd": 906,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "scanChar()",
+        "dfgs": [
+            58,
+            63,
+            66,
+            69,
+            72,
+            75,
+            78,
+            81,
+            84,
+            87,
+            89
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 907,
+        "lineEnd": 907,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58,
+            61
+        ],
+        "code": "if (!hasSpecial)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 908,
+        "lineEnd": 908,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "initBuff(bufPos)",
+        "dfgs": [
+            59
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 909,
+        "lineEnd": 909,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "arraycopy(mark + 1, buf, 0, bufPos)",
+        "dfgs": [
+            63,
+            66,
+            69,
+            72,
+            75,
+            78,
+            81,
+            84,
+            87,
+            89
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 910,
+        "lineEnd": 910,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "hasSpecial = true",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 911,
+        "lineEnd": 911,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63,
+            66,
+            69,
+            72,
+            75,
+            78,
+            81,
+            84,
+            87,
+            89
+        ],
+        "code": "switch (ch) ",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 914,
+        "lineEnd": 914,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case '0'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 915,
+        "lineEnd": 915,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar('\\0')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 916,
+        "lineEnd": 916,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 917,
+        "lineEnd": 917,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case '\\''",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 918,
+        "lineEnd": 918,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar('\\'')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 919,
+        "lineEnd": 919,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 920,
+        "lineEnd": 920,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case '\"'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 921,
+        "lineEnd": 921,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar('\"')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 922,
+        "lineEnd": 922,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 923,
+        "lineEnd": 923,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case 'b'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 924,
+        "lineEnd": 924,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar('\\b')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 925,
+        "lineEnd": 925,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 926,
+        "lineEnd": 926,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case 'n'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 927,
+        "lineEnd": 927,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar('\\n')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 928,
+        "lineEnd": 928,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 929,
+        "lineEnd": 929,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case 'r'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 930,
+        "lineEnd": 930,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar('\\r')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 931,
+        "lineEnd": 931,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 932,
+        "lineEnd": 932,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case 't'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 933,
+        "lineEnd": 933,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar('\\t')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 934,
+        "lineEnd": 934,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 935,
+        "lineEnd": 935,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case '\\\\'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 936,
+        "lineEnd": 936,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar('\\\\')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 937,
+        "lineEnd": 937,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 938,
+        "lineEnd": 938,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case 'Z'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 939,
+        "lineEnd": 939,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar((char) 0x1A)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 940,
+        "lineEnd": 940,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 941,
+        "lineEnd": 941,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar(ch)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 943,
+        "lineEnd": 943,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 944,
+        "lineEnd": 944,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 947,
+        "lineEnd": 947,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            93,
+            96
+        ],
+        "code": "if (ch == '\\\"')",
+        "dfgs": [
+            93,
+            100,
+            102
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 949,
+        "lineEnd": 949,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "scanChar()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 950,
+        "lineEnd": 950,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "token = LITERAL_CHARS",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 951,
+        "lineEnd": 951,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 952,
+        "lineEnd": 952,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97,
+            99
+        ],
+        "code": "if (!hasSpecial)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 955,
+        "lineEnd": 955,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "bufPos++",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 956,
+        "lineEnd": 956,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 957,
+        "lineEnd": 957,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            100,
+            101
+        ],
+        "code": "if (bufPos == buf.length)",
+        "dfgs": [
+            100,
+            102
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 960,
+        "lineEnd": 960,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "putChar(ch)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 961,
+        "lineEnd": 961,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            102
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 962,
+        "lineEnd": 962,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "buf[bufPos++] = ch",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 963,
+        "lineEnd": 963,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104,
+            105
+        ],
+        "code": "if (!hasSpecial)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 967,
+        "lineEnd": 967,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "stringVal = subString(mark + 1, bufPos)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 968,
+        "lineEnd": 968,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            106
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 969,
+        "lineEnd": 969,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "stringVal = new String(buf, 0, bufPos)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_parser_Lexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 970,
+        "lineEnd": 970,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            108
+        ],
+        "code": "protected final void scanAlias() ",
+        "dfgs": [
+            108
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_parser_OdpsLexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 356,
+        "lineEnd": 356,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "scanAlias2()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_parser_OdpsLexer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 357,
+        "lineEnd": 357,
+        "lineMapIndex": -1,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "StringBuilder buf = new StringBuilder(text.length() + 2)",
+        "dfgs": [
+            110,
+            111
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 884,
+        "lineEnd": 884,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            111
+        ],
+        "code": "buf.append('\\'')",
+        "dfgs": [
+            128,
+            115,
+            118,
+            121,
+            124,
+            126
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 885,
+        "lineEnd": 885,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112,
+            128
+        ],
+        "code": "for (int i = 0; i < text.length(); ++i)",
+        "dfgs": [
+            112
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 886,
+        "lineEnd": 886,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            115,
+            118,
+            121,
+            124,
+            126
+        ],
+        "code": "char ch = text.charAt(i)",
+        "dfgs": [
+            126
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 887,
+        "lineEnd": 887,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "switch (ch) ",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 888,
+        "lineEnd": 888,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case '\\\\'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 889,
+        "lineEnd": 889,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "buf.append(\"\\\\\\\\\")",
+        "dfgs": [
+            128,
+            118,
+            121,
+            124,
+            126
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 890,
+        "lineEnd": 890,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 891,
+        "lineEnd": 891,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case '\\''",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 892,
+        "lineEnd": 892,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "buf.append(\"\\\\'\")",
+        "dfgs": [
+            128,
+            121,
+            124,
+            126
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 893,
+        "lineEnd": 893,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 894,
+        "lineEnd": 894,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case '\\0'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 895,
+        "lineEnd": 895,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "buf.append(\"\\\\0\")",
+        "dfgs": [
+            128,
+            124,
+            126
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 896,
+        "lineEnd": 896,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 897,
+        "lineEnd": 897,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case '\\n'",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 898,
+        "lineEnd": 898,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "buf.append(\"\\\\n\")",
+        "dfgs": [
+            128,
+            126
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 899,
+        "lineEnd": 899,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 124,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 900,
+        "lineEnd": 900,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 125,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "buf.append(ch)",
+        "dfgs": [
+            128
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 902,
+        "lineEnd": 902,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 126,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 903,
+        "lineEnd": 903,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 127,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            129
+        ],
+        "code": "buf.append('\\'')",
+        "dfgs": [
+            129
+        ],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 906,
+        "lineEnd": 906,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 128,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "print0(buf.toString())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_odps_visitor_OdpsOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 908,
+        "lineEnd": 908,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 129,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String sql = //\"select \"+ \"\\nAA.ID,\"+ \"\\nAA.CODE,\"+ \"\\nAA.TYPE,\"+ \"\\nAA.STATUS,\"+ \"\\nAA.EMPLOYEENAME,\"+ \"\\nAA.CREATORNAME,\"+ \"\\nAA.OPERATIONTYPE,\"+ \"\\nAA.CREATEDATE,\"+ \"\\nAA.REMARK,\"+ \"\\nW.NAME,\"+ \"\\nDD.DESC\"+ \"\\nfrom \"+ \"\\na AA,\"+ \"\\nw W,\"+ \"\\nd DD\"+ \"\\nwhere \"+ \"\\nAA.employeeNo IN (\"+ \"\\nSELECT employeeno FROM employeeauditor ea WHERE auditorno = 1 GROUP BY employeeno\"+ \"\\nUNION ALL\"+ \"\\nSELECT 1 FROM dual \"+ \"\\n) and\"+ \"\\nAA.WNO = W.WNO(+) and\"+ \"\\nAA.DEPTNO = DD.DEPTNO(+)\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 55,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 130,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(4, visitor.getTables().size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 131,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(18, visitor.getColumns().size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 132,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"SELECT AA.ID, AA.CODE, AA.TYPE, AA.STATUS, AA.EMPLOYEENAME\\n\" +\"\\t, AA.CREATORNAME, AA.OPERATIONTYPE, AA.CREATEDATE, AA.REMARK, W.NAME\\n\" +\"\\t, DD.DESC\\n\" +\"FROM a AA, w W, d DD\\n\" +\"WHERE AA.employeeNo IN (SELECT employeeno\\n\" +\"\\t\\tFROM employeeauditor ea\\n\" +\"\\t\\tWHERE auditorno = 1\\n\" +\"\\t\\tGROUP BY employeeno\\n\" +\"\\t\\tUNION ALL\\n\" +\"\\t\\tSELECT 1\\n\" +\"\\t\\tFROM dual)\\n\" +\"\\tAND AA.WNO = W.WNO(+)\\n\" +\"\\tAND AA.DEPTNO = DD.DEPTNO(+)\", text)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 92,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 133,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"select AA.ID, AA.CODE, AA.TYPE, AA.STATUS, AA.EMPLOYEENAME\\n\" +\"\\t, AA.CREATORNAME, AA.OPERATIONTYPE, AA.CREATEDATE, AA.REMARK, W.NAME\\n\" +\"\\t, DD.DESC\\n\" +\"from a AA, w W, d DD\\n\" +\"where AA.employeeNo in (select employeeno\\n\" +\"\\t\\tfrom employeeauditor ea\\n\" +\"\\t\\twhere auditorno = 1\\n\" +\"\\t\\tgroup by employeeno\\n\" +\"\\t\\tunion all\\n\" +\"\\t\\tselect 1\\n\" +\"\\t\\tfrom dual)\\n\" +\"\\tand AA.WNO = W.WNO(+)\\n\" +\"\\tand AA.DEPTNO = DD.DEPTNO(+)\", text)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_druid_bvt_sql_oracle_OracleSelectTest56.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 110,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 134,
+        "rootcause": false,
+        "commits": []
+    }
+]

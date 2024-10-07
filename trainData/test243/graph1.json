@@ -1,0 +1,790 @@
+[
+    {
+        "cfgs": [],
+        "code": "char quote",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "9b452f36f0c09345c0198aee42d422d44e26a302"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "if(doubleQuoteCount == 0 && singleQuoteCount == 0)",
+        "dfgs": [
+            6,
+            4
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "9b452f36f0c09345c0198aee42d422d44e26a302"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "quote = suggestedQuote",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "9b452f36f0c09345c0198aee42d422d44e26a302"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "9b452f36f0c09345c0198aee42d422d44e26a302"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "quote = doubleQuoteCount >= singleQuoteCount ? '\"' : '\\''",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "9b452f36f0c09345c0198aee42d422d44e26a302"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "escape.remove(delimiter)",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "79e23a71801ca1e83942888b6164a2a066f87db9"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "char quoteEscape = doubleQuoteCount == 0 && singleQuoteCount == 0 ? suggestedQuoteEscape : max(escape, totals, quote)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "9b452f36f0c09345c0198aee42d422d44e26a302"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "apply(delimiter, quote, quoteEscape)",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "79e23a71801ca1e83942888b6164a2a066f87db9"
+        ]
+    },
+    {
+        "cfgs": [
+            9,
+            30
+        ],
+        "code": "if (toRemove.size() == sums.size())",
+        "dfgs": [
+            30,
+            29
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Map<Character, Integer> lineCount = new HashMap<Character, Integer>()",
+        "dfgs": [
+            17,
+            12
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 208,
+        "lineEnd": 208,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            16
+        ],
+        "code": "for (i = 0; i < symbolsPerRow.size(); i++)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 209,
+        "lineEnd": 209,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "for (Character symbolInRow : symbolsPerRow.get(i).keySet())",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 210,
+        "lineEnd": 210,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "Integer count = lineCount.get(symbolInRow)",
+        "dfgs": [
+            15,
+            13
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14,
+            15
+        ],
+        "code": "if (count == null)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 212,
+        "lineEnd": 212,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "count = 0",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lineCount.put(symbolInRow, count + 1)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 215,
+        "lineEnd": 215,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "Integer highestLineCount = null",
+        "dfgs": [
+            22,
+            18
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 219,
+        "lineEnd": 219,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            18
+        ],
+        "code": "for (Map.Entry<Character, Integer> e : lineCount.entrySet())",
+        "dfgs": [
+            21,
+            18,
+            19
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "if (highestLineCount == null || highestLineCount < e.getValue())",
+        "dfgs": [
+            22,
+            19
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 221,
+        "lineEnd": 221,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "highestLineCount = e.getValue()",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 222,
+        "lineEnd": 222,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "Character bestCandidate = null",
+        "dfgs": [
+            28,
+            23
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28,
+            22
+        ],
+        "code": "for (Map.Entry<Character, Integer> e : lineCount.entrySet())",
+        "dfgs": [
+            30,
+            22
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "if (e.getValue().equals(highestLineCount))",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24,
+            25
+        ],
+        "code": "if (bestCandidate == null)",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 229,
+        "lineEnd": 229,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "bestCandidate = e.getKey()",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "bestCandidate = null",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 233,
+        "lineEnd": 233,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29,
+            30
+        ],
+        "code": "if (bestCandidate != null)",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 239,
+        "lineEnd": 239,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "toRemove.remove(bestCandidate)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "char delimiter = pickDelimiter(sums, totals)",
+        "dfgs": [
+            37,
+            36,
+            38,
+            33
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": -1,
+        "methodParents": [
+            39
+        ],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "char quote",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33,
+            34
+        ],
+        "code": "if (doubleQuoteCount == 0 && singleQuoteCount == 0)",
+        "dfgs": [
+            37,
+            35
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 257,
+        "lineEnd": 257,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "quote = suggestedQuote",
+        "dfgs": [
+            38,
+            37
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "quote = doubleQuoteCount >= singleQuoteCount ? '\"' : '\\''",
+        "dfgs": [
+            38,
+            37
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "escape.remove(delimiter)",
+        "dfgs": [
+            38,
+            37
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "char quoteEscape = doubleQuoteCount == 0 && singleQuoteCount == 0 ? suggestedQuoteEscape : max(escape, totals, quote)",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 264,
+        "lineEnd": 264,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "apply(delimiter, quote, quoteEscape)",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "private char pickDelimiter(Map<Character, Integer> sums, Map<Character, Integer> totals) ",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return delimiter",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvFormatDetector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    }
+]

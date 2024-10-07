@@ -1,0 +1,1 @@
+{"repo": "logstash-logback-encoder", "fix": "3db3db6c60c286b8f85964a32829120ad9acc82a", "induce": ["c88fb9fc0bc38a6041bc430857c4f7cd7f2d80ff"]}

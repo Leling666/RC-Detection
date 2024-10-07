@@ -1,0 +1,66 @@
+[
+    {
+        "cfgs": [],
+        "code": "log.debug(\"Loading service [{}] implementation [{}]\", service.getInterface(),service.getClass())",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_Services.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 238,
+        "lineEnd": 239,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "a77190dbaa033ed37a882d847da99d5ba4c1571f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "log.debug(\"Replacing service [{}] implementation [{}]\", service.getInterface(),service.getClass())",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_Services.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 272,
+        "lineEnd": 273,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "a77190dbaa033ed37a882d847da99d5ba4c1571f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "log.debug(\"Loading service [{0}] implementation [{1}]\", service.getInterface(),service.getClass())",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_Services.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 239,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "log.debug(\"Replacing service [{0}] implementation [{1}]\", service.getInterface(),service.getClass())",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_Services.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 272,
+        "lineEnd": 273,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    }
+]

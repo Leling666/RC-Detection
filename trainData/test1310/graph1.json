@@ -1,0 +1,470 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "assertTrue(handler.getLastError() < 8.0e-8)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "f4c984a31bffd7e1d6d88dd3b603f9b19a998ef2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(handler.getMaximalValueError() < 2.0e-7)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "f4c984a31bffd7e1d6d88dd3b603f9b19a998ef2"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "assertTrue(integ.getEvaluations() > 150)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_AdamsMoultonIntegratorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "d8575cde512b07b039a14b15fb3a196dacaf9a99"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(integ.getEvaluations() < 100)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_AdamsMoultonIntegratorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "8717704d9a12b8c9754f47434c033696d3c7500c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "StepInterpolatorTestUtils.checkDerivativesConsistency(integ, pb, 1.0e-10)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_HighamHall54StepInterpolatorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "273892eeca02f0e10f775625ba4964227e874d98"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Arrays",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "8702a27155aebeb3851af0710cbb0befe7f160f5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final double[] scale",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "0010754c0b2eb5a5dc490acdf4f4948330363e23"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            9
+        ],
+        "code": "if (vecAbsoluteTolerance != null)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "05195b77ca8d86fbb4fdd9216f436d8b7f3a57de"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "scale = vecAbsoluteTolerance",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "05195b77ca8d86fbb4fdd9216f436d8b7f3a57de"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "05195b77ca8d86fbb4fdd9216f436d8b7f3a57de"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "scale = new double[y0.length]",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "05195b77ca8d86fbb4fdd9216f436d8b7f3a57de"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Arrays.fill(scale, scalAbsoluteTolerance)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "8702a27155aebeb3851af0710cbb0befe7f160f5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(maxError < 4e-11)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_HighamHall54IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 390,
+        "lineEnd": 390,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "62c72ca66d16eeda12c79dc56460b772e541dbf3"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertTrue(handler.getLastError() < 8.1e-8)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(handler.getMaximalValueError() < 1.1e-7)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "assertTrue(integ.getEvaluations() > 140)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_AdamsMoultonIntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(integ.getEvaluations() < 90)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_AdamsMoultonIntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "StepInterpolatorTestUtils.checkDerivativesConsistency(integ, pb, 1.1e-10)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_HighamHall54StepInterpolatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "final double[] scale = new double[y0.length]",
+        "dfgs": [
+            21,
+            24,
+            20,
+            23
+        ],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            22
+        ],
+        "code": "if (vecAbsoluteTolerance == null)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "for (int i = 0; i < scale.length; ++i)",
+        "dfgs": [
+            21,
+            24
+        ],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "scale[i] = scalAbsoluteTolerance + scalRelativeTolerance * Math.abs(y[i])",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "for (int i = 0; i < scale.length; ++i)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "scale[i] = vecAbsoluteTolerance[i] + vecRelativeTolerance[i] * Math.abs(y[i])",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_ode_nonstiff_EmbeddedRungeKuttaIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(maxError < 4.2e-11)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_ode_nonstiff_HighamHall54IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 390,
+        "lineEnd": 390,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    }
+]

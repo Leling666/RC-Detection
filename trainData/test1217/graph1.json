@@ -1,0 +1,130 @@
+[
+    {
+        "cfgs": [],
+        "code": "public void shouldCompareToBeConsistentWithEquals() ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_ShouldMocksCompareToBeConsistentWithEqualsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "db1c0c1f6eae25857faa9b503e004d3d06c00867"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void shouldAllowStubbingAndVerifyingCompareTo() ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_ShouldMocksCompareToBeConsistentWithEqualsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "db1c0c1f6eae25857faa9b503e004d3d06c00867"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void shouldResetNotRemoveDefaultStubbing() ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_ShouldMocksCompareToBeConsistentWithEqualsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "db1c0c1f6eae25857faa9b503e004d3d06c00867"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1, mock.compareTo(new Date()))",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_ShouldMocksCompareToBeConsistentWithEqualsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "db1c0c1f6eae25857faa9b503e004d3d06c00867"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void should_compare_to_be_consistent_with_equals() ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_ShouldMocksCompareToBeConsistentWithEqualsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void should_compare_to_be_consistent_with_equals_when_comparing_the_same_reference() ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_ShouldMocksCompareToBeConsistentWithEqualsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void should_allow_stubbing_and_verifying_compare_to() ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_ShouldMocksCompareToBeConsistentWithEqualsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void should_reset_not_remove_default_stubbing() ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_ShouldMocksCompareToBeConsistentWithEqualsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    }
+]

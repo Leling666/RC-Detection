@@ -1,0 +1,432 @@
+[
+    {
+        "cfgs": [],
+        "code": "public void testSame(String[] js, DiagnosticType error, DiagnosticType warning) ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 619,
+        "lineEnd": 619,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (mainRootClone.checkTreeEqualsSilent(mainRoot))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 806,
+        "lineEnd": 806,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "NodeTraversal.traverse(compiler, root,new NormalizeStatements(compiler, assertOnChange))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_Normalize.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 120,
+        "lineEnd": 121,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "9a185e0c06b0a595ca0e6fb7990945cd0114a12f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Preconditions.checkState(n.getType() == Token.NAME|| n.getType() == Token.STRING|| n.getType() == Token.GET|| n.getType() == Token.SET)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_Normalize.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 350,
+        "lineEnd": 354,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "24b7eb9a4a8850f2d0988eb81245b4b9a977d53a",
+            "2e68acb05c7a37396c9efc449e14226b6d3fb7eb"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"var a = { get CONST() {return 3} }; \" +\"var b = a.CONST;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_NormalizeTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 430,
+        "lineEnd": 431,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "2e68acb05c7a37396c9efc449e14226b6d3fb7eb"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean allowExternsChanges = false",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "protected void allowExternsChanges(boolean allowExternsChanges) ",
+        "dfgs": [
+            7
+        ],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 201,
+        "lineEnd": 201,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.allowExternsChanges = allowExternsChanges",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testSame(String[] js, DiagnosticType error, DiagnosticType warning)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 631,
+        "lineEnd": 632,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "boolean codeChange = !mainRootClone.checkTreeEqualsSilent(mainRoot)",
+        "dfgs": [
+            14
+        ],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 819,
+        "lineEnd": 819,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "boolean externsChange = !externsRootClone.checkTreeEqualsSilent(externsRoot)",
+        "dfgs": [
+            11,
+            12
+        ],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 820,
+        "lineEnd": 821,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12,
+            14
+        ],
+        "code": "if (externsChange && !allowExternsChanges)",
+        "dfgs": [
+            13,
+            14
+        ],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 824,
+        "lineEnd": 824,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "String explanation = externsRootClone.checkTreeEquals(externsRoot)",
+        "dfgs": [
+            13
+        ],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 825,
+        "lineEnd": 825,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "fail(\"Unexpected changes to externs\" +\"\\nExpected: \" + compiler.toSource(externsRootClone) +\"\\nResult: \" + compiler.toSource(externsRoot) +\"\\n\" + explanation)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 826,
+        "lineEnd": 829,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (!codeChange && !externsChange)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerTestCase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 832,
+        "lineEnd": 832,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "compiler.reportCodeChange()",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_VarCheck.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 221,
+        "lineEnd": 221,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "new NodeTraversal(compiler, new NormalizeStatements(compiler, assertOnChange)).traverseRoots(externs, root)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_Normalize.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 122,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Preconditions.checkState(n.getType() == Token.NAME|| n.getType() == Token.STRING|| n.getType() == Token.GET|| n.getType() == Token.SET)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_Normalize.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 351,
+        "lineEnd": 355,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "super.allowExternsChanges(true)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_VarCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected void setUp() ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ObjectPropertyStringPreprocessTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "super.allowExternsChanges(true)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ObjectPropertyStringPreprocessTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "public void testIssue() ",
+        "dfgs": [
+            22,
+            23
+        ],
+        "fName": "test_com_google_javascript_jscomp_NormalizeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 384,
+        "lineEnd": 384,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "super.allowExternsChanges(true)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_NormalizeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 385,
+        "lineEnd": 385,
+        "lineMapIndex": -1,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a,b,c; var a,b\", \"a(), b()\", \"a(), b()\", null, null)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_NormalizeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 386,
+        "lineEnd": 386,
+        "lineMapIndex": -1,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"var a = { get CONST() {return 3} }; \" +\"var b = a.CONST;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_NormalizeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 435,
+        "lineEnd": 436,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    }
+]

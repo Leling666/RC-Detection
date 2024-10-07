@@ -1,0 +1,251 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (c.canInline())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FlowSensitiveInlineVariables.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": 10,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean canInline() ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FlowSensitiveInlineVariables.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "bc3e3a494c406098064ee63487f9bfafcf3354f3"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void testDoNotInlineCatchExpression1() ",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var a;\\n\" +\"try {\\n\" +\"  throw Error(\\\"\\\");\\n\" +\"}catch(err) {\" +\"   a = err;\\n\" +\"}\\n\" +\"return a.stack\\n\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 153,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "public void testDoNotInlineCatchExpression1a() ",
+        "dfgs": [
+            5
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var a;\\n\" +\"try {\\n\" +\"  throw Error(\\\"\\\");\\n\" +\"}catch(err) {\" +\"   a = err + 1;\\n\" +\"}\\n\" +\"return a.stack\\n\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 157,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public void testDoNotInlineCatchExpression2() ",
+        "dfgs": [
+            7
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var a;\\n\" +\"try {\\n\" +\"  if (x) {throw Error(\\\"\\\");}\\n\" +\"}catch(err) {\" +\"   a = err;\\n\" +\"}\\n\" +\"return a.stack\\n\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 168,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "public void testDoNotInlineCatchExpression3() ",
+        "dfgs": [
+            9
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var a;\\n\" +\"try {\\n\" +\"  throw Error(\\\"\\\");\\n\" +\"} catch(err) {\" +\"  err = x;\\n\" +\"  a = err;\\n\" +\"}\\n\" +\"return a.stack\\n\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 179,
+        "lineEnd": 187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (c.canInline(t.getScope()))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FlowSensitiveInlineVariables.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": 0,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean canInline(final Scope scope) ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FlowSensitiveInlineVariables.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Var var = scope.getOwnSlot(input.getString())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FlowSensitiveInlineVariables.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (var != null&& var.getParentNode().isCatch())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FlowSensitiveInlineVariables.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 377,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FlowSensitiveInlineVariables.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    }
+]

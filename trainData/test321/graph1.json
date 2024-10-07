@@ -1,0 +1,1225 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<table><tr><td>Hello</td><td><p>There</p><p>now</p></td></tr></table>\", TextUtil.stripNewlines(doc.body().html()))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "707e09ddad80237ff75f0e7b79f0fe722e024c62"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private Tag parent",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.parent != null",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.equals(child.parent)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (canContainBlock != tag.canContainBlock)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "779bae32dc83982012956eeb30dd0cd7c3ccdab2"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (canContainInline != tag.canContainInline)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "779bae32dc83982012956eeb30dd0cd7c3ccdab2"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "if (empty != tag.empty)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "779bae32dc83982012956eeb30dd0cd7c3ccdab2"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (isBlock != tag.isBlock)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "779bae32dc83982012956eeb30dd0cd7c3ccdab2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (optionalClosing != tag.optionalClosing)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "779bae32dc83982012956eeb30dd0cd7c3ccdab2"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "createBlock(\"THEAD\").setParent(\"TABLE\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": 43,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "createBlock(\"TFOOT\").setParent(\"TABLE\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": 44,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "createBlock(\"TBODY\").setParent(\"TABLE\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 321,
+        "lineEnd": 321,
+        "lineMapIndex": 45,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "createBlock(\"COLGROUP\").setParent(\"TABLE\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": 46,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "createBlock(\"TR\").setParent(\"TABLE\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": 47,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "createBlock(\"TH\").setParent(\"TR\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 325,
+        "lineEnd": 325,
+        "lineMapIndex": 48,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "createBlock(\"TD\").setParent(\"TR\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 326,
+        "lineEnd": 326,
+        "lineMapIndex": 49,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (tagNames == null)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "2f98b3a3d4d4621a3e2519e072447b6c7b95f075"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "private Tag setParent(String tagName) ",
+        "dfgs": [
+            19,
+            18
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 390,
+        "lineEnd": 390,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "parent = Tag.valueOf(tagName)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 391,
+        "lineEnd": 391,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "setAncestor(tagName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 392,
+        "lineEnd": 392,
+        "lineMapIndex": -1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "3e8cf582f79cd5e5320cda4caa2044fa433d8fcf"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<h1>Head</h1><table><tr><td>One</td><td>Two</td></tr></table>\", TextUtil.stripNewlines(cleanHtml))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_safety_CleanerTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "707e09ddad80237ff75f0e7b79f0fe722e024c62"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<table><tbody><tr><td>Hello</td><td><p>There</p><p>now</p></td></tr></tbody></table>\", TextUtil.stripNewlines(doc.body().html()))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "public void handlesWhatWgExpensesTableExample() ",
+        "dfgs": [
+            24,
+            23
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 192,
+        "lineEnd": 192,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "Document doc = Jsoup.parse(\"<table> <colgroup> <col> <colgroup> <col> <col> <col> <thead> <tr> <th> <th>2008 <th>2007 <th>2006 <tbody> <tr> <th scope=rowgroup> Research and development <td> $ 1,109 <td> $ 782 <td> $ 712 <tr> <th scope=row> Percentage of net sales <td> 3.4% <td> 3.3% <td> 3.7% <tbody> <tr> <th scope=rowgroup> Selling, general, and administrative <td> $ 3,761 <td> $ 2,963 <td> $ 2,433 <tr> <th scope=row> Percentage of net sales <td> 11.6% <td> 12.3% <td> 12.6% </table>\")",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 194,
+        "lineEnd": 194,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<table> <colgroup> <col /> </colgroup><colgroup> <col /> <col /> <col /> </colgroup><thead> <tr> <th> </th><th>2008 </th><th>2007 </th><th>2006 </th></tr></thead><tbody> <tr> <th scope=\\\"rowgroup\\\">Research and development </th><td>$ 1,109 </td><td>$ 782 </td><td>$ 712 </td></tr><tr> <th scope=\\\"row\\\">Percentage of net sales </th><td>3.4% </td><td>3.3% </td><td>3.7% </td></tr></tbody><tbody> <tr> <th scope=\\\"rowgroup\\\">Selling, general, and administrative </th><td>$ 3,761 </td><td>$ 2,963 </td><td>$ 2,433 </td></tr><tr> <th scope=\\\"row\\\">Percentage of net sales </th><td>11.6% </td><td>12.3% </td><td>12.6% </td></tr></tbody></table>\", TextUtil.stripNewlines(doc.body().html()))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "public void handlesTbodyTable() ",
+        "dfgs": [
+            27,
+            26
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "Document doc = Jsoup.parse(\"<html><head></head><body><table><tbody><tr><td>aaa</td><td>bbb</td></tr></tbody></table></body></html>\")",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<table><tbody><tr><td>aaa</td><td>bbb</td></tr></tbody></table>\", TextUtil.stripNewlines(doc.body().html()))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 200,
+        "lineEnd": 200,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private List<Tag> excludes = Collections.emptyList()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean directDescendant",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean limitChildren",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "tag.setExcludes()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33,
+            37
+        ],
+        "code": "if (limitChildren)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            30
+        ],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36,
+            34
+        ],
+        "code": "for (Tag childParent : child.ancestors)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "if (childParent.equals(this))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "if (!excludes.isEmpty())",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "for (Tag excluded: excludes)",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "if (child.equals(excluded))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return directDescendant",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            29
+        ],
+        "isDel": false,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return isValidAncestor(child)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "createBlock(\"THEAD\").setParent(\"TABLE\").setLimitChildren().setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 334,
+        "lineEnd": 334,
+        "lineMapIndex": 9,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "createBlock(\"TFOOT\").setParent(\"TABLE\").setLimitChildren().setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 335,
+        "lineEnd": 335,
+        "lineMapIndex": 10,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "createBlock(\"TBODY\").setParent(\"TABLE\").setLimitChildren().setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 336,
+        "lineEnd": 336,
+        "lineMapIndex": 11,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "createBlock(\"COLGROUP\").setParent(\"TABLE\").setLimitChildren().setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 337,
+        "lineEnd": 337,
+        "lineMapIndex": 12,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "createBlock(\"TR\").setParent(\"TBODY\", \"THEAD\", \"TFOOT\", \"TABLE\").setLimitChildren().setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": 13,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "createBlock(\"TH\").setParent(\"TR\").setExcludes(\"THEAD\", \"TFOOT\", \"TBODY\", \"COLGROUP\", \"COL\", \"TR\", \"TH\", \"TD\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": 14,
+        "methodParents": [
+            59
+        ],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "createBlock(\"TD\").setParent(\"TR\").setExcludes(\"THEAD\", \"TFOOT\", \"TBODY\", \"COLGROUP\", \"COL\", \"TR\", \"TH\", \"TD\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": 15,
+        "methodParents": [
+            59
+        ],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (tagNames == null || tagNames.length == 0)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 394,
+        "lineEnd": 394,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "private Tag setExcludes(String... tagNames) ",
+        "dfgs": [
+            58,
+            52,
+            55,
+            53,
+            56,
+            57
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53,
+            54
+        ],
+        "code": "if (tagNames == null || tagNames.length == 0)",
+        "dfgs": [
+            56,
+            55
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "excludes = Collections.emptyList()",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 408,
+        "lineEnd": 408,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "excludes = new ArrayList<Tag>(tagNames.length)",
+        "dfgs": [
+            58,
+            56,
+            57
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 409,
+        "lineEnd": 409,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58,
+            57
+        ],
+        "code": "for (String name : tagNames)",
+        "dfgs": [
+            57
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 410,
+        "lineEnd": 410,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "excludes.add(Tag.valueOf(name))",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 411,
+        "lineEnd": 411,
+        "lineMapIndex": -1,
+        "methodParents": [
+            31
+        ],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 414,
+        "lineEnd": 414,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "private Tag setParent(String... tagNames) ",
+        "dfgs": [
+            60,
+            61,
+            62
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 417,
+        "lineEnd": 417,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "directDescendant = true",
+        "dfgs": [
+            61
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            29
+        ],
+        "isDel": false,
+        "lineBeg": 418,
+        "lineEnd": 418,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "setAncestor(tagNames)",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 419,
+        "lineEnd": 419,
+        "lineMapIndex": -1,
+        "methodParents": [
+            50
+        ],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 420,
+        "lineEnd": 420,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "private Tag setLimitChildren() ",
+        "dfgs": [
+            64
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 423,
+        "lineEnd": 423,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "limitChildren = true",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [
+            30
+        ],
+        "isDel": false,
+        "lineBeg": 424,
+        "lineEnd": 424,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<h1>Head</h1><table><tbody><tr><td>One</td><td>Two</td></tr></tbody></table>\", TextUtil.stripNewlines(cleanHtml))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_safety_CleanerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,2309 @@
+[
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnFalse()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnChar()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 196,
+        "lineEnd": 196,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) reportMatcher(Any.ANY).returnNull()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) reportMatcher(Any.ANY).returnFor(clazz)",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "844457bd9817d05e1a6b408beadcd74fb3f6b61c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) anyObject()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": -1,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "725053238a55e3f8ec58ff19421ebf91de081bd8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnString()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 323,
+        "lineEnd": 323,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnList()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (List) reportMatcher(Any.ANY).returnList()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 357,
+        "lineEnd": 357,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "495a4902bf755c692fc3f40ea7d4de48cc9e4e69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnSet()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 372,
+        "lineEnd": 372,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (Set) reportMatcher(Any.ANY).returnSet()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 391,
+        "lineEnd": 391,
+        "lineMapIndex": 73,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "495a4902bf755c692fc3f40ea7d4de48cc9e4e69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnMap()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnMap()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 426,
+        "lineEnd": 426,
+        "lineMapIndex": 75,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "2ccc300ae50ff53106cd6ec08a863cf524c8f009"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(Any.ANY).returnList()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 441,
+        "lineEnd": 441,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (Collection) reportMatcher(Any.ANY).returnList()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 460,
+        "lineEnd": 460,
+        "lineMapIndex": 77,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "495a4902bf755c692fc3f40ea7d4de48cc9e4e69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public static final Any ANY = new Any()",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_matchers_Any.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": 78,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "7cf6470d88491fe472e28493b50eba8a6fbf0433"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "when(mock.oneArg(anyString())).thenReturn(\"1\")",
+        "dfgs": [
+            22
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": 79,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "97194a6efa55ccaaec277fab470c076cb448c003"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "assertEquals(\"1\", mock.oneArg(\"\"))",
+        "dfgs": [
+            23
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": 80,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "e86b9ac95b53d6aa54de989d8694fcc0f55a2362"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "assertEquals(\"1\", mock.oneArg(\"any string\"))",
+        "dfgs": [
+            24
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": 81,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "e86b9ac95b53d6aa54de989d8694fcc0f55a2362"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(null, mock.oneArg((Object) null))",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": 87,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "66b6c1ddc099393d1a2d419b7486a609329341f5"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "when(mock.forList(anyList())).thenReturn(\"x\")",
+        "dfgs": [
+            26
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 89,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "assertEquals(\"x\", mock.forList(null))",
+        "dfgs": [
+            27
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 91,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "assertEquals(\"x\", mock.forList(Arrays.asList(\"x\", \"y\")))",
+        "dfgs": [
+            28
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 90,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "verify(mock, times(2)).forList(anyList())",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 92,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "when(mock.forCollection(anyCollection())).thenReturn(\"x\")",
+        "dfgs": [
+            30
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 93,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "assertEquals(\"x\", mock.forCollection(null))",
+        "dfgs": [
+            31
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 95,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "assertEquals(\"x\", mock.forCollection(Arrays.asList(\"x\", \"y\")))",
+        "dfgs": [
+            32
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 94,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "verify(mock, times(2)).forCollection(anyCollection())",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 96,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "when(mock.forMap(anyMap())).thenReturn(\"x\")",
+        "dfgs": [
+            34
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 97,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "assertEquals(\"x\", mock.forMap(null))",
+        "dfgs": [
+            35
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 99,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "assertEquals(\"x\", mock.forMap(new HashMap<String, String>()))",
+        "dfgs": [
+            36
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 98,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "verify(mock, times(2)).forMap(anyMap())",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": 100,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "when(mock.forSet(anySet())).thenReturn(\"x\")",
+        "dfgs": [
+            38
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 101,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "assertEquals(\"x\", mock.forSet(null))",
+        "dfgs": [
+            39
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": 103,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "assertEquals(\"x\", mock.forSet(new HashSet<String>()))",
+        "dfgs": [
+            40
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": 102,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "verify(mock, times(2)).forSet(anySet())",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 104,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "2e0f918ff2f693c5704ba3832a94ffccddf97840"
+        ]
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "\rpublic void shouldAnyXMatchersAcceptNull()",
+        "dfgs": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 27,
+        "lineMapIndex": 108,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "assertEquals(\"0\", mock.oneArg((Object) null))",
+        "dfgs": [
+            43
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 109,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "assertEquals(\"1\", mock.oneArg((String) null))",
+        "dfgs": [
+            44
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 110,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "assertEquals(\"2\", mock.forList(null))",
+        "dfgs": [
+            45
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 111,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "assertEquals(\"3\", mock.forMap(null))",
+        "dfgs": [
+            46
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": 112,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "assertEquals(\"4\", mock.forCollection(null))",
+        "dfgs": [
+            47
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": 113,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"5\", mock.forSet(null))",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": 114,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "\rpublic void shouldAcceptNullsInAllPrimitiveWrapperAnyMatchers()",
+        "dfgs": [
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 44,
+        "lineMapIndex": 115,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89",
+            "d5fbea104b183befe03037ce18b186cfc92da239"
+        ]
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "assertEquals(\"0\", mock.forInteger(null))",
+        "dfgs": [
+            50
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 116,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "assertEquals(\"1\", mock.forCharacter(null))",
+        "dfgs": [
+            51
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 117,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "assertEquals(\"2\", mock.forShort(null))",
+        "dfgs": [
+            52
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": 118,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "assertEquals(\"3\", mock.forByte(null))",
+        "dfgs": [
+            53
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": 119,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "assertEquals(\"4\", mock.forBoolean(null))",
+        "dfgs": [
+            54
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 120,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "assertEquals(\"5\", mock.forLong(null))",
+        "dfgs": [
+            55
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 121,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "assertEquals(\"6\", mock.forFloat(null))",
+        "dfgs": [
+            56
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 122,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"7\", mock.forDouble(null))",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 123,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.hamcrest.core.IsNull",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Boolean.class)).returnFalse()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Byte.class)).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Character.class)).returnChar()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Integer.class)).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Long.class)).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Float.class)).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Double.class)).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 212,
+        "lineEnd": 212,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Short.class)).returnZero()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) reportMatcher(new InstanceOf(Object.class)).returnNull()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) reportMatcher(new InstanceOf(clazz)).returnFor(clazz)",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) reportMatcher(Any.ANY).returnNull()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(String.class)).returnString()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(List.class)).returnList()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return anyList()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 358,
+        "lineEnd": 358,
+        "lineMapIndex": 13,
+        "methodParents": [
+            70
+        ],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Set.class)).returnSet()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return anySet()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 392,
+        "lineEnd": 392,
+        "lineMapIndex": 15,
+        "methodParents": [
+            72
+        ],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Map.class)).returnMap()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return anyMap()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 427,
+        "lineEnd": 427,
+        "lineMapIndex": 17,
+        "methodParents": [
+            74
+        ],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(Collection.class)).returnList()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 442,
+        "lineEnd": 442,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return anyCollection()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 461,
+        "lineEnd": 461,
+        "lineMapIndex": 19,
+        "methodParents": [
+            76
+        ],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static final Any ANY = new Any()",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_matchers_Any.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "when(mock.oneArg(anyString())).thenReturn(\"matched\")",
+        "dfgs": [
+            80
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": 21,
+        "methodParents": [
+            69
+        ],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "assertEquals(\"matched\", mock.oneArg(\"\"))",
+        "dfgs": [
+            81
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "assertEquals(\"matched\", mock.oneArg(\"any string\"))",
+        "dfgs": [
+            82
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(null, mock.oneArg((String) null))",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "when(mock.forObject(any())).thenReturn(\"matched\")",
+        "dfgs": [
+            84
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            85
+        ],
+        "code": "assertEquals(\"matched\", mock.forObject(123))",
+        "dfgs": [
+            85
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 239,
+        "lineEnd": 239,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "assertEquals(\"matched\", mock.forObject(\"any string\"))",
+        "dfgs": [
+            86
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "assertEquals(\"matched\", mock.forObject(\"any string\"))",
+        "dfgs": [
+            87
+        ],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"matched\", mock.forObject((Object) null))",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": 24,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void anyXMatcher() ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_MatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90
+        ],
+        "code": "when(mock.forList(anyList())).thenReturn(\"matched\")",
+        "dfgs": [
+            90
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 25,
+        "methodParents": [
+            70
+        ],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91
+        ],
+        "code": "assertEquals(\"matched\", mock.forList(Arrays.asList(\"x\", \"y\")))",
+        "dfgs": [
+            91
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "assertEquals(null, mock.forList(null))",
+        "dfgs": [
+            92
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "verify(mock, times(1)).forList(anyList())",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 28,
+        "methodParents": [
+            70
+        ],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "when(mock.forCollection(anyCollection())).thenReturn(\"matched\")",
+        "dfgs": [
+            94
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 29,
+        "methodParents": [
+            76
+        ],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "assertEquals(\"matched\", mock.forCollection(Arrays.asList(\"x\", \"y\")))",
+        "dfgs": [
+            95
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96
+        ],
+        "code": "assertEquals(null, mock.forCollection(null))",
+        "dfgs": [
+            96
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "verify(mock, times(1)).forCollection(anyCollection())",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 32,
+        "methodParents": [
+            76
+        ],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "when(mock.forMap(anyMap())).thenReturn(\"matched\")",
+        "dfgs": [
+            98
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 33,
+        "methodParents": [
+            74
+        ],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            99
+        ],
+        "code": "assertEquals(\"matched\", mock.forMap(new HashMap<String, String>()))",
+        "dfgs": [
+            99
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            100
+        ],
+        "code": "assertEquals(null, mock.forMap(null))",
+        "dfgs": [
+            100
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "verify(mock, times(1)).forMap(anyMap())",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": 36,
+        "methodParents": [
+            74
+        ],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            102
+        ],
+        "code": "when(mock.forSet(anySet())).thenReturn(\"matched\")",
+        "dfgs": [
+            102
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 37,
+        "methodParents": [
+            72
+        ],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "assertEquals(\"matched\", mock.forSet(new HashSet<String>()))",
+        "dfgs": [
+            103
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "assertEquals(null, mock.forSet(null))",
+        "dfgs": [
+            104
+        ],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "verify(mock, times(1)).forSet(anySet())",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_NewMatchersTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 40,
+        "methodParents": [
+            72
+        ],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            106
+        ],
+        "code": "public String forObject(Object object) ",
+        "dfgs": [
+            106
+        ],
+        "fName": "test_org_mockitousage_MethodsImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 422,
+        "lineEnd": 422,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_MethodsImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 423,
+        "lineEnd": 423,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String forObject(Object object)",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_IMethods.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            109
+        ],
+        "code": "\rpublic void shouldNotAcceptNullInAnyXMatchers()",
+        "dfgs": [
+            109,
+            110,
+            111,
+            112,
+            113,
+            114
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 27,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "assertEquals(null, mock.oneArg((Object) null))",
+        "dfgs": [
+            110
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            111
+        ],
+        "code": "assertEquals(null, mock.oneArg((String) null))",
+        "dfgs": [
+            111
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112
+        ],
+        "code": "assertEquals(null, mock.forList(null))",
+        "dfgs": [
+            112
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            113
+        ],
+        "code": "assertEquals(null, mock.forMap(null))",
+        "dfgs": [
+            113
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            114
+        ],
+        "code": "assertEquals(null, mock.forCollection(null))",
+        "dfgs": [
+            114
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(null, mock.forSet(null))",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            116
+        ],
+        "code": "\rpublic void shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers()",
+        "dfgs": [
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 44,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            117
+        ],
+        "code": "assertEquals(null, mock.forInteger(null))",
+        "dfgs": [
+            117
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 49,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            118
+        ],
+        "code": "assertEquals(null, mock.forCharacter(null))",
+        "dfgs": [
+            118
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            119
+        ],
+        "code": "assertEquals(null, mock.forShort(null))",
+        "dfgs": [
+            119
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            120
+        ],
+        "code": "assertEquals(null, mock.forByte(null))",
+        "dfgs": [
+            120
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            121
+        ],
+        "code": "assertEquals(null, mock.forBoolean(null))",
+        "dfgs": [
+            121
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 53,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            122
+        ],
+        "code": "assertEquals(null, mock.forLong(null))",
+        "dfgs": [
+            122
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            123
+        ],
+        "code": "assertEquals(null, mock.forFloat(null))",
+        "dfgs": [
+            123
+        ],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(null, mock.forDouble(null))",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_matchers_AnyXMatchersAcceptNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    }
+]

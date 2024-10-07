@@ -1,0 +1,174 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "Preconditions.checkState(tryBody.isLabelName())",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "2f28243f97f468e92316a2c7ea209c857689ab43"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Preconditions.checkState(finallyBody.isLabelName())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 224,
+        "lineEnd": 224,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "2f28243f97f468e92316a2c7ea209c857689ab43"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Node catchBody = block(catchNode).copyInformationFrom(catchNode)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "2f28243f97f468e92316a2c7ea209c857689ab43"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public static Node tryCatchFinally(Node tryBody, Node catchNode, Node finallyBody) ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "2f28243f97f468e92316a2c7ea209c857689ab43"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "private static Node blockUnchecked(Node stmt) ",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new Node(Token.BLOCK, stmt)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Preconditions.checkState(tryBody.isBlock())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Preconditions.checkState(finallyBody.isBlock())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Node catchBody = blockUnchecked(catchNode).copyInformationFrom(catchNode)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": 2,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static Node tryCatchFinally(Node tryBody, Node catchNode, Node finallyBody)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_IR.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 241,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

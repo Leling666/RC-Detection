@@ -1,0 +1,1486 @@
+[
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.shared.internal.BuiltinFunction",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_PluginResolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final SoyErrorKind DEPRECATED_PLUGIN =SoyErrorKind.deprecation(\"{0} is deprecated: {1}\", StyleAllowance.NO_PUNCTUATION, StyleAllowance.NO_CAPS)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_PluginResolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 74,
+        "lineEnd": 76,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "eb0eba713eb1b9c9b4efbc80f1cdd0f6cb4c29df",
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (plugin instanceof BuiltinFunction)",
+        "dfgs": [
+            3
+        ],
+        "fName": "java_src_com_google_template_soy_passes_PluginResolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 436,
+        "lineEnd": 436,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "BuiltinFunction builtin = (BuiltinFunction) plugin",
+        "dfgs": [
+            4
+        ],
+        "fName": "java_src_com_google_template_soy_passes_PluginResolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 437,
+        "lineEnd": 437,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (!builtin.deprecatedWarning().isEmpty())",
+        "dfgs": [
+            5
+        ],
+        "fName": "java_src_com_google_template_soy_passes_PluginResolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 438,
+        "lineEnd": 438,
+        "lineMapIndex": -1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "reporter.warn(location, DEPRECATED_PLUGIN, name, builtin.deprecatedWarning())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_PluginResolver.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 439,
+        "lineEnd": 439,
+        "lineMapIndex": -1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "SoyFileSetParserBuilder builder =SoyFileSetParserBuilder.forTemplateAndImports(actual, protoDescriptors).allowUnboundGlobals(true).setLoggingConfig(loggingConfig).allowUnknownJsGlobals(true).errorReporter(ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).enableExperimentalFeatures(experimentalFeatures)",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_JsSrcSubject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 158,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "89ed9ec673d04ee3791757bc1f9764d204f521cb",
+            "709e2f8fb28767a0d9749e09a51f44fb939c0537",
+            "c3bab2c3d4791d8ce41b18dd0f13450ceee67d13",
+            "f4a8516b26814ef739604da434dc698bf65f173e",
+            "299707b116788569559c888aa01c77e502fcb0bd",
+            "7dae5a1a2b6868da939e7643741b67db1610f190"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ParseResult parseResult =builder.typeRegistry(typeRegistry).runOptimizer(true).errorReporter(ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).enableExperimentalFeatures(experimentalFeatures).parse()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jbcsrc_TemplateTester.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 355,
+        "lineEnd": 361,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "84029a28bb6363139d96db7fbb72899b2dbacb08",
+            "07060a5abc668fcd39ace32cbf0299d41528b50c",
+            "f4a8516b26814ef739604da434dc698bf65f173e",
+            "4db73d745449433bb0293f56f737fadb8704a06a",
+            "7dae5a1a2b6868da939e7643741b67db1610f190"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "SoyFileSetParser parser =SoyFileSetParserBuilder.forFileContents(file).errorReporter(ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).build()",
+        "dfgs": [
+            9
+        ],
+        "fName": "java_tests_com_google_template_soy_jbcsrc_TemplateTester.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 487,
+        "lineEnd": 490,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return BytecodeCompiler.compile(parseResult.registry(),parseResult.fileSet(),ErrorReporter.explodeOnErrorsAndIgnoreDeprecations(),parser.soyFileSuppliers(),parser.typeRegistry()).get()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jbcsrc_TemplateTester.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 492,
+        "lineEnd": 498,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "c1c56e259f181b7d9a571cb19fdcfe1e228d5a27",
+            "f2831e3a1831b15b21cbab26bdd2b3a80242c832",
+            "f4a8516b26814ef739604da434dc698bf65f173e",
+            "39b7db5631c957f3002cdf9d5b9b9671c6da16ce",
+            "6126bae72caa3ad98d6ae2a43f3ee6a4a93945de"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final SoyErrorKind DUPLICATE_KEY_ATTR =SoyErrorKind.deprecation(\"The key attribute is deprecated. Instead, use the '{'key'}' command.\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_KeyCommandPass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 52,
+        "lineMapIndex": 58,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "86bd724443ef9c338fb718b4101d448b01060c3c",
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "SoyFileSetNode soyTree =SoyFileSetParserBuilder.forFileContents(constructFileSource(\"{@inject list: list<int|null>}\",\"{for $item in $list}\",\"   {assertType('int', index($item))}\",\"   {assertType('bool', isLast($item))}\",\"   {assertType('bool', isFirst($item))}\",\"   {assertType('int|null', $item)}\",\"   {assertType('int', checkNotNull($item))}\",\"   {assertType('string', css('foo'))}\",\"   {assertType('string', xid('bar'))}\",\"{/for}\")).addSoyFunction(ASSERT_TYPE_FUNCTION).errorReporter(ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).parse().fileSet()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveExpressionTypesPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 746,
+        "lineEnd": 762,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "982652101213bbc6ca46e7619eec78d8930e6ea0",
+            "f4a8516b26814ef739604da434dc698bf65f173e",
+            "299707b116788569559c888aa01c77e502fcb0bd",
+            "c1c56e259f181b7d9a571cb19fdcfe1e228d5a27",
+            "824b41d620a90702ec7d509ea478f83a83d92a1f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "List<StandaloneNode> nodes =parseTemplateContent(templateBody, ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).getChildren()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_soyparse_TemplateParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1339,
+        "lineEnd": 1341,
+        "lineMapIndex": 60,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.annotations.VisibleForTesting",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new ExplodingErrorReporter() {@Overridepublic void report(SourceLocation sourceLocation, SoyErrorKind error, Object... args) {}@Overridepublic void warn(SourceLocation sourceLocation, SoyErrorKind error, Object... args) {}}",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 53,
+        "lineMapIndex": 61,
+        "methodParents": [
+            32
+        ],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void warn(SourceLocation sourceLocation, SoyErrorKind error, Object... args) ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "public static ErrorReporter explodeOnErrorsAndIgnoreDeprecations() ",
+        "dfgs": [
+            17
+        ],
+        "fName": "java_src_com_google_template_soy_error_ErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new ExplodingErrorReporter() {@Overridepublic void warn(SourceLocation sourceLocation, SoyErrorKind error, Object... args) {if (!error.isDeprecation()) {super.warn(sourceLocation, error, args);}}}",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 77,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [
+            32
+        ],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.error.ErrorReporter",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jbcsrc_TemplateAnalysisTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (TemplateNode)SoyFileSetParserBuilder.forFileContents(Joiner.on(\"\\n\").join(\"{namespace test}\",\"{template .caller}\",Joiner.on(\"\\n\").join(lines),\"{/template}\",\"\",// add an additional template as a callee.\"{template .foo}\",\"  {@param? p1 : ?}\",\"  {@param? p2 : ?}\",\"  {$p1 + $p2}\",\"{/template}\",\"\")).addSoyFunction(REFED_FUNCTION).addSoyFunction(NOT_REFED_FUNCTION).errorReporter(ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).parse().fileSet().getChild(0).getChild(0)",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jbcsrc_TemplateAnalysisTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 556,
+        "lineEnd": 578,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "1d88c42bdb70ef509f19566f4831a52e7aef4000",
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ParseResult parseResult =SoyFileSetParserBuilder.forTemplateContents(actual).errorReporter(ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).parse()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_pysrc_internal_SoyCodeForPySubject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 191,
+        "lineEnd": 194,
+        "lineMapIndex": 62,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            26,
+            27
+        ],
+        "code": "public String deprecatedWarning() ",
+        "dfgs": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+        ],
+        "fName": "java_src_com_google_template_soy_shared_internal_BuiltinFunction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "switch (this) ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_shared_internal_BuiltinFunction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case INDEX",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_shared_internal_BuiltinFunction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case IS_FIRST",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_shared_internal_BuiltinFunction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case IS_LAST",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_shared_internal_BuiltinFunction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"Use indexed for loops instead.\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_shared_internal_BuiltinFunction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_shared_internal_BuiltinFunction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "SoyFileSetParserBuilder.forFileContents(Joiner.on('\\n').join(lines)).errorReporter(ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).parse().fileSet()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_CheckFunctionCallsVisitorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 132,
+        "lineMapIndex": 63,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "class ExplodingErrorReporter extends ErrorReporter ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 64,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "static final ErrorReporter EXPLODING = new ExplodingErrorReporter()",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 66,
+        "methodParents": [
+            32
+        ],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "static final ErrorReporter EXPLODING_IGNORE_WARNINGS =new ExplodingErrorReporter() {@Overridepublic void warn(SourceLocation sourceLocation, SoyErrorKind error, Object... args) {checkNotNull(sourceLocation);}}",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ExplodingErrorReporter() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "protected final void explode(SourceLocation sourceLocation, SoyErrorKind error, Object... args) ",
+        "dfgs": [
+            34
+        ],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new AssertionError(String.format(\"Unexpected error: %s at %s\", error.format(args), sourceLocation))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 48,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "explode(sourceLocation, error, args)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 35,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "explode(sourceLocation, error, args)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 36,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final int getCurrentNumberOfErrors() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final int getCurrentNumberOfReports() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 69,
+        "lineEnd": 69,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public final void copyTo(ErrorReporter other) ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": 76,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public final ImmutableList<SoyError> getErrors() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public final ImmutableList<SoyError> getWarnings() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "SoyFileSetNode soyTree =SoyFileSetParserBuilder.forTemplateContents(templateBody).enableExperimentalFeatures(experimentalFeatures == null? ImmutableList.of(): ImmutableList.copyOf(experimentalFeatures.value())).errorReporter(ErrorReporter.explodeOnErrorsAndIgnoreDeprecations()).parse().fileSet()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_sharedpasses_render_RenderVisitorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 273,
+        "lineEnd": 281,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "92286d921b69339807e1de90235364d82b2f6997",
+            "f4a8516b26814ef739604da434dc698bf65f173e",
+            "374ff15ef4ed5cc15841dcc9c2148e5f1fa823e7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final boolean deprecation",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "private SoyErrorKind(MessageFormat messageFormat, boolean deprecation) ",
+        "dfgs": [
+            45
+        ],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 80,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.deprecation = deprecation",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [
+            43
+        ],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "public boolean isDeprecation() ",
+        "dfgs": [
+            47
+        ],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return deprecation",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [
+            43
+        ],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new SoyErrorKind(new MessageFormat(format), /* deprecation= */ false)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [
+            43
+        ],
+        "isDel": true,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 81,
+        "methodParents": [
+            44
+        ],
+        "nodeIndex": 48,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "public static SoyErrorKind deprecation(String format, StyleAllowance... exceptions) ",
+        "dfgs": [
+            50,
+            51
+        ],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "checkFormat(format, exceptions)",
+        "dfgs": [
+            51
+        ],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new SoyErrorKind(new MessageFormat(format), /* deprecation= */ true)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [
+            43
+        ],
+        "isDel": true,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [
+            44
+        ],
+        "nodeIndex": 51,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.ImmutableMap",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_htmlmatcher_HtmlMatcherConditionNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ErrorReporter errorReporter = ErrorReporter.create(ImmutableMap.of())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_htmlmatcher_HtmlMatcherConditionNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 82,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": true,
+        "commits": [
+            "f4a8516b26814ef739604da434dc698bf65f173e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final SoyErrorKind DEPRECATED_PLUGIN =SoyErrorKind.of(\"{0} is deprecated: {1}\", StyleAllowance.NO_PUNCTUATION, StyleAllowance.NO_CAPS)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_PluginResolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 75,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ParseResult parseResult =builder.typeRegistry(typeRegistry).runOptimizer(true).errorReporter(ErrorReporter.exploding()).enableExperimentalFeatures(experimentalFeatures).parse()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jbcsrc_TemplateTester.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 355,
+        "lineEnd": 361,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "SoyFileSetParser parser = SoyFileSetParserBuilder.forFileContents(file).build()",
+        "dfgs": [
+            57
+        ],
+        "fName": "java_tests_com_google_template_soy_jbcsrc_TemplateTester.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 487,
+        "lineEnd": 487,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return BytecodeCompiler.compile(parseResult.registry(),parseResult.fileSet(),ErrorReporter.exploding(),parser.soyFileSuppliers(),parser.typeRegistry()).get()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jbcsrc_TemplateTester.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 489,
+        "lineEnd": 495,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final SoyErrorKind DUPLICATE_KEY_ATTR =SoyErrorKind.of(\"The key attribute is deprecated. Instead, use the '{'key'}' command.\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_KeyCommandPass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 51,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertValidTemplate(\"{@param items : list<?>}\" + \"{for $item in $items}{index($item)}. {$item.name}<br>{/for}\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_soyparse_TemplateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 421,
+        "lineEnd": 422,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "List<StandaloneNode> nodes = parseTemplateContent(templateBody, FAIL).getChildren()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_soyparse_TemplateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1341,
+        "lineEnd": 1341,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new ErrorReporterImpl(ImmutableMap.of())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ParseResult parseResult = SoyFileSetParserBuilder.forTemplateContents(actual).parse()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_pysrc_internal_SoyCodeForPySubject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "SoyFileSetParserBuilder.forFileContents(Joiner.on('\\n').join(lines)).parse().fileSet()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_CheckFunctionCallsVisitorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final class ExplodingErrorReporter extends ErrorReporter ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "static final ErrorReporter EXPLODING = new ExplodingErrorReporter(false)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [
+            68
+        ],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "static final ErrorReporter EXPLODING_IGNORE_WARNINGS = new ExplodingErrorReporter(true)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 30,
+        "methodParents": [
+            68
+        ],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final boolean ignoreWarnings",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "private ExplodingErrorReporter(boolean ignoreWarnings) ",
+        "dfgs": [
+            69
+        ],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.ignoreWarnings = ignoreWarnings",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [
+            67
+        ],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new AssertionError(String.format(\"Unexpected error: %s at %s\", error.format(args), sourceLocation))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 48,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "if (!ignoreWarnings)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [
+            67
+        ],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new AssertionError(String.format(\"Unexpected warning: %s at %s\", error.format(args), sourceLocation))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int getCurrentNumberOfErrors() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int getCurrentNumberOfReports() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void copyTo(ErrorReporter other) ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public ImmutableList<SoyError> getErrors() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public ImmutableList<SoyError> getWarnings() ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_ExplodingErrorReporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "ErrorReporter boom = ErrorReporter.exploding()",
+        "dfgs": [
+            79
+        ],
+        "fName": "java_tests_com_google_template_soy_sharedpasses_render_RenderVisitorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "SoyFileSetNode soyTree =SoyFileSetParserBuilder.forTemplateContents(templateBody).enableExperimentalFeatures(experimentalFeatures == null? ImmutableList.of(): ImmutableList.copyOf(experimentalFeatures.value())).errorReporter(boom).parse().fileSet()",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_sharedpasses_render_RenderVisitorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 274,
+        "lineEnd": 282,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private SoyErrorKind(MessageFormat messageFormat) ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new SoyErrorKind(new MessageFormat(format))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_error_SoyErrorKind.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 48,
+        "methodParents": [
+            80
+        ],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ErrorReporter errorReporter = ErrorReporter.createForTest()",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_htmlmatcher_HtmlMatcherConditionNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": 53,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    }
+]

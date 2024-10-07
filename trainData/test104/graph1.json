@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "System.setProperty(\"hadoop.home.dir\", \"/tmp\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "7eb7b3b723c524ece8ef2247943eb631fefcfe41"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "System.setProperty(\"hadoop.home.dir\", System.getenv(\"HADOOP_HOME\"))",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

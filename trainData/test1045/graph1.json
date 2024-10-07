@@ -1,0 +1,1 @@
+[{"cfgs": [], "code": "assertThat(allocator.countDeallocations(), is(1))", "dfgs": [], "fName": "src_test_java_stormpot_PoolTest.java", "fieldParents": [], "isDel": true, "lineBeg": 2883, "lineEnd": 2883, "lineMapIndex": -1, "methodParents": [], "nodeIndex": 0, "rootcause": false, "commits": ["fc8b51fe221b35d96e2d17f7b3bbe127d750a8bc"]}]

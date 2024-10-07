@@ -1,0 +1,189 @@
+[
+    {
+        "cfgs": [
+            1,
+            2
+        ],
+        "code": "if (arr.length < maxNewArrUsed)",
+        "dfgs": [
+            2,
+            1
+        ],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "876ddc04b0f7932c755bfd2738297da6a772fe7e"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "arr = Arrays.copyOf(arr, (int) Math.min(arr.length * 2L, maxArrLen))",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "876ddc04b0f7932c755bfd2738297da6a772fe7e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final int maxBytesToRead = Math.min(maxNewArrUsed - arrUsed, arr.length - arrUsed)",
+        "dfgs": [],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "876ddc04b0f7932c755bfd2738297da6a772fe7e"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "long newArrLength = arr.length",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "while (newArrLength < maxNewArrUsed)",
+        "dfgs": [
+            6,
+            5
+        ],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "newArrLength = Math.min(maxNewArrUsed, newArrLength * 2L)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (newArrLength > FileUtils.MAX_BUFFER_SIZE)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "throw new IOException(\"Hit 2GB limit while trying to grow buffer array\")",
+        "dfgs": [],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "arr = Arrays.copyOf(arr, (int) Math.min(newArrLength, maxArrLen))",
+        "dfgs": [],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final int maxBytesToRead = arr.length - arrUsed",
+        "dfgs": [],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fileslice_reader_ClassfileReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

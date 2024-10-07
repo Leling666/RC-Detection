@@ -1,0 +1,149 @@
+[
+    {
+        "cfgs": [],
+        "code": "returnParam = ReflectKit.invokeMethod(target, hookMethod, routeSignature)",
+        "dfgs": [],
+        "fName": "src_main_java_com_blade_mvc_handler_RequestInvoker.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "1f3088b309306512fc8a92402d5f2a5abc28ef29"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "signature.setRoute(Route.builder().target(new IndexController()).action(IndexController.class.getMethod(\"users\", String.class)).httpMethod(HttpMethod.GET).targetType(IndexController.class).path(\"/users\").build())",
+        "dfgs": [],
+        "fName": "src_test_java_com_blade_mvc_handler_RequestInvokerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.blade.exception.InternalErrorException",
+        "dfgs": [],
+        "fName": "src_main_java_com_blade_mvc_handler_RequestInvoker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "if (len == 1)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_blade_mvc_handler_RequestInvoker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "returnParam = ReflectKit.invokeMethod(target, hookMethod, routeSignature)",
+        "dfgs": [],
+        "fName": "src_main_java_com_blade_mvc_handler_RequestInvoker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (len == 2)",
+        "dfgs": [],
+        "fName": "src_main_java_com_blade_mvc_handler_RequestInvoker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "returnParam = ReflectKit.invokeMethod(target, hookMethod, routeSignature.request(), routeSignature.response())",
+        "dfgs": [],
+        "fName": "src_main_java_com_blade_mvc_handler_RequestInvoker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_blade_mvc_handler_RequestInvoker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new InternalErrorException(\"Bad web hook structure\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_blade_mvc_handler_RequestInvoker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    }
+]

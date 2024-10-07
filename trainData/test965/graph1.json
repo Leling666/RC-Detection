@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "private String customFields",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_appender_LogstashSocketAppender.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "10396b8c147d51490602c5881893f09d7e6e260b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private String customFields = \"{}\"",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_appender_LogstashSocketAppender.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

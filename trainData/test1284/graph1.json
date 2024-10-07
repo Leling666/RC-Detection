@@ -1,0 +1,232 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (basicRows.contains(basicRow))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 410,
+        "lineEnd": 410,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "dbdff0758b40601238e88b2cffbf7ceb58ed8977"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testMath713NegativeVariable() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "LinearObjectiveFunction f = new LinearObjectiveFunction(new double[] {1.0, 1.0}, 0.0d)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "ArrayList<LinearConstraint> constraints = new ArrayList<LinearConstraint>()",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "constraints.add(new LinearConstraint(new double[] {1, 0}, Relationship.EQ, 1))",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "double epsilon = 1e-6",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "SimplexSolver solver = new SimplexSolver()",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "RealPointValuePair solution = solver.optimize(f, constraints, GoalType.MINIMIZE, true)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Assert.assertTrue(Precision.compareTo(solution.getPoint()[0], 0.0d, epsilon) >= 0)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(Precision.compareTo(solution.getPoint()[1], 0.0d, epsilon) >= 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            12
+        ],
+        "code": "if (basicRow != null && basicRow == 0)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 410,
+        "lineEnd": 410,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "coefficients[i] = 0",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 414,
+        "lineEnd": 414,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (basicRows.contains(basicRow))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 415,
+        "lineEnd": 415,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    }
+]

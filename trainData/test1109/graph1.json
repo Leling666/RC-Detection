@@ -1,0 +1,123 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "String h = \"<div id=1><div id=2><div id = 3></div></div></div><div id=4></div>\"",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "86c1d97c5f83cb6cc9c0d7490942b806d3a1d3be"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Document doc = Jsoup.parse(h)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "86c1d97c5f83cb6cc9c0d7490942b806d3a1d3be"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2\", divs.get(0).id())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "86c1d97c5f83cb6cc9c0d7490942b806d3a1d3be"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "parent = parent.parent()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_StructuralEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "64ec9cfb151f26e85c0c206ce6aba063695e47cd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Elements els = root.select(\"div p .first\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_select_SelectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (parent == root)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_StructuralEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_select_StructuralEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

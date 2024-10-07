@@ -1,0 +1,281 @@
+[
+    {
+        "cfgs": [],
+        "code": "computeMayUse(n, n, output, false)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.javascript.jscomp.graph.DiGraph.DiGraphEdge",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "boolean conditional = hasExceptionHandler(n)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": -1,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "computeMayUse(n, n, output, conditional)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 154,
+        "lineEnd": 154,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "private boolean hasExceptionHandler(Node cfgNode) ",
+        "dfgs": [
+            9,
+            5,
+            6,
+            8,
+            7
+        ],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "List<DiGraphEdge<Node, Branch>> branchEdges = getCfg().getOutEdges(cfgNode)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9,
+            7
+        ],
+        "code": "for (DiGraphEdge<Node, Branch> edge : branchEdges)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (edge.getValue() == Branch.ON_EX)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_MaybeReachingVariableUse.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "public void testTryCatch() ",
+        "dfgs": [
+            11
+        ],
+        "fName": "test_com_google_javascript_jscomp_MaybeReachingVariableUseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertMatch(\"D: var x = 1; \" +\"try { U: var y = foo() + x; } catch (e) {} \" +\"U: var z = x;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_MaybeReachingVariableUseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "public void testIssue794a() ",
+        "dfgs": [
+            13
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 503,
+        "lineEnd": 503,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var x = 1; \" +\"try { x += someFunction(); } catch (e) {}\" +\"x += 1;\" +\"try { x += someFunction(); } catch (e) {}\" +\"return x;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 504,
+        "lineEnd": 509,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "public void testIssue794b() ",
+        "dfgs": [
+            15
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 512,
+        "lineEnd": 512,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var x = 1; \" +\"try { x = x + someFunction(); } catch (e) {}\" +\"x = x + 1;\" +\"try { x = x + someFunction(); } catch (e) {}\" +\"return x;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 513,
+        "lineEnd": 518,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    }
+]

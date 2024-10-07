@@ -1,0 +1,181 @@
+[
+    {
+        "cfgs": [],
+        "code": "out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_stat_correlation_PearsonsCorrelation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "64fa01cd788733566b246131160d3e878d9816bc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "out[i][j] = 2 * tDistribution.cumulativeProbability(-t)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_stat_correlation_PearsonsCorrelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void testPValueNearZero() throws Exception ",
+        "dfgs": [
+            3,
+            8,
+            5,
+            9,
+            6,
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_correlation_PearsonsCorrelationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int dimension = 120",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_stat_correlation_PearsonsCorrelationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "double[][] data = new double[dimension][2]",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_correlation_PearsonsCorrelationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6,
+            8
+        ],
+        "code": "for (int i = 0; i < dimension; i++)",
+        "dfgs": [
+            6,
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_correlation_PearsonsCorrelationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "data[i][0] = i",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_stat_correlation_PearsonsCorrelationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "data[i][1] = i + 1/((double)i + 1)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_stat_correlation_PearsonsCorrelationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "PearsonsCorrelation corrInstance = new PearsonsCorrelation(data)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_correlation_PearsonsCorrelationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 180,
+        "lineEnd": 180,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(corrInstance.getCorrelationPValues().getEntry(0, 1) > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_stat_correlation_PearsonsCorrelationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": -1,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

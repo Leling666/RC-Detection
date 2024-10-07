@@ -1,0 +1,128 @@
+[
+    {
+        "cfgs": [],
+        "code": "URI uri = new URI(null,null,path,null)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_validator_routines_UrlValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 453,
+        "lineEnd": 453,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "03bf0d33143ebd13e4f389cd4ecac8aec17c2057"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "URI uri = new URI(null,\"localhost\",path,null)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_validator_routines_UrlValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 454,
+        "lineEnd": 454,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void testValidator467() ",
+        "dfgs": [
+            3,
+            4,
+            5,
+            6
+        ],
+        "fName": "src_test_java_org_apache_commons_validator_routines_UrlValidatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 501,
+        "lineEnd": 501,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "UrlValidator validator = new UrlValidator(UrlValidator.ALLOW_2_SLASHES)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_apache_commons_validator_routines_UrlValidatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 502,
+        "lineEnd": 502,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "assertTrue(validator.isValid(\"https://example.com/some_path/path/\"))",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_validator_routines_UrlValidatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 503,
+        "lineEnd": 503,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "assertTrue(validator.isValid(\"https://example.com//somepath/path/\"))",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_apache_commons_validator_routines_UrlValidatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 504,
+        "lineEnd": 504,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(validator.isValid(\"https://example.com//some_path/path/\"))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_validator_routines_UrlValidatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 505,
+        "lineEnd": 505,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

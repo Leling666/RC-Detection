@@ -1,0 +1,365 @@
+[
+    {
+        "cfgs": [],
+        "code": "String oddField=\"oddField_s\"",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "96c4bb7074546cb87885bba5a7eaa1dea36d7c33"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ScoreDoc[] scoreDocs = transformToNativeShardDoc(documents, groupSort, shard, schema)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_search_grouping_distributed_shardresultserializer_TopGroupsResultTransformer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "0442747f05d870684689be971d58d39b9c4dd526"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.solr.common.SolrDocumentList",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String oddField=\"oddField_s1\"",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "query(\"q\", \"{!func}id\", \"rows\", 100, \"fl\", tlong + \",id,\" + i1, \"group\", \"true\",\"group.field\", i1, \"group.limit\", 10,\"sort\", tlong+\" asc, id desc\")",
+        "dfgs": [
+            6
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "query(\"q\", \"{!func}id\", \"rows\", 100, \"fl\", tlong + \",id,\" + i1, \"group\", \"true\",\"group.field\", i1, \"group.limit\", 10,\"sort\", \"id asc\",\"group.sort\", tlong+\" asc, id desc\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 274,
+        "lineEnd": 277,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "query(\"q\", \"{!func}id\", \"rows\", 100, \"fl\", tlong + \",id,\" + i1, \"group\", \"true\",\"group.field\", i1, \"group.limit\", 10,\"sort\", tlong+\" asc, id desc\",\"group.sort\", \"id asc\")",
+        "dfgs": [
+            8
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 278,
+        "lineEnd": 281,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "rsp = query(\"q\", \"{!func}id\", \"fq\", oddField+\":[* TO *]\",\"rows\", 100, \"fl\", tlong + \",id,\" + i1, \"group\", \"true\",\"group.field\", i1, \"group.limit\", 10,\"sort\", tlong+\" asc\",\"group.sort\", oddField+\" asc\")",
+        "dfgs": [
+            11,
+            10,
+            9
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [
+            4
+        ],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "nl = (NamedList<?>) rsp.getResponse().get(\"grouped\")",
+        "dfgs": [
+            11,
+            10
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "nl = (NamedList<?>) nl.get(i1)",
+        "dfgs": [
+            11
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "assertEquals(rsp.toString(), 6, nl.get(\"matches\"))",
+        "dfgs": [
+            12
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "assertEquals(rsp.toString(), 2, ((List<NamedList<?>>)nl.get(\"groups\")).size())",
+        "dfgs": [
+            14,
+            13
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 290,
+        "lineEnd": 290,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "nl = ((List<NamedList<?>>)nl.get(\"groups\")).get(0)",
+        "dfgs": [
+            14
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(rsp.toString(), 232, nl.get(\"groupValue\"))",
+        "dfgs": [
+            16,
+            15
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "SolrDocumentList docs = (SolrDocumentList) nl.get(\"doclist\")",
+        "dfgs": [
+            16
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "assertEquals(docs.toString(), 5, docs.getNumFound())",
+        "dfgs": [
+            17
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertEquals(docs.toString(), 22, docs.get(0).getFirstValue(\"id\"))",
+        "dfgs": [
+            18
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(docs.toString(), 21, docs.get(4).getFirstValue(\"id\"))",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_TestDistributedGrouping.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ScoreDoc[] scoreDocs = transformToNativeShardDoc(documents, sortWithinGroup, shard, schema)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_search_grouping_distributed_shardresultserializer_TopGroupsResultTransformer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    }
+]

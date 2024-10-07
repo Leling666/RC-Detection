@@ -1,0 +1,813 @@
+[
+    {
+        "cfgs": [],
+        "code": "protected T inst",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (inst != null && inst instanceof AutoCloseable)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": 19,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (inst != null)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "createInst()",
+        "dfgs": [
+            4
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": -1,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "registerMBean(inst, core, pluginInfo.name)",
+        "dfgs": [
+            5
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return inst",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "protected synchronized void createInst() ",
+        "dfgs": [
+            8,
+            9,
+            10,
+            13,
+            11,
+            12,
+            14,
+            15
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (inst != null)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 306,
+        "lineEnd": 306,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "inst = core.createInstance(pluginInfo.className, clazz, pluginMeta.tag, null, resourceLoader)",
+        "dfgs": [
+            9
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 313,
+        "lineEnd": 313,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "initInstance(inst, pluginInfo, core)",
+        "dfgs": [
+            10,
+            13,
+            11,
+            12,
+            14,
+            15
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 314,
+        "lineEnd": 314,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            13
+        ],
+        "code": "if (inst instanceof SolrCoreAware)",
+        "dfgs": [
+            13,
+            11
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 315,
+        "lineEnd": 315,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "SolrResourceLoader.assertAwareCompatibility(SolrCoreAware.class, inst)",
+        "dfgs": [
+            13,
+            12,
+            14
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 316,
+        "lineEnd": 316,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "((SolrCoreAware) inst).inform(core)",
+        "dfgs": [
+            15
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "if (inst instanceof ResourceLoaderAware)",
+        "dfgs": [
+            14
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "SolrResourceLoader.assertAwareCompatibility(ResourceLoaderAware.class, inst)",
+        "dfgs": [
+            15
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "((ResourceLoaderAware) inst).inform(core.getResourceLoader())",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "b221a5349610150ffbbea6d6c2493c7f32ef8834"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private T inst",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "if (isLoaded())",
+        "dfgs": [
+            18
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 264,
+        "lineEnd": 264,
+        "lineMapIndex": -1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "T myInst = get()",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": -1,
+        "methodParents": [
+            23
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (myInst != null && myInst instanceof AutoCloseable)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            16
+        ],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": 1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private volatile T lazyInst",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "public boolean isLoaded() ",
+        "dfgs": [
+            22
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return lazyInst != null",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": false,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "if (lazyInst != null)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": false,
+        "lineBeg": 310,
+        "lineEnd": 310,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25,
+            26
+        ],
+        "code": "if (createInst())",
+        "dfgs": [
+            26,
+            25
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 312,
+        "lineEnd": 312,
+        "lineMapIndex": -1,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "registerMBean(lazyInst, core, pluginInfo.name)",
+        "dfgs": [
+            26
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": false,
+        "lineBeg": 314,
+        "lineEnd": 314,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return lazyInst",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": false,
+        "lineBeg": 316,
+        "lineEnd": 316,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "private synchronized boolean createInst() ",
+        "dfgs": [
+            29,
+            37,
+            38,
+            30,
+            31,
+            34,
+            32,
+            33,
+            35,
+            36
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "if (lazyInst != null)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": false,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "T localInst = core.createInstance(pluginInfo.className, clazz, pluginMeta.tag, null, resourceLoader)",
+        "dfgs": [
+            30
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 327,
+        "lineEnd": 327,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "initInstance(localInst, pluginInfo, core)",
+        "dfgs": [
+            31,
+            33,
+            36
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 328,
+        "lineEnd": 328,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32,
+            34
+        ],
+        "code": "if (localInst instanceof SolrCoreAware)",
+        "dfgs": [
+            34,
+            32
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            16
+        ],
+        "isDel": false,
+        "lineBeg": 329,
+        "lineEnd": 329,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "SolrResourceLoader.assertAwareCompatibility(SolrCoreAware.class, localInst)",
+        "dfgs": [
+            34,
+            33,
+            35
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 330,
+        "lineEnd": 330,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "((SolrCoreAware) localInst).inform(core)",
+        "dfgs": [
+            36
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 331,
+        "lineEnd": 331,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35,
+            37
+        ],
+        "code": "if (localInst instanceof ResourceLoaderAware)",
+        "dfgs": [
+            37,
+            35
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            16
+        ],
+        "isDel": false,
+        "lineBeg": 333,
+        "lineEnd": 333,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "SolrResourceLoader.assertAwareCompatibility(ResourceLoaderAware.class, localInst)",
+        "dfgs": [
+            37,
+            36
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 334,
+        "lineEnd": 334,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "((ResourceLoaderAware) localInst).inform(core.getResourceLoader())",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 336,
+        "lineEnd": 336,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "lazyInst = localInst",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": false,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_PluginBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 342,
+        "lineEnd": 342,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    }
+]

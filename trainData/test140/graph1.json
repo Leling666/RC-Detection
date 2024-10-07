@@ -1,0 +1,53 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (!files.add(f))",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_store_NRTCachingDirectory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "3eb66fb19ca2aa3d9dce53661f3233b6c9d3f974"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new IllegalStateException(\"file: \" + in + \" appears both in delegate and in cache: \" +\"cache=\" + Arrays.toString(cache.listAll()) + \",delegate=\" + Arrays.toString(in.listAll()))",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_store_NRTCachingDirectory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 105,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "3eb66fb19ca2aa3d9dce53661f3233b6c9d3f974"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "files.add(f)",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_store_NRTCachingDirectory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    }
+]

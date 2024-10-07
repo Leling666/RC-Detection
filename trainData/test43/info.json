@@ -1,0 +1,10 @@
+{
+    "repo": "ambari",
+    "fix": "44b2a5ccaa7b58878d19634acf364eb90a9ef34e",
+    "induce": [
+        "9842b40d2b2cd6c80cbdfc0086f3529a94c423b3",
+        "4b4bcbfb67f2cbd18da39276a59de61d0540c2e6",
+        "8c237ec8660ea728b7ec5632fd9ea555d2373d1a",
+        "6dd00195e650c2f3e5873b286d4502d0a56a6394"
+    ]
+}

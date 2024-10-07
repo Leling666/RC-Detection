@@ -1,0 +1,221 @@
+[
+    {
+        "cfgs": [],
+        "code": "private String argumentWithSpecialChars = \"heretheycome'\\\"\\\\;()${}*?andthatwasem\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_xebialabs_overthere_CmdLineTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "72935f509812d43129095b878d92fa572eb99388"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String encodedArgumentWithSpecialChars = \"heretheycome'\\\"\\\\;()${}*?andthatwasem\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_xebialabs_overthere_CmdLineTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "13c71e5f176b285fc9a74072397292c0b4fe0417"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String encodedArgumentWithSpecialChars = \"heretheycome\\\\'\\\\\\\"\\\\\\\\\\\\;\\\\(\\\\)\\\\$\\\\{\\\\}\\\\*\\\\?andthatwasem\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_xebialabs_overthere_CmdLineTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "1f542916b82f02a279c7823c0f8bd7ae219f8d05"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String encodedArgumentWithSpecialChars = \"heretheycome\\\\'\\\\\\\"\\\\\\\\\\\\;\\\\(\\\\)\\\\$\\\\{\\\\}\\\\*\\\\?andthatwasem\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_xebialabs_overthere_CmdLineTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "72935f509812d43129095b878d92fa572eb99388"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "private static final char[] SPECIAL_CHARS = \" |<>&^,;()\\r\\n\".toCharArray()",
+        "dfgs": [],
+        "fName": "src_main_java_com_xebialabs_overthere_util_WindowsCommandLineArgsSanitizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "b709ac07d3c431b754c90eae84e8498ed6c25cb0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final char[] SLASH_ESCAPED_CHARS = \"\\\\[].*?\".toCharArray()",
+        "dfgs": [],
+        "fName": "src_main_java_com_xebialabs_overthere_util_WindowsCommandLineArgsSanitizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "b709ac07d3c431b754c90eae84e8498ed6c25cb0"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "if (contains(c, SLASH_ESCAPED_CHARS))",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_xebialabs_overthere_util_WindowsCommandLineArgsSanitizer.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": true,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "b709ac07d3c431b754c90eae84e8498ed6c25cb0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "builder.append('\\\\')",
+        "dfgs": [],
+        "fName": "src_main_java_com_xebialabs_overthere_util_WindowsCommandLineArgsSanitizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "b709ac07d3c431b754c90eae84e8498ed6c25cb0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private String argumentWithSpecialChars = \"heretheycome'\\\"\\\\;()%${}*?andthatwasem\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_xebialabs_overthere_CmdLineTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String encodedArgumentWithSpecialChars = \"heretheycome'\\\"\\\\;()%${}*?andthatwasem\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_xebialabs_overthere_CmdLineTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String encodedArgumentWithSpecialChars = \"heretheycome\\\\'\\\\\\\"\\\\\\\\\\\\;\\\\(\\\\)%\\\\$\\\\{\\\\}\\\\*\\\\?andthatwasem\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_xebialabs_overthere_CmdLineTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String encodedArgumentWithSpecialChars = \"heretheycome\\\\'\\\\\\\"\\\\\\\\\\\\;\\\\(\\\\)%\\\\$\\\\{\\\\}\\\\*\\\\?andthatwasem\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_xebialabs_overthere_CmdLineTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final char[] SPECIAL_CHARS = \" |<>&^\\r\\n\".toCharArray()",
+        "dfgs": [],
+        "fName": "src_main_java_com_xebialabs_overthere_util_WindowsCommandLineArgsSanitizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    }
+]

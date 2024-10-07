@@ -1,0 +1,241 @@
+[
+    {
+        "cfgs": [],
+        "code": "items.add(find(descriptors,kind).newInstance(req,jo))",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_Descriptor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 939,
+        "lineEnd": 939,
+        "lineMapIndex": -1,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 0
+    },
+    {
+        "cfgs": [],
+        "code": "public static <T extends Descriptor> T find(Collection<? extends T> list, String className) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_Descriptor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 949,
+        "lineEnd": 949,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 1
+    },
+    {
+        "cfgs": [],
+        "code": "public static Descriptor find(String className) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_Descriptor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 963,
+        "lineEnd": 963,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 2
+    },
+    {
+        "cfgs": [],
+        "code": "public FormValidation doCheck(@AncestorInPath Item project, @QueryParameter String value ) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_tasks_BuildTrigger.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 3
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "for (Publisher _t : Descriptor.newInstancesFromHeteroList(req, json, \"publisher\", Jenkins.getInstance().getExtensionList(BuildTrigger.DescriptorImpl.class)))",
+        "dfgs": [
+            5
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1918,
+        "lineEnd": 1918,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "BuildTrigger t = (BuildTrigger) _t",
+        "dfgs": [
+            6
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1919,
+        "lineEnd": 1919,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "for (AbstractProject downstream : t.getChildProjects(this))",
+        "dfgs": [
+            7
+        ],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1920,
+        "lineEnd": 1920,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6
+    },
+    {
+        "cfgs": [],
+        "code": "downstream.checkPermission(BUILD)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_AbstractProject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1921,
+        "lineEnd": 1921,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Descriptor<T> d = find(descriptors, kind)",
+        "dfgs": [
+            9
+        ],
+        "fName": "core_src_main_java_hudson_model_Descriptor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 939,
+        "lineEnd": 939,
+        "lineMapIndex": -1,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 8
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "if (d != null)",
+        "dfgs": [
+            10
+        ],
+        "fName": "core_src_main_java_hudson_model_Descriptor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 940,
+        "lineEnd": 940,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9
+    },
+    {
+        "cfgs": [],
+        "code": "items.add(d.newInstance(req, jo))",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_Descriptor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 941,
+        "lineEnd": 941,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10
+    },
+    {
+        "cfgs": [],
+        "code": "<T extends Descriptor> T find(Collection<? extends T> list, String className) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_Descriptor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 952,
+        "lineEnd": 952,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 11
+    },
+    {
+        "cfgs": [],
+        "code": "Descriptor find(String className) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_Descriptor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 966,
+        "lineEnd": 966,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 12
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "public FormValidation doCheck(@AncestorInPath Item project, @QueryParameter String value, @QueryParameter boolean upstream) ",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "core_src_main_java_hudson_tasks_BuildTrigger.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 13
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "if (!upstream && !item.hasPermission(Item.BUILD))",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_tasks_BuildTrigger.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 337,
+        "lineEnd": 337,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14
+    },
+    {
+        "cfgs": [],
+        "code": "return FormValidation.error(Messages.BuildTrigger_you_have_no_permission_to_build_(projectName))",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_tasks_BuildTrigger.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15
+    }
+]

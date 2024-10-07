@@ -1,0 +1,172 @@
+[
+    {
+        "cfgs": [],
+        "code": "return primitiveValueFor(clazz)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_progress_HandyReturnValues.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 5,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "c01c0aa8acfe7d461e1d3959226c8433678bd69b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public static <T> T primitiveValueFor(Class<T> primitiveType) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_Primitives.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "c01c0aa8acfe7d461e1d3959226c8433678bd69b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(clazz)).<T>returnNull()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 362,
+        "lineEnd": 362,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new Equals(value)).<T>returnNull()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 479,
+        "lineEnd": 479,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new Same(value)).<T>returnNull()",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 516,
+        "lineEnd": 516,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "d94c8c1c49e4df51cd50e47bce3c6667b80bcd89"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return primitiveValueOrNullFor(clazz)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_progress_HandyReturnValues.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 0,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static <T> T primitiveValueOrNullFor(Class<T> primitiveType) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_Primitives.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return reportMatcher(new InstanceOf(clazz)).<T>returnFor(clazz)",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 362,
+        "lineEnd": 362,
+        "lineMapIndex": 2,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) reportMatcher(new Equals(value)).<T>returnFor((Class) value.getClass())",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 479,
+        "lineEnd": 479,
+        "lineMapIndex": 3,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) reportMatcher(new Same(value)).<T>returnFor((Class) value.getClass())",
+        "dfgs": [],
+        "fName": "src_org_mockito_Matchers.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 516,
+        "lineEnd": 516,
+        "lineMapIndex": 4,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

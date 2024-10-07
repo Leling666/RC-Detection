@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (row.length < readOrder.length)",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_common_processor_core_BeanConversionProcessor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "abe0de1dc65540e8d8333630b397dae1b694aa34"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (conversions != null && row.length < readOrder.length)",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_common_processor_core_BeanConversionProcessor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,789 @@
+[
+    {
+        "cfgs": [],
+        "code": "testTypes(\"a={};/**@enum {string}*/ a.A = {ZOR:'b'};\"+ \"/** @constructor */ a.A = function() {}\",\"variable a.A redefined with type function (new:a.A): undefined, \" +\"original definition at [testcode]:1 with type enum{a.A}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2119,
+        "lineEnd": 2122,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "e9f7e6114414f68deb90f4116861d7a054365404",
+            "de13c3313c05f4449c50c560324389d6905a214d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(descriptions.get(i),compiler.getWarnings()[i].description)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 6934,
+        "lineEnd": 6935,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "5a3b4cb6b7e816aacd0ffd4c71e23da949fe360d"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            4
+        ],
+        "code": "if (bothIntrinsics(rightType, leftType))",
+        "dfgs": [
+            3,
+            10,
+            5,
+            8
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 366,
+        "lineEnd": 366,
+        "lineMapIndex": -1,
+        "methodParents": [
+            15
+        ],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "registerMismatch(rightType, leftType, null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 369,
+        "lineEnd": 369,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "41ecd65c09b6d39253c4f855e615daabbc7e241a"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 370,
+        "lineEnd": 370,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "JSType ownerType = getJSType(owner)",
+        "dfgs": [
+            6,
+            10
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 374,
+        "lineEnd": 374,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "b742849cc99956b4b2d89eda4d9bf2eac5429e95"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            10
+        ],
+        "code": "if (ownerType.isFunctionPrototypeType())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "b742849cc99956b4b2d89eda4d9bf2eac5429e95"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "FunctionType ownerFn = ownerType.toObjectType().getOwnerFunction()",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "b742849cc99956b4b2d89eda4d9bf2eac5429e95"
+        ]
+    },
+    {
+        "cfgs": [
+            9,
+            10
+        ],
+        "code": "if (ownerFn.isInterface() &&rightType.isFunctionType() && leftType.isFunctionType())",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 377,
+        "lineEnd": 378,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "b742849cc99956b4b2d89eda4d9bf2eac5429e95"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "b742849cc99956b4b2d89eda4d9bf2eac5429e95"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mismatch(t, n,\"assignment to property \" + propName + \" of \" +getReadableJSTypeName(owner, true),rightType, leftType)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 383,
+        "lineEnd": 386,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            12,
+            13
+        ],
+        "code": "if (bothIntrinsics(rightType, leftType))",
+        "dfgs": [
+            12,
+            14
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": -1,
+        "methodParents": [
+            15
+        ],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "registerMismatch(rightType, leftType, null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 410,
+        "lineEnd": 410,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "41ecd65c09b6d39253c4f855e615daabbc7e241a"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 411,
+        "lineEnd": 411,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mismatch(t, n, msg, rightType, leftType)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 412,
+        "lineEnd": 412,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "private boolean bothIntrinsics(JSType rightType, JSType leftType) ",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 419,
+        "lineEnd": 419,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (leftType.isConstructor() || leftType.isEnumType()) &&(rightType.isConstructor() || rightType.isEnumType())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 420,
+        "lineEnd": 421,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "registerIfMismatch(fnTypeA.getReturnType(), fnTypeB.getReturnType(), error)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 695,
+        "lineEnd": 696,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "41ecd65c09b6d39253c4f855e615daabbc7e241a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"a={};/**@enum {string}*/ a.A = {ZOR:'b'};\"+ \"/** @constructor */ a.A = function() {}\",\"variable a.A redefined with type function (new:a.A): undefined, \" +\"original definition at [testcode]:1 with type enum{a.A}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2514,
+        "lineEnd": 2517,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "e9f7e6114414f68deb90f4116861d7a054365404",
+            "77b7c78d4aeeb6471f2f668a06c0f61a68f95ccd",
+            "de13c3313c05f4449c50c560324389d6905a214d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(descriptions.get(i),compiler.getWarnings()[i].description)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 10863,
+        "lineEnd": 10864,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "5a3b4cb6b7e816aacd0ffd4c71e23da949fe360d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "boolean treatThisTypesAsCovariant =// If either one of these is a ctor, skip 'this' checking.isConstructor() || other.isConstructor() ||// An interface 'this'-type is non-restrictive.// In practical terms, if C implements I, and I has a method m,// then any m doesn't necessarily have to C#m's 'this'// type doesn't need to match I.(other.typeOfThis.toObjectType() != null &&other.typeOfThis.toObjectType().getConstructor() != null &&other.typeOfThis.toObjectType().getConstructor().isInterface()) ||// If one of the 'this' types is covariant of the other,// then we'll treat them as covariant (see comment above).other.typeOfThis.isSubtype(this.typeOfThis) ||this.typeOfThis.isSubtype(other.typeOfThis)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_FunctionType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1017,
+        "lineEnd": 1032,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "af4b8d4a2da7996f15b405f523ee8b31a0fbf021",
+            "8eac7e1fa30f431056d01c9603b5337a4003244c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.Sets",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testClosureTypesMultipleWarnings(\"a={};/**@enum {string}*/ a.A = {ZOR:'b'};\"+ \"/** @constructor */ a.A = function() {}\",Lists.newArrayList(\"variable a.A redefined with type function (new:a.A): undefined, \" +\"original definition at [testcode]:1 with type enum{a.A}\",\"assignment to property A of a\\n\" +\"found   : function (new:a.A): undefined\\n\" +\"required: enum{a.A}\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2121,
+        "lineEnd": 2129,
+        "lineMapIndex": 0,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25,
+            26
+        ],
+        "code": "Set<String> actualWarningDescriptions = Sets.newHashSet()",
+        "dfgs": [
+            26,
+            25
+        ],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6940,
+        "lineEnd": 6940,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "actualWarningDescriptions.add(compiler.getWarnings()[i].description)",
+        "dfgs": [
+            26
+        ],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6942,
+        "lineEnd": 6942,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(Sets.newHashSet(descriptions), actualWarningDescriptions)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6944,
+        "lineEnd": 6945,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "JSType ownerType = getJSType(owner)",
+        "dfgs": [
+            28,
+            32
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 369,
+        "lineEnd": 369,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29,
+            32
+        ],
+        "code": "if (ownerType.isFunctionPrototypeType())",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 370,
+        "lineEnd": 370,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "FunctionType ownerFn = ownerType.toObjectType().getOwnerFunction()",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 371,
+        "lineEnd": 371,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31,
+            32
+        ],
+        "code": "if (ownerFn.isInterface() &&rightType.isFunctionType() && leftType.isFunctionType())",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 372,
+        "lineEnd": 373,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 374,
+        "lineEnd": 374,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mismatch(t, n,\"assignment to property \" + propName + \" of \" +getReadableJSTypeName(owner, true),rightType, leftType)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 378,
+        "lineEnd": 381,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mismatch(t, n, msg, rightType, leftType)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 401,
+        "lineEnd": 401,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "registerIfMismatch(fnTypeA.getReturnType(), fnTypeB.getReturnType(), error)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 678,
+        "lineEnd": 679,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.Sets",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testClosureTypesMultipleWarnings(\"a={};/**@enum {string}*/ a.A = {ZOR:'b'};\"+ \"/** @constructor */ a.A = function() {}\",Lists.newArrayList(\"variable a.A redefined with type function (new:a.A): undefined, \" +\"original definition at [testcode]:1 with type enum{a.A}\",\"assignment to property A of a\\n\" +\"found   : function (new:a.A): undefined\\n\" +\"required: enum{a.A}\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2516,
+        "lineEnd": 2523,
+        "lineMapIndex": 18,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "public void testIssue635b() throws Exception ",
+        "dfgs": [
+            39
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6341,
+        "lineEnd": 6341,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @constructor */\" +\"function F() {}\" +\"/** @constructor */\" +\"function G() {}\" +\"/** @type {function(new:G)} */ var x = F;\",\"initializing variable\\n\" +\"found   : function (new:F): undefined\\n\" +\"required: function (new:G): ?\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6342,
+        "lineEnd": 6350,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41,
+            42
+        ],
+        "code": "Set<String> actualWarningDescriptions = Sets.newHashSet()",
+        "dfgs": [
+            42,
+            41
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10880,
+        "lineEnd": 10880,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "actualWarningDescriptions.add(compiler.getWarnings()[i].description)",
+        "dfgs": [
+            42
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10882,
+        "lineEnd": 10882,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(Sets.newHashSet(descriptions), actualWarningDescriptions)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10884,
+        "lineEnd": 10885,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    }
+]

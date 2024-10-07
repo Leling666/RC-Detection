@@ -1,0 +1,68 @@
+[
+    {
+        "cfgs": [],
+        "code": "int indexOfDot = namespace.indexOf('.')",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ProcessClosurePrimitives.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 789,
+        "lineEnd": 789,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "45f2bdf91ad3c2f2ac901c72efe9e26148b08d2b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "int indexOfDot = namespace.lastIndexOf('.')",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ProcessClosurePrimitives.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 789,
+        "lineEnd": 789,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void testProvideInIndependentModules4() ",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_com_google_javascript_jscomp_ProcessClosurePrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 774,
+        "lineEnd": 774,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(createModuleStar(\"goog.provide('apps');\",\"goog.provide('apps.foo.bar.B');\",\"goog.provide('apps.foo.bar.C');\"),new String[] {\"var apps = {};apps.foo = {};apps.foo.bar = {}\",\"apps.foo.bar.B = {};\",\"apps.foo.bar.C = {};\",})",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ProcessClosurePrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 777,
+        "lineEnd": 786,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    }
+]

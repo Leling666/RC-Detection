@@ -1,0 +1,127 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (x < 0 && prev == '-')",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if ((long) x == x && !isNegativeZero(x))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "a02241e5df48e44e23dc0e66dbef3fdc3c91eb3e"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void testMinusNegativeZero() ",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1371,
+        "lineEnd": 1371,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertPrint(\"x- -0\", \"x- -0.0\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1374,
+        "lineEnd": 1374,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "boolean negativeZero = isNegativeZero(x)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if ((x < 0 || negativeZero) && prev == '-')",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if ((long) x == x && !negativeZero)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

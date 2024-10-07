@@ -1,0 +1,356 @@
+[
+    {
+        "cfgs": [],
+        "code": "private Envelope2D m_paths_query",
+        "dfgs": [],
+        "fName": "src_main_java_com_esri_core_geometry_PairwiseIntersectorImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "ad5fb8451e49ce334e11f2f5789dba0d7963bb2f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "tol = find_tolerance_from_wkid_helper(wkid)",
+        "dfgs": [],
+        "fName": "src_main_java_com_esri_core_geometry_Wkid.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "ee7645f9dfc74312be2171744c8ec5c34d1c10b8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "void addEnvelope(Envelope2D envSrc, boolean bReverse) ",
+        "dfgs": [],
+        "fName": "src_main_java_com_esri_core_geometry_MultiPath.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 656,
+        "lineEnd": 656,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "ee7645f9dfc74312be2171744c8ec5c34d1c10b8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private Envelope2D m_paths_query = new Envelope2D()",
+        "dfgs": [],
+        "fName": "src_main_java_com_esri_core_geometry_PairwiseIntersectorImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "tol = find_tolerance_from_wkid_helper(old)",
+        "dfgs": [],
+        "fName": "src_main_java_com_esri_core_geometry_Wkid.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testDisjointCrash() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5486,
+        "lineEnd": 5486,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Polygon g1 = new Polygon()",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5487,
+        "lineEnd": 5487,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "g1.addEnvelope(Envelope2D.construct(0,  0,  10,  10), false)",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5488,
+        "lineEnd": 5488,
+        "lineMapIndex": -1,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Polygon g2 = new Polygon()",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5489,
+        "lineEnd": 5489,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "g2.addEnvelope(Envelope2D.construct(10,  1,  21,  21), false)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5490,
+        "lineEnd": 5490,
+        "lineMapIndex": -1,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "g1 = (Polygon)OperatorDensifyByLength.local().execute(g1, 0.1, null)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5491,
+        "lineEnd": 5491,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "OperatorDisjoint.local().accelerateGeometry(g1, SpatialReference.create(4267), GeometryAccelerationDegree.enumHot)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5492,
+        "lineEnd": 5492,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "boolean res = OperatorDisjoint.local().execute(g1, g2, SpatialReference.create(4267), null)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5493,
+        "lineEnd": 5493,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(!res)",
+        "dfgs": [],
+        "fName": "src_test_java_com_esri_core_geometry_TestRelation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5494,
+        "lineEnd": 5494,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void test_80() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_esri_core_geometry_TestWkid.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "SpatialReference sr = SpatialReference.create(3857)",
+        "dfgs": [],
+        "fName": "src_test_java_com_esri_core_geometry_TestWkid.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(sr.getID() == 3857)",
+        "dfgs": [],
+        "fName": "src_test_java_com_esri_core_geometry_TestWkid.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(sr.getLatestID() == 3857)",
+        "dfgs": [],
+        "fName": "src_test_java_com_esri_core_geometry_TestWkid.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(sr.getOldID() == 102100)",
+        "dfgs": [],
+        "fName": "src_test_java_com_esri_core_geometry_TestWkid.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(sr.getTolerance() == 0.001)",
+        "dfgs": [],
+        "fName": "src_test_java_com_esri_core_geometry_TestWkid.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void addEnvelope(Envelope2D envSrc, boolean bReverse) ",
+        "dfgs": [],
+        "fName": "src_main_java_com_esri_core_geometry_MultiPath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 656,
+        "lineEnd": 656,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    }
+]

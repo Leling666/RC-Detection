@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "for (Map.Entry<String, String> oozieConfig : actionConf.getValByRegex(\"^oozie\\\\.(?!launcher).+\").entrySet())",
+        "dfgs": [],
+        "fName": "sharelib_hive2_src_main_java_org_apache_oozie_action_hadoop_Hive2Main.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "396fcc6c453b28ad09a5940a390ca1a88b33cbfa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "for (Map.Entry<String, String> oozieConfig : actionConf.getValByRegex(\"^oozie\\\\.(?!launcher|hive2).+\").entrySet())",
+        "dfgs": [],
+        "fName": "sharelib_hive2_src_main_java_org_apache_oozie_action_hadoop_Hive2Main.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

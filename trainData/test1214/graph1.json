@@ -1,0 +1,482 @@
+[
+    {
+        "cfgs": [],
+        "code": "return withOuterClass(cls)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": 8,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "24bdec918dddef8e7eae4b1c68533c04327ff104"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "private <T> T withOuterClass(Class<T> cls) ",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "24bdec918dddef8e7eae4b1c68533c04327ff104"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "Constructor<T> c = cls.getDeclaredConstructor(outerClassInstance.getClass())",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "1ba7cea80b63a67f45c2ea50a423fe4b92fc000c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return c.newInstance(outerClassInstance)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 13,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "1ba7cea80b63a67f45c2ea50a423fe4b92fc000c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new InstantationException(\"Unable to create mock instance of '\"+ cls.getSimpleName() + \"'.\\nPlease ensure that the outer instance has correct type and that the target class has parameter-less constructor.\", e)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "24bdec918dddef8e7eae4b1c68533c04327ff104"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private <T> T noArgConstructor(Class<T> cls) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "24bdec918dddef8e7eae4b1c68533c04327ff104"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "class ChildOfThis extends ConstructorInstantiatorTest ",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_instance_ConstructorInstantiatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(new ConstructorInstantiator(new ChildOfThis()).newInstance(SomeInnerClass.class).getClass(), SomeInnerClass.class)",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_instance_ConstructorInstantiatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return withParams(cls, outerClassInstance)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": 0,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "private static <T> T withParams(Class<T> cls, Object... params) ",
+        "dfgs": [
+            15,
+            10,
+            14,
+            11,
+            12,
+            13
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            11,
+            14
+        ],
+        "code": "for (Constructor<?> constructor : cls.getDeclaredConstructors())",
+        "dfgs": [
+            15,
+            14,
+            11
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "Class<?>[] types = constructor.getParameterTypes()",
+        "dfgs": [
+            12,
+            13
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "if (paramsMatch(types, params))",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) constructor.newInstance(params)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 3,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "throw paramsException(cls, e)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw paramsException(cls, null)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "private static <T> InstantationException paramsException(Class<T> cls, Exception e) ",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new InstantationException(\"Unable to create mock instance of '\"+ cls.getSimpleName() + \"'.\\nPlease ensure that the outer instance has correct type and that the target class has parameter-less constructor.\", e)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "private static boolean paramsMatch(Class<?>[] types, Object[] params) ",
+        "dfgs": [
+            24,
+            21,
+            19,
+            20,
+            23,
+            22
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            21
+        ],
+        "code": "if (params.length != types.length)",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22,
+            24
+        ],
+        "code": "for (int i = 0; i < params.length; i++)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "if (!types[i].isInstance(params[i]))",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static <T> T noArgConstructor(Class<T> cls) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_instance_ConstructorInstantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    }
+]

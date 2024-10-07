@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "serializer.references.put(object, context)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ListSerializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "ba8f4cb77a2f37497012499660ac2a82371efc5b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "serializer.references.put(object, serializer.context)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ListSerializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

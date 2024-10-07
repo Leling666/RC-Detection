@@ -1,0 +1,956 @@
+[
+    {
+        "cfgs": [],
+        "code": "return new BuildWrapper() {@Overridepublic Environment setUp(AbstractBuild build, Launcher launcher, BuildListener listener) throws IOException, InterruptedException {if (!StringUtils.isEmpty(location) && !StringUtils.isEmpty(file.getName())) {listener.getLogger().println(\"Copying file to \"+location);FilePath locationFilePath = build.getWorkspace().child(location);locationFilePath.getParent().mkdirs();locationFilePath.copyFrom(file);locationFilePath.copyTo(new FilePath(getLocationUnderBuild(build)));}return new Environment() {};}}",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 140,
+        "lineEnd": 152,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "e96c8f8f84b05e4c760d5eaede5725dd6068659c",
+            "44a932af7b0f598a71c885061f1bf523a884e704",
+            "f756ddae483a7c8f7cdaa4619e82145a1c63a99b",
+            "d6139d2a061ed31e5177bfcf9d8d3d27fa9a67a4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new File(build.getRootDir(), \"fileParameters/\" + location)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "e96c8f8f84b05e4c760d5eaede5725dd6068659c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.nio.file.Path",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.kohsuke.accmod.Restricted",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.kohsuke.accmod.restrictions.NoExternalUse",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "private static final String FOLDER_NAME = \"fileParameters\"",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static /* Script Console modifiable */ boolean ALLOW_FOLDER_TRAVERSAL_OUTSIDE_WORKSPACE = Boolean.getBoolean(FileParameterValue.class.getName() + \".allowFolderTraversalOutsideWorkspace\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 75,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "FilePath ws = build.getWorkspace()",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (ws == null)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new IllegalStateException(\"The workspace should be created when setUp method is called\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (!ALLOW_FOLDER_TRAVERSAL_OUTSIDE_WORKSPACE && !ws.isDescendant(location))",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [
+            6
+        ],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "listener.error(\"Rejecting file path escaping base directory with relative path: \" + location)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "FilePath locationFilePath = ws.child(location)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "if (!ALLOW_FOLDER_TRAVERSAL_OUTSIDE_WORKSPACE)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [
+            6
+        ],
+        "isDel": false,
+        "lineBeg": 233,
+        "lineEnd": 233,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "File fileParameterFolder = getFileParameterFolderUnderBuild(build)",
+        "dfgs": [
+            17,
+            19
+        ],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": -1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "Path child = fileParameter.getAbsoluteFile().toPath().normalize()",
+        "dfgs": [
+            18
+        ],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Path parent = fileParameterFolder.getAbsoluteFile().toPath().normalize()",
+        "dfgs": [
+            18
+        ],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "if (!child.startsWith(parent))",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 239,
+        "lineEnd": 239,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new IllegalStateException(\"The fileParameter tried to escape the expected folder: \" + location)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new File(getFileParameterFolderUnderBuild(build), location)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": -1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "private File getFileParameterFolderUnderBuild(AbstractBuild<?, ?> build)",
+        "dfgs": [
+            22
+        ],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new File(build.getRootDir(), FOLDER_NAME)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_FileParameterValue.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.nio.file.Path",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "public boolean isDescendant(@Nonnull String potentialChildRelativePath) throws IOException, InterruptedException ",
+        "dfgs": [
+            25
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2959,
+        "lineEnd": 2959,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return act(new IsDescendant(potentialChildRelativePath))",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 2960,
+        "lineEnd": 2960,
+        "lineMapIndex": -1,
+        "methodParents": [
+            29
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private class IsDescendant extends SecureFileCallable<Boolean> ",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2963,
+        "lineEnd": 2963,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final long serialVersionUID = 1L",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2964,
+        "lineEnd": 2964,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private String potentialChildRelativePath",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2965,
+        "lineEnd": 2965,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "private IsDescendant(@Nonnull String potentialChildRelativePath)",
+        "dfgs": [
+            30
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2967,
+        "lineEnd": 2967,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.potentialChildRelativePath = potentialChildRelativePath",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 2968,
+        "lineEnd": 2968,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "public Boolean invoke(@Nonnull File parentFile, @Nonnull VirtualChannel channel) throws IOException, InterruptedException ",
+        "dfgs": [
+            36,
+            32,
+            39,
+            47,
+            33,
+            37,
+            34,
+            38,
+            41,
+            42,
+            43,
+            46,
+            40,
+            45
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2972,
+        "lineEnd": 2972,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33,
+            34
+        ],
+        "code": "if (new File(potentialChildRelativePath).isAbsolute())",
+        "dfgs": [
+            35,
+            38,
+            33
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 2973,
+        "lineEnd": 2973,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "throw new IllegalArgumentException(\"Only a relative path is supported, the given path is absolute: \" + potentialChildRelativePath)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 2974,
+        "lineEnd": 2974,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "Path parent = parentFile.getAbsoluteFile().toPath().normalize()",
+        "dfgs": [
+            36,
+            47
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2977,
+        "lineEnd": 2977,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "String remainingPath = potentialChildRelativePath",
+        "dfgs": [
+            37
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 2979,
+        "lineEnd": 2979,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "File currentFile = parentFile",
+        "dfgs": [
+            38,
+            46
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2980,
+        "lineEnd": 2980,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38,
+            46
+        ],
+        "code": "while (!remainingPath.isEmpty())",
+        "dfgs": [
+            38
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2981,
+        "lineEnd": 2981,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "File directChild = this.getDirectChild(currentFile, remainingPath)",
+        "dfgs": [
+            39,
+            40
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2982,
+        "lineEnd": 2982,
+        "lineMapIndex": -1,
+        "methodParents": [
+            48
+        ],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "File childUsingFullPath = new File(currentFile, remainingPath)",
+        "dfgs": [
+            40
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2983,
+        "lineEnd": 2983,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "remainingPath = childUsingFullPath.getAbsolutePath().substring(directChild.getAbsolutePath().length())",
+        "dfgs": [
+            41
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2984,
+        "lineEnd": 2984,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "File childFileSymbolic = Util.resolveSymlinkToFile(directChild)",
+        "dfgs": [
+            42,
+            43
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2986,
+        "lineEnd": 2986,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            44
+        ],
+        "code": "if (childFileSymbolic == null)",
+        "dfgs": [
+            45
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2987,
+        "lineEnd": 2987,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "currentFile = directChild",
+        "dfgs": [
+            46
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2988,
+        "lineEnd": 2988,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2989,
+        "lineEnd": 2989,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "currentFile = childFileSymbolic",
+        "dfgs": [
+            46
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2990,
+        "lineEnd": 2990,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "Path child = currentFile.getAbsoluteFile().toPath().normalize()",
+        "dfgs": [
+            47
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2995,
+        "lineEnd": 2995,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return child.startsWith(parent)",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2996,
+        "lineEnd": 2996,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "File getDirectChild(File parentFile, String childPath)",
+        "dfgs": [
+            49,
+            52,
+            50,
+            51
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2999,
+        "lineEnd": 2999,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "File current = new File(parentFile, childPath)",
+        "dfgs": [
+            50
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3000,
+        "lineEnd": 3000,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51,
+            52
+        ],
+        "code": "while (current != null && !parentFile.equals(current.getParentFile()))",
+        "dfgs": [
+            52,
+            51
+        ],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3001,
+        "lineEnd": 3001,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "current = current.getParentFile()",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3002,
+        "lineEnd": 3002,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return current",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_FilePath.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3004,
+        "lineEnd": 3004,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,540 @@
+[
+    {
+        "cfgs": [],
+        "code": "throw unsupported()",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "e7a7d913847bc2bcc808944b236da80026d25e3a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw unsupported()",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "e7a7d913847bc2bcc808944b236da80026d25e3a"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "Iterator iter = entries.iterator()",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 344,
+        "lineEnd": 344,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "6983d81680483705c0e2cf4d62b15feba4e6e3ab"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "while (iter.hasNext())",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "117175bc83968ef40e2e6ace39d598c9d87b2faa"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "iter.advance()",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "117175bc83968ef40e2e6ace39d598c9d87b2faa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "res.setEntry(iter.key(), iter.value() / v.getEntry(iter.key()))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 347,
+        "lineEnd": 347,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "94fcce51cd6c448240f79d62a13a17fe9c45dea3"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "boolean isNaN = false",
+        "dfgs": [
+            9,
+            8
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8,
+            9
+        ],
+        "code": "for (int i = 0; i < data.length; i++)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "isNaN |= Double.isNaN(data[i])",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return isNaN",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "boolean isInfinite = false",
+        "dfgs": [
+            16,
+            15
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12,
+            16
+        ],
+        "code": "for (int i = 0; i < data.length; i++)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "final double x = data[i]",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14,
+            15
+        ],
+        "code": "if (Double.isNaN(x))",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "isInfinite |= Double.isInfinite(x)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return isInfinite",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_linear_SparseRealVectorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 257,
+        "lineEnd": 257,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "final int n = getDimension()",
+        "dfgs": [
+            18,
+            19
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 349,
+        "lineEnd": 349,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "for (int i = 0; i < n; i++)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 350,
+        "lineEnd": 350,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "res.setEntry(i, this.getEntry(i) / v.getEntry(i))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 351,
+        "lineEnd": 351,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21,
+            28
+        ],
+        "code": "if (v.isNaN() || v.isInfinite())",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": -1,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "final int n = getDimension()",
+        "dfgs": [
+            22,
+            27
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 374,
+        "lineEnd": 374,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23,
+            28
+        ],
+        "code": "for (int i = 0; i < n; i++)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "final double y = v.getEntry(i)",
+        "dfgs": [
+            24,
+            25,
+            27
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (Double.isNaN(y))",
+        "dfgs": [
+            25,
+            26
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "res.setEntry(i, Double.NaN)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "if (Double.isInfinite(y))",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "final double x = this.getEntry(i)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 380,
+        "lineEnd": 380,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "res.setEntry(i, x * y)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_linear_OpenMapRealVector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 381,
+        "lineEnd": 381,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,303 @@
+[
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_NodeUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2462,
+        "lineEnd": 2462,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6a2378d43d1f06344f6418388d45c66fe3466a07"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(testLocalValue(\"new x()\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_NodeUtilTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1022,
+        "lineEnd": 1022,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "6a2378d43d1f06344f6418388d45c66fe3466a07"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"new externObjSEThis().externObjSEThisMethod('')\",ImmutableList.<String>of(\"externObjSEThis\", \"NEW STRING externObjSEThisMethod\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 205,
+        "lineEnd": 207,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6a2378d43d1f06344f6418388d45c66fe3466a07"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"function f() {\" +\"  new externObjSEThis().externObjSEThisMethod('') \" +\"};\" +\"f();\",ImmutableList.<String>of(\"externObjSEThis\", \"NEW STRING externObjSEThisMethod\", \"f\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 221,
+        "lineEnd": 227,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "92d3cd3eaa7d7e8b5b36322e9bab8eabe6a53c01",
+            "6a2378d43d1f06344f6418388d45c66fe3466a07"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"/** @constructor A */ function A() {};\" +\"function f() {\" +\"  var a = new A; a.foo = 1; return a;\" +\"}\" +\"f()\",ImmutableList.<String>of(\"A\", \"f\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 730,
+        "lineEnd": 735,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "530ed0eff3806a9bb9dd6b58d15597f9a91c66a6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"/** @constructor A */ function A() {this.x = 1};\" +\"function f() {\" +\"  var a = new A; a.foo = 1; return a;\" +\"}\" +\"f()\",ImmutableList.<String>of(\"A\", \"f\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 741,
+        "lineEnd": 746,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "530ed0eff3806a9bb9dd6b58d15597f9a91c66a6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_NodeUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2465,
+        "lineEnd": 2465,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(testLocalValue(\"new x()\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_NodeUtilTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1023,
+        "lineEnd": 1023,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "private static final boolean BROKEN_NEW = true",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static String kExterns =CompilerTypeTestCase.DEFAULT_EXTERNS +\"var window; window.setTimeout;\" +\"/**@nosideeffects*/ function externSENone(){}\\n\" +\"/**@modifies{this}*/ function externSEThis(){}\\n\" +\"/**@constructor\\n\" +\" * @modifies{this}*/\\n\" +\"function externObjSEThis(){}\\n\" +\"/**\\n\" +\" * @param {string} s id.\\n\" +\" * @return {string}\\n\" +\" * @modifies{this}\\n\" +\" */\\n\" +\"externObjSEThis.prototype.externObjSEThisMethod = function(s) {};\" +\"/**\\n\" +\" * @param {string} s id.\\n\" +\" * @return {string}\\n\" +\" * @modifies{arguments}\\n\" +\" */\\n\" +\"externObjSEThis.prototype.externObjSEThisMethod2 = function(s) {};\" +\"/**@nosideeffects*/function Error(){}\" +\"function externSef1(){}\" +\"/**@nosideeffects*/function externNsef1(){}\" +\"var externSef2 = function(){};\" +\"/**@nosideeffects*/var externNsef2 = function(){};\" +\"var externNsef3 = /**@nosideeffects*/function(){};\" +\"var externObj;\" +\"externObj.sef1 = function(){};\" +\"/**@nosideeffects*/externObj.nsef1 = function(){};\" +\"externObj.nsef2 = /**@nosideeffects*/function(){};\" +\"externObj.partialFn;\" +\"externObj.partialSharedFn;\" +\"var externObj2;\" +\"externObj2.partialSharedFn = /**@nosideeffects*/function(){};\" +\"/**@constructor*/function externSefConstructor(){}\" +\"externSefConstructor.prototype.sefFnOfSefObj = function(){};\" +\"externSefConstructor.prototype.nsefFnOfSefObj = \" +\"  /**@nosideeffects*/function(){};\" +\"externSefConstructor.prototype.externShared = function(){};\" +\"/**@constructor\\n@nosideeffects*/function externNsefConstructor(){}\" +\"externNsefConstructor.prototype.sefFnOfNsefObj = function(){};\" +\"externNsefConstructor.prototype.nsefFnOfNsefObj = \" +\"  /**@nosideeffects*/function(){};\" +\"externNsefConstructor.prototype.externShared = \" +\"  /**@nosideeffects*/function(){};\" +\"/**@constructor\\n@nosideeffects*/function externNsefConstructor2(){}\" +\"externNsefConstructor2.prototype.externShared = \" +\"  /**@nosideeffects*/function(){};\" +\"externNsefConstructor.prototype.sharedPartialSef;\" +\"/**@nosideeffects*/externNsefConstructor.prototype.sharedPartialNsef;\" +// An externs definition with a stub before.\"/**@constructor*/function externObj3(){}\" +\"externObj3.prototype.propWithStubBefore;\" +\"/**\\n\" +\" * @param {string} s id.\\n\" +\" * @return {string}\\n\" +\" * @nosideeffects\\n\" +\" */\\n\" +\"externObj3.prototype.propWithStubBefore = function(s) {};\" +// useless jsdoc\"/**\\n\" +\" * @see {foo}\\n\" +\" */\\n\" +\"externObj3.prototype.propWithStubBeforeWithJSDoc;\" +\"/**\\n\" +\" * @param {string} s id.\\n\" +\" * @return {string}\\n\" +\" * @nosideeffects\\n\" +\" */\\n\" +\"externObj3.prototype.propWithStubBeforeWithJSDoc = function(s) {};\" +// An externs definition with a stub after.\"/**@constructor*/function externObj4(){}\" +\"/**\\n\" +\" * @param {string} s id.\\n\" +\" * @return {string}\\n\" +\" * @nosideeffects\\n\" +\" */\\n\" +\"externObj4.prototype.propWithStubAfter = function(s) {};\" +\"externObj4.prototype.propWithStubAfter;\" +\"/**\\n\" +\" * @param {string} s id.\\n\" +\" * @return {string}\\n\" +\" * @nosideeffects\\n\" +\" */\\n\" +\"externObj4.prototype.propWithStubAfterWithJSDoc = function(s) {};\" +// useless jsdoc\"/**\\n\" +\" * @see {foo}\\n\" +\" */\\n\" +\"externObj4.prototype.propWithStubAfterWithJSDoc;\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 169,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "public void testIssue303() throws Exception ",
+        "dfgs": [
+            11
+        ],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"/** @constructor */ function F() {\" +\"  var self = this;\" +\"  window.setTimeout(function() {\" +\"    window.location = self.location;\" +\"  }, 0);\" +\"}\" +\"F.prototype.setLocation = function(x) {\" +\"  this.location = x;\" +\"};\" +\"(new F()).setLocation('http://www.google.com/');\",ImmutableList.<String>of())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 191,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "public void testIssue303b() throws Exception ",
+        "dfgs": [
+            13
+        ],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 205,
+        "lineEnd": 205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"/** @constructor */ function F() {\" +\"  var self = this;\" +\"  window.setTimeout(function() {\" +\"    window.location = self.location;\" +\"  }, 0);\" +\"}\" +\"F.prototype.setLocation = function(x) {\" +\"  this.location = x;\" +\"};\" +\"function x() {\" +\"  (new F()).setLocation('http://www.google.com/');\" +\"} window['x'] = x;\",ImmutableList.<String>of())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 206,
+        "lineEnd": 219,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"new externObjSEThis().externObjSEThisMethod('')\",BROKEN_NEW ?ImmutableList.<String>of(\"externObjSEThis\") :ImmutableList.<String>of(\"externObjSEThis\", \"NEW STRING externObjSEThisMethod\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 246,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"function f() {\" +\"  new externObjSEThis().externObjSEThisMethod('') \" +\"};\" +\"f();\",BROKEN_NEW ?ImmutableList.<String>of(\"externObjSEThis\") :ImmutableList.<String>of(\"externObjSEThis\", \"NEW STRING externObjSEThisMethod\", \"f\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 269,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"/** @constructor A */ function A() {};\" +\"function f() {\" +\"  var a = new A; a.foo = 1; return a;\" +\"}\" +\"f()\",BROKEN_NEW ?ImmutableList.<String>of(\"A\") :ImmutableList.<String>of(\"A\", \"f\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 772,
+        "lineEnd": 779,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkMarkedCalls(\"/** @constructor A */ function A() {this.x = 1};\" +\"function f() {\" +\"  var a = new A; a.foo = 1; return a;\" +\"}\" +\"f()\",BROKEN_NEW ?ImmutableList.<String>of(\"A\") :ImmutableList.<String>of(\"A\", \"f\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PureFunctionIdentifierTest.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 785,
+        "lineEnd": 792,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    }
+]

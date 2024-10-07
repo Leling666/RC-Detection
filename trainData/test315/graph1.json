@@ -1,0 +1,178 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "createInline(\"FONT\")",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "f1d8912a4d6706ab9a8906eb9b4588e8fef2c86c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "createInline(\"A\").setOptionalClosing()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "779bae32dc83982012956eeb30dd0cd7c3ccdab2"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void testAFlowContents() ",
+        "dfgs": [
+            4,
+            3
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 403,
+        "lineEnd": 403,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Document doc = Jsoup.parse(\"<a>Hello <div>there</div> <span>now</span></a>\")",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<a>Hello <div>there</div> <span>now</span></a>\", TextUtil.stripNewlines(doc.body().html()))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "public void testFontFlowContents() ",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 409,
+        "lineEnd": 409,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Document doc = Jsoup.parse(\"<font>Hello <div>there</div> <span>now</span></font>\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 411,
+        "lineEnd": 411,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<font>Hello <div>there</div> <span>now</span></font>\", TextUtil.stripNewlines(doc.body().html()))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 412,
+        "lineEnd": 412,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "createInline(\"FONT\").setOptionalClosing().setCanContainBlock().setFormatAsInline()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "createInline(\"A\").setOptionalClosing().setCanContainBlock().setFormatAsInline()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

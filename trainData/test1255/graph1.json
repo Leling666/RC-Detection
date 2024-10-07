@@ -1,0 +1,781 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "int iter = 0",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_PowellOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "++iter",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_PowellOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 193,
+        "lineEnd": 193,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "stop = checker.converged(iter, previous, current)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_PowellOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "int iter = 0",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_GaussNewtonOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "++iter",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_GaussNewtonOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "converged = checker.converged(iter, previous, current)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_GaussNewtonOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "int iter = 0",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_gradient_NonLinearConjugateGradientOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 214,
+        "lineEnd": 214,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            9
+        ],
+        "code": "++iter",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_gradient_NonLinearConjugateGradientOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (checker.converged(iter, previous, current))",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_gradient_NonLinearConjugateGradientOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (iter % n == 0 ||beta < 0)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_gradient_NonLinearConjugateGradientOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 277,
+        "lineEnd": 278,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "int iter = 0",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "++iter",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 325,
+        "lineEnd": 325,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (checker.converged(iter, previous, current))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 489,
+        "lineEnd": 489,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "if (iteration > 0)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "++iteration",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "iterations = new Incrementor(0, new MaxIterCallback())",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_BaseOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "generationLoop:for (iterations = 1; iterations <= maxIterations; iterations++) {incrementIterationCount();// Generate and evaluate lambda offspringfinal RealMatrix arz = randn1(dimension, lambda);final RealMatrix arx = zeros(dimension, lambda);final double[] fitness = new double[lambda];// generate random offspringfor (int k = 0; k < lambda; k++) {RealMatrix arxk = null;for (int i = 0; i < checkFeasableCount + 1; i++) {if (diagonalOnly <= 0) {arxk = xmean.add(BD.multiply(arz.getColumnMatrix(k)).scalarMultiply(sigma)); // m + sig * Normal(0,C)} else {arxk = xmean.add(times(diagD,arz.getColumnMatrix(k)).scalarMultiply(sigma));}if (i >= checkFeasableCount ||fitfun.isFeasible(arxk.getColumn(0))) {break;}// regenerate random arguments for rowarz.setColumn(k, randn(dimension));}copyColumn(arxk, 0, arx, k);try {fitness[k] = fitfun.value(arx.getColumn(k)); // compute fitness} catch (TooManyEvaluationsException e) {break generationLoop;}}// Sort by fitness and compute weighted mean into xmeanfinal int[] arindex = sortedIndices(fitness);// Calculate new xmean, this is selection and recombinationfinal RealMatrix xold = xmean; // for speed up of Eq. (2) and (3)final RealMatrix bestArx = selectColumns(arx, MathArrays.copyOf(arindex, mu));xmean = bestArx.multiply(weights);final RealMatrix bestArz = selectColumns(arz, MathArrays.copyOf(arindex, mu));final RealMatrix zmean = bestArz.multiply(weights);final boolean hsig = updateEvolutionPaths(zmean, xold);if (diagonalOnly <= 0) {updateCovariance(hsig, bestArx, arz, arindex, xold);} else {updateCovarianceDiagonalOnly(hsig, bestArz);}// Adapt step size sigma - Eq. (5)sigma *= Math.exp(Math.min(1, (normps/chiN - 1) * cs / damps));final double bestFitness = fitness[arindex[0]];final double worstFitness = fitness[arindex[arindex.length - 1]];if (bestValue > bestFitness) {bestValue = bestFitness;lastResult = optimum;optimum = new PointValuePair(fitfun.repair(bestArx.getColumn(0)),isMinimize ? bestFitness : -bestFitness);if (getConvergenceChecker() != null &&lastResult != null) {if (getConvergenceChecker().converged(iterations, optimum, lastResult)) {break generationLoop;}}}// handle termination criteria// Break, if fitness is good enoughif (stopFitness != 0) { // only if stopFitness is definedif (bestFitness < (isMinimize ? stopFitness : -stopFitness)) {break generationLoop;}}final double[] sqrtDiagC = sqrt(diagC).getColumn(0);final double[] pcCol = pc.getColumn(0);for (int i = 0; i < dimension; i++) {if (sigma * Math.max(Math.abs(pcCol[i]), sqrtDiagC[i]) > stopTolX) {break;}if (i >= dimension - 1) {break generationLoop;}}for (int i = 0; i < dimension; i++) {if (sigma * sqrtDiagC[i] > stopTolUpX) {break generationLoop;}}final double historyBest = min(fitnessHistory);final double historyWorst = max(fitnessHistory);if (iterations > 2 &&Math.max(historyWorst, worstFitness) -Math.min(historyBest, bestFitness) < stopTolFun) {break generationLoop;}if (iterations > fitnessHistory.length &&historyWorst - historyBest < stopTolHistFun) {break generationLoop;}// condition number of the covariance matrix exceeds 1e14if (max(diagD) / min(diagD) > 1e7) {break generationLoop;}// user defined terminationif (getConvergenceChecker() != null) {final PointValuePair current= new PointValuePair(bestArx.getColumn(0),isMinimize ? bestFitness : -bestFitness);if (lastResult != null &&getConvergenceChecker().converged(iterations, current, lastResult)) {break generationLoop;}lastResult = current;}// Adjust step size in case of equal function values (flat fitness)if (bestValue == fitness[arindex[(int)(0.1+lambda/4.)]]) {sigma = sigma * Math.exp(0.2 + cs / damps);}if (iterations > 2 && Math.max(historyWorst, bestFitness) -Math.min(historyBest, bestFitness) == 0) {sigma = sigma * Math.exp(0.2 + cs / damps);}// store best in historypush(fitnessHistory,bestFitness);fitfun.setValueRange(worstFitness-bestFitness);if (generateStatistics) {statisticsSigmaHistory.add(sigma);statisticsFitnessHistory.add(bestFitness);statisticsMeanHistory.add(xmean.transpose());statisticsDHistory.add(diagD.transpose().scalarMultiply(1E5))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_CMAESOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 386,
+        "lineEnd": 512,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "incrementIterationCount()",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_PowellOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 192,
+        "lineEnd": 192,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "stop = checker.converged(getIterations(), previous, current)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_PowellOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optim.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_CMAESOptimizerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 514,
+        "lineEnd": 514,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "incrementIterationCount()",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_GaussNewtonOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "converged = checker.converged(getIterations(), previous, current)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_GaussNewtonOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23,
+            24
+        ],
+        "code": "incrementIterationCount()",
+        "dfgs": [
+            23,
+            24
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_gradient_NonLinearConjugateGradientOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 216,
+        "lineEnd": 216,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "if (checker.converged(getIterations(), previous, current))",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_gradient_NonLinearConjugateGradientOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 222,
+        "lineEnd": 222,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (getIterations() % n == 0 ||beta < 0)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_gradient_NonLinearConjugateGradientOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 276,
+        "lineEnd": 277,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optim.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_PowellOptimizerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_gradient_NonLinearConjugateGradientOptimizerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "incrementIterationCount()",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (checker.converged(getIterations(), previous, current))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 489,
+        "lineEnd": 489,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizerMultiDirectionalTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizerMultiDirectionalTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizerMultiDirectionalTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizerMultiDirectionalTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "if (getIterations() > 0)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "incrementIterationCount()",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "iterations = new Incrementor(Integer.MAX_VALUE, new MaxIterCallback())",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_BaseOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testGetIterations() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizerAbstractTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "AbstractLeastSquaresOptimizer optim = createOptimizer()",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizerAbstractTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "optim.optimize(new MaxEval(100), new Target(new double[] { 1 }),new Weight(new double[] { 1 }),new InitialGuess(new double[] { 3 }),new ModelFunction(new MultivariateVectorFunction() {@Overridepublic double[] value(double[] point) {return new double[] {FastMath.pow(point[0], 4)};}}),new ModelFunctionJacobian(new MultivariateMatrixFunction() {@Overridepublic double[][] value(double[] point) {return new double[][] {{ 0.25 * FastMath.pow(point[0], 3) }};}}))",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizerAbstractTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new double[][] {{ 0.25 * FastMath.pow(point[0], 3) }}",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizerAbstractTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optim.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizerAbstractTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizerNelderMeadTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizerNelderMeadTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizerNelderMeadTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(optimizer.getIterations() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_optim_nonlinear_scalar_noderiv_SimplexOptimizerNelderMeadTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    }
+]

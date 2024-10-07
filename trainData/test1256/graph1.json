@@ -1,0 +1,853 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "currentEvent.stepAccepted(eventT, eventY)",
+        "dfgs": [
+            1,
+            4,
+            3
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 344,
+        "lineEnd": 344,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "5a2bf9c6570a96383386039cd4ab7aa0c8a0b7eb"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            4
+        ],
+        "code": "isLastStep = currentEvent.stop()",
+        "dfgs": [
+            4,
+            2,
+            5,
+            6
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "5a2bf9c6570a96383386039cd4ab7aa0c8a0b7eb"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "for (final EventState remaining : occuringEvents)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 355,
+        "lineEnd": 355,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "7980a24266d463bacc8f1271a83865a7d5638891"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "remaining.stepAccepted(eventT, eventY)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 356,
+        "lineEnd": 356,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "7980a24266d463bacc8f1271a83865a7d5638891"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (currentEvent.reset(eventT, eventY))",
+        "dfgs": [
+            5,
+            6
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 361,
+        "lineEnd": 361,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "5a2bf9c6570a96383386039cd4ab7aa0c8a0b7eb"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "for (final EventState remaining : occuringEvents)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 367,
+        "lineEnd": 367,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "7980a24266d463bacc8f1271a83865a7d5638891"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "remaining.stepAccepted(eventT, eventY)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "7980a24266d463bacc8f1271a83865a7d5638891"
+        ]
+    },
+    {
+        "cfgs": [
+            10,
+            8
+        ],
+        "code": "for (final EventState state : eventsStates)",
+        "dfgs": [
+            11,
+            8
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "state.stepAccepted(eventT, eventY)",
+        "dfgs": [
+            9,
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 347,
+        "lineEnd": 347,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "isLastStep = isLastStep || state.stop()",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 348,
+        "lineEnd": 348,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "boolean needReset = false",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 362,
+        "lineEnd": 362,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12,
+            13
+        ],
+        "code": "for (final EventState state : eventsStates)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 363,
+        "lineEnd": 363,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "needReset =  needReset || state.reset(eventT, eventY)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (needReset)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_ode_AbstractIntegrator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 366,
+        "lineEnd": 366,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testEventsScheduling() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 337,
+        "lineEnd": 337,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "FirstOrderDifferentialEquations sincos = new FirstOrderDifferentialEquations() {public int getDimension() {return 2;}public void computeDerivatives(double t, double[] y, double[] yDot) {yDot[0] =  y[1];yDot[1] = -y[0];}}",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 350,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return 2",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 342,
+        "lineEnd": 342,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void computeDerivatives(double t, double[] y, double[] yDot) ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "yDot[0] =  y[1]",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "yDot[1] = -y[0]",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 347,
+        "lineEnd": 347,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "SchedulingChecker sinChecker = new SchedulingChecker(0)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 352,
+        "lineEnd": 352,
+        "lineMapIndex": -1,
+        "methodParents": [
+            35
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "SchedulingChecker cosChecker = new SchedulingChecker(1)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 353,
+        "lineEnd": 353,
+        "lineMapIndex": -1,
+        "methodParents": [
+            35
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "FirstOrderIntegrator integ =new DormandPrince853Integrator(0.001, 1.0, 1.0e-12, 0.0)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 355,
+        "lineEnd": 356,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "integ.addEventHandler(sinChecker, 0.01, 1.0e-7, 100)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 357,
+        "lineEnd": 357,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "integ.addStepHandler(sinChecker)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 358,
+        "lineEnd": 358,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "integ.addEventHandler(cosChecker, 0.01, 1.0e-7, 100)",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 359,
+        "lineEnd": 359,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "integ.addStepHandler(cosChecker)",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 360,
+        "lineEnd": 360,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "double   t0 = 0.5",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 361,
+        "lineEnd": 361,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "double[] y0 = new double[] { FastMath.sin(t0), FastMath.cos(t0) }",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 362,
+        "lineEnd": 362,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "double   t  = 10.0",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 363,
+        "lineEnd": 363,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "double[] y  = new double[2]",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "integ.integrate(sincos, t0, y0, t, y)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static class SchedulingChecker implements StepHandler, EventHandler ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 369,
+        "lineEnd": 369,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int index",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 371,
+        "lineEnd": 371,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "double tMin",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 372,
+        "lineEnd": 372,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "public SchedulingChecker(int index) ",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 374,
+        "lineEnd": 374,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.index = index",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": false,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "public void init(double t0, double[] y0, double t) ",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "tMin = t0",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [
+            34
+        ],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "public void handleStep(StepInterpolator interpolator, boolean isLast) ",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 382,
+        "lineEnd": 382,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "tMin = interpolator.getCurrentTime()",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [
+            34
+        ],
+        "isDel": false,
+        "lineBeg": 383,
+        "lineEnd": 383,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "public double g(double t, double[]  y) ",
+        "dfgs": [
+            43,
+            42
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 386,
+        "lineEnd": 386,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "Assert.assertTrue(t >= tMin)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [
+            34
+        ],
+        "isDel": false,
+        "lineBeg": 389,
+        "lineEnd": 389,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return y[index]",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": false,
+        "lineBeg": 390,
+        "lineEnd": 390,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "public Action eventOccurred(double t, double[] y, boolean increasing) ",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 393,
+        "lineEnd": 393,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Action.RESET_STATE",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 394,
+        "lineEnd": 394,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void resetState(double t, double[] y) ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_ode_nonstiff_DormandPrince853IntegratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 397,
+        "lineEnd": 397,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    }
+]

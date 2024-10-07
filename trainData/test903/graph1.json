@@ -1,0 +1,1256 @@
+[
+    {
+        "cfgs": [],
+        "code": "private static final Map<ApplicationID, Boolean> isClassPathInitialized = new ConcurrentHashMap<>()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "static boolean isAppClassPathInitialized(ApplicationID appId)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 204,
+        "lineEnd": 205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return urlClassLoaders.containsKey(appId) && isClassPathInitialized.containsKey(appId)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "static boolean doesAppHaveSysClassPathCube(ApplicationID appId)",
+        "dfgs": [
+            4,
+            5
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 209,
+        "lineEnd": 210,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Object[] info = getPersister().getCubeRecords(appId, \"sys.classpath\")",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return !ArrayUtilities.isEmpty(info)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 212,
+        "lineEnd": 212,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (isAppClassPathInitialized(appId))",
+        "dfgs": [
+            8,
+            11,
+            7,
+            9,
+            15
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 221,
+        "lineEnd": 221,
+        "lineMapIndex": -1,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return urlClassLoaders.get(appId)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            9,
+            10
+        ],
+        "code": "if (name.startsWith(\"sys.\") && urlClassLoaders.containsKey(appId))",
+        "dfgs": [
+            10,
+            11,
+            13,
+            9,
+            18,
+            15
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "d3128ba413856a94cb43dccce74bc2f4d4995803"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return urlClassLoaders.get(appId)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 229,
+        "lineEnd": 229,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "d3128ba413856a94cb43dccce74bc2f4d4995803"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            15
+        ],
+        "code": "if (name.startsWith(\"sys.\"))",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "d3128ba413856a94cb43dccce74bc2f4d4995803"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "forceLoadOfSysCubes(appId)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 233,
+        "lineEnd": 233,
+        "lineMapIndex": -1,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "GroovyClassLoader gcl = new CdnClassLoader(NCubeManager.class.getClassLoader(), true, true)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "urlClassLoaders.put(appId, gcl)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return gcl",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [
+            16,
+            17
+        ],
+        "code": "if (doesAppHaveSysClassPathCube(appId))",
+        "dfgs": [
+            18,
+            16
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "throw new IllegalStateException(\"Unable to initialize classpath for app: \" + appId + \", cube: \" + name)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "GroovyClassLoader gcl = new CdnClassLoader(NCubeManager.class.getClassLoader(), true, true)",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "urlClassLoaders.put(appId, gcl)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return gcl",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "isClassPathInitialized.remove(appId)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 358,
+        "lineEnd": 358,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "isClassPathInitialized.clear()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "if (!isAppClassPathInitialized(appId))",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 505,
+        "lineEnd": 505,
+        "lineMapIndex": -1,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "forceLoadOfSysCubes(appId)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": -1,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "d3128ba413856a94cb43dccce74bc2f4d4995803"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "private static void forceLoadOfSysCubes(ApplicationID appId)",
+        "dfgs": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            31
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 518,
+        "lineEnd": 519,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752",
+            "d3128ba413856a94cb43dccce74bc2f4d4995803"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "Map<String, Object> appCache = getCacheForApp(appId)",
+        "dfgs": [
+            26,
+            30,
+            32
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 520,
+        "lineEnd": 520,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "Object[] sysCubes = getPersister().getCubeRecords(appId, \"sys.%\")",
+        "dfgs": [
+            27,
+            28
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 521,
+        "lineEnd": 521,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "if (sysCubes.length > 0)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 522,
+        "lineEnd": 522,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "for (Object infoDto : sysCubes)",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 524,
+        "lineEnd": 524,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "NCubeInfoDto info = (NCubeInfoDto) infoDto",
+        "dfgs": [
+            30,
+            31
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 526,
+        "lineEnd": 526,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "if (!appCache.containsKey(info.name.toLowerCase()))",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 527,
+        "lineEnd": 527,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "NCube cube = getPersister().loadCube(info)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 529,
+        "lineEnd": 529,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "applyAdvices(cube.getApplicationID(), cube)",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 530,
+        "lineEnd": 530,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "getCacheForApp(cube.getApplicationID()).put(cube.name.toLowerCase(), cube)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 531,
+        "lineEnd": 531,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (newAppId.isRelease())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 610,
+        "lineEnd": 610,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "if (isAppClassPathInitialized(appId))",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 822,
+        "lineEnd": 822,
+        "lineMapIndex": 56,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            37,
+            39
+        ],
+        "code": "NCube cpCube = (NCube) getCacheForApp(appId).get(CLASSPATH_CUBE)",
+        "dfgs": [
+            37,
+            38,
+            39
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 836,
+        "lineEnd": 836,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "LOG.info(\"no sys.classpath exists for this application:  \" + appId)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 840,
+        "lineEnd": 840,
+        "lineMapIndex": 58,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "20cbc65e6dce821d08efa9620f455020635013da"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "isClassPathInitialized.put(appId, true)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 841,
+        "lineEnd": 841,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "isClassPathInitialized.put(appId, true)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 849,
+        "lineEnd": 849,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "bf20f59549f9e0488eabb6bbd7cc4f763548c752"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "NCubeManager.getUrlClassLoader(appId, \"bingo\")",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_ncube_TestCdnRouter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 60,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "4fa37890f9a55a9fd295f1963a61e6f5aac38fb8"
+        ]
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "URL[] urls = NCubeManager.getUrlClassLoader(customId, name).getURLs()",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_test_java_com_cedarsoftware_ncube_TestNCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 684,
+        "lineEnd": 684,
+        "lineMapIndex": 61,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0, urls.length)",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_ncube_TestNCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 685,
+        "lineEnd": 685,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "eb7dd0af46c7562ee815be25e0e747b6fd8079f2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1, NCubeManager.getUrlClassLoader(customId, name).getURLs().length)",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_ncube_TestNCubeManager.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 739,
+        "lineEnd": 739,
+        "lineMapIndex": 62,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": [
+            "4fa37890f9a55a9fd295f1963a61e6f5aac38fb8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Map<ApplicationID, Object> isAppInitialized = new ConcurrentHashMap<>()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46,
+            55
+        ],
+        "code": "if(!name.toLowerCase().startsWith(\"sys.classpath\") && !name.toLowerCase().startsWith(\"sys.bootstrap\"))",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47,
+            55
+        ],
+        "code": "if (!isAppInitialized.containsKey(appId))",
+        "dfgs": [
+            55,
+            47,
+            54,
+            49
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [
+            44
+        ],
+        "isDel": false,
+        "lineBeg": 208,
+        "lineEnd": 208,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "Object[] ncubeInfoDtos = getCubeRecordsFromDatabase(appId, \"sys.classpath\")",
+        "dfgs": [
+            48,
+            54,
+            49
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 210,
+        "lineEnd": 210,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49,
+            54
+        ],
+        "code": "if (ncubeInfoDtos.length > 0)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55,
+            50
+        ],
+        "code": "while (!isAppInitialized.containsKey(appId))",
+        "dfgs": [
+            55,
+            51
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "try",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 215,
+        "lineEnd": 216,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "LOG.info(\"Blocking on app: \" + appId + \" while attempting to fetch \" + name)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Thread.sleep(100)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 218,
+        "lineEnd": 218,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (InterruptedException ignored)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "isAppInitialized.put(appId, true)",
+        "dfgs": [
+            55
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [
+            44
+        ],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return urlClassLoaders.get(appId)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "if (urlClassLoaders.containsKey(appId))",
+        "dfgs": [
+            57
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 775,
+        "lineEnd": 775,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58,
+            59
+        ],
+        "code": "NCube cpCube = getCube(appId, CLASSPATH_CUBE)",
+        "dfgs": [
+            58,
+            59
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 789,
+        "lineEnd": 789,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"no sys.classpath exists for this application:  \" + appId)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 793,
+        "lineEnd": 793,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "isAppInitialized.put(appId, true)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_NCubeManager.java",
+        "fieldParents": [
+            44
+        ],
+        "isDel": false,
+        "lineBeg": 801,
+        "lineEnd": 801,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "NCubeManager.getUrlClassLoader(appId, \"hey\")",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_ncube_TestCdnRouter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 40,
+        "methodParents": [
+            45
+        ],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0, NCubeManager.getUrlClassLoader(customId, name).getURLs().length)",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_ncube_TestNCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 684,
+        "lineEnd": 684,
+        "lineMapIndex": 41,
+        "methodParents": [
+            45
+        ],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1, NCubeManager.getUrlClassLoader(customId, testCube.name).getURLs().length)",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_ncube_TestNCubeManager.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 738,
+        "lineEnd": 738,
+        "lineMapIndex": 43,
+        "methodParents": [
+            45
+        ],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    }
+]

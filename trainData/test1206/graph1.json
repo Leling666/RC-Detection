@@ -1,0 +1,356 @@
+[
+    {
+        "cfgs": [],
+        "code": "return (Class) actual",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_reflection_GenericMaster.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "2eb41dde4e2ded14d86cee801e6b73867ed12110"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "assertEquals(m.getGenericType(field(\"one\")), String.class)",
+        "dfgs": [
+            2
+        ],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 12,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "2eb41dde4e2ded14d86cee801e6b73867ed12110"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "assertEquals(m.getGenericType(field(\"two\")), Integer.class)",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 13,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "2eb41dde4e2ded14d86cee801e6b73867ed12110"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(m.getGenericType(field(\"map\")), Double.class)",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 14,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "2eb41dde4e2ded14d86cee801e6b73867ed12110"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(m.getGenericType(field(\"nonGeneric\")), Object.class)",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 15,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "2eb41dde4e2ded14d86cee801e6b73867ed12110"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (actual instanceof Class)",
+        "dfgs": [
+            6,
+            7
+        ],
+        "fName": "src_org_mockito_internal_util_reflection_GenericMaster.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (Class) actual",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_reflection_GenericMaster.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (actual instanceof ParameterizedType)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_org_mockito_internal_util_reflection_GenericMaster.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (Class) ((ParameterizedType) actual).getRawType()",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_reflection_GenericMaster.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Collection",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6,
+        "lineEnd": 6,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "List<Set<String>> nested",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "List<Set<Collection<String>>> multiNested",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "assertEquals(String.class, m.getGenericType(field(\"one\")))",
+        "dfgs": [
+            13
+        ],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(Integer.class, m.getGenericType(field(\"two\")))",
+        "dfgs": [
+            14
+        ],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 2,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(Double.class, m.getGenericType(field(\"map\")))",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 3,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(Object.class, m.getGenericType(field(\"nonGeneric\")))",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 4,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "\rpublic void shouldDealWithNestedGenerics() throws Exception",
+        "dfgs": [
+            17,
+            18
+        ],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertEquals(Set.class, m.getGenericType(field(\"nested\")))",
+        "dfgs": [
+            18
+        ],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [
+            10
+        ],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(Set.class, m.getGenericType(field(\"multiNested\")))",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_util_reflection_GenericMasterTest.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,201 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "Element el = doc.child(0)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_jsoup_parser_XmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "4eb4f2b2e88a2f9e6c5c1e8d0477060954f24218"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "insert = new XmlDeclaration(settings.normalizeTag(el.tagName()), data.startsWith(\"!\"))",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_org_jsoup_parser_XmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "f71712ba5d28df09c9a5b6e3c8a37f05f5e3372d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "insert.attributes().addAll(el.attributes())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_XmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "4eb4f2b2e88a2f9e6c5c1e8d0477060954f24218"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (doc.childNodeSize() > 0)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_org_jsoup_parser_XmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Element el = doc.child(0)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_jsoup_parser_XmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "insert = new XmlDeclaration(settings.normalizeTag(el.tagName()), data.startsWith(\"!\"))",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_org_jsoup_parser_XmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "insert.attributes().addAll(el.attributes())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_XmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void handlesDodgyXmlDecl() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_XmlTreeBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 225,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "String xml = \"<?xml version='1.0'><val>One</val>\"",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_jsoup_parser_XmlTreeBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Document doc = Jsoup.parse(xml, \"\", Parser.xmlParser())",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_jsoup_parser_XmlTreeBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"One\", doc.select(\"val\").text())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_XmlTreeBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "cfgs": [
+            1,
+            2
+        ],
+        "code": "if (oldUmask == Integer.MIN_VALUE)",
+        "dfgs": [
+            2
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_fs_permission_FsPermission.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "67c006c322c3925b42322f6ced841a54084f582a"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "throw new IllegalArgumentException(error)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_fs_permission_FsPermission.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 264,
+        "lineEnd": 264,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "67c006c322c3925b42322f6ced841a54084f582a"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if(oldUmask != Integer.MIN_VALUE)",
+        "dfgs": [
+            3
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_fs_permission_FsPermission.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "67c006c322c3925b42322f6ced841a54084f582a"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (umask != oldUmask)",
+        "dfgs": [
+            5
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_fs_permission_FsPermission.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "67c006c322c3925b42322f6ced841a54084f582a"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "LOG.warn(DEPRECATED_UMASK_LABEL+ \" configuration key is deprecated. \" + \"Convert to \"+ UMASK_LABEL + \", using octal or symbolic umask \"+ \"specifications.\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_fs_permission_FsPermission.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 270,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "67c006c322c3925b42322f6ced841a54084f582a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "umask = oldUmask",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_fs_permission_FsPermission.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "67c006c322c3925b42322f6ced841a54084f582a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new IllegalArgumentException(error)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_fs_permission_FsPermission.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

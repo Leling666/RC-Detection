@@ -1,0 +1,7 @@
+{
+    "repo": "hadoop",
+    "fix": "91e832e7b47ff5088ca2bb54aa25f6f166d6c8d5",
+    "induce": [
+        "18c5bc86ca256beb9d4ccd6588c0b0ebe9dfcbd0"
+    ]
+}

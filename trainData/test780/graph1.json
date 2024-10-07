@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (!traversalRequired || !cache.hasDirtyPojos())",
+        "dfgs": [],
+        "fName": "src_org_zoodb_internal_ObjectGraphTraverser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "3a84771405a2c27fc4fe0423a010c6280fd380d8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!traversalRequired && !cache.hasDirtyPojos())",
+        "dfgs": [],
+        "fName": "src_org_zoodb_internal_ObjectGraphTraverser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

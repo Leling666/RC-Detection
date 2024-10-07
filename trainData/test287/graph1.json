@@ -1,0 +1,128 @@
+[
+    {
+        "cfgs": [],
+        "code": "return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "8749726a79c22451b1f01b14fb2137f734e926b4"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "public void testSupportsNonAsciiTags() ",
+        "dfgs": [
+            2,
+            5,
+            3,
+            4
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 887,
+        "lineEnd": 887,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "String body = \"<\u9032\u6357\u63a8\u79fb\u30b0\u30e9\u30d5>Yes</\u9032\u6357\u63a8\u79fb\u30b0\u30e9\u30d5>\"",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 888,
+        "lineEnd": 888,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Document doc = Jsoup.parse(body)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 889,
+        "lineEnd": 889,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Elements els = doc.select(\"\u9032\u6357\u63a8\u79fb\u30b0\u30e9\u30d5\")",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 890,
+        "lineEnd": 890,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"Yes\", els.text())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 891,
+        "lineEnd": 891,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || Character.isLetter(c)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,246 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.springframework.security.oauth2.jwt.Jwt",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_test_java_org_springframework_security_oauth2_jwt_JwtIssuerValidatorTests.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.springframework.security.oauth2.jwt.JwtClaimNames",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_test_java_org_springframework_security_oauth2_jwt_JwtIssuerValidatorTests.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.springframework.security.oauth2.jwt.JwtIssuerValidator",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_test_java_org_springframework_security_oauth2_jwt_JwtIssuerValidatorTests.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final URL issuer",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_main_java_org_springframework_security_oauth2_jwt_JwtIssuerValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.issuer = new URL(issuer)",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_main_java_org_springframework_security_oauth2_jwt_JwtIssuerValidator.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (this.issuer.equals(token.getIssuer()))",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_main_java_org_springframework_security_oauth2_jwt_JwtIssuerValidator.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void validateWhenJwtHasNoIssuerThenReturnsError() ",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_test_java_org_springframework_security_oauth2_jwt_JwtIssuerValidatorTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Jwt jwt = new Jwt(MOCK_TOKEN,MOCK_ISSUED_AT,MOCK_EXPIRES_AT,MOCK_HEADERS,Collections.singletonMap(JwtClaimNames.AUD, \"https://aud\"))",
+        "dfgs": [
+            8
+        ],
+        "fName": "oauth2_oauth2-jose_src_test_java_org_springframework_security_oauth2_jwt_JwtIssuerValidatorTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "OAuth2TokenValidatorResult result = this.validator.validate(jwt)",
+        "dfgs": [
+            9
+        ],
+        "fName": "oauth2_oauth2-jose_src_test_java_org_springframework_security_oauth2_jwt_JwtIssuerValidatorTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(result.getErrors()).isNotEmpty()",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_test_java_org_springframework_security_oauth2_jwt_JwtIssuerValidatorTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final String issuer",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_main_java_org_springframework_security_oauth2_jwt_JwtIssuerValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.issuer = new URL(issuer).toString()",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_main_java_org_springframework_security_oauth2_jwt_JwtIssuerValidator.java",
+        "fieldParents": [
+            10
+        ],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "String tokenIssuer = token.getClaimAsString(JwtClaimNames.ISS)",
+        "dfgs": [
+            13
+        ],
+        "fName": "oauth2_oauth2-jose_src_main_java_org_springframework_security_oauth2_jwt_JwtIssuerValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (this.issuer.equals(tokenIssuer))",
+        "dfgs": [],
+        "fName": "oauth2_oauth2-jose_src_main_java_org_springframework_security_oauth2_jwt_JwtIssuerValidator.java",
+        "fieldParents": [
+            10
+        ],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    }
+]

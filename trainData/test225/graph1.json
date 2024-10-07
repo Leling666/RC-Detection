@@ -1,0 +1,233 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "private void convertClobToBlobinDerby(Connection conn) throws Exception ",
+        "dfgs": [
+            2,
+            1,
+            3
+        ],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 601,
+        "lineEnd": 601,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "222b014584083f101173bbaecd89649128330854"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "for (int i = 0; i < columnNames.size(); i++)",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 615,
+        "lineEnd": 615,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "8ca266face9f7848fde26dd83dafbd45ff7eedb1"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "Clob confClob = rs.getClob(columnNames.get(i))",
+        "dfgs": [
+            3
+        ],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 616,
+        "lineEnd": 616,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "8ca266face9f7848fde26dd83dafbd45ff7eedb1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "PreparedStatement ps = conn.prepareStatement(\"update \" + tableName + \" set \" + TEMP_COLUMN_PREFIX+ columnNames.get(i) + \"=? where id = ?\")",
+        "dfgs": [],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 620,
+        "lineEnd": 621,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "8ca266face9f7848fde26dd83dafbd45ff7eedb1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "convertClobToBlobinDerby(conn)",
+        "dfgs": [],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 679,
+        "lineEnd": 679,
+        "lineMapIndex": 11,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "222b014584083f101173bbaecd89649128330854"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "private void convertClobToBlobinDerby(Connection conn, String startingVersion) throws Exception ",
+        "dfgs": [
+            9,
+            6,
+            10,
+            7
+        ],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 601,
+        "lineEnd": 601,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "for (String column : columnNames)",
+        "dfgs": [
+            9,
+            10,
+            7
+        ],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 615,
+        "lineEnd": 615,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (startingVersion.equals(DB_VERSION_PRE_4_0)&& tableName.equals(\"COORD_ACTIONS\") && column.equals(\"push_missing_dependencies\"))",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 616,
+        "lineEnd": 617,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 622,
+        "lineEnd": 622,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Clob confClob = rs.getClob(column)",
+        "dfgs": [
+            10
+        ],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 624,
+        "lineEnd": 624,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PreparedStatement ps = conn.prepareStatement(\"update \" + tableName + \" set \" + TEMP_COLUMN_PREFIX+ column + \"=? where id = ?\")",
+        "dfgs": [],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 628,
+        "lineEnd": 629,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "convertClobToBlobinDerby(conn, startingVersion)",
+        "dfgs": [],
+        "fName": "tools_src_main_java_org_apache_oozie_tools_OozieDBCLI.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 687,
+        "lineEnd": 687,
+        "lineMapIndex": 4,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

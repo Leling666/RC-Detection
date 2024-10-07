@@ -1,0 +1,517 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (isVar)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Node value = n.hasChildren() ?v.getInitialValue().detachFromParent() :null",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 366,
+        "lineEnd": 368,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1
+    },
+    {
+        "cfgs": [],
+        "code": "parent.getParent().addChildBefore(newDecl, parent)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 388,
+        "lineEnd": 388,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2
+    },
+    {
+        "cfgs": [],
+        "code": "testScopedFailure(\"function f() {}\",ScopedAliases.GOOG_SCOPE_NON_ALIAS_LOCAL)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ScopedAliasesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 497,
+        "lineEnd": 498,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 3
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.javascript.rhino.IR",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "boolean isFunctionDecl = NodeUtil.isFunctionDeclaration(parent)",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 358,
+        "lineEnd": 358,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "if (isVar || isFunctionDecl)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 367,
+        "lineEnd": 367,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "boolean isHoisted = NodeUtil.isHoistedFunctionDeclaration(parent)",
+        "dfgs": [
+            8,
+            22,
+            24
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Node grandparent = parent.getParent()",
+        "dfgs": [
+            16,
+            20,
+            22,
+            24
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 369,
+        "lineEnd": 369,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Node value = v.getInitialValue() != null ?v.getInitialValue() :null",
+        "dfgs": [
+            22,
+            24,
+            14,
+            12,
+            18
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 370,
+        "lineEnd": 372,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9
+    },
+    {
+        "cfgs": [
+            11,
+            17
+        ],
+        "code": "Node varNode = null",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "if (isFunctionDecl)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 385,
+        "lineEnd": 385,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "Node existingName = v.getNameNode()",
+        "dfgs": [
+            22,
+            24,
+            13
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 387,
+        "lineEnd": 387,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Node newName = IR.name(\"\").useSourceInfoFrom(existingName)",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 396,
+        "lineEnd": 396,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "value.replaceChild(existingName, newName)",
+        "dfgs": [
+            22,
+            24,
+            15
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 397,
+        "lineEnd": 397,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "varNode = IR.var(existingName).useSourceInfoFrom(existingName)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 399,
+        "lineEnd": 399,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15
+    },
+    {
+        "cfgs": [
+            21,
+            23
+        ],
+        "code": "grandparent.replaceChild(parent, varNode)",
+        "dfgs": [
+            22,
+            24
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 400,
+        "lineEnd": 400,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 401,
+        "lineEnd": 401,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17
+    },
+    {
+        "cfgs": [
+            19,
+            20
+        ],
+        "code": "if (value != null)",
+        "dfgs": [
+            22,
+            24,
+            19
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 402,
+        "lineEnd": 402,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "value.detachFromParent()",
+        "dfgs": [
+            22,
+            24
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19
+    },
+    {
+        "cfgs": [
+            21,
+            23
+        ],
+        "code": "varNode = parent",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "if (isHoisted)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 422,
+        "lineEnd": 422,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21
+    },
+    {
+        "cfgs": [],
+        "code": "grandparent.addChildToFront(newDecl)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 423,
+        "lineEnd": 423,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 424,
+        "lineEnd": 424,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23
+    },
+    {
+        "cfgs": [],
+        "code": "grandparent.addChildBefore(newDecl, varNode)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 425,
+        "lineEnd": 425,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24
+    },
+    {
+        "cfgs": [],
+        "code": "testScopedFailure(\"try { } catch (e) {}\",ScopedAliases.GOOG_SCOPE_NON_ALIAS_LOCAL)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ScopedAliasesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 497,
+        "lineEnd": 498,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 25
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "public void testFunctionDeclaration() ",
+        "dfgs": [
+            27
+        ],
+        "fName": "test_com_google_javascript_jscomp_ScopedAliasesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 514,
+        "lineEnd": 514,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26
+    },
+    {
+        "cfgs": [],
+        "code": "testScoped(\"if (x) { function f() {} } g(f)\",SCOPE_NAMESPACE +\"if (x) { $jscomp.scope.f = function () {}; } \" +\"g($jscomp.scope.f); \")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ScopedAliasesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 515,
+        "lineEnd": 518,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "public void testHoistedFunctionDeclaration() ",
+        "dfgs": [
+            29
+        ],
+        "fName": "test_com_google_javascript_jscomp_ScopedAliasesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 521,
+        "lineEnd": 521,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28
+    },
+    {
+        "cfgs": [],
+        "code": "testScoped(\" g(f); function f() {} \",SCOPE_NAMESPACE +\" $jscomp.scope.f = function () {}; \" +\"g($jscomp.scope.f); \")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ScopedAliasesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 522,
+        "lineEnd": 525,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "if (n == null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_Node.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 554,
+        "lineEnd": 554,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30
+    },
+    {
+        "cfgs": [],
+        "code": "throw new RuntimeException(\"node is not a child\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_Node.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 555,
+        "lineEnd": 555,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31
+    }
+]

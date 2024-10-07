@@ -1,0 +1,2317 @@
+[
+    {
+        "cfgs": [],
+        "code": "return iBase.getZone().convertLocalToUTC(localInstant, false)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_field_LenientDateTimeField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "c41eff1e6026a6e0b88ea45edda3e41eecc6ac7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 436,
+        "lineEnd": 436,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "c41eff1e6026a6e0b88ea45edda3e41eecc6ac7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "c41eff1e6026a6e0b88ea45edda3e41eecc6ac7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 460,
+        "lineEnd": 460,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "c41eff1e6026a6e0b88ea45edda3e41eecc6ac7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "long result = iZone.convertLocalToUTC(localInstant, false)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "c41eff1e6026a6e0b88ea45edda3e41eecc6ac7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 481,
+        "lineEnd": 481,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "c41eff1e6026a6e0b88ea45edda3e41eecc6ac7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 528,
+        "lineEnd": 528,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "a478fe86d9dc2833cc7a80d8868a596a081d5d41"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 540,
+        "lineEnd": 540,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "a478fe86d9dc2833cc7a80d8868a596a081d5d41"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "private static final DateTimeZone MOCK_GAZA = new MockZone(CUTOVER_GAZA, OFFSET_GAZA)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": 24,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "c41eff1e6026a6e0b88ea45edda3e41eecc6ac7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final DateTimeZone MOCK_TURK = new MockZone(CUTOVER_TURK, OFFSET_TURK)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": 25,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "c41eff1e6026a6e0b88ea45edda3e41eecc6ac7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "System.out.println(dt)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1046,
+        "lineEnd": 1046,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "51bec123e23441880268ed696e6014515165071f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final DateTimeZone MOCK_GAZA = new MockZone(CUTOVER_GAZA, OFFSET_GAZA)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestLocalDate_Basics.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": 125,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final DateTimeZone MOCK_TURK = new MockZone(CUTOVER_TURK, OFFSET_TURK)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_chrono_TestLenientChronology.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": 126,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "7755b343d88276ba1a058e14645039daf4642ab2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public MockZone(long transition, int winterOffset) ",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_MockZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 135,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "7755b343d88276ba1a058e14645039daf4642ab2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (instant < transition ? winterOffset : winterOffset + 3600000)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_MockZone.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 137,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "7755b343d88276ba1a058e14645039daf4642ab2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return iBase.getZone().convertLocalToUTC(localInstant, false, instant)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_field_LenientDateTimeField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 0,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false, instant)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 436,
+        "lineEnd": 436,
+        "lineMapIndex": 1,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false, instant)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": 2,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false, instant)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 460,
+        "lineEnd": 460,
+        "lineMapIndex": 3,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "long result = iZone.convertLocalToUTC(localInstant, false, instant)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": 4,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false, instant)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 481,
+        "lineEnd": 481,
+        "lineMapIndex": 5,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false, instant)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 528,
+        "lineEnd": 528,
+        "lineMapIndex": 6,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return iZone.convertLocalToUTC(localInstant, false, instant)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_chrono_ZonedChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 540,
+        "lineEnd": 540,
+        "lineMapIndex": 7,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.joda.time.chrono.GregorianChronology",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "private static final DateTimeZone MOCK_GAZA = new MockZone(CUTOVER_GAZA, OFFSET_GAZA, 3600)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 8,
+        "methodParents": [
+            135
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "private static final DateTimeZone MOCK_TURK = new MockZone(CUTOVER_TURK, OFFSET_TURK, 3600)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": 9,
+        "methodParents": [
+            135
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final DateTimeZone ZONE_PARIS = DateTimeZone.forID(\"Europe/Paris\")",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1061,
+        "lineEnd": 1061,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testWithMinuteOfHourInDstChange_mockZone() ",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1063,
+        "lineEnd": 1063,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime cutover = new DateTime(2010, 10, 31, 1, 15, DateTimeZone.forOffsetHoursMinutes(0, 30))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1064,
+        "lineEnd": 1064,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T01:15:00.000+00:30\", cutover.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1065,
+        "lineEnd": 1065,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTimeZone halfHourZone = new MockZone(cutover.getMillis(), 3600000, -1800)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1066,
+        "lineEnd": 1066,
+        "lineMapIndex": -1,
+        "methodParents": [
+            135
+        ],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime pre = new DateTime(2010, 10, 31, 1, 0, halfHourZone)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1067,
+        "lineEnd": 1067,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T01:00:00.000+01:00\", pre.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1068,
+        "lineEnd": 1068,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime post = new DateTime(2010, 10, 31, 1, 59, halfHourZone)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1069,
+        "lineEnd": 1069,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T01:59:00.000+00:30\", post.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1070,
+        "lineEnd": 1070,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime testPre1 = pre.withMinuteOfHour(30)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1072,
+        "lineEnd": 1072,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T01:30:00.000+01:00\", testPre1.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1073,
+        "lineEnd": 1073,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime testPre2 = pre.withMinuteOfHour(50)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1074,
+        "lineEnd": 1074,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T01:50:00.000+00:30\", testPre2.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1075,
+        "lineEnd": 1075,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime testPost1 = post.withMinuteOfHour(30)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1077,
+        "lineEnd": 1077,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T01:30:00.000+00:30\", testPost1.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1078,
+        "lineEnd": 1078,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime testPost2 = post.withMinuteOfHour(10)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1079,
+        "lineEnd": 1079,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T01:10:00.000+01:00\", testPost2.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1080,
+        "lineEnd": 1080,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "public void testWithHourOfDayInDstChange() ",
+        "dfgs": [
+            44,
+            45,
+            47,
+            46
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1083,
+        "lineEnd": 1083,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "DateTime dateTime = new DateTime(\"2010-10-31T02:30:10.123+02:00\", ZONE_PARIS)",
+        "dfgs": [
+            45
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": false,
+        "lineBeg": 1084,
+        "lineEnd": 1084,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+02:00\", dateTime.toString())",
+        "dfgs": [
+            47,
+            46
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1085,
+        "lineEnd": 1085,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "DateTime test = dateTime.withHourOfDay(2)",
+        "dfgs": [
+            47
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1086,
+        "lineEnd": 1086,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+02:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1087,
+        "lineEnd": 1087,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "public void testWithMinuteOfHourInDstChange() ",
+        "dfgs": [
+            49,
+            50,
+            52,
+            51
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1090,
+        "lineEnd": 1090,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "DateTime dateTime = new DateTime(\"2010-10-31T02:30:10.123+02:00\", ZONE_PARIS)",
+        "dfgs": [
+            50
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": false,
+        "lineBeg": 1091,
+        "lineEnd": 1091,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+02:00\", dateTime.toString())",
+        "dfgs": [
+            52,
+            51
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1092,
+        "lineEnd": 1092,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "DateTime test = dateTime.withMinuteOfHour(0)",
+        "dfgs": [
+            52
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1093,
+        "lineEnd": 1093,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:00:10.123+02:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1094,
+        "lineEnd": 1094,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "public void testWithSecondOfMinuteInDstChange() ",
+        "dfgs": [
+            54,
+            55,
+            57,
+            56
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1097,
+        "lineEnd": 1097,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "DateTime dateTime = new DateTime(\"2010-10-31T02:30:10.123+02:00\", ZONE_PARIS)",
+        "dfgs": [
+            55
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": false,
+        "lineBeg": 1098,
+        "lineEnd": 1098,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+02:00\", dateTime.toString())",
+        "dfgs": [
+            57,
+            56
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1099,
+        "lineEnd": 1099,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "DateTime test = dateTime.withSecondOfMinute(0)",
+        "dfgs": [
+            57
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1100,
+        "lineEnd": 1100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:30:00.123+02:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1101,
+        "lineEnd": 1101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testWithMillisOfSecondInDstChange_Paris_summer() ",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1104,
+        "lineEnd": 1104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime dateTime = new DateTime(\"2010-10-31T02:30:10.123+02:00\", ZONE_PARIS)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": false,
+        "lineBeg": 1105,
+        "lineEnd": 1105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+02:00\", dateTime.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1106,
+        "lineEnd": 1106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime test = dateTime.withMillisOfSecond(0)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1107,
+        "lineEnd": 1107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:30:10.000+02:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1108,
+        "lineEnd": 1108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testWithMillisOfSecondInDstChange_Paris_winter() ",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1111,
+        "lineEnd": 1111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime dateTime = new DateTime(\"2010-10-31T02:30:10.123+01:00\", ZONE_PARIS)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": false,
+        "lineBeg": 1112,
+        "lineEnd": 1112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+01:00\", dateTime.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1113,
+        "lineEnd": 1113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime test = dateTime.withMillisOfSecond(0)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1114,
+        "lineEnd": 1114,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:30:10.000+01:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1115,
+        "lineEnd": 1115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testWithMillisOfSecondInDstChange_NewYork_summer() ",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1118,
+        "lineEnd": 1118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime dateTime = new DateTime(\"2007-11-04T01:30:00.123-04:00\", ZONE_NEW_YORK)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1119,
+        "lineEnd": 1119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2007-11-04T01:30:00.123-04:00\", dateTime.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1120,
+        "lineEnd": 1120,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime test = dateTime.withMillisOfSecond(0)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1121,
+        "lineEnd": 1121,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2007-11-04T01:30:00.000-04:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1122,
+        "lineEnd": 1122,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testWithMillisOfSecondInDstChange_NewYork_winter() ",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1125,
+        "lineEnd": 1125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime dateTime = new DateTime(\"2007-11-04T01:30:00.123-05:00\", ZONE_NEW_YORK)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1126,
+        "lineEnd": 1126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2007-11-04T01:30:00.123-05:00\", dateTime.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1127,
+        "lineEnd": 1127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime test = dateTime.withMillisOfSecond(0)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1128,
+        "lineEnd": 1128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2007-11-04T01:30:00.000-05:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1129,
+        "lineEnd": 1129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "public void testPlusMinutesInDstChange() ",
+        "dfgs": [
+            79,
+            80,
+            82,
+            81
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1132,
+        "lineEnd": 1132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "DateTime dateTime = new DateTime(\"2010-10-31T02:30:10.123+02:00\", ZONE_PARIS)",
+        "dfgs": [
+            80
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": false,
+        "lineBeg": 1133,
+        "lineEnd": 1133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+02:00\", dateTime.toString())",
+        "dfgs": [
+            82,
+            81
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1134,
+        "lineEnd": 1134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "DateTime test = dateTime.plusMinutes(1)",
+        "dfgs": [
+            82
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1135,
+        "lineEnd": 1135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:31:10.123+02:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1136,
+        "lineEnd": 1136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "public void testPlusSecondsInDstChange() ",
+        "dfgs": [
+            84,
+            85,
+            87,
+            86
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1139,
+        "lineEnd": 1139,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            85
+        ],
+        "code": "DateTime dateTime = new DateTime(\"2010-10-31T02:30:10.123+02:00\", ZONE_PARIS)",
+        "dfgs": [
+            85
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": false,
+        "lineBeg": 1140,
+        "lineEnd": 1140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+02:00\", dateTime.toString())",
+        "dfgs": [
+            87,
+            86
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1141,
+        "lineEnd": 1141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "DateTime test = dateTime.plusSeconds(1)",
+        "dfgs": [
+            87
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1142,
+        "lineEnd": 1142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:30:11.123+02:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1143,
+        "lineEnd": 1143,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "public void testPlusMillisInDstChange() ",
+        "dfgs": [
+            89,
+            90,
+            92,
+            91
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1146,
+        "lineEnd": 1146,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90
+        ],
+        "code": "DateTime dateTime = new DateTime(\"2010-10-31T02:30:10.123+02:00\", ZONE_PARIS)",
+        "dfgs": [
+            90
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": false,
+        "lineBeg": 1147,
+        "lineEnd": 1147,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91
+        ],
+        "code": "assertEquals(\"2010-10-31T02:30:10.123+02:00\", dateTime.toString())",
+        "dfgs": [
+            92,
+            91
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1148,
+        "lineEnd": 1148,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "DateTime test = dateTime.plusMillis(1)",
+        "dfgs": [
+            92
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1149,
+        "lineEnd": 1149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2010-10-31T02:30:10.124+02:00\", test.toString())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1150,
+        "lineEnd": 1150,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testBug2182444_usCentral() ",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1153,
+        "lineEnd": 1153,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Chronology chronUSCentral = GregorianChronology.getInstance(DateTimeZone.forID(\"US/Central\"))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1154,
+        "lineEnd": 1154,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Chronology chronUTC = GregorianChronology.getInstance(DateTimeZone.UTC)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1155,
+        "lineEnd": 1155,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime usCentralStandardInUTC = new DateTime(2008, 11, 2, 7, 0, 0, 0, chronUTC)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1156,
+        "lineEnd": 1156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime usCentralDaylightInUTC = new DateTime(2008, 11, 2, 6, 0, 0, 0, chronUTC)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1157,
+        "lineEnd": 1157,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(\"Should be standard time\", chronUSCentral.getZone().isStandardOffset(usCentralStandardInUTC.getMillis()))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1158,
+        "lineEnd": 1158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(\"Should be daylight time\", chronUSCentral.getZone().isStandardOffset(usCentralDaylightInUTC.getMillis()))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1159,
+        "lineEnd": 1159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime usCentralStandardInUSCentral = usCentralStandardInUTC.toDateTime(chronUSCentral)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1161,
+        "lineEnd": 1161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime usCentralDaylightInUSCentral = usCentralDaylightInUTC.toDateTime(chronUSCentral)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1162,
+        "lineEnd": 1162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1, usCentralStandardInUSCentral.getHourOfDay())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1163,
+        "lineEnd": 1163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(usCentralStandardInUSCentral.getHourOfDay(), usCentralDaylightInUSCentral.getHourOfDay())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1164,
+        "lineEnd": 1164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(usCentralStandardInUSCentral.getMillis() != usCentralDaylightInUSCentral.getMillis())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1165,
+        "lineEnd": 1165,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(usCentralStandardInUSCentral, usCentralStandardInUSCentral.withHourOfDay(1))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1166,
+        "lineEnd": 1166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(usCentralStandardInUSCentral.getMillis() + 3, usCentralStandardInUSCentral.withMillisOfSecond(3).getMillis())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1167,
+        "lineEnd": 1167,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(usCentralDaylightInUSCentral, usCentralDaylightInUSCentral.withHourOfDay(1))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1168,
+        "lineEnd": 1168,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(usCentralDaylightInUSCentral.getMillis() + 3, usCentralDaylightInUSCentral.withMillisOfSecond(3).getMillis())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1169,
+        "lineEnd": 1169,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testBug2182444_ausNSW() ",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1172,
+        "lineEnd": 1172,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Chronology chronAusNSW = GregorianChronology.getInstance(DateTimeZone.forID(\"Australia/NSW\"))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1173,
+        "lineEnd": 1173,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Chronology chronUTC = GregorianChronology.getInstance(DateTimeZone.UTC)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1174,
+        "lineEnd": 1174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime australiaNSWStandardInUTC = new DateTime(2008, 4, 5, 16, 0, 0, 0, chronUTC)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1175,
+        "lineEnd": 1175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime australiaNSWDaylightInUTC = new DateTime(2008, 4, 5, 15, 0, 0, 0, chronUTC)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1176,
+        "lineEnd": 1176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(\"Should be standard time\", chronAusNSW.getZone().isStandardOffset(australiaNSWStandardInUTC.getMillis()))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1177,
+        "lineEnd": 1177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(\"Should be daylight time\", chronAusNSW.getZone().isStandardOffset(australiaNSWDaylightInUTC.getMillis()))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1178,
+        "lineEnd": 1178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime australiaNSWStandardInAustraliaNSW = australiaNSWStandardInUTC.toDateTime(chronAusNSW)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1180,
+        "lineEnd": 1180,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DateTime australiaNSWDaylightInAusraliaNSW = australiaNSWDaylightInUTC.toDateTime(chronAusNSW)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1181,
+        "lineEnd": 1181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(2, australiaNSWStandardInAustraliaNSW.getHourOfDay())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1182,
+        "lineEnd": 1182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(australiaNSWStandardInAustraliaNSW.getHourOfDay(), australiaNSWDaylightInAusraliaNSW.getHourOfDay())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1183,
+        "lineEnd": 1183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(australiaNSWStandardInAustraliaNSW.getMillis() != australiaNSWDaylightInAusraliaNSW.getMillis())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1184,
+        "lineEnd": 1184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(australiaNSWStandardInAustraliaNSW, australiaNSWStandardInAustraliaNSW.withHourOfDay(2))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1185,
+        "lineEnd": 1185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(australiaNSWStandardInAustraliaNSW.getMillis() + 3, australiaNSWStandardInAustraliaNSW.withMillisOfSecond(3).getMillis())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1186,
+        "lineEnd": 1186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(australiaNSWDaylightInAusraliaNSW, australiaNSWDaylightInAusraliaNSW.withHourOfDay(2))",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1187,
+        "lineEnd": 1187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(australiaNSWDaylightInAusraliaNSW.getMillis() + 3, australiaNSWDaylightInAusraliaNSW.withMillisOfSecond(3).getMillis())",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestDateTimeZoneCutover.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1188,
+        "lineEnd": 1188,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 124,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final DateTimeZone MOCK_GAZA = new MockZone(CUTOVER_GAZA, OFFSET_GAZA, 3600)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_TestLocalDate_Basics.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": 11,
+        "methodParents": [
+            135
+        ],
+        "nodeIndex": 125,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final DateTimeZone MOCK_TURK = new MockZone(CUTOVER_TURK, OFFSET_TURK, 3600)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_chrono_TestLenientChronology.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": 12,
+        "methodParents": [
+            135
+        ],
+        "nodeIndex": 126,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            128
+        ],
+        "code": "public long convertLocalToUTC(long instantLocal, boolean strict, long originalInstantUTC) ",
+        "dfgs": [
+            128,
+            129,
+            130,
+            131,
+            133,
+            132
+        ],
+        "fName": "JodaTime_src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 936,
+        "lineEnd": 936,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 127,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            129
+        ],
+        "code": "int offsetOriginal = getOffset(originalInstantUTC)",
+        "dfgs": [
+            129,
+            130
+        ],
+        "fName": "JodaTime_src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 937,
+        "lineEnd": 937,
+        "lineMapIndex": -1,
+        "methodParents": [
+            137
+        ],
+        "nodeIndex": 128,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            130
+        ],
+        "code": "long instantUTC = instantLocal - offsetOriginal",
+        "dfgs": [
+            130,
+            131,
+            133
+        ],
+        "fName": "JodaTime_src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 938,
+        "lineEnd": 938,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 129,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            131
+        ],
+        "code": "int offsetLocalFromOriginal = getOffset(instantUTC)",
+        "dfgs": [
+            131,
+            132,
+            133
+        ],
+        "fName": "JodaTime_src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 939,
+        "lineEnd": 939,
+        "lineMapIndex": -1,
+        "methodParents": [
+            137
+        ],
+        "nodeIndex": 130,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            132,
+            133
+        ],
+        "code": "if (offsetLocalFromOriginal == offsetOriginal)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 940,
+        "lineEnd": 940,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 131,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return instantUTC",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 941,
+        "lineEnd": 941,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 132,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return convertLocalToUTC(instantLocal, strict)",
+        "dfgs": [],
+        "fName": "JodaTime_src_main_java_org_joda_time_DateTimeZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 943,
+        "lineEnd": 943,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 133,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int sizeMillis",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_MockZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 134,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            136
+        ],
+        "code": "public MockZone(long transition, int winterOffset, int sizeSecs) ",
+        "dfgs": [
+            136
+        ],
+        "fName": "JodaTime_src_test_java_org_joda_time_MockZone.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 135,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.sizeMillis = sizeSecs * 1000",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_MockZone.java",
+        "fieldParents": [
+            134
+        ],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 136,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (instant < transition ? winterOffset : winterOffset + sizeMillis)",
+        "dfgs": [],
+        "fName": "JodaTime_src_test_java_org_joda_time_MockZone.java",
+        "fieldParents": [
+            134
+        ],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 137,
+        "rootcause": false,
+        "commits": []
+    }
+]

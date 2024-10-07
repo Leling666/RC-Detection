@@ -1,0 +1,5309 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 128,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.instance.InstancePropertySetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), methodName )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 133,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public abstract class AbstractShadowObjectLink extends SmartLink implements Guard ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 134,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guard(0).with(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public boolean guard(Object receiver) ",
+        "dfgs": [
+            12,
+            8,
+            9,
+            11,
+            7,
+            10
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            9
+        ],
+        "code": "if (!(receiver instanceof Reference))",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Object base = ((Reference) receiver).getBase()",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            12
+        ],
+        "code": "if (base instanceof JSObject || base instanceof EnvironmentRecord || base == Types.UNDEFINED)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "public MethodHandle guardMethodHandle(MethodType inputType) throws Exception ",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return lookup().findVirtual(AbstractShadowObjectLink.class, \"guard\", methodType(boolean.class, Object.class)).bindTo(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guardWith(Guards.isInstanceOf(JSFunction.class))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 142,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder.permute(1, 0, 2, 3).convert(Object.class, ExecutionContext.class, JSFunction.class, Object.class, Object[].class).invoke(lookup().findVirtual(ExecutionContext.class, \"call\", methodType(Object.class, ExecutionContext.class, JSFunction.class, Object.class, Object[].class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 49,
+        "lineMapIndex": 143,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public class ShadowObjectPropertyGetLink extends AbstractShadowObjectLink ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 145,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder.permute(0, 1, 2, 3).filter(0, ReferenceBaseFilter.INSTANCE).filter(0, new ShadowFilter( this.shadowManager ) ).invoke(lookup().findVirtual(JSObject.class, \"get\", methodType(Object.class, ExecutionContext.class, String.class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 32,
+        "lineMapIndex": 165,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 166,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.instance.InstancePropertySetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), propertyName, value)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 167,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 168,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public JSObjectConstructLink(LinkBuilder builder) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 169,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public boolean guard(Object receiver, Object context, Object self, Object[] args) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 171,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return lookup().findVirtual(JSObjectConstructLink.class, \"guard\", methodType(boolean.class, Object.class, Object.class, Object.class, Object[].class)).bindTo(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 34,
+        "lineMapIndex": 172,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder.permute(1, 0, 2).convert(Object.class, ExecutionContext.class, JSFunction.class, Object[].class).insert(1, new Class[]{Object.class}, new Object[]{null}).invoke(lookup().findVirtual(ExecutionContext.class, \"construct\", methodType(Object.class, ExecutionContext.class, Object.class, JSFunction.class, Object[].class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 47,
+        "lineMapIndex": 173,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 26,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new ThrowException(context, context.createTypeError(\"not referenceable\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JavascriptObjectLinker.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 174,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.*",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 175,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.js.ReferenceStrictnessFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 177,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.dynjs.runtime.linker.LinkerUtils.*",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 15,
+        "lineEnd": 15,
+        "lineMapIndex": 176,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public JSObjectPropertyGetLink(LinkBuilder builder) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 178,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder.permute(0, 1, 2, 3 ).filter(0, ReferenceBaseFilter.INSTANCE).invoke(lookup().findVirtual(JSObject.class, \"get\", methodType(Object.class, ExecutionContext.class, String.class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 46,
+        "lineMapIndex": 180,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 32,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaConstructLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 181,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.instance.UnboundInstanceMethodGetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaConstructLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 6,
+        "lineEnd": 6,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), args )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaConstructLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 182,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 35,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaConstructLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 183,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public ShadowFilter(ShadowObjectManager shadowManager) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 188,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.shadowManager.getShadowObject( primary, false )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.lookup().findVirtual( ShadowFilter.class, \"filter\", MethodType.methodType( JSObject.class, Object.class ) )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 194,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public PrimitivePropertyGetLink(LinkBuilder builder) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitivePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 195,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return builder.convert( Object.class, Reference.class, ExecutionContext.class, String.class ).permute( 1, 0, 1, 2 ).fold( lookup().findStatic( PrimitivePropertyGetLink.class, \"primitiveReferenceToObject\", methodType( Object.class, ExecutionContext.class, Object.class ) )).drop(1, 2).convert(Object.class, JSObject.class, ExecutionContext.class, String.class).invoke( lookup().findVirtual( JSObject.class, \"get\", methodType( Object.class, JSObject.class, ExecutionContext.class, String.class ) )).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitivePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 62,
+        "lineMapIndex": 197,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 41,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "JSJavaImplementationManager implementationManager = new JSJavaImplementationManager( shadowLinker )",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 204,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "5db84511dbbe7e3d123ef25f529acde5f32a8ffb"
+        ]
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "linker.addLinker( new JSJavaClassPropertyLinker( logger, manager ) )",
+        "dfgs": [
+            44
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": 209,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "linker.addLinker( new JSJavaClassMethodLinker( logger, manager ) )",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": 210,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "linker.addLinker( new JSJavaArrayPropertyLinker( logger, manager ))",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 211,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "linker.addLinker( new JSJavaInstancePropertyLinker( logger, manager ))",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 212,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "linker.addLinker( new JSJavaInstanceMethodLinker( logger, manager ))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 213,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public PrimitiveCallLink(LinkBuilder builder) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 215,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "public boolean guard(Object receiver, Object context, String propertyName) ",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": 217,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Object base = ((DereferencedReference) receiver).getReference().getBase()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 218,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return lookup().findVirtual(PrimitiveCallLink.class, \"guard\", methodType(boolean.class, Object.class, Object.class, String.class)).bindTo(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 40,
+        "lineEnd": 42,
+        "lineMapIndex": 219,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.codegen.DereferencedReference",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.Reference",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 4,
+        "lineEnd": 4,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 220,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), propertyName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 221,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 55,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": 222,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 224,
+        "methodParents": [
+            39
+        ],
+        "nodeIndex": 57,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 226,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.instance.InstancePropertyGetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.reflect.ResolverManager",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), propertyName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 227,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 61,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 228,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 229,
+        "methodParents": [
+            39
+        ],
+        "nodeIndex": 63,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 230,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.instance.InstancePropertyGetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 6,
+        "lineEnd": 6,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), propertyName, value)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 233,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 66,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 234,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "MethodHandle target = super.target()",
+        "dfgs": [
+            69
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 68,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [
+            39
+        ],
+        "nodeIndex": 69,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.SmartLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.dynjs.runtime.linker.LinkerUtils.referenceStrictnessFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 14,
+        "lineEnd": 14,
+        "lineMapIndex": 236,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public class ShadowObjectPropertySetLink extends AbstractShadowObjectLink ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": 237,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return builder.convert(void.class, Reference.class, ExecutionContext.class, String.class, Object.class).permute(0, 1, 2, 3, 0).filter( 0, ReferenceBaseFilter.INSTANCE ).filter( 0, new ShadowFilter( this.shadowManager ) ).filter(4, referenceStrictnessFilter()).convert(void.class, JSObject.class, ExecutionContext.class, String.class, Object.class, boolean.class).invoke( lookup().findVirtual( JSObject.class, \"put\", methodType( void.class, ExecutionContext.class, String.class, Object.class, boolean.class )  )).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 35,
+        "lineMapIndex": 255,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 73,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 256,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.clazz.ConstructLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.reflect.ResolverManager",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), self, args )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 257,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 77,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 258,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 259,
+        "methodParents": [
+            39
+        ],
+        "nodeIndex": 79,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 260,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.instance.UnboundInstanceMethodGetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.reflect.ResolverManager",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), self, args )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 261,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 83,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            85
+        ],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 262,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue( target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType( Object.class ) ) )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 263,
+        "methodParents": [
+            39
+        ],
+        "nodeIndex": 85,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public JSObjectPropertySetLink(LinkBuilder builder) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 264,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder.convert(void.class, Reference.class, ExecutionContext.class, String.class, Object.class).permute(0, 1, 2, 3, 0).filter(0, ReferenceBaseFilter.INSTANCE ).filter(4, ReferenceStrictnessFilter.INSTANCE).convert(void.class, JSObject.class, ExecutionContext.class, String.class, Object.class, boolean.class).invoke(lookup().findVirtual(JSObject.class, \"get\", methodType(Object.class, ExecutionContext.class, String.class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 50,
+        "lineMapIndex": 266,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 87,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 267,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.instance.InstancePropertyGetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), propertyName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 268,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 90,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 269,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 270,
+        "methodParents": [
+            39
+        ],
+        "nodeIndex": 92,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 271,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.instance.InstancePropertySetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.reflect.ResolverManager",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), propertyName, value)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 272,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 96,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 273,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [
+            99
+        ],
+        "code": "MethodHandle target = super.target()",
+        "dfgs": [
+            99
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 98,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [
+            39
+        ],
+        "nodeIndex": 99,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Object result = eval(\"catcher = new org.dynjs.runtime.java.HandlerCatcher();\",\"catcher.catchHandler( function() { } );\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 269,
+        "lineEnd": 272,
+        "lineMapIndex": 275,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": [
+            "019d0a8670c878b5f279bec95794447164462ba6",
+            "f502e49a232b9772716456c6668dfbb10558aa1e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Object result = eval(\"var consumer = new org.dynjs.runtime.java.MapConsumer();\",\"var obj = { foo: 'tacos', fish: 'haddock' };\",\"consumer.consume( obj, 'fish');\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 314,
+        "lineEnd": 318,
+        "lineMapIndex": 276,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": [
+            "6b07a2818c783f3e7b5f5ceeecd2f45e01fc088b",
+            "f502e49a232b9772716456c6668dfbb10558aa1e",
+            "a9b2bd2e7eea1290a20f937a2fa52c5dbf6984ef"
+        ]
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "Map map = (Map) eval(\"var map = new java.util.HashMap();\",\"map.foo = 'tacos';\",\"map\")",
+        "dfgs": [
+            103
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 325,
+        "lineEnd": 329,
+        "lineMapIndex": 277,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": [
+            "a9b2bd2e7eea1290a20f937a2fa52c5dbf6984ef"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat( eval( \"map.foo\" ) ).isEqualTo( \"tacos\" )",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 333,
+        "lineEnd": 333,
+        "lineMapIndex": 278,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": [
+            "a9b2bd2e7eea1290a20f937a2fa52c5dbf6984ef"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testGenericMapFactory() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": [
+            "de5fee6ba29d4387f403fb99daa3bec14b5723bb"
+        ]
+    },
+    {
+        "cfgs": [
+            106
+        ],
+        "code": "eval(\"var thingy = org.dynjs.runtime.java.GenericMapFactory.create()\")",
+        "dfgs": [
+            106
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": 282,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": [
+            "de5fee6ba29d4387f403fb99daa3bec14b5723bb"
+        ]
+    },
+    {
+        "cfgs": [
+            107
+        ],
+        "code": "eval(\"thingy.put(1, 'one')\")",
+        "dfgs": [
+            107
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": 283,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": [
+            "f951bf135bb8b951ac71b29ab29f3bee7b9679f5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(eval(\"thingy.get(1)\")).isEqualTo(\"one\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": 284,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": [
+            "f951bf135bb8b951ac71b29ab29f3bee7b9679f5"
+        ]
+    },
+    {
+        "cfgs": [
+            109
+        ],
+        "code": "Object result = eval( \"var foo = new org.dynjs.runtime.java.DefaultFoo();\",\"var js = {};\",\"js.taco = foo.getContent.bind(foo);\",\"js.taco()\" )",
+        "dfgs": [
+            109
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 361,
+        "lineEnd": 364,
+        "lineMapIndex": 287,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": [
+            "53586983db33bb1f03dfd4bc181fe2e1489ba0e5"
+        ]
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "assertThat( result ).isEqualTo( \"default content\" )",
+        "dfgs": [
+            110
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 366,
+        "lineEnd": 366,
+        "lineMapIndex": 288,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": [
+            "53586983db33bb1f03dfd4bc181fe2e1489ba0e5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "System.err.println( result )",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 367,
+        "lineEnd": 367,
+        "lineMapIndex": 289,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": [
+            "53586983db33bb1f03dfd4bc181fe2e1489ba0e5"
+        ]
+    },
+    {
+        "cfgs": [
+            112
+        ],
+        "code": "Object result = eval( \"new org.dynjs.runtime.java.Thing().longMethod(42)\")",
+        "dfgs": [
+            112
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 374,
+        "lineEnd": 374,
+        "lineMapIndex": 290,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": [
+            "60668ddc1aef8090e62348fa85c134f4c8fe6c36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat( result ).isInstanceOf(Long.class).isEqualTo(42L)",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": 291,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": [
+            "60668ddc1aef8090e62348fa85c134f4c8fe6c36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat( result ).isEqualTo( Types.UNDEFINED )",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 384,
+        "lineEnd": 384,
+        "lineMapIndex": 292,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": [
+            "42b66a6bb0f601c8e0e71d816b2290c4b20d34b0"
+        ]
+    },
+    {
+        "cfgs": [
+            115
+        ],
+        "code": "assertThat( intResult ).isInstanceOf(String.class).isEqualTo(\"9\")",
+        "dfgs": [
+            115
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": 293,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": [
+            "49a91df877365812333bda6832f429bc7fcccb85"
+        ]
+    },
+    {
+        "cfgs": [
+            116
+        ],
+        "code": "Object longResult = eval( \"new org.dynjs.runtime.java.Thing().longMethod(42)\")",
+        "dfgs": [
+            116
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": 294,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": [
+            "49a91df877365812333bda6832f429bc7fcccb85"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat( longResult ).isInstanceOf(Long.class).isEqualTo(42L)",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 408,
+        "lineEnd": 408,
+        "lineMapIndex": 295,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": [
+            "49a91df877365812333bda6832f429bc7fcccb85"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Object result = eval( \"var b = new java.lang.Byte(120);\", \"b\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": 296,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": [
+            "f936ba57a1648bddef91f532a99378f3b85eeb91"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "eval(\"var impl = { \" +\"doItWithParameters: function(param, tf) { return param + (tf ? 'true' : 'false'); }\" +\"};\" +\"var foobar = new org.dynjs.runtime.java.Foobar(impl);\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 622,
+        "lineEnd": 625,
+        "lineMapIndex": 297,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": [
+            "10fa36a22965af76ffbd28ee93178a30a059f878"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "eval(\"var doInt = function(param) { return param + 1; };\" +\"var impl = { \" +\"doItWithInt: doInt,\" +\"doItWithPrimitiveInt: doInt,\" +\"doItWithLong: doInt,\" +\"doItWithPrimitiveLong: doInt,\" +\"doItWithShort: doInt,\" +\"doItWithPrimitiveShort: doInt,\" +\"doItWithFloat: function(param) { return param + 1.1; },\" +\"doItWithPrimitiveFloat: function(param) { return param + 1.1; },\" +\"doItWithDouble: function(param) { return param + 1.1; },\" +\"doItWithPrimitiveDouble: function(param) { return param + 1.1; },\" +\"};\" +\"var foobar = new org.dynjs.runtime.java.Foobar(impl);\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 632,
+        "lineEnd": 645,
+        "lineMapIndex": 298,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": [
+            "10fa36a22965af76ffbd28ee93178a30a059f878",
+            "74a226a4c2f7f34b96bd2203e7f62c9c7e0a6935"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "eval(\"var impl = { \" +\"doItWithBoolean: function(param) { return param; },\" +\"doItWithPrimitiveBoolean: function(param) { return true; }\" +\"};\" +\"var foobar = new org.dynjs.runtime.java.Foobar(impl);\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 675,
+        "lineEnd": 679,
+        "lineMapIndex": 299,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": [
+            "10fa36a22965af76ffbd28ee93178a30a059f878"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.DereferencingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.NullReplacingFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 4,
+        "lineEnd": 4,
+        "lineMapIndex": 300,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.clazz.ClassPropertyGetLink",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.lang.invoke.MethodHandles",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 124,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.lang.invoke.MethodType",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 125,
+        "rootcause": false,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(DereferencingFilter.INSTANCE.filter(receiver), propertyName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 301,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 126,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.filter( 0, DereferencingFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 302,
+        "methodParents": [],
+        "nodeIndex": 127,
+        "rootcause": true,
+        "commits": [
+            "4bc8e01f2390b5051b95597ad6ed9039f3534452"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 128,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            130
+        ],
+        "code": "System.err.println( \" ---------> \" + receiver )",
+        "dfgs": [
+            131
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 129,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            131
+        ],
+        "code": "boolean result = super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), methodName )",
+        "dfgs": [
+            132,
+            131
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [
+            129
+        ],
+        "nodeIndex": 130,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            132
+        ],
+        "code": "System.err.println( \"Java unbound \" + receiver + \" // \" + methodName + \" // \" + result )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 131,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return result",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 132,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 133,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public abstract class AbstractShadowObjectLink extends SmartLink ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 134,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected Object primary",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 135,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected String propertyName",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_AbstractShadowObjectLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 136,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            138
+        ],
+        "code": "public Link link(Invocation invocation) throws Exception ",
+        "dfgs": [
+            138,
+            139
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstanceMethodLinker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 137,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            139
+        ],
+        "code": "System.err.println( \"LINK: \" + invocation.type() )",
+        "dfgs": [
+            139
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstanceMethodLinker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 138,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.link( invocation )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstanceMethodLinker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [
+            137
+        ],
+        "nodeIndex": 139,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            141
+        ],
+        "code": "public Link linkGetProperty(Invocation invocation, String methodName) throws Exception ",
+        "dfgs": [
+            141
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstanceMethodLinker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 140,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new JSJavaUnboundInstanceMethodGetLink( invocation.builder(), resolverManager )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstanceMethodLinker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 141,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guardWith(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 142,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder.permute(1, 0, 2, 3).convert(Object.class, ExecutionContext.class, JSFunction.class, Object.class, Object[].class).invoke(lookup().findVirtual(ExecutionContext.class, \"call\", methodType(Object.class, JSFunction.class, Object.class, Object[].class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 49,
+        "lineMapIndex": 16,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 143,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.builtins.types.regexp.prototype.Exec",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4,
+        "lineEnd": 4,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 144,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public class ShadowObjectPropertyGetLink extends AbstractShadowObjectLink implements Guard ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 145,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guardWith( this )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 146,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            148
+        ],
+        "code": "public boolean guard(Object receiver, Object context, String propertyName) ",
+        "dfgs": [
+            160,
+            161,
+            162,
+            149,
+            150,
+            152,
+            153,
+            154,
+            155,
+            148,
+            151,
+            156,
+            157,
+            158,
+            159
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 147,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            149,
+            150
+        ],
+        "code": "if (!(receiver instanceof Reference))",
+        "dfgs": [
+            150
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 148,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 149,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            151
+        ],
+        "code": "Object primary = ((Reference) receiver).getBase()",
+        "dfgs": [
+            151
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 150,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            152,
+            153
+        ],
+        "code": "if (primary instanceof JSObject || primary instanceof EnvironmentRecord || primary == Types.UNDEFINED)",
+        "dfgs": [
+            153
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 151,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 152,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            154,
+            155
+        ],
+        "code": "if ( this.shadowManager.getShadowObject( primary, false ) == null )",
+        "dfgs": [
+            160,
+            156
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 153,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 154,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            156,
+            160
+        ],
+        "code": "if ( this.primary != null )",
+        "dfgs": [
+            156
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 155,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            157,
+            158
+        ],
+        "code": "if ( this.primary != primary )",
+        "dfgs": [
+            160
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 156,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 157,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            159,
+            160
+        ],
+        "code": "if ( this.propertyName != propertyName )",
+        "dfgs": [
+            161
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 158,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 159,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            161
+        ],
+        "code": "this.primary = primary",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 160,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            162
+        ],
+        "code": "this.propertyName = propertyName",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 161,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 162,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            164
+        ],
+        "code": "public MethodHandle guardMethodHandle(MethodType inputType) throws Exception ",
+        "dfgs": [
+            164
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 163,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return lookup().findVirtual(ShadowObjectPropertyGetLink.class, \"guard\", methodType(boolean.class, Object.class, Object.class, String.class)).bindTo(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 164,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder//.permute(0, 1, 2, 3).filter(0, ReferenceBaseFilter.INSTANCE).filter(0, new ShadowFilter( this.shadowManager, false ) ).convert( Object.class, JSObject.class, ExecutionContext.class, String.class ).invoke(lookup().findVirtual(JSObject.class, \"get\", methodType(Object.class, ExecutionContext.class, String.class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 74,
+        "lineMapIndex": 18,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 165,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 166,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), propertyName, value)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 21,
+        "methodParents": [
+            147
+        ],
+        "nodeIndex": 167,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 168,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            170
+        ],
+        "code": "public JSObjectConstructLink(LinkBuilder builder) throws Exception ",
+        "dfgs": [
+            170
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 169,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guardWith( this )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 170,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public boolean guard(Object receiver, Object context, Object[] args) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 171,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return lookup().findVirtual(JSObjectConstructLink.class, \"guard\", methodType(boolean.class, Object.class, Object.class, Object[].class)).bindTo(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 35,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 172,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder.permute(1, 0, 2).convert(Object.class, ExecutionContext.class, JSFunction.class, Object[].class).insert(1, new Class[]{Object.class}, new Object[]{null}).invoke(lookup().findVirtual(ExecutionContext.class, \"construct\", methodType(Object.class, Object.class, JSFunction.class, Object[].class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 48,
+        "lineMapIndex": 26,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 173,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new ThrowException(context, context.createTypeError(\"not referenceable\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JavascriptObjectLinker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 174,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.ExecutionContext",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 175,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.JSObject",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4,
+        "lineEnd": 4,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 176,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.Reference",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 177,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            179
+        ],
+        "code": "public JSObjectPropertyGetLink(LinkBuilder builder) throws Exception ",
+        "dfgs": [
+            179
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 178,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guardWith( this )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 179,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder//.permute(0, 1, 2, 3 ).filter(0, ReferenceBaseFilter.INSTANCE).convert( Object.class, JSObject.class, ExecutionContext.class, String.class ).invoke(lookup().findVirtual(JSObject.class, \"get\", methodType(Object.class, ExecutionContext.class, String.class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 48,
+        "lineMapIndex": 32,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 180,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 181,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), args )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 35,
+        "methodParents": [
+            129
+        ],
+        "nodeIndex": 182,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 183,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "System.err.println( \"FUNCTION: \" + function )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_interp_InvokeDynamicInterpretingVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 184,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "System.err.println( \"=== GET \" + obj + \" -> \" + name )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_interp_InvokeDynamicInterpretingVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 185,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "System.err.println( this + \" get : \" + name + \" == \" + result )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_java_JavaPackage.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 186,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final boolean create",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 187,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            189
+        ],
+        "code": "public ShadowFilter(ShadowObjectManager shadowManager, boolean create) ",
+        "dfgs": [
+            189
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 188,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.create = create",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [
+            187
+        ],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 189,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            191
+        ],
+        "code": "System.err.println( \"shadow: \" + primary )",
+        "dfgs": [
+            192
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 190,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            192
+        ],
+        "code": "JSObject shadow = this.shadowManager.getShadowObject( primary, this.create )",
+        "dfgs": [
+            193,
+            192
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [
+            187
+        ],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 191,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            193
+        ],
+        "code": "System.err.println( \"  with: \" + shadow )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 192,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return shadow",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 193,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.lookup().findVirtual( ShadowFilter.class, \"filter\", MethodType.methodType( JSObject.class, Object.class ) ).bindTo( this )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 34,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 194,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            196
+        ],
+        "code": "public PrimitivePropertyGetLink(LinkBuilder builder) throws Exception ",
+        "dfgs": [
+            196
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitivePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 195,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guardWith( this )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitivePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 196,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return builder.convert( Object.class, Reference.class, ExecutionContext.class, String.class ).permute( 1, 0, 1, 2 ).fold( lookup().findStatic( PrimitivePropertyGetLink.class, \"primitiveReferenceToObject\", methodType( Object.class, ExecutionContext.class, Reference.class ) )).drop(1, 2).convert(Object.class, JSObject.class, ExecutionContext.class, String.class).invoke( lookup().findVirtual( JSObject.class, \"get\", methodType( Object.class, ExecutionContext.class, String.class ) )).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitivePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 63,
+        "lineMapIndex": 41,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 197,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.instance.JSJavaBoundMethodLinker",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 14,
+        "lineEnd": 14,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 198,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.map.JSMapLikePropertyLinker",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 199,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.js.environment.JavascriptEnvironmentLinker",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 200,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.js.global.GlobalLinker",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 201,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.js.reference.FunctionDereferencedReferenceLinker",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 202,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.projectodd.rephract.java.map.MapLikePropertyLinker",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 203,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            205
+        ],
+        "code": "JSJavaImplementationManager implementationManager = new JSJavaImplementationManager(shadowLinker)",
+        "dfgs": [
+            208,
+            209
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 204,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            206
+        ],
+        "code": "linker.addLinker(new JavascriptEnvironmentLinker(logger))",
+        "dfgs": [
+            206
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 205,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            207
+        ],
+        "code": "linker.addLinker(new FunctionDereferencedReferenceLinker(logger))",
+        "dfgs": [
+            207
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 206,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            208
+        ],
+        "code": "linker.addLinker(new GlobalLinker(logger))",
+        "dfgs": [
+            208
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 207,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            209
+        ],
+        "code": "linker.addLinker(new JSJavaBoundMethodLinker(logger, manager))",
+        "dfgs": [
+            209
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 208,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            210
+        ],
+        "code": "linker.addLinker(new JSJavaClassPropertyLinker(logger, manager))",
+        "dfgs": [
+            210
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 69,
+        "lineEnd": 69,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 209,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            211
+        ],
+        "code": "linker.addLinker(new JSJavaClassMethodLinker(logger, manager))",
+        "dfgs": [
+            211
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 210,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            212
+        ],
+        "code": "linker.addLinker(new JSJavaArrayPropertyLinker(logger, manager))",
+        "dfgs": [
+            212
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 211,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            213
+        ],
+        "code": "linker.addLinker(new JSJavaInstancePropertyLinker(logger, manager))",
+        "dfgs": [
+            213
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 212,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            214
+        ],
+        "code": "linker.addLinker(new JSJavaInstanceMethodLinker(logger, manager))",
+        "dfgs": [
+            214
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 213,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "linker.addLinker(new JSMapLikePropertyLinker(logger, manager))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_DynJSBootstrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 214,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            216
+        ],
+        "code": "public PrimitiveCallLink(LinkBuilder builder) throws Exception ",
+        "dfgs": [
+            216
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 215,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guardWith( this )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 216,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            218
+        ],
+        "code": "public boolean guard(Object receiver, Object context, Object self, Object[] args) ",
+        "dfgs": [
+            218
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 49,
+        "methodParents": [],
+        "nodeIndex": 217,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Object base = ((DereferencedReference) receiver).getValue()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 218,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return lookup().findVirtual(PrimitiveCallLink.class, \"guard\", methodType(boolean.class, Object.class, Object.class, Object.class, Object[].class)).bindTo(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_primitive_PrimitiveCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 43,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 219,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 220,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), propertyName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 55,
+        "methodParents": [
+            129
+        ],
+        "nodeIndex": 221,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            223
+        ],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [
+            223
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 222,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            224
+        ],
+        "code": "this.builder.printType()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 223,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class, Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 57,
+        "methodParents": [
+            194
+        ],
+        "nodeIndex": 224,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return builder.insert( 0, this.implManager ).spread( JSObject.class ).convert( Object.class, Class.class, ExecutionContext.class, JSObject.class ).invoke( lookup().findVirtual( JSJavaImplementationManager.class, \"getImplementationWrapper\", methodType( Object.class, Class.class, ExecutionContext.class, JSObject.class ))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_jsimpl_JSJavaImplementationConstructLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 225,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 58,
+        "methodParents": [],
+        "nodeIndex": 226,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), propertyName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 61,
+        "methodParents": [
+            129
+        ],
+        "nodeIndex": 227,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            229
+        ],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 62,
+        "methodParents": [],
+        "nodeIndex": 228,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class, Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 63,
+        "methodParents": [
+            194
+        ],
+        "nodeIndex": 229,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 64,
+        "methodParents": [],
+        "nodeIndex": 230,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            232
+        ],
+        "code": "System.err.println( \"receiver: \" +receiver )",
+        "dfgs": [
+            232
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 231,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            233
+        ],
+        "code": "System.err.println( \"filtered: \" + ReferenceValueFilter.INSTANCE.filter( receiver ) )",
+        "dfgs": [
+            233
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [
+            190
+        ],
+        "nodeIndex": 232,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), propertyName, value)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 66,
+        "methodParents": [
+            147
+        ],
+        "nodeIndex": 233,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            235
+        ],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 234,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaInstancePropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 235,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.js.ReferenceStrictnessFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 236,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public class ShadowObjectPropertySetLink extends AbstractShadowObjectLink implements Guard ",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 72,
+        "methodParents": [],
+        "nodeIndex": 237,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = builder.guardWith( this )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 238,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            240
+        ],
+        "code": "public boolean guard(Object receiver, Object context, String propertyName, Object value) ",
+        "dfgs": [
+            250,
+            251,
+            252,
+            241,
+            242,
+            244,
+            245,
+            240,
+            243,
+            246,
+            247,
+            248,
+            249
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 239,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            241,
+            242
+        ],
+        "code": "if (!(receiver instanceof Reference))",
+        "dfgs": [
+            242
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 240,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 241,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            243
+        ],
+        "code": "Object primary = ((Reference) receiver).getBase()",
+        "dfgs": [
+            243
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 242,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            244,
+            245
+        ],
+        "code": "if (primary instanceof JSObject || primary instanceof EnvironmentRecord || primary == Types.UNDEFINED)",
+        "dfgs": [
+            250,
+            246
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 243,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 244,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            246,
+            250
+        ],
+        "code": "if ( this.primary != null )",
+        "dfgs": [
+            246
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 245,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            247,
+            248
+        ],
+        "code": "if ( this.primary != primary )",
+        "dfgs": [
+            250
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 246,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 247,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            249,
+            250
+        ],
+        "code": "if ( this.propertyName != propertyName )",
+        "dfgs": [
+            251
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 248,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 249,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            251
+        ],
+        "code": "this.primary = primary",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 250,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            252
+        ],
+        "code": "this.propertyName = propertyName",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 251,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 252,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            254
+        ],
+        "code": "public MethodHandle guardMethodHandle(MethodType inputType) throws Exception ",
+        "dfgs": [
+            254
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 253,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return lookup().findVirtual(ShadowObjectPropertySetLink.class, \"guard\", methodType(boolean.class, Object.class, Object.class, String.class, Object.class )).bindTo(this)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 254,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return builder.permute(0, 1, 2, 3, 0).filter(0, ReferenceBaseFilter.INSTANCE).filter(0, new ShadowFilter(this.shadowManager, true)).filter(4, ReferenceStrictnessFilter.INSTANCE).convert(void.class, JSObject.class, ExecutionContext.class, String.class, Object.class, boolean.class).invoke(lookup().findVirtual(JSObject.class, \"put\", methodType(void.class, ExecutionContext.class, String.class, Object.class, boolean.class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_shadow_ShadowObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 66,
+        "lineMapIndex": 73,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 255,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 74,
+        "methodParents": [],
+        "nodeIndex": 256,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), self, args )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 77,
+        "methodParents": [
+            147
+        ],
+        "nodeIndex": 257,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            259
+        ],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 78,
+        "methodParents": [],
+        "nodeIndex": 258,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class, Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 79,
+        "methodParents": [
+            194
+        ],
+        "nodeIndex": 259,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 80,
+        "methodParents": [],
+        "nodeIndex": 260,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), self, args )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 83,
+        "methodParents": [
+            147
+        ],
+        "nodeIndex": 261,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            263
+        ],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 84,
+        "methodParents": [],
+        "nodeIndex": 262,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue( target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType( Object.class, Object.class ) ) )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_instance_JSJavaUnboundInstanceMethodCallLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 85,
+        "methodParents": [
+            194
+        ],
+        "nodeIndex": 263,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            265
+        ],
+        "code": "public JSObjectPropertySetLink(LinkBuilder builder) throws Exception ",
+        "dfgs": [
+            265
+        ],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 86,
+        "methodParents": [],
+        "nodeIndex": 264,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.guardWith( this )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 265,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this.builder.permute(0, 1, 2, 3, 0).filter(0, ReferenceBaseFilter.INSTANCE ).filter(4, ReferenceStrictnessFilter.INSTANCE).convert(void.class, JSObject.class, ExecutionContext.class, String.class, Object.class, boolean.class).invoke(lookup().findVirtual(JSObject.class, \"put\", methodType(void.class, ExecutionContext.class, String.class, Object.class, boolean.class))).target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_js_object_JSObjectPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 50,
+        "lineMapIndex": 87,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 266,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 88,
+        "methodParents": [],
+        "nodeIndex": 267,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), propertyName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 90,
+        "methodParents": [
+            129
+        ],
+        "nodeIndex": 268,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            270
+        ],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": 91,
+        "methodParents": [],
+        "nodeIndex": 269,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return MethodHandles.filterReturnValue(target, NullReplacingFilter.INSTANCE.methodHandle(MethodType.methodType(Object.class, Object.class)))",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassPropertyGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": 92,
+        "methodParents": [
+            194
+        ],
+        "nodeIndex": 270,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 93,
+        "methodParents": [],
+        "nodeIndex": 271,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), propertyName, value)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 96,
+        "methodParents": [
+            147
+        ],
+        "nodeIndex": 272,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            274
+        ],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 97,
+        "methodParents": [],
+        "nodeIndex": 273,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.target()",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_array_JSJavaArrayPropertySetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [
+            133
+        ],
+        "nodeIndex": 274,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Object result = eval(\"catcher = new org.dynjs.runtime.java.HandlerCatcher();\",\"catcher.catchHandler( function() { } );\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 272,
+        "lineMapIndex": 100,
+        "methodParents": [],
+        "nodeIndex": 275,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Object result = eval(\"var consumer = new org.dynjs.runtime.java.MapConsumer();\",\"var obj = { foo: 'tacos', fish: 'haddock' };\",\"consumer.consume( obj, 'fish');\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 314,
+        "lineEnd": 318,
+        "lineMapIndex": 101,
+        "methodParents": [],
+        "nodeIndex": 276,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            278
+        ],
+        "code": "Map map = (Map) eval(\"var map = new java.util.HashMap();\",\"map.foo = 'tacos';\",\"map\")",
+        "dfgs": [
+            278
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 325,
+        "lineEnd": 329,
+        "lineMapIndex": 102,
+        "methodParents": [],
+        "nodeIndex": 277,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(eval(\"map.foo\")).isEqualTo(\"tacos\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 333,
+        "lineEnd": 333,
+        "lineMapIndex": 103,
+        "methodParents": [],
+        "nodeIndex": 278,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testGenericMapFactory() throws InterruptedException ",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 279,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 280,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            282
+        ],
+        "code": "System.err.println(\">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\")",
+        "dfgs": [
+            286
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 281,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            283
+        ],
+        "code": "eval(\"var thingy = org.dynjs.runtime.java.GenericMapFactory.create()\")",
+        "dfgs": [
+            283
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": 105,
+        "methodParents": [],
+        "nodeIndex": 282,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            284
+        ],
+        "code": "eval(\"thingy.put(1, 'one')\")",
+        "dfgs": [
+            284
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 342,
+        "lineEnd": 342,
+        "lineMapIndex": 106,
+        "methodParents": [],
+        "nodeIndex": 283,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            286
+        ],
+        "code": "assertThat(eval(\"thingy.get(1)\")).isEqualTo(\"one\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 343,
+        "lineEnd": 343,
+        "lineMapIndex": 107,
+        "methodParents": [],
+        "nodeIndex": 284,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 344,
+        "lineEnd": 344,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 285,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "System.err.println(\"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 286,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            288
+        ],
+        "code": "Object result = eval(\"var foo = new org.dynjs.runtime.java.DefaultFoo();\",\"var js = {};\",\"js.taco = foo.getContent.bind(foo);\",\"js.taco()\")",
+        "dfgs": [
+            288
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 366,
+        "lineEnd": 369,
+        "lineMapIndex": 108,
+        "methodParents": [],
+        "nodeIndex": 287,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            289
+        ],
+        "code": "assertThat(result).isEqualTo(\"default content\")",
+        "dfgs": [
+            289
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 371,
+        "lineEnd": 371,
+        "lineMapIndex": 109,
+        "methodParents": [],
+        "nodeIndex": 288,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "System.err.println(result)",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 372,
+        "lineEnd": 372,
+        "lineMapIndex": 110,
+        "methodParents": [],
+        "nodeIndex": 289,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            291
+        ],
+        "code": "Object result = eval(\"new org.dynjs.runtime.java.Thing().longMethod(42)\")",
+        "dfgs": [
+            291
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": 111,
+        "methodParents": [],
+        "nodeIndex": 290,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(result).isInstanceOf(Long.class).isEqualTo(42L)",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 381,
+        "lineEnd": 381,
+        "lineMapIndex": 112,
+        "methodParents": [],
+        "nodeIndex": 291,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(result).isEqualTo(Types.UNDEFINED)",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 389,
+        "lineEnd": 389,
+        "lineMapIndex": 113,
+        "methodParents": [],
+        "nodeIndex": 292,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            294
+        ],
+        "code": "assertThat(intResult).isInstanceOf(String.class).isEqualTo(\"9\")",
+        "dfgs": [
+            294
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 410,
+        "lineEnd": 410,
+        "lineMapIndex": 114,
+        "methodParents": [],
+        "nodeIndex": 293,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            295
+        ],
+        "code": "Object longResult = eval(\"new org.dynjs.runtime.java.Thing().longMethod(42)\")",
+        "dfgs": [
+            295
+        ],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 412,
+        "lineEnd": 412,
+        "lineMapIndex": 115,
+        "methodParents": [],
+        "nodeIndex": 294,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(longResult).isInstanceOf(Long.class).isEqualTo(42L)",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 413,
+        "lineEnd": 413,
+        "lineMapIndex": 116,
+        "methodParents": [],
+        "nodeIndex": 295,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Object result = eval(\"var b = new java.lang.Byte(120);\", \"b\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": 117,
+        "methodParents": [],
+        "nodeIndex": 296,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "eval(\"var impl = { \" +\"doItWithParameters: function(param, tf) { return param + (tf ? 'true' : 'false'); }\" +\"};\" +\"var foobar = new org.dynjs.runtime.java.Foobar(impl);\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 627,
+        "lineEnd": 630,
+        "lineMapIndex": 118,
+        "methodParents": [],
+        "nodeIndex": 297,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "eval(\"var doInt = function(param) { return param + 1; };\" +\"var impl = { \" +\"doItWithInt: doInt,\" +\"doItWithPrimitiveInt: doInt,\" +\"doItWithLong: doInt,\" +\"doItWithPrimitiveLong: doInt,\" +\"doItWithShort: doInt,\" +\"doItWithPrimitiveShort: doInt,\" +\"doItWithFloat: function(param) { return param + 1.1; },\" +\"doItWithPrimitiveFloat: function(param) { return param + 1.1; },\" +\"doItWithDouble: function(param) { return param + 1.1; },\" +\"doItWithPrimitiveDouble: function(param) { return param + 1.1; },\" +\"};\" +\"var foobar = new org.dynjs.runtime.java.Foobar(impl);\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 637,
+        "lineEnd": 650,
+        "lineMapIndex": 119,
+        "methodParents": [],
+        "nodeIndex": 298,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "eval(\"var impl = { \" +\"doItWithBoolean: function(param) { return param; },\" +\"doItWithPrimitiveBoolean: function(param) { return true; }\" +\"};\" +\"var foobar = new org.dynjs.runtime.java.Foobar(impl);\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_dynjs_runtime_java_JavaIntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 680,
+        "lineEnd": 684,
+        "lineMapIndex": 120,
+        "methodParents": [],
+        "nodeIndex": 299,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.dynjs.runtime.linker.java.ReferenceValueFilter",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 122,
+        "methodParents": [],
+        "nodeIndex": 300,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.guard(ReferenceValueFilter.INSTANCE.filter(receiver), propertyName)",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 126,
+        "methodParents": [
+            129
+        ],
+        "nodeIndex": 301,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.builder = this.builder.filter( 0, ReferenceValueFilter.INSTANCE )",
+        "dfgs": [],
+        "fName": "src_main_java_org_dynjs_runtime_linker_java_clazz_JSJavaClassMethodGetLink.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 127,
+        "methodParents": [],
+        "nodeIndex": 302,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (dec == null&& exp == null&& isDigits(numeric.substring(1))&& (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0))))",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_math_NumberUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 452,
+        "lineEnd": 455,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "2d06a7ce861432fc702168fd4c94bc00ddfc39eb"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (dec == null&& exp == null&& isDigits(numeric.substring(1))&& (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0))))",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_NumberUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 193,
+        "lineEnd": 196,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "6627f7ad8fb08d6c23b83d6c9f0a6830e9e7085a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (dec == null&& exp == null&& (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric)))",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_math_NumberUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 452,
+        "lineEnd": 454,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "public void testLang300() ",
+        "dfgs": [
+            4,
+            5,
+            6
+        ],
+        "fName": "src_test_org_apache_commons_lang_math_NumberUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1368,
+        "lineEnd": 1368,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "NumberUtils.createNumber(\"-1l\")",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_org_apache_commons_lang_math_NumberUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1369,
+        "lineEnd": 1369,
+        "lineMapIndex": -1,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "NumberUtils.createNumber(\"01l\")",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_org_apache_commons_lang_math_NumberUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1370,
+        "lineEnd": 1370,
+        "lineMapIndex": -1,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "NumberUtils.createNumber(\"1l\")",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_lang_math_NumberUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1371,
+        "lineEnd": 1371,
+        "lineMapIndex": -1,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (dec == null&& exp == null&& (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric)))",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_NumberUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 193,
+        "lineEnd": 195,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    }
+]

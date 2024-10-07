@@ -1,0 +1,128 @@
+[
+    {
+        "cfgs": [],
+        "code": "String name = t.asEndTag().name()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilderState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 763,
+        "lineEnd": 763,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "b934c5d3e30917de86796c89fcb7cd000f642a80"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String name = tb.settings.normalizeTag(t.asEndTag().name())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilderState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 763,
+        "lineEnd": 763,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void caseInsensitiveParseTree() ",
+        "dfgs": [
+            3,
+            6,
+            4,
+            5
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1008,
+        "lineEnd": 1008,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "String html = \"<r><X>A</X><y>B</y></r>\"",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1009,
+        "lineEnd": 1009,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Parser parser = Parser.htmlParser()",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1010,
+        "lineEnd": 1010,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "Document doc = parser.parseInput(html, \"\")",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1011,
+        "lineEnd": 1011,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"<r> <x> A </x> <y> B </y> </r>\", StringUtil.normaliseWhitespace(doc.body().html()))",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1012,
+        "lineEnd": 1012,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

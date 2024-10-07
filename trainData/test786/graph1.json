@@ -1,0 +1,1410 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertThat(Iterables.getOnlyElement(errorReporter.getErrors()).message()).isEqualTo(\"Template name 'foo' conflicts with symbol defined at 3:11-3:14.\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_soytree_TemplateRegistryTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 212,
+        "lineEnd": 213,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "b3312d3b2fd2f30adfc11dd7a55ca431e88fd2db"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "TEMPLATE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_exprtree_VarDefn.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static com.google.template.soy.soytree.TemplateDelegateNodeBuilder.isDeltemplateTemplateName",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.exprtree.VarDefn.Kind",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final SoyErrorKind VARIABLE_ALREADY_DEFINED =SoyErrorKind.of(\"{0} ''{1}'' conflicts with symbol defined at {2}.\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 82,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "b371337f5e18d134d01992451c4e91190859ca8f"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (errorReporter != null && !shouldSkipError(defn, preexisting))",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "SourceLocation defnSourceLocation =defn.nameLocation() == null ? definingNode.getSourceLocation() : defn.nameLocation()",
+        "dfgs": [
+            7
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 127,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "errorReporter.report(defnSourceLocation,VARIABLE_ALREADY_DEFINED,englishName(defn),refName,preexisting.nameLocation().toLineColumnString())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [
+            4
+        ],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            10,
+            9
+        ],
+        "code": "localVariables.reserve(var, imp)",
+        "dfgs": [
+            11,
+            9
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "localVariables.define(var, imp)",
+        "dfgs": [
+            11
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "for (TemplateNode template : node.getTemplates())",
+        "dfgs": [
+            11
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "localVariables.reserve(template.asVarDefn(), template)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 204,
+        "lineEnd": 204,
+        "lineMapIndex": -1,
+        "methodParents": [
+            29
+        ],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "private static boolean shouldSkipError(VarDefn defn, VarDefn preexisting) ",
+        "dfgs": [
+            13
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return defn.kind() == Kind.TEMPLATE&& preexisting.kind() == Kind.TEMPLATE&& isDeltemplateTemplateName(defn.name())&& isDeltemplateTemplateName(preexisting.name())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 296,
+        "lineEnd": 299,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            15,
+            16,
+            17,
+            18,
+            20,
+            21
+        ],
+        "code": "private static String englishName(VarDefn varDefn) ",
+        "dfgs": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"Parameter\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"State parameter\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"Imported symbol\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"Local variable\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 312,
+        "lineEnd": 312,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case TEMPLATE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 313,
+        "lineEnd": 313,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"Template name\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 314,
+        "lineEnd": 314,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"Symbol\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 316,
+        "lineEnd": 316,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "public static boolean isDeltemplateTemplateName(String templateName) ",
+        "dfgs": [
+            23
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateDelegateNodeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return templateName.startsWith(\"__deltemplate_\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateDelegateNodeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (prev != null&& !prev.getSourceLocation().getFileName().equals(template.getSourceLocation().getFileName()))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_FileSetTemplateRegistry.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 125,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.exprtree.AbstractVarDefn",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.exprtree.VarDefn",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.types.SoyType",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.types.TemplateImportType",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "public VarDefn asVarDefn() ",
+        "dfgs": [
+            30
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 704,
+        "lineEnd": 704,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new TemplateVarDefn(getLocalTemplateSymbol(),getTemplateNameLocation(),TemplateImportType.create(getTemplateName()))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 705,
+        "lineEnd": 708,
+        "lineMapIndex": -1,
+        "methodParents": [
+            32
+        ],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static class TemplateVarDefn extends AbstractVarDefn ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 711,
+        "lineEnd": 711,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "public TemplateVarDefn(String name, @Nullable SourceLocation nameLocation, @Nullable SoyType type)",
+        "dfgs": [
+            33
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 712,
+        "lineEnd": 713,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "super(name, nameLocation, type)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 714,
+        "lineEnd": 714,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "public Kind kind() ",
+        "dfgs": [
+            35
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 718,
+        "lineEnd": 718,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return Kind.TEMPLATE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 719,
+        "lineEnd": 719,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "public boolean isInjected() ",
+        "dfgs": [
+            37
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 723,
+        "lineEnd": 723,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TemplateNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 724,
+        "lineEnd": 724,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "String fileContent1 =\"{namespace boo1}\\n\"+ \"\\n\"+ \"/** Template 1 */\\n\"+ \"{template .foo1}\\n\"+ \"  {v1Expression('$gxo1.moo1()')}\\n\"+ \"{/template}\\n\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_CheckTemplateHeaderVarsPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 180,
+        "lineEnd": 186,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "17db4aef4f110025a94a15b91c99607b754b5b90",
+            "1f25695abe00a8db522adc3c8d8c037d1e34b9aa",
+            "e1c95686501909a06651d66d21abe2463b4e5212",
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "48aa6999be70d2fe3bd5a2dce97f18832ba1aac8",
+            "7dae5a1a2b6868da939e7643741b67db1610f190"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String fileContent2 =\"{namespace boo2}\\n\"+ \"\\n\"+ \"/** Template 2 */\\n\"+ \"{template .foo2}\\n\"+ \"  {$gxo2.moo2}\\n\"+ \"{/template}\\n\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_CheckTemplateHeaderVarsPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 188,
+        "lineEnd": 194,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "17db4aef4f110025a94a15b91c99607b754b5b90",
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "7dae5a1a2b6868da939e7643741b67db1610f190",
+            "e1c95686501909a06651d66d21abe2463b4e5212"
+        ]
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "assertResolveNamesFails(\"Local variable '$la' conflicts with symbol defined at 4:8-4:10.\",constructTemplateSource(\"{let $la: 1 /}\", \"{let $la: $la /}\"))",
+        "dfgs": [
+            41
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 144,
+        "lineEnd": 146,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "a073b72d92d47903dadbf7e8d3607daaf7a05856",
+            "7dae5a1a2b6868da939e7643741b67db1610f190"
+        ]
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "assertResolveNamesFails(\"Local variable '$pa' conflicts with symbol defined at 4:11-4:12.\",constructTemplateSource(\"{@param pa: bool}\", \"{let $pa: not $pa /}\"))",
+        "dfgs": [
+            42
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 147,
+        "lineEnd": 149,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "a073b72d92d47903dadbf7e8d3607daaf7a05856",
+            "7dae5a1a2b6868da939e7643741b67db1610f190"
+        ]
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "assertResolveNamesFails(\"Local variable '$la' conflicts with symbol defined at 4:8-4:10.\",constructTemplateSource(\"{let $la: 1 /}\", \"{for $item in ['a', 'b']}\", \"  {let $la: $la /}\", \"{/for}\"))",
+        "dfgs": [
+            43
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 150,
+        "lineEnd": 153,
+        "lineMapIndex": 72,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "a073b72d92d47903dadbf7e8d3607daaf7a05856",
+            "824b41d620a90702ec7d509ea478f83a83d92a1f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertResolveNamesFails(\"Local variable '$group' conflicts with symbol defined at 4:11-4:15.\",constructTemplateSource(\"{@param group: string}\", \"{for $group in ['a', 'b']}\", \"  {$group}\", \"{/for}\"))",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 154,
+        "lineEnd": 157,
+        "lineMapIndex": 73,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "f39c874881178cb16eb716c44e459840eb4ec076",
+            "824b41d620a90702ec7d509ea478f83a83d92a1f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertResolveNamesFails(\"Unknown variable.\",\"{namespace ns}{template .foo}{v1Expression('$gxo.moo1()')}{/template}\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 223,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859",
+            "b643e7e592c1ced10afb25efb0b229aec03994cf"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertResolveNamesFails(\"Unknown variable.\", \"{namespace ns}{template .foo}{$ggg}{/template}\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case TEMPLATE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jbcsrc_EnhancedAbstractExprNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new RuntimeException(defn.kind() + \" are not supported by jbcsrc\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jbcsrc_EnhancedAbstractExprNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": 76,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 47,
+        "rootcause": true,
+        "commits": [
+            "abe4facd960d967b7f110a69284b688a747b3859"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(Iterables.getOnlyElement(errorReporter.getErrors()).message()).isEqualTo(\"Template/element 'ns.foo' already defined at no-path:3:1-4:11.\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_soytree_TemplateRegistryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 212,
+        "lineEnd": 213,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.soytree.defn.LocalVar",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Optional",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final SoyErrorKind VARIABLE_ALREADY_DEFINED =SoyErrorKind.of(\"Variable ''{0}'' already defined{1}.\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "Optional<SourceLocation> preexistingSourceLocation = forVarDefn(preexisting)",
+        "dfgs": [
+            54
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [
+            59
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "SourceLocation defnSourceLocation =defn.nameLocation() == null ? definingNode.getSourceLocation() : defn.nameLocation()",
+        "dfgs": [
+            56
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "String location =preexistingSourceLocation.isPresent()? \" at line \" + preexistingSourceLocation.get().getBeginLine(): \"\"",
+        "dfgs": [
+            56
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "if (errorReporter != null)",
+        "dfgs": [
+            56
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "errorReporter.report(defnSourceLocation, VARIABLE_ALREADY_DEFINED, refName, location)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [
+            51
+        ],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "localVariables.reserve(var, node)",
+        "dfgs": [
+            58
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "localVariables.define(var, node)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60,
+            61,
+            62,
+            63
+        ],
+        "code": "private static Optional<SourceLocation> forVarDefn(VarDefn varDefn) ",
+        "dfgs": [
+            60,
+            61,
+            62,
+            63
+        ],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Optional.of(varDefn.nameLocation())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Optional.of(((LocalVar) varDefn).declaringNode().getSourceLocation())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Optional.of(((ListComprehensionNode.ComprehensionVarDefn) varDefn).declaringNode().getSourceLocation())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 300,
+        "lineEnd": 303,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Optional.empty()",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_LocalVariablesNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.error.SoyErrorKind",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_ResolveTemplateImportsPass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final SoyErrorKind IMPORT_CONFLICTS_WITH_TEMPLATE =SoyErrorKind.of(\"Import conflicts with local template ''{0}''.\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_ResolveTemplateImportsPass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "errorReporter.report(symbol.nameLocation(), IMPORT_CONFLICTS_WITH_TEMPLATE, partialTemplateName)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_ResolveTemplateImportsPass.java",
+        "fieldParents": [
+            65
+        ],
+        "isDel": false,
+        "lineBeg": 148,
+        "lineEnd": 149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (prev != null)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_FileSetTemplateRegistry.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "String fileContent1 =\"{namespace boo1}\\n\"+ \"\\n\"+ \"/** Template 1 */\\n\"+ \"{template .foo1}\\n\"+ \"  {v1Expression('$goo1.moo1()')}\\n\"+ \"{/template}\\n\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_CheckTemplateHeaderVarsPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 180,
+        "lineEnd": 186,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String fileContent2 =\"{namespace boo2}\\n\"+ \"\\n\"+ \"/** Template 2 */\\n\"+ \"{template .foo2}\\n\"+ \"  {$goo2.moo2}\\n\"+ \"{/template}\\n\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_CheckTemplateHeaderVarsPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 188,
+        "lineEnd": 194,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "assertResolveNamesFails(\"Variable '$la' already defined at line 4.\",constructTemplateSource(\"{let $la: 1 /}\", \"{let $la: $la /}\"))",
+        "dfgs": [
+            71
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 146,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "assertResolveNamesFails(\"Variable '$pa' already defined at line 4.\",constructTemplateSource(\"{@param pa: bool}\", \"{let $pa: not $pa /}\"))",
+        "dfgs": [
+            72
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 149,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "assertResolveNamesFails(\"Variable '$la' already defined at line 4.\",constructTemplateSource(\"{let $la: 1 /}\", \"{for $item in ['a', 'b']}\", \"  {let $la: $la /}\", \"{/for}\"))",
+        "dfgs": [
+            73
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 153,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertResolveNamesFails(\"Variable '$group' already defined at line 4.\",constructTemplateSource(\"{@param group: string}\", \"{for $group in ['a', 'b']}\", \"  {$group}\", \"{/for}\"))",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 154,
+        "lineEnd": 157,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertResolveNamesFails(\"Unknown variable.\",\"{namespace ns}{template .foo}{v1Expression('$goo.moo1()')}{/template}\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 223,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertResolveNamesFails(\"Unknown variable.\", \"{namespace ns}{template .foo}{$goo}{/template}\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_ResolveNamesPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new RuntimeException(\"undeclared params are not supported by jbcsrc\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jbcsrc_EnhancedAbstractExprNodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    }
+]

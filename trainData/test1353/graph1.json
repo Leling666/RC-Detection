@@ -1,0 +1,319 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "int bufSize = (endIndex - startIndex)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3293,
+        "lineEnd": 3293,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "320b0b259c855cb78d763912e532e1ec91c023f9"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (bufSize <= 0)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3294,
+        "lineEnd": 3294,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "320b0b259c855cb78d763912e532e1ec91c023f9"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3298,
+        "lineEnd": 3298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "320b0b259c855cb78d763912e532e1ec91c023f9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "StringBuilder buf = new StringBuilder(bufSize)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3299,
+        "lineEnd": 3299,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "6d8ed9be2caea783ac35c8d8a6e2f397959f9328"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "int bufSize = (endIndex - startIndex)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3380,
+        "lineEnd": 3380,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "320b0b259c855cb78d763912e532e1ec91c023f9"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (bufSize <= 0)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3381,
+        "lineEnd": 3381,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "320b0b259c855cb78d763912e532e1ec91c023f9"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())+ separator.length())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3385,
+        "lineEnd": 3386,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "320b0b259c855cb78d763912e532e1ec91c023f9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "StringBuilder buf = new StringBuilder(bufSize)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3388,
+        "lineEnd": 3388,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "6d8ed9be2caea783ac35c8d8a6e2f397959f9328"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Object[] NULL_TO_STRING_LIST = {new Object(){@Overridepublic String toString() {return null;}}}",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"null\", StringUtils.join(NULL_TO_STRING_LIST))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsTest.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 193,
+        "lineEnd": 193,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"null\", StringUtils.join(NULL_TO_STRING_LIST,'/', 0, 1))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsTest.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 209,
+        "lineEnd": 209,
+        "lineMapIndex": -1,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "int noOfItems = (endIndex - startIndex)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3293,
+        "lineEnd": 3293,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "if (noOfItems <= 0)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3294,
+        "lineEnd": 3294,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "StringBuilder buf = new StringBuilder(noOfItems * 16)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3298,
+        "lineEnd": 3298,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "int noOfItems = (endIndex - startIndex)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3378,
+        "lineEnd": 3378,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "if (noOfItems <= 0)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3379,
+        "lineEnd": 3379,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "StringBuilder buf = new StringBuilder(noOfItems * 16)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3383,
+        "lineEnd": 3383,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    }
+]

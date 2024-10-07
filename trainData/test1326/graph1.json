@@ -1,0 +1,290 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "long result = Math.round(factorialDouble(n))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "b3a6a6b3b5b269cf6ccab91588c320d925dac9ae"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "if (result == Long.MAX_VALUE)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "b3a6a6b3b5b269cf6ccab91588c320d925dac9ae"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "throw new ArithmeticException(\"result too large to represent in a long integer\")",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 340,
+        "lineEnd": 341,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "4eb8044ae73cacd278330b07795bdd649a82fc30",
+            "b3a6a6b3b5b269cf6ccab91588c320d925dac9ae"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return result",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 343,
+        "lineEnd": 343,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "b3a6a6b3b5b269cf6ccab91588c320d925dac9ae"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "for (int i = 1; i < 10; i++)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_util_MathUtilsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "b3a6a6b3b5b269cf6ccab91588c320d925dac9ae"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final long[] factorials = new long[] {1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800, 39916800,479001600, 6227020800l, 87178291200l, 1307674368000l, 20922789888000l,355687428096000l, 6402373705728000l, 121645100408832000l,2432902008176640000l}",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 316,
+        "lineEnd": 320,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (n < 0)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "throw new IllegalArgumentException(\"must have n >= 0 for n!\")",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9,
+            10
+        ],
+        "code": "if (n > 20)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 348,
+        "lineEnd": 348,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "throw new ArithmeticException(\"factorial value is too large to fit in a long\")",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 349,
+        "lineEnd": 350,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return factorials[n]",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 352,
+        "lineEnd": 352,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "if (n < 21)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return factorial(n)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 380,
+        "lineEnd": 380,
+        "lineMapIndex": -1,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "if (n < 21)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 402,
+        "lineEnd": 402,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Math.log(factorial(n))",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 403,
+        "lineEnd": 403,
+        "lineMapIndex": -1,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "for (int i = 1; i < 21; i++)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_util_MathUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    }
+]

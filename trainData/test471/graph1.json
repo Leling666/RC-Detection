@@ -1,0 +1,129 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "for (PropertyPreFilter filter : javaBeanDeser.propertyPreFilters)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_JSONSerializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "2ba3d77351a943fbe95500b9ee2a26a40db9d73a"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (!filter.apply(this, object, key))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_JSONSerializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "3c280ee2db25e62336cee03e7accb369c4b22c9b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_JSONSerializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 408,
+        "lineEnd": 408,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "3c280ee2db25e62336cee03e7accb369c4b22c9b"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (javaBeanDeser.propertyPreFilters != null)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_JSONSerializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "for (PropertyPreFilter filter : javaBeanDeser.propertyPreFilters)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_JSONSerializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (!filter.apply(this, object, key))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_JSONSerializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 408,
+        "lineEnd": 408,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_JSONSerializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 409,
+        "lineEnd": 409,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

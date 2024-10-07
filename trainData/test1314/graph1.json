@@ -1,0 +1,252 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "int sum = 0",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1624,
+        "lineEnd": 1624,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "d94d0a556a02af7a11bb93a73ecd3e614b9fcab0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final int dp = p1[i] - p2[i]",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1626,
+        "lineEnd": 1626,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "d94d0a556a02af7a11bb93a73ecd3e614b9fcab0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testPerformClusterAnalysisDegenerate() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "KMeansPlusPlusClusterer<EuclideanIntegerPoint> transformer = new KMeansPlusPlusClusterer<EuclideanIntegerPoint>(new Random(1746432956321l))",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "EuclideanIntegerPoint[] points = new EuclideanIntegerPoint[] {new EuclideanIntegerPoint(new int[] { 1959, 325100 }),new EuclideanIntegerPoint(new int[] { 1960, 373200 }), }",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "List<Cluster<EuclideanIntegerPoint>> clusters = transformer.cluster(Arrays.asList(points), 1, 1)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "assertEquals(1, clusters.size())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "assertEquals(2, (clusters.get(0).getPoints().size()))",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "EuclideanIntegerPoint pt1 = new EuclideanIntegerPoint(new int[] { 1959, 325100 })",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "EuclideanIntegerPoint pt2 = new EuclideanIntegerPoint(new int[] { 1960, 373200 })",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "assertTrue(clusters.get(0).getPoints().contains(pt1))",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(clusters.get(0).getPoints().contains(pt2))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_stat_clustering_KMeansPlusPlusClustererTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "double sum = 0",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1624,
+        "lineEnd": 1624,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final double dp = p1[i] - p2[i]",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1626,
+        "lineEnd": 1626,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    }
+]

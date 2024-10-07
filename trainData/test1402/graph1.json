@@ -1,0 +1,499 @@
+[
+    {
+        "cfgs": [],
+        "code": "private final Node aliasReference",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "301ed5b03eb52debdc9b87929a45880eb2faf1fe"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final String correctedType",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "301ed5b03eb52debdc9b87929a45880eb2faf1fe"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "AliasedTypeNode(Node aliasReference, String correctedType) ",
+        "dfgs": [
+            3,
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 172,
+        "lineEnd": 172,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "301ed5b03eb52debdc9b87929a45880eb2faf1fe"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "this.aliasReference = aliasReference",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "301ed5b03eb52debdc9b87929a45880eb2faf1fe"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.correctedType = correctedType",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "301ed5b03eb52debdc9b87929a45880eb2faf1fe"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "aliasReference.setString(correctedType)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "301ed5b03eb52debdc9b87929a45880eb2faf1fe"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "aliasUsages.add(new AliasedTypeNode(typeNode,aliasedNode.getQualifiedName() + name.substring(endIndex)))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 467,
+        "lineEnd": 468,
+        "lineMapIndex": 19,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "301ed5b03eb52debdc9b87929a45880eb2faf1fe"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.base.Preconditions",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final Node typeReference",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final Node aliasDefinition",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final String aliasName",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "AliasedTypeNode(Node typeReference, Node aliasDefinition,String aliasName)",
+        "dfgs": [
+            12,
+            13,
+            14
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 173,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "this.typeReference = typeReference",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "this.aliasDefinition = aliasDefinition",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.aliasName = aliasName",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            10
+        ],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "String typeName = typeReference.getString()",
+        "dfgs": [
+            18,
+            17
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "String aliasExpanded =Preconditions.checkNotNull(aliasDefinition.getQualifiedName())",
+        "dfgs": [
+            17,
+            18
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Preconditions.checkState(typeName.startsWith(aliasName))",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            10
+        ],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "typeReference.setString(typeName.replaceFirst(aliasName, aliasExpanded))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "aliasUsages.add(new AliasedTypeNode(typeNode, aliasedNode, baseName))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ScopedAliases.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": 6,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "public void testIssue772() ",
+        "dfgs": [
+            21
+        ],
+        "fName": "test_com_google_javascript_jscomp_ScopedAliasesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"var b = a.b;\" +\"var c = b.c;\",\"/** @param {c.MyType} x */ types.actual;\" +\"/** @param {a.b.c.MyType} x */ types.expected;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ScopedAliasesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 411,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "public void testIssue772() throws Exception ",
+        "dfgs": [
+            24,
+            25,
+            26,
+            23
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1864,
+        "lineEnd": 1864,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "CompilerOptions options = createCompilerOptions()",
+        "dfgs": [
+            26
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1865,
+        "lineEnd": 1865,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "options.closurePass = true",
+        "dfgs": [
+            26
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1866,
+        "lineEnd": 1866,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "options.checkTypes = true",
+        "dfgs": [
+            26
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1867,
+        "lineEnd": 1867,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(options,\"/** @const */ var a = {};\" +\"/** @const */ a.b = {};\" +\"/** @const */ a.b.c = {};\" +\"goog.scope(function() {\" +\"  var b = a.b;\" +\"  var c = b.c;\" +\"  /** @typedef {string} */\" +\"  c.MyType;\" +\"  /** @param {c.MyType} x The variable. */\" +\"  c.myFunc = function(x) {};\" +\"});\",\"/** @const */ var a = {};\" +\"/** @const */ a.b = {};\" +\"/** @const */ a.b.c = {};\" +\"a.b.c.MyType;\" +\"a.b.c.myFunc = function(x) {};\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1868,
+        "lineEnd": 1885,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    }
+]

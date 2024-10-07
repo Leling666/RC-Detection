@@ -1,0 +1,4887 @@
+[
+    {
+        "cfgs": [],
+        "code": "import java.util.*",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "dd75efe7363da1bfb1a657d99bfa5a6b50c97b9c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.*",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "dd75efe7363da1bfb1a657d99bfa5a6b50c97b9c"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (key.equals(\"One\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "2208658f73d7d533d364b7d280c9e9f9ad139970"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (key.equals(\"thREe\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "2208658f73d7d533d364b7d280c9e9f9ad139970"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (key.equals(\"Five\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "2208658f73d7d533d364b7d280c9e9f9ad139970"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (key.equals(\"One\") && value.equals(\"Two\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "2208658f73d7d533d364b7d280c9e9f9ad139970"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "if (key.equals(\"thREe\") && value.equals(\"four\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "2208658f73d7d533d364b7d280c9e9f9ad139970"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (key.equals(\"Five\") && value.equals(\"Six\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "2208658f73d7d533d364b7d280c9e9f9ad139970"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySet()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 360,
+        "lineEnd": 361,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "assertTrue(m.keySet().contains(\"oNe\"))",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 363,
+        "lineEnd": 363,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "assertTrue(m.keySet().contains(\"thRee\"))",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "assertTrue(m.keySet().contains(\"fiVe\"))",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "m = createSimpleMap()",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 367,
+        "lineEnd": 367,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Iterator i = m.keySet().iterator()",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": 108,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "i.next()",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 369,
+        "lineEnd": 369,
+        "lineMapIndex": 154,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "i.next()",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": 151,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "i.next()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": 148,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new LocalSet(map.keySet(), this)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private class LocalSet extends LinkedHashSet<K>",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final long serialVersionUID = -4681165782204849813L",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Map<K, V> localMap",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 182,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Iterator<K> iter",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "765b42990327d81fb54f6b49e6dbc943b434f675"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "public LocalSet(Set<K> s, Map<K, V> m)",
+        "dfgs": [
+            25,
+            23,
+            24
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 138,
+        "lineEnd": 139,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "super(s)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "this.iter = super.iterator()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": true,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "765b42990327d81fb54f6b49e6dbc943b434f675"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.localMap = m",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": true,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new Iterator<K>(){K lastRetured = null;public boolean hasNext(){return iter.hasNext();}public K next(){   // Allow iterated item to become stored stringlastRetured = iter.next();if (lastRetured instanceof CaseInsensitiveString){lastRetured = (K)lastRetured.toString();}return lastRetured;}public void remove(){iter.remove();localMap.remove(lastRetured);}}",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": true,
+        "lineBeg": 152,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2",
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "lastRetured = iter.next()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": true,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (lastRetured instanceof CaseInsensitiveString)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "lastRetured = (K)lastRetured.toString()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "7232c45413bea6b7fe8684afb8933a57bfd597b2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return lastRetured",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "iter.remove()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": true,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": -1,
+        "methodParents": [
+            31
+        ],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "localMap.remove(lastRetured)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": true,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "c94f8e32dc878e2eff65f69c5e39dd5025bbc9e2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Collection",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.HashMap",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6,
+        "lineEnd": 6,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.HashSet",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Iterator",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.LinkedHashMap",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 9,
+        "lineEnd": 9,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Map",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertEquals",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 13,
+        "lineEnd": 13,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertFalse",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 14,
+        "lineEnd": 14,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertNotEquals",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 15,
+        "lineEnd": 15,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertNotNull",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 16,
+        "lineEnd": 16,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertNull",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertTrue",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47,
+            48
+        ],
+        "code": "if (key.equals(\"One\"))",
+        "dfgs": [
+            48
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": 2,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "foundOne = true",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49,
+            50
+        ],
+        "code": "if (key.equals(\"thREe\"))",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": 3,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "foundThree = true",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "if (key.equals(\"Five\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": 4,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "foundFive = true",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53,
+            54
+        ],
+        "code": "if (key.equals(\"One\") && value.equals(\"Two\"))",
+        "dfgs": [
+            54,
+            56
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": 5,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "foundOne = true",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55,
+            56
+        ],
+        "code": "if (key.equals(\"thREe\") && value.equals(\"four\"))",
+        "dfgs": [
+            56
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": 6,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "foundThree = true",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "if (key.equals(\"Five\") && value.equals(\"Six\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": 7,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "foundFive = true",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetContains()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 389,
+        "lineEnd": 390,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            61,
+            60
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 391,
+        "lineEnd": 391,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            61
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 392,
+        "lineEnd": 392,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "assertTrue(s.contains(\"oNe\"))",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 393,
+        "lineEnd": 393,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "assertTrue(s.contains(\"thRee\"))",
+        "dfgs": [
+            63
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 394,
+        "lineEnd": 394,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(s.contains(\"fiVe\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 395,
+        "lineEnd": 395,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetContainsAll()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 399,
+        "lineEnd": 400,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            70,
+            66
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 401,
+        "lineEnd": 401,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            70
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 402,
+        "lineEnd": 402,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "Set items = new HashSet()",
+        "dfgs": [
+            68
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 403,
+        "lineEnd": 403,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "items.add(\"one\")",
+        "dfgs": [
+            69
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 404,
+        "lineEnd": 404,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "items.add(\"five\")",
+        "dfgs": [
+            70
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(s.containsAll(items))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [
+            185
+        ],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetRemove()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 410,
+        "lineEnd": 411,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            74,
+            73
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 412,
+        "lineEnd": 412,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            74,
+            77
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 413,
+        "lineEnd": 413,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "assertTrue(s.remove(\"oNe\"))",
+        "dfgs": [
+            75
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 414,
+        "lineEnd": 414,
+        "lineMapIndex": -1,
+        "methodParents": [
+            190
+        ],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "assertTrue(s.remove(\"thRee\"))",
+        "dfgs": [
+            76
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 415,
+        "lineEnd": 415,
+        "lineMapIndex": -1,
+        "methodParents": [
+            190
+        ],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "assertTrue(s.remove(\"fiVe\"))",
+        "dfgs": [
+            77,
+            78
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 416,
+        "lineEnd": 416,
+        "lineMapIndex": -1,
+        "methodParents": [
+            190
+        ],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "assertEquals(0, m.size())",
+        "dfgs": [
+            78
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 417,
+        "lineEnd": 417,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0, s.size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 418,
+        "lineEnd": 418,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetRemoveAll()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 422,
+        "lineEnd": 423,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            85,
+            81
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 424,
+        "lineEnd": 424,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            85,
+            86
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 425,
+        "lineEnd": 425,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "Set items = new HashSet()",
+        "dfgs": [
+            83
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 426,
+        "lineEnd": 426,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "items.add(\"one\")",
+        "dfgs": [
+            84
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 427,
+        "lineEnd": 427,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            85
+        ],
+        "code": "items.add(\"five\")",
+        "dfgs": [
+            85
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 428,
+        "lineEnd": 428,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "assertTrue(s.removeAll(items))",
+        "dfgs": [
+            86,
+            87
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 429,
+        "lineEnd": 429,
+        "lineMapIndex": -1,
+        "methodParents": [
+            194
+        ],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "assertEquals(1, m.size())",
+        "dfgs": [
+            87,
+            89
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 430,
+        "lineEnd": 430,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            88
+        ],
+        "code": "assertEquals(1, s.size())",
+        "dfgs": [
+            88
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 431,
+        "lineEnd": 431,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "assertTrue(s.contains(\"three\"))",
+        "dfgs": [
+            89
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 432,
+        "lineEnd": 432,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(m.containsKey(\"three\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 433,
+        "lineEnd": 433,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetRetainAll()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 437,
+        "lineEnd": 438,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            94,
+            95
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 440,
+        "lineEnd": 440,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            93
+        ],
+        "code": "Set items = new HashSet()",
+        "dfgs": [
+            93
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 441,
+        "lineEnd": 441,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "items.add(\"three\")",
+        "dfgs": [
+            94
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 442,
+        "lineEnd": 442,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "assertTrue(s.retainAll(items))",
+        "dfgs": [
+            95,
+            96
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 443,
+        "lineEnd": 443,
+        "lineMapIndex": -1,
+        "methodParents": [
+            199
+        ],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96
+        ],
+        "code": "assertEquals(1, m.size())",
+        "dfgs": [
+            96,
+            98
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 444,
+        "lineEnd": 444,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97
+        ],
+        "code": "assertEquals(1, s.size())",
+        "dfgs": [
+            97
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 445,
+        "lineEnd": 445,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "assertTrue(s.contains(\"three\"))",
+        "dfgs": [
+            98
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 446,
+        "lineEnd": 446,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(m.containsKey(\"three\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 447,
+        "lineEnd": 447,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetToObjectArray()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 451,
+        "lineEnd": 452,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            101
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            103,
+            101
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 453,
+        "lineEnd": 453,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            102
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            102
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 454,
+        "lineEnd": 454,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "Object[] array = s.toArray()",
+        "dfgs": [
+            103,
+            104,
+            105
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 455,
+        "lineEnd": 455,
+        "lineMapIndex": -1,
+        "methodParents": [
+            212
+        ],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "assertEquals(array[0], \"One\")",
+        "dfgs": [
+            104
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 456,
+        "lineEnd": 456,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "assertEquals(array[1], \"Three\")",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 457,
+        "lineEnd": 457,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(array[2], \"Five\")",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 458,
+        "lineEnd": 458,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetToTypedArray()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 462,
+        "lineEnd": 463,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            108
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            110,
+            108
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 464,
+        "lineEnd": 464,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            109
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            109
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 465,
+        "lineEnd": 465,
+        "lineMapIndex": 13,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "String[] array = (String[]) s.toArray(new String[]{})",
+        "dfgs": [
+            110,
+            111,
+            112,
+            113
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 466,
+        "lineEnd": 466,
+        "lineMapIndex": -1,
+        "methodParents": [
+            219
+        ],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            111
+        ],
+        "code": "assertEquals(array[0], \"One\")",
+        "dfgs": [
+            111,
+            114
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112
+        ],
+        "code": "assertEquals(array[1], \"Three\")",
+        "dfgs": [
+            112,
+            115
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            113
+        ],
+        "code": "assertEquals(array[2], \"Five\")",
+        "dfgs": [
+            114,
+            116
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            114
+        ],
+        "code": "array = (String[]) s.toArray(new String[]{\"\",\"\",\"\",\"\"})",
+        "dfgs": [
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 471,
+        "lineEnd": 471,
+        "lineMapIndex": -1,
+        "methodParents": [
+            219
+        ],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            115
+        ],
+        "code": "assertEquals(array[0], \"One\")",
+        "dfgs": [
+            115,
+            120
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            116
+        ],
+        "code": "assertEquals(array[1], \"Three\")",
+        "dfgs": [
+            116,
+            121
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            117
+        ],
+        "code": "assertEquals(array[2], \"Five\")",
+        "dfgs": [
+            117,
+            122
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            118
+        ],
+        "code": "assertEquals(array[3], null)",
+        "dfgs": [
+            118
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 475,
+        "lineEnd": 475,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            119
+        ],
+        "code": "assertEquals(4, array.length)",
+        "dfgs": [
+            120
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 476,
+        "lineEnd": 476,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            120
+        ],
+        "code": "array = (String[]) s.toArray(new String[]{\"\",\"\",\"\"})",
+        "dfgs": [
+            120,
+            121,
+            122,
+            123
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 478,
+        "lineEnd": 478,
+        "lineMapIndex": -1,
+        "methodParents": [
+            219
+        ],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            121
+        ],
+        "code": "assertEquals(array[0], \"One\")",
+        "dfgs": [
+            121
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 479,
+        "lineEnd": 479,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            122
+        ],
+        "code": "assertEquals(array[1], \"Three\")",
+        "dfgs": [
+            122
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 480,
+        "lineEnd": 480,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            123
+        ],
+        "code": "assertEquals(array[2], \"Five\")",
+        "dfgs": [
+            123
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 481,
+        "lineEnd": 481,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(3, array.length)",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 482,
+        "lineEnd": 482,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetClear()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 486,
+        "lineEnd": 487,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 124,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            126
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            128,
+            126
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 488,
+        "lineEnd": 488,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 125,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            127
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            127,
+            128
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 489,
+        "lineEnd": 489,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 126,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            128
+        ],
+        "code": "s.clear()",
+        "dfgs": [
+            129
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": -1,
+        "methodParents": [
+            230
+        ],
+        "nodeIndex": 127,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            129
+        ],
+        "code": "assertEquals(0, m.size())",
+        "dfgs": [
+            129
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 491,
+        "lineEnd": 491,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 128,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0, s.size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 492,
+        "lineEnd": 492,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 129,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetHashCode()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 496,
+        "lineEnd": 497,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 130,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            132
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            138,
+            132
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 498,
+        "lineEnd": 498,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 131,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            133
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            133
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 499,
+        "lineEnd": 499,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 132,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            134
+        ],
+        "code": "int h = s.hashCode()",
+        "dfgs": [
+            138
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 500,
+        "lineEnd": 500,
+        "lineMapIndex": -1,
+        "methodParents": [
+            232
+        ],
+        "nodeIndex": 133,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            135
+        ],
+        "code": "Set s2 = new HashSet()",
+        "dfgs": [
+            135
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 501,
+        "lineEnd": 501,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 134,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            136
+        ],
+        "code": "s2.add(\"One\")",
+        "dfgs": [
+            136
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 502,
+        "lineEnd": 502,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 135,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            137
+        ],
+        "code": "s2.add(\"Three\")",
+        "dfgs": [
+            137
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 503,
+        "lineEnd": 503,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 136,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            138
+        ],
+        "code": "s2.add(\"Five\")",
+        "dfgs": [
+            138
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 504,
+        "lineEnd": 504,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 137,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            139
+        ],
+        "code": "assertNotEquals(h, s2.hashCode())",
+        "dfgs": [
+            143
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 505,
+        "lineEnd": 505,
+        "lineMapIndex": -1,
+        "methodParents": [
+            232
+        ],
+        "nodeIndex": 138,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            140
+        ],
+        "code": "s2 = new CaseInsensitiveSet()",
+        "dfgs": [
+            140
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 139,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            141
+        ],
+        "code": "s2.add(\"One\")",
+        "dfgs": [
+            141
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 508,
+        "lineEnd": 508,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 140,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            142
+        ],
+        "code": "s2.add(\"Three\")",
+        "dfgs": [
+            142
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 509,
+        "lineEnd": 509,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 141,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            143
+        ],
+        "code": "s2.add(\"Five\")",
+        "dfgs": [
+            143
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 510,
+        "lineEnd": 510,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 142,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(h, s2.hashCode())",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 511,
+        "lineEnd": 511,
+        "lineMapIndex": -1,
+        "methodParents": [
+            232
+        ],
+        "nodeIndex": 143,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetIteratorActions()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 515,
+        "lineEnd": 516,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 144,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            146
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            149,
+            146
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 517,
+        "lineEnd": 517,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 145,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            147
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            147,
+            150,
+            153,
+            156
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 518,
+        "lineEnd": 518,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 146,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            148
+        ],
+        "code": "Iterator i = s.iterator()",
+        "dfgs": [
+            148,
+            150
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 519,
+        "lineEnd": 519,
+        "lineMapIndex": -1,
+        "methodParents": [
+            248
+        ],
+        "nodeIndex": 147,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            149
+        ],
+        "code": "Object o = i.next()",
+        "dfgs": [
+            151,
+            149
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 520,
+        "lineEnd": 520,
+        "lineMapIndex": 16,
+        "methodParents": [
+            249
+        ],
+        "nodeIndex": 148,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            150
+        ],
+        "code": "assertTrue(o instanceof String)",
+        "dfgs": [
+            150,
+            153,
+            156
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 521,
+        "lineEnd": 521,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 149,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            151
+        ],
+        "code": "assertEquals(2, s.size())",
+        "dfgs": [
+            152,
+            153
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 524,
+        "lineEnd": 524,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 150,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            152
+        ],
+        "code": "o = i.next()",
+        "dfgs": [
+            154,
+            152
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 526,
+        "lineEnd": 526,
+        "lineMapIndex": 15,
+        "methodParents": [
+            249
+        ],
+        "nodeIndex": 151,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            153
+        ],
+        "code": "assertTrue(o instanceof String)",
+        "dfgs": [
+            153,
+            156
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 527,
+        "lineEnd": 527,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 152,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            154
+        ],
+        "code": "assertEquals(1, s.size())",
+        "dfgs": [
+            155,
+            156
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 530,
+        "lineEnd": 530,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 153,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            155
+        ],
+        "code": "o = i.next()",
+        "dfgs": [
+            155
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 532,
+        "lineEnd": 532,
+        "lineMapIndex": 14,
+        "methodParents": [
+            249
+        ],
+        "nodeIndex": 154,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            156
+        ],
+        "code": "assertTrue(o instanceof String)",
+        "dfgs": [
+            156
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 533,
+        "lineEnd": 533,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 155,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0, s.size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 536,
+        "lineEnd": 536,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 156,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testKeySetEquals()",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 540,
+        "lineEnd": 541,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 157,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            159
+        ],
+        "code": "Map m = createSimpleMap()",
+        "dfgs": [
+            164,
+            159
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 542,
+        "lineEnd": 542,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 158,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            160
+        ],
+        "code": "Set s = m.keySet()",
+        "dfgs": [
+            164
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 543,
+        "lineEnd": 543,
+        "lineMapIndex": -1,
+        "methodParents": [
+            180
+        ],
+        "nodeIndex": 159,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            161
+        ],
+        "code": "Set s2 = new HashSet()",
+        "dfgs": [
+            161
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 545,
+        "lineEnd": 545,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 160,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            162
+        ],
+        "code": "s2.add(\"One\")",
+        "dfgs": [
+            162
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 546,
+        "lineEnd": 546,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 161,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            163
+        ],
+        "code": "s2.add(\"Three\")",
+        "dfgs": [
+            163
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 547,
+        "lineEnd": 547,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 162,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            164
+        ],
+        "code": "s2.add(\"Five\")",
+        "dfgs": [
+            164
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 548,
+        "lineEnd": 548,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 163,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            165
+        ],
+        "code": "assertTrue(s2.equals(s))",
+        "dfgs": [
+            165
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 549,
+        "lineEnd": 549,
+        "lineMapIndex": -1,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 164,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            166
+        ],
+        "code": "assertTrue(s.equals(s2))",
+        "dfgs": [
+            170
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 550,
+        "lineEnd": 550,
+        "lineMapIndex": -1,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 165,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            167
+        ],
+        "code": "Set s3 = new HashSet()",
+        "dfgs": [
+            167
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 552,
+        "lineEnd": 552,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 166,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            168
+        ],
+        "code": "s3.add(\"one\")",
+        "dfgs": [
+            168
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 553,
+        "lineEnd": 553,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 167,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            169
+        ],
+        "code": "s3.add(\"three\")",
+        "dfgs": [
+            169
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 554,
+        "lineEnd": 554,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 168,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            170
+        ],
+        "code": "s3.add(\"five\")",
+        "dfgs": [
+            170
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 555,
+        "lineEnd": 555,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 169,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            171
+        ],
+        "code": "assertTrue(s3.equals(s))",
+        "dfgs": [
+            171
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 556,
+        "lineEnd": 556,
+        "lineMapIndex": -1,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 170,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            172
+        ],
+        "code": "assertTrue(s.equals(s3))",
+        "dfgs": [
+            176
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 557,
+        "lineEnd": 557,
+        "lineMapIndex": -1,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 171,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            173
+        ],
+        "code": "Set s4 = new CaseInsensitiveSet()",
+        "dfgs": [
+            173
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 559,
+        "lineEnd": 559,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 172,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            174
+        ],
+        "code": "s4.add(\"one\")",
+        "dfgs": [
+            174
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 560,
+        "lineEnd": 560,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 173,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            175
+        ],
+        "code": "s4.add(\"three\")",
+        "dfgs": [
+            175
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 561,
+        "lineEnd": 561,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 174,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            176
+        ],
+        "code": "s4.add(\"five\")",
+        "dfgs": [
+            176
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 562,
+        "lineEnd": 562,
+        "lineMapIndex": -1,
+        "methodParents": [
+            208
+        ],
+        "nodeIndex": 175,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            177
+        ],
+        "code": "assertTrue(s4.equals(s))",
+        "dfgs": [
+            177
+        ],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 563,
+        "lineEnd": 563,
+        "lineMapIndex": -1,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 176,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(s.equals(s4))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_util_TestCaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 564,
+        "lineEnd": 564,
+        "lineMapIndex": -1,
+        "methodParents": [
+            238
+        ],
+        "nodeIndex": 177,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.AbstractSet",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4,
+        "lineEnd": 4,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 178,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Arrays",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 179,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new LocalSet()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": -1,
+        "methodParents": [
+            184
+        ],
+        "nodeIndex": 180,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private class LocalSet extends AbstractSet<K>",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 143,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 181,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            183
+        ],
+        "code": "final Map<K, V> localMap = CaseInsensitiveMap.this",
+        "dfgs": [
+            183
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 182,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final Iterator<Entry<K, V>> iter = localMap.entrySet().iterator()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": -1,
+        "methodParents": [
+            248
+        ],
+        "nodeIndex": 183,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public LocalSet()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 148,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 184,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            186
+        ],
+        "code": "public boolean containsAll(Collection c)",
+        "dfgs": [
+            189,
+            186,
+            188,
+            187
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 155,
+        "lineEnd": 156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 185,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            189,
+            187
+        ],
+        "code": "for (Object o : c)",
+        "dfgs": [
+            187
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 186,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            188
+        ],
+        "code": "if (!localMap.containsKey(o))",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            182
+        ],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 187,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 188,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 189,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            191
+        ],
+        "code": "public boolean remove(Object o)",
+        "dfgs": [
+            192,
+            193,
+            191
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 168,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 190,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            192
+        ],
+        "code": "boolean exists = localMap.containsKey(o)",
+        "dfgs": [
+            193,
+            192
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            182
+        ],
+        "isDel": false,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 191,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            193
+        ],
+        "code": "localMap.remove(o)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            182
+        ],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": -1,
+        "methodParents": [
+            190
+        ],
+        "nodeIndex": 192,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return exists",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 193,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            195
+        ],
+        "code": "public boolean removeAll(Collection c)",
+        "dfgs": [
+            195,
+            196,
+            198,
+            197
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 174,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 194,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            196
+        ],
+        "code": "int size = size()",
+        "dfgs": [
+            198,
+            197
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 195,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            198,
+            197
+        ],
+        "code": "for (Object o : c)",
+        "dfgs": [
+            197
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 196,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "localMap.remove(o)",
+        "dfgs": [
+            198
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            182
+        ],
+        "isDel": false,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": -1,
+        "methodParents": [
+            190
+        ],
+        "nodeIndex": 197,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return size() != size",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 198,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            200
+        ],
+        "code": "public boolean retainAll(Collection c)",
+        "dfgs": [
+            200,
+            201,
+            203,
+            204,
+            207,
+            202,
+            205,
+            206
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 199,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            201
+        ],
+        "code": "Map other = new CaseInsensitiveMap()",
+        "dfgs": [
+            202,
+            205
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 200,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            203,
+            202
+        ],
+        "code": "for (Object o : c)",
+        "dfgs": [
+            202
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 201,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "other.put(o, null)",
+        "dfgs": [
+            205
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 202,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            204
+        ],
+        "code": "int origSize = size()",
+        "dfgs": [
+            207,
+            204,
+            206
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 192,
+        "lineEnd": 192,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 203,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            205,
+            206
+        ],
+        "code": "for (Entry<K, V> entry : localMap.entrySet())",
+        "dfgs": [
+            207,
+            206,
+            205
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            182
+        ],
+        "isDel": false,
+        "lineBeg": 194,
+        "lineEnd": 194,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 204,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            206
+        ],
+        "code": "if (!other.containsKey(entry.getKey()))",
+        "dfgs": [
+            206
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 196,
+        "lineEnd": 196,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 205,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            207
+        ],
+        "code": "localMap.remove(entry.getKey())",
+        "dfgs": [
+            207
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            182
+        ],
+        "isDel": false,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": -1,
+        "methodParents": [
+            190
+        ],
+        "nodeIndex": 206,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return size() != origSize",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 207,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            209
+        ],
+        "code": "public boolean add(K o)",
+        "dfgs": [
+            209
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 205,
+        "lineEnd": 206,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 208,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new UnsupportedOperationException(\"Cannot add() to a 'view' of a Map.  See JavaDoc for Map.keySet()\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 209,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            211
+        ],
+        "code": "public boolean addAll(Collection c)",
+        "dfgs": [
+            211
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 210,
+        "lineEnd": 211,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 210,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new UnsupportedOperationException(\"Cannot addAll() to a 'view' of a Map.  See JavaDoc for Map.keySet()\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 212,
+        "lineEnd": 212,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 211,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            213
+        ],
+        "code": "public Object[] toArray()",
+        "dfgs": [
+            214,
+            218,
+            215,
+            217,
+            213,
+            216
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 215,
+        "lineEnd": 216,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 212,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            214
+        ],
+        "code": "Object[] items = new Object[size()]",
+        "dfgs": [
+            218,
+            215
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 213,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            215
+        ],
+        "code": "int i=0",
+        "dfgs": [
+            217
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 218,
+        "lineEnd": 218,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 214,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            218,
+            216
+        ],
+        "code": "for (Entry<K, V> entry : map.entrySet())",
+        "dfgs": [
+            216
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 219,
+        "lineEnd": 219,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 215,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            217
+        ],
+        "code": "Object key = entry.getKey()",
+        "dfgs": [
+            217
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 221,
+        "lineEnd": 221,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 216,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "items[i++] = key instanceof CaseInsensitiveString ? key.toString() : key",
+        "dfgs": [
+            218
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 222,
+        "lineEnd": 222,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 217,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return items",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 224,
+        "lineEnd": 224,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 218,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            220
+        ],
+        "code": "public <T> T[] toArray(T[] a)",
+        "dfgs": [
+            222,
+            225,
+            220,
+            224,
+            221,
+            223
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 228,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 219,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            221,
+            222
+        ],
+        "code": "if (a.length < size())",
+        "dfgs": [
+            222,
+            221
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 229,
+        "lineEnd": 229,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 220,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T[]) Arrays.copyOf(toArray(), size(), a.getClass())",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": -1,
+        "methodParents": [
+            212
+        ],
+        "nodeIndex": 221,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            223
+        ],
+        "code": "System.arraycopy(toArray(), 0, a, 0, size())",
+        "dfgs": [
+            225,
+            223
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": -1,
+        "methodParents": [
+            212
+        ],
+        "nodeIndex": 222,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            224,
+            225
+        ],
+        "code": "if (a.length > size())",
+        "dfgs": [
+            225,
+            224
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 223,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            225
+        ],
+        "code": "a[size()] = null",
+        "dfgs": [
+            225
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 224,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return a",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 239,
+        "lineEnd": 239,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 225,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            227
+        ],
+        "code": "public int size()",
+        "dfgs": [
+            227
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 243,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 226,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return map.size()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 227,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            229
+        ],
+        "code": "public boolean isEmpty()",
+        "dfgs": [
+            229
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 247,
+        "lineEnd": 248,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 228,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return map.isEmpty()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": -1,
+        "methodParents": [
+            228
+        ],
+        "nodeIndex": 229,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            231
+        ],
+        "code": "public void clear()",
+        "dfgs": [
+            231
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 252,
+        "lineEnd": 253,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 230,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "map.clear()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": -1,
+        "methodParents": [
+            230
+        ],
+        "nodeIndex": 231,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            233
+        ],
+        "code": "public int hashCode()",
+        "dfgs": [
+            233,
+            237,
+            234,
+            235,
+            236
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 257,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 232,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            234
+        ],
+        "code": "int h = 0",
+        "dfgs": [
+            237,
+            236
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 233,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            235,
+            236
+        ],
+        "code": "for (Entry<K, V> entry : map.entrySet())",
+        "dfgs": [
+            235
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 234,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            236
+        ],
+        "code": "if (entry.getKey() != null)",
+        "dfgs": [
+            236
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 235,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            237
+        ],
+        "code": "h += entry.getKey().hashCode()",
+        "dfgs": [
+            237
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": -1,
+        "methodParents": [
+            232
+        ],
+        "nodeIndex": 236,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return h",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 237,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            239
+        ],
+        "code": "public boolean equals(Object o)",
+        "dfgs": [
+            241,
+            247,
+            240,
+            243,
+            244,
+            239,
+            242,
+            246,
+            245
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 274,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 238,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            240,
+            241
+        ],
+        "code": "if (!(o instanceof Set))",
+        "dfgs": [
+            241
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 239,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 277,
+        "lineEnd": 277,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 240,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            242
+        ],
+        "code": "Set that = (Set) o",
+        "dfgs": [
+            242
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 241,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            243,
+            244
+        ],
+        "code": "if (that.size() != map.size())",
+        "dfgs": [
+            244,
+            245
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 281,
+        "lineEnd": 281,
+        "lineMapIndex": -1,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 242,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 243,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            247,
+            245
+        ],
+        "code": "for (Object obj : that)",
+        "dfgs": [
+            245
+        ],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 244,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            246
+        ],
+        "code": "if (!contains(obj))",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 245,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 290,
+        "lineEnd": 290,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 246,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 247,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new Iterator<K>(){K lastReturned = null;public boolean hasNext(){return iter.hasNext();}public K next(){   // Allow iterated item to become stored stringMap.Entry<K, V> entry = iter.next();lastReturned = entry.getKey();if (lastReturned instanceof CaseInsensitiveString){lastReturned = (K) lastReturned.toString();}return lastReturned;}public void remove(){localMap.remove(lastReturned);}}",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            182
+        ],
+        "isDel": false,
+        "lineBeg": 298,
+        "lineEnd": 322,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 248,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Map.Entry<K, V> entry = iter.next()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            183
+        ],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [
+            249
+        ],
+        "nodeIndex": 249,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lastReturned = entry.getKey()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 310,
+        "lineEnd": 310,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 250,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (lastReturned instanceof CaseInsensitiveString)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 251,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lastReturned = (K) lastReturned.toString()",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 313,
+        "lineEnd": 313,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 252,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return lastReturned",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 315,
+        "lineEnd": 315,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 253,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "localMap.remove(lastReturned)",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_util_CaseInsensitiveMap.java",
+        "fieldParents": [
+            182
+        ],
+        "isDel": false,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": -1,
+        "methodParents": [
+            190
+        ],
+        "nodeIndex": 254,
+        "rootcause": false,
+        "commits": []
+    }
+]

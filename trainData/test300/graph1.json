@@ -1,0 +1,435 @@
+[
+    {
+        "cfgs": [],
+        "code": "String nameRef = reader.consumeLetterSequence()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tokeniser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "8749726a79c22451b1f01b14fb2137f734e926b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.jsoup.Jsoup",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_EntitiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void letterDigitEntities() ",
+        "dfgs": [
+            3,
+            6,
+            7,
+            4,
+            5
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_EntitiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "String html = \"<p>&sup1;&sup2;&sup3;&frac14;&frac12;&frac34;</p>\"",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_EntitiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Document doc = Jsoup.parse(html)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_EntitiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "Element p = doc.select(\"p\").first()",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_EntitiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "assertEquals(\"&sup1;&sup2;&sup3;&frac14;&frac12;&frac34;\", p.html())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_jsoup_nodes_EntitiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"\u00b9\u00b2\u00b3\u00bc\u00bd\u00be\", p.text())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_nodes_EntitiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "String consumeLetterThenDigitSequence() ",
+        "dfgs": [
+            9,
+            22,
+            10,
+            16,
+            18,
+            12
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "int start = pos",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            16
+        ],
+        "code": "while (!isEmpty())",
+        "dfgs": [
+            16,
+            11,
+            13
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "char c = input.charAt(pos)",
+        "dfgs": [
+            16,
+            13,
+            12
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13,
+            16
+        ],
+        "code": "if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "pos++",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17,
+            22
+        ],
+        "code": "while (!isEmpty())",
+        "dfgs": [
+            22,
+            17,
+            19
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "char c = input.charAt(pos)",
+        "dfgs": [
+            22,
+            19,
+            18
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19,
+            22
+        ],
+        "code": "if (c >= '0' && c <= '9')",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "pos++",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return input.substring(start, pos)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String nameRef = reader.consumeLetterThenDigitSequence()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Tokeniser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 0,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    }
+]

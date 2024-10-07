@@ -1,0 +1,254 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertThat(faker.food().ingredient(), matchesRegularExpression(\"[A-Za-z ]+\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_javafaker_FoodTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": 12,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "b2f756cb9d0af859c4d76ff7d10186a76c200957"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return decimalBetween(min,max).longValue()",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_javafaker_Number.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "e1151d6cca4920cb7c3bbc38011baa3de609c7fc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testLongBetweenOneAndThree() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Set<Long> nums = Sets.newHashSet()",
+        "dfgs": [
+            11,
+            10
+        ],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "final long lowerLimit = 0",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "final long upperLimit = 3",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7,
+            11
+        ],
+        "code": "for (int i = 0; i < 1000; ++i)",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "long value = faker.number().numberBetween(lowerLimit, upperLimit)",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 143,
+        "lineEnd": 143,
+        "lineMapIndex": -1,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "assertThat(value, is(lessThan(upperLimit)))",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "assertThat(value, is(greaterThanOrEqualTo(lowerLimit)))",
+        "dfgs": [
+            11,
+            10
+        ],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "nums.add(value)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(nums, contains(0L, 1L, 2L))",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_javafaker_NumberTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(faker.food().ingredient(), matchesRegularExpression(\"[A-Za-z- ]+\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_javafaker_FoodTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": 0,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimalBetween(min,max).setScale(0, BigDecimal.ROUND_HALF_DOWN).longValue()",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_javafaker_Number.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    }
+]

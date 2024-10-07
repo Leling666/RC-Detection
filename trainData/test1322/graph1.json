@@ -1,0 +1,1662 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "double mostNegative = getDecisionVariableValue(getOriginalNumDecisionVariables())",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": 46,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "coefficients[i] =getDecisionVariableValue(i) - (restrictToNonNegative ? 0 : mostNegative)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 326,
+        "lineEnd": 327,
+        "lineMapIndex": 53,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "protected double getDecisionVariableValue(final int decisionVariable) ",
+        "dfgs": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            8,
+            9
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "int col = getNumObjectiveFunctions() + decisionVariable",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "e449af6e513b90e33c179c0a74f08ae0fee88d2f"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Integer basicRow = getBasicRow(col)",
+        "dfgs": [
+            5,
+            7
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 342,
+        "lineEnd": 342,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "e449af6e513b90e33c179c0a74f08ae0fee88d2f"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (basicRow == null)",
+        "dfgs": [
+            10,
+            8
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 343,
+        "lineEnd": 343,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "e449af6e513b90e33c179c0a74f08ae0fee88d2f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return 0",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 344,
+        "lineEnd": 344,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "e449af6e513b90e33c179c0a74f08ae0fee88d2f"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            10
+        ],
+        "code": "for (int i = getNumObjectiveFunctions(); i < col; i++)",
+        "dfgs": [
+            10,
+            8
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 348,
+        "lineEnd": 348,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "e449af6e513b90e33c179c0a74f08ae0fee88d2f"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (tableau.getEntry(basicRow, i) == 1)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 349,
+        "lineEnd": 349,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "e449af6e513b90e33c179c0a74f08ae0fee88d2f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return 0",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 350,
+        "lineEnd": 350,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "e449af6e513b90e33c179c0a74f08ae0fee88d2f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return getEntry(basicRow, getRhsOffset())",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 353,
+        "lineEnd": 353,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "e449af6e513b90e33c179c0a74f08ae0fee88d2f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import junit.framework.TestCase",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public class SimplexSolverTest extends TestCase ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(2.0, solution.getPoint()[0])",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(2.0, solution.getPoint()[1])",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(57.0, solution.getValue())",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "assertEquals(2.0, solution.getPoint()[0])",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertEquals(2.0, solution.getPoint()[1])",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(50.0, solution.getValue())",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "assertEquals(4.0, solution.getPoint()[0])",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 72,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "assertEquals(0.0, solution.getPoint()[1])",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": 73,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(-13.0, solution.getValue())",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 77,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "assertEquals(-2.0, solution.getPoint()[0])",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": 78,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "assertEquals(8.0, solution.getPoint()[1])",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": 76,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(12.0, solution.getValue())",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": 80,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "public void testInfeasibleSolution() ",
+        "dfgs": [
+            27,
+            29,
+            30,
+            28,
+            31
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 81,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "f641b8cb31733d8dc3c01bacf8c6ca905ef55329"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "solver.optimize(f, constraints, GoalType.MAXIMIZE, false)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": 82,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "fail(\"An exception should have been thrown.\")",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (NoFeasibleSolutionException e)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "catch (OptimizationException e)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fail(\"wrong exception caught\")",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "public void testUnboundedSolution() ",
+        "dfgs": [
+            34,
+            36,
+            37,
+            35,
+            38
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 83,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "f641b8cb31733d8dc3c01bacf8c6ca905ef55329"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "solver.optimize(f, constraints, GoalType.MAXIMIZE, false)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": 84,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "fail(\"An exception should have been thrown.\")",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (UnboundedSolutionException e)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "catch (OptimizationException e)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fail(\"wrong exception caught\")",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "61e775706d77d6ce6385075f5b3385cdb28fed68"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "assertEquals(1.0, solution.getPoint()[0])",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": 85,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "0cb711643d1bb92c73d925ceb1975b60b3476e28"
+        ]
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "assertEquals(1.0, solution.getPoint()[1])",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": 86,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "0cb711643d1bb92c73d925ceb1975b60b3476e28"
+        ]
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "assertEquals(0.0, solution.getPoint()[2])",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": 87,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "0cb711643d1bb92c73d925ceb1975b60b3476e28"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(15.0, solution.getValue())",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": 88,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "0cb711643d1bb92c73d925ceb1975b60b3476e28"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.HashSet",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "Integer basicRow =getBasicRow(getNumObjectiveFunctions() + getOriginalNumDecisionVariables())",
+        "dfgs": [
+            46,
+            48
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 326,
+        "lineEnd": 327,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "double mostNegative = basicRow == null ? 0 : getEntry(basicRow, getRhsOffset())",
+        "dfgs": [
+            48,
+            53
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 328,
+        "lineEnd": 328,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48,
+            53
+        ],
+        "code": "Set<Integer> basicRows = new HashSet<Integer>()",
+        "dfgs": [
+            49
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 329,
+        "lineEnd": 329,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "basicRow = getBasicRow(getNumObjectiveFunctions() + i)",
+        "dfgs": [
+            49,
+            53
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 331,
+        "lineEnd": 331,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50,
+            51
+        ],
+        "code": "if (basicRows.contains(basicRow))",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 332,
+        "lineEnd": 332,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "coefficients[i] = 0",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 335,
+        "lineEnd": 335,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 336,
+        "lineEnd": 336,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "basicRows.add(basicRow)",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 337,
+        "lineEnd": 337,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "coefficients[i] =(basicRow == null ? 0 : getEntry(basicRow, getRhsOffset())) -(restrictToNonNegative ? 0 : mostNegative)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_optimization_linear_SimplexTableau.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 338,
+        "lineEnd": 340,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertEquals",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.junit.Test",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public class SimplexSolverTest ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testMath272() throws OptimizationException ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "LinearObjectiveFunction f = new LinearObjectiveFunction(new double[] { 2, 2, 1 }, 0)",
+        "dfgs": [
+            64
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "Collection<LinearConstraint> constraints = new ArrayList<LinearConstraint>()",
+        "dfgs": [
+            60
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "constraints.add(new LinearConstraint(new double[] { 1, 1, 0 }, Relationship.GEQ,  1))",
+        "dfgs": [
+            61
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "constraints.add(new LinearConstraint(new double[] { 1, 0, 1 }, Relationship.GEQ,  1))",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "constraints.add(new LinearConstraint(new double[] { 0, 1, 0 }, Relationship.GEQ,  1))",
+        "dfgs": [
+            64
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "SimplexSolver solver = new SimplexSolver()",
+        "dfgs": [
+            64
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "RealPointValuePair solution = solver.optimize(f, constraints, GoalType.MINIMIZE, true)",
+        "dfgs": [
+            65
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "assertEquals(0.0, solution.getPoint()[0], .0000001)",
+        "dfgs": [
+            66
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "assertEquals(1.0, solution.getPoint()[1], .0000001)",
+        "dfgs": [
+            67
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "assertEquals(1.0, solution.getPoint()[2], .0000001)",
+        "dfgs": [
+            68
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(3.0, solution.getValue(), .0000001)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "assertEquals(2.0, solution.getPoint()[0], 0.0)",
+        "dfgs": [
+            70
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "assertEquals(2.0, solution.getPoint()[1], 0.0)",
+        "dfgs": [
+            71
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(57.0, solution.getValue(), 0.0)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "assertEquals(2.0, solution.getPoint()[0], 0.0)",
+        "dfgs": [
+            73
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "assertEquals(2.0, solution.getPoint()[1], 0.0)",
+        "dfgs": [
+            74
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(50.0, solution.getValue(), 0.0)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "assertEquals(4.0, solution.getPoint()[0], 0.0)",
+        "dfgs": [
+            76
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "assertEquals(0.0, solution.getPoint()[1], 0.0)",
+        "dfgs": [
+            77
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(-13.0, solution.getValue(), 0.0)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "assertEquals(-2.0, solution.getPoint()[0], 0.0)",
+        "dfgs": [
+            79
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "assertEquals(8.0, solution.getPoint()[1], 0.0)",
+        "dfgs": [
+            80
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(12.0, solution.getValue(), 0.0)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testInfeasibleSolution() throws OptimizationException ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "solver.optimize(f, constraints, GoalType.MAXIMIZE, false)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testUnboundedSolution() throws OptimizationException ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "solver.optimize(f, constraints, GoalType.MAXIMIZE, false)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "assertEquals(1.0, solution.getPoint()[0], 0.0)",
+        "dfgs": [
+            86
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "assertEquals(1.0, solution.getPoint()[1], 0.0)",
+        "dfgs": [
+            87
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            88
+        ],
+        "code": "assertEquals(0.0, solution.getPoint()[2], 0.0)",
+        "dfgs": [
+            88
+        ],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(15.0, solution.getValue(), 0.0)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_optimization_linear_SimplexSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    }
+]

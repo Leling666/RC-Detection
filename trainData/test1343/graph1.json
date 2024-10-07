@@ -1,0 +1,541 @@
+[
+    {
+        "cfgs": [],
+        "code": "public void testLANG_831() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSdfAndFdp(\"M E\",\"3  Tue\", true)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": -1,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "private void testSdfAndFdp(String format, String date, boolean shouldFail)throws Exception",
+        "dfgs": [
+            3,
+            4,
+            5,
+            6,
+            26,
+            27,
+            8,
+            13,
+            22,
+            9,
+            11,
+            14,
+            20,
+            23,
+            10,
+            18,
+            19,
+            12,
+            15,
+            21,
+            24,
+            16,
+            25
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 342,
+        "lineEnd": 343,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Date dfdp = null",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 344,
+        "lineEnd": 344,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Date dsdf = null",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "Throwable f = null",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Throwable s = null",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 347,
+        "lineEnd": 347,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 349,
+        "lineEnd": 349,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "SimpleDateFormat sdf = new SimpleDateFormat(format, Locale.US)",
+        "dfgs": [
+            9,
+            18,
+            12
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 350,
+        "lineEnd": 350,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "sdf.setTimeZone(NEW_YORK)",
+        "dfgs": [
+            10,
+            18
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 351,
+        "lineEnd": 351,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            13,
+            17
+        ],
+        "code": "dsdf = sdf.parse(date)",
+        "dfgs": [
+            27,
+            19,
+            12
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 352,
+        "lineEnd": 352,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "if (shouldFail)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 353,
+        "lineEnd": 353,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13,
+            17
+        ],
+        "code": "Assert.fail(\"Expected SDF failure, but got \" + dsdf + \" for [\"+format+\",\"+date+\"]\")",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 354,
+        "lineEnd": 354,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "catch (Exception e)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 356,
+        "lineEnd": 356,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "s = e",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 357,
+        "lineEnd": 357,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16,
+            17
+        ],
+        "code": "if (!shouldFail)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 358,
+        "lineEnd": 358,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "throw e",
+        "dfgs": [
+            23,
+            25
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 359,
+        "lineEnd": 359,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "DateParser fdp = getInstance(format, NEW_YORK, Locale.US)",
+        "dfgs": [
+            26,
+            19,
+            21
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            20,
+            22
+        ],
+        "code": "dfdp = fdp.parse(date)",
+        "dfgs": [
+            27,
+            21
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 366,
+        "lineEnd": 366,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "if (shouldFail)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 367,
+        "lineEnd": 367,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            22
+        ],
+        "code": "Assert.fail(\"Expected FDF failure, but got \" + dfdp + \" for [\"+format+\",\"+date+\"] using \"+((FastDateParser)fdp).getParsePattern())",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "catch (Exception e)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 370,
+        "lineEnd": 370,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "f = e",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 371,
+        "lineEnd": 371,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25,
+            26
+        ],
+        "code": "if (!shouldFail)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 372,
+        "lineEnd": 372,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "throw e",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "assertTrue(\"Should both or neither throw Exceptions\", (f==null)==(s==null))",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"Parsed dates should be equal\", dsdf, dfdp)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    }
+]

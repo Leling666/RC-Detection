@@ -1,0 +1,359 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "VCardVersion v = (version == null) ? VCardVersion.V3_0 : version",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "1693dfac7aaa2c837410e0eb2864eede81729bdc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "go(new VCardWriter(out, v))",
+        "dfgs": [],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 7,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "1693dfac7aaa2c837410e0eb2864eede81729bdc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "VCardWriter writer = new VCardWriter(file, append, version)",
+        "dfgs": [],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "8c7f398725a28310881ba3ba1ad4cd374910a777"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "VCardVersion v = (version == null) ? VCardVersion.V3_0 : version",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 225,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "1693dfac7aaa2c837410e0eb2864eede81729bdc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "go(new VCardWriter(writer, v))",
+        "dfgs": [],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": 9,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "1693dfac7aaa2c837410e0eb2864eede81729bdc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "File file = new File(\"target\", \"temp.json\")",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 737,
+        "lineEnd": 737,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "18cd12e2bcc42d4539a9b4dd3d9ca6cda41634a5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "file.delete()",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 744,
+        "lineEnd": 744,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "18cd12e2bcc42d4539a9b4dd3d9ca6cda41634a5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "go(new VCardWriter(out, getVCardWriterConstructorVersion()))",
+        "dfgs": [],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": 1,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "VCardWriter writer = new VCardWriter(file, append, getVCardWriterConstructorVersion())",
+        "dfgs": [],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 194,
+        "lineEnd": 194,
+        "lineMapIndex": 2,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "go(new VCardWriter(writer, getVCardWriterConstructorVersion()))",
+        "dfgs": [],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 208,
+        "lineEnd": 208,
+        "lineMapIndex": 4,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "private VCardVersion getVCardWriterConstructorVersion() ",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (version == null) ? VCardVersion.V3_0 : version",
+        "dfgs": [],
+        "fName": "src_main_java_ezvcard_io_chain_ChainingTextWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.junit.Rule",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.junit.rules.TemporaryFolder",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public TemporaryFolder folder = new TemporaryFolder()",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void write_file() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 515,
+        "lineEnd": 515,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "VCard vcard = new VCard()",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 516,
+        "lineEnd": 516,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "File file = folder.newFile()",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [
+            14
+        ],
+        "isDel": false,
+        "lineBeg": 517,
+        "lineEnd": 517,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Ezvcard.write(vcard).go(file)",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 518,
+        "lineEnd": 518,
+        "lineMapIndex": -1,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(file.length() > 0)",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 519,
+        "lineEnd": 519,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "File file = folder.newFile()",
+        "dfgs": [],
+        "fName": "src_test_java_ezvcard_EzvcardTest.java",
+        "fieldParents": [
+            14
+        ],
+        "isDel": false,
+        "lineBeg": 750,
+        "lineEnd": 750,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    }
+]

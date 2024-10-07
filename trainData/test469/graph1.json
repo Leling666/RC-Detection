@@ -1,0 +1,586 @@
+[
+    {
+        "cfgs": [],
+        "code": "json = JSON.toJSONString(pojo, SerializerFeature.WriteEnumUsingToString)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_json_bvt_serializer_enum__EnumTest3.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "static int nonDirectFeautres = 0 // \r| SerializerFeature.UseSingleQuotes.mask //| SerializerFeature.BrowserSecure.mask //| SerializerFeature.BrowserCompatible.mask //| SerializerFeature.PrettyFormat.mask //| SerializerFeature.WriteEnumUsingToString.mask| SerializerFeature.WriteNonStringValueAsString.mask| SerializerFeature.WriteSlashAsSpecial.mask| SerializerFeature.IgnoreErrorGetter.mask| SerializerFeature.WriteClassName.mask| SerializerFeature.NotWriteDefaultValue.mask",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 143,
+        "lineEnd": 154,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "6b55db0f70cbe43225ec5d273e927b20e2a53a29",
+            "3e5e84de93c85d1d4b1f8ac013c05861543c99dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Label useNameEnd_ = new Label(), useNameElse_ = new Label()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1090,
+        "lineEnd": 1090,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6b55db0f70cbe43225ec5d273e927b20e2a53a29"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitVarInsn(ALOAD, context.var(\"out\"))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1092,
+        "lineEnd": 1092,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitLdcInsn(SerializerFeature.WriteEnumUsingName.mask)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1093,
+        "lineEnd": 1093,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitMethodInsn(INVOKEVIRTUAL, SerializeWriter, \"isEnabled\", \"(I)Z\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1094,
+        "lineEnd": 1094,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(IFEQ, useNameElse_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1095,
+        "lineEnd": 1095,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitMethodInsn(INVOKEVIRTUAL, \"java/lang/Enum\", \"name\", \"()Ljava/lang/String;\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1097,
+        "lineEnd": 1097,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitMethodInsn(INVOKEVIRTUAL, SerializeWriter, \"writeFieldValueStringWithDoubleQuote\",\"(CLjava/lang/String;Ljava/lang/String;)V\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1098,
+        "lineEnd": 1099,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(GOTO, useNameEnd_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1100,
+        "lineEnd": 1100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitLabel(useNameElse_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1102,
+        "lineEnd": 1102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitLabel(useNameEnd_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1106,
+        "lineEnd": 1106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "8e9d8636bef8ce7ae4f65e9cbe0ef3283d2259dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String writeMethodName = context.nonContext ? //\"writeDirectNonContext\" //: \"write\"",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1507,
+        "lineEnd": 1509,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "9f2478b0b3d01139acdbeeadde10a47ac8296a9e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitMethodInsn(INVOKEVIRTUAL, JavaBeanSerializer, context.nonContext ? \"writeDirectNonContext\" : \"write\", //\"(L\" + JSONSerializer + \";Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Type;I)V\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1706,
+        "lineEnd": 1707,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "9f2478b0b3d01139acdbeeadde10a47ac8296a9e",
+            "6b55db0f70cbe43225ec5d273e927b20e2a53a29"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Label _else_processKey = new Label()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1877,
+        "lineEnd": 1877,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "5bfbec79cf550ef016515a8754297ab7e480bebc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Label _end_checkValue = new Label()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1882,
+        "lineEnd": 1882,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "7aac9404cecf7058133bfd6f5480093946aa3eb3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(IFNE, _end_checkValue)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1884,
+        "lineEnd": 1884,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "b15fa868ae7497b855091ddfde90b42d76dd27d8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(GOTO, _else_processKey)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1890,
+        "lineEnd": 1890,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "7aac9404cecf7058133bfd6f5480093946aa3eb3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitLabel(_end_checkValue)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1892,
+        "lineEnd": 1892,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "7aac9404cecf7058133bfd6f5480093946aa3eb3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(IF_ACMPEQ, _else_processKey)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1985,
+        "lineEnd": 1985,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "5bfbec79cf550ef016515a8754297ab7e480bebc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitLabel(_else_processKey)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1989,
+        "lineEnd": 1989,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "5bfbec79cf550ef016515a8754297ab7e480bebc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(IFNE, _else_processKey)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1996,
+        "lineEnd": 1996,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "d2833977b4125636de66c808efc8353ce9a7a3c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testDefault2() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_json_bvt_serializer_enum__EnumTest3.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String json = JSON.toJSONString(pojo, SerializerFeature.WriteEnumUsingToString)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_json_bvt_serializer_enum__EnumTest3.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final static int nonDirectFeautres = 0 // \r| SerializerFeature.UseSingleQuotes.mask //| SerializerFeature.BrowserSecure.mask //| SerializerFeature.BrowserCompatible.mask //| SerializerFeature.PrettyFormat.mask //| SerializerFeature.WriteEnumUsingToString.mask| SerializerFeature.WriteNonStringValueAsString.mask| SerializerFeature.WriteSlashAsSpecial.mask| SerializerFeature.IgnoreErrorGetter.mask| SerializerFeature.WriteClassName.mask| SerializerFeature.NotWriteDefaultValue.mask",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 143,
+        "lineEnd": 154,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String writeMethodName = context.nonContext && context.writeDirect ? //\"writeDirectNonContext\" //: context.writeDirect ? //\"write\" : \"writeNormal\"",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1492,
+        "lineEnd": 1495,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String writeMethodName = context.nonContext && context.writeDirect ? //\"writeDirectNonContext\" //: context.writeDirect ? //\"write\" : \"writeNormal\"",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1685,
+        "lineEnd": 1688,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitMethodInsn(INVOKEVIRTUAL, JavaBeanSerializer, writeMethodName, //\"(L\" + JSONSerializer + \";Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Type;I)V\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1697,
+        "lineEnd": 1698,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Label processKeyElse_ = new Label()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1868,
+        "lineEnd": 1868,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Label checkValueEnd_ = new Label()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1873,
+        "lineEnd": 1873,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(IFNE, checkValueEnd_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1875,
+        "lineEnd": 1875,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(GOTO, processKeyElse_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1881,
+        "lineEnd": 1881,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitLabel(checkValueEnd_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1883,
+        "lineEnd": 1883,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(IF_ACMPEQ, processKeyElse_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1976,
+        "lineEnd": 1976,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitLabel(processKeyElse_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1980,
+        "lineEnd": 1980,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mw.visitJumpInsn(IFEQ, _else_processKey)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_ASMSerializerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1987,
+        "lineEnd": 1987,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    }
+]

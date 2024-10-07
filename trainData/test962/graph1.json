@@ -1,0 +1,3244 @@
+[
+    {
+        "cfgs": [],
+        "code": "write(formatter.writeValueAsBytes(event, getContext()), outputStream)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_encoder_LogstashEncoder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 58,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.fasterxml.jackson.databind.node.ArrayNode",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final ObjectMapper MAPPER = new ObjectMapper().configure(JsonGenerator.Feature.ESCAPE_NON_ASCII, true)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MAPPER.writeValueAsBytes(eventToNode(event, context))",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MAPPER.writeValueAsString(eventToNode(event, context))",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "private ObjectNode eventToNode(ILoggingEvent event, Context context) ",
+        "dfgs": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 99,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "ObjectNode eventNode = MAPPER.createObjectNode()",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "eventNode.put(\"@timestamp\", ISO_DATETIME_TIME_ZONE_FORMAT_WITH_MILLIS.format(event.getTimeStamp()))",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 100,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "eventNode.put(\"@version\", 1)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": 101,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "eventNode.put(\"message\", event.getFormattedMessage())",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 102,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "createFields(event, context, eventNode)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "eventNode.put(\"tags\", createTags(event))",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": 87,
+        "methodParents": [
+            35
+        ],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return eventNode",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "private void createFields(ILoggingEvent event, Context context, ObjectNode eventNode) ",
+        "dfgs": [
+            15,
+            16,
+            17,
+            18,
+            26,
+            28,
+            14,
+            23,
+            25,
+            24,
+            19,
+            20,
+            21,
+            22,
+            27
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "final Marker marker = event.getMarker()",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": 118,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "6866fd262834c8fac2b01ce7dbadd6af626a84cc"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "eventNode.put(\"logger_name\", event.getLoggerName())",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": 104,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "eventNode.put(\"thread_name\", event.getThreadName())",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": 105,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "eventNode.put(\"level\", event.getLevel().toString())",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": 106,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            19,
+            23,
+            24,
+            25,
+            26
+        ],
+        "code": "eventNode.put(\"level_value\", event.getLevel().toInt())",
+        "dfgs": [
+            26,
+            23,
+            25,
+            19,
+            24
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": 107,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "eventNode.put(\"caller_class_name\", callerData.getClassName())",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": 109,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "eventNode.put(\"caller_method_name\", callerData.getMethodName())",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": 110,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "eventNode.put(\"caller_file_name\", callerData.getFileName())",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": 111,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            23,
+            24,
+            25,
+            26
+        ],
+        "code": "eventNode.put(\"caller_line_number\", callerData.getLineNumber())",
+        "dfgs": [
+            26,
+            23,
+            24,
+            25
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": 112,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            24,
+            25,
+            26
+        ],
+        "code": "eventNode.put(\"stack_trace\", ThrowableProxyUtil.asString(throwableProxy))",
+        "dfgs": [
+            26,
+            24,
+            25
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 114,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            25,
+            26
+        ],
+        "code": "addPropertiesAsFields(eventNode, context.getCopyOfPropertyMap())",
+        "dfgs": [
+            26,
+            25
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 116,
+        "methodParents": [
+            47
+        ],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "eventNode.put(\"json_message\", getJsonNode(event))",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 120,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "faaaf69bf9848a87069d4d9cfc83639919596116"
+        ]
+    },
+    {
+        "cfgs": [
+            27,
+            28
+        ],
+        "code": "addPropertiesAsFields(eventNode, event.getMDCPropertyMap())",
+        "dfgs": [
+            28,
+            27
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 122,
+        "methodParents": [
+            47
+        ],
+        "nodeIndex": 26,
+        "rootcause": true,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "addContextMapFields(event, eventNode)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [
+            29
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "9fd0baa905bb39a7dcbcce8cbefdd062d1cfe7f4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addCustomFields(eventNode)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [
+            49
+        ],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "83bef6d92883a4f32c129f5a6d22d1a5907df5c5"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "private void addContextMapFields(ILoggingEvent event, ObjectNode eventNode) ",
+        "dfgs": [
+            30,
+            32,
+            31,
+            34,
+            33
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": 123,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "9fd0baa905bb39a7dcbcce8cbefdd062d1cfe7f4"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "Object[] args = event.getArgumentArray()",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": 124,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "9fd0baa905bb39a7dcbcce8cbefdd062d1cfe7f4"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "if (args != null && args.length > 0 && args[args.length - 1] instanceof Map)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": 125,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "9fd0baa905bb39a7dcbcce8cbefdd062d1cfe7f4"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "Map<?, ?> contextMap = (Map<?, ?>) args[args.length - 1]",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": 126,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "faaaf69bf9848a87069d4d9cfc83639919596116"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "ObjectNode context = MAPPER.convertValue(contextMap, ObjectNode.class)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": 127,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "9fd0baa905bb39a7dcbcce8cbefdd062d1cfe7f4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "eventNode.putAll(context)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": 128,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "9fd0baa905bb39a7dcbcce8cbefdd062d1cfe7f4"
+        ]
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "private ArrayNode createTags(ILoggingEvent event) ",
+        "dfgs": [
+            36,
+            46,
+            38,
+            41,
+            40,
+            39,
+            42,
+            43,
+            44,
+            45
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": 136,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            37,
+            46
+        ],
+        "code": "ArrayNode node = null",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "node = MAPPER.createArrayNode()",
+        "dfgs": [
+            46,
+            39,
+            45
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            39,
+            40
+        ],
+        "code": "if (!marker.getName().equals(\"JSON\"))",
+        "dfgs": [
+            40,
+            39
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 137,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "8c37a9d397c1d3da4ea8c1a29a16ecc7374545ab"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "node.add(marker.getName())",
+        "dfgs": [
+            46,
+            40,
+            45
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 141,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "b520dc70b138a316dc2a4cb5ec49d89b12261c3b"
+        ]
+    },
+    {
+        "cfgs": [
+            41,
+            46
+        ],
+        "code": "if (marker.hasReferences())",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": 142,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "final Iterator<?> i = event.getMarker().iterator()",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            43,
+            46
+        ],
+        "code": "while (i.hasNext())",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "Marker next = (Marker) i.next()",
+        "dfgs": [
+            44
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": 144,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "if (!next.getName().equals(\"JSON\"))",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "57df30fccefb44d1c56ebaf5d6f2b7ef57cf37b2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "node.add(next.getName())",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": [
+            "b520dc70b138a316dc2a4cb5ec49d89b12261c3b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return node",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": 146,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "private void addPropertiesAsFields(final ObjectNode fieldsNode, final Map<String, String> properties) ",
+        "dfgs": [
+            48
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": 147,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fieldsNode.put(key, value)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": 148,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": [
+            "79730b10a5093fb764e615267989228bb75f2be3"
+        ]
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "private void addCustomFields(ObjectNode eventNode) ",
+        "dfgs": [
+            50,
+            51,
+            52,
+            55,
+            53,
+            54
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": [
+            "83bef6d92883a4f32c129f5a6d22d1a5907df5c5"
+        ]
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "if (customFields != null)",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": [
+            "83bef6d92883a4f32c129f5a6d22d1a5907df5c5"
+        ]
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "Iterator<String> i = customFields.fieldNames()",
+        "dfgs": [
+            52,
+            54
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": [
+            "83bef6d92883a4f32c129f5a6d22d1a5907df5c5"
+        ]
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "while (i.hasNext())",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": [
+            "83bef6d92883a4f32c129f5a6d22d1a5907df5c5"
+        ]
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "String k = i.next()",
+        "dfgs": [
+            54
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": [
+            "83bef6d92883a4f32c129f5a6d22d1a5907df5c5"
+        ]
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "JsonNode v = customFields.get(k)",
+        "dfgs": [
+            55
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": [
+            "83bef6d92883a4f32c129f5a6d22d1a5907df5c5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "eventNode.put(k, v)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": [
+            "83bef6d92883a4f32c129f5a6d22d1a5907df5c5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new ObjectMapper().getFactory().createParser(customFields).readValueAsTree()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": 155,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": [
+            "10396b8c147d51490602c5881893f09d7e6e260b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertJsonArray(node.findValue(\"tags\"))",
+        "dfgs": [],
+        "fName": "src_test_java_net_logstash_logback_encoder_LogstashEncoderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": 163,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": [
+            "a1cb6490bfa040dca7c69261050054a6adaab97e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "formatter.writeValueToOutputStream(event, context, outputStream)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_encoder_LogstashEncoder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 0,
+        "methodParents": [
+            78
+        ],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.OutputStream",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.lang.ref.SoftReference",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Map.Entry",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.fasterxml.jackson.core.JsonFactory",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.fasterxml.jackson.core.io.SegmentedStringWriter",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.fasterxml.jackson.core.util.BufferRecycler",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.fasterxml.jackson.core.util.ByteArrayBuilder",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.fasterxml.jackson.databind.MappingJsonFactory",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "private static final JsonFactory FACTORY = new MappingJsonFactory().enable(JsonGenerator.Feature.ESCAPE_NON_ASCII)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final ObjectMapper MAPPER = new ObjectMapper(FACTORY)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final ThreadLocal<SoftReference<BufferRecycler>> recycler = new ThreadLocal<SoftReference<BufferRecycler>>() {protected SoftReference<BufferRecycler> initialValue() {BufferRecycler bufferRecycler = new BufferRecycler();return new SoftReference<BufferRecycler>(bufferRecycler);};}",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "BufferRecycler bufferRecycler = new BufferRecycler()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 69,
+        "lineEnd": 69,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new SoftReference<BufferRecycler>(bufferRecycler)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "ByteArrayBuilder outputStream = new ByteArrayBuilder(getBufferRecycler())",
+        "dfgs": [
+            74
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": -1,
+        "methodParents": [
+            156
+        ],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "writeValueToOutputStream(event, context, outputStream)",
+        "dfgs": [
+            75
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [
+            78
+        ],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return outputStream.toByteArray()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "outputStream.release()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "public void writeValueToOutputStream(ILoggingEvent event, Context context, OutputStream outputStream) throws IOException ",
+        "dfgs": [
+            80,
+            79
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "JsonGenerator generator = FACTORY.createGenerator(outputStream)",
+        "dfgs": [
+            80
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            67
+        ],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "writeValueToGenerator(generator, event, context)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [
+            85
+        ],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "SegmentedStringWriter writer = new SegmentedStringWriter(getBufferRecycler())",
+        "dfgs": [
+            83,
+            82
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [
+            156
+        ],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "JsonGenerator generator = FACTORY.createGenerator(writer)",
+        "dfgs": [
+            83,
+            84
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            67
+        ],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "writeValueToGenerator(generator, event, context)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [
+            85
+        ],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return writer.getAndClear()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "private void writeValueToGenerator(JsonGenerator generator, ILoggingEvent event, Context context) throws IOException ",
+        "dfgs": [
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "generator.writeStartObject()",
+        "dfgs": [
+            87
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            88
+        ],
+        "code": "writeLogstashFields(generator, event)",
+        "dfgs": [
+            88
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 11,
+        "methodParents": [
+            99
+        ],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "writeLoggerFields(generator, event)",
+        "dfgs": [
+            89
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [
+            103
+        ],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90
+        ],
+        "code": "writeCallerDataFieldsIfNecessary(generator, event)",
+        "dfgs": [
+            90
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [
+            108
+        ],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91
+        ],
+        "code": "writeStackTraceFieldIfNecessary(generator, event)",
+        "dfgs": [
+            91,
+            92
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [
+            113
+        ],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "writeContextPropertiesIfNecessary(generator, context)",
+        "dfgs": [
+            92
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [
+            115
+        ],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            93
+        ],
+        "code": "writeJsonMessageFieldIfNecessary(generator, event)",
+        "dfgs": [
+            93
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [
+            117
+        ],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "writeMdcPropertiesIfNecessary(generator, event)",
+        "dfgs": [
+            94
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [
+            121
+        ],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "writeContextMapFieldsIfNecessary(generator, event)",
+        "dfgs": [
+            95,
+            96
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [
+            123
+        ],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96
+        ],
+        "code": "writeCustomFields(generator)",
+        "dfgs": [
+            96
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": -1,
+        "methodParents": [
+            129
+        ],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97
+        ],
+        "code": "writeTagsIfNecessary(generator, event)",
+        "dfgs": [
+            97
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": -1,
+        "methodParents": [
+            131
+        ],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "generator.writeEndObject()",
+        "dfgs": [
+            98
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.flush()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            100
+        ],
+        "code": "private void writeLogstashFields(JsonGenerator generator, ILoggingEvent event) throws IOException ",
+        "dfgs": [
+            100,
+            101,
+            102
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            101
+        ],
+        "code": "generator.writeStringField(\"@timestamp\", ISO_DATETIME_TIME_ZONE_FORMAT_WITH_MILLIS.format(event.getTimeStamp()))",
+        "dfgs": [
+            101,
+            102
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            102
+        ],
+        "code": "generator.writeNumberField(\"@version\", 1)",
+        "dfgs": [
+            102
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.writeStringField(\"message\", event.getFormattedMessage())",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "private void writeLoggerFields(JsonGenerator generator, ILoggingEvent event) throws IOException ",
+        "dfgs": [
+            104,
+            105,
+            106,
+            107
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "generator.writeStringField(\"logger_name\", event.getLoggerName())",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            106
+        ],
+        "code": "generator.writeStringField(\"thread_name\", event.getThreadName())",
+        "dfgs": [
+            106
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            107
+        ],
+        "code": "generator.writeStringField(\"level\", event.getLevel().toString())",
+        "dfgs": [
+            107
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.writeNumberField(\"level_value\", event.getLevel().toInt())",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            109
+        ],
+        "code": "private void writeCallerDataFieldsIfNecessary(JsonGenerator generator, ILoggingEvent event) throws IOException ",
+        "dfgs": [
+            109,
+            110,
+            111,
+            112
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "generator.writeStringField(\"caller_class_name\", callerData.getClassName())",
+        "dfgs": [
+            110
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            111
+        ],
+        "code": "generator.writeStringField(\"caller_method_name\", callerData.getMethodName())",
+        "dfgs": [
+            111
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112
+        ],
+        "code": "generator.writeStringField(\"caller_file_name\", callerData.getFileName())",
+        "dfgs": [
+            112
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.writeNumberField(\"caller_line_number\", callerData.getLineNumber())",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 147,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            114
+        ],
+        "code": "private void writeStackTraceFieldIfNecessary(JsonGenerator generator, ILoggingEvent event) throws IOException ",
+        "dfgs": [
+            114
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.writeStringField(\"stack_trace\", ThrowableProxyUtil.asString(throwableProxy))",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 154,
+        "lineEnd": 154,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            116
+        ],
+        "code": "private void writeContextPropertiesIfNecessary(JsonGenerator generator, Context context) throws IOException ",
+        "dfgs": [
+            116
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "writePropertiesAsFields(generator, context.getCopyOfPropertyMap())",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": 24,
+        "methodParents": [
+            147
+        ],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            118
+        ],
+        "code": "private void writeJsonMessageFieldIfNecessary(JsonGenerator generator, ILoggingEvent event) throws IOException ",
+        "dfgs": [
+            118,
+            119,
+            120
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            119
+        ],
+        "code": "final Marker marker = event.getMarker()",
+        "dfgs": [
+            120
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            120
+        ],
+        "code": "generator.writeFieldName(\"json_message\")",
+        "dfgs": [
+            120
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.writeTree(getJsonNode(event))",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            122
+        ],
+        "code": "private void writeMdcPropertiesIfNecessary(JsonGenerator generator, ILoggingEvent event) throws IOException ",
+        "dfgs": [
+            122
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 172,
+        "lineEnd": 172,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "writePropertiesAsFields(generator, event.getMDCPropertyMap())",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": 26,
+        "methodParents": [
+            147
+        ],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            124
+        ],
+        "code": "private void writeContextMapFieldsIfNecessary(JsonGenerator generator, ILoggingEvent event) throws IOException ",
+        "dfgs": [
+            124,
+            126,
+            125,
+            128,
+            127
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            125
+        ],
+        "code": "Object[] args = event.getArgumentArray()",
+        "dfgs": [
+            125
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 124,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            126
+        ],
+        "code": "if (args != null && args.length > 0 && args[args.length - 1] instanceof Map)",
+        "dfgs": [
+            126
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 125,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            127
+        ],
+        "code": "Map<?, ?> contextMap = (Map<?, ?>) args[args.length - 1]",
+        "dfgs": [
+            127
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 180,
+        "lineEnd": 180,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 126,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            128
+        ],
+        "code": "ObjectNode context = MAPPER.convertValue(contextMap, ObjectNode.class)",
+        "dfgs": [
+            128
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            68
+        ],
+        "isDel": false,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 127,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "writeFieldsOfNode(generator, context)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": 34,
+        "methodParents": [
+            149
+        ],
+        "nodeIndex": 128,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            130
+        ],
+        "code": "private void writeCustomFields(JsonGenerator generator) throws IOException ",
+        "dfgs": [
+            130
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 129,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "writeFieldsOfNode(generator, customFields)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": -1,
+        "methodParents": [
+            149
+        ],
+        "nodeIndex": 130,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            132
+        ],
+        "code": "private void writeTagsIfNecessary(JsonGenerator generator, ILoggingEvent event) throws IOException ",
+        "dfgs": [
+            132,
+            134,
+            133,
+            135
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 193,
+        "lineEnd": 193,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 131,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            133,
+            134
+        ],
+        "code": "boolean hasWrittenStart = false",
+        "dfgs": [
+            133
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 132,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            134
+        ],
+        "code": "hasWrittenStart = writeTagIfNecessary(generator, hasWrittenStart, marker)",
+        "dfgs": [
+            135
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 133,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            135
+        ],
+        "code": "if (hasWrittenStart)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 205,
+        "lineEnd": 205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 134,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.writeEndArray()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 135,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            137
+        ],
+        "code": "private boolean writeTagIfNecessary(JsonGenerator generator, boolean hasWrittenStart, final Marker marker) throws IOException ",
+        "dfgs": [
+            146,
+            142,
+            137,
+            141,
+            138,
+            140,
+            143,
+            144,
+            139,
+            145
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 210,
+        "lineEnd": 210,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 136,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            138,
+            142
+        ],
+        "code": "if (!marker.getName().equals(\"JSON\"))",
+        "dfgs": [
+            142,
+            141
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 137,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            139,
+            141
+        ],
+        "code": "if (!hasWrittenStart)",
+        "dfgs": [
+            146,
+            145
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 212,
+        "lineEnd": 212,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 138,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            140
+        ],
+        "code": "generator.writeArrayFieldStart(\"tags\")",
+        "dfgs": [
+            141
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 139,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            141
+        ],
+        "code": "hasWrittenStart = true",
+        "dfgs": [
+            146,
+            145
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 214,
+        "lineEnd": 214,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 140,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            142
+        ],
+        "code": "generator.writeString(marker.getName())",
+        "dfgs": [
+            142,
+            145
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 216,
+        "lineEnd": 216,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 141,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            143,
+            146
+        ],
+        "code": "if (marker.hasReferences())",
+        "dfgs": [
+            143
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 218,
+        "lineEnd": 218,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 142,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            144,
+            146
+        ],
+        "code": "for (Iterator<?> i = marker.iterator(); i.hasNext(); )",
+        "dfgs": [
+            144
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 143,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            145
+        ],
+        "code": "Marker next = (Marker) i.next()",
+        "dfgs": [
+            145
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 221,
+        "lineEnd": 221,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 144,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "hasWrittenStart |= writeTagIfNecessary(generator, hasWrittenStart, next)",
+        "dfgs": [
+            146
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 145,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return hasWrittenStart",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 146,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            148
+        ],
+        "code": "private void writePropertiesAsFields(JsonGenerator generator, Map<String, String> properties) throws IOException ",
+        "dfgs": [
+            148
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 229,
+        "lineEnd": 229,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 147,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.writeStringField(key, value)",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 148,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            150
+        ],
+        "code": "private void writeFieldsOfNode(JsonGenerator generator, JsonNode node) throws IOException ",
+        "dfgs": [
+            150,
+            151,
+            153,
+            154,
+            152
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 149,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            151
+        ],
+        "code": "if (node != null)",
+        "dfgs": [
+            151
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 257,
+        "lineEnd": 257,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 150,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            152
+        ],
+        "code": "for (Iterator<Entry<String, JsonNode>> fields = node.fields(); fields.hasNext(); )",
+        "dfgs": [
+            152
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 151,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            153
+        ],
+        "code": "Entry<String, JsonNode> field = fields.next()",
+        "dfgs": [
+            153
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 152,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            154
+        ],
+        "code": "generator.writeFieldName(field.getKey())",
+        "dfgs": [
+            154
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 153,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "generator.writeTree(field.getValue())",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 154,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return FACTORY.createParser(customFields).readValueAsTree()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            67
+        ],
+        "isDel": false,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 155,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            157
+        ],
+        "code": "private BufferRecycler getBufferRecycler() ",
+        "dfgs": [
+            162,
+            157,
+            158,
+            159,
+            160,
+            161
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 156,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            158
+        ],
+        "code": "SoftReference<BufferRecycler> bufferRecyclerReference = recycler.get()",
+        "dfgs": [
+            158,
+            160
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            69
+        ],
+        "isDel": false,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 157,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            159
+        ],
+        "code": "BufferRecycler bufferRecycler = bufferRecyclerReference.get()",
+        "dfgs": [
+            159
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 158,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            160,
+            162
+        ],
+        "code": "if (bufferRecycler == null)",
+        "dfgs": [
+            162
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 159,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            161
+        ],
+        "code": "recycler.remove()",
+        "dfgs": [
+            161
+        ],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [
+            69
+        ],
+        "isDel": false,
+        "lineBeg": 306,
+        "lineEnd": 306,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 160,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return getBufferRecycler()",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": -1,
+        "methodParents": [
+            156
+        ],
+        "nodeIndex": 161,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return bufferRecycler",
+        "dfgs": [],
+        "fName": "src_main_java_net_logstash_logback_LogstashFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 162,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(node.findValue(\"tags\"), nullValue())",
+        "dfgs": [],
+        "fName": "src_test_java_net_logstash_logback_encoder_LogstashEncoderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 163,
+        "rootcause": false,
+        "commits": []
+    }
+]

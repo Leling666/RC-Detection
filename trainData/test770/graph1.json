@@ -1,0 +1,1511 @@
+[
+    {
+        "cfgs": [],
+        "code": "main:for (int c = 0; c < numChildren; c++) {objectNode = node.jjtGetChild(c);if (objectNode instanceof ASTMethodNode && object == null) {break;}// attempt to evaluate the property within the object (visit(ASTIdentifierAccess node))object = objectNode.jjtAccept(this, object);if (object != null) {// disallow mixing antish variable & bean with same root; avoid ambiguityantish = false;} else if (antish) {  // if we still have a null object, check for an antish variableif (ant == null) {JexlNode first = node.jjtGetChild(0);if (first instanceof ASTIdentifier && ((ASTIdentifier) first).getSymbol() < 0) {ant = new StringBuilder(((ASTIdentifier) first).getName());} else {break;}}for (; v <= c; ++v) {JexlNode child = node.jjtGetChild(v);if (child instanceof ASTIdentifierAccess) {ant.append('.');ant.append(((ASTIdentifierAccess) objectNode).getName());} else {break;}}object = context.get(ant.toString());} else {break",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Interpreter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1126,
+        "lineEnd": 1157,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "3429e2eff6d7e53b397c6ec0035e8f6d31623597",
+            "5391adc47cd28bd442501285984d5546efab90fd",
+            "21a1cfca333d32e373d4955df9a82d5bb7822cf1",
+            "f8c97ad78aa4396ce8e813b85ee258049c325f7a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private Boolean foo = Boolean.TRUE",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "b49314e836f01796ca896067b6528130c1985b61"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private Another inner",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "b49314e836f01796ca896067b6528130c1985b61"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Assert.assertTrue(\"should be true\", ((Boolean) value).booleanValue())",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Assert.assertFalse(\"should be false\", ((Boolean) value).booleanValue())",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertFalse(\"should be false\", ((Boolean) value).booleanValue())",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(\"should be true\", ((Boolean) value).booleanValue())",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "JexlEngine JEXL = new Engine()",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 894,
+        "lineEnd": 894,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "771afc52b2161d1db9859670509b73ee5e7c0b35"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "JexlExpression create = JEXL.createExpression(\"quux = new(quuxClass)\")",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 897,
+        "lineEnd": 897,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "771afc52b2161d1db9859670509b73ee5e7c0b35"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "JexlExpression assignArray = JEXL.createExpression(\"quux.arr = [ 'hello', 'world' ]\")",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 898,
+        "lineEnd": 898,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "771afc52b2161d1db9859670509b73ee5e7c0b35"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "JexlExpression checkArray = JEXL.createExpression(\"quux.arr\")",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 899,
+        "lineEnd": 899,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "771afc52b2161d1db9859670509b73ee5e7c0b35"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "assignArray = JEXL.createExpression(\"quux.arr = null\")",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 912,
+        "lineEnd": 912,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "771afc52b2161d1db9859670509b73ee5e7c0b35"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assignArray = JEXL.createExpression(\"quux.arr = [ ]\")",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 919,
+        "lineEnd": 919,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "771afc52b2161d1db9859670509b73ee5e7c0b35"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assignArray = JEXL.createExpression(\"quux.arr2 = [ ]\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 929,
+        "lineEnd": 929,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "771afc52b2161d1db9859670509b73ee5e7c0b35"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "JexlEngine JEXL = new Engine()",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 946,
+        "lineEnd": 946,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Object o = JEXL.createScript(s).execute(jc)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 949,
+        "lineEnd": 949,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "JexlEngine JEXL = new Engine()",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 962,
+        "lineEnd": 962,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "3429e2eff6d7e53b397c6ec0035e8f6d31623597"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Object o = JEXL.createScript(s).execute(jc)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 965,
+        "lineEnd": 965,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "3429e2eff6d7e53b397c6ec0035e8f6d31623597"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "JexlEngine JEXL = new Engine()",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 977,
+        "lineEnd": 977,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "JexlScript s = JEXL.createScript(str)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 978,
+        "lineEnd": 978,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "JexlEngine JEXL = new Engine()",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 990,
+        "lineEnd": 990,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "JexlScript s = JEXL.createScript(str)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 991,
+        "lineEnd": 991,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "JexlEngine JEXL = new Engine()",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1003,
+        "lineEnd": 1003,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "JexlScript s = JEXL.createScript(testUrl)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1004,
+        "lineEnd": 1004,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "cdda5d45a4d73f4a014205f04f33d8791a5d7c0b"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (objectNode instanceof ASTMethodNode)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Interpreter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1129,
+        "lineEnd": 1129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "if (object == null)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Interpreter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1130,
+        "lineEnd": 1130,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Interpreter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1131,
+        "lineEnd": 1131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Interpreter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1132,
+        "lineEnd": 1132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "antish = false",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Interpreter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1133,
+        "lineEnd": 1133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final Boolean foo = Boolean.TRUE",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final Another inner",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "Assert.assertTrue(\"should be true\", (Boolean) value)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "Assert.assertFalse(\"should be false\", (Boolean) value)",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertFalse(\"should be false\", (Boolean) value)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(\"should be true\", (Boolean) value)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "JexlEngine jexl = new Engine()",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 894,
+        "lineEnd": 894,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "JexlExpression create = jexl.createExpression(\"quux = new(quuxClass)\")",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 897,
+        "lineEnd": 897,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "JexlExpression assignArray = jexl.createExpression(\"quux.arr = [ 'hello', 'world' ]\")",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 898,
+        "lineEnd": 898,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "JexlExpression checkArray = jexl.createExpression(\"quux.arr\")",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 899,
+        "lineEnd": 899,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "assignArray = jexl.createExpression(\"quux.arr = null\")",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 912,
+        "lineEnd": 912,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assignArray = jexl.createExpression(\"quux.arr = [ ]\")",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 919,
+        "lineEnd": 919,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assignArray = jexl.createExpression(\"quux.arr2 = [ ]\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 929,
+        "lineEnd": 929,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "JexlEngine jexl = new Engine()",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 946,
+        "lineEnd": 946,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Object o = jexl.createScript(s).execute(jc)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 949,
+        "lineEnd": 949,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "JexlEngine jexl = new Engine()",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 962,
+        "lineEnd": 962,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Object o = jexl.createScript(s).execute(jc)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 965,
+        "lineEnd": 965,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "JexlEngine jexl = new Engine()",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 977,
+        "lineEnd": 977,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "JexlScript s = jexl.createScript(str)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 978,
+        "lineEnd": 978,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "JexlEngine jexl = new Engine()",
+        "dfgs": [
+            49
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 990,
+        "lineEnd": 990,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "JexlScript s = jexl.createScript(str)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 991,
+        "lineEnd": 991,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "JexlEngine jexl = new Engine()",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1003,
+        "lineEnd": 1003,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "JexlScript s = jexl.createScript(testUrl)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1004,
+        "lineEnd": 1004,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static class C192 ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1125,
+        "lineEnd": 1125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public C192() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1126,
+        "lineEnd": 1126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "public static Integer callme(Integer n) ",
+        "dfgs": [
+            55,
+            56,
+            58
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1128,
+        "lineEnd": 1128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56,
+            57
+        ],
+        "code": "if (n == null)",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1129,
+        "lineEnd": 1129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1130,
+        "lineEnd": 1130,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1131,
+        "lineEnd": 1131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return n >= 0? 42 : -42",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1132,
+        "lineEnd": 1132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "public static Object kickme() ",
+        "dfgs": [
+            60
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1136,
+        "lineEnd": 1136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return C192.class",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1137,
+        "lineEnd": 1137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void test192() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1142,
+        "lineEnd": 1142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "JexlContext jc = new MapContext()",
+        "dfgs": [
+            63
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1143,
+        "lineEnd": 1143,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "jc.set(\"x.y.z\",  C192.class)",
+        "dfgs": [
+            66
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1144,
+        "lineEnd": 1144,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "JexlEngine jexl = new JexlBuilder().create()",
+        "dfgs": [
+            65
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1145,
+        "lineEnd": 1145,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "JexlExpression js0 = jexl.createExpression(\"x.y.z.callme(t)\")",
+        "dfgs": [
+            67,
+            74
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1146,
+        "lineEnd": 1146,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "jc.set(\"t\", null)",
+        "dfgs": [
+            67
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1147,
+        "lineEnd": 1147,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "Assert.assertNull(js0.evaluate(jc))",
+        "dfgs": [
+            68,
+            69
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1148,
+        "lineEnd": 1148,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "jc.set(\"t\", 10)",
+        "dfgs": [
+            69
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1149,
+        "lineEnd": 1149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "Assert.assertEquals(42, js0.evaluate(jc))",
+        "dfgs": [
+            70,
+            71
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1150,
+        "lineEnd": 1150,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "jc.set(\"t\", -10)",
+        "dfgs": [
+            71
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1151,
+        "lineEnd": 1151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "Assert.assertEquals(-42, js0.evaluate(jc))",
+        "dfgs": [
+            72,
+            73
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1152,
+        "lineEnd": 1152,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "jc.set(\"t\", null)",
+        "dfgs": [
+            73
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1153,
+        "lineEnd": 1153,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "Assert.assertNull(js0.evaluate(jc))",
+        "dfgs": [
+            75,
+            76
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1154,
+        "lineEnd": 1154,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "js0 = jexl.createExpression(\"x.y.z.kickme().callme(t)\")",
+        "dfgs": [
+            76
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1155,
+        "lineEnd": 1155,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "jc.set(\"t\", null)",
+        "dfgs": [
+            76
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1156,
+        "lineEnd": 1156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "Assert.assertNull(js0.evaluate(jc))",
+        "dfgs": [
+            77,
+            78
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1157,
+        "lineEnd": 1157,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "jc.set(\"t\", 10)",
+        "dfgs": [
+            78
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1158,
+        "lineEnd": 1158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "Assert.assertEquals(42, js0.evaluate(jc))",
+        "dfgs": [
+            79,
+            80
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1159,
+        "lineEnd": 1159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "jc.set(\"t\", -10)",
+        "dfgs": [
+            80
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1160,
+        "lineEnd": 1160,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "Assert.assertEquals(-42, js0.evaluate(jc))",
+        "dfgs": [
+            81,
+            82
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1161,
+        "lineEnd": 1161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "jc.set(\"t\", null)",
+        "dfgs": [
+            82
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1162,
+        "lineEnd": 1162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertNull(js0.evaluate(jc))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_IssuesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1163,
+        "lineEnd": 1163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    }
+]

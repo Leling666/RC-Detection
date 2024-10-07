@@ -1,0 +1,8 @@
+{
+    "repo": "commons-math",
+    "fix": "5fe9b36c454f8a38416a96455da6ffeadbbe8a37",
+    "induce": [
+        "4b9b7585dcfb93bc027f6e08931100edee6a00b8",
+        "b8b6c66e1caceb44ce7250c999e63a12659a45e4"
+    ]
+}

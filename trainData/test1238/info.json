@@ -1,0 +1,7 @@
+{
+    "repo": "joda-time",
+    "fix": "3a413d7844c22dc6ddd50bf5d0d55ff3589e47ac",
+    "induce": [
+        "42bde04b7208bf4cc2c43c9134c5f47c39eb0679"
+    ]
+}

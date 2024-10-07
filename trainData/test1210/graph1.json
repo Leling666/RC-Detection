@@ -1,0 +1,201 @@
+[
+    {
+        "cfgs": [],
+        "code": "return MOCKITO_CORE.mock(classToMock, mockSettings)",
+        "dfgs": [],
+        "fName": "src_org_mockito_Mockito.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 827,
+        "lineEnd": 827,
+        "lineMapIndex": 5,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "c69a4d39130e291b56131fdf03c807b48be77eab"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MOCKITO_CORE.mock((Class<T>) object.getClass(), withSettings()\r.spiedInstance(object).defaultAnswer(CALLS_REAL_METHODS))",
+        "dfgs": [],
+        "fName": "src_org_mockito_Mockito.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 897,
+        "lineEnd": 899,
+        "lineMapIndex": 6,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "f8681148a48edb7b742343f4d9e995d4523345bb",
+            "ba4db5fa5914475a620004a28f770429c0cdc18d"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public <T> T mock(Class<T> classToMock, MockSettings mockSettings) ",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_org_mockito_internal_MockitoCore.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "c69a4d39130e291b56131fdf03c807b48be77eab"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mockingProgress.resetOngoingStubbing()",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_MockitoCore.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "6037bc6c0098fff7ab9487ecd3bf2dc12ec02c2a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return mockitoCore.mock((Class) clazz, new MockSettingsImpl().defaultAnswer(this))",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_stubbing_defaultanswers_ReturnsMocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 10,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "cbca8d00eea63103309e939a233db533f2dc2675"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return MOCKITO_CORE.mock(classToMock, mockSettings, true)",
+        "dfgs": [],
+        "fName": "src_org_mockito_Mockito.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 827,
+        "lineEnd": 827,
+        "lineMapIndex": 0,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return MOCKITO_CORE.mock((Class<T>) object.getClass(), withSettings()\r.spiedInstance(object).defaultAnswer(CALLS_REAL_METHODS), true)",
+        "dfgs": [],
+        "fName": "src_org_mockito_Mockito.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 897,
+        "lineEnd": 899,
+        "lineMapIndex": 1,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public <T> T mock(Class<T> classToMock, MockSettings mockSettings, boolean shouldResetOngoingStubbing) ",
+        "dfgs": [
+            9,
+            8
+        ],
+        "fName": "src_org_mockito_internal_MockitoCore.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (shouldResetOngoingStubbing)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_MockitoCore.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mockingProgress.resetOngoingStubbing()",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_MockitoCore.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return mockitoCore.mock(clazz, new MockSettingsImpl().defaultAnswer(this), false)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_stubbing_defaultanswers_ReturnsMocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 4,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    }
+]

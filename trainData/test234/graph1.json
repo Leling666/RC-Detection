@@ -1,0 +1,150 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.apache.oozie.WorkflowActionBean",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_MapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "4249aaeea2dde6a925c239d11b846804f6fc546c"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "RunningJob runningJob = jobClient.getJob(JobID.forName(action.getExternalId()))",
+        "dfgs": [
+            3,
+            2
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_MapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "throw new ActionExecutorException(ActionExecutorException.ErrorType.FAILED, \"MR002\",\"Unknown hadoop job [{0}] associated with action [{1}].  Failing this action!\", action.getExternalId(), action.getId())",
+        "dfgs": [
+            3
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_MapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 186,
+        "lineEnd": 188,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "9501311af7a50904c7eabee1fa1a9053c17234ac"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "XLog.getLog(getClass()).warn(\"Could not find Hadoop Counters for: [{0}]\", action.getExternalId())",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_MapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 210,
+        "lineEnd": 210,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(counters.contains(\"\\\"MAP_OUTPUT_RECORDS\\\":2\"))",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "RunningJob runningJob = jobClient.getJob(JobID.forName(action.getExternalChildIDs()))",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_MapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "throw new ActionExecutorException(ActionExecutorException.ErrorType.FAILED, \"MR002\",\"Unknown hadoop job [{0}] associated with action [{1}].  Failing this action!\",action.getExternalChildIDs(), action.getId())",
+        "dfgs": [
+            7
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_MapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 187,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "XLog.getLog(getClass()).warn(\"Could not find Hadoop Counters for: [{0}]\",action.getExternalChildIDs())",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_hadoop_MapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 209,
+        "lineEnd": 210,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    }
+]

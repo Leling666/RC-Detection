@@ -1,0 +1,215 @@
+[
+    {
+        "cfgs": [],
+        "code": "allowDupe =info != null && info.getSuppressions().contains(\"duplicate\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SyntacticScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 199,
+        "lineEnd": 200,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (scope.isDeclared(name, false))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SyntacticScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 229,
+        "lineEnd": 229,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "removeDuplicateDeclarations(root)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_Normalize.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final JSSourceFile[] externs = new JSSourceFile[] {JSSourceFile.fromCode(\"externs\",\"/** @constructor */ function Window() {}\\n\"+ \"/** @type {string} */ Window.prototype.name;\\n\"+ \"/** @type {Window} */ var window;\"+ \"/** @nosideeffects */ function noSideEffects() {}\")}",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerRunnerTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 41,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "0b7eccf2fd3a9293d7b513fbb766d7bc06abd7e0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String ARGUMENTS = \"arguments\"",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SyntacticScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "allowDupe =info != null && info.getSuppressions().contains(\"duplicate\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SyntacticScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 203,
+        "lineEnd": 204,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (scope.isDeclared(name, false)|| (scope.isLocal() && name.equals(ARGUMENTS)))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SyntacticScopeCreator.java",
+        "fieldParents": [
+            4
+        ],
+        "isDel": false,
+        "lineBeg": 233,
+        "lineEnd": 234,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "removeDuplicateDeclarations(root)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_Normalize.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final JSSourceFile[] externs = new JSSourceFile[] {JSSourceFile.fromCode(\"externs\",\"var arguments;\" +\"/** @constructor \\n * @param {...*} var_args \\n \" +\"* @return {!Array} */ \" +\"function Array(var_args) {}\\n\"+ \"/** @constructor */ function Window() {}\\n\"+ \"/** @type {string} */ Window.prototype.name;\\n\"+ \"/** @type {Window} */ var window;\"+ \"/** @nosideeffects */ function noSideEffects() {}\")}",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerRunnerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 51,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "public void testIssue115() ",
+        "dfgs": [
+            12
+        ],
+        "fName": "test_com_google_javascript_jscomp_CompilerRunnerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "CompilerRunner.FLAG_compilation_level.setForTest(CompilationLevel.SIMPLE_OPTIMIZATIONS)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerRunnerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "CompilerRunner.FLAG_warning_level.setForTest(WarningLevel.VERBOSE)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerRunnerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 179,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f() { \" +\"  var arguments = Array.prototype.slice.call(arguments, 0);\" +\"  return arguments[0]; \" +\"}\",\"function f() { \" +\"  arguments = Array.prototype.slice.call(arguments, 0);\" +\"  return arguments[0]; \" +\"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CompilerRunnerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 180,
+        "lineEnd": 187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    }
+]

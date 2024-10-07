@@ -1,0 +1,449 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "work[lowerStart + m - 1] = dCurrent - eCurrent",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 598,
+        "lineEnd": 598,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "9d442ceec87c17821f40fe825e72a0ef41abaa97"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "work[upperStart + m - 1] = dCurrent + eCurrent",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 599,
+        "lineEnd": 599,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "9d442ceec87c17821f40fe825e72a0ef41abaa97"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "for (int i = 4 * i0; i < 4 * n0 - 11; i += 4)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 902,
+        "lineEnd": 902,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "9d442ceec87c17821f40fe825e72a0ef41abaa97"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if ((work[i + 3] <= TOLERANCE_2 * work[i]) &&(work[i + 2] <= TOLERANCE_2 * sigma))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 903,
+        "lineEnd": 904,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "9d442ceec87c17821f40fe825e72a0ef41abaa97"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (end - start > 2)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1540,
+        "lineEnd": 1540,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "9d442ceec87c17821f40fe825e72a0ef41abaa97"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "final double lower = dCurrent - eCurrent",
+        "dfgs": [
+            6,
+            8,
+            7
+        ],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 598,
+        "lineEnd": 598,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "work[lowerStart + m - 1] = lower",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 599,
+        "lineEnd": 599,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "lowerSpectra = Math.min(lowerSpectra, lower)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 600,
+        "lineEnd": 600,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "final double upper = dCurrent + eCurrent",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 601,
+        "lineEnd": 601,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "work[upperStart + m - 1] = upper",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 602,
+        "lineEnd": 602,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "upperSpectra = Math.max(upperSpectra, upper)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 603,
+        "lineEnd": 603,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "for (int i = 4 * i0; i < 4 * n0 - 16; i += 4)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 906,
+        "lineEnd": 906,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if ((work[i + 3] <= TOLERANCE_2 * work[i]) ||(work[i + 2] <= TOLERANCE_2 * sigma))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 907,
+        "lineEnd": 908,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (end - start > 3)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1544,
+        "lineEnd": 1544,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "public void testMath308() ",
+        "dfgs": [
+            19,
+            21,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "double[] mainTridiagonal = {22.330154644539597, 46.65485522478641, 17.393672330044705, 54.46687435351116, 80.17800767709437}",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "double[] secondaryTridiagonal = {13.04450406501361, -5.977590941539671, 2.9040909856707517, 7.1570352792841225}",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "double[] refEigenValues = {82.044413207204002, 53.456697699894512, 52.536278520113882, 18.847969733754262, 14.138204224043099}",
+        "dfgs": [
+            21,
+            22
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "RealVector[] refEigenVectors = {new ArrayRealVector(new double[] { -0.000462690386766, -0.002118073109055,  0.011530080757413,  0.252322434584915,  0.967572088232592 }),new ArrayRealVector(new double[] {  0.314647769490148,  0.750806415553905, -0.167700312025760, -0.537092972407375,  0.143854968127780 }),new ArrayRealVector(new double[] {  0.222368839324646,  0.514921891363332, -0.021377019336614,  0.801196801016305, -0.207446991247740 }),new ArrayRealVector(new double[] {  0.713933751051495, -0.190582113553930,  0.671410443368332, -0.056056055955050,  0.006541576993581 }),new ArrayRealVector(new double[] {  0.584677060845929, -0.367177264979103, -0.721453187784497,  0.052971054621812, -0.005740715188257 })}",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "EigenDecomposition decomposition =new EigenDecompositionImpl(mainTridiagonal, secondaryTridiagonal, MathUtils.SAFE_MIN)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "double[] eigenValues = decomposition.getRealEigenvalues()",
+        "dfgs": [
+            22,
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "for (int i = 0; i < refEigenValues.length; ++i)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "assertEquals(refEigenValues[i], eigenValues[i], 1.0e-5)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0, refEigenVectors[i].subtract(decomposition.getEigenvector(i)).getNorm(), 2.0e-7)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_linear_EigenDecompositionImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    }
+]

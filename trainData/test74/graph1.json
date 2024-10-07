@@ -1,0 +1,2301 @@
+[
+    {
+        "cfgs": [],
+        "code": "creds.addTokensToUGI(ugi)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestCredentials.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": 45,
+        "methodParents": [
+            42
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Text service = new Text(\"service\")",
+        "dfgs": [
+            3
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 92,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "UserGroupInformation ugi = UserGroupInformation.getCurrentUser()",
+        "dfgs": [
+            3
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 93,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "ugi.addToken(service, token)",
+        "dfgs": [
+            4
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 95,
+        "methodParents": [
+            31
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertSame(token, job.getCredentials().getToken(service))",
+        "dfgs": [],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": 98,
+        "methodParents": [
+            36
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.ArrayList",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "0c5734e4aca873f405fbf994e5fe7061e31731c8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "cred.addTokensToUGI(loginUser)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 649,
+        "lineEnd": 649,
+        "lineMapIndex": 100,
+        "methodParents": [
+            42
+        ],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private class NamedToken ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1181,
+        "lineEnd": 1181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Text alias",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1182,
+        "lineEnd": 1182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Token<? extends TokenIdentifier> token",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1183,
+        "lineEnd": 1183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "NamedToken(Text alias, Token<? extends TokenIdentifier> token) ",
+        "dfgs": [
+            11,
+            12
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1184,
+        "lineEnd": 1184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "this.alias = alias",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1185,
+        "lineEnd": 1185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.token = token",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": true,
+        "lineBeg": 1186,
+        "lineEnd": 1186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "public boolean equals(Object o) ",
+        "dfgs": [
+            25,
+            15,
+            16,
+            18,
+            17,
+            21,
+            22,
+            20,
+            24
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1189,
+        "lineEnd": 1189,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "boolean equals",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1190,
+        "lineEnd": 1190,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            16,
+            17
+        ],
+        "code": "if (o == this)",
+        "dfgs": [
+            17,
+            21,
+            24
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1191,
+        "lineEnd": 1191,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "equals = true",
+        "dfgs": [
+            25
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1192,
+        "lineEnd": 1192,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            18,
+            19
+        ],
+        "code": "if (!(o instanceof NamedToken))",
+        "dfgs": [
+            20
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1193,
+        "lineEnd": 1193,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "equals = false",
+        "dfgs": [
+            25
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1194,
+        "lineEnd": 1194,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1195,
+        "lineEnd": 1195,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "Text otherAlias = ((NamedToken)o).alias",
+        "dfgs": [
+            21
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1196,
+        "lineEnd": 1196,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            22,
+            23
+        ],
+        "code": "if (alias == otherAlias)",
+        "dfgs": [
+            24
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1197,
+        "lineEnd": 1197,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "equals = true",
+        "dfgs": [
+            25
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1198,
+        "lineEnd": 1198,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1199,
+        "lineEnd": 1199,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "equals = (otherAlias != null && otherAlias.equals(alias))",
+        "dfgs": [
+            25
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1200,
+        "lineEnd": 1200,
+        "lineMapIndex": -1,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return equals",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1203,
+        "lineEnd": 1203,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "public int hashCode() ",
+        "dfgs": [
+            27
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1206,
+        "lineEnd": 1206,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (alias != null) ? alias.hashCode() : -1",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1207,
+        "lineEnd": 1207,
+        "lineMapIndex": -1,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 27,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "public String toString() ",
+        "dfgs": [
+            29
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1210,
+        "lineEnd": 1210,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"NamedToken: alias=\"+alias+\" token=\"+token",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1211,
+        "lineEnd": 1211,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return addToken(token.getService(), token)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": true,
+        "lineBeg": 1222,
+        "lineEnd": 1222,
+        "lineMapIndex": 101,
+        "methodParents": [
+            31
+        ],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "NamedToken namedToken = new NamedToken(alias, token)",
+        "dfgs": [
+            33,
+            34
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1234,
+        "lineEnd": 1234,
+        "lineMapIndex": -1,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "Collection<Object> ugiCreds = subject.getPrivateCredentials()",
+        "dfgs": [
+            33
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1235,
+        "lineEnd": 1235,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "ugiCreds.remove(namedToken)",
+        "dfgs": [
+            34
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1236,
+        "lineEnd": 1236,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ugiCreds.add(new NamedToken(alias, token))",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1237,
+        "lineEnd": 1237,
+        "lineMapIndex": -1,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 34,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return Collections.unmodifiableList(new ArrayList<Token<?>>(getCredentials().getAllTokens()))",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1247,
+        "lineEnd": 1248,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "final Credentials credentials = new Credentials()",
+        "dfgs": [
+            39
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1257,
+        "lineEnd": 1257,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "final Set<NamedToken> namedTokens =subject.getPrivateCredentials(NamedToken.class)",
+        "dfgs": [
+            38
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1258,
+        "lineEnd": 1259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "for (final NamedToken namedToken : namedTokens)",
+        "dfgs": [
+            39
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1260,
+        "lineEnd": 1260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "credentials.addToken(namedToken.alias, namedToken.token)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 1261,
+        "lineEnd": 1261,
+        "lineMapIndex": -1,
+        "methodParents": [
+            31
+        ],
+        "nodeIndex": 39,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "job.getCredentials().addTokensToUGI(childUGI)",
+        "dfgs": [],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-app_src_main_java_org_apache_hadoop_mapred_YarnChild.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": 116,
+        "methodParents": [
+            42
+        ],
+        "nodeIndex": 40,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fsTokens.addTokensToUGI(currentUser)",
+        "dfgs": [],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-app_src_main_java_org_apache_hadoop_mapreduce_v2_app_MRAppMaster.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": 117,
+        "methodParents": [
+            42
+        ],
+        "nodeIndex": 41,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "public void addTokensToUGI(UserGroupInformation ugi) ",
+        "dfgs": [
+            43,
+            44
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_Credentials.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "for (Map.Entry<Text, Token<?>> token: tokenMap.entrySet())",
+        "dfgs": [
+            44
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_Credentials.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ugi.addToken(token.getKey(), token.getValue())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_Credentials.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": -1,
+        "methodParents": [
+            31
+        ],
+        "nodeIndex": 44,
+        "rootcause": true,
+        "commits": [
+            "aeb364d8b57f4de79d3489bef2071cea9c0c840e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ugi.addCredentials(creds)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestCredentials.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": 0,
+        "methodParents": [
+            106
+        ],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public <T extends TokenIdentifier> void testGetCreds() throws Exception ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "UserGroupInformation ugi = UserGroupInformation.createRemoteUser(\"someone\")",
+        "dfgs": [
+            55
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 257,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "Text service = new Text(\"service\")",
+        "dfgs": [
+            50
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "Token<T> t1 = mock(Token.class)",
+        "dfgs": [
+            50,
+            51
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "when(t1.getService()).thenReturn(service)",
+        "dfgs": [
+            54,
+            55,
+            51
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "Token<T> t2 = mock(Token.class)",
+        "dfgs": [
+            52,
+            53
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "when(t2.getService()).thenReturn(new Text(\"service2\"))",
+        "dfgs": [
+            56,
+            53
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 264,
+        "lineEnd": 264,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "Token<T> t3 = mock(Token.class)",
+        "dfgs": [
+            54
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "when(t3.getService()).thenReturn(service)",
+        "dfgs": [
+            57,
+            59,
+            60
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "ugi.addToken(t1)",
+        "dfgs": [
+            56,
+            57
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [
+            101
+        ],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "ugi.addToken(t2)",
+        "dfgs": [
+            57
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": -1,
+        "methodParents": [
+            101
+        ],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "checkTokens(ugi, t1, t2)",
+        "dfgs": [
+            60,
+            61,
+            58
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "Credentials creds = ugi.getCredentials()",
+        "dfgs": [
+            59,
+            61
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "creds.addToken(t3.getService(), t3)",
+        "dfgs": [
+            60
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 274,
+        "lineEnd": 274,
+        "lineMapIndex": -1,
+        "methodParents": [
+            102
+        ],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "assertSame(t3, creds.getToken(service))",
+        "dfgs": [
+            61
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkTokens(ugi, t1, t2)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 277,
+        "lineEnd": 277,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public <T extends TokenIdentifier> void testAddCreds() throws Exception ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "UserGroupInformation ugi = UserGroupInformation.createRemoteUser(\"someone\")",
+        "dfgs": [
+            75
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 284,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "Text service = new Text(\"service\")",
+        "dfgs": [
+            66
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "Token<T> t1 = mock(Token.class)",
+        "dfgs": [
+            66,
+            67
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "when(t1.getService()).thenReturn(service)",
+        "dfgs": [
+            67,
+            72
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "Token<T> t2 = mock(Token.class)",
+        "dfgs": [
+            68
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "when(t2.getService()).thenReturn(new Text(\"service2\"))",
+        "dfgs": [
+            76,
+            73
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 290,
+        "lineEnd": 290,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "byte[] secret = new byte[]{}",
+        "dfgs": [
+            74
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "Text secretKey = new Text(\"sshhh\")",
+        "dfgs": [
+            74
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "Credentials creds = new Credentials()",
+        "dfgs": [
+            72
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "creds.addToken(t1.getService(), t1)",
+        "dfgs": [
+            73,
+            76
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [
+            102
+        ],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "creds.addToken(t2.getService(), t2)",
+        "dfgs": [
+            74,
+            76
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 297,
+        "lineEnd": 297,
+        "lineMapIndex": -1,
+        "methodParents": [
+            102
+        ],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "creds.addSecretKey(secretKey, secret)",
+        "dfgs": [
+            75,
+            77
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "ugi.addCredentials(creds)",
+        "dfgs": [
+            76
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": -1,
+        "methodParents": [
+            106
+        ],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "checkTokens(ugi, t1, t2)",
+        "dfgs": [
+            77
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertSame(secret, ugi.getCredentials().getSecretKey(secretKey))",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public <T extends TokenIdentifier> void testGetCredsNotSame()throws Exception",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 308,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "UserGroupInformation ugi = UserGroupInformation.createRemoteUser(\"someone\")",
+        "dfgs": [
+            80
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 310,
+        "lineEnd": 311,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "Credentials creds = ugi.getCredentials()",
+        "dfgs": [
+            81
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 312,
+        "lineEnd": 312,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotSame(creds, ugi.getCredentials())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 314,
+        "lineEnd": 314,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "Credentials creds = new Credentials()",
+        "dfgs": [
+            85
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 366,
+        "lineEnd": 366,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "byte[] secretKey = new byte[]{}",
+        "dfgs": [
+            85
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 367,
+        "lineEnd": 367,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            85
+        ],
+        "code": "Text secretName = new Text(\"shhh\")",
+        "dfgs": [
+            85
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "creds.addSecretKey(secretName, secretKey)",
+        "dfgs": [
+            86,
+            88
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 369,
+        "lineEnd": 369,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "ugi.addCredentials(creds)",
+        "dfgs": [
+            88,
+            87
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": -1,
+        "methodParents": [
+            106
+        ],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            88
+        ],
+        "code": "Credentials ugiCreds = ugi.getCredentials()",
+        "dfgs": [
+            88
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "assertSame(secretKey, ugiCreds.getSecretKey(secretName))",
+        "dfgs": [
+            89
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 380,
+        "lineEnd": 380,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1, ugiCreds.numberOfSecretKeys())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_security_TestUserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 381,
+        "lineEnd": 381,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.security.Credentials",
+        "dfgs": [],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "Credentials creds = new Credentials()",
+        "dfgs": [
+            95
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            93
+        ],
+        "code": "Text tokenService = new Text(\"service\")",
+        "dfgs": [
+            95
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "Text secretName = new Text(\"secret\")",
+        "dfgs": [
+            96
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "byte secret[] = new byte[]{}",
+        "dfgs": [
+            96
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96
+        ],
+        "code": "creds.addToken(tokenService,  token)",
+        "dfgs": [
+            96,
+            98
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": 3,
+        "methodParents": [
+            102
+        ],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97
+        ],
+        "code": "creds.addSecretKey(secretName, secret)",
+        "dfgs": [
+            97,
+            99
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "UserGroupInformation.getLoginUser().addCredentials(creds)",
+        "dfgs": [],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [
+            106
+        ],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            99
+        ],
+        "code": "assertSame(token, job.getCredentials().getToken(tokenService))",
+        "dfgs": [
+            99
+        ],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": 4,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertSame(secret, job.getCredentials().getSecretKey(secretName))",
+        "dfgs": [],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-core_src_test_java_org_apache_hadoop_mapreduce_TestJob.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [
+            105
+        ],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "loginUser.addCredentials(cred)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 648,
+        "lineEnd": 648,
+        "lineMapIndex": 6,
+        "methodParents": [
+            106
+        ],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (token != null) ? addToken(token.getService(), token) : false",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1186,
+        "lineEnd": 1186,
+        "lineMapIndex": 30,
+        "methodParents": [
+            102
+        ],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "getCredentialsInternal().addToken(alias, token)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1198,
+        "lineEnd": 1198,
+        "lineMapIndex": -1,
+        "methodParents": [
+            102
+        ],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1199,
+        "lineEnd": 1199,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Collections.unmodifiableCollection(getCredentialsInternal().getAllTokens())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1209,
+        "lineEnd": 1210,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new Credentials(getCredentialsInternal())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1219,
+        "lineEnd": 1219,
+        "lineMapIndex": -1,
+        "methodParents": [
+            108
+        ],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            107
+        ],
+        "code": "public synchronized void addCredentials(Credentials credentials) ",
+        "dfgs": [
+            107
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1226,
+        "lineEnd": 1226,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "getCredentialsInternal().addAll(credentials)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1227,
+        "lineEnd": 1227,
+        "lineMapIndex": -1,
+        "methodParents": [
+            108
+        ],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "private synchronized Credentials getCredentialsInternal() ",
+        "dfgs": [
+            110,
+            111,
+            114,
+            115,
+            112
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1230,
+        "lineEnd": 1230,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final Credentials credentials",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1231,
+        "lineEnd": 1231,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            111
+        ],
+        "code": "final Set<Credentials> credentialsSet =subject.getPrivateCredentials(Credentials.class)",
+        "dfgs": [
+            111,
+            115
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1232,
+        "lineEnd": 1233,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112,
+            113
+        ],
+        "code": "if (!credentialsSet.isEmpty())",
+        "dfgs": [
+            112
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1234,
+        "lineEnd": 1234,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "credentials = credentialsSet.iterator().next()",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1235,
+        "lineEnd": 1235,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            114
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1236,
+        "lineEnd": 1236,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            115
+        ],
+        "code": "credentials = new Credentials()",
+        "dfgs": [
+            115
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1237,
+        "lineEnd": 1237,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "subject.getPrivateCredentials().add(credentials)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1238,
+        "lineEnd": 1238,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "childUGI.addCredentials(credentials)",
+        "dfgs": [],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-app_src_main_java_org_apache_hadoop_mapred_YarnChild.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": 40,
+        "methodParents": [
+            106
+        ],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "currentUser.addCredentials(fsTokens)",
+        "dfgs": [],
+        "fName": "hadoop-mapreduce-project_hadoop-mapreduce-client_hadoop-mapreduce-client-app_src_main_java_org_apache_hadoop_mapreduce_v2_app_MRAppMaster.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": 41,
+        "methodParents": [
+            106
+        ],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    }
+]

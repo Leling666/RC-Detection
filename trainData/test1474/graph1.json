@@ -1,0 +1,205 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (fnType.getTemplateTypeMap().getTemplateKeys().isEmpty())",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1183,
+        "lineEnd": 1183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "2065172121162371081ca134f05d0da599ca0ba4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Map<TemplateType, JSType> inferred = inferTemplateTypesFromParameters(fnType, n)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1188,
+        "lineEnd": 1189,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "616f796f52ee78e1a655e913e0b339d6c5e1347e"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void testTemplatized11() throws Exception ",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 12140,
+        "lineEnd": 12140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** \\n\" +\" * @template T\\n\" +\" * @constructor\\n\" +\" */\\n\" +\"function C() {}\\n\" +\"\\n\" +\"/**\\n\" +\" * @param {T|K} a\\n\" +\" * @return {T}\\n\" +\" * @template K\\n\" +\" */\\n\" +\"C.prototype.method = function (a) {};\\n\" +\"\\n\" +// method returns \"?\"\"/** @type {void} */ var x = new C().method(1);\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 12141,
+        "lineEnd": 12156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "public void testIssue1058() throws Exception ",
+        "dfgs": [
+            5
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 12159,
+        "lineEnd": 12159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/**\\n\" +\"  * @constructor\\n\" +\"  * @template CLASS\\n\" +\"  */\\n\" +\"var Class = function() {};\\n\" +\"\\n\" +\"/**\\n\" +\"  * @param {function(CLASS):CLASS} a\\n\" +\"  * @template T\\n\" +\"  */\\n\" +\"Class.prototype.foo = function(a) {\\n\" +\"  return 'string';\\n\" +\"};\\n\" +\"\\n\" +\"/** @param {number} a\\n\" +\"  * @return {string} */\\n\" +\"var a = function(a) { return '' };\\n\" +\"\\n\" +\"new Class().foo(a);\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 12160,
+        "lineEnd": 12179,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.base.Predicate",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.ImmutableList",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "final ImmutableList<TemplateType> keys = fnType.getTemplateTypeMap().getTemplateKeys()",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1185,
+        "lineEnd": 1186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "if (keys.isEmpty())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1187,
+        "lineEnd": 1187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Map<TemplateType, JSType> inferred = Maps.filterKeys(inferTemplateTypesFromParameters(fnType, n),new Predicate<TemplateType>() {@Overridepublic boolean apply(TemplateType key) {return keys.contains(key);}})",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1192,
+        "lineEnd": 1200,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return keys.contains(key)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1198,
+        "lineEnd": 1198,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

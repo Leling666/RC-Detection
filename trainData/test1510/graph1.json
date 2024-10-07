@@ -1,0 +1,516 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (ComponentUtils.altSyntax(getStack()) && ComponentUtils.isExpression(value))",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_views_jsp_ui_AbstractUITag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": 4,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "5e8080abe3e0b3313e40c71c2ca5930a88ebe4f6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return TextParseUtil.translateVariables('%', expr, stack)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_components_Component.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public static boolean isExpression(Object value) ",
+        "dfgs": [
+            3
+        ],
+        "fName": "core_src_main_java_org_apache_struts2_util_ComponentUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "73494b036fbed01bc83febb65135cfae272dea8f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String expr = value.toString()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_util_ComponentUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "73494b036fbed01bc83febb65135cfae272dea8f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (ComponentUtils.altSyntax(getStack()) && ComponentUtils.isExpression(value.toString()))",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_views_jsp_ui_AbstractUITag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": 0,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (ComponentUtils.containsExpression(expr))",
+        "dfgs": [
+            8,
+            6
+        ],
+        "fName": "core_src_main_java_org_apache_struts2_components_Component.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": -1,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return TextParseUtil.translateVariables('%', expr, stack)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_components_Component.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_components_Component.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return expr",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_components_Component.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "public void testIsExpressionIsFalseWhenCombined() throws Exception ",
+        "dfgs": [
+            10,
+            12,
+            11
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "String anExpression = \"bar%{foo}\"",
+        "dfgs": [
+            11
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "boolean actual = ComponentUtils.isExpression(anExpression)",
+        "dfgs": [
+            12
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(actual)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "public void testContainsExpressionIsTrue() throws Exception ",
+        "dfgs": [
+            14,
+            16,
+            15
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "String anExpression = \"%{foo}\"",
+        "dfgs": [
+            15
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "boolean actual = ComponentUtils.containsExpression(anExpression)",
+        "dfgs": [
+            16
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(actual)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "public void testIsContainsIsTrueWhenCombined() throws Exception ",
+        "dfgs": [
+            18,
+            20,
+            19
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "String anExpression = \"bar%{foo}\"",
+        "dfgs": [
+            19
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "boolean actual = ComponentUtils.containsExpression(anExpression)",
+        "dfgs": [
+            20
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(actual)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "public void testContainsExpressionIsFalse() throws Exception ",
+        "dfgs": [
+            22,
+            24,
+            23
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "String anExpression = \"foo\"",
+        "dfgs": [
+            23
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "boolean actual = ComponentUtils.containsExpression(anExpression)",
+        "dfgs": [
+            24
+        ],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": -1,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(actual)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_struts2_util_ComponentUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static boolean isExpression(String expr) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_util_ComponentUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "public static boolean containsExpression(String expr) ",
+        "dfgs": [
+            27
+        ],
+        "fName": "core_src_main_java_org_apache_struts2_util_ComponentUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return expr.contains(\"%{\") && expr.contains(\"}\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_struts2_util_ComponentUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    }
+]

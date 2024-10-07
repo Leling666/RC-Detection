@@ -1,0 +1,400 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (!tq.matchChomp(\"/>\"))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "2f98b3a3d4d4621a3e2519e072447b6c7b95f075"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addChildToParent(child)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": 15,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "2f98b3a3d4d4621a3e2519e072447b6c7b95f075"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            5
+        ],
+        "code": "private Element addChildToParent(Element child) ",
+        "dfgs": [
+            4,
+            3,
+            5
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 180,
+        "lineEnd": 180,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "2f98b3a3d4d4621a3e2519e072447b6c7b95f075"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Element root = addChildToParent(implicit)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": 17,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "2f98b3a3d4d4621a3e2519e072447b6c7b95f075"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "stack.addLast(child)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "2f98b3a3d4d4621a3e2519e072447b6c7b95f075"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!childTag.isEmpty())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 205,
+        "lineEnd": 205,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "9497f9fb4321287e71888321f273c7f8306749c8"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public void handlesEmptyBlocks() ",
+        "dfgs": [
+            7,
+            10,
+            8,
+            9
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "String h = \"<div id=1/><div id=2><img /></div>\"",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Document doc = Jsoup.parse(h)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 192,
+        "lineEnd": 192,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Element div1 = doc.getElementById(\"1\")",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 193,
+        "lineEnd": 193,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(div1.children().isEmpty())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 194,
+        "lineEnd": 194,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "boolean isEmptyElement = tag.isEmpty()",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13,
+            14
+        ],
+        "code": "if (tq.matchChomp(\"/>\"))",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "isEmptyElement = true",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addChildToParent(child, isEmptyElement)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17,
+            20
+        ],
+        "code": "private Element addChildToParent(Element child, boolean isEmptyElement) ",
+        "dfgs": [
+            17,
+            19,
+            20,
+            18
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Element root = addChildToParent(implicit, false)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 201,
+        "lineEnd": 201,
+        "lineMapIndex": 3,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "if (!isEmptyElement)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "stack.addLast(child)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (!isEmptyElement)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Parser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 209,
+        "lineEnd": 209,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    }
+]

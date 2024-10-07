@@ -1,0 +1,292 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertEquals(type, getType(name))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Node constructor = n.getFirstChild()",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1036,
+        "lineEnd": 1036,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "scope = traverse(constructor, scope)",
+        "dfgs": [
+            3,
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1037,
+        "lineEnd": 1037,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "for (Node arg = constructor.getNext(); arg != null; arg = arg.getNext())",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1060,
+        "lineEnd": 1060,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "scope = traverse(arg, scope)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1061,
+        "lineEnd": 1061,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.javascript.rhino.testing.Asserts",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Asserts.assertTypeEquals(type, getType(name))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public void testBackwardsInferenceCall() ",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 870,
+        "lineEnd": 870,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "inFunction(\"/** @param {{foo: (number|undefined)}} x */\" +\"function f(x) {}\" +\"var y = {};\" +\"f(y);\")",
+        "dfgs": [
+            9
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 871,
+        "lineEnd": 875,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"{foo: (number|undefined)}\", getType(\"y\").toString())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 877,
+        "lineEnd": 877,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "public void testBackwardsInferenceNew() ",
+        "dfgs": [
+            11,
+            12
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 880,
+        "lineEnd": 880,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "inFunction(\"/**\\n\" +\" * @constructor\\n\" +\" * @param {{foo: (number|undefined)}} x\\n\" +\" */\" +\"function F(x) {}\" +\"var y = {};\" +\"new F(y);\")",
+        "dfgs": [
+            12
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 881,
+        "lineEnd": 888,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"{foo: (number|undefined)}\", getType(\"y\").toString())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeInferenceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 890,
+        "lineEnd": 890,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "scope = traverseChildren(n, scope)",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1036,
+        "lineEnd": 1036,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "Node constructor = n.getFirstChild()",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1038,
+        "lineEnd": 1038,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "backwardsInferenceFromCallSite(n, ct)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeInference.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1055,
+        "lineEnd": 1055,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    }
+]

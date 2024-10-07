@@ -1,0 +1,7 @@
+{
+    "repo": "mockito",
+    "fix": "3eec7451d6c83c280743c39b39c77a179abb30f9",
+    "induce": [
+        "4e9d7607825c3c668fd43f19507bfead566c528c"
+    ]
+}

@@ -1,0 +1,581 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"expected a no-op close after IW.rollback()\", 0, dir.listAll().length)",
+        "dfgs": [],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 4955,
+        "lineEnd": 4955,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "7a65a1823ac3fe81f6f8f896cb01095afb9ab2fb"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "message(\"init: current segments file is \\\"\" + segmentInfos.getCurrentSegmentFileName() + \"\\\"; deletionPolicy=\" + policy)",
+        "dfgs": [
+            5,
+            4
+        ],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "f19266575ea2ad5326e42f66d02cd483e7192962"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            3
+        ],
+        "code": "boolean seenIndexFiles = false",
+        "dfgs": [
+            4
+        ],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "7a65a1823ac3fe81f6f8f896cb01095afb9ab2fb"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "seenIndexFiles = true",
+        "dfgs": [
+            4
+        ],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "7a65a1823ac3fe81f6f8f896cb01095afb9ab2fb"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (currentCommitPoint == null && seenIndexFiles)",
+        "dfgs": [],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "7a65a1823ac3fe81f6f8f896cb01095afb9ab2fb"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "sis.read(directory, segmentInfos.getCurrentSegmentFileName(), codecs)",
+        "dfgs": [],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "b679816a7001ba986618f103a9a9c67ececc7ff8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (seenIndexFiles)",
+        "dfgs": [],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "7a65a1823ac3fe81f6f8f896cb01095afb9ab2fb"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public void testNoSegmentFile() throws IOException ",
+        "dfgs": [
+            8,
+            12,
+            13,
+            20,
+            11,
+            14,
+            15,
+            16,
+            18,
+            21,
+            22,
+            24,
+            10,
+            17,
+            19
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4958,
+        "lineEnd": 4958,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "File tempDir = _TestUtil.getTempDir(\"noSegmentFile\")",
+        "dfgs": [
+            24,
+            10
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4959,
+        "lineEnd": 4959,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4960,
+        "lineEnd": 4960,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "Directory dir = FSDirectory.open(tempDir)",
+        "dfgs": [
+            11,
+            24
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4961,
+        "lineEnd": 4961,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "dir.setLockFactory(new NoLockFactory())",
+        "dfgs": [
+            12
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4962,
+        "lineEnd": 4962,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "IndexWriter w = new IndexWriter(dir, new IndexWriterConfig(TEST_VERSION_CURRENT, new MockAnalyzer()).setMaxBufferedDocs(2))",
+        "dfgs": [
+            15,
+            17,
+            20
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4963,
+        "lineEnd": 4965,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Document doc = new Document()",
+        "dfgs": [
+            14
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4967,
+        "lineEnd": 4967,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "doc.add(new Field(\"c\", \"val\", Store.YES, Index.ANALYZED, TermVector.WITH_POSITIONS_OFFSETS))",
+        "dfgs": [
+            15
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4968,
+        "lineEnd": 4968,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "w.addDocument(doc)",
+        "dfgs": [
+            16
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4969,
+        "lineEnd": 4969,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "w.addDocument(doc)",
+        "dfgs": [],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4970,
+        "lineEnd": 4970,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "String[] files = dir.listAll()",
+        "dfgs": [
+            20,
+            18
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4971,
+        "lineEnd": 4971,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            19
+        ],
+        "code": "for(String file : files)",
+        "dfgs": [
+            19
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4972,
+        "lineEnd": 4972,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "System.out.println(\"file=\" + file)",
+        "dfgs": [],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4973,
+        "lineEnd": 4973,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "IndexWriter w2 = new IndexWriter(dir, new IndexWriterConfig(TEST_VERSION_CURRENT, new MockAnalyzer()).setMaxBufferedDocs(2).setOpenMode(OpenMode.CREATE))",
+        "dfgs": [
+            21,
+            22
+        ],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4975,
+        "lineEnd": 4977,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "w2.close()",
+        "dfgs": [],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4979,
+        "lineEnd": 4979,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "dir.close()",
+        "dfgs": [],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4980,
+        "lineEnd": 4980,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4981,
+        "lineEnd": 4981,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "_TestUtil.rmDir(tempDir)",
+        "dfgs": [],
+        "fName": "lucene_src_test_org_apache_lucene_index_TestIndexWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4982,
+        "lineEnd": 4982,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            27
+        ],
+        "code": "final String currentSegmentsFile = segmentInfos.getCurrentSegmentFileName()",
+        "dfgs": [
+            26,
+            28,
+            27,
+            29
+        ],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "message(\"init: current segments file is \\\"\" + currentSegmentsFile + \"\\\"; deletionPolicy=\" + policy)",
+        "dfgs": [
+            28,
+            27
+        ],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28,
+            29
+        ],
+        "code": "if (currentCommitPoint == null && currentSegmentsFile != null)",
+        "dfgs": [
+            29,
+            28
+        ],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 204,
+        "lineEnd": 204,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "sis.read(directory, currentSegmentsFile, codecs)",
+        "dfgs": [
+            29
+        ],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 214,
+        "lineEnd": 214,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (currentSegmentsFile != null)",
+        "dfgs": [],
+        "fName": "lucene_src_java_org_apache_lucene_index_IndexFileDeleter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    }
+]

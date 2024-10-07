@@ -1,0 +1,1248 @@
+[
+    {
+        "cfgs": [],
+        "code": "Type genericFieldType = getInheritGenericType(clazz, tv)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": 21,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "public static Type getInheritGenericType(Class<?> clazz, TypeVariable<?> tv) ",
+        "dfgs": [
+            2,
+            20,
+            3,
+            19,
+            5,
+            6,
+            7,
+            8,
+            9,
+            18,
+            12,
+            10,
+            17,
+            11,
+            15,
+            13,
+            14
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "Type type = null",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "GenericDeclaration gd = tv.getGenericDeclaration()",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "d",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "type = clazz.getGenericSuperclass()",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (type == null)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            9,
+            18
+        ],
+        "code": "if (type instanceof ParameterizedType)",
+        "dfgs": [
+            9,
+            18
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "ParameterizedType ptype = (ParameterizedType) type",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "Type rawType = ptype.getRawType()",
+        "dfgs": [
+            11,
+            14
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "5bb5616218a627d3217412674d0e7e183aae10cb"
+        ]
+    },
+    {
+        "cfgs": [
+            18,
+            12
+        ],
+        "code": "boolean eq = gd.equals(rawType) || (gd instanceof Class && rawType instanceof Class && ((Class) gd).isAssignableFrom((Class) rawType))",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "5bb5616218a627d3217412674d0e7e183aae10cb"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "if (eq)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "5bb5616218a627d3217412674d0e7e183aae10cb"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "TypeVariable<?>[] tvs = gd.getTypeParameters()",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "Type[] types = ptype.getActualTypeArguments()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 297,
+        "lineEnd": 297,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            17,
+            16
+        ],
+        "code": "for (int i = 0; i < tvs.length; i++)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (tvs[i] == tv)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 299,
+        "lineEnd": 299,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "clazz = TypeUtils.getClass(type)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "while (type != null)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 306,
+        "lineEnd": 306,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "a613dafbe3e787191962b5e404f853e9d9be0b85"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Type genericFieldType = getInheritGenericType(clazz, type, tv)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": 0,
+        "methodParents": [
+            41
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "private static boolean getArgument(Type[] typeArgs, TypeVariable[] typeVariables, Type[] arguments) ",
+        "dfgs": [
+            25,
+            26,
+            40,
+            24,
+            27,
+            23,
+            28,
+            29,
+            32,
+            30,
+            31,
+            33,
+            34,
+            35,
+            36,
+            37,
+            39
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24,
+            25
+        ],
+        "code": "if (arguments == null || typeVariables.length == 0)",
+        "dfgs": [
+            31,
+            36,
+            38
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "boolean changed = false",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27,
+            40
+        ],
+        "code": "for (int i = 0; i < typeArgs.length; ++i)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "Type typeArg = typeArgs[i]",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 290,
+        "lineEnd": 290,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29,
+            35
+        ],
+        "code": "if (typeArg instanceof ParameterizedType)",
+        "dfgs": [
+            29,
+            35
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "ParameterizedType p_typeArg = (ParameterizedType) typeArg",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "Type[] p_typeArg_args = p_typeArg.getActualTypeArguments()",
+        "dfgs": [
+            31,
+            33
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "boolean p_changed = getArgument(p_typeArg_args, typeVariables, arguments)",
+        "dfgs": [
+            36,
+            33,
+            37,
+            38
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": -1,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "if (p_changed)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "typeArgs[i] = new ParameterizedTypeImpl(p_typeArg_args, p_typeArg.getOwnerType(), p_typeArg.getRawType())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "changed = true",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 297,
+        "lineEnd": 297,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "if (typeArg instanceof TypeVariable)",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 299,
+        "lineEnd": 299,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "for (int j = 0; j < typeVariables.length; ++j)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "if (typeArg.equals(typeVariables[j]))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "typeArgs[i] = arguments[j]",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "changed = true",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return changed",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "private static Type getInheritGenericType(Class<?> clazz, Type type, TypeVariable<?> tv) ",
+        "dfgs": [
+            42,
+            43,
+            56,
+            47,
+            58,
+            62,
+            44,
+            45,
+            54,
+            55,
+            57,
+            46,
+            48,
+            49,
+            50,
+            53,
+            59,
+            52,
+            51
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 312,
+        "lineEnd": 312,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "Class<?> gd = (Class<?>) tv.getGenericDeclaration()",
+        "dfgs": [
+            57,
+            47,
+            59
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 313,
+        "lineEnd": 313,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "Type[] arguments = null",
+        "dfgs": [
+            54,
+            52
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 315,
+        "lineEnd": 315,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45,
+            47
+        ],
+        "code": "if (type instanceof ParameterizedType)",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 316,
+        "lineEnd": 316,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "ParameterizedType ptype = (ParameterizedType) type",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "arguments = ptype.getActualTypeArguments()",
+        "dfgs": [
+            54,
+            52
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 318,
+        "lineEnd": 318,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48,
+            54
+        ],
+        "code": "for (Class<?> c = clazz; c != null && c != Object.class && c != gd; c = c.getSuperclass())",
+        "dfgs": [
+            57,
+            48
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 321,
+        "lineEnd": 321,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "Type superType = c.getGenericSuperclass()",
+        "dfgs": [
+            49,
+            52
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "if (superType instanceof ParameterizedType)",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "ParameterizedType p_superType = (ParameterizedType) superType",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 325,
+        "lineEnd": 325,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "Type[] p_superType_args = p_superType.getActualTypeArguments()",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 326,
+        "lineEnd": 326,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "getArgument(p_superType_args, c.getTypeParameters(), arguments)",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 327,
+        "lineEnd": 327,
+        "lineMapIndex": -1,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "arguments = p_superType_args",
+        "dfgs": [
+            54
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 328,
+        "lineEnd": 328,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55,
+            56
+        ],
+        "code": "if (arguments == null)",
+        "dfgs": [
+            60
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 332,
+        "lineEnd": 332,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 333,
+        "lineEnd": 333,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "Type actualType = null",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 336,
+        "lineEnd": 336,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "TypeVariable<?>[] typeVariables = gd.getTypeParameters()",
+        "dfgs": [
+            58,
+            59
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 337,
+        "lineEnd": 337,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59,
+            62
+        ],
+        "code": "for (int j = 0; j < typeVariables.length; ++j)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "if (tv.equals(typeVariables[j]))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "actualType = arguments[j]",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return actualType",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_FieldInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    }
+]

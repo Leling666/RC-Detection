@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "html(accum, (new Document(null)).outputSettings())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_nodes_Attributes.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "57bce6dc8424637621f6b660855f23e72a08c4b3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "html(accum, (new Document(\"\")).outputSettings())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_nodes_Attributes.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

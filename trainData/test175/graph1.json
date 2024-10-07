@@ -1,0 +1,352 @@
+[
+    {
+        "cfgs": [],
+        "code": "final DateMathParser p = new DateMathParser(UTC, Locale.US)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "670b25d9670b844ba305abf5d538a4ec371f5707"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "protected NumberFormat millisParser= NumberFormat.getIntegerInstance(Locale.US)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 245,
+        "lineEnd": 246,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "f60122e08d23fc641410b80bd6debed6f8a62538"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "protected NumberFormat millisFormat = new DecimalFormat(\".###\")",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "f60122e08d23fc641410b80bd6debed6f8a62538"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "super(\"yyyy-MM-dd'T'HH:mm:ss\", Locale.US)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "f60122e08d23fc641410b80bd6debed6f8a62538"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.setTimeZone(UTC)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "f60122e08d23fc641410b80bd6debed6f8a62538"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "c.millisParser = NumberFormat.getIntegerInstance(Locale.US)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 297,
+        "lineEnd": 297,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "f60122e08d23fc641410b80bd6debed6f8a62538"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "c.millisFormat = new DecimalFormat(\".###\")",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "f60122e08d23fc641410b80bd6debed6f8a62538"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.text.DecimalFormatSymbols",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "protected static final TimeZone MATH_TZ = UTC",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "protected static final Locale MATH_LOCALE = Locale.US",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "protected static final TimeZone CANONICAL_TZ = UTC",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected static final Locale CANONICAL_LOCALE = Locale.US",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final DateMathParser p = new DateMathParser(MATH_TZ, MATH_LOCALE)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "protected NumberFormat millisParser= NumberFormat.getIntegerInstance(CANONICAL_LOCALE)",
+        "dfgs": [
+            15,
+            14
+        ],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 264,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "protected NumberFormat millisFormat = new DecimalFormat(\".###\", new DecimalFormatSymbols(CANONICAL_LOCALE))",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 267,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "super(\"yyyy-MM-dd'T'HH:mm:ss\", CANONICAL_LOCALE)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.setTimeZone(CANONICAL_TZ)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [
+            10
+        ],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "c.millisParser = NumberFormat.getIntegerInstance(CANONICAL_LOCALE)",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 316,
+        "lineEnd": 316,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "c.millisFormat = new DecimalFormat(\".###\", new DecimalFormatSymbols(CANONICAL_LOCALE))",
+        "dfgs": [],
+        "fName": "src_java_org_apache_solr_schema_DateField.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 317,
+        "lineEnd": 318,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    }
+]

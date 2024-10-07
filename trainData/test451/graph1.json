@@ -1,0 +1,130 @@
+[
+    {
+        "cfgs": [],
+        "code": "for (int i = 127; i <= 160; ++i)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_IOUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "4061f6a3845e7a3ecdc3997abcd01c03e0714853"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (ch >= 0x7F && ch <= 0xA0)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 956,
+        "lineEnd": 956,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "89444613d932c6f3287a7fed156725b756c9240a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (ch >= 0x7F //\r&& (ch == '\\u2028' //|| ch <= 0xA0))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1410,
+        "lineEnd": 1412,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "041880d72c8f5fe8b16a79aa8c819fbab51b3e27"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"{\\\"value\\\":\\\"A\\\\u00A0B\\\"}\", json)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_json_bvt_bug_Issue689.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "78ee339c12df03f977ec818a3d2efc0dfb35a2df"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "for (int i = 127; i < 160; ++i)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_IOUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (ch >= 0x7F && ch < 0xA0)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 956,
+        "lineEnd": 956,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (ch >= 0x7F //\r&& (ch == '\\u2028' //|| ch < 0xA0))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1410,
+        "lineEnd": 1412,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"{\\\"value\\\":\\\"A\u00a0B\\\"}\", json)",
+        "dfgs": [],
+        "fName": "src_test_java_com_alibaba_json_bvt_bug_Issue689.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    }
+]

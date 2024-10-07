@@ -1,0 +1,165 @@
+[
+    {
+        "cfgs": [],
+        "code": "case '\\0'",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1015,
+        "lineEnd": 1015,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "b88400ce0e9c1a0dadfd3417c256b02a82f38fe1"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "assertPrint(\"var x ='\\\\0';\", \"var x=\\\"\\\\0\\\"\")",
+        "dfgs": [
+            2
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1231,
+        "lineEnd": 1231,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "b88400ce0e9c1a0dadfd3417c256b02a82f38fe1"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "assertPrint(\"var x ='\\\\x00';\", \"var x=\\\"\\\\0\\\"\")",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1232,
+        "lineEnd": 1232,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "b88400ce0e9c1a0dadfd3417c256b02a82f38fe1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertPrint(\"var x ='\\\\u0000';\", \"var x=\\\"\\\\0\\\"\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1233,
+        "lineEnd": 1233,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "b88400ce0e9c1a0dadfd3417c256b02a82f38fe1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case '\\0'",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1015,
+        "lineEnd": 1015,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "assertPrint(\"var x ='\\\\0';\", \"var x=\\\"\\\\000\\\"\")",
+        "dfgs": [
+            6
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1231,
+        "lineEnd": 1231,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "assertPrint(\"var x ='\\\\x00';\", \"var x=\\\"\\\\000\\\"\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1232,
+        "lineEnd": 1232,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "assertPrint(\"var x ='\\\\u0000';\", \"var x=\\\"\\\\000\\\"\")",
+        "dfgs": [
+            8
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1233,
+        "lineEnd": 1233,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertPrint(\"var x ='\\\\u00003';\", \"var x=\\\"\\\\0003\\\"\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1234,
+        "lineEnd": 1234,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    }
+]

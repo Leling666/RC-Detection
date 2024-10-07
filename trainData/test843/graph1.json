@@ -1,0 +1,537 @@
+[
+    {
+        "cfgs": [],
+        "code": "checkParamType(execElem, type, typeInfo, i, params.size())",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_ClassModel.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 758,
+        "lineEnd": 758,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "ab4c30df5a27010b1b70a12d1339c960310700ed"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "TypeElement handlerElt = elementUtils.getTypeElement(VERTX_HANDLER)",
+        "dfgs": [
+            5,
+            2,
+            7
+        ],
+        "fName": "src_main_java_io_vertx_codegen_ClassModel.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 758,
+        "lineEnd": 758,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "ExecutableElement handlerMeth = (ExecutableElement) handlerElt.getEnclosedElements().get(0)",
+        "dfgs": [
+            3,
+            4
+        ],
+        "fName": "src_main_java_io_vertx_codegen_ClassModel.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 759,
+        "lineEnd": 759,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4,
+            6
+        ],
+        "code": "if (handlerMeth.equals(execElem))",
+        "dfgs": [
+            5,
+            7
+        ],
+        "fName": "src_main_java_io_vertx_codegen_ClassModel.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 760,
+        "lineEnd": 760,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "DeclaredType handlerType = typeUtils.getDeclaredType(handlerElt, type)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_io_vertx_codegen_ClassModel.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 762,
+        "lineEnd": 762,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkParamType(execElem, handlerType, typeFactory.create(handlerType), i, params.size())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_io_vertx_codegen_ClassModel.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 763,
+        "lineEnd": 763,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_ClassModel.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 764,
+        "lineEnd": 764,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkParamType(execElem, type, typeInfo, i, params.size())",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_ClassModel.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 765,
+        "lineEnd": 765,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import io.vertx.test.codegen.testapi.handler.InterfaceExtendingAsyncResultHandler",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import io.vertx.test.codegen.testapi.handler.InterfaceExtendingInvalidAsyncResultHandler",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testInterfaceExtendingAsyncResultHandler() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1628,
+        "lineEnd": 1628,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "for (Class<?> clazz : Arrays.asList(InterfaceExtendingAsyncResultHandler.class, InterfaceExtendingAsyncResultHandler.class))",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1629,
+        "lineEnd": 1629,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "ClassModel model = new Generator().generateClass(clazz)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1630,
+        "lineEnd": 1630,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "TypeInfo.Parameterized handlerSuperType = (TypeInfo.Parameterized) model.getHandlerSuperType()",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1631,
+        "lineEnd": 1631,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(1, handlerSuperType.getArgs().size())",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1632,
+        "lineEnd": 1632,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "TypeInfo.Class.Api apiType = (TypeInfo.Class.Api) model.getType()",
+        "dfgs": [
+            16,
+            22
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1633,
+        "lineEnd": 1633,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "assertTrue(apiType.isHandler())",
+        "dfgs": [
+            18,
+            17
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1634,
+        "lineEnd": 1634,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "TypeInfo handlerArg = apiType.getHandlerArg()",
+        "dfgs": [
+            18,
+            20
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1635,
+        "lineEnd": 1635,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "assertEquals(TypeInfo.create(AsyncResult.class), handlerArg.getRaw())",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1636,
+        "lineEnd": 1636,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "assertEquals(TypeInfo.create(String.class), ((TypeInfo.Parameterized) handlerArg).getArgs().get(0))",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1637,
+        "lineEnd": 1637,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "assertFalse(apiType.isReadStream())",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1638,
+        "lineEnd": 1638,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "assertFalse(apiType.isWriteStream())",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1639,
+        "lineEnd": 1639,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "assertEquals(1, model.getMethodMap().size())",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1640,
+        "lineEnd": 1640,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "assertEquals(1, model.getMethodMap().get(\"handle\").size())",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1641,
+        "lineEnd": 1641,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkMethod(model.getMethodMap().get(\"handle\").get(0), \"handle\", null, MethodKind.OTHER, \"void\", false, false, false, 1)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1642,
+        "lineEnd": 1642,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testInterfaceExtendingInvalidAsyncResultHandler() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1647,
+        "lineEnd": 1647,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1648,
+        "lineEnd": 1648,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "new Generator().generateClass(InterfaceExtendingInvalidAsyncResultHandler.class)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1649,
+        "lineEnd": 1649,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fail(\"Invalid async result handler extension should fail\")",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1650,
+        "lineEnd": 1650,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (GenException e)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_GeneratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1651,
+        "lineEnd": 1651,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    }
+]

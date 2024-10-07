@@ -1,0 +1,83 @@
+[
+    {
+        "cfgs": [],
+        "code": "String moduleName = guessCJSModuleName(normalizeSourceName(script.getSourceFileName()))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ProcessCommonJSModules.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 179,
+        "lineEnd": 180,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "5ef7a8a0a8263e8fd0291c7f11ad0bf4bd9cb1a4"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "assertEquals(\"module$baz\",pass.guessCJSModuleName(\"foo\\\\baz.js\"))",
+        "dfgs": [
+            2
+        ],
+        "fName": "test_com_google_javascript_jscomp_ProcessCommonJSModulesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"module$bar$baz\",pass.guessCJSModuleName(\"foo\\\\bar\\\\baz.js\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ProcessCommonJSModulesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "filename = filename.replace(\"\\\\\", \"/\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ProcessCommonJSModules.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String moduleName = guessCJSModuleName(script.getSourceFileName())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_ProcessCommonJSModules.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    }
+]

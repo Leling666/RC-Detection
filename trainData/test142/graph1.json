@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "return AttributeFactory.DEFAULT_ATTRIBUTE_FACTORY",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_analysis_Analyzer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "e92a38af90d12e51390b4307ccbe0c24ac7b6b4e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return TokenStream.DEFAULT_TOKEN_ATTRIBUTE_FACTORY",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_analysis_Analyzer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

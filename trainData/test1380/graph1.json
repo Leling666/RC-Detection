@@ -1,0 +1,238 @@
+[
+    {
+        "cfgs": [],
+        "code": "stopTime = System.currentTimeMillis()",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_StopWatch.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "4036dc881d3f091d123241e4e3f828930abacd13"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "public void testLang315() ",
+        "dfgs": [
+            2,
+            3,
+            5,
+            8,
+            10,
+            6,
+            9
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "StopWatch watch = new StopWatch()",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "watch.start()",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "watch.suspend()",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "long suspendTime = watch.getTime()",
+        "dfgs": [
+            8,
+            10
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "watch.stop()",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "long totalTime = watch.getTime()",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue( suspendTime == totalTime )",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_lang_time_StopWatchTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "if(this.runningState == STATE_RUNNING)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_StopWatch.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "stopTime = System.currentTimeMillis()",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_StopWatch.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    }
+]

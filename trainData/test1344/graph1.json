@@ -1,0 +1,471 @@
+[
+    {
+        "cfgs": [],
+        "code": "return Class.forName(name, false, Thread.currentThread().getContextClassLoader())",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "b82ab99340a46e28320d6b48dd1d5e6fc3bce98e"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "public void testPrimitiveTypeClassSerialization() ",
+        "dfgs": [
+            3,
+            5,
+            4
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_SerializationUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "Class<?>[] primitiveTypes = { byte.class, short.class, int.class, long.class, float.class, double.class,boolean.class, char.class, void.class }",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_SerializationUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 369,
+        "lineEnd": 370,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "for (Class<?> primitiveType : primitiveTypes)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_SerializationUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 372,
+        "lineEnd": 372,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Class<?> clone = SerializationUtils.clone(primitiveType)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_SerializationUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(primitiveType, clone)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_SerializationUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 374,
+        "lineEnd": 374,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.HashMap",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Map",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Map<String, Class<?>> primitiveTypes = new HashMap<String, Class<?>>()",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 239,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "primitiveTypes.put(\"byte\", byte.class)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "primitiveTypes.put(\"short\", short.class)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "primitiveTypes.put(\"int\", int.class)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "primitiveTypes.put(\"long\", long.class)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 257,
+        "lineEnd": 257,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "primitiveTypes.put(\"float\", float.class)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "primitiveTypes.put(\"double\", double.class)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "primitiveTypes.put(\"boolean\", boolean.class)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "primitiveTypes.put(\"char\", char.class)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "primitiveTypes.put(\"void\", void.class)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Class.forName(name, false, Thread.currentThread().getContextClassLoader())",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (ClassNotFoundException cnfe)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 281,
+        "lineEnd": 281,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "Class<?> cls = primitiveTypes.get(name)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23,
+            24
+        ],
+        "code": "if (cls != null)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return cls",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw cnfe",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_SerializationUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    }
+]

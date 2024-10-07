@@ -1,0 +1,411 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "public void testMultiValuedFieldAndDocBoosts() throws Exception ",
+        "dfgs": [
+            1
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 224,
+        "lineEnd": 224,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d4108c2b80479258517f5a0fb200588190239a08"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "SolrInputField field = new SolrInputField( \"foo_t\" )",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 229,
+        "lineEnd": 229,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "3f35d9be82d8839e297c5358424b042d6f0bf3e8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fieldBoost = compoundBoost = 1.0f",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_DocumentBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "c8261a41d30e3966159e3bb9d4d23df0f8e3cf63"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.solr.schema.CopyField",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private void assertMultiValuedFieldAndDocBoosts(SolrInputField field) throws Exception ",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public void testMultiValuedFieldAndDocBoostsWithCopy() throws Exception ",
+        "dfgs": [
+            9,
+            11,
+            12,
+            13,
+            7,
+            8,
+            10
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "SolrCore core = h.getCore()",
+        "dfgs": [
+            8
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "IndexSchema schema = core.getLatestSchema()",
+        "dfgs": [
+            10
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "SolrInputField field = new SolrInputField( \"foo_t\" )",
+        "dfgs": [
+            10
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "List<CopyField> copyFields = schema.getCopyFieldsList(field.getName())",
+        "dfgs": [
+            11,
+            13
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "assertNotNull( copyFields )",
+        "dfgs": [
+            12
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "assertFalse( copyFields.isEmpty() )",
+        "dfgs": [
+            13
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertMultiValuedFieldAndDocBoosts( field )",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "public void testMultiValuedFieldAndDocBoostsNoCopy() throws Exception ",
+        "dfgs": [
+            17,
+            19,
+            20,
+            15,
+            16,
+            18
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "SolrCore core = h.getCore()",
+        "dfgs": [
+            16
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 264,
+        "lineEnd": 264,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "IndexSchema schema = core.getLatestSchema()",
+        "dfgs": [
+            18
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "SolrInputField field = new SolrInputField( \"t_foo\" )",
+        "dfgs": [
+            18
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "List<CopyField> copyFields = schema.getCopyFieldsList(field.getName())",
+        "dfgs": [
+            20,
+            19
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "assertTrue( copyFields == null || copyFields.isEmpty() )",
+        "dfgs": [
+            20
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertMultiValuedFieldAndDocBoosts( field )",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_update_DocumentBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fieldBoost = compoundBoost = 1.0f",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_DocumentBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    }
+]

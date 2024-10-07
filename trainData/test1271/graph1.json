@@ -1,0 +1,108 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (a0 > overflow)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_fraction_Fraction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "9fec47b79bbb40a78eb79e5a66716697c91ae0be"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if ((p2 > overflow) || (q2 > overflow))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_fraction_Fraction.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 209,
+        "lineEnd": 209,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "9fec47b79bbb40a78eb79e5a66716697c91ae0be"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "checkIntegerOverflow(-1.0e10)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fraction_FractionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkIntegerOverflow(-43979.60679604749)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_fraction_FractionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (FastMath.abs(a0) > overflow)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_fraction_Fraction.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if ((FastMath.abs(p2) > overflow) || (FastMath.abs(q2) > overflow))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_fraction_Fraction.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 209,
+        "lineEnd": 209,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    }
+]

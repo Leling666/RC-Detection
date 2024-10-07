@@ -1,0 +1,2084 @@
+[
+    {
+        "cfgs": [],
+        "code": "import de.caluga.morphium.*",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "dee05cd9984cad2e4b295322bd16a712a1a43f9b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 336,
+        "lineEnd": 336,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 362,
+        "lineEnd": 362,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 400,
+        "lineEnd": 400,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 442,
+        "lineEnd": 442,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapperImpl om = (ObjectMapperImpl) morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 489,
+        "lineEnd": 489,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "af8f996cd4c1ad628ec590df31359feeb6833333"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "target.put(marshallIfNecessary(entry.getKey()), marshallIfNecessary(v))",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": 39,
+        "methodParents": [
+            15
+        ],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "dee05cd9984cad2e4b295322bd16a712a1a43f9b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return marshallIfNecessary(v)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 194,
+        "lineEnd": 194,
+        "lineMapIndex": -1,
+        "methodParents": [
+            15
+        ],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "dee05cd9984cad2e4b295322bd16a712a1a43f9b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fld.set(result, unmarshallIfPossible(fieldType, o.get(fName)))",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 416,
+        "lineEnd": 416,
+        "lineMapIndex": 53,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "dee05cd9984cad2e4b295322bd16a712a1a43f9b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (fieldType.isPrimitive() && o == null)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 452,
+        "lineEnd": 452,
+        "lineMapIndex": 106,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "dee05cd9984cad2e4b295322bd16a712a1a43f9b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (d == null)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_mapping_MorphiumIdMapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 16,
+        "lineEnd": 16,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import de.caluga.morphium.AnnotationAndReflectionHelper",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3,
+        "lineEnd": 3,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import de.caluga.morphium.ObjectMapper",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4,
+        "lineEnd": 4,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import de.caluga.morphium.ObjectMapperImplNG",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import de.caluga.morphium.Utils",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6,
+        "lineEnd": 6,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 209,
+        "lineEnd": 209,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 403,
+        "lineEnd": 403,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 445,
+        "lineEnd": 445,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ObjectMapper om = morphium.getMapper()",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ObjectMapperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 492,
+        "lineEnd": 492,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39,
+            44,
+            41
+        ],
+        "code": "if (v == null)",
+        "dfgs": [
+            39,
+            44,
+            41
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "target.put(marshallIfNecessary(entry.getKey()), null)",
+        "dfgs": [
+            44,
+            41
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": 15,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "Object value = marshallIfNecessary(v)",
+        "dfgs": [
+            44,
+            42,
+            43
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            44
+        ],
+        "code": "if (anhelper.isAnnotationPresentInHierarchy(valueType, Entity.class) || anhelper.isAnnotationPresentInHierarchy(valueType, Embedded.class))",
+        "dfgs": [
+            44,
+            43
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "((Map) value).put(\"class_name\", valueType.getName())",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "target.put(marshallIfNecessary(entry.getKey()), value)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": -1,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "Object ret = marshallIfNecessary(v)",
+        "dfgs": [
+            48,
+            46,
+            47
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47,
+            48
+        ],
+        "code": "if (anhelper.isAnnotationPresentInHierarchy(type, Entity.class) || anhelper.isAnnotationPresentInHierarchy(type, Embedded.class))",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "((Map) ret).put(\"class_name\", type.getName())",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 204,
+        "lineEnd": 204,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return ret",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50,
+            53
+        ],
+        "code": "if (o.get(fName) == null)",
+        "dfgs": [
+            51,
+            105,
+            53,
+            50
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 383,
+        "lineEnd": 383,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "if (!fieldType.isPrimitive())",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 384,
+        "lineEnd": 384,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fld.set(result, null)",
+        "dfgs": [
+            105,
+            53
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 385,
+        "lineEnd": 385,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 387,
+        "lineEnd": 387,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "Object value = unmarshallIfPossible(fieldType, o.get(fName))",
+        "dfgs": [
+            105,
+            54,
+            56,
+            57,
+            66,
+            76,
+            86,
+            73,
+            96,
+            83,
+            93,
+            103
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 433,
+        "lineEnd": 433,
+        "lineMapIndex": 17,
+        "methodParents": [
+            106
+        ],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55,
+            105
+        ],
+        "code": "if (value != null && !fieldType.isAssignableFrom(value.getClass()))",
+        "dfgs": [
+            105,
+            55,
+            57,
+            66,
+            76,
+            86,
+            96
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 434,
+        "lineEnd": 434,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56,
+            65
+        ],
+        "code": "if (value instanceof String)",
+        "dfgs": [
+            105,
+            65,
+            58,
+            60,
+            62,
+            64
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 435,
+        "lineEnd": 435,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "log.info(\"Got String but have number\")",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 436,
+        "lineEnd": 436,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58,
+            59
+        ],
+        "code": "if (fieldType.equals(Integer.class) || fieldType.equals(int.class))",
+        "dfgs": [
+            58,
+            66,
+            75,
+            59,
+            77,
+            79,
+            88,
+            81,
+            98,
+            84
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 437,
+        "lineEnd": 437,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = Integer.valueOf((String) value)",
+        "dfgs": [
+            105,
+            75,
+            66,
+            77,
+            79,
+            88,
+            81,
+            84,
+            98
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 438,
+        "lineEnd": 438,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60,
+            61
+        ],
+        "code": "if (fieldType.equals(Double.class) || fieldType.equals(Double.class))",
+        "dfgs": [
+            60,
+            61,
+            68,
+            95,
+            78,
+            97,
+            90,
+            99,
+            101,
+            104
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 439,
+        "lineEnd": 439,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = Double.valueOf((String) value)",
+        "dfgs": [
+            105,
+            68,
+            95,
+            78,
+            97,
+            90,
+            99,
+            101,
+            104
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 440,
+        "lineEnd": 440,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62,
+            63
+        ],
+        "code": "if (fieldType.equals(Long.class) || fieldType.equals(long.class))",
+        "dfgs": [
+            65,
+            67,
+            76,
+            62,
+            69,
+            86,
+            63,
+            71,
+            96,
+            74
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 441,
+        "lineEnd": 441,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = Long.valueOf((String) value)",
+        "dfgs": [
+            105,
+            65,
+            67,
+            76,
+            69,
+            86,
+            71,
+            74,
+            96
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 442,
+        "lineEnd": 442,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64,
+            105
+        ],
+        "code": "if (fieldType.equals(Float.class) || fieldType.equals(float.class))",
+        "dfgs": [
+            85,
+            70,
+            64,
+            80,
+            87,
+            89,
+            91,
+            100,
+            94
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 443,
+        "lineEnd": 443,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = Float.valueOf((String) value)",
+        "dfgs": [
+            105,
+            85,
+            70,
+            87,
+            80,
+            89,
+            91,
+            94,
+            100
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 444,
+        "lineEnd": 444,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66,
+            75
+        ],
+        "code": "if (value instanceof Long)",
+        "dfgs": [
+            75,
+            67,
+            69,
+            71,
+            74
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 446,
+        "lineEnd": 446,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67,
+            68
+        ],
+        "code": "if (fieldType.equals(Integer.class) || fieldType.equals(int.class))",
+        "dfgs": [
+            75,
+            68,
+            77,
+            79,
+            88,
+            81,
+            98,
+            84
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 447,
+        "lineEnd": 447,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Long) value).intValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69,
+            70
+        ],
+        "code": "if (fieldType.equals(Double.class) || fieldType.equals(Double.class))",
+        "dfgs": [
+            95,
+            70,
+            78,
+            97,
+            90,
+            99,
+            101,
+            104
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 449,
+        "lineEnd": 449,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Long) value).doubleValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 450,
+        "lineEnd": 450,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71,
+            72
+        ],
+        "code": "if (fieldType.equals(Float.class) || fieldType.equals(float.class))",
+        "dfgs": [
+            85,
+            80,
+            87,
+            89,
+            91,
+            100,
+            94
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 451,
+        "lineEnd": 451,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Long) value).floatValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 452,
+        "lineEnd": 452,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 453,
+        "lineEnd": 453,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "log.warn(\"Try string conversion to Long\")",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 454,
+        "lineEnd": 454,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = Long.valueOf(value.toString())",
+        "dfgs": [
+            105,
+            76,
+            86,
+            96
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 455,
+        "lineEnd": 455,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76,
+            85
+        ],
+        "code": "if (value instanceof Integer)",
+        "dfgs": [
+            85,
+            77,
+            79,
+            81,
+            84
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 457,
+        "lineEnd": 457,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77,
+            78
+        ],
+        "code": "if (fieldType.equals(Long.class) || fieldType.equals(long.class))",
+        "dfgs": [
+            86,
+            78,
+            96
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 458,
+        "lineEnd": 458,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Integer) value).longValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 459,
+        "lineEnd": 459,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79,
+            80
+        ],
+        "code": "if (fieldType.equals(Double.class) || fieldType.equals(double.class))",
+        "dfgs": [
+            95,
+            80,
+            90,
+            97,
+            99,
+            101,
+            104
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 460,
+        "lineEnd": 460,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Integer) value).doubleValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 461,
+        "lineEnd": 461,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81,
+            82
+        ],
+        "code": "if (fieldType.equals(Float.class) || fieldType.equals(float.class))",
+        "dfgs": [
+            85,
+            87,
+            89,
+            91,
+            100,
+            94
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 462,
+        "lineEnd": 462,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Integer) value).floatValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 463,
+        "lineEnd": 463,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 464,
+        "lineEnd": 464,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "log.warn(\"Try string conversion to Integer\")",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 465,
+        "lineEnd": 465,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = Integer.valueOf(value.toString())",
+        "dfgs": [
+            105,
+            88,
+            98
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 466,
+        "lineEnd": 466,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86,
+            95
+        ],
+        "code": "if (value instanceof Float)",
+        "dfgs": [
+            95,
+            87,
+            89,
+            91,
+            94
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87,
+            88
+        ],
+        "code": "if (fieldType.equals(Long.class) || fieldType.equals(long.class))",
+        "dfgs": [
+            96,
+            88
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Float) value).longValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 470,
+        "lineEnd": 470,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89,
+            90
+        ],
+        "code": "if (fieldType.equals(Integer.class) || fieldType.equals(int.class))",
+        "dfgs": [
+            98,
+            90
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 471,
+        "lineEnd": 471,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Float) value).intValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91,
+            92
+        ],
+        "code": "if (fieldType.equals(Double.class) || fieldType.equals(double.class))",
+        "dfgs": [
+            95,
+            97,
+            99,
+            101,
+            104
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Float) value).doubleValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            93
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 475,
+        "lineEnd": 475,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "log.warn(\"Try string conversion to Float\")",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 476,
+        "lineEnd": 476,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = Float.valueOf(value.toString())",
+        "dfgs": [
+            105,
+            100
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 477,
+        "lineEnd": 477,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96,
+            105
+        ],
+        "code": "if (value instanceof Double)",
+        "dfgs": [
+            105,
+            97,
+            99,
+            101,
+            104
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 479,
+        "lineEnd": 479,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97,
+            98
+        ],
+        "code": "if (fieldType.equals(Long.class) || fieldType.equals(long.class))",
+        "dfgs": [
+            98
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 480,
+        "lineEnd": 480,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Double) value).longValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 481,
+        "lineEnd": 481,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            99,
+            100
+        ],
+        "code": "if (fieldType.equals(Integer.class) || fieldType.equals(int.class))",
+        "dfgs": [
+            100
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 482,
+        "lineEnd": 482,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Double) value).intValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 483,
+        "lineEnd": 483,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            101,
+            102
+        ],
+        "code": "if (fieldType.equals(Float.class) || fieldType.equals(float.class))",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 484,
+        "lineEnd": 484,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = ((Double) value).floatValue()",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 485,
+        "lineEnd": 485,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 486,
+        "lineEnd": 486,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "log.warn(\"Try string conversion to Double\")",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 487,
+        "lineEnd": 487,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "value = Double.valueOf(value.toString())",
+        "dfgs": [
+            105
+        ],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 488,
+        "lineEnd": 488,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fld.set(result, value)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 492,
+        "lineEnd": 492,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (fieldType != null && fieldType.isPrimitive() && o == null)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_ObjectMapperImplNG.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 528,
+        "lineEnd": 528,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    }
+]

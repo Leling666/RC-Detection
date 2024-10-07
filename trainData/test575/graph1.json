@@ -1,0 +1,1183 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "assertEquals(8, state.size())",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_com_bmwcarit_barefoot_markov_KStateTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(8, state.size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_bmwcarit_barefoot_markov_KStateTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.bmwcarit.barefoot.util.Triple",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final LinkedList<Triple<Set<C>, S, C>> sequence",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "String kestid = jsonseqelement.getString(\"kestid\")",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "C kestimate = candidates.get(kestid)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "sequence.add(new Triple<>(vector, sample, kestimate))",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Collections.sort(sequence, new Comparator<Triple<Set<C>, S, C>>() {@Overridepublic int compare(Triple<Set<C>, S, C> left, Triple<Set<C>, S, C> right) {if (left.two().time() < right.two().time()) {return -1;} else if (left.two().time() > right.two().time()) {return +1;}return 0;}})",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 109,
+        "lineEnd": 119,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9",
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "for (Triple<Set<C>, S, C> element : sequence)",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 172,
+        "lineEnd": 172,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            17,
+            10,
+            11
+        ],
+        "code": "C kestimate = null",
+        "dfgs": [
+            17,
+            11
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "throw new RuntimeException(\"Inconsistent update vector.\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 194,
+        "lineEnd": 194,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            17,
+            12
+        ],
+        "code": "if (kestimate == null || candidate.seqprob() > kestimate.seqprob())",
+        "dfgs": [
+            17,
+            12
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            17
+        ],
+        "code": "kestimate = candidate",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Triple<Set<C>, S, C> last = sequence.peekLast()",
+        "dfgs": [
+            15,
+            16,
+            14
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 204,
+        "lineEnd": 204,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            17,
+            15
+        ],
+        "code": "int size = sequence.peekLast().one().size()",
+        "dfgs": [
+            17,
+            15,
+            16
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [
+            17,
+            16
+        ],
+        "code": "if (deletes.size() != size || candidate != last.three())",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 216,
+        "lineEnd": 216,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "remove(candidate, sequence.size() - 1)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": 44,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "sequence.add(new Triple<>(vector, sample, kestimate))",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 222,
+        "lineEnd": 222,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            19,
+            20
+        ],
+        "code": "if (sequence.get(index).three() == candidate)",
+        "dfgs": [
+            21,
+            20
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "Set<C> vector = sequence.get(index).one()",
+        "dfgs": [
+            22,
+            25
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "counters.remove(candidate)",
+        "dfgs": [
+            22,
+            25
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "vector.remove(candidate)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": 49,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "C predecessor = candidate.predecessor()",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (predecessor != null)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "remove(predecessor, index - 1)",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": -1,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "C kestimate = sequence.peekLast().three()",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 299,
+        "lineEnd": 299,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "1a3c2520d0dc93a550ce2caadafd7dac125ba6ae"
+        ]
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "ksequence.push(sequence.get(i).three())",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "kestimate = sequence.get(i).three().predecessor()",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "for (Triple<Set<C>, S, C> element : sequence)",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 312,
+        "lineEnd": 312,
+        "lineMapIndex": 58,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "jsonseqelement.put(\"kestid\", element.three().id())",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "cd1b27591da26ea17637cc01fd6d4c427c06e7d9"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "assertEquals(7, state.size())",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_com_bmwcarit_barefoot_markov_KStateTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(7, state.size())",
+        "dfgs": [],
+        "fName": "src_test_java_com_bmwcarit_barefoot_markov_KStateTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.bmwcarit.barefoot.util.Tuple",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final LinkedList<Tuple<Set<C>, S>> sequence",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "sequence.add(new Tuple<>(vector, sample))",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            35
+        ],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Collections.sort(sequence, new Comparator<Tuple<Set<C>, S>>() {@Overridepublic int compare(Tuple<Set<C>, S> left, Tuple<Set<C>, S> right) {if (left.two().time() < right.two().time()) {return -1;} else if (left.two().time() > right.two().time()) {return +1;}return 0;}})",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            35
+        ],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 117,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "for (Tuple<Set<C>, S> element : sequence)",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            35
+        ],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            45,
+            40
+        ],
+        "code": "C estimate = estimate()",
+        "dfgs": [
+            45,
+            40,
+            44,
+            43,
+            41
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41,
+            43,
+            45,
+            42
+        ],
+        "code": "if (candidate.predecessor() == null)",
+        "dfgs": [
+            41,
+            45,
+            43,
+            44
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            45,
+            42
+        ],
+        "code": "candidate.predecessor(estimate)",
+        "dfgs": [
+            45,
+            43,
+            44
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            45
+        ],
+        "code": "throw new RuntimeException(\"inconsistent update vector\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45,
+            44
+        ],
+        "code": "Tuple<Set<C>, S> last = sequence.peekLast()",
+        "dfgs": [
+            45,
+            44
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            35
+        ],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "remove(candidate, sequence.size() - 1)",
+        "dfgs": [
+            45
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            35
+        ],
+        "isDel": false,
+        "lineBeg": 212,
+        "lineEnd": 212,
+        "lineMapIndex": 16,
+        "methodParents": [
+            46
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "sequence.add(new Tuple<>(vector, sample))",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            35
+        ],
+        "isDel": false,
+        "lineBeg": 216,
+        "lineEnd": 216,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "while (index >= 0)",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "Set<C> vector = sequence.get(index).one()",
+        "dfgs": [
+            49,
+            54
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            35
+        ],
+        "isDel": false,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "counters.remove(candidate)",
+        "dfgs": [
+            49,
+            53
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "vector.remove(candidate)",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "C predecessor = candidate.predecessor()",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 239,
+        "lineEnd": 239,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52,
+            53,
+            55
+        ],
+        "code": "if (predecessor == null)",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "candidate = predecessor",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "index -= 1",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "C kestimate = estimate()",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 290,
+        "lineEnd": 290,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "for (Tuple<Set<C>, S> element : sequence)",
+        "dfgs": [],
+        "fName": "src_main_java_com_bmwcarit_barefoot_markov_KState.java",
+        "fieldParents": [
+            35
+        ],
+        "isDel": false,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    }
+]

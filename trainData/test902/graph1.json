@@ -1,0 +1,369 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "String wordToUse = split[0]",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d8d815e86544be07ae27f444c842bdc2cb2e346b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!wordToUse.matches(\"[\\\\p{L}]+\"))",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "3e78c3e5b30a1a5690acab012a48ac96c7dfddf6"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "Query query = queryParser.parse(searchString.replace(\" \", \"_\"))",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "1a3e15751df0877879b78a61f542aade3b3680dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.info(\"Searching for '\" + searchString + \"'. Number of hits: \" + searchResult.totalHits)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "1a3e15751df0877879b78a61f542aade3b3680dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executeInTransaction(\"CALL ga.nlp.ml.word2vec.listModels()\", (result -> {assertTrue(result.hasNext());while (result.hasNext()) {Map<String, Object> record = result.next();assertEquals(\"numberbatch\", record.get(\"name\"));assertEquals(86, (long) record.get(\"indexCount\"));}}))",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_Word2VecProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 51,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "3e78c3e5b30a1a5690acab012a48ac96c7dfddf6",
+            "045edb229f97a6f5a116c7fefd9cc0361fcc0c98"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public int getWord2VecDimension(String modelId) ",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecProcessor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [
+            19
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final List<String> PUNCTUATIONS = Arrays.asList(\",\", \".\", \"?\", \"!\", \":\", \";\", \"-\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "String wordToUse = split[0].trim()",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (!wordToUse.matches(\"[\\\\p{L}]+\") && !wordToUse.matches(\"[\\\\p{N}]+\")&& !PUNCTUATIONS.contains(wordToUse) && !wordToUse.contains(\"_\"))",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexCreator.java",
+        "fieldParents": [
+            6
+        ],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 101,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private int vectorDimension",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "StoredField binaryVector = (StoredField) getIndexSearcher().doc(0).getField(Word2VecIndexCreator.VECTOR_FIELD)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "this.vectorDimension = TypeConverter.toFloatArray(binaryVector.binaryValue().bytes).length",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "catch (IOException e)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "LOG.error(\"Couldn't retrieve vector dimension. \", e)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.vectorDimension = -1",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "Query query = queryParser.parse(searchString.replace(\" \", \"_\").replace(\"*\", \"\\\\*\").replace(\"?\", \"\\\\?\"))",
+        "dfgs": [
+            17,
+            18
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 75,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "LOG.debug(\"Searching for '\" + searchString + \"'. Number of hits: \" + searchResult.totalHits)",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"Found too many hits for search string \" + searchString + \".\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public int getVectorDimension() ",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_word2vec_Word2VecIndexLookup.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "executeInTransaction(\"CALL ga.nlp.ml.word2vec.listModels()\", (result -> {assertTrue(result.hasNext());while (result.hasNext()) {Map<String, Object> record = result.next();assertEquals(\"numberbatch\", record.get(\"name\"));assertEquals(100, (long) record.get(\"indexCount\"));}}))",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_Word2VecProcedureTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    }
+]

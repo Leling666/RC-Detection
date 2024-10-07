@@ -1,0 +1,804 @@
+[
+    {
+        "cfgs": [
+            1,
+            2
+        ],
+        "code": "if (field == Calendar.SECOND)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_java_org_apache_commons_lang_time_DateUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 643,
+        "lineEnd": 643,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "9cbf70d82285d7ebdd190f7cd59f2a9d82a09c61"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "done = true",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_DateUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 644,
+        "lineEnd": 644,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "9cbf70d82285d7ebdd190f7cd59f2a9d82a09c61"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (field == Calendar.MINUTE)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_DateUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 652,
+        "lineEnd": 652,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "9cbf70d82285d7ebdd190f7cd59f2a9d82a09c61"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "done = true",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_DateUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 653,
+        "lineEnd": 653,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "9cbf70d82285d7ebdd190f7cd59f2a9d82a09c61"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "public void testRoundLang346() throws Exception",
+        "dfgs": [
+            5,
+            6,
+            8,
+            10,
+            11,
+            13,
+            14,
+            15,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            29,
+            30,
+            32,
+            33,
+            35,
+            7,
+            9,
+            12,
+            16,
+            20,
+            24,
+            28,
+            31,
+            34
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 699,
+        "lineEnd": 700,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "TimeZone.setDefault(defaultZone)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 701,
+        "lineEnd": 701,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "dateTimeParser.setTimeZone(defaultZone)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 702,
+        "lineEnd": 702,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Calendar testCalendar = Calendar.getInstance()",
+        "dfgs": [
+            8,
+            15,
+            19,
+            23,
+            27,
+            10,
+            13,
+            17,
+            21,
+            25,
+            29,
+            32,
+            35
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 703,
+        "lineEnd": 703,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "testCalendar.set(2007, 6, 2, 8, 8, 50)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 704,
+        "lineEnd": 704,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Date date = testCalendar.getTime()",
+        "dfgs": [
+            11,
+            10
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 705,
+        "lineEnd": 705,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "assertEquals(\"Minute Round Up Failed\",dateTimeParser.parse(\"July 2, 2007 08:09:00.000\"),DateUtils.round(date, Calendar.MINUTE))",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 706,
+        "lineEnd": 708,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "testCalendar.set(2007, 6, 2, 8, 8, 20)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 710,
+        "lineEnd": 710,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "date = testCalendar.getTime()",
+        "dfgs": [
+            14,
+            13
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 711,
+        "lineEnd": 711,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(\"Minute No Round Failed\",dateTimeParser.parse(\"July 2, 2007 08:08:00.000\"),DateUtils.round(date, Calendar.MINUTE))",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 712,
+        "lineEnd": 714,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "testCalendar.set(2007, 6, 2, 8, 8, 50)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 716,
+        "lineEnd": 716,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "testCalendar.set(Calendar.MILLISECOND, 600)",
+        "dfgs": [
+            19,
+            16
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 717,
+        "lineEnd": 717,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "date = testCalendar.getTime()",
+        "dfgs": [
+            18,
+            17
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 718,
+        "lineEnd": 718,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertEquals(\"Second Round Up with 600 Milli Seconds Failed\",dateTimeParser.parse(\"July 2, 2007 08:08:51.000\"),DateUtils.round(date, Calendar.SECOND))",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 720,
+        "lineEnd": 722,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "testCalendar.set(2007, 6, 2, 8, 8, 50)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 724,
+        "lineEnd": 724,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "testCalendar.set(Calendar.MILLISECOND, 200)",
+        "dfgs": [
+            23,
+            20
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 725,
+        "lineEnd": 725,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "date = testCalendar.getTime()",
+        "dfgs": [
+            22,
+            21
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 726,
+        "lineEnd": 726,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "assertEquals(\"Second Round Down with 200 Milli Seconds Failed\",dateTimeParser.parse(\"July 2, 2007 08:08:50.000\"),DateUtils.round(date, Calendar.SECOND))",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 727,
+        "lineEnd": 729,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "testCalendar.set(2007, 6, 2, 8, 8, 20)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 731,
+        "lineEnd": 731,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "testCalendar.set(Calendar.MILLISECOND, 600)",
+        "dfgs": [
+            27,
+            24
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 732,
+        "lineEnd": 732,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "date = testCalendar.getTime()",
+        "dfgs": [
+            26,
+            25
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 733,
+        "lineEnd": 733,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "assertEquals(\"Second Round Up with 200 Milli Seconds Failed\",dateTimeParser.parse(\"July 2, 2007 08:08:21.000\"),DateUtils.round(date, Calendar.SECOND))",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 734,
+        "lineEnd": 736,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "testCalendar.set(2007, 6, 2, 8, 8, 20)",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 738,
+        "lineEnd": 738,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "testCalendar.set(Calendar.MILLISECOND, 200)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 739,
+        "lineEnd": 739,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "date = testCalendar.getTime()",
+        "dfgs": [
+            30,
+            29
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 740,
+        "lineEnd": 740,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "assertEquals(\"Second Round Down with 200 Milli Seconds Failed\",dateTimeParser.parse(\"July 2, 2007 08:08:20.000\"),DateUtils.round(date, Calendar.SECOND))",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 741,
+        "lineEnd": 743,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "testCalendar.set(2007, 6, 2, 8, 8, 50)",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 745,
+        "lineEnd": 745,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "date = testCalendar.getTime()",
+        "dfgs": [
+            33,
+            32
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 746,
+        "lineEnd": 746,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "assertEquals(\"Hour Round Down Failed\",dateTimeParser.parse(\"July 2, 2007 08:00:00.000\"),DateUtils.round(date, Calendar.HOUR))",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 747,
+        "lineEnd": 749,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "testCalendar.set(2007, 6, 2, 8, 31, 50)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 751,
+        "lineEnd": 751,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "date = testCalendar.getTime()",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 752,
+        "lineEnd": 752,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"Hour Round Up Failed\",dateTimeParser.parse(\"July 2, 2007 09:00:00.000\"),DateUtils.round(date, Calendar.HOUR))",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_lang_time_DateUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 753,
+        "lineEnd": 755,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37,
+            38
+        ],
+        "code": "if (field == Calendar.SECOND)",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_java_org_apache_commons_lang_time_DateUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 644,
+        "lineEnd": 644,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "done = true",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_DateUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 645,
+        "lineEnd": 645,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "if (field == Calendar.MINUTE)",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_DateUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 653,
+        "lineEnd": 653,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "done = true",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_lang_time_DateUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 654,
+        "lineEnd": 654,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    }
+]

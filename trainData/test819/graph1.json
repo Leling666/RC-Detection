@@ -1,0 +1,690 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "String templateBody =\"  {$boo.foo}{$boo.foo}\\n\" +\"  {$goo + 1 |noAutoescape}\\n\" +\"  {print 'blah    blahblahblah' |escapeHtml|insertWordBreaks:8}\\n\"",
+        "dfgs": [
+            1
+        ],
+        "fName": "java_tests_com_google_template_soy_soyparse_TemplateParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 744,
+        "lineEnd": 747,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "17db4aef4f110025a94a15b91c99607b754b5b90",
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(pn2d0.couldHaveSyntaxVersionAtLeast(SyntaxVersion.V2_1))",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_soyparse_TemplateParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 770,
+        "lineEnd": 770,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String testPrintTags = \"{'<br>' |noAutoescape}{'<br>' |noAutoescape |noAutoescape}\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_parsepasses_contextautoesc_PerformDeprecatedNonContextualAutoescapeVisitorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String testPrintTags =\"{'<br>' |escapeHtml}{'<br>' |noAutoescape |escapeHtml}{'<br>' |escapeHtml |noAutoescape}\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_parsepasses_contextautoesc_PerformDeprecatedNonContextualAutoescapeVisitorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 221,
+        "lineEnd": 222,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "17db4aef4f110025a94a15b91c99607b754b5b90",
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return name + ((argsText.length() > 0) ? \":\" + argsText : \"\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": true,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final String name",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public Builder(int id, String name, String argsText, SourceLocation sourceLocation) ",
+        "dfgs": [
+            7
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.name = name",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": true,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new PrintDirectiveNode(id, name, args, argsText, sourceLocation)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": true,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "7c8ebfe527481d3bb245667703b8f37d6bed4e47"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "String templateBody =\"  {$boo.foo}{$boo.foo}\\n\" +\"  {$goo + 1 |noescape}\\n\" +  // note '|noescape' is allowed in V2_0 but not V2_1\"  {print 'blah    blahblahblah' |escapeHtml|insertWordBreaks:8}\\n\"",
+        "dfgs": [
+            10
+        ],
+        "fName": "java_tests_com_google_template_soy_soyparse_TemplateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 744,
+        "lineEnd": 747,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(pn2d0.couldHaveSyntaxVersionAtLeast(SyntaxVersion.V2_1))",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_soyparse_TemplateParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 770,
+        "lineEnd": 770,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String testPrintTags = \"{'<br>' |noescape}{'<br>' |noAutoescape |noAutoescape}\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_parsepasses_contextautoesc_PerformDeprecatedNonContextualAutoescapeVisitorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String testPrintTags =\"{'<br>' |escape}{'<br>' |noAutoescape |escapeHtml}{'<br>' |escape |noescape}\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_parsepasses_contextautoesc_PerformDeprecatedNonContextualAutoescapeVisitorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 221,
+        "lineEnd": 222,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.ImmutableMap",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.ImmutableSet",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.basetree.SyntaxVersion",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.basetree.SyntaxVersionBound",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Map",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "private static final Set<String> V1_DIRECTIVE_NAMES = ImmutableSet.of(\"|noescape\", \"|escape\", \"|insertwordbreaks\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Map<String, String> DEPRECATED_DIRECTIVE_NAMES = ImmutableMap.of(\"|noescape\", \"|noAutoescape\",\"|escape\", \"|escapeHtml\",\"|escapeJs\", \"|escapeJsString\",\"|insertwordbreaks\", \"|insertWordBreaks\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final String srcName",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "private PrintDirectiveNode(int id,String name,String srcName,ImmutableList<ExprRootNode> args,String argsText,SourceLocation sourceLocation)",
+        "dfgs": [
+            25,
+            23,
+            24
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "this.srcName = srcName",
+        "dfgs": [
+            25
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (V1_DIRECTIVE_NAMES.contains(srcName))",
+        "dfgs": [
+            25
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            19
+        ],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "maybeSetSyntaxVersionBound(new SyntaxVersionBound(SyntaxVersion.V2_1, \"Print directive '\" + srcName + \"' is from Soy V1.0.\"))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.srcName = orig.srcName",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return srcName + ((argsText.length() > 0) ? \":\" + argsText : \"\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final String srcName",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 143,
+        "lineEnd": 143,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "public Builder(int id, String srcName, String argsText, SourceLocation sourceLocation) ",
+        "dfgs": [
+            30
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.srcName = srcName",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "String name = parseName()",
+        "dfgs": [
+            32
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new PrintDirectiveNode(id, name, srcName, args, argsText, sourceLocation)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": 8,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "private String parseName() ",
+        "dfgs": [
+            34,
+            35,
+            36,
+            38
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "String translatedDirectiveName = DEPRECATED_DIRECTIVE_NAMES.get(srcName)",
+        "dfgs": [
+            35,
+            36
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            20
+        ],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36,
+            37
+        ],
+        "code": "if (translatedDirectiveName == null)",
+        "dfgs": [
+            38
+        ],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 172,
+        "lineEnd": 172,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return srcName",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [
+            21
+        ],
+        "isDel": false,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return translatedDirectiveName",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_PrintDirectiveNode.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    }
+]

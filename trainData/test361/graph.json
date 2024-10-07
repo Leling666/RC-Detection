@@ -1,0 +1,1 @@
+[{"cfgs":[],"code":"if (key == \"$ref\"\r&& context != null&& (object == null || object.size() == 0)&& !lexer.isEnabled(Feature.DisableSpecialKeyDetect))","dfgs":[],"fName":"src_main_java_com_alibaba_fastjson_parser_DefaultJSONParser.java","fieldParents":[],"isDel":false,"lineBeg":399,"lineEnd":402,"lineMapIndex":-1,"methodParents":[],"nodeIndex":0}]

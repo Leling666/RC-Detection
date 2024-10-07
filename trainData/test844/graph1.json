@@ -1,0 +1,696 @@
+[
+    {
+        "cfgs": [],
+        "code": "import io.vertx.test.codegen.testapi.OptionsInterface",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import io.vertx.test.codegen.testapi.OptionsWithJsonConstructor",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 6,
+        "lineEnd": 6,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import io.vertx.test.codegen.testapi.OptionsWithNoJsonConstructor",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testOptionsWithNoJsonConstructor() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "new Generator().checkOptions(OptionsWithNoJsonConstructor.class)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testOptionsWithJsonConstructor() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "new Generator().checkOptions(OptionsWithJsonConstructor.class)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testOptionsInterface() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "new Generator().checkOptions(OptionsInterface.class)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import javax.lang.model.element.VariableElement",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import javax.lang.model.type.*",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import javax.lang.model.type.TypeKind",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "377e5166ef1bd2c04802042d2a103f7a862fa6c6"
+        ]
+    },
+    {
+        "cfgs": [
+            19,
+            13
+        ],
+        "code": "if (optionElt.getKind() == ElementKind.CLASS)",
+        "dfgs": [
+            13,
+            19
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [
+            19,
+            14
+        ],
+        "code": "if (memberElt.getKind() == ElementKind.CONSTRUCTOR)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "ExecutableElement ctorElt = (ExecutableElement) memberElt",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [
+            19,
+            16
+        ],
+        "code": "if (ctorElt.getParameters().size() == 1)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "VariableElement v = ctorElt.getParameters().get(0)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 290,
+        "lineEnd": 290,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "TypeMirror type = v.asType()",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "if (type.getKind() == TypeKind.DECLARED && type.toString().equals(Model.JSON_OBJECT))",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "5ed1de4514e2060d4db78c35bb2ff3ad0e9441df"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new GenException(optionElt, \"Options \" + optionElt + \" class does not have a JsonObject constructor\")",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "3f9a7371eb6973fc52b28bf713a2dc10c44aaf17"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import io.vertx.test.codegen.testapi.OptionsClass",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5,
+        "lineEnd": 5,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import io.vertx.test.codegen.testapi.OptionsWithFactoryMethod",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6,
+        "lineEnd": 6,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import io.vertx.test.codegen.testapi.OptionsWithNoFactoryMethod",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testOptionsWithNoFactoryMethod() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "new Generator().checkOptions(OptionsWithNoFactoryMethod.class)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testOptionsWithFactoryMethod() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "new Generator().checkOptions(OptionsWithFactoryMethod.class)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testOptionsClass() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "new Generator().checkOptions(OptionsClass.class)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fail()",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (GenException e)",
+        "dfgs": [],
+        "fName": "src_test_java_io_vertx_test_codegen_OptionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import javax.lang.model.element.Modifier",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37,
+            34,
+            38
+        ],
+        "code": "if (optionElt.getKind() == ElementKind.INTERFACE)",
+        "dfgs": [
+            34,
+            37,
+            39
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37,
+            35
+        ],
+        "code": "if (memberElt.getKind() == ElementKind.METHOD)",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37,
+            36
+        ],
+        "code": "if (memberElt.getSimpleName().toString().equals(\"optionsFromJson\"))",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "if (memberElt.getModifiers().contains(Modifier.STATIC))",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new GenException(optionElt, \"Options \" + optionElt + \" class does not have a static factory method called optionsFromJson\")",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new GenException(optionElt, \"Options \" + optionElt + \" must be an interface not a class\")",
+        "dfgs": [],
+        "fName": "src_main_java_io_vertx_codegen_Generator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 297,
+        "lineEnd": 297,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    }
+]

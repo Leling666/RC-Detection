@@ -1,0 +1,856 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "minpackTest(new FreudensteinRothFunction(new double[] { 5.0, -20.0 },12432.833948863, 6.9988751744895,new double[] {11.4121122022341,-0.8968550851268697}), false)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_MinpackTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 152,
+        "lineEnd": 157,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536",
+            "d72010f4402206c7fab816f30a7f3932b1d8574f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "minpackTest(new FreudensteinRothFunction(new double[] { 50.0, -200.0 },11426454.595762, 6.99887517242903,new double[] {11.412069435091231,-0.8968582807605691}), false)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_MinpackTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 158,
+        "lineEnd": 163,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536",
+            "d72010f4402206c7fab816f30a7f3932b1d8574f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "minpackTest(new JennrichSampsonFunction(10, new double[] { 0.3, 0.4 },64.5856498144943, 11.1517793413499,new double[] {0.2578330049, 0.257829976764542}), false)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_MinpackTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 325,
+        "lineEnd": 329,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536",
+            "d72010f4402206c7fab816f30a7f3932b1d8574f"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "qTy(residuals)",
+        "dfgs": [
+            5,
+            11,
+            8
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "c37f06ed3ad2de8d49a80ac46aae3ab7748598a4"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "sum += jacobian[i][pj] * residuals[i]",
+        "dfgs": [
+            5,
+            8,
+            11
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 318,
+        "lineEnd": 318,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "c37f06ed3ad2de8d49a80ac46aae3ab7748598a4"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "determineLMParameter(oldRes, delta, diag, work1, work2, work3)",
+        "dfgs": [
+            8,
+            11,
+            6,
+            7
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 348,
+        "lineEnd": 348,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "c37f06ed3ad2de8d49a80ac46aae3ab7748598a4"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "current = new VectorialPointValuePair(point, objective)",
+        "dfgs": [
+            8,
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            10
+        ],
+        "code": "if (checker != null)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 437,
+        "lineEnd": 437,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (checker.converged(getIterations(), previous, current))",
+        "dfgs": [
+            11,
+            9
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 439,
+        "lineEnd": 439,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return current",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 440,
+        "lineEnd": 440,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "2e75b28336f3ae4d219ebdad44cc1dfadb8a3fd2"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 442,
+        "lineEnd": 442,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "if (((Math.abs(actRed) <= costRelativeTolerance) &&(preRed <= costRelativeTolerance) &&(ratio <= 2.0)) ||(delta <= parRelativeTolerance * xNorm))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 444,
+        "lineEnd": 447,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536",
+            "c37f06ed3ad2de8d49a80ac46aae3ab7748598a4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return current",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "24218a5278ca3d99c209efc990d16048e29c8536"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "double chiSquare = 0",
+        "dfgs": [
+            17,
+            16
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "3a0df1ba4839d20d4ace6c0060c8e989b8c8f985"
+        ]
+    },
+    {
+        "cfgs": [
+            15,
+            17
+        ],
+        "code": "for (int i = 0; i < rows; ++i)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "3a0df1ba4839d20d4ace6c0060c8e989b8c8f985"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "final double residual = residuals[i]",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "c37f06ed3ad2de8d49a80ac46aae3ab7748598a4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "chiSquare += residual * residual * residualsWeights[i]",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "c640932de203b33683679879cdf4b1b637d473d3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return chiSquare",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "3a0df1ba4839d20d4ace6c0060c8e989b8c8f985"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "minpackTest(new FreudensteinRothFunction(new double[] { 5.0, -20.0 },12432.833948863, 6.9988751744895,new double[] {11.41300466147456,-0.896796038685959}), false)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_MinpackTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 157,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "minpackTest(new FreudensteinRothFunction(new double[] { 50.0, -200.0 },11426454.595762, 6.99887517242903,new double[] {11.412781785788564,-0.8968051074920405}), false)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_MinpackTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 163,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "minpackTest(new JennrichSampsonFunction(10, new double[] { 0.3, 0.4 },64.5856498144943, 11.1517793413499,new double[] {//                                            0.2578330049, 0.2578299767645420.2578199266368004, 0.25782997676455244}), false)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_MinpackTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 325,
+        "lineEnd": 330,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "double[] oldObj  = new double[rows]",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "double[] qtf     = new double[rows]",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24,
+            25
+        ],
+        "code": "for (int i=0;i<rows;i++)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 272,
+        "lineEnd": 272,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "qtf[i]=residuals[i]",
+        "dfgs": [
+            25,
+            32,
+            26
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            27,
+            29
+        ],
+        "code": "qTy(qtf)",
+        "dfgs": [
+            27,
+            32,
+            41,
+            35,
+            29,
+            26
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27,
+            29
+        ],
+        "code": "sum += jacobian[i][pj] * qtf[i]",
+        "dfgs": [
+            32,
+            27,
+            35,
+            41
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 321,
+        "lineEnd": 321,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "updateResidualsAndCost()",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 329,
+        "lineEnd": 329,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "current = new VectorialPointValuePair(point, objective)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 330,
+        "lineEnd": 330,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "tmpVec    = objective",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 351,
+        "lineEnd": 351,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "objective = oldObj",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 352,
+        "lineEnd": 352,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "oldObj    = tmpVec",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 353,
+        "lineEnd": 353,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33,
+            37
+        ],
+        "code": "determineLMParameter(qtf, delta, diag, work1, work2, work3)",
+        "dfgs": [
+            35,
+            41,
+            40,
+            33,
+            37,
+            34
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 356,
+        "lineEnd": 356,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "current = new VectorialPointValuePair(point, objective)",
+        "dfgs": [
+            35,
+            42
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 430,
+        "lineEnd": 430,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35,
+            40
+        ],
+        "code": "if (checker != null)",
+        "dfgs": [
+            40,
+            35
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 433,
+        "lineEnd": 433,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36,
+            40
+        ],
+        "code": "if (checker.converged(getIterations(), previous, current))",
+        "dfgs": [
+            41,
+            40,
+            42,
+            36
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 435,
+        "lineEnd": 435,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return current",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 436,
+        "lineEnd": 436,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "tmpVec    = objective",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 449,
+        "lineEnd": 449,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "objective = oldObj",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 450,
+        "lineEnd": 450,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "oldObj    = tmpVec",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 451,
+        "lineEnd": 451,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "if (checker==null)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 453,
+        "lineEnd": 453,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "if (((Math.abs(actRed) <= costRelativeTolerance) &&(preRed <= costRelativeTolerance) &&(ratio <= 2.0)) ||(delta <= parRelativeTolerance * xNorm))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 454,
+        "lineEnd": 457,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return current",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 458,
+        "lineEnd": 458,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return cost*cost",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    }
+]

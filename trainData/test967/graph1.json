@@ -1,0 +1,1150 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "String quotedQuery = addRequiredQuotes(query)",
+        "dfgs": [
+            5,
+            9,
+            17,
+            7
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 24,
+        "methodParents": [
+            19
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "eb62b5e380c2fcfa1d248f0634dd0273d621f681"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "StringBuilder sb = new StringBuilder()",
+        "dfgs": [
+            15,
+            8
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "int paramPos = 0",
+        "dfgs": [
+            16,
+            6
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "int start = 0",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "int pos",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            15
+        ],
+        "code": "while ((pos = quotedQuery.indexOf(token, start)) != -1)",
+        "dfgs": [
+            15,
+            8,
+            9
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "eb62b5e380c2fcfa1d248f0634dd0273d621f681"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (paramPos >= parameters.length)",
+        "dfgs": [
+            16,
+            13,
+            10
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "throw new IllegalArgumentException(\"Not enough parameters passed to query: \" + query)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "sb.append(quotedQuery, start, pos)",
+        "dfgs": [
+            9,
+            12,
+            10
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "eb62b5e380c2fcfa1d248f0634dd0273d621f681"
+        ]
+    },
+    {
+        "cfgs": [
+            10,
+            11
+        ],
+        "code": "if (isValueToken(quotedQuery, pos))",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "eb62b5e380c2fcfa1d248f0634dd0273d621f681"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "sb.append(\"{\\\"\").append(MARSHALL_OPERATOR).append(\"\\\":\").append(paramPos).append(\"}\")",
+        "dfgs": [
+            15,
+            13
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "eb62b5e380c2fcfa1d248f0634dd0273d621f681"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "sb.append(parameters[paramPos])",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "paramPos++",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "start = pos + token.length()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "0a9881f9f18c85fa9db1111d488afc94edfe0290"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "sb.append(quotedQuery, start, quotedQuery.length())",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "eb62b5e380c2fcfa1d248f0634dd0273d621f681"
+        ]
+    },
+    {
+        "cfgs": [
+            17,
+            18
+        ],
+        "code": "if (paramPos < parameters.length)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "674f0df008f9e12ce132518c78add930aad677d1"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "throw new IllegalArgumentException(\"Too many parameters passed to query: \" + query)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "674f0df008f9e12ce132518c78add930aad677d1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "dbo = BasicDBObject.parse(sb.toString())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "eb62b5e380c2fcfa1d248f0634dd0273d621f681"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "private String addRequiredQuotes(String query) ",
+        "dfgs": [
+            22,
+            20,
+            21
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "eb62b5e380c2fcfa1d248f0634dd0273d621f681"
+        ]
+    },
+    {
+        "cfgs": [
+            21,
+            22
+        ],
+        "code": "if (query.trim().equals(\"#\"))",
+        "dfgs": [
+            21,
+            22
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "9657631071ad0854f2f714b343861d820bff3c2f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return query",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "7d9fb0d5d4bae31b08fabdda27eb7270ec529cf4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (c == '{')",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": true,
+        "commits": [
+            "7d9fb0d5d4bae31b08fabdda27eb7270ec529cf4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return Optional.of(stack.peek())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": 54,
+        "methodParents": [
+            23
+        ],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "7d9fb0d5d4bae31b08fabdda27eb7270ec529cf4"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "String quotedQuery = addRequiredQuotesAndParameters(query, parameters)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 0,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "dbo = BasicDBObject.parse(quotedQuery)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "private String addRequiredQuotesAndParameters(String query, Object[] parameters) ",
+        "dfgs": [
+            31,
+            52,
+            32,
+            34,
+            41,
+            40,
+            44,
+            47,
+            48,
+            50,
+            27,
+            30,
+            37,
+            38,
+            28,
+            29,
+            51,
+            36,
+            33,
+            35,
+            45,
+            39,
+            42,
+            46,
+            49
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "int paramIndex = 0",
+        "dfgs": [
+            51,
+            39
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "String previousToken = \"\"",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51,
+            30
+        ],
+        "code": "char currentStringStartingQuote = ' '",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31,
+            34
+        ],
+        "code": "if (stack.peek().isPresent() && stack.peek().get().equals(Context.STRING))",
+        "dfgs": [
+            33,
+            35
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "token += c",
+        "dfgs": [
+            37,
+            38
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33,
+            51
+        ],
+        "code": "if (c == currentStringStartingQuote)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "stack.pop()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35,
+            38
+        ],
+        "code": "if (c == '\\'' || c == '\"')",
+        "dfgs": [
+            36,
+            37,
+            38,
+            46
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "stack.push(Context.STRING)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "currentStringStartingQuote = c",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "token += c",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39,
+            46
+        ],
+        "code": "if ((token + c).lastIndexOf(this.token) == token.length() - this.token.length() + 1)",
+        "dfgs": [
+            41,
+            42,
+            47,
+            44,
+            48,
+            50,
+            49
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40,
+            41
+        ],
+        "code": "if (paramIndex >= parameters.length)",
+        "dfgs": [
+            51,
+            45,
+            44
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "throw new IllegalArgumentException(\"Not enough parameters passed to query: \" + query)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42,
+            43
+        ],
+        "code": "if (\"$oid\".equals(previousToken) ||\"$set\".equals(previousToken) ||!isValueToken(query, position))",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 115,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "token = \"\\\"\" + token.trim() + parameters[paramIndex] + \"\\\"\"",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "sb.append(\"{\\\"\").append(MARSHALL_OPERATOR).append(\"\\\":\").append(paramIndex).append(\"}\")",
+        "dfgs": [
+            45,
+            47,
+            48,
+            50
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 121,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "paramIndex++",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51,
+            47,
+            48,
+            49,
+            50
+        ],
+        "code": "if (c == '{')",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "previousToken = token",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "previousToken = token",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "previousToken = token",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "previousToken = token",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "if (paramIndex < parameters.length)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new IllegalArgumentException(\"Too many parameters passed to query: \" + query)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "STRING",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Optional.of(stack.peekLast())",
+        "dfgs": [],
+        "fName": "src_main_java_org_jongo_query_BsonQueryFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 221,
+        "lineEnd": 221,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void shouldCreateSimpleQuery() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_org_jongo_query_BsonQueryFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "Query query = factory.createQuery(\"{id:'\\\"[12,.:[]{}3]'}\")",
+        "dfgs": [
+            57
+        ],
+        "fName": "src_test_java_org_jongo_query_BsonQueryFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(query.toDBObject()).isEqualTo(QueryBuilder.start(\"id\").is(\"\\\"[12,.:[]{}3]\").get())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jongo_query_BsonQueryFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    }
+]

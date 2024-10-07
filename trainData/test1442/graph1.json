@@ -1,0 +1,199 @@
+[
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @return {boolean} */ function u() { return true; }\" +\"/** @param {boolean} b\\n@return {boolean} */\" +\"function f(b) { if (u()) { b = null; } return b; }\",\"inconsistent return type\\n\" +\"found   : (boolean|null)\\n\" +\"required: boolean\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1346,
+        "lineEnd": 1352,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "9b04e62d89c89cfa636ae803e210ddbeb007a626",
+            "de13c3313c05f4449c50c560324389d6905a214d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @param {number} x */\\n\" +\"function f(x) { /** @type {string} */ var x = ''; }\",\"variable x redefined with type string, \" +\"original definition at [testcode]:2 with type number\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1970,
+        "lineEnd": 1974,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "de13c3313c05f4449c50c560324389d6905a214d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @return {boolean} */ function u() { return true; }\" +\"/** @param {boolean} b\\n@return {boolean} */\" +\"function f(b) { if (u()) { b = null; } return b; }\",\"inconsistent return type\\n\" +\"found   : (boolean|null)\\n\" +\"required: boolean\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1499,
+        "lineEnd": 1505,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "9b04e62d89c89cfa636ae803e210ddbeb007a626",
+            "77b7c78d4aeeb6471f2f668a06c0f61a68f95ccd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @param {number} x */\\n\" +\"function f(x) { /** @type {string} */ var x = ''; }\",\"variable x redefined with type string, \" +\"original definition at [testcode]:2 with type number\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2132,
+        "lineEnd": 2136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "77b7c78d4aeeb6471f2f668a06c0f61a68f95ccd",
+            "de13c3313c05f4449c50c560324389d6905a214d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "defineSlot(astParameter, functionNode,jsDocParameter.getJSType(), true)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1744,
+        "lineEnd": 1745,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @return {boolean} */ function u() { return true; }\" +\"/** @param {boolean} b\\n@return {?boolean} */\" +\"function f(b) { if (u()) { b = null; } return b; }\",\"assignment\\n\" +\"found   : null\\n\" +\"required: boolean\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1346,
+        "lineEnd": 1352,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testClosureTypesMultipleWarnings(\"/** @param {number} x */\\n\" +\"function f(x) { /** @type {string} */ var x = ''; }\",Lists.newArrayList(\"variable x redefined with type string, original definition\" +\" at  [testcode] :2 with type number\",\"initializing variable\\n\" +\"found   : string\\n\" +\"required: number\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1970,
+        "lineEnd": 1978,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public void testScoping12() throws Exception ",
+        "dfgs": [
+            8
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1420,
+        "lineEnd": 1420,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @constructor */ function F() {}\" +\"/** @type {number} */ F.prototype.bar = 3;\" +\"/** @param {!F} f */ function g(f) {\" +\"  /** @return {string} */\" +\"  function h() {\" +\"    return f.bar;\" +\"  }\" +\"}\",\"inconsistent return type\\n\" +\"found   : number\\n\" +\"required: string\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1421,
+        "lineEnd": 1432,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @return {boolean} */ function u() { return true; }\" +\"/** @param {boolean} b\\n@return {?boolean} */\" +\"function f(b) { if (u()) { b = null; } return b; }\",\"assignment\\n\" +\"found   : null\\n\" +\"required: boolean\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1514,
+        "lineEnd": 1520,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testClosureTypesMultipleWarnings(\"/** @param {number} x */\\n\" +\"function f(x) { /** @type {string} */ var x = ''; }\",Lists.newArrayList(\"variable x redefined with type string, original definition\" +\" at  [testcode] :2 with type number\",\"initializing variable\\n\" +\"found   : string\\n\" +\"required: number\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2147,
+        "lineEnd": 2155,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "defineSlot(astParameter, functionNode,jsDocParameter.getJSType(), false)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypedScopeCreator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1744,
+        "lineEnd": 1745,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

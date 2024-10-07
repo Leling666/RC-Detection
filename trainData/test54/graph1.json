@@ -1,0 +1,3185 @@
+[
+    {
+        "cfgs": [],
+        "code": "return new LoggingRequestHelperImpl(logSearchHostName, logSearchPortNumber, logSearchProtocol, ambariManagementController.getCredentialStoreService(), cluster)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "63dc498c1d660277abd719ddfa9a256e36869718"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.log4j.Logger",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_Utils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 62,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "e4db57093f4d17497366cdfbf02127f36399bf42"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.LinkedList",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "e4db57093f4d17497366cdfbf02127f36399bf42"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "e4db57093f4d17497366cdfbf02127f36399bf42"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "private static List<Map<String, String>> createTestData(Resource resource) ",
+        "dfgs": [
+            5,
+            10,
+            11,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "Map<String, String> levelCounts = new HashMap<String, String>()",
+        "dfgs": [
+            6
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "levelCounts.put(\"INFO\", \"100\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "levelCounts.put(\"WARN\", \"250\")",
+        "dfgs": [
+            8
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "levelCounts.put(\"DEBUG\", \"300\")",
+        "dfgs": [
+            9
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "resource.setProperty(\"logLevels\", levelCounts)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "List<Map <String, String>> listOfResults = new LinkedList<Map<String, String>>()",
+        "dfgs": [
+            18
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "Map<String, String> resultOne = new HashMap<String, String>()",
+        "dfgs": [
+            12
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "resultOne.put(\"data\", \"This is a test sentence.\")",
+        "dfgs": [
+            13
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "resultOne.put(\"score\", \"100\")",
+        "dfgs": [
+            14
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "resultOne.put(\"level\", \"INFO\")",
+        "dfgs": [
+            15
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "resultOne.put(\"type\", \"hdfs_namenode\")",
+        "dfgs": [
+            16
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "resultOne.put(\"host\", \"c6401.ambari.apache.org\")",
+        "dfgs": [
+            17
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "resultOne.put(\"LoggerName\", \"NameNodeLogger\")",
+        "dfgs": [
+            18
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "listOfResults.add(resultOne)",
+        "dfgs": [
+            19
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return listOfResults",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_internal_LoggingResourceProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "LoggingService loggingService =new LoggingService(expectedClusterName, controllerFactoryMock, helperFactoryMock)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_api_services_LoggingServiceTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 127,
+        "lineEnd": 128,
+        "lineMapIndex": 63,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "e2636c725b12f32ea929746a82e0ebaea8bf9bbe"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.log4j.Logger",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_UtilsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "e1e51217e801696640ea5fa25b3d4e7fb61be412"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executor.execute(new LogSearchFileNameRequestRunnable(host, component, cluster, logFileNameCache, currentRequests))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": 110,
+        "methodParents": [
+            23
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "4066b7ef524e8dd7dad03b510e0b4792695c2598"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "LogSearchFileNameRequestRunnable(String host, String component, String cluster, Cache<String, Set<String>> logFileNameCache, Set<String> currentRequests) ",
+        "dfgs": [
+            24
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": 111,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "4066b7ef524e8dd7dad03b510e0b4792695c2598"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this(host, component, cluster, logFileNameCache, currentRequests, new LoggingRequestHelperFactoryImpl(), AmbariServer.getController())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": 112,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "4066b7ef524e8dd7dad03b510e0b4792695c2598"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.log4j.Logger",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Logger LOG = Logger.getLogger(LoggingSearchPropertyProvider.class)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 115,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "public LoggingSearchPropertyProvider() ",
+        "dfgs": [
+            28
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "loggingRequestHelperFactory = new LoggingRequestHelperFactoryImpl()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "b3226b35aec96ed3d0ed3d7c55bd02013b5975d2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "protected void setLogSearchDataRetrievalService(LogSearchDataRetrievalService logSearchDataRetrievalService) ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": 116,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "90c9904fcdeaf5a970cdd837a79144c9d18fd4e9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "protected void setLoggingRequestHelperFactory(LoggingRequestHelperFactory loggingRequestHelperFactory) ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": 117,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "b3226b35aec96ed3d0ed3d7c55bd02013b5975d2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new LoggingService(clusterName)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_ClusterService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 665,
+        "lineEnd": 665,
+        "lineMapIndex": 118,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.controller.logging.LoggingRequestHelperFactoryImpl",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final LoggingRequestHelperFactory helperFactory",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": 120,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this(clusterName, new DefaultControllerFactory(), new LoggingRequestHelperFactoryImpl())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 121,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "public LoggingService(String clusterName, ControllerFactory controllerFactory, LoggingRequestHelperFactory helperFactory) ",
+        "dfgs": [
+            36
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": 122,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.helperFactory = helperFactory",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": true,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": 124,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.log4j.Logger",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "e4db57093f4d17497366cdfbf02127f36399bf42"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static Logger LOG = Logger.getLogger(LoggingRequestHelperImpl.class)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": 135,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "22cd004c416205cd8dc60e09a68a29e235d063d5"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "httpURLConnection.setConnectTimeout(DEFAULT_LOGSEARCH_CONNECT_TIMEOUT_IN_MILLISECONDS)",
+        "dfgs": [
+            40
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            38
+        ],
+        "isDel": true,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 146,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": true,
+        "commits": [
+            "90c9904fcdeaf5a970cdd837a79144c9d18fd4e9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "httpURLConnection.setReadTimeout(DEFAULT_LOGSEARCH_READ_TIMEOUT_IN_MILLISECONDS)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            38
+        ],
+        "isDel": true,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": 147,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": true,
+        "commits": [
+            "90c9904fcdeaf5a970cdd837a79144c9d18fd4e9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if ((response != null) && (!response.getListOfResults().isEmpty()))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": 149,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "20e66fbb2b5c92b755b8d85e8009d64ccb1c5403"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.api.services.LoggingService",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_AmbariManagementController.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "LoggingService getLoggingService(String clusterName)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_AmbariManagementController.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 884,
+        "lineEnd": 884,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import javax.inject.Inject",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.configuration.Configuration",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private Configuration ambariServerConfiguration",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48,
+            50
+        ],
+        "code": "if (ambariServerConfiguration == null)",
+        "dfgs": [
+            51
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "LOG.error(\"Ambari Server configuration object not available, cannot create request helper\")",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "final LoggingRequestHelperImpl loggingRequestHelper = new LoggingRequestHelperImpl(logSearchHostName, logSearchPortNumber, logSearchProtocol, ambariManagementController.getCredentialStoreService(), cluster)",
+        "dfgs": [
+            51
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "loggingRequestHelper.setLogSearchConnectTimeoutInMilliseconds(ambariServerConfiguration.getLogSearchPortalConnectTimeout())",
+        "dfgs": [
+            52
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [
+            140
+        ],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "loggingRequestHelper.setLogSearchReadTimeoutInMilliseconds(ambariServerConfiguration.getLogSearchPortalReadTimeout())",
+        "dfgs": [
+            53
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [
+            144
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return loggingRequestHelper",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "void setAmbariServerConfiguration(Configuration ambariServerConfiguration) ",
+        "dfgs": [
+            55
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.ambariServerConfiguration = ambariServerConfiguration",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImpl.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "public static final ConfigurationProperty<Integer> LOGSEARCH_PORTAL_CONNECT_TIMEOUT = new ConfigurationProperty<>(\"logsearch.portal.connect.timeout\", 5000)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_configuration_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2569,
+        "lineEnd": 2570,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static final ConfigurationProperty<Integer> LOGSEARCH_PORTAL_READ_TIMEOUT = new ConfigurationProperty<>(\"logsearch.portal.read.timeout\", 5000)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_configuration_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2577,
+        "lineEnd": 2578,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "public int getLogSearchPortalConnectTimeout() ",
+        "dfgs": [
+            59
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_configuration_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5338,
+        "lineEnd": 5338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return NumberUtils.toInt(getProperty(LOGSEARCH_PORTAL_CONNECT_TIMEOUT))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_configuration_Configuration.java",
+        "fieldParents": [
+            56
+        ],
+        "isDel": false,
+        "lineBeg": 5339,
+        "lineEnd": 5339,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "public int getLogSearchPortalReadTimeout() ",
+        "dfgs": [
+            61
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_configuration_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5347,
+        "lineEnd": 5347,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return NumberUtils.toInt(getProperty(LOGSEARCH_PORTAL_READ_TIMEOUT))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_configuration_Configuration.java",
+        "fieldParents": [
+            57
+        ],
+        "isDel": false,
+        "lineBeg": 5348,
+        "lineEnd": 5348,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.slf4j.Logger",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_Utils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "LoggingService loggingService =new LoggingService(expectedClusterName, controllerFactoryMock)",
+        "dfgs": [
+            64
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_api_services_LoggingServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 128,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "loggingService.setLoggingRequestHelperFactory(helperFactoryMock)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_api_services_LoggingServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [
+            117
+        ],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String TEST_JSON_INPUT_NULL_LOG_LIST =\"{\\\"startIndex\\\":0,\\\"pageSize\\\":0,\\\"totalCount\\\":0,\\\"resultSize\\\":0,\\\"sortType\\\":null,\\\"sortBy\\\":null,\\\"queryTimeMS\\\":1479850014987,\\\"logList\\\":null,\\\"listSize\\\":0}\"",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mockSupport.verifyAll()",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 478,
+        "lineEnd": 478,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testLogFileNameRequestWithNullLogList() throws Exception ",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 482,
+        "lineEnd": 482,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "final String expectedComponentName = \"hdfs_namenode\"",
+        "dfgs": [
+            86
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 483,
+        "lineEnd": 483,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "EasyMockSupport mockSupport =new EasyMockSupport()",
+        "dfgs": [
+            70
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 485,
+        "lineEnd": 486,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "CredentialStoreService credentialStoreServiceMock =mockSupport.createMock(CredentialStoreService.class)",
+        "dfgs": [
+            85,
+            71
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 488,
+        "lineEnd": 489,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "Cluster clusterMock =mockSupport.createMock(Cluster.class)",
+        "dfgs": [
+            72,
+            80
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 491,
+        "lineEnd": 492,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "LoggingRequestHelperImpl.NetworkConnection networkConnectionMock =mockSupport.createMock(LoggingRequestHelperImpl.NetworkConnection.class)",
+        "dfgs": [
+            73,
+            82
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 494,
+        "lineEnd": 495,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "Config adminPropertiesConfigMock =mockSupport.createMock(Config.class)",
+        "dfgs": [
+            84,
+            80
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 497,
+        "lineEnd": 498,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "Map<String, String> testConfigProperties =new HashMap<String, String>()",
+        "dfgs": [
+            75
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 500,
+        "lineEnd": 501,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "testConfigProperties.put(\"logsearch_admin_username\", \"admin-user\")",
+        "dfgs": [
+            76
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 502,
+        "lineEnd": 502,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "testConfigProperties.put(\"logsearch_admin_password\", \"admin-pwd\")",
+        "dfgs": [
+            77
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 503,
+        "lineEnd": 503,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "testConfigProperties = Collections.unmodifiableMap(testConfigProperties)",
+        "dfgs": [
+            81
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 504,
+        "lineEnd": 504,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "Capture<HttpURLConnection> captureURLConnection = new Capture<HttpURLConnection>()",
+        "dfgs": [
+            82
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 506,
+        "lineEnd": 506,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "Capture<HttpURLConnection> captureURLConnectionForAuthentication = new Capture<HttpURLConnection>()",
+        "dfgs": [
+            83
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "expect(clusterMock.getDesiredConfigByType(\"logsearch-admin-json\")).andReturn(adminPropertiesConfigMock).atLeastOnce()",
+        "dfgs": [
+            85,
+            81
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 509,
+        "lineEnd": 509,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "expect(adminPropertiesConfigMock.getProperties()).andReturn(testConfigProperties).atLeastOnce()",
+        "dfgs": [
+            82
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 510,
+        "lineEnd": 510,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "expect(networkConnectionMock.readQueryResponseFromServer(capture(captureURLConnection))).andReturn(new StringBuffer(TEST_JSON_INPUT_NULL_LOG_LIST)).atLeastOnce()",
+        "dfgs": [
+            83,
+            87
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [
+            65
+        ],
+        "isDel": false,
+        "lineBeg": 511,
+        "lineEnd": 511,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "networkConnectionMock.setupBasicAuthentication(capture(captureURLConnectionForAuthentication), eq(EXPECTED_ENCODED_CREDENTIALS))",
+        "dfgs": [
+            85,
+            88,
+            86,
+            92
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 514,
+        "lineEnd": 514,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            85
+        ],
+        "code": "mockSupport.replayAll()",
+        "dfgs": [
+            99
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 516,
+        "lineEnd": 516,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "LoggingRequestHelper helper =new LoggingRequestHelperImpl(EXPECTED_HOST_NAME, EXPECTED_PORT_NUMBER, EXPECTED_PROTOCOL, credentialStoreServiceMock, clusterMock, networkConnectionMock)",
+        "dfgs": [
+            88,
+            86
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 518,
+        "lineEnd": 519,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            87
+        ],
+        "code": "Set<String> result =helper.sendGetLogFileNamesRequest(expectedComponentName, EXPECTED_HOST_NAME)",
+        "dfgs": [
+            88,
+            97,
+            95
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 522,
+        "lineEnd": 523,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            88
+        ],
+        "code": "HttpURLConnection httpURLConnection =captureURLConnection.getValue()",
+        "dfgs": [
+            88
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 526,
+        "lineEnd": 527,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "assertEquals(\"URLConnection did not have the correct hostname information\",EXPECTED_HOST_NAME, httpURLConnection.getURL().getHost())",
+        "dfgs": [
+            89
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 529,
+        "lineEnd": 530,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90
+        ],
+        "code": "assertEquals(\"URLConnection did not have the correct port information\",EXPECTED_PORT_NUMBER, httpURLConnection.getURL().getPort() + \"\")",
+        "dfgs": [
+            90
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 531,
+        "lineEnd": 532,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91
+        ],
+        "code": "assertEquals(\"URLConnection did not have the expected http protocol scheme\",\"http\", httpURLConnection.getURL().getProtocol())",
+        "dfgs": [
+            91
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 533,
+        "lineEnd": 534,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "assertEquals(\"URLConnection did not have the expected method set\",\"GET\", httpURLConnection.getRequestMethod())",
+        "dfgs": [
+            92
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 535,
+        "lineEnd": 536,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            93
+        ],
+        "code": "assertSame(\"HttpUrlConnection instances passed into NetworkConnection mock should have been the same instance\",httpURLConnection, captureURLConnectionForAuthentication.getValue())",
+        "dfgs": [
+            94,
+            93
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 538,
+        "lineEnd": 539,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "final String resultQuery =httpURLConnection.getURL().getQuery()",
+        "dfgs": [
+            94
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 541,
+        "lineEnd": 542,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "assertTrue(\"host_name parameter was not included in query\",resultQuery.contains(\"host_name=c6401.ambari.apache.org\"))",
+        "dfgs": [
+            95
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 545,
+        "lineEnd": 546,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96
+        ],
+        "code": "assertTrue(\"component_name parameter was not included in the query\",resultQuery.contains(\"component_name=\" + expectedComponentName))",
+        "dfgs": [
+            96
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 547,
+        "lineEnd": 548,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97
+        ],
+        "code": "assertTrue(\"pageSize parameter was not included in query\",resultQuery.contains(\"pageSize=1\"))",
+        "dfgs": [
+            97
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 549,
+        "lineEnd": 550,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "assertNotNull(\"Response object should not be null\",result)",
+        "dfgs": [
+            98
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 552,
+        "lineEnd": 553,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            99
+        ],
+        "code": "assertEquals(\"Response Set was not of the expected size, expected an empty set\",0, result.size())",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 554,
+        "lineEnd": 555,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mockSupport.verifyAll()",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 557,
+        "lineEnd": 557,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.api.services.LoggingService",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_AmbariManagementControllerImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            102
+        ],
+        "code": "public LoggingService getLoggingService(String clusterName) ",
+        "dfgs": [
+            102,
+            103,
+            104
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_AmbariManagementControllerImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5086,
+        "lineEnd": 5086,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "LoggingService loggingService = new LoggingService(clusterName)",
+        "dfgs": [
+            103
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_AmbariManagementControllerImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5087,
+        "lineEnd": 5087,
+        "lineMapIndex": -1,
+        "methodParents": [
+            121
+        ],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "injector.injectMembers(loggingService)",
+        "dfgs": [
+            104
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_AmbariManagementControllerImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5088,
+        "lineEnd": 5088,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return loggingService",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_AmbariManagementControllerImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 5089,
+        "lineEnd": 5089,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.slf4j.Logger",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_UtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.inject.Injector",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private Injector injector",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            109
+        ],
+        "code": "void setInjector(Injector injector) ",
+        "dfgs": [
+            109
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 218,
+        "lineEnd": 218,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.injector = injector",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [
+            107
+        ],
+        "isDel": false,
+        "lineBeg": 219,
+        "lineEnd": 219,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "executor.execute(new LogSearchFileNameRequestRunnable(host, component, cluster, logFileNameCache, currentRequests,injector.getInstance(LoggingRequestHelperFactory.class)))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [
+            107
+        ],
+        "isDel": false,
+        "lineBeg": 248,
+        "lineEnd": 249,
+        "lineMapIndex": 22,
+        "methodParents": [
+            111
+        ],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112
+        ],
+        "code": "LogSearchFileNameRequestRunnable(String host, String component, String cluster, Cache<String, Set<String>> logFileNameCache, Set<String> currentRequests, LoggingRequestHelperFactory loggingRequestHelperFactory) ",
+        "dfgs": [
+            112
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this(host, component, cluster, logFileNameCache, currentRequests, loggingRequestHelperFactory, AmbariServer.getController())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.slf4j.Logger",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.slf4j.LoggerFactory",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Logger LOG = LoggerFactory.getLogger(LoggingSearchPropertyProvider.class)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "void setLogSearchDataRetrievalService(LogSearchDataRetrievalService logSearchDataRetrievalService) ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 224,
+        "lineEnd": 224,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "void setLoggingRequestHelperFactory(LoggingRequestHelperFactory loggingRequestHelperFactory) ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingSearchPropertyProvider.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return AmbariServer.getController().getLoggingService(clusterName)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_ClusterService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 665,
+        "lineEnd": 665,
+        "lineMapIndex": 31,
+        "methodParents": [
+            43
+        ],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.inject.Inject",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private LoggingRequestHelperFactory helperFactory",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this(clusterName, new DefaultControllerFactory())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public LoggingService(String clusterName, ControllerFactory controllerFactory) ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            124
+        ],
+        "code": "void setLoggingRequestHelperFactory(LoggingRequestHelperFactory helperFactory) ",
+        "dfgs": [
+            124
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 216,
+        "lineEnd": 216,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.helperFactory = helperFactory",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_api_services_LoggingService.java",
+        "fieldParents": [
+            120
+        ],
+        "isDel": false,
+        "lineBeg": 217,
+        "lineEnd": 217,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 124,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.controller.AmbariManagementController",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 125,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.easymock.EasyMockSupport",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 126,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.junit.Test",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 127,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.cache.Cache",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 128,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.inject.Injector",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 129,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            131
+        ],
+        "code": "Injector injectorMock =mockSupport.createMock(Injector.class)",
+        "dfgs": [
+            131
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 130,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            132
+        ],
+        "code": "expect(injectorMock.getInstance(LoggingRequestHelperFactory.class)).andReturn(helperFactoryMock)",
+        "dfgs": [
+            132
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 131,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "retrievalService.setInjector(injectorMock)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LogSearchDataRetrievalServiceTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": -1,
+        "methodParents": [
+            108
+        ],
+        "nodeIndex": 132,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.slf4j.Logger",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 133,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.slf4j.LoggerFactory",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 134,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static Logger LOG = LoggerFactory.getLogger(LoggingRequestHelperImpl.class)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 135,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            137
+        ],
+        "code": "private int logSearchConnectTimeoutInMilliseconds = DEFAULT_LOGSEARCH_CONNECT_TIMEOUT_IN_MILLISECONDS",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 136,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private int logSearchReadTimeoutInMilliseconds = DEFAULT_LOGSEARCH_READ_TIMEOUT_IN_MILLISECONDS",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 137,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            139
+        ],
+        "code": "public int getLogSearchConnectTimeoutInMilliseconds() ",
+        "dfgs": [
+            139
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 138,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this.logSearchConnectTimeoutInMilliseconds",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            136
+        ],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 139,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            141
+        ],
+        "code": "public void setLogSearchConnectTimeoutInMilliseconds(int logSearchConnectTimeoutInMilliseconds) ",
+        "dfgs": [
+            141
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 140,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.logSearchConnectTimeoutInMilliseconds = logSearchConnectTimeoutInMilliseconds",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            136
+        ],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 141,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            143
+        ],
+        "code": "public int getLogSearchReadTimeoutInMilliseconds() ",
+        "dfgs": [
+            143
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 142,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this.logSearchReadTimeoutInMilliseconds",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            137
+        ],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 143,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            145
+        ],
+        "code": "public void setLogSearchReadTimeoutInMilliseconds(int logSearchReadTimeoutInMilliseconds) ",
+        "dfgs": [
+            145
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 144,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.logSearchReadTimeoutInMilliseconds = logSearchReadTimeoutInMilliseconds",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            137
+        ],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 145,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            147
+        ],
+        "code": "httpURLConnection.setConnectTimeout(logSearchConnectTimeoutInMilliseconds)",
+        "dfgs": [
+            147,
+            148
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            136
+        ],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 146,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            148
+        ],
+        "code": "httpURLConnection.setReadTimeout(logSearchReadTimeoutInMilliseconds)",
+        "dfgs": [
+            148
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            137
+        ],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 147,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"Attempting request to LogSearch Portal Server, with connect timeout = {} milliseconds and read timeout = {} milliseconds\",logSearchConnectTimeoutInMilliseconds, logSearchReadTimeoutInMilliseconds)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [
+            135
+        ],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 148,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if ((response != null) && (response.getListOfResults() != null) && (!response.getListOfResults().isEmpty()))",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 310,
+        "lineEnd": 310,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 149,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertEquals",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 150,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.ambari.server.configuration.Configuration",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 151,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            153
+        ],
+        "code": "final int expectedConnectTimeout = 3000",
+        "dfgs": [
+            155
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 152,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            154
+        ],
+        "code": "final int expectedReadTimeout = 3000",
+        "dfgs": [
+            156
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 153,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            155
+        ],
+        "code": "Configuration serverConfigMock =mockSupport.createMock(Configuration.class)",
+        "dfgs": [
+            155
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 154,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            156
+        ],
+        "code": "expect(serverConfigMock.getLogSearchPortalConnectTimeout()).andReturn(expectedConnectTimeout)",
+        "dfgs": [
+            158,
+            156
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [
+            58
+        ],
+        "nodeIndex": 155,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            157
+        ],
+        "code": "expect(serverConfigMock.getLogSearchPortalReadTimeout()).andReturn(expectedReadTimeout)",
+        "dfgs": [
+            157,
+            158,
+            159
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 156,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            158
+        ],
+        "code": "((LoggingRequestHelperFactoryImpl)helperFactory).setAmbariServerConfiguration(serverConfigMock)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 157,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            159
+        ],
+        "code": "assertEquals(\"Helper factory did not set the expected connect timeout on the helper instance\",expectedConnectTimeout, ((LoggingRequestHelperImpl)helper).getLogSearchConnectTimeoutInMilliseconds())",
+        "dfgs": [
+            159
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 158,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"Helper factory did not set the expected read timeout on the helper instance\",expectedReadTimeout, ((LoggingRequestHelperImpl)helper).getLogSearchReadTimeoutInMilliseconds())",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 159,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            161
+        ],
+        "code": "Configuration serverConfigMock =mockSupport.createMock(Configuration.class)",
+        "dfgs": [
+            161
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 143,
+        "lineEnd": 144,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 160,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "((LoggingRequestHelperFactoryImpl)helperFactory).setAmbariServerConfiguration(serverConfigMock)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 161,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            163
+        ],
+        "code": "Configuration serverConfigMock =mockSupport.createMock(Configuration.class)",
+        "dfgs": [
+            163
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 196,
+        "lineEnd": 197,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 162,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "((LoggingRequestHelperFactoryImpl)helperFactory).setAmbariServerConfiguration(serverConfigMock)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 163,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            165
+        ],
+        "code": "Configuration serverConfigMock =mockSupport.createMock(Configuration.class)",
+        "dfgs": [
+            168,
+            165
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 238,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 164,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            166
+        ],
+        "code": "((LoggingRequestHelperFactoryImpl)helperFactory).setAmbariServerConfiguration(serverConfigMock)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 165,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            167
+        ],
+        "code": "LoggingRequestHelper helper =helperFactory.getHelper(controllerMock, expectedClusterName)",
+        "dfgs": [
+            167
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 253,
+        "lineEnd": 254,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 166,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            168
+        ],
+        "code": "assertNull(\"LoggingRequestHelper object returned by the factory should have been null\",helper)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 256,
+        "lineEnd": 257,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 167,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mockSupport.verifyAll()",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 168,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testHelperCreationWithNoAmbariServerConfiguration() throws Exception ",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 169,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            171
+        ],
+        "code": "final String expectedClusterName = \"testclusterone\"",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 264,
+        "lineEnd": 264,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 170,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            172
+        ],
+        "code": "EasyMockSupport mockSupport = new EasyMockSupport()",
+        "dfgs": [
+            172
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 171,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            173
+        ],
+        "code": "AmbariManagementController controllerMock =mockSupport.createMock(AmbariManagementController.class)",
+        "dfgs": [
+            173
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 268,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 172,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            174
+        ],
+        "code": "mockSupport.replayAll()",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 173,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            175
+        ],
+        "code": "LoggingRequestHelperFactory helperFactory =new LoggingRequestHelperFactoryImpl()",
+        "dfgs": [
+            175
+        ],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 274,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 174,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "((LoggingRequestHelperFactoryImpl)helperFactory).setAmbariServerConfiguration(null)",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_controller_logging_LoggingRequestHelperFactoryImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 175,
+        "rootcause": false,
+        "commits": []
+    }
+]

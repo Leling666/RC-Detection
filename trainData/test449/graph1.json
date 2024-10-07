@@ -1,0 +1,66 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (ch >= 0x7F && ch <= 0xA0)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 661,
+        "lineEnd": 661,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "30e081e7402024c5b113e8523521784a1841c920"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "for (int i = 127; i <= 160; ++i)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1239,
+        "lineEnd": 1239,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "1bc2dfbc6a4fb39ba3bda6c2ca453078b341c950"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (ch >= 0x7F && ch < 0xA0)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 661,
+        "lineEnd": 661,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "for (int i = 127; i < 160; ++i)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1239,
+        "lineEnd": 1239,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    }
+]

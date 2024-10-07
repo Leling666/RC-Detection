@@ -1,0 +1,863 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "public void testIssue1101a() ",
+        "dfgs": [
+            1
+        ],
+        "fName": "test_com_google_javascript_jscomp_FunctionInjectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1346,
+        "lineEnd": 1346,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "helperCanInlineReferenceToFunction(CanInlineResult.NO,\"function foo(a){return modifiyX() + a;} foo(x);\", \"foo\",INLINE_DIRECT)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FunctionInjectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1347,
+        "lineEnd": 1349,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "public void testIssue1101b() ",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_com_google_javascript_jscomp_FunctionInjectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1352,
+        "lineEnd": 1352,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "helperCanInlineReferenceToFunction(CanInlineResult.NO,\"function foo(a){return (x.prop = 2),a;} foo(x.prop);\", \"foo\",INLINE_DIRECT)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FunctionInjectorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1353,
+        "lineEnd": 1355,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final static String EXTERNS =\"/** @nosideeffects */ function nochg(){}\\n\" +\"function chg(){}\\n\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "super(EXTERNS)",
+        "dfgs": [
+            6
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [
+            4
+        ],
+        "isDel": true,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.enableComputeSideEffects()",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function BAR_FN(x, y, z) { return z(nochg(x + y)) }\" +\"alert(BAR_FN(1, 2, baz))\",\"var JSCompiler_temp_const$$0=alert;\" +\"var JSCompiler_inline_result$$1;\" +\"{JSCompiler_inline_result$$1=baz(nochg(1+2));}\" +\"JSCompiler_temp_const$$0(JSCompiler_inline_result$$1)\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 157,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function foo(){var x;return function(a){return a+1}}\" +\"var b=function(){return c};\" +\"var d=b()+foo()\",\"var JSCompiler_inline_result$$0;\" +\"{var x$$inline_1;\" +\"JSCompiler_inline_result$$0=function(a$$inline_2){return a$$inline_2+1};}\" +\"var d=c+JSCompiler_inline_result$$0\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 254,
+        "lineEnd": 261,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "de20cf30dfdf0f885c9b97dfb75f8425df0280b9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function foo(){var x; return function(a){return a+1}}\" +\"var b=function(){return c};\" +\"function _x(){ var d=b()+foo() }\",\"function _x(){\" +\"  var JSCompiler_inline_result$$0;\" +\"  {\" +\"    var x$$inline_1;\" +\"    JSCompiler_inline_result$$0=function(a$$inline_2){\" +\"        return a$$inline_2+1};\" +\"  }\" +\"  var d=c+JSCompiler_inline_result$$0\" +\"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 300,
+        "lineEnd": 312,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "de20cf30dfdf0f885c9b97dfb75f8425df0280b9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function foo(a, b){return a+b}\" +\"function bar(d){return c}\" +\"var d=foo(bar(1),e)\",\"var d=c+e;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 353,
+        "lineEnd": 356,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function foo(a, b){return a+b}\" +\"function bar(d){return c}\" +\"var d=bar(foo(1,e))\",\"var d=c\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 370,
+        "lineEnd": 373,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "public void testInlineIfParametersModified8() ",
+        "dfgs": [
+            13
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 599,
+        "lineEnd": 599,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return a.x=2}f(o)\", \"{o.x=2}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 601,
+        "lineEnd": 601,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "public void testInlineIfParametersModified9() ",
+        "dfgs": [
+            15
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 604,
+        "lineEnd": 604,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return a[2]=2}f(o)\", \"{o[2]=2}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 606,
+        "lineEnd": 606,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"function f(a){return chg() + a + a;}\" +\"var a = f(f(1));\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 972,
+        "lineEnd": 973,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return chg() + a + a;}\" +\"var a = f(f(1));\",\"var a;\" +\"{var a$$inline_0=chg()+1+1;\" +\"a=chg()+a$$inline_0+a$$inline_0}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 980,
+        "lineEnd": 984,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return nochg() + a + a;}\" +\"var a = f(f(1));\",\"var a= nochg()+(nochg()+1+1)+(nochg()+1+1);\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 992,
+        "lineEnd": 994,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return chg() + a + a;}\" +\"var a = f(f(1))\",\"var a;\" +\"{var a$$inline_0=chg()+1+1;\" +\"a=chg()+a$$inline_0+a$$inline_0}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 999,
+        "lineEnd": 1003,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var foo = function(a) { return nochg(a); };\" +\"var bar = function(b) { return b; };\" +\"foo(bar(x));\",\"nochg(x)\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1102,
+        "lineEnd": 1105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var getDomServices_ = function(self) {\\n\" +\"  if (!self.domServices_) {\\n\" +\"    self.domServices_ = goog$component$DomServices.get(\" +\"        self.appContext_);\\n\" +\"  }\\n\" +\"\\n\" +\"  return self.domServices_;\\n\" +\"};\\n\" +\"\\n\" +\"var getOwnerWin_ = function(self) {\\n\" +\"  return getDomServices_(self).getDomHelper().getWindow();\\n\" +\"};\\n\" +\"\\n\" +\"HangoutStarter.prototype.launchHangout = function() {\\n\" +\"  var self = a.b;\\n\" +\"  var myUrl = new goog.Uri(getOwnerWin_(self).location.href);\\n\" +\"};\",\"HangoutStarter.prototype.launchHangout=function(){\" +\"  var self$$2=a.b;\" +\"  var JSCompiler_temp_const$$0=goog.Uri;\" +\"  var JSCompiler_inline_result$$1;\" +\"  {\" +\"    var JSCompiler_inline_result$$0;\" +\"    {\" +\"      var self$$inline_1=self$$2;\" +\"      if(!self$$inline_1.domServices_) {\" +\"        self$$inline_1.domServices_=goog$component$DomServices.get(self$$inline_1.appContext_);\" +\"      }\" +\"      JSCompiler_inline_result$$0=self$$inline_1.domServices_;\" +\"    }\" +\"    JSCompiler_inline_result$$1=JSCompiler_inline_result$$0.getDomHelper().getWindow();\" +\"  }\" +\"  var myUrl=new JSCompiler_temp_const$$0(JSCompiler_inline_result$$1.location.href)\" +\"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2063,
+        "lineEnd": 2097,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4",
+            "251c596a9aa846d8b1e657dfa51417a74c706f7e",
+            "98a487531ce3d6555851398daead0471b5932774"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "public void testIssue1101() ",
+        "dfgs": [
+            23
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2370,
+        "lineEnd": 2370,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var x = (function (saved) {\" +\"    return foo(obj) + saved;\" +\"  })(obj[\\\"prop\\\"]);\",\"var x;\" +\"{\" +\"  var saved$$inline_0=obj[\\\"prop\\\"];x=foo(obj)+saved$$inline_0\" +\"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2371,
+        "lineEnd": 2378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "boolean hasSideEffects = false",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_FunctionInjector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 697,
+        "lineEnd": 697,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            26,
+            30
+        ],
+        "code": "if (block.hasChildren())",
+        "dfgs": [
+            26,
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_FunctionInjector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 698,
+        "lineEnd": 698,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "Preconditions.checkState(block.hasOneChild())",
+        "dfgs": [
+            27,
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_FunctionInjector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 699,
+        "lineEnd": 699,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "Node stmt = block.getFirstChild()",
+        "dfgs": [
+            28,
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_FunctionInjector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 700,
+        "lineEnd": 700,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            29,
+            30
+        ],
+        "code": "if (stmt.isReturn())",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_com_google_javascript_jscomp_FunctionInjector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 701,
+        "lineEnd": 701,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "hasSideEffects = NodeUtil.mayHaveSideEffects(stmt.getFirstChild(), compiler)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_FunctionInjector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 702,
+        "lineEnd": 703,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "if (hasSideEffects && NodeUtil.canBeSideEffected(cArg))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FunctionInjector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 732,
+        "lineEnd": 732,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return CanInlineResult.NO",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FunctionInjector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 733,
+        "lineEnd": 733,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "b80dfd3b0e5e4b490b7afb469320d18bac4520b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.enableMarkNoSideEffects()",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function BAR_FN(x, y, z) { return z(foo(x + y)) }\" +\"alert(BAR_FN(1, 2, baz))\",\"alert(baz(foo(1+2)))\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 155,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function foo(){var x;return function(a){return a+1}}\" +\"var b=function(){return c};\" +\"var d=b()+foo()\",\"var JSCompiler_temp_const$$0 = c;\\n\" +\"var JSCompiler_inline_result$$1;\\n\" +\"{\\n\" +\"var x$$inline_2;\\n\" +\"JSCompiler_inline_result$$1 = \" +\"    function(a$$inline_3){ return a$$inline_3+1 };\\n\" +\"}\" +\"var d=JSCompiler_temp_const$$0 + JSCompiler_inline_result$$1\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 246,
+        "lineEnd": 257,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function foo(){var x; return function(a){return a+1}}\" +\"var b=function(){return c};\" +\"function _x(){ var d=b()+foo() }\",\"function _x() { \\n\" +\"  var JSCompiler_temp_const$$0 = c;\\n\" +\"  var JSCompiler_inline_result$$1;\\n\" +\"  {\\n\" +\"  var x$$inline_2;\\n\" +\"  JSCompiler_inline_result$$1 = \" +\"      function(a$$inline_3) {return a$$inline_3+1};\\n\" +\"  }\\n\" +\"  var d = JSCompiler_temp_const$$0+JSCompiler_inline_result$$1\\n\" +\"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 309,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function foo(a, b){return a+b}\" +\"function bar(d){return c}\" +\"var d=foo(bar(1),e)\",\"var d;{d=c+e}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 350,
+        "lineEnd": 353,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function foo(a, b){return a+b}\" +\"function bar(d){return c}\" +\"var d=bar(foo(1,e))\",\"var d;{d=c}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 367,
+        "lineEnd": 370,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "public void testNoInlineIfParametersModified8() ",
+        "dfgs": [
+            39
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 596,
+        "lineEnd": 596,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return a.x=2}f(o)\", \"o.x=2\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 598,
+        "lineEnd": 598,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "public void testNoInlineIfParametersModified9() ",
+        "dfgs": [
+            41
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 601,
+        "lineEnd": 601,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return a[2]=2}f(o)\", \"o[2]=2\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 603,
+        "lineEnd": 603,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"function f(a){return 1 + a + a;}\" +\"var a = f(f(1));\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 969,
+        "lineEnd": 970,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return 1 + a + a;}\" +\"var a = f(f(1));\",\"var a;\" +\"{var a$$inline_0=1+1+1;\" +\"a=1+a$$inline_0+a$$inline_0}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 977,
+        "lineEnd": 981,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return a + a;}\" +\"var a = f(f(1));\",\"var a= 1+1+(1+1);\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 989,
+        "lineEnd": 991,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(a){return a + a;}\" +\"var a = f(f(1))\",\"var a;\" +\"{var a$$inline_0=1+1;\" +\"a=a$$inline_0+a$$inline_0}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 996,
+        "lineEnd": 1000,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var foo = function(a) { return getWindow(a); };\" +\"var bar = function(b) { return b; };\" +\"foo(bar(x));\",\"getWindow(x)\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1099,
+        "lineEnd": 1102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var getDomServices_ = function(self) {\\n\" +\"  if (!self.domServices_) {\\n\" +\"    self.domServices_ = goog$component$DomServices.get(\" +\"        self.appContext_);\\n\" +\"  }\\n\" +\"\\n\" +\"  return self.domServices_;\\n\" +\"};\\n\" +\"\\n\" +\"var getOwnerWin_ = function(self) {\\n\" +\"  return getDomServices_(self).getDomHelper().getWindow();\\n\" +\"};\\n\" +\"\\n\" +\"HangoutStarter.prototype.launchHangout = function() {\\n\" +\"  var self = a.b;\\n\" +\"  var myUrl = new goog.Uri(getOwnerWin_(self).location.href);\\n\" +\"};\",\"HangoutStarter.prototype.launchHangout = function() { \" +\"  var self$$2 = a.b;\" +\"  var JSCompiler_temp_const$$0 = goog.Uri;\" +\"  var JSCompiler_inline_result$$1;\" +\"  {\" +\"  var self$$inline_2 = self$$2;\" +\"  if (!self$$inline_2.domServices_) {\" +\"    self$$inline_2.domServices_ = goog$component$DomServices.get(\" +\"        self$$inline_2.appContext_);\" +\"  }\" +\"  JSCompiler_inline_result$$1=self$$inline_2.domServices_;\" +\"  }\" +\"  var myUrl = new JSCompiler_temp_const$$0(\" +\"      JSCompiler_inline_result$$1.getDomHelper().\" +\"          getWindow().location.href)\" +\"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2060,
+        "lineEnd": 2093,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    }
+]

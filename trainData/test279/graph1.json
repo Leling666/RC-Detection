@@ -1,0 +1,424 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "int depth = stack.size() -1",
+        "dfgs": [
+            1,
+            4
+        ],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "fb8b60b4d3d202c6fa708f60b8b4a5a53836af24"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "if (depth > MaxScopeSearchDepth)",
+        "dfgs": [
+            3,
+            2
+        ],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "fb8b60b4d3d202c6fa708f60b8b4a5a53836af24"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "depth = MaxScopeSearchDepth",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "fb8b60b4d3d202c6fa708f60b8b4a5a53836af24"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            6
+        ],
+        "code": "for (int pos = depth; pos >= 0; pos--)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 471,
+        "lineEnd": 471,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "fb8b60b4d3d202c6fa708f60b8b4a5a53836af24"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Element el = stack.get(pos)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "01a62698797658b0f51d323fdfb5e9744d843773"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String elName = el.nodeName()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "5000be31966a575f54d80ef85ee49ca1f5cb6ea8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Validate.fail(\"Should not be reachable\")",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 481,
+        "lineEnd": 481,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "5000be31966a575f54d80ef85ee49ca1f5cb6ea8"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public void testHandlesDeepSpans() ",
+        "dfgs": [
+            8,
+            9,
+            11,
+            13,
+            14,
+            12,
+            10
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1072,
+        "lineEnd": 1072,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "StringBuilder sb = new StringBuilder()",
+        "dfgs": [
+            11,
+            10
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1073,
+        "lineEnd": 1073,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10,
+            11
+        ],
+        "code": "for (int i = 0; i < 200; i++)",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1074,
+        "lineEnd": 1074,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "sb.append(\"<span>\")",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1075,
+        "lineEnd": 1075,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "sb.append(\"<p>One</p>\")",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1078,
+        "lineEnd": 1078,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "Document doc = Jsoup.parse(sb.toString())",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1080,
+        "lineEnd": 1080,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(200, doc.select(\"span\").size())",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1081,
+        "lineEnd": 1081,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1, doc.select(\"p\").size())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_HtmlParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1082,
+        "lineEnd": 1082,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "final int bottom = stack.size() -1",
+        "dfgs": [
+            16,
+            18
+        ],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "final int top = bottom > MaxScopeSearchDepth ? bottom - MaxScopeSearchDepth : 0",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "for (int pos = bottom; pos >= top; pos--)",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final String elName = stack.get(pos).nodeName()",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_HtmlTreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "public void handles966() throws IOException ",
+        "dfgs": [
+            21,
+            20
+        ],
+        "fName": "src_test_java_org_jsoup_integration_UrlConnectTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 661,
+        "lineEnd": 661,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "Document doc = Jsoup.connect(\"http://szshb.nxszs.gov.cn/\").get()",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_java_org_jsoup_integration_UrlConnectTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 665,
+        "lineEnd": 665,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"\u77f3\u5634\u5c71\u5e02\u73af\u5883\u4fdd\u62a4\u5c40\", doc.title())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_integration_UrlConnectTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 667,
+        "lineEnd": 667,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    }
+]

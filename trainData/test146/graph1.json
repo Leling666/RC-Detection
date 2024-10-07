@@ -1,0 +1,539 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.apache.lucene.index.DocValues",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_document_SortedNumericDocValuesRangeQuery.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "71ca2a84bad2495eff3b0b15dc445f3f013ea4af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final NumericDocValues singleton = DocValues.unwrapSingleton(values)",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_document_SortedNumericDocValuesRangeQuery.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "71ca2a84bad2495eff3b0b15dc445f3f013ea4af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.lucene.index.DocValues",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_document_SortedSetDocValuesRangeQuery.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "71ca2a84bad2495eff3b0b15dc445f3f013ea4af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final SortedDocValues singleton = DocValues.unwrapSingleton(values)",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_document_SortedSetDocValuesRangeQuery.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 147,
+        "lineEnd": 147,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "71ca2a84bad2495eff3b0b15dc445f3f013ea4af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final NumericDocValues singleton = null",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_document_SortedNumericDocValuesRangeQuery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assert false : \"imposible code -- or: someone re-enabled singleton optinization w/o reading the whole method\"",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_document_SortedNumericDocValuesRangeQuery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final SortedDocValues singleton = null",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_document_SortedSetDocValuesRangeQuery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assert false : \"imposible code -- or: someone re-enabled singleton optinization w/o reading the whole method\"",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_document_SortedSetDocValuesRangeQuery.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.lucene.util.NumericUtils",
+        "dfgs": [],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "public void testSortedNumericNPE() throws IOException ",
+        "dfgs": [
+            11,
+            13,
+            17,
+            20,
+            24,
+            26,
+            27,
+            28,
+            10,
+            12,
+            14,
+            18,
+            19,
+            21,
+            22,
+            23,
+            25,
+            15,
+            16
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "Directory dir = newDirectory()",
+        "dfgs": [
+            11
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "RandomIndexWriter iw = new RandomIndexWriter(random(), dir)",
+        "dfgs": [
+            17,
+            28,
+            19,
+            16
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "double[] nums = {-1.7147449030215377E-208, -1.6887024655302576E-11, 1.534911516604164E113, 0.0,2.6947996404505155E-166, -2.649722021970773E306, 6.138239235731689E-198, 2.3967090122610808E111}",
+        "dfgs": [
+            13,
+            15
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 243,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14,
+            17
+        ],
+        "code": "for (int i = 0; i < nums.length; ++i)",
+        "dfgs": [],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "Document doc = new Document()",
+        "dfgs": [
+            15
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "doc.add(new SortedNumericDocValuesField(\"dv\", NumericUtils.doubleToSortableLong(nums[i])))",
+        "dfgs": [
+            21,
+            16
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "iw.addDocument(doc)",
+        "dfgs": [
+            17
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "iw.commit()",
+        "dfgs": [
+            18
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "final IndexReader reader = iw.getReader()",
+        "dfgs": [
+            20,
+            19
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "final IndexSearcher searcher = newSearcher(reader)",
+        "dfgs": [
+            24,
+            27
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "iw.close()",
+        "dfgs": [],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "final long lo = NumericUtils.doubleToSortableLong(8.701032080293731E-226)",
+        "dfgs": [
+            22,
+            23
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "final long hi = NumericUtils.doubleToSortableLong(2.0801416404385346E-41)",
+        "dfgs": [
+            23
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "Query query = SortedNumericDocValuesField.newRangeQuery(\"dv\", lo, hi)",
+        "dfgs": [
+            24,
+            25
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "searcher.search(query, searcher.reader.maxDoc(), Sort.INDEXORDER)",
+        "dfgs": [
+            26
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "query = SortedNumericDocValuesField.newRangeQuery(\"dv\", hi, lo)",
+        "dfgs": [
+            26
+        ],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "searcher.search(query, searcher.reader.maxDoc(), Sort.INDEXORDER)",
+        "dfgs": [],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "reader.close()",
+        "dfgs": [],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "dir.close()",
+        "dfgs": [],
+        "fName": "lucene_core_src_test_org_apache_lucene_search_TestDocValuesQueries.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    }
+]

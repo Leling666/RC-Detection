@@ -1,0 +1,167 @@
+[
+    {
+        "cfgs": [],
+        "code": "intVal = intVal * 10 + (chLocal - '0')",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3816,
+        "lineEnd": 3816,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "1d860af51a28a4b1f5fb2d9aefaf03f4422b5141"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (count < 20 || (negative && count < 21))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3838,
+        "lineEnd": 3838,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "1d860af51a28a4b1f5fb2d9aefaf03f4422b5141"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "boolean overflow = false",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3813,
+        "lineEnd": 3813,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "long temp",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3814,
+        "lineEnd": 3814,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "temp = intVal * 10 + (chLocal - '0')",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3818,
+        "lineEnd": 3818,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6,
+            8
+        ],
+        "code": "if (temp < intVal)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3819,
+        "lineEnd": 3819,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "overflow = true",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3820,
+        "lineEnd": 3820,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3821,
+        "lineEnd": 3821,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "intVal = temp",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3823,
+        "lineEnd": 3823,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (!overflow && (count < 20 || (negative && count < 21)))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3845,
+        "lineEnd": 3845,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

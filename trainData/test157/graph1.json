@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "Map<String,String> coreAttribs = new HashMap<String,String>()",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_CoreContainer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 906,
+        "lineEnd": 906,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "0a3f80451848fa683ac72ecde1c1818912cc76ae"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Map<String,String> coreAttribs = new HashMap<String,String>()",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_core_CoreContainer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 907,
+        "lineEnd": 907,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

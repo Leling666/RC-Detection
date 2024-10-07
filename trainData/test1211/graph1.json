@@ -1,0 +1,509 @@
+[
+    {
+        "cfgs": [],
+        "code": "import java.util.Arrays",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_MockSettingsImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "c3cbb49a9183fb18310e83997cb75405c9062b04"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.Serializable",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_MockSettingsImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 13,
+        "lineEnd": 13,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "c3cbb49a9183fb18310e83997cb75405c9062b04"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return this.extraInterfaces(Serializable.class)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_MockSettingsImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "c3cbb49a9183fb18310e83997cb75405c9062b04"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return\rextraInterfaces != null&& Arrays.asList(extraInterfaces).contains(Serializable.class)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_MockSettingsImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 77,
+        "lineEnd": 79,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "c3cbb49a9183fb18310e83997cb75405c9062b04"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Class<?>[] ancillaryTypes = interfaces == null ? new Class<?>[0] : interfaces",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_MockUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "04ec6455e29eb5aeb724a9b9395ce03bf2ab0765"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.LinkedList",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "f65173be698885f54bc5907e718c9eba7db2f575"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "f65173be698885f54bc5907e718c9eba7db2f575"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 9,
+        "lineEnd": 9,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "f65173be698885f54bc5907e718c9eba7db2f575"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.Serializable",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "c3cbb49a9183fb18310e83997cb75405c9062b04"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.fest.assertions.Assertions",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 15,
+        "lineEnd": 15,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "c3cbb49a9183fb18310e83997cb75405c9062b04"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assertions.assertThat(mockSettingsImpl.getExtraInterfaces()).contains(Serializable.class)",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "c3cbb49a9183fb18310e83997cb75405c9062b04"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean serializable",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_MockSettingsImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "this.serializable = true",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_org_mockito_internal_creation_MockSettingsImpl.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_MockSettingsImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return serializable",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_creation_MockSettingsImpl.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.Serializable",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_MockUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Class<?>[] ancillaryTypes",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_MockUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18,
+            19
+        ],
+        "code": "if (settings.isSerializable())",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_MockUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ancillaryTypes = interfaces == null ? new Class<?>[] {Serializable.class} : new ArrayUtils().concat(interfaces, Serializable.class)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_MockUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_MockUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ancillaryTypes = interfaces == null ? new Class<?>[0] : interfaces",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_util_MockUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void shouldBeSerializeAndHaveExtraInterfaces() throws Exception ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_basicapi_MocksSerializationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "IMethods mock = mock(IMethods.class, withSettings().serializable().extraInterfaces(List.class))",
+        "dfgs": [
+            24,
+            23
+        ],
+        "fName": "test_org_mockitousage_basicapi_MocksSerializationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "IMethods mockTwo = mock(IMethods.class, withSettings().extraInterfaces(List.class).serializable())",
+        "dfgs": [
+            24,
+            25
+        ],
+        "fName": "test_org_mockitousage_basicapi_MocksSerializationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "serializeAndBack((List) mock)",
+        "dfgs": [
+            25
+        ],
+        "fName": "test_org_mockitousage_basicapi_MocksSerializationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 306,
+        "lineEnd": 306,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "serializeAndBack((List) mockTwo)",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_basicapi_MocksSerializationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.LinkedList",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 13,
+        "lineEnd": 13,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(mockSettingsImpl.isSerializable())",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_creation_MockSettingsImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 10,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    }
+]

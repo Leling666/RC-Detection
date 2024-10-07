@@ -1,0 +1,104 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (length == 0 || !Character.isJavaIdentifierStart(s.charAt(0)))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_com_google_javascript_rhino_TokenStream.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 193,
+        "lineEnd": 193,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "7ba4542ae58a5a99cbd69ea413a0b74c07b9cae7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!Character.isJavaIdentifierPart(s.charAt(i)))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_TokenStream.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "7ba4542ae58a5a99cbd69ea413a0b74c07b9cae7"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (length == 0 ||Character.isIdentifierIgnorable(s.charAt(0)) ||!Character.isJavaIdentifierStart(s.charAt(0)))",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_com_google_javascript_rhino_TokenStream.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 193,
+        "lineEnd": 195,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (Character.isIdentifierIgnorable(s.charAt(i)) ||!Character.isJavaIdentifierPart(s.charAt(i)))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_TokenStream.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 200,
+        "lineEnd": 201,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"a['A\\u0004']\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ConvertToDottedPropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"({'a\\u0004b':0})\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_ConvertToDottedPropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    }
+]

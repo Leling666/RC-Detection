@@ -1,0 +1,214 @@
+[
+    {
+        "cfgs": [
+            1,
+            2
+        ],
+        "code": "if (f.binaryValue() == null)",
+        "dfgs": [
+            2
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_schema_BoolField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "844ca4a348e282b5f857aa7ce4de6f9781766ef9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_schema_BoolField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "844ca4a348e282b5f857aa7ce4de6f9781766ef9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return indexedToReadable(f.binaryValue().utf8ToString())",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_schema_BoolField.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "844ca4a348e282b5f857aa7ce4de6f9781766ef9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertFalse(query.getFilterQueries() == query2.getFilterQueries())",
+        "dfgs": [],
+        "fName": "solr_solrj_src_test_org_apache_solr_client_solrj_SolrExampleTests.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "533f5cb7a54d710fa9daed342dc299c2f605d5d0"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (null != f.binaryValue())",
+        "dfgs": [
+            6,
+            5
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_schema_BoolField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return indexedToReadable(f.binaryValue().utf8ToString())",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_schema_BoolField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (null != f.stringValue())",
+        "dfgs": [
+            7
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_schema_BoolField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return indexedToReadable(f.stringValue())",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_schema_BoolField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_schema_BoolField.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Assert.assertFalse(query.getFilterQueries() == query2.getFilterQueries())",
+        "dfgs": [
+            10
+        ],
+        "fName": "solr_solrj_src_test_org_apache_solr_client_solrj_SolrExampleTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "for (SolrDocument outDoc : response.getResults())",
+        "dfgs": [
+            11
+        ],
+        "fName": "solr_solrj_src_test_org_apache_solr_client_solrj_SolrExampleTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(true, outDoc.getFieldValue(\"inStock\"))",
+        "dfgs": [],
+        "fName": "solr_solrj_src_test_org_apache_solr_client_solrj_SolrExampleTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

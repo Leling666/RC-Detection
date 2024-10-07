@@ -1,0 +1,7 @@
+{
+    "repo": "sonarqube",
+    "fix": "7b567ba3d15ed7dd0b0bba0330686487e35af85c",
+    "induce": [
+        "90613366ab07018248f7c2974367bcb6afd37499"
+    ]
+}

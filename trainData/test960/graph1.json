@@ -1,0 +1,184 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertThat(state.toString()).isEqualTo(\"FormulaFactoryState{id=0, state=[4, 4, 0, 6, 4, 5, 3, 0, 0, 0, 3, 0, 0, 0, 5, 0, 0, 0]}\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_formulas_ExtendedFormulaFactoryTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "87f078c124e5611be639dda3df7d26b7ac5bc74b"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Assert.assertEquals(F.f.not(F.f.and(F.f.variable(\"y\"), F.f.variable(\"z\"))), parser.parse(\"y & z => ~(y & z)\"))",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_org_logicng_io_parsers_PropositionalParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "87f078c124e5611be639dda3df7d26b7ac5bc74b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(F.f.and(F.f.variable(\"y\"), F.f.variable(\"z\")), parser.parse(\"~(y & z) => y & z\"))",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_io_parsers_PropositionalParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "87f078c124e5611be639dda3df7d26b7ac5bc74b"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Assert.assertEquals(F.A, F.f.implication(F.NA, F.A))",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_logicng_formulas_ImplicationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "87f078c124e5611be639dda3df7d26b7ac5bc74b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(F.NA, F.f.implication(F.A, F.NA))",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_formulas_ImplicationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "87f078c124e5611be639dda3df7d26b7ac5bc74b"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (left.negate().equals(right))",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_org_logicng_formulas_FormulaFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 281,
+        "lineEnd": 281,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "87f078c124e5611be639dda3df7d26b7ac5bc74b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return left.negate()",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_formulas_FormulaFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "87f078c124e5611be639dda3df7d26b7ac5bc74b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(this.g.statistics().negations()).isEqualTo(2)",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_transformations_FormulaFactoryImporterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "87f078c124e5611be639dda3df7d26b7ac5bc74b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(state.toString()).isEqualTo(\"FormulaFactoryState{id=0, state=[4, 4, 0, 5, 4, 5, 3, 0, 0, 0, 3, 0, 0, 0, 5, 0, 0, 0]}\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_formulas_ExtendedFormulaFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(this.g.statistics().negations()).isEqualTo(0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_transformations_FormulaFactoryImporterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

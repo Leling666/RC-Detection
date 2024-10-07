@@ -1,0 +1,69 @@
+[
+    {
+        "cfgs": [],
+        "code": "validateAudienceRestrictions(federationResponse.getAudience(), request.getRequestURL().toString())",
+        "dfgs": [],
+        "fName": "plugins_core_src_main_java_org_apache_cxf_fediz_core_handler_SigninHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0
+    },
+    {
+        "cfgs": [],
+        "code": "return new ArrayList<String>()",
+        "dfgs": [],
+        "fName": "plugins_core_src_main_java_org_apache_cxf_fediz_core_config_FedizContext.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 1
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (!validateAudienceRestrictions(federationResponse.getAudience(),request.getRequestURL().toString()))",
+        "dfgs": [],
+        "fName": "plugins_core_src_main_java_org_apache_cxf_fediz_core_handler_SigninHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "plugins_core_src_main_java_org_apache_cxf_fediz_core_handler_SigninHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3
+    },
+    {
+        "cfgs": [],
+        "code": "return Collections.emptyList()",
+        "dfgs": [],
+        "fName": "plugins_core_src_main_java_org_apache_cxf_fediz_core_config_FedizContext.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 4
+    }
+]

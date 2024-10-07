@@ -1,0 +1,580 @@
+[
+    {
+        "cfgs": [],
+        "code": "private Integer getSymbol(String name, boolean hoist) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "f8c97ad78aa4396ce8e813b85ee258049c325f7a"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Integer register = frame.declareVariable(identifier, var.getType(), var.isFinal())",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_parser_JexlParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "e94f0a9f948e9b2ffe6635c24ab7d9f8478d4d5f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "var.setSymbol(register.intValue(), identifier)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_parser_JexlParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6f7e0c783ee294c2557f198c49698b9abdc0b539"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testRedefined() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_FinalVarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_FinalVarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "JexlScript e = JEXL.createScript(\"final var x = 42; var x = 43\")",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_FinalVarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Object o = e.execute(null)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_FinalVarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.fail(\"Should have failed\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_FinalVarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (JexlException ex)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_FinalVarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public Integer getSymbol(String name, boolean hoist) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12,
+            13
+        ],
+        "code": "if (isVariableFinal(register))",
+        "dfgs": [
+            16,
+            14
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "throw new IllegalStateException(\"final variable can not be redeclared\")",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "if (type != null)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            16
+        ],
+        "code": "if (variableTypes == null)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "variableTypes = new HashMap<Integer, Class>()",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 272,
+        "lineEnd": 272,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "variableTypes.put(register, type)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_internal_Scope.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 274,
+        "lineEnd": 274,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testRedeclaration() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 332,
+        "lineEnd": 332,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "JexlContext jc = new MapContext()",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 333,
+        "lineEnd": 333,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "JexlScript e = JEXL.createScript(\"long x = 42; int x = 42; x\")",
+        "dfgs": [
+            20,
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 335,
+        "lineEnd": 335,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "Object o = e.execute(jc)",
+        "dfgs": [
+            21,
+            24
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 336,
+        "lineEnd": 336,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "Assert.assertEquals(\"Result is not true\", Boolean.TRUE, o instanceof Integer)",
+        "dfgs": [
+            22,
+            25
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 337,
+        "lineEnd": 337,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "Assert.assertEquals(\"Result is not true\", 42, o)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "e = JEXL.createScript(\"int x = 42; long x = 42; x\")",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "o = e.execute(jc)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "Assert.assertEquals(\"Result is not true\", Boolean.TRUE, o instanceof Long)",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 342,
+        "lineEnd": 342,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(\"Result is not true\", 42L, o)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_jexl3_PrimitivesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 343,
+        "lineEnd": 343,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "Integer register = frame.getSymbol(identifier, false)",
+        "dfgs": [
+            30,
+            28,
+            29
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_parser_JexlParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": -1,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29,
+            30
+        ],
+        "code": "if (register != null && frame.isVariableFinal(register))",
+        "dfgs": [
+            30,
+            29
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_parser_JexlParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "throwParsingException(var)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_parser_JexlParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "register = frame.declareVariable(identifier, var.getType(), var.isFinal())",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_main_java_org_apache_commons_jexl3_parser_JexlParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": 1,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "var.setSymbol(register, identifier)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_jexl3_parser_JexlParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    }
+]

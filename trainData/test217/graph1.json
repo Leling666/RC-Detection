@@ -1,0 +1,216 @@
+[
+    {
+        "cfgs": [],
+        "code": "int i = distcp.run(args)",
+        "dfgs": [],
+        "fName": "sharelib_distcp_src_main_java_org_apache_oozie_action_hadoop_DistcpMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": 11,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "4bd777e5e45ce097aa07fbc1385623139d102069"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fs.delete(outputDir,true)",
+        "dfgs": [
+            3,
+            6
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "jobConf.set(\"mapred.job.queue.name\", \"non-exist\")",
+        "dfgs": [
+            5
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "fs.delete(new Path(getTestCaseDir(), \"action.xml\"), true)",
+        "dfgs": [
+            6
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "os = new FileOutputStream(actionXml)",
+        "dfgs": [
+            5
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "jobConf.writeXml(os)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "assertFalse(getFileSystem().exists(outputDir))",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "String option = \"-Dmapred.job.queue.name=default\"",
+        "dfgs": [
+            8
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "DistcpMain.main(new String[] { option, inputDir.toString(), outputDir.toString() })",
+        "dfgs": [
+            9
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(getFileSystem().exists(outputDir))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_TestDistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.util.ToolRunner",
+        "dfgs": [],
+        "fName": "sharelib_distcp_src_main_java_org_apache_oozie_action_hadoop_DistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int i = ToolRunner.run(distcp, args)",
+        "dfgs": [],
+        "fName": "sharelib_distcp_src_main_java_org_apache_oozie_action_hadoop_DistcpMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

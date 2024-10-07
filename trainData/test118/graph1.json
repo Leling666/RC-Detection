@@ -1,0 +1,2468 @@
+[
+    {
+        "cfgs": [],
+        "code": "public void testInit() throws Exception ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 154,
+        "lineEnd": 154,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Mockito.when(config.getInitParameterNames()).thenReturn(new Vector<String>(Arrays.asList(AuthenticationFilter.AUTH_TYPE,AuthenticationFilter.AUTH_TOKEN_VALIDITY)).elements())",
+        "dfgs": [
+            3,
+            4
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 166,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "47782cbf4a66d49064fd3dd6d1d1a19cc42157fc",
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "filter = new AuthenticationFilter()",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Mockito.when(config.getInitParameter(AuthenticationFilter.SIGNATURE_SECRET)).thenReturn(\"secret\")",
+        "dfgs": [
+            4
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Mockito.when(config.getInitParameterNames()).thenReturn(new Vector<String>(Arrays.asList(AuthenticationFilter.AUTH_TYPE,AuthenticationFilter.SIGNATURE_SECRET)).elements())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 188,
+        "lineEnd": 190,
+        "lineMapIndex": 60,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "46d0d47f07c096ef31ed4cd4f5a2d3664b964cea",
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            6
+        ],
+        "code": "if (name.startsWith(PREFIX))",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": 64,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "name = name.substring(PREFIX.length())",
+        "dfgs": [
+            7
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "container.addFilter(\"authentication\",AuthenticationFilter.class.getName(),filterConfig)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 88,
+        "lineMapIndex": 62,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean randomSecret",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean customSecretProvider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "2d7dcff6f42020cb91c58c5dd460d030188b8a18"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "catch (ClassNotFoundException ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "throw new ServletException(ex)",
+        "dfgs": [
+            13
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "catch (InstantiationException ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "throw new ServletException(ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (IllegalAccessException ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "Class<? extends SignerSecretProvider> providerClass= getProviderClass(config)",
+        "dfgs": [
+            22,
+            17
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 254,
+        "lineEnd": 255,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            18,
+            22
+        ],
+        "code": "secretProvider = providerClass.newInstance()",
+        "dfgs": [
+            22
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 257,
+        "lineEnd": 257,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "catch (InstantiationException ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "throw new ServletException(ex)",
+        "dfgs": [
+            21
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "catch (IllegalAccessException ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "throw new ServletException(ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "secretProvider.init(config, filterConfig.getServletContext(), validity)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 264,
+        "lineEnd": 264,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "2d7dcff6f42020cb91c58c5dd460d030188b8a18"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "customSecretProvider = true",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": true,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "2d7dcff6f42020cb91c58c5dd460d030188b8a18"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "private Class<? extends SignerSecretProvider> getProviderClass(Properties config)throws ServletException",
+        "dfgs": [
+            27,
+            28,
+            46,
+            29,
+            30,
+            34,
+            35,
+            37,
+            38,
+            40,
+            43,
+            44
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 275,
+        "lineEnd": 276,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String providerClassName",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 277,
+        "lineEnd": 277,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "String signerSecretProviderName= config.getProperty(SIGNER_SECRET_PROVIDER, null)",
+        "dfgs": [
+            28,
+            29
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 278,
+        "lineEnd": 279,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            29,
+            35
+        ],
+        "code": "if (signerSecretProviderName == null)",
+        "dfgs": [
+            35
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 281,
+        "lineEnd": 281,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "String signatureSecretFile = config.getProperty(SIGNATURE_SECRET_FILE, null)",
+        "dfgs": [
+            30
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 282,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": true,
+        "commits": [
+            "e4b8d9e72d54d4725bf2a902452459b6b243b2e9"
+        ]
+    },
+    {
+        "cfgs": [
+            31,
+            32
+        ],
+        "code": "if (signatureSecretFile != null)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "e4b8d9e72d54d4725bf2a902452459b6b243b2e9"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "providerClassName = FileSignerSecretProvider.class.getName()",
+        "dfgs": [
+            46
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "e4b8d9e72d54d4725bf2a902452459b6b243b2e9"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "providerClassName = RandomSignerSecretProvider.class.getName()",
+        "dfgs": [
+            46
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "randomSecret = true",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 289,
+        "lineEnd": 289,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            36,
+            38
+        ],
+        "code": "if (\"random\".equals(signerSecretProviderName))",
+        "dfgs": [
+            38
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "providerClassName = RandomSignerSecretProvider.class.getName()",
+        "dfgs": [
+            46
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "randomSecret = true",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            39,
+            40
+        ],
+        "code": "if (\"file\".equals(signerSecretProviderName))",
+        "dfgs": [
+            40
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": true,
+        "commits": [
+            "e4b8d9e72d54d4725bf2a902452459b6b243b2e9"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "providerClassName = FileSignerSecretProvider.class.getName()",
+        "dfgs": [
+            46
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": true,
+        "commits": [
+            "e4b8d9e72d54d4725bf2a902452459b6b243b2e9"
+        ]
+    },
+    {
+        "cfgs": [
+            41,
+            42
+        ],
+        "code": "if (\"zookeeper\".equals(signerSecretProviderName))",
+        "dfgs": [
+            43
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 297,
+        "lineEnd": 297,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "providerClassName = ZKSignerSecretProvider.class.getName()",
+        "dfgs": [
+            46
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 299,
+        "lineEnd": 299,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "providerClassName = signerSecretProviderName",
+        "dfgs": [
+            46
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "customSecretProvider = true",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": true,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (Class<? extends SignerSecretProvider>) Thread.currentThread().getContextClassLoader().loadClass(providerClassName)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 305,
+        "lineEnd": 306,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (ClassNotFoundException ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new ServletException(ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": [
+            "932ae036acb96634c5dd435d57ba02ce4d5e8918"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return randomSecret",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": true,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": [
+            "a0f120ce68dddb0cb31b64c89f3224313f3cb5af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return customSecretProvider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": true,
+        "lineBeg": 347,
+        "lineEnd": 347,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": [
+            "2d7dcff6f42020cb91c58c5dd460d030188b8a18"
+        ]
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "if (secretProvider != null)",
+        "dfgs": [
+            52
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 388,
+        "lineEnd": 388,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": [
+            "2d7dcff6f42020cb91c58c5dd460d030188b8a18"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "secretProvider.destroy()",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 389,
+        "lineEnd": 389,
+        "lineMapIndex": 97,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": [
+            "2d7dcff6f42020cb91c58c5dd460d030188b8a18"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "defineFilter(ctxt, NO_CACHE_FILTER, NoCacheFilter.class.getName(),Collections.<String, String> emptyMap(), new String[] { \"/*\" })",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 409,
+        "lineEnd": 410,
+        "lineMapIndex": 130,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": [
+            "2214871d916fdcae62aa51afbb5fd571f2808745"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.ArrayList",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Enumeration",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testFallbackToRandomSecretProvider() throws Exception ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Mockito.when(config.getInitParameterNames()).thenReturn(new Vector<>(Arrays.asList(AuthenticationFilter.AUTH_TYPE,AuthenticationFilter.AUTH_TOKEN_VALIDITY)).elements())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 167,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testInit() throws Exception ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "AuthenticationFilter filter = new AuthenticationFilter()",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Mockito.when(config.getInitParameterNames()).thenReturn(new Vector<>(Arrays.asList(AuthenticationFilter.AUTH_TYPE)).elements())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_test_java_org_apache_hadoop_security_authentication_server_TestAuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 192,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "Map<String, String> filterConfig = getFilterConfigMap(conf, PREFIX)",
+        "dfgs": [
+            62
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "container.addFilter(\"authentication\",AuthenticationFilter.class.getName(),filterConfig)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 63,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66,
+            64
+        ],
+        "code": "public static Map<String, String> getFilterConfigMap(Configuration conf,String prefix)",
+        "dfgs": [
+            66,
+            64,
+            65
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66,
+            65
+        ],
+        "code": "if (name.startsWith(prefix))",
+        "dfgs": [
+            66,
+            65
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "name = name.substring(prefix.length())",
+        "dfgs": [
+            66
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return filterConfig",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_AuthenticationFilterInitializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import javax.servlet.ServletContext",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (ClassNotFoundException | InstantiationException |IllegalAccessException ex)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 239,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "secretProvider = constructSecretProvider(filterConfig.getServletContext(),config, false)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 252,
+        "lineEnd": 254,
+        "lineMapIndex": 22,
+        "methodParents": [
+            70
+        ],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "public static SignerSecretProvider constructSecretProvider(ServletContext ctx, Properties config,boolean disallowFallbackToRandomSecretProvider) throws Exception",
+        "dfgs": [
+            95,
+            71,
+            72,
+            74,
+            76,
+            77,
+            73,
+            80,
+            87,
+            88,
+            79,
+            89,
+            90,
+            91,
+            81,
+            83,
+            92,
+            93,
+            82,
+            84,
+            94,
+            86
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 262,
+        "lineEnd": 264,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "String name = config.getProperty(SIGNER_SECRET_PROVIDER, \"file\")",
+        "dfgs": [
+            76,
+            72,
+            73
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "long validity = Long.parseLong(config.getProperty(AUTH_TOKEN_VALIDITY,\"36000\")) * 1000",
+        "dfgs": [
+            73,
+            79,
+            89,
+            92,
+            94
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 267,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74,
+            76
+        ],
+        "code": "if (!disallowFallbackToRandomSecretProvider&& \"file\".equals(name)&& config.getProperty(SIGNATURE_SECRET_FILE) == null)",
+        "dfgs": [
+            76,
+            79,
+            89,
+            81,
+            92,
+            94
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 271,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "name = \"random\"",
+        "dfgs": [
+            76
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 272,
+        "lineEnd": 272,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "SignerSecretProvider provider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77,
+            87
+        ],
+        "code": "if (\"file\".equals(name))",
+        "dfgs": [
+            87
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 276,
+        "lineEnd": 276,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "provider = new FileSignerSecretProvider()",
+        "dfgs": [
+            79
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 277,
+        "lineEnd": 277,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95,
+            80
+        ],
+        "code": "provider.init(config, ctx, validity)",
+        "dfgs": [
+            95,
+            84
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "catch (Exception e)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82,
+            85
+        ],
+        "code": "if (!disallowFallbackToRandomSecretProvider)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 281,
+        "lineEnd": 281,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "LOG.info(\"Unable to initialize FileSignerSecretProvider, \" +\"falling back to use random secrets.\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 283,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "provider = new RandomSignerSecretProvider()",
+        "dfgs": [
+            84
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "provider.init(config, ctx, validity)",
+        "dfgs": [
+            95
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 285,
+        "lineEnd": 285,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "throw e",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 287,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            88,
+            90
+        ],
+        "code": "if (\"random\".equals(name))",
+        "dfgs": [
+            90
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 290,
+        "lineEnd": 290,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "provider = new RandomSignerSecretProvider()",
+        "dfgs": [
+            89
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "provider.init(config, ctx, validity)",
+        "dfgs": [
+            95
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91,
+            93
+        ],
+        "code": "if (\"zookeeper\".equals(name))",
+        "dfgs": [
+            93
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "provider = new ZKSignerSecretProvider()",
+        "dfgs": [
+            92
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "provider.init(config, ctx, validity)",
+        "dfgs": [
+            95
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "provider = (SignerSecretProvider) Thread.currentThread().getContextClassLoader().loadClass(name).newInstance()",
+        "dfgs": [
+            94
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 297,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "provider.init(config, ctx, validity)",
+        "dfgs": [
+            95
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 299,
+        "lineEnd": 299,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return provider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return secretProvider.getClass() == RandomSignerSecretProvider.class",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 330,
+        "lineEnd": 330,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "Class<?> clazz = secretProvider.getClass()",
+        "dfgs": [
+            98
+        ],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return clazz != FileSignerSecretProvider.class && clazz !=RandomSignerSecretProvider.class && clazz != ZKSignerSecretProvider.class",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-auth_src_main_java_org_apache_hadoop_security_authentication_server_AuthenticationFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 340,
+        "lineEnd": 342,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Properties",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.security.AuthenticationFilterInitializer",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.security.authentication.util.FileSignerSecretProvider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.security.authentication.util.RandomSignerSecretProvider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.security.authentication.util.SignerSecretProvider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.security.authentication.util.ZKSignerSecretProvider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.security.authentication.server.AuthenticationFilter.*",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private boolean disallowFallbackToRandomSignerSecretProvider",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private String authFilterConfigurationPrefix = \"hadoop.http.authentication.\"",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 172,
+        "lineEnd": 172,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            109
+        ],
+        "code": "public Builder disallowFallbackToRandomSingerSecretProvider(boolean value) ",
+        "dfgs": [
+            109,
+            110
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            110
+        ],
+        "code": "this.disallowFallbackToRandomSignerSecretProvider = value",
+        "dfgs": [
+            110
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [
+            106
+        ],
+        "isDel": false,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112
+        ],
+        "code": "public Builder authFilterConfigurationPrefix(String value) ",
+        "dfgs": [
+            112,
+            113
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 272,
+        "lineEnd": 272,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            113
+        ],
+        "code": "this.authFilterConfigurationPrefix = value",
+        "dfgs": [
+            113
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [
+            107
+        ],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 274,
+        "lineEnd": 274,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            115
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 337,
+        "lineEnd": 337,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            116
+        ],
+        "code": "SignerSecretProvider secretProvider =constructSecretProvider(b, webAppContext.getServletContext())",
+        "dfgs": [
+            116
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 338,
+        "lineEnd": 339,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            117
+        ],
+        "code": "this.webAppContext.getServletContext().setAttribute(AuthenticationFilter.SIGNER_SECRET_PROVIDER_ATTRIBUTE,secretProvider)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 340,
+        "lineEnd": 342,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            118
+        ],
+        "code": "catch(IOException e)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 343,
+        "lineEnd": 343,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            119
+        ],
+        "code": "throw e",
+        "dfgs": [
+            120
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 344,
+        "lineEnd": 344,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            120
+        ],
+        "code": "catch (Exception e)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new IOException(e)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            122
+        ],
+        "code": "private static SignerSecretProvider constructSecretProvider(final Builder b,ServletContext ctx)throws Exception",
+        "dfgs": [
+            122,
+            123,
+            124
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 440,
+        "lineEnd": 442,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            123
+        ],
+        "code": "final Configuration conf = b.conf",
+        "dfgs": [
+            123
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 443,
+        "lineEnd": 443,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            124
+        ],
+        "code": "Properties config = getFilterProperties(conf,b.authFilterConfigurationPrefix)",
+        "dfgs": [
+            124
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [
+            107
+        ],
+        "isDel": false,
+        "lineBeg": 444,
+        "lineEnd": 445,
+        "lineMapIndex": -1,
+        "methodParents": [
+            125
+        ],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return AuthenticationFilter.constructSecretProvider(ctx, config, b.disallowFallbackToRandomSignerSecretProvider)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [
+            106
+        ],
+        "isDel": false,
+        "lineBeg": 446,
+        "lineEnd": 447,
+        "lineMapIndex": -1,
+        "methodParents": [
+            70
+        ],
+        "nodeIndex": 124,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            126
+        ],
+        "code": "private static Properties getFilterProperties(Configuration conf, Stringprefix)",
+        "dfgs": [
+            126,
+            128,
+            129,
+            127
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 450,
+        "lineEnd": 451,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 125,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            127
+        ],
+        "code": "Properties prop = new Properties()",
+        "dfgs": [
+            128
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 452,
+        "lineEnd": 452,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 126,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            128
+        ],
+        "code": "Map<String, String> filterConfig = AuthenticationFilterInitializer.getFilterConfigMap(conf, prefix)",
+        "dfgs": [
+            128
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 453,
+        "lineEnd": 454,
+        "lineMapIndex": -1,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 127,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            129
+        ],
+        "code": "prop.putAll(filterConfig)",
+        "dfgs": [
+            129
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 455,
+        "lineEnd": 455,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 128,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return prop",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 456,
+        "lineEnd": 456,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 129,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "defineFilter(ctxt, NO_CACHE_FILTER, NoCacheFilter.class.getName(),Collections.<String, String> emptyMap(), new String[] { \"/*\" })",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_http_HttpServer2.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 460,
+        "lineEnd": 461,
+        "lineMapIndex": 53,
+        "methodParents": [],
+        "nodeIndex": 130,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (strVal.length() == parser.getDateFomartPattern().length())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_DateCodec.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "8d74f9e5a034888610ca3199807e2eec64178210"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (strVal.length() == parser.getDateFomartPattern().length()\r|| (strVal.length() == 22 && parser.getDateFomartPattern().equals(\"yyyyMMddHHmmssSSSZ\")))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_DateCodec.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 186,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

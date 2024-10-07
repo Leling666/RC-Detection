@@ -1,0 +1,559 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "public static Vector3D crossProduct(Vector3D v1, Vector3D v2) ",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 457,
+        "lineEnd": 457,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "05195b77ca8d86fbb4fdd9216f436d8b7f3a57de"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new Vector3D(v1.y * v2.z - v1.z * v2.y,v1.z * v2.x - v1.x * v2.z,v1.x * v2.y - v1.y * v2.x)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 458,
+        "lineEnd": 460,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "05195b77ca8d86fbb4fdd9216f436d8b7f3a57de"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testCrossProductCancellation() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_geometry_Vector3DTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Vector3D v1 = new Vector3D(9070467121.0, 4535233560.0, 1)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_math_geometry_Vector3DTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Vector3D v2 = new Vector3D(9070467123.0, 4535233561.0, 1)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_math_geometry_Vector3DTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "checkVector(Vector3D.crossProduct(v1, v2), -1, 2, 1)",
+        "dfgs": [
+            7,
+            8,
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_math_geometry_Vector3DTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": -1,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "double scale    = FastMath.scalb(1.0, 100)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_math_geometry_Vector3DTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Vector3D big1   = new Vector3D(scale, v1)",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_math_geometry_Vector3DTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Vector3D small2 = new Vector3D(1 / scale, v2)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_math_geometry_Vector3DTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkVector(Vector3D.crossProduct(big1, small2), -1, 2, 1)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_geometry_Vector3DTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "public static Vector3D crossProduct(final Vector3D v1, final Vector3D v2) ",
+        "dfgs": [
+            27,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            25,
+            26,
+            13,
+            22
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 457,
+        "lineEnd": 457,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "final double n1 = v1.getNormSq()",
+        "dfgs": [
+            16,
+            17,
+            18,
+            13
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 459,
+        "lineEnd": 459,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "final double n2 = v2.getNormSq()",
+        "dfgs": [
+            19,
+            20,
+            21,
+            13
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 460,
+        "lineEnd": 460,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14,
+            15
+        ],
+        "code": "if ((n1 * n2) < MathUtils.SAFE_MIN)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 461,
+        "lineEnd": 461,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return ZERO",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 462,
+        "lineEnd": 462,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "final int deltaExp = (FastMath.getExponent(n1) - FastMath.getExponent(n2)) / 4",
+        "dfgs": [
+            16,
+            22
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "final double x1    = FastMath.scalb(v1.x, -deltaExp)",
+        "dfgs": [
+            17,
+            22
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "final double y1    = FastMath.scalb(v1.y, -deltaExp)",
+        "dfgs": [
+            18,
+            22
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "final double z1    = FastMath.scalb(v1.z, -deltaExp)",
+        "dfgs": [
+            19,
+            22
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 470,
+        "lineEnd": 470,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "final double x2    = FastMath.scalb(v2.x,  deltaExp)",
+        "dfgs": [
+            20,
+            22
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 471,
+        "lineEnd": 471,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "final double y2    = FastMath.scalb(v2.y,  deltaExp)",
+        "dfgs": [
+            21,
+            22
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "final double z2    = FastMath.scalb(v2.z,  deltaExp)",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "final double ratio = (x1 * x2 + y1 * y2 + z1 * z2) / FastMath.scalb(n2, 2 * deltaExp)",
+        "dfgs": [
+            24,
+            25,
+            26,
+            23
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 482,
+        "lineEnd": 482,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "final double rho   = FastMath.rint(256 * ratio) / 256",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 483,
+        "lineEnd": 483,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "final double x3 = x1 - rho * x2",
+        "dfgs": [
+            25,
+            27
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 485,
+        "lineEnd": 485,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "final double y3 = y1 - rho * y2",
+        "dfgs": [
+            26,
+            27
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 486,
+        "lineEnd": 486,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "final double z3 = z1 - rho * z2",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 487,
+        "lineEnd": 487,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new Vector3D(y3 * z2 - z3 * y2, z3 * x2 - x3 * z2, x3 * y2 - y3 * x2)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_geometry_Vector3D.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "cfgs": [
+            2,
+            1
+        ],
+        "code": "boolean foundValidSubject = false",
+        "dfgs": [
+            2
+        ],
+        "fName": "rt_rs_security_sso_saml_src_main_java_org_apache_cxf_rs_security_saml_sso_SAMLSSOResponseValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "foundValidSubject = true",
+        "dfgs": [
+            2
+        ],
+        "fName": "rt_rs_security_sso_saml_src_main_java_org_apache_cxf_rs_security_saml_sso_SAMLSSOResponseValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (!foundValidSubject)",
+        "dfgs": [],
+        "fName": "rt_rs_security_sso_saml_src_main_java_org_apache_cxf_rs_security_saml_sso_SAMLSSOResponseValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Element assertionElement = samlResponse.getAssertions().get(0).getDOM()",
+        "dfgs": [],
+        "fName": "rt_rs_security_sso_saml_src_main_java_org_apache_cxf_rs_security_saml_sso_SAMLSSOResponseValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 143,
+        "lineEnd": 143,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "4575921f8867ee158e434548d10bfa05942b4d7e"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            5
+        ],
+        "code": "org.opensaml.saml.saml2.core.Assertion validAssertion = null",
+        "dfgs": [
+            6
+        ],
+        "fName": "rt_rs_security_sso_saml_src_main_java_org_apache_cxf_rs_security_saml_sso_SAMLSSOResponseValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "validAssertion = assertion",
+        "dfgs": [
+            6
+        ],
+        "fName": "rt_rs_security_sso_saml_src_main_java_org_apache_cxf_rs_security_saml_sso_SAMLSSOResponseValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "if (validAssertion == null)",
+        "dfgs": [
+            7
+        ],
+        "fName": "rt_rs_security_sso_saml_src_main_java_org_apache_cxf_rs_security_saml_sso_SAMLSSOResponseValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Element assertionElement = validAssertion.getDOM()",
+        "dfgs": [],
+        "fName": "rt_rs_security_sso_saml_src_main_java_org_apache_cxf_rs_security_saml_sso_SAMLSSOResponseValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "public void setSubjectName(String subjectName) ",
+        "dfgs": [
+            9
+        ],
+        "fName": "rt_rs_security_sso_saml_src_test_java_org_apache_cxf_rs_security_saml_sso_AbstractSAMLCallbackHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.subjectName = subjectName",
+        "dfgs": [],
+        "fName": "rt_rs_security_sso_saml_src_test_java_org_apache_cxf_rs_security_saml_sso_AbstractSAMLCallbackHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

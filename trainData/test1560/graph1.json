@@ -1,0 +1,233 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "env.put(\"jmx.remote.x.access.file\",accessconfig)",
+        "dfgs": [],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXConnector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "de4c18620bcd3f1cae1cf3bd1b276e0df4b04827"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Thread.currentThread().setContextClassLoader(classLoader)",
+        "dfgs": [],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXConnector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 209,
+        "lineEnd": 209,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "b60bf0a205e0257cb3279b08fb6c8d48bc7ce67a"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "env.put(\"jmx.remote.x.access.file\",accessconfig)",
+        "dfgs": [
+            3
+        ],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "de4c18620bcd3f1cae1cf3bd1b276e0df4b04827"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "server.start()",
+        "dfgs": [],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "b60bf0a205e0257cb3279b08fb6c8d48bc7ce67a"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "env.put(\"jmx.remote.x.access.file\", accessconfig)",
+        "dfgs": [
+            5
+        ],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Thread.currentThread().setContextClassLoader(getClass().getClassLoader())",
+        "dfgs": [],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 211,
+        "lineEnd": 211,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "env.put(\"jmx.remote.x.access.file\", accessconfig)",
+        "dfgs": [
+            8
+        ],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "ClassLoader oldCl = Thread.currentThread().getContextClassLoader()",
+        "dfgs": [
+            8,
+            12
+        ],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Thread.currentThread().setContextClassLoader(getClass().getClassLoader())",
+        "dfgs": [
+            10,
+            12
+        ],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "server.start()",
+        "dfgs": [],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Thread.currentThread().setContextClassLoader(oldCl)",
+        "dfgs": [],
+        "fName": "framework_modules_geronimo-jmx-remoting_src_main_java_org_apache_geronimo_jmxremoting_JMXSecureConnector.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    }
+]

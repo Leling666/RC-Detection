@@ -1,0 +1,138 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "String s = \"<p>Hello</p><script>Nope</script><p>There</p>\"",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "ce691239d40e469b75fa22b0bb6a065202c475a7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"Nope\", doc.data())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "ce691239d40e469b75fa22b0bb6a065202c475a7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Element el =  insertEmpty(startTag)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_TreeBuilder.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "8749726a79c22451b1f01b14fb2137f734e926b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (StringUtil.in(name, \"base\", \"basefont\", \"bgsound\", \"command\", \"link\", \"meta\", \"noframes\", \"style\", \"title\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_TreeBuilderState.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "8749726a79c22451b1f01b14fb2137f734e926b4"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "String s = \"<p>Hello</p><script>obj.insert('<a rel=\\\"none\\\" />');\\ni++;</script><p>There</p>\"",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"obj.insert('<a rel=\\\"none\\\" />');\\ni++;\", doc.data())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Element el = insertEmpty(startTag)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_TreeBuilder.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (StringUtil.in(name, \"base\", \"basefont\", \"bgsound\", \"command\", \"link\", \"meta\", \"noframes\", \"script\", \"style\", \"title\"))",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_TreeBuilderState.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    }
+]

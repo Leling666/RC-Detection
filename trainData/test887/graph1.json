@@ -1,0 +1,823 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.xml.sax.Attributes",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import crawlercommons.sitemaps.AbstractSiteMap.SitemapType",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private URL loc",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "boolean valid",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException ",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.debug(\"here we go\")",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "b9d51283b7e4eb3bc89359a7507e17766a5f3151"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "loc = new URL(value)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "valid = urlIsValid(sitemap.getBaseUrl(), value)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "eb05248f405632359badc0296ad155618e122aa8"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "catch (MalformedURLException e)",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "LOG.debug(\"Bad url: [{}]\", value)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "LOG.trace(\"Can't create an entry with a bad URL\", e)",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            18
+        ],
+        "code": "if (valid || !isStrict())",
+        "dfgs": [
+            13,
+            17
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            14,
+            16
+        ],
+        "code": "if (loc == null)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "LOG.debug(\"Missing url\")",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "LOG.trace(\"Can't create an entry with a missing URL\")",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "SiteMapURL sUrl = new SiteMapURL(loc.toString(), lastMod, changeFreq, priority, valid)",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "loc = null",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            2
+        ],
+        "isDel": true,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "lastMod = null",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 40,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "changeFreq = null",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "priority = null",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "d203f0d4ac5415be6cedb95c0872f0335ee5de0c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import crawlercommons.sitemaps.AbstractSiteMap.SitemapType",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private StringBuilder loc",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "loc = new StringBuilder()",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "loc.append(value)",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "String value = loc.toString().trim()",
+        "dfgs": [
+            28,
+            29
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "URL locURL = new URL(value)",
+        "dfgs": [
+            29,
+            31
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "boolean valid = urlIsValid(sitemap.getBaseUrl(), value)",
+        "dfgs": [
+            30,
+            36,
+            32,
+            33,
+            34
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39,
+            31,
+            35
+        ],
+        "code": "if (valid || !isStrict())",
+        "dfgs": [
+            31,
+            32,
+            33,
+            34,
+            36
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "SiteMapURL sUrl = new SiteMapURL(locURL, valid)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "sUrl.setLastModified(lastMod)",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "sUrl.setChangeFrequency(changeFreq)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39,
+            35
+        ],
+        "code": "sUrl.setPriority(priority)",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "catch (MalformedURLException e)",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "LOG.debug(\"Bad url: [{}]\", value)",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "LOG.trace(\"Can't create an entry with a bad URL\", e)",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "loc = new StringBuilder()",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "lastMod = null",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "changeFreq = null",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "priority = null",
+        "dfgs": [],
+        "fName": "src_main_java_crawlercommons_sitemaps_sax_XMLHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    }
+]

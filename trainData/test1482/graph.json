@@ -1,0 +1,110 @@
+[
+    {
+        "cfgs": [],
+        "code": "private boolean propertyIsImplicitCast(ObjectType type, String prop) ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeCheck.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1179,
+        "lineEnd": 1179,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0
+    },
+    {
+        "cfgs": [],
+        "code": "if (fnType != null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeCheck.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1661,
+        "lineEnd": 1661,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 1
+    },
+    {
+        "cfgs": [],
+        "code": "private ObjectType getInstanceType(Node js1Node) ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 10119,
+        "lineEnd": 10119,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 2
+    },
+    {
+        "cfgs": [],
+        "code": "private static boolean propertyIsImplicitCast(ObjectType type, String prop) ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeCheck.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1179,
+        "lineEnd": 1179,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3
+    },
+    {
+        "cfgs": [],
+        "code": "if (fnType != null && fnType.hasInstanceType())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeCheck.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1661,
+        "lineEnd": 1661,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 4
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "public void testIssue1002() throws Exception ",
+        "dfgs": [
+            6
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6740,
+        "lineEnd": 6740,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/** @interface */\" +\"var I = function() {};\" +\"/** @constructor @implements {I} */\" +\"var A = function() {};\" +\"/** @constructor @implements {I} */\" +\"var B = function() {};\" +\"var f = function() {\" +\"  if (A === B) {\" +\"    new B();\" +\"  }\" +\"};\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6741,
+        "lineEnd": 6752,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6
+    },
+    {
+        "cfgs": [],
+        "code": "private static ObjectType getInstanceType(Node js1Node) ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10134,
+        "lineEnd": 10134,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 7
+    }
+]

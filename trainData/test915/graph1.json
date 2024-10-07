@@ -1,0 +1,2268 @@
+[
+    {
+        "cfgs": [],
+        "code": "clearDb()",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_TextRankProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "00657e5dfc40306dc524112c38830e868242eeb6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executeInTransaction(\"MATCH (n:AnnotatedText) CALL ga.nlp.ml.textRank({annotatedText: n}) YIELD result RETURN result\", (result -> {assertTrue(result.hasNext());}))",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_TextRankProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 19,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "00657e5dfc40306dc524112c38830e868242eeb6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executeInTransaction(\"MATCH (n:Keyword)-[:DESCRIBES]->(at) RETURN n, at\", (result -> {assertTrue(result.hasNext());}))",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_TextRankProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "00657e5dfc40306dc524112c38830e868242eeb6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executeInTransaction(\"MATCH (n:AnnotatedText) CALL ga.nlp.ml.textRank({annotatedText: n, iterations: 30, damp: 0.85, treshold: 0.0001}) YIELD result RETURN result\", (result -> {assertTrue(result.hasNext());}))",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_TextRankProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "00657e5dfc40306dc524112c38830e868242eeb6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executeInTransaction(\"MATCH (n:Keyword)-[:DESCRIBES]->(at) RETURN n, at\", (result -> {assertTrue(result.hasNext());}))",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_TextRankProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 37,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "00657e5dfc40306dc524112c38830e868242eeb6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executeInTransaction(q, (result -> {//}))",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_TextRankProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "00657e5dfc40306dc524112c38830e868242eeb6"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "executeInTransaction(\"CALL ga.nlp.annotate({text: 'hello my name is Frank', id: 'test-proc'})\", emptyConsumer())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_AnnotateTextProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "b63005d477a74b908b3ba1e8cd41d0ba5d0f020b"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "assertFalse(true)",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_AnnotateTextProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "b63005d477a74b908b3ba1e8cd41d0ba5d0f020b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (Exception e)",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_AnnotateTextProcedureTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "b63005d477a74b908b3ba1e8cd41d0ba5d0f020b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(\"Evaluation of TextRank results failed: \" + e.getMessage(), false)",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_ml_textrank_TextRankTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "63141a73cd59c029ae42ed90f203780a5e5c8518"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "executeInTransaction(\"match (l)-->(a:AnnotatedText)\\n\" +\"call ga.nlp.ml.textRank({annotatedText: a}) YIELD result RETURN result\", (result -> {assertTrue(result.hasNext());}))",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_ml_textrank_TextRankTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 98,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "f0ae09fcd1b083cdf34e5eca084da20cea279a34"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String GET_TAG_QUERY = \"MATCH (node:Tag)<-[:TAG_OCCURRENCE_TAG]-(to:TagOccurrence)<-[:SENTENCE_TAG_OCCURRENCE]-(:Sentence)<-[:CONTAINS_SENTENCE]-(a:AnnotatedText)\\n\"//+ \"WHERE id(a) = {id} and id(node) IN {nodeList}\\n\"+ \"WHERE id(a) = {id}\" // new+ \"OPTIONAL MATCH (to)<-[:COMPOUND|AMOD]-(to2:TagOccurrence)-[:TAG_OCCURRENCE_TAG]->(t2:Tag)\\n\"+ \"WHERE not exists(t2.pos) or any(p in t2.pos where p in {posList})\\n\"+ \"RETURN node.id as tag, to.startPosition as sP, to.endPosition as eP, id(node) as tagId, \"+ \"collect(t2.value) as rel_tags, collect(to2.startPosition) as rel_tos,  collect(to2.endPosition) as rel_toe\\n\"+ \"ORDER BY sP asc\"",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 66,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "a27b85cb3a2fccca6fca66103743bba0300aca0f",
+            "064cdf8ce70063c7036fcab1e8c6f842a97c41af",
+            "ba788ec0af3bb7f5f4c74366dbd2bb7a7b4719b6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public TextRank(GraphDatabaseService database, boolean removeStopWords,boolean directionsMatter,boolean respectSentences,boolean useTfIdfWeights,boolean useDependencies,boolean cleanSingleWordKeyword,int cooccurrenceWindow,int maxSingles,double phrases_topx_words,double singles_topx_words,Label keywordLabel,Set<String> stopWords,List<String> admittedPOSs)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "051e0ccebc31da389adb383083605ccf0e400de4"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "List<String> pos1 = Arrays.asList((String[]) next.get(\"pos1\"))",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 219,
+        "lineEnd": 219,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "List<String> pos2 = Arrays.asList((String[]) next.get(\"pos2\"))",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "Map<Long, List<Pair<Long, Long>>> neExp = expandNamedEntities()",
+        "dfgs": [
+            24,
+            19,
+            16
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": -1,
+        "methodParents": [
+            29
+        ],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "neExpanded = neExp.entrySet().stream().collect(Collectors.toMap( Map.Entry::getKey, e -> e.getValue().stream().map(p -> p.second()).collect(Collectors.toList()) ))",
+        "dfgs": [
+            24,
+            19,
+            17
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 237,
+        "lineEnd": 238,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            18,
+            23
+        ],
+        "code": "if (neExp.containsKey(tag1))",
+        "dfgs": [
+            24,
+            19,
+            23,
+            18,
+            21
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            19,
+            21
+        ],
+        "code": "if (neVisited == 0L || neVisited != tag1.longValue())",
+        "dfgs": [
+            19,
+            21
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "connectTagsInNE(results, neExp.get(tag1), tag1Start)",
+        "dfgs": [
+            24,
+            21
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 250,
+        "lineEnd": 250,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "neVisited = 0L",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 251,
+        "lineEnd": 251,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "tag1Start += neExp.get(tag1).get( neExp.get(tag1).size() - 1 ).first().intValue()",
+        "dfgs": [
+            24,
+            22
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "tag1 = neExp.get(tag1).get( neExp.get(tag1).size() - 1 ).second()",
+        "dfgs": [
+            24,
+            23
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            24,
+            27
+        ],
+        "code": "if (neExp.containsKey(tag2))",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 257,
+        "lineEnd": 257,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "connectTagsInNE(results, neExp.get(tag2), tag2Start)",
+        "dfgs": [
+            25,
+            26
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "neVisited = tag2",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "tag2 = neExp.get(tag2).get(0).second()",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "neVisited = 0L",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "parameters.put(\"textProcessor\", \"com.graphaware.nlp.processor.stanford.StanfordTextProcessor\")",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 323,
+        "lineEnd": 323,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "if (idToValue.get(valueL).split(\" \").length < 2)",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 333,
+        "lineEnd": 333,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "String str = idToValue.get(valueL).toLowerCase()",
+        "dfgs": [
+            33,
+            32
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 335,
+        "lineEnd": 335,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "List<Long> lId = idToValue.entrySet().stream().filter(en -> en.getValue().equals(val) || en.getValue().toLowerCase().equals(val)).map(Map.Entry::getKey).collect(Collectors.toList())",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 351,
+        "lineEnd": 351,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "List<Long> lIdNew = newIdsToVal.entrySet().stream().filter(en -> en.getValue().equals(val) || en.getValue().toLowerCase().equals(val)).map(Map.Entry::getKey).collect(Collectors.toList())",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 352,
+        "lineEnd": 352,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            35,
+            37
+        ],
+        "code": "Map<String, Long> valToId = idToValue.entrySet().stream().collect(Collectors.toMap(Map.Entry::getValue, Map.Entry::getKey))",
+        "dfgs": [
+            35,
+            37,
+            40,
+            39,
+            36
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 422,
+        "lineEnd": 422,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "064cdf8ce70063c7036fcab1e8c6f842a97c41af"
+        ]
+    },
+    {
+        "cfgs": [
+            37,
+            36
+        ],
+        "code": "relTagIDs.retainAll(topThird)",
+        "dfgs": [
+            37,
+            40,
+            39,
+            36
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 432,
+        "lineEnd": 432,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "064cdf8ce70063c7036fcab1e8c6f842a97c41af"
+        ]
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "localResults.entrySet().stream().forEach((item) -> {KeywordExtractedItem nextKeyword = keywordsOccurrences.get(0);if (nextKeyword != null && nextKeyword.value.equalsIgnoreCase(item.getKey())) {String newCurrValue = currValue.get().split(\"_\")[0] + \" \" + item.getKey();//System.out.println(\">> \" + newCurrValue);double newCurrRelevance = currRelevance.get() + item.getValue().getRelevance();currValue.set(newCurrValue);currRelevance.set(newCurrRelevance);keywordOccurrence.set(nextKeyword);keywordsOccurrences.remove(0);} else {LOG.warn(\"Next keyword not found!\");keywordOccurrence.set(null);}})",
+        "dfgs": [
+            37,
+            40,
+            39
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 443,
+        "lineEnd": 457,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": true,
+        "commits": [
+            "a27b85cb3a2fccca6fca66103743bba0300aca0f",
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd",
+            "445bb76f95c92e5d84aa4fcf3c21a9712a0fff22"
+        ]
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "for (Long key: neExpanded.keySet())",
+        "dfgs": [
+            40,
+            39
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 465,
+        "lineEnd": 465,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "String keystr = idToValue.get(key) + \"_en\"",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addToResults(keystr, pageRanks.containsKey(key) ? pageRanks.get(key) : 0, results, 1)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "064cdf8ce70063c7036fcab1e8c6f842a97c41af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "List<String> merged = new ArrayList<>(keywords.get(tagId).getRelatedTags())",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 501,
+        "lineEnd": 501,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "064cdf8ce70063c7036fcab1e8c6f842a97c41af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private Map<String, Keyword>  cleanSingleWordKeyword(Map<String, Keyword> results) ",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 702,
+        "lineEnd": 702,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "051e0ccebc31da389adb383083605ccf0e400de4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String[] STOP_WORDS = {\"new\", \"old\", \"large\", \"big\", \"vast\", \"small\", \"many\", \"few\", \"best\", \"worst\"}",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 719,
+        "lineEnd": 719,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": true,
+        "commits": [
+            "fcf2e530f2a54ac92f3a972c976895a748cca0bd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "TextRank result = new TextRank(database,removeStopWords,directionsMatter,respectSentences,useTfIdfWeights,useDependencies,cleanSingleWordKeyword,cooccurrenceWindow,maxSingles,phrasesTopxWords,singlesTopxWords,keywordLabel,stopWords,admittedPOSs)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 755,
+        "lineEnd": 768,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "051e0ccebc31da389adb383083605ccf0e400de4",
+            "ba788ec0af3bb7f5f4c74366dbd2bb7a7b4719b6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testTextRankWithDefaults() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_TextRankProcedureTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 16,
+        "lineEnd": 16,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "executeInTransaction(\"CALL ga.nlp.annotate({text: 'The European Union accumulated a higher portion of GDP as a form of foreign aid than any other economic union.', id: 'test-proc'})\", emptyConsumer())",
+        "dfgs": [
+            48
+        ],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_AnnotateTextProcedureTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "catch (Exception e)",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_AnnotateTextProcedureTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(false)",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_dsl_AnnotateTextProcedureTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50,
+            51
+        ],
+        "code": "if (annText == null)",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_test_java_com_graphaware_nlp_ml_textrank_TextRankTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "System.out.println(\">>>>>> annText is null!\")",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_test_java_com_graphaware_nlp_ml_textrank_TextRankTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52,
+            53
+        ],
+        "code": "if (textrank == null)",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_test_java_com_graphaware_nlp_ml_textrank_TextRankTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "System.out.println(\">>>>>> textrank is null!\")",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_ml_textrank_TextRankTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(\"Evaluation of TextRank results failed: \" + e.getMessage(), true)",
+        "dfgs": [],
+        "fName": "src_test_java_com_graphaware_nlp_ml_textrank_TextRankTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String GET_TAG_QUERY = \"MATCH (node:Tag)<-[:TAG_OCCURRENCE_TAG]-(to:TagOccurrence)<-[:SENTENCE_TAG_OCCURRENCE]-(:Sentence)<-[:CONTAINS_SENTENCE]-(a:AnnotatedText)\\n\"//+ \"WHERE id(a) = {id} and id(node) IN {nodeList}\\n\"+ \"WHERE id(a) = {id}\" // new+ \"OPTIONAL MATCH (to)<-[:COMPOUND|AMOD]-(to2:TagOccurrence)-[:TAG_OCCURRENCE_TAG]->(t2:Tag)\\n\"//+ \"OPTIONAL MATCH (to)-[:COMPOUND|AMOD]-(to2:TagOccurrence)-[:TAG_OCCURRENCE_TAG]->(t2:Tag)\\n\" // new+ \"WHERE not exists(t2.pos) or any(p in t2.pos where p in {posList})\\n\"+ \"RETURN node.id as tag, to.startPosition as sP, to.endPosition as eP, id(node) as tagId, \"+ \"collect(t2.value) as rel_tags, collect(to2.startPosition) as rel_tos,  collect(to2.endPosition) as rel_toe, labels(node) as labels\\n\"+ \"ORDER BY sP asc\"",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 74,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final boolean expandNEs",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final List<String> forbiddenNEs",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "public TextRank(GraphDatabaseService database, boolean removeStopWords,boolean directionsMatter,boolean respectSentences,boolean useTfIdfWeights,boolean useDependencies,boolean cleanSingleWordKeyword,int cooccurrenceWindow,int maxSingles,double phrases_topx_words,double singles_topx_words,Label keywordLabel,Set<String> stopWords,List<String> admittedPOSs,List<String> forbiddenNEs)",
+        "dfgs": [
+            58,
+            59
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "this.expandNEs = false",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [
+            55
+        ],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.forbiddenNEs = forbiddenNEs",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [
+            56
+        ],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "List<String> pos1 = next.get(\"pos1\") != null ? Arrays.asList((String[]) next.get(\"pos1\")) : new ArrayList<>()",
+        "dfgs": [
+            61
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 225,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "List<String> pos2 = next.get(\"pos2\") != null ? Arrays.asList((String[]) next.get(\"pos2\")) : new ArrayList<>()",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Map<Long, List<Pair<Long, Long>>> neExp",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64,
+            65
+        ],
+        "code": "if (expandNEs)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [
+            55
+        ],
+        "isDel": false,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "neExp = expandNamedEntities()",
+        "dfgs": [
+            75,
+            70,
+            68
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": -1,
+        "methodParents": [
+            80
+        ],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "neExp = new HashMap<>()",
+        "dfgs": [
+            68
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "if (expandNEs)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [
+            55
+        ],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69,
+            74
+        ],
+        "code": "if (neExp.containsKey(tag1))",
+        "dfgs": [
+            75,
+            70,
+            74,
+            69,
+            72
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70,
+            72
+        ],
+        "code": "if (neVisited == 0L || neVisited != tag1.longValue())",
+        "dfgs": [
+            70,
+            72
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "connectTagsInNE(results, neExp.get(tag1), tag1Start)",
+        "dfgs": [
+            75,
+            72
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "neVisited = 0L",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "tag1Start += neExp.get(tag1).get( neExp.get(tag1).size() - 1 ).first().intValue()",
+        "dfgs": [
+            75,
+            73
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "tag1 = neExp.get(tag1).get( neExp.get(tag1).size() - 1 ).second()",
+        "dfgs": [
+            75,
+            74
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75,
+            78
+        ],
+        "code": "if (neExp.containsKey(tag2))",
+        "dfgs": [
+            75
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "connectTagsInNE(results, neExp.get(tag2), tag2Start)",
+        "dfgs": [
+            76,
+            77
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "neVisited = tag2",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "tag2 = neExp.get(tag2).get(0).second()",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 272,
+        "lineEnd": 272,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "neVisited = 0L",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 274,
+        "lineEnd": 274,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "if (idToValue.get(valueL).trim().split(\" \").length < 2)",
+        "dfgs": [
+            81
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "String str = idToValue.get(valueL).trim().toLowerCase()",
+        "dfgs": [
+            82
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 347,
+        "lineEnd": 347,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "List<Long> lIdNew = newIdsToVal.entrySet().stream().filter(en -> en.getValue().equals(val) || en.getValue().equalsIgnoreCase(val)).map(Map.Entry::getKey).collect(Collectors.toList())",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84,
+            90,
+            95
+        ],
+        "code": "List<Long> wrongNEs = new ArrayList<>()",
+        "dfgs": [
+            95,
+            86
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90,
+            95,
+            86,
+            88
+        ],
+        "code": "if (removeStopWords && stopWords.contains(((String) next.get(\"tag\")).split(\"_\")[0]))",
+        "dfgs": [
+            90,
+            98,
+            95,
+            97,
+            92,
+            93,
+            89
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 415,
+        "lineEnd": 415,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 416,
+        "lineEnd": 416,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90,
+            95
+        ],
+        "code": "wrongNEs.add(tagId)",
+        "dfgs": [
+            95
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 419,
+        "lineEnd": 419,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 420,
+        "lineEnd": 420,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 434,
+        "lineEnd": 434,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90,
+            95
+        ],
+        "code": "keywordMap.get(tagId).update(item)",
+        "dfgs": [
+            90,
+            98,
+            95,
+            97,
+            92,
+            93
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 435,
+        "lineEnd": 435,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91
+        ],
+        "code": "List<Long> relTagIDs = getRelTagsIntoDepth(keywordOccurrence.get(), keywordsOccurrences)",
+        "dfgs": [
+            98,
+            95,
+            97,
+            91,
+            92,
+            93
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 455,
+        "lineEnd": 455,
+        "lineMapIndex": -1,
+        "methodParents": [
+            100
+        ],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "relTagIDs.retainAll(topThird)",
+        "dfgs": [
+            98,
+            95,
+            97,
+            92,
+            93
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 456,
+        "lineEnd": 456,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            93
+        ],
+        "code": "if (nextKeyword != null && nextKeyword.getValue().equalsIgnoreCase(item.getKey()))",
+        "dfgs": [
+            93
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String newCurrValue = currValue.get().trim().split(\"_\")[0] + \" \" + item.getKey()",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 470,
+        "lineEnd": 470,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 492,
+        "lineEnd": 492,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97
+        ],
+        "code": "if (wrongNEs.contains(key))",
+        "dfgs": [
+            97
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 493,
+        "lineEnd": 493,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 494,
+        "lineEnd": 494,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "String keystr = idToValue.get(key).toLowerCase() + \"_en\"",
+        "dfgs": [
+            98
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 495,
+        "lineEnd": 495,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addToResults(keystr, pageRanks.containsKey(key) ? pageRanks.get(key) : 0, results, 1)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 496,
+        "lineEnd": 496,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "List<String> merged = new ArrayList<>(keywords.get(ccEntry).getRelatedTags())",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 529,
+        "lineEnd": 529,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            101
+        ],
+        "code": "private List<Long> getRelTagsIntoDepth(KeywordExtractedItem kwOccurrence, List<KeywordExtractedItem> kwOccurrences) ",
+        "dfgs": [
+            103,
+            102,
+            101,
+            104
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 579,
+        "lineEnd": 579,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            102
+        ],
+        "code": "Map<String, Long> valToId = idToValue.entrySet().stream().collect(Collectors.toMap(Map.Entry::getValue, Map.Entry::getKey))",
+        "dfgs": [
+            104
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 580,
+        "lineEnd": 580,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "List<String> relTags = kwOccurrence.getRelatedTags()",
+        "dfgs": [
+            104
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 581,
+        "lineEnd": 581,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "kwOccurrences.stream().filter(el -> relTags.contains(el.getValue().split(\"_\")[0])).forEach(el -> {relTags.addAll(el.getRelatedTags());//System.out.println(\"  ADDING (\" + el.getValue() + \"): \" + el.getRelatedTags() + \", size = \" + el.getRelatedTags().size());})",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 582,
+        "lineEnd": 587,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return relTags.stream().map(el -> valToId.get(el)).collect(Collectors.toList())",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 588,
+        "lineEnd": 588,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            106
+        ],
+        "code": "private Map<String, Keyword> cleanSingleWordKeyword(Map<String, Keyword> results) ",
+        "dfgs": [
+            106
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 742,
+        "lineEnd": 742,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "results.entrySet().stream().forEach((entry) -> {results.entrySet().stream().forEach((innerEntry) -> {if (entry.getValue().getWordsCount() < innerEntry.getValue().getWordsCount()&& innerEntry.getValue().getRawKeyword().contains(entry.getValue().getRawKeyword())&& entry.getValue().getWordsCount() == 1 // new//&& entry.getValue().getMeanRelevance() < innerEntry.getValue().getMeanRelevance() // new) {newResults.remove(entry.getKey());//if ( !( Math.abs(entry.getValue().getRelevance() - innerEntry.getValue().getRelevance()) < (0.10 * innerEntry.getValue().getWordsCount()) * entry.getValue().getRelevance() ) )//|| entry.getValue().getWordsCount() == 1 )//    newResults.remove(entry.getKey());/*if ( Math.abs(entry.getValue().getRelevance() - innerEntry.getValue().getRelevance()) < (0.05 * innerEntry.getValue().getWordsCount()) * entry.getValue().getRelevance() )newResults.remove(innerEntry.getKey());if (entry.getValue().getWordsCount() == 1)newResults.remove(entry.getKey());*/}});})",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 744,
+        "lineEnd": 760,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            108
+        ],
+        "code": "private static final String[] STOP_WORDS = {\"new\", \"old\", \"large\", \"big\", \"vast\", \"small\", \"many\", \"few\", \"good\", \"better\", \"best\", \"bad\", \"worse\", \"worst\"}",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 766,
+        "lineEnd": 766,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String[] FORBIDDEN_NES = {\"NER_Date\", \"NER_Number\", \"NER_Duration\", \"NER_Ordinal\"}",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 768,
+        "lineEnd": 768,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private List<String> forbiddenNEs = Arrays.asList(FORBIDDEN_NES)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 794,
+        "lineEnd": 794,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "TextRank result = new TextRank(database,removeStopWords,directionsMatter,respectSentences,useTfIdfWeights,useDependencies,cleanSingleWordKeyword,cooccurrenceWindow,maxSingles,phrasesTopxWords,singlesTopxWords,keywordLabel,stopWords,admittedPOSs,forbiddenNEs)",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [
+            56
+        ],
+        "isDel": false,
+        "lineBeg": 803,
+        "lineEnd": 817,
+        "lineMapIndex": -1,
+        "methodParents": [
+            57
+        ],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112
+        ],
+        "code": "public Builder setForbiddenNEs(List<String> forbiddenNEs) ",
+        "dfgs": [
+            112,
+            113
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 871,
+        "lineEnd": 871,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            113
+        ],
+        "code": "this.forbiddenNEs = forbiddenNEs",
+        "dfgs": [
+            113
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [
+            56
+        ],
+        "isDel": false,
+        "lineBeg": 872,
+        "lineEnd": 872,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 873,
+        "lineEnd": 873,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            115
+        ],
+        "code": "public void update(KeywordExtractedItem item) ",
+        "dfgs": [
+            115,
+            116,
+            117
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 973,
+        "lineEnd": 973,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            116
+        ],
+        "code": "this.relatedTags.addAll(item.getRelatedTags())",
+        "dfgs": [
+            116
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 974,
+        "lineEnd": 974,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            117
+        ],
+        "code": "this.relTagStartingPoints.addAll(item.getRelTagStartingPoints())",
+        "dfgs": [
+            117
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 975,
+        "lineEnd": 975,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.relTagEndingPoints.addAll(item.getRelTagEndingPoints())",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_ml_textrank_TextRank.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 976,
+        "lineEnd": 976,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            119
+        ],
+        "code": "public double getMeanRelevance() ",
+        "dfgs": [
+            119
+        ],
+        "fName": "src_main_java_com_graphaware_nlp_domain_Keyword.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return this.relevance/this.wordsCount",
+        "dfgs": [],
+        "fName": "src_main_java_com_graphaware_nlp_domain_Keyword.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    }
+]

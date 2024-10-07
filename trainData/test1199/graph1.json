@@ -1,0 +1,799 @@
+[
+    {
+        "cfgs": [],
+        "code": "import java.util.Collections",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.LinkedList",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 13,
+        "lineEnd": 13,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.mockito.internal.matchers.VarargMatcher",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "e43a958833df5aa46f54d7cd83b1c17fa19cc5dc"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Class[] params1 = m1.getParameterTypes()",
+        "dfgs": [
+            6,
+            7,
+            8
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "Class[] params2 = m2.getParameterTypes()",
+        "dfgs": [
+            6,
+            8
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "if (params1.length == params2.length)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            10
+        ],
+        "code": "for (int i = 0; i < params1.length; i++)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (params1[i] != params2[i])",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "05219d5173006eaf49d421a288eee348db1e7fc1"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "for (int position = indexOfVararg; position < matchers.size(); position++)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "4e9d7607825c3c668fd43f19507bfead566c528c"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "Matcher m = matchers.get(position)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "4e9d7607825c3c668fd43f19507bfead566c528c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "((CapturesArguments) m).captureFrom(invocation.getRawArguments()[position - indexOfVararg])",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "4e9d7607825c3c668fd43f19507bfead566c528c"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "private boolean isVarargMatcher(Matcher matcher) ",
+        "dfgs": [
+            15,
+            16,
+            18,
+            17
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "e43a958833df5aa46f54d7cd83b1c17fa19cc5dc"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "Matcher actualMatcher = matcher",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "e43a958833df5aa46f54d7cd83b1c17fa19cc5dc"
+        ]
+    },
+    {
+        "cfgs": [
+            17,
+            18
+        ],
+        "code": "if (actualMatcher instanceof MatcherDecorator)",
+        "dfgs": [
+            18,
+            17
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "e43a958833df5aa46f54d7cd83b1c17fa19cc5dc"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "actualMatcher = ((MatcherDecorator) actualMatcher).getActualMatcher()",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "e43a958833df5aa46f54d7cd83b1c17fa19cc5dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return actualMatcher instanceof VarargMatcher",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "e43a958833df5aa46f54d7cd83b1c17fa19cc5dc"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "private boolean isVariableArgument(Invocation invocation, int position) ",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "e43a958833df5aa46f54d7cd83b1c17fa19cc5dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return invocation.getRawArguments().length - 1 == position&& invocation.getRawArguments()[position] != null&& invocation.getRawArguments()[position].getClass().isArray()&& invocation.getMethod().isVarArgs()",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 172,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "e43a958833df5aa46f54d7cd83b1c17fa19cc5dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.*",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "Class[] params1 = m1.getParameterTypes()",
+        "dfgs": [
+            24,
+            25,
+            26
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "Class[] params2 = m2.getParameterTypes()",
+        "dfgs": [
+            24,
+            26
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (params1.length == params2.length)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            28
+        ],
+        "code": "for (int i = 0; i < params1.length; i++)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "if (params1[i] != params2[i])",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "for (Matcher m : uniqueMatcherSet(indexOfVararg))",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [
+            33
+        ],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "Object rawArgument = invocation.getRawArguments()[indexOfVararg]",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "for (int i = 0; i < Array.getLength(rawArgument); i++)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "((CapturesArguments) m).captureFrom(Array.get(rawArgument, i))",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "private Set<Matcher> uniqueMatcherSet(int indexOfVararg) ",
+        "dfgs": [
+            34,
+            35,
+            41,
+            36,
+            37,
+            38,
+            40
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "HashSet<Matcher> set = new HashSet<Matcher>()",
+        "dfgs": [
+            41,
+            38,
+            40
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36,
+            41
+        ],
+        "code": "for (int position = indexOfVararg; position < matchers.size(); position++)",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 147,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "Matcher matcher = matchers.get(position)",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38,
+            39
+        ],
+        "code": "if(matcher instanceof MatcherDecorator)",
+        "dfgs": [
+            38,
+            40
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "set.add(((MatcherDecorator) matcher).getActualMatcher())",
+        "dfgs": [
+            41,
+            40
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "set.add(matcher)",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return set",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_invocation_InvocationMatcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    }
+]

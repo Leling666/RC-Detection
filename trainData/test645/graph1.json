@@ -1,0 +1,110 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (name.startsWith(\"META-INF\") ||name.startsWith(\"ncube/grv/\") ||name.startsWith(\"java/lang/ncube\") ||name.startsWith(\"java/io/ncube\") ||name.startsWith(\"java/util/ncube\") ||name.startsWith(\"java/net/ncube\") ||name.startsWith(\"com/cedarsoftware/\"))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_util_CdnClassLoader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 88,
+        "lineEnd": 94,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "cfcf24d7e795cd970e1145b7fe30020129671a75"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (name.startsWith(\"ncube/grv/closure/NCubeTemplateClosures\"))",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_util_CdnClassLoader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "cfcf24d7e795cd970e1145b7fe30020129671a75"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(testLoader2.isLocalOnlyResource(\"ncube/grv/closure/NCubeGroovyController.groovy\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_ncube_util_TestCdnClassLoader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 5,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "cfcf24d7e795cd970e1145b7fe30020129671a75"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (name.startsWith(\"META-INF\") ||name.startsWith(\"ncube/grv/\") ||name.startsWith(\"java/lang/\") ||name.startsWith(\"java/io/\") ||name.startsWith(\"java/util/\") ||name.startsWith(\"java/net/\") ||name.startsWith(\"java/text/\") ||name.startsWith(\"groovy/lang/\") ||name.startsWith(\"groovy/util/\") ||name.startsWith(\"com/cedarsoftware/\"))",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_com_cedarsoftware_ncube_util_CdnClassLoader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 97,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (name.startsWith(\"ncube/grv/closure/\"))",
+        "dfgs": [],
+        "fName": "src_main_java_com_cedarsoftware_ncube_util_CdnClassLoader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(testLoader2.isLocalOnlyResource(\"ncube/grv/closure/NCubeGroovyController.groovy\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_cedarsoftware_ncube_util_TestCdnClassLoader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 2,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    }
+]

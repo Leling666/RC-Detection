@@ -1,0 +1,1107 @@
+[
+    {
+        "cfgs": [],
+        "code": "dist.setMean(10000)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": 38,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "6182573f54f7024ee033e32a1c4007461fd4b55f"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "PoissonDistribution dist = new PoissonDistributionImpl(DEFAULT_TEST_POISSON_PARAMETER)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": 39,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "a012ec83ecd0d13fd7ba250da322a6183adb45aa"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "dist.setMean(-1)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 40,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "19ddf2957ed5cb8072b969bf12ec046ac0ac3ccb"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "fail(\"negative mean.  IllegalArgumentException expected\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "19ddf2957ed5cb8072b969bf12ec046ac0ac3ccb"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "catch(IllegalArgumentException ex)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "19ddf2957ed5cb8072b969bf12ec046ac0ac3ccb"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "dist.setMean(10.0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 143,
+        "lineEnd": 143,
+        "lineMapIndex": 43,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "19ddf2957ed5cb8072b969bf12ec046ac0ac3ccb"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "PoissonDistribution dist = new PoissonDistributionImpl(1.0)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "a012ec83ecd0d13fd7ba250da322a6183adb45aa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "dist.setMean(mean)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": 44,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "c5768f0660d4b26e222dbcc1ad3bc4019f59c7dd"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "PoissonDistribution dist = new PoissonDistributionImpl(1.0)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 180,
+        "lineEnd": 180,
+        "lineMapIndex": 45,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "5fb5e80a151513a91cc961221e96267100abe1f4"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "dist.setMean(9120)",
+        "dfgs": [
+            10,
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": 46,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "5fb5e80a151513a91cc961221e96267100abe1f4"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "dist.setMean(5058)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": 47,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "5fb5e80a151513a91cc961221e96267100abe1f4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "dist.setMean(6986)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": 48,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "5fb5e80a151513a91cc961221e96267100abe1f4"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "PoissonDistribution dist = new PoissonDistributionImpl(1.0)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": -1,
+        "methodParents": [
+            17
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "a012ec83ecd0d13fd7ba250da322a6183adb45aa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "dist.setMean(mean)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": 49,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "c5768f0660d4b26e222dbcc1ad3bc4019f59c7dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "void setMean(double p)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistribution.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "54c0e73219f22eba7bac1c1f7261576564b34f16"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "double normalApproximateProbability(int x) throws MathException",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistribution.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "54c0e73219f22eba7bac1c1f7261576564b34f16"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.math.MathRuntimeException",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "f4dbd2ecf5ac84904d23ea3f5e1768de5cf241c2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this(p, new NormalDistributionImpl())",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "b345aa99c18edbdb2d338f325389b771913a64d6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "setMean(p)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "09a4643e101e9b42537806eea6601eb2f389f4b9"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "setMean(p)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "09a4643e101e9b42537806eea6601eb2f389f4b9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.epsilon = epsilon",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "09a4643e101e9b42537806eea6601eb2f389f4b9"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "setMean(p)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "09a4643e101e9b42537806eea6601eb2f389f4b9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.maxIterations = maxIterations",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "09a4643e101e9b42537806eea6601eb2f389f4b9"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "@Deprecatedpublic PoissonDistributionImpl(double p, NormalDistribution z)",
+        "dfgs": [
+            24,
+            25
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 134,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "b345aa99c18edbdb2d338f325389b771913a64d6",
+            "2e3e0829846239f4f1378a81e307ed28b11f9ecc"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "super()",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "6182573f54f7024ee033e32a1c4007461fd4b55f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "setNormalAndMeanInternal(z, p)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": -1,
+        "methodParents": [
+            28
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "2e3e0829846239f4f1378a81e307ed28b11f9ecc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void setMean(double p) ",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "6182573f54f7024ee033e32a1c4007461fd4b55f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "setNormalAndMeanInternal(normal, p)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": -1,
+        "methodParents": [
+            28
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "2e3e0829846239f4f1378a81e307ed28b11f9ecc"
+        ]
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "private void setNormalAndMeanInternal(NormalDistribution z,double p)",
+        "dfgs": [
+            31,
+            32,
+            33,
+            34,
+            29,
+            30
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 169,
+        "lineEnd": 170,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "2e3e0829846239f4f1378a81e307ed28b11f9ecc"
+        ]
+    },
+    {
+        "cfgs": [
+            30,
+            31
+        ],
+        "code": "if (p <= 0)",
+        "dfgs": [
+            31,
+            33,
+            30
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "6182573f54f7024ee033e32a1c4007461fd4b55f"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "throw MathRuntimeException.createIllegalArgumentException(LocalizedFormats.NOT_POSITIVE_POISSON_MEAN, p)",
+        "dfgs": [
+            31,
+            33
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 172,
+        "lineEnd": 173,
+        "lineMapIndex": 53,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "f4dbd2ecf5ac84904d23ea3f5e1768de5cf241c2",
+            "92a9c20dc56dddc8710226d40c079fc13ab5331d"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "mean = p",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "2e3e0829846239f4f1378a81e307ed28b11f9ecc"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "normal = z",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "2e3e0829846239f4f1378a81e307ed28b11f9ecc"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "normal.setMean(p)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "b345aa99c18edbdb2d338f325389b771913a64d6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "normal.setStandardDeviation(FastMath.sqrt(p))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void setNormal(NormalDistribution value) ",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "b345aa99c18edbdb2d338f325389b771913a64d6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "setNormalAndMeanInternal(value, mean)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": -1,
+        "methodParents": [
+            28
+        ],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "2e3e0829846239f4f1378a81e307ed28b11f9ecc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.math.exception.NotStrictlyPositiveException",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "dist = new PoissonDistributionImpl(10000)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": 0,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PoissonDistribution dist",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 138,
+        "lineEnd": 138,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "dist = new PoissonDistributionImpl(-1)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": 2,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "fail(\"negative mean: NotStrictlyPositiveException expected\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "catch(NotStrictlyPositiveException ex)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "dist = new PoissonDistributionImpl(10.0)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": 5,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PoissonDistribution dist = new PoissonDistributionImpl(mean)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": 7,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PoissonDistribution dist",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 182,
+        "lineEnd": 182,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "dist = new PoissonDistributionImpl(9120)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 9,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "dist = new PoissonDistributionImpl(5058)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": 10,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "dist = new PoissonDistributionImpl(6986)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": 11,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PoissonDistribution dist = new PoissonDistributionImpl(mean)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_distribution_PoissonDistributionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": 13,
+        "methodParents": [
+            51
+        ],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.math.exception.NotStrictlyPositiveException",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this(p, DEFAULT_EPSILON, DEFAULT_MAX_ITERATIONS)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53,
+            54
+        ],
+        "code": "if (p <= 0)",
+        "dfgs": [
+            54,
+            55,
+            53
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "throw new NotStrictlyPositiveException(LocalizedFormats.MEAN, p)",
+        "dfgs": [
+            54,
+            55
+        ],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "mean = p",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "normal = new NormalDistributionImpl(p, FastMath.sqrt(p))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this(p, epsilon, DEFAULT_MAX_ITERATIONS)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this(p, DEFAULT_EPSILON, maxIterations)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_distribution_PoissonDistributionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    }
+]

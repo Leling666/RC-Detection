@@ -1,0 +1,525 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "Map<String, String> hsiSiteConfigProperties = hsiSiteConfig.getProperties()",
+        "dfgs": [
+            1
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 778,
+        "lineEnd": 778,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (hsiSiteConfigProperties != null &&hsiSiteConfigProperties.containsKey(HIVE_LLAP_DAEMON_KEYTAB_FILE))",
+        "dfgs": [
+            5,
+            6
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 779,
+        "lineEnd": 780,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "String[] identities = {HIVE_LLAP_ZK_SM_KEYTAB_FILE, HIVE_LLAP_TASK_KEYTAB_FILE}",
+        "dfgs": [
+            4
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 781,
+        "lineEnd": 781,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Map<String, String> newProperties = new HashMap<>()",
+        "dfgs": [
+            7,
+            6
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 782,
+        "lineEnd": 782,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            5
+        ],
+        "code": "for (String identity : identities)",
+        "dfgs": [
+            5
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 783,
+        "lineEnd": 783,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (getYarnKerberosDescUpdatedList().contains(identity) && hsiSiteConfigProperties.containsKey(identity))",
+        "dfgs": [
+            6,
+            9
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 786,
+        "lineEnd": 786,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "newProperties.put(identity, hsiSiteConfigProperties.get(HIVE_LLAP_DAEMON_KEYTAB_FILE))",
+        "dfgs": [
+            7
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 787,
+        "lineEnd": 787,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (newProperties.size() > 0)",
+        "dfgs": [
+            9
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 792,
+        "lineEnd": 792,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 793,
+        "lineEnd": 793,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "updateConfigurationPropertiesForCluster(cluster, HIVE_INTERACTIVE_SITE, newProperties, true, false)",
+        "dfgs": [
+            10
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 794,
+        "lineEnd": 794,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "LOG.info(\"Updated HSI config(s) : \" + newProperties.keySet() + \" with value(s) = \" + newProperties.values()+\" respectively.\")",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 795,
+        "lineEnd": 795,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "catch (AmbariException e)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 796,
+        "lineEnd": 796,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "e.printStackTrace()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 797,
+        "lineEnd": 797,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "65ca08455f05b7c7e9352723f2bea21e86bc43e8"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "if (hsiSiteConfig != null)",
+        "dfgs": [
+            14
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 778,
+        "lineEnd": 778,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "Map<String, String> hsiSiteConfigProperties = hsiSiteConfig.getProperties()",
+        "dfgs": [
+            15
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 779,
+        "lineEnd": 779,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "if (hsiSiteConfigProperties != null &&hsiSiteConfigProperties.containsKey(HIVE_LLAP_DAEMON_KEYTAB_FILE))",
+        "dfgs": [
+            19,
+            20
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 780,
+        "lineEnd": 781,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "String[] identities = {HIVE_LLAP_ZK_SM_KEYTAB_FILE, HIVE_LLAP_TASK_KEYTAB_FILE}",
+        "dfgs": [
+            18
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 782,
+        "lineEnd": 782,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Map<String, String> newProperties = new HashMap<>()",
+        "dfgs": [
+            21,
+            20
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 783,
+        "lineEnd": 783,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21,
+            19
+        ],
+        "code": "for (String identity : identities)",
+        "dfgs": [
+            19
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 784,
+        "lineEnd": 784,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "if (getYarnKerberosDescUpdatedList().contains(identity) && hsiSiteConfigProperties.containsKey(identity))",
+        "dfgs": [
+            20,
+            23
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 787,
+        "lineEnd": 787,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "newProperties.put(identity, hsiSiteConfigProperties.get(HIVE_LLAP_DAEMON_KEYTAB_FILE))",
+        "dfgs": [
+            21
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 788,
+        "lineEnd": 788,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "if (newProperties.size() > 0)",
+        "dfgs": [
+            23
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 793,
+        "lineEnd": 793,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 794,
+        "lineEnd": 794,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "updateConfigurationPropertiesForCluster(cluster, HIVE_INTERACTIVE_SITE, newProperties, true, false)",
+        "dfgs": [
+            24
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 795,
+        "lineEnd": 795,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "LOG.info(\"Updated HSI config(s) : \" + newProperties.keySet() + \" with value(s) = \" + newProperties.values() + \" respectively.\")",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 796,
+        "lineEnd": 796,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "catch (AmbariException e)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 797,
+        "lineEnd": 797,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "e.printStackTrace()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_upgrade_UpgradeCatalog260.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 798,
+        "lineEnd": 798,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    }
+]

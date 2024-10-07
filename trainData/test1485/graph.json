@@ -1,0 +1,89 @@
+[
+    {
+        "cfgs": [],
+        "code": "return len > 0 && s.charAt(0) != '0'",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 791,
+        "lineEnd": 791,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "if (len == 0)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 785,
+        "lineEnd": 785,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 786,
+        "lineEnd": 786,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2
+    },
+    {
+        "cfgs": [],
+        "code": "return len == 1 || s.charAt(0) != '0'",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 794,
+        "lineEnd": 794,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "public void testIssue942() ",
+        "dfgs": [
+            5
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1422,
+        "lineEnd": 1422,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4
+    },
+    {
+        "cfgs": [],
+        "code": "assertPrint(\"var x = {0: 1};\", \"var x={0:1}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1423,
+        "lineEnd": 1423,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5
+    }
+]

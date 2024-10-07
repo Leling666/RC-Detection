@@ -1,0 +1,530 @@
+[
+    {
+        "cfgs": [],
+        "code": "import com.google.common.cache.CacheLoader",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "20056273ec9279f4823e495cdecfe514537f1223"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final LoadingCache<Long, Map<Long, HostRoleCommandStatusSummaryDTO>> hrcStatusSummaryCache",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "20056273ec9279f4823e495cdecfe514537f1223"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "hrcStatusSummaryCache = CacheBuilder.newBuilder().maximumSize(hostRoleCommandStatusSummaryCacheLimit).expireAfterWrite(hostRoleCommandStatusSummaryCacheExpiryDurationMins, TimeUnit.MINUTES).build(new CacheLoader<Long, Map<Long, HostRoleCommandStatusSummaryDTO>>() {@Overridepublic Map<Long, HostRoleCommandStatusSummaryDTO> load(Long requestId) throws Exception {LOG.debug(\"Cache miss for host role command status summary object for request {}, fetching from JPA\", requestId);// ensure that we wait for any running transactions working on this cache to// completeReadWriteLock lock = transactionLocks.getLock(LockArea.HRC_STATUS_CACHE);lock.readLock().lock();try{Map<Long, HostRoleCommandStatusSummaryDTO> hrcCommandStatusByStageId = loadAggregateCounts(requestId);return hrcCommandStatusByStageId;} finally {lock.readLock().unlock();}}})",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 252,
+        "lineEnd": 272,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "20056273ec9279f4823e495cdecfe514537f1223",
+            "365c74b53c653a96fda189846ad5e07ab268e0fc",
+            "1621a53dc5820ba1ca5bf5204628b51d341f0caa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ReadWriteLock lock = transactionLocks.getLock(LockArea.HRC_STATUS_CACHE)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "365c74b53c653a96fda189846ad5e07ab268e0fc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "lock.readLock().lock()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "365c74b53c653a96fda189846ad5e07ab268e0fc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "try",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "365c74b53c653a96fda189846ad5e07ab268e0fc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Map<Long, HostRoleCommandStatusSummaryDTO> hrcCommandStatusByStageId = loadAggregateCounts(requestId)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "365c74b53c653a96fda189846ad5e07ab268e0fc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return hrcCommandStatusByStageId",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "365c74b53c653a96fda189846ad5e07ab268e0fc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "365c74b53c653a96fda189846ad5e07ab268e0fc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "lock.readLock().unlock()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "365c74b53c653a96fda189846ad5e07ab268e0fc"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            12
+        ],
+        "code": "if (hostRoleCommandStatusSummaryCacheEnabled)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 673,
+        "lineEnd": 673,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "1621a53dc5820ba1ca5bf5204628b51d341f0caa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return hrcStatusSummaryCache.getUnchecked(requestId)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 674,
+        "lineEnd": 674,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "20056273ec9279f4823e495cdecfe514537f1223"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 676,
+        "lineEnd": 676,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "1621a53dc5820ba1ca5bf5204628b51d341f0caa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return loadAggregateCounts(requestId)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 677,
+        "lineEnd": 677,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "20056273ec9279f4823e495cdecfe514537f1223"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.cache.Cache",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final Cache<Long, Map<Long, HostRoleCommandStatusSummaryDTO>> hrcStatusSummaryCache",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "hrcStatusSummaryCache = CacheBuilder.newBuilder().maximumSize(hostRoleCommandStatusSummaryCacheLimit).expireAfterWrite(hostRoleCommandStatusSummaryCacheExpiryDurationMins, TimeUnit.MINUTES).build()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [
+            15
+        ],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 262,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18,
+            19
+        ],
+        "code": "if (!hostRoleCommandStatusSummaryCacheEnabled)",
+        "dfgs": [
+            18,
+            25
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 668,
+        "lineEnd": 668,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return loadAggregateCounts(requestId)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 669,
+        "lineEnd": 669,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "Map<Long, HostRoleCommandStatusSummaryDTO> map = hrcStatusSummaryCache.getIfPresent(requestId)",
+        "dfgs": [
+            20,
+            25
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [
+            15
+        ],
+        "isDel": false,
+        "lineBeg": 672,
+        "lineEnd": 672,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21,
+            22
+        ],
+        "code": "if (null != map)",
+        "dfgs": [
+            21
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 673,
+        "lineEnd": 673,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return map",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 674,
+        "lineEnd": 674,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "ReadWriteLock lock = transactionLocks.getLock(LockArea.HRC_STATUS_CACHE)",
+        "dfgs": [
+            23,
+            25
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 679,
+        "lineEnd": 679,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "lock.readLock().lock()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 680,
+        "lineEnd": 680,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 682,
+        "lineEnd": 682,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "map = loadAggregateCounts(requestId)",
+        "dfgs": [
+            26
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 683,
+        "lineEnd": 683,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "hrcStatusSummaryCache.put(requestId, map)",
+        "dfgs": [
+            27
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [
+            15
+        ],
+        "isDel": false,
+        "lineBeg": 684,
+        "lineEnd": 684,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return map",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 686,
+        "lineEnd": 686,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 687,
+        "lineEnd": 687,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lock.readLock().unlock()",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 688,
+        "lineEnd": 688,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    }
+]

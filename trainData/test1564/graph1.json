@@ -1,0 +1,172 @@
+[
+    {
+        "cfgs": [],
+        "code": "File appDir = new File(appsDir, appName)",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "62ad95f3f1b7dfab11ba291dc25eb8c95d80dcc8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "File appDir = new File(appsDir, desc.name())",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 356,
+        "lineEnd": 356,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "02aeb0339f584153798906c5f3a1c2809ead511e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String name = desc.name() + (isSelfContainedJar ? JAR : OAR)",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 440,
+        "lineEnd": 440,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6cc7488d9423a18ba5454ec88c2a4a2b8ec4383d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new File(new File(appsDir, appName), fileName)",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 502,
+        "lineEnd": 502,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "02aeb0339f584153798906c5f3a1c2809ead511e"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "private String filterAppNameForFilesystem(String name) ",
+        "dfgs": [
+            5
+        ],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return name.replace(\"/\", \"^\")",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "File appDir = new File(appsDir, filterAppNameForFilesystem(appName))",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 246,
+        "lineEnd": 246,
+        "lineMapIndex": 0,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "File appDir = new File(appsDir, filterAppNameForFilesystem(desc.name()))",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 360,
+        "lineEnd": 360,
+        "lineMapIndex": 1,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String name = filterAppNameForFilesystem(desc.name()) + (isSelfContainedJar ? JAR : OAR)",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 444,
+        "lineEnd": 444,
+        "lineMapIndex": 2,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new File(new File(appsDir, filterAppNameForFilesystem(appName)), fileName)",
+        "dfgs": [],
+        "fName": "core_common_src_main_java_org_onosproject_common_app_ApplicationArchive.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 506,
+        "lineEnd": 506,
+        "lineMapIndex": 3,
+        "methodParents": [
+            4
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

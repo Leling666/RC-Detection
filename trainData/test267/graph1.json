@@ -1,0 +1,547 @@
+[
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertEquals",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_CharacterReaderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "54a8d301bb486fcc87887d2961da0e82b55dd54e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertFalse",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_CharacterReaderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 9,
+        "lineEnd": 9,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "54a8d301bb486fcc87887d2961da0e82b55dd54e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertTrue",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_CharacterReaderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "54a8d301bb486fcc87887d2961da0e82b55dd54e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(r.isEmpty())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_CharacterReaderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "54a8d301bb486fcc87887d2961da0e82b55dd54e"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (readFully)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "a0b87bf10a9a520b49748c619c868caed8d7a109"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "final int pos = bufPos",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "ae99d7ebaa7ce4e8446150ce4ccbad4646433f8f"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (pos < bufSplitPoint)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "ae99d7ebaa7ce4e8446150ce4ccbad4646433f8f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "654bc6f981587bd4b39b66702550bad33e1eacc9"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "bufPos = 0",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "b92b4f6b9b3256e97bfb6a0732bf113b6da53a4c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "bufMark = -1",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "54a8d301bb486fcc87887d2961da0e82b55dd54e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"</\" + name() + \">\"",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Token.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "666275a54f3e6907b5244b612483815ee70a191d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testXwiki() throws IOException ",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "File in = getFile(\"/htmltests/xwiki-1324.html\")",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Document doc = Jsoup.parse(in, null, \"https://localhost/\")",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(\"XWiki Jetty HSQLDB 12.1-SNAPSHOT\", doc.select(\"#xwikiplatformversion\").text())",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 180,
+        "lineEnd": 180,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "String wantHtml = \"<a class=\\\"list-group-item\\\" data-id=\\\"userdirectory\\\" href=\\\"/xwiki/bin/admin/XWiki/XWikiPreferences?editor=globaladmin&amp;section=userdirectory\\\" title=\\\"Customize the user directory live table.\\\">User Directory</a>\"",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(wantHtml, doc.select(\"[data-id=userdirectory]\").outerHtml())",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_integration_ParseTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.*",
+        "dfgs": [],
+        "fName": "src_test_java_org_jsoup_parser_CharacterReaderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "if (readFully || bufPos < bufSplitPoint)",
+        "dfgs": [
+            25,
+            23
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final int pos",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final int offset",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22,
+            24
+        ],
+        "code": "if (bufMark != -1)",
+        "dfgs": [
+            22,
+            23,
+            28
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "pos = bufMark",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "offset = bufPos - bufMark",
+        "dfgs": [
+            27,
+            28
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "pos = bufPos",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "offset = 0",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "bufPos = offset",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "if (bufMark != -1)",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "bufMark = 0",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_CharacterReader.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return \"</\" + (tagName != null ? tagName : \"(unset)\") + \">\"",
+        "dfgs": [],
+        "fName": "src_main_java_org_jsoup_parser_Token.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    }
+]

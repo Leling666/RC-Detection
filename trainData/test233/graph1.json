@@ -1,0 +1,287 @@
+[
+    {
+        "cfgs": [],
+        "code": "Pattern lib1JarPatYarn = Pattern.compile(\".*appcache/application_\" + jobID.replaceFirst(\"job_\", \"\") + \"/filecache/.*/uber.jar/lib/lib1.jar\")",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 504,
+        "lineEnd": 505,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Pattern lib2JarPatYarn = Pattern.compile(\".*appcache/application_\" + jobID.replaceFirst(\"job_\", \"\") + \"/filecache/.*/uber.jar/lib/lib2.jar\")",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 508,
+        "lineEnd": 509,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "containsLib1Jar = (containsLib1Jar || line.endsWith(lib1JarStr) || lib1JarPatYarn.matcher(line).matches())",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 519,
+        "lineEnd": 519,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "containsLib2Jar = (containsLib2Jar || line.endsWith(lib2JarStr) || lib2JarPatYarn.matcher(line).matches())",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 520,
+        "lineEnd": 520,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.io.LongWritable",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.io.NullWritable",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final LongWritable zero = new LongWritable(0)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "collector.collect(zero, new Text(url.toString()))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [
+            6
+        ],
+        "isDel": true,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "collector.collect(values.next(), NullWritable.get())",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "543f7c8204eb6cd62f5847300addec6dd59f76c4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Pattern lib1JarPatYarn = Pattern.compile(\".*appcache/application_\" + jobID.replaceFirst(\"job_\", \"\") + \"/filecache/.*/uber.jar/lib/lib1.jar.*\")",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 504,
+        "lineEnd": 505,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Pattern lib2JarPatYarn = Pattern.compile(\".*appcache/application_\" + jobID.replaceFirst(\"job_\", \"\") + \"/filecache/.*/uber.jar/lib/lib2.jar.*\")",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 508,
+        "lineEnd": 509,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "containsLib1Jar = (containsLib1Jar || line.contains(lib1JarStr) || lib1JarPatYarn.matcher(line).matches())",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 519,
+        "lineEnd": 519,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "containsLib2Jar = (containsLib2Jar || line.contains(lib2JarStr) || lib2JarPatYarn.matcher(line).matches())",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 520,
+        "lineEnd": 520,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            14
+        ],
+        "code": "StringBuilder sb = new StringBuilder()",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "sb.append(url.toString()).append(\"@\")",
+        "dfgs": [
+            15
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "collector.collect(key, new Text(sb.toString()))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "collector.collect(key, values.next())",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_hadoop_MapperReducerUberJarForTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    }
+]

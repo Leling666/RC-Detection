@@ -1,0 +1,562 @@
+[
+    {
+        "cfgs": [],
+        "code": "import static org.mockito.exceptions.Pluralizer.*",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "3658876bfe641290844c7378da991952bbfcaa05"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.mockito.internal.util.StringJoiner.*",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "ce323f8cc060cf58418aa3b54108cd98115ea14a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new NullInsteadOfMockException(join(\"Argument passed to when() is null!\",\"Example of correct stubbing:\",\"    doThrow(new RuntimeException()).when(mock).someMethod();\",\"Also, if you use @Mock annotation don't miss initMocks()\"))",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 139,
+        "lineEnd": 144,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6519feaad2f1a1cfdc9403e0ec7a7e6001aa1078"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new InvalidUseOfMatchersException(join(\"Invalid use of argument matchers!\",expectedMatchersCount + \" matchers expected, \" + recordedMatchersCount + \" recorded.\",\"This exception may occur if matchers are combined with raw values:\",\"    //incorrect:\",\"    someMethod(anyObject(), \\\"raw String\\\");\",\"When using matchers, all arguments have to be provided by matchers.\",\"For example:\",\"    //correct:\",\"    someMethod(anyObject(), eq(\\\"String by matcher\\\"));\",\"\",\"For more info see javadoc for Matchers class.\"))",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 211,
+        "lineEnd": 223,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "56d884cc6bc422b699d5d2a24cb6fa4f10611a17",
+            "be44f9cabc9abaeea72857225928cb6c67742be3",
+            "7fbc683a47a6c820c09f260c5fac884645c82a98",
+            "773b904f8a208631399a9f8ea82c5270ee6b6c67"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String message = join(\"Argument(s) are different! Wanted:\", wanted,new Location(),\"Actual invocation has different arguments:\",actual,actualLocation,\"\")",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 227,
+        "lineEnd": 234,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "55a48ec612d7c09ae70a696ffac132a519bec142",
+            "aeef47f0be9498aaa721457c5597ebdbcb3f2933",
+            "2eff036ab5479eea143a23e67121b403df616c52",
+            "1a4a77996e54057ab294ce3e22fa4005d0da7132"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "String ending = (lastActualInvocation != null)? lastActualInvocation + \"\\n\" : \"\\n\"",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 323,
+        "lineEnd": 324,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "55a48ec612d7c09ae70a696ffac132a519bec142",
+            "5034c824520cf87103f8eb93454d1450581e5525"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String message = join(wanted.toString(),\"Wanted \" + discrepancy.getPluralizedWantedCount() + \":\",new Location(),\"But was \" + discrepancy.getPluralizedActualCount() + \":\",ending)",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 326,
+        "lineEnd": 332,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "55a48ec612d7c09ae70a696ffac132a519bec142",
+            "0bbd3aae802b47dadd8fb1283c909d04fb8e56df",
+            "3658876bfe641290844c7378da991952bbfcaa05"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void smartNullPointerException(Location location) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 438,
+        "lineEnd": 438,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "a71ecd65ffe6de5f1ac44de78c2b6c36f8a47d6f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new MockitoException(join(\"extraInterfaces() does not accept the same type as the mocked type.\",\"You mocked following type: \" + wrongType.getSimpleName(),\"and you passed the same very interface to the extraInterfaces()\"))",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 477,
+        "lineEnd": 481,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "f65173be698885f54bc5907e718c9eba7db2f575"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new MockitoException(\"This combination of annotations is not permitted on a single field:\\n\" +\"@\" + undesiredAnnotationOne + \" and @\" + undesiredAnnotationTwo)",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 527,
+        "lineEnd": 528,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "32755003f012e4369c3bb812a1f6e83b4223bf1d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "new Reporter().smartNullPointerException(location)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNulls.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": 31,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "a71ecd65ffe6de5f1ac44de78c2b6c36f8a47d6f"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "\rpublic void shouldPrintTheParametersOnSmartNullPointerExceptionMessage() throws Throwable",
+        "dfgs": [
+            12,
+            13,
+            17,
+            15,
+            16,
+            19,
+            18
+        ],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "Answer<Object> answer = new ReturnsSmartNulls()",
+        "dfgs": [
+            13
+        ],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Foo smartNull = (Foo) answer.answer(invocationOf(Foo.class, \"withArgs\", \"oompa\", \"lumpa\"))",
+        "dfgs": [
+            15,
+            16
+        ],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "smartNull.get()",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "fail()",
+        "dfgs": [
+            19
+        ],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "catch (SmartNullPointerException ex)",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 69,
+        "lineEnd": 69,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "String message = ex.getMessage()",
+        "dfgs": [
+            19
+        ],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(\"Exception message should include oompa and lumpa, but was: \" + message,\rmessage.contains(\"oompa, lumpa\"))",
+        "dfgs": [],
+        "fName": "test_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNullsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.mockito.exceptions.Pluralizer.pluralize",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.mockito.internal.util.StringJoiner.join",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new NullInsteadOfMockException(join(\"Argument passed to when() is null!\",\"Example of correct stubbing:\",\"    doThrow(new RuntimeException()).when(mock).someMethod();\",\"Also, if you use @Mock annotation don't miss initMocks()\"))",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 139,
+        "lineEnd": 144,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new InvalidUseOfMatchersException(join(\"Invalid use of argument matchers!\",expectedMatchersCount + \" matchers expected, \" + recordedMatchersCount + \" recorded.\",\"This exception may occur if matchers are combined with raw values:\",\"    //incorrect:\",\"    someMethod(anyObject(), \\\"raw String\\\");\",\"When using matchers, all arguments have to be provided by matchers.\",\"For example:\",\"    //correct:\",\"    someMethod(anyObject(), eq(\\\"String by matcher\\\"));\",\"\",\"For more info see javadoc for Matchers class.\"))",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 211,
+        "lineEnd": 223,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String message = join(\"Argument(s) are different! Wanted:\",wanted,new Location(),\"Actual invocation has different arguments:\",actual,actualLocation,\"\")",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 234,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "String ending =(lastActualInvocation != null)? lastActualInvocation + \"\\n\" : \"\\n\"",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 323,
+        "lineEnd": 324,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String message = join(wanted.toString(),\"Wanted \" + discrepancy.getPluralizedWantedCount() + \":\",new Location(),\"But was \" + discrepancy.getPluralizedActualCount() + \":\",ending)",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 326,
+        "lineEnd": 332,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "public void smartNullPointerException(Object obj, Location location) ",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 438,
+        "lineEnd": 438,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new SmartNullPointerException(join(\"You have a NullPointerException here:\",new Location(),obj,\"Because this method was *not* stubbed correctly:\",location,\"\"))",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 439,
+        "lineEnd": 446,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new MockitoException(join(\"extraInterfaces() does not accept the same type as the mocked type.\",\"You mocked following type: \" + wrongType.getSimpleName(),\"and you passed the same very interface to the extraInterfaces()\"))",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 478,
+        "lineEnd": 482,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new MockitoException(\"This combination of annotations is not permitted on a single field:\\n\" +\"@\" + undesiredAnnotationOne + \" and @\" + undesiredAnnotationTwo)",
+        "dfgs": [],
+        "fName": "src_org_mockito_exceptions_Reporter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 528,
+        "lineEnd": 529,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "new Reporter().smartNullPointerException(obj, location)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_stubbing_defaultanswers_ReturnsSmartNulls.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": 10,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    }
+]

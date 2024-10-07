@@ -1,0 +1,5564 @@
+[
+    {
+        "cfgs": [],
+        "code": "import java.util.HashMap",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 110,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final private HashMap<String, InterProcessReadWriteLock> zkLocks = new HashMap<String, InterProcessReadWriteLock>()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 112,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "InterProcessReadWriteLock lockEntry",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "synchronized (zkLocks) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (zkLocks.containsKey(resource))",
+        "dfgs": [
+            5,
+            7,
+            8
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "lockEntry = zkLocks.get(resource)",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "lockEntry = new InterProcessReadWriteLock(zk.getClient(), LOCKS_NODE + \"/\" + resource)",
+        "dfgs": [
+            10,
+            8
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "zkLocks.put(resource, lockEntry)",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "InterProcessMutex readLock = lockEntry.readLock()",
+        "dfgs": [
+            10
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return acquireLock(wait, readLock, resource)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            24
+        ],
+        "isDel": true,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": 113,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "InterProcessReadWriteLock lockEntry",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "synchronized (zkLocks) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            14,
+            15
+        ],
+        "code": "if (zkLocks.containsKey(resource))",
+        "dfgs": [
+            14,
+            16,
+            17
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": 117,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "lockEntry = zkLocks.get(resource)",
+        "dfgs": [
+            18,
+            19
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": 116,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "lockEntry = new InterProcessReadWriteLock(zk.getClient(), LOCKS_NODE + \"/\" + resource)",
+        "dfgs": [
+            19,
+            17
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": 118,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "zkLocks.put(resource, lockEntry)",
+        "dfgs": [
+            18,
+            19
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": 119,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "InterProcessMutex writeLock = lockEntry.writeLock()",
+        "dfgs": [
+            19
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return acquireLock(wait, writeLock, resource)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            24
+        ],
+        "isDel": true,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": 114,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            21,
+            22
+        ],
+        "code": "private LockToken acquireLock(long wait, InterProcessMutex lock, String resource) ",
+        "dfgs": [
+            22,
+            21
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 115,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "token = new ZKLockToken(lock, resource)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": 123,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "token = new ZKLockToken(lock, resource)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 172,
+        "lineEnd": 172,
+        "lineMapIndex": 124,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final InterProcessMutex lock",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": 125,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final String resource",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": 126,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "private ZKLockToken(InterProcessMutex lock, String resource) ",
+        "dfgs": [
+            26,
+            27
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": 127,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "this.lock = lock",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": 128,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.resource = resource",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            24
+        ],
+        "isDel": true,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": 129,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "lock.release()",
+        "dfgs": [
+            31
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            23
+        ],
+        "isDel": true,
+        "lineBeg": 200,
+        "lineEnd": 200,
+        "lineMapIndex": -1,
+        "methodParents": [
+            28
+        ],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [
+            30,
+            31
+        ],
+        "code": "if (zkLocks.get(resource) == null)",
+        "dfgs": [
+            31
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 201,
+        "lineEnd": 201,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "if (!isLockHeld())",
+        "dfgs": [
+            33,
+            34
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 204,
+        "lineEnd": 204,
+        "lineMapIndex": -1,
+        "methodParents": [
+            36
+        ],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "synchronized (zkLocks) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 205,
+        "lineEnd": 205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "if (zkLocks.get(resource) != null)",
+        "dfgs": [
+            34
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 206,
+        "lineEnd": 206,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "if (!isLockHeld())",
+        "dfgs": [
+            35
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": -1,
+        "methodParents": [
+            36
+        ],
+        "nodeIndex": 34,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "zkLocks.remove(resource)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 208,
+        "lineEnd": 208,
+        "lineMapIndex": 134,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "private boolean isLockHeld() ",
+        "dfgs": [
+            37
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return zkLocks.get(resource).readLock().isAcquiredInThisProcess()|| zkLocks.get(resource).writeLock().isAcquiredInThisProcess()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 221,
+        "lineEnd": 222,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public HashMap<String, InterProcessReadWriteLock> getLocks()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getReadLock(resource, wait)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_MemoryLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": 139,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getWriteLock(resource, wait)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_MemoryLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": 140,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.HashMap",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 141,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final private HashMap<String, ReentrantReadWriteLock> locks = new HashMap<String, ReentrantReadWriteLock>()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 144,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static enum Type ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "READ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final ReentrantReadWriteLock rwLock",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": 145,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final java.util.concurrent.locks.Lock lock",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final String resource",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 146,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "private MemoryLockToken(ReentrantReadWriteLock rwLock, java.util.concurrent.locks.Lock lock, String resource) ",
+        "dfgs": [
+            49,
+            50,
+            51
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 147,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "this.rwLock = rwLock",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            45
+        ],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "this.lock = lock",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 148,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.resource = resource",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            47
+        ],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 149,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "lock.unlock()",
+        "dfgs": [
+            53
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "if (!isLockHeld())",
+        "dfgs": [
+            55
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [
+            36
+        ],
+        "nodeIndex": 53,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "synchronized (locks) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            42
+        ],
+        "isDel": true,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "if (!isLockHeld())",
+        "dfgs": [
+            56
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [
+            36
+        ],
+        "nodeIndex": 55,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "locks.remove(resource)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            42
+        ],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 152,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "private boolean isLockHeld()",
+        "dfgs": [
+            58
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return rwLock.hasQueuedThreads() || rwLock.isWriteLocked() || rwLock.getReadLockCount() > 0",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            45
+        ],
+        "isDel": true,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": true,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "public MemoryLockToken getReadLock(String resource, long wait) throws InterruptedException ",
+        "dfgs": [
+            60
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return getLock(resource, Type.READ, wait)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            47
+        ],
+        "isDel": true,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": -1,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "public MemoryLockToken getWriteLock(String resource, long wait) throws InterruptedException ",
+        "dfgs": [
+            62
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return getLock(resource, Type.WRITE, wait)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            47
+        ],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [
+            63
+        ],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "private MemoryLockToken getLock(String resource, Type type, long wait) throws InterruptedException ",
+        "dfgs": [
+            65,
+            71,
+            66,
+            69,
+            67,
+            70
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": 156,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "ReentrantReadWriteLock lockEntry",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "synchronized (locks) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            42
+        ],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            67,
+            68
+        ],
+        "code": "if (locks.containsKey(resource))",
+        "dfgs": [
+            67,
+            70
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            42
+        ],
+        "isDel": true,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": 158,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "lockEntry = locks.get(resource)",
+        "dfgs": [
+            71
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            42
+        ],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 157,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "lockEntry = new ReentrantReadWriteLock(true)",
+        "dfgs": [
+            70
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": true,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": 159,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "locks.put(resource, lockEntry)",
+        "dfgs": [
+            71
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            42
+        ],
+        "isDel": true,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 160,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new MemoryLockToken(lockEntry, lock, resource)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            46
+        ],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": 163,
+        "methodParents": [
+            48
+        ],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getReadLock(name, timeout)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": 174,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getWriteLock(name, timeout)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": 173,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getWriteLock(name, timeout)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 326,
+        "lineEnd": 326,
+        "lineMapIndex": 175,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "LockToken lock = lockService.getWriteLock(path, 5000)",
+        "dfgs": [
+            76
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": 176,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "lock = (LockToken) lockService.getWriteLock(path, 5000)",
+        "dfgs": [
+            77
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": 177,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "lock = (LockToken) lockService.getWriteLock(path, 5000)",
+        "dfgs": [
+            78
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": 178,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(lockService.getMemoryLocks().size(), 0)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 384,
+        "lineEnd": 384,
+        "lineMapIndex": 213,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testWaitWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 215,
+        "methodParents": [
+            81
+        ],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testWaitWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": 216,
+        "methodParents": [
+            81
+        ],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void _testWaitWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": 217,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testNoWaitWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": 218,
+        "methodParents": [
+            84
+        ],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testNoWaitWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": 219,
+        "methodParents": [
+            84
+        ],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void _testNoWaitWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": 220,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testTimeoutWaitingWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 219,
+        "lineEnd": 219,
+        "lineMapIndex": 221,
+        "methodParents": [
+            87
+        ],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testTimeoutWaitingWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 233,
+        "lineEnd": 233,
+        "lineMapIndex": 222,
+        "methodParents": [
+            87
+        ],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void _testTimeoutWaitingWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": 223,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testTimeoutTimingOutWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": 224,
+        "methodParents": [
+            90
+        ],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testTimeoutTimingOutWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": 228,
+        "methodParents": [
+            90
+        ],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void _testTimeoutTimingOutWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": 226,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testReadLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": 230,
+        "methodParents": [
+            93
+        ],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testReadLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": 231,
+        "methodParents": [
+            93
+        ],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void _testReadLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 325,
+        "lineEnd": 325,
+        "lineMapIndex": 229,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testReadWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": 233,
+        "methodParents": [
+            96
+        ],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testReadWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 359,
+        "lineEnd": 359,
+        "lineMapIndex": 234,
+        "methodParents": [
+            96
+        ],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void _testReadWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 367,
+        "lineEnd": 367,
+        "lineMapIndex": 232,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testWriteReadLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 387,
+        "lineEnd": 387,
+        "lineMapIndex": 227,
+        "methodParents": [
+            99
+        ],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "_testWriteReadLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 401,
+        "lineEnd": 401,
+        "lineMapIndex": 225,
+        "methodParents": [
+            99
+        ],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void _testWriteReadLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 409,
+        "lineEnd": 409,
+        "lineMapIndex": 235,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": [
+            "128d7d20915f46dc38cbefbd6105aea54b5a5495"
+        ]
+    },
+    {
+        "cfgs": [
+            101
+        ],
+        "code": "ZKLockToken lock = (ZKLockToken) zkls.getWriteLock(path, 5000)",
+        "dfgs": [
+            101
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 430,
+        "lineEnd": 430,
+        "lineMapIndex": 236,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(zkls.getLocks().containsKey(path))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 433,
+        "lineEnd": 433,
+        "lineMapIndex": 282,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "ZKLockToken lock = (ZKLockToken) zkls.getWriteLock(path, 5000)",
+        "dfgs": [
+            103
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 445,
+        "lineEnd": 445,
+        "lineMapIndex": 238,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "lock = (ZKLockToken) zkls.getWriteLock(path, 5000)",
+        "dfgs": [
+            104
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 446,
+        "lineEnd": 446,
+        "lineMapIndex": 239,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "lock = (ZKLockToken) zkls.getWriteLock(path, 5000)",
+        "dfgs": [
+            105
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 447,
+        "lineEnd": 447,
+        "lineMapIndex": 240,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(zkls.getLocks().containsKey(path))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 454,
+        "lineEnd": 454,
+        "lineMapIndex": 241,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": [
+            "bb9a6dae5f8e538afab5cbcd06f273fa6591b71c"
+        ]
+    },
+    {
+        "cfgs": [
+            107
+        ],
+        "code": "assertFalse(zkls.getLocks().containsKey(path))",
+        "dfgs": [
+            107
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": 242,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(zkls.getLocks().containsKey(path))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 476,
+        "lineEnd": 476,
+        "lineMapIndex": 243,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [
+            109
+        ],
+        "code": "lock = zkls.getWriteLock(path, 5000)",
+        "dfgs": [
+            109
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 523,
+        "lineEnd": 523,
+        "lineMapIndex": 283,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "lock = zkls.getWriteLock(path, 5000)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 525,
+        "lineEnd": 525,
+        "lineMapIndex": 284,
+        "methodParents": [
+            11
+        ],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": [
+            "70a5ffe4b029896df81aa49cd08bbaf9b0355a36"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.concurrent.ConcurrentMap",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.MapMaker",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private ConcurrentMap<String, InterProcessReadWriteLock> zkLocks = new MapMaker().weakValues().makeMap()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return acquireLock(resource, Type.READ, wait)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": 10,
+        "methodParents": [
+            115
+        ],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return acquireLock(resource, Type.WRITE, wait)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": 19,
+        "methodParents": [
+            115
+        ],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            116
+        ],
+        "code": "private LockToken acquireLock(final String resource, Type type, long wait) throws InterruptedException ",
+        "dfgs": [
+            116,
+            117,
+            118,
+            122,
+            119,
+            120,
+            121,
+            123,
+            124
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 144,
+        "lineEnd": 144,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            117
+        ],
+        "code": "InterProcessReadWriteLock lockEntry = zkLocks.get(resource)",
+        "dfgs": [
+            117,
+            118,
+            119
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            112
+        ],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            118,
+            122
+        ],
+        "code": "if (lockEntry == null)",
+        "dfgs": [
+            122
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            119
+        ],
+        "code": "InterProcessReadWriteLock newLock = new InterProcessReadWriteLock(zk.getClient(), LOCKS_NODE + \"/\" + resource)",
+        "dfgs": [
+            119
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 147,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            120
+        ],
+        "code": "lockEntry = zkLocks.putIfAbsent(resource, newLock)",
+        "dfgs": [
+            120,
+            121
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            112
+        ],
+        "isDel": false,
+        "lineBeg": 148,
+        "lineEnd": 148,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            121,
+            122
+        ],
+        "code": "if (lockEntry == null)",
+        "dfgs": [
+            122
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 149,
+        "lineEnd": 149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            122
+        ],
+        "code": "lockEntry = newLock",
+        "dfgs": [
+            122
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            123
+        ],
+        "code": "InterProcessMutex lock = (type.equals(Type.READ)) ? lockEntry.readLock() : lockEntry.writeLock()",
+        "dfgs": [
+            123,
+            124
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            124
+        ],
+        "code": "token = new ZKLockToken(lockEntry, type)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": 21,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "token = new ZKLockToken(lockEntry, type)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": 22,
+        "methodParents": [
+            127
+        ],
+        "nodeIndex": 124,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final InterProcessReadWriteLock lockEntry",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 125,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final Type type",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 126,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            128
+        ],
+        "code": "private ZKLockToken(InterProcessReadWriteLock lockEntry, Type type) ",
+        "dfgs": [
+            128,
+            129
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 127,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            129
+        ],
+        "code": "this.lockEntry = lockEntry",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 128,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.type = type",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            126
+        ],
+        "isDel": false,
+        "lineBeg": 180,
+        "lineEnd": 180,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 129,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            132,
+            134
+        ],
+        "code": "switch (type) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            126
+        ],
+        "isDel": false,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 130,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case WRITE",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 131,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lockEntry.writeLock().release()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": -1,
+        "methodParents": [
+            130
+        ],
+        "nodeIndex": 132,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 192,
+        "lineEnd": 192,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 133,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lockEntry.readLock().release()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [
+            125
+        ],
+        "isDel": false,
+        "lineBeg": 194,
+        "lineEnd": 194,
+        "lineMapIndex": 35,
+        "methodParents": [
+            130
+        ],
+        "nodeIndex": 134,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 135,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public ConcurrentMap<String, InterProcessReadWriteLock> getLocks()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_ZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 205,
+        "lineEnd": 205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 136,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static enum Type ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_MemoryLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 137,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "READ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_MemoryLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 138,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getLock(resource, Type.READ, wait)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_MemoryLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": 39,
+        "methodParents": [
+            156
+        ],
+        "nodeIndex": 139,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getLock(resource, Type.WRITE, wait)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_service_MemoryLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 40,
+        "methodParents": [
+            156
+        ],
+        "nodeIndex": 140,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.concurrent.ConcurrentMap",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 141,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.oozie.service.MemoryLocksService.Type",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 142,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.MapMaker",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 143,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final private ConcurrentMap<String, ReentrantReadWriteLock> locks = new MapMaker().weakValues().makeMap()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 144,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final ReentrantReadWriteLock lockEntry",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 145,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final Type type",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 146,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            148
+        ],
+        "code": "public MemoryLockToken(ReentrantReadWriteLock lockEntry, Type type) ",
+        "dfgs": [
+            148,
+            149
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 147,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            149
+        ],
+        "code": "this.lockEntry = lockEntry",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            145
+        ],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 148,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.type = type",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            146
+        ],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 149,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            152,
+            154
+        ],
+        "code": "switch (type) ",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            146
+        ],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 150,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case WRITE",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 151,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lockEntry.writeLock().unlock()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            145
+        ],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 152,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 153,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lockEntry.readLock().unlock()",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            145
+        ],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 154,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 155,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            157
+        ],
+        "code": "public MemoryLockToken getLock(final String resource, Type type, long wait) throws InterruptedException ",
+        "dfgs": [
+            163,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": 63,
+        "methodParents": [],
+        "nodeIndex": 156,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            158
+        ],
+        "code": "ReentrantReadWriteLock lockEntry = locks.get(resource)",
+        "dfgs": [
+            158,
+            160,
+            163
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            144
+        ],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 157,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            159,
+            163
+        ],
+        "code": "if (lockEntry == null)",
+        "dfgs": [
+            163
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            145
+        ],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 158,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            160
+        ],
+        "code": "ReentrantReadWriteLock newLock = new ReentrantReadWriteLock(true)",
+        "dfgs": [
+            160
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 159,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            161
+        ],
+        "code": "lockEntry = locks.putIfAbsent(resource, newLock)",
+        "dfgs": [
+            161,
+            162,
+            163
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            144
+        ],
+        "isDel": false,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 160,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            162,
+            163
+        ],
+        "code": "if (lockEntry == null)",
+        "dfgs": [
+            163
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            145
+        ],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 161,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            163
+        ],
+        "code": "lockEntry = newLock",
+        "dfgs": [
+            163
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            145
+        ],
+        "isDel": false,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 162,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new MemoryLockToken(lockEntry, type)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            145
+        ],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 71,
+        "methodParents": [
+            147
+        ],
+        "nodeIndex": 163,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            165
+        ],
+        "code": "public ConcurrentMap<String, ReentrantReadWriteLock> getLockMap()",
+        "dfgs": [
+            165
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 164,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return locks",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_lock_MemoryLocks.java",
+        "fieldParents": [
+            144
+        ],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 165,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.oozie.command.XCommand",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_command_wf_ActionStartXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 166,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            168
+        ],
+        "code": "protected void queue(XCommand<?> command, long msDelay) ",
+        "dfgs": [
+            170,
+            168,
+            169
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_command_wf_ActionStartXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 404,
+        "lineEnd": 404,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 167,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            169,
+            170
+        ],
+        "code": "if (command instanceof ActionStartXCommand)",
+        "dfgs": [
+            170,
+            169
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_command_wf_ActionStartXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 168,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            170
+        ],
+        "code": "((ActionStartXCommand)command).wfJob = null",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_command_wf_ActionStartXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 408,
+        "lineEnd": 408,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 169,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "super.queue(command, msDelay)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_command_wf_ActionStartXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 410,
+        "lineEnd": 410,
+        "lineMapIndex": -1,
+        "methodParents": [
+            167
+        ],
+        "nodeIndex": 170,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.oozie.service.MemoryLocksService.Type",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 171,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static final int DEFAULT_LOCK_TIMEOUT = 5 * 1000",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 172,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getLock(name, Type.READ, timeout)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": 73,
+        "methodParents": [
+            156
+        ],
+        "nodeIndex": 173,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getLock(name, Type.WRITE, timeout)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": 72,
+        "methodParents": [
+            156
+        ],
+        "nodeIndex": 174,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return locks.getLock(name, Type.WRITE, timeout)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 328,
+        "lineEnd": 328,
+        "lineMapIndex": 74,
+        "methodParents": [
+            156
+        ],
+        "nodeIndex": 175,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            177
+        ],
+        "code": "LockToken lock = lockService.getWriteLock(path, DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            177
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [
+            172
+        ],
+        "isDel": false,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": 75,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 176,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            178
+        ],
+        "code": "lock = (LockToken) lockService.getWriteLock(path, DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            178
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [
+            172
+        ],
+        "isDel": false,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": 76,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 177,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            179
+        ],
+        "code": "lock = (LockToken) lockService.getWriteLock(path, DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            179
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [
+            172
+        ],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": 77,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 178,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkLockRelease(path, lockService)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 386,
+        "lineEnd": 386,
+        "lineMapIndex": -1,
+        "methodParents": [
+            210
+        ],
+        "nodeIndex": 179,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            181
+        ],
+        "code": "public void testLocksAreGarbageCollected() throws ServiceException, InterruptedException ",
+        "dfgs": [
+            181,
+            182,
+            183,
+            192,
+            194,
+            184,
+            187,
+            190,
+            191,
+            193,
+            197,
+            185,
+            188,
+            195,
+            186,
+            189,
+            196
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 396,
+        "lineEnd": 396,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 180,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            182
+        ],
+        "code": "String path = new String(\"a\")",
+        "dfgs": [
+            185
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 397,
+        "lineEnd": 397,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 181,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            183
+        ],
+        "code": "String path1 = new String(\"a\")",
+        "dfgs": [
+            188
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 398,
+        "lineEnd": 398,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 182,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            184
+        ],
+        "code": "MemoryLocksService lockService = new MemoryLocksService()",
+        "dfgs": [
+            184
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 399,
+        "lineEnd": 399,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 183,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            185
+        ],
+        "code": "lockService.init(Services.get())",
+        "dfgs": [
+            185
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 400,
+        "lineEnd": 400,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 184,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            186
+        ],
+        "code": "LockToken lock = lockService.getWriteLock(path, DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            187,
+            188,
+            186
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [
+            172
+        ],
+        "isDel": false,
+        "lineBeg": 401,
+        "lineEnd": 401,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 185,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            187
+        ],
+        "code": "int oldHash = lockService.getMemoryLocks().getLockMap().get(path).hashCode()",
+        "dfgs": [
+            188,
+            190
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 402,
+        "lineEnd": 402,
+        "lineMapIndex": -1,
+        "methodParents": [
+            164
+        ],
+        "nodeIndex": 186,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            188
+        ],
+        "code": "lock.release()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 403,
+        "lineEnd": 403,
+        "lineMapIndex": -1,
+        "methodParents": [
+            130
+        ],
+        "nodeIndex": 187,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            189
+        ],
+        "code": "lock = lockService.getWriteLock(path1, DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            191,
+            195,
+            189
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [
+            172
+        ],
+        "isDel": false,
+        "lineBeg": 404,
+        "lineEnd": 404,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 188,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            190
+        ],
+        "code": "int newHash = lockService.getMemoryLocks().getLockMap().get(path1).hashCode()",
+        "dfgs": [
+            190,
+            195
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": -1,
+        "methodParents": [
+            164
+        ],
+        "nodeIndex": 189,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            191
+        ],
+        "code": "assertTrue(oldHash == newHash)",
+        "dfgs": [
+            197
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 190,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            192
+        ],
+        "code": "lock.release()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": -1,
+        "methodParents": [
+            130
+        ],
+        "nodeIndex": 191,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            193
+        ],
+        "code": "lock = null",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 408,
+        "lineEnd": 408,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 192,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            194
+        ],
+        "code": "System.gc()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 409,
+        "lineEnd": 409,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 193,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            195
+        ],
+        "code": "path = \"a\"",
+        "dfgs": [
+            195
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 410,
+        "lineEnd": 410,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 194,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            196
+        ],
+        "code": "lock = lockService.getWriteLock(path, DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            196
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [
+            172
+        ],
+        "isDel": false,
+        "lineBeg": 411,
+        "lineEnd": 411,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 195,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            197
+        ],
+        "code": "newHash = lockService.getMemoryLocks().getLockMap().get(path).hashCode()",
+        "dfgs": [
+            197
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 412,
+        "lineEnd": 412,
+        "lineMapIndex": -1,
+        "methodParents": [
+            164
+        ],
+        "nodeIndex": 196,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(oldHash == newHash)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 413,
+        "lineEnd": 413,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 197,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            199
+        ],
+        "code": "public void testLocksAreReused() throws ServiceException, InterruptedException ",
+        "dfgs": [
+            199,
+            200,
+            201,
+            204,
+            205,
+            207,
+            209,
+            202,
+            203,
+            206,
+            208
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 417,
+        "lineEnd": 417,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 198,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            200
+        ],
+        "code": "String path = \"a\"",
+        "dfgs": [
+            202
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 418,
+        "lineEnd": 418,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 199,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            201
+        ],
+        "code": "MemoryLocksService lockService = new MemoryLocksService()",
+        "dfgs": [
+            201
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 419,
+        "lineEnd": 419,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 200,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            202
+        ],
+        "code": "lockService.init(Services.get())",
+        "dfgs": [
+            202
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 420,
+        "lineEnd": 420,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 201,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            203
+        ],
+        "code": "LockToken lock = lockService.getWriteLock(path, DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            205,
+            206,
+            203
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [
+            172
+        ],
+        "isDel": false,
+        "lineBeg": 421,
+        "lineEnd": 421,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 202,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            204
+        ],
+        "code": "int oldHash = System.identityHashCode(lockService.getMemoryLocks().getLockMap().get(path))",
+        "dfgs": [
+            204,
+            206,
+            209
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 422,
+        "lineEnd": 422,
+        "lineMapIndex": -1,
+        "methodParents": [
+            164
+        ],
+        "nodeIndex": 203,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            205
+        ],
+        "code": "System.gc()",
+        "dfgs": [
+            208
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 423,
+        "lineEnd": 423,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 204,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            206
+        ],
+        "code": "lock.release()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 424,
+        "lineEnd": 424,
+        "lineMapIndex": -1,
+        "methodParents": [
+            130
+        ],
+        "nodeIndex": 205,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            207
+        ],
+        "code": "lock = lockService.getWriteLock(path, DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            207,
+            208
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [
+            172
+        ],
+        "isDel": false,
+        "lineBeg": 425,
+        "lineEnd": 425,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 206,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            208
+        ],
+        "code": "assertEquals(lockService.getMemoryLocks().size(), 1)",
+        "dfgs": [
+            209,
+            208
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 426,
+        "lineEnd": 426,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 207,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            209
+        ],
+        "code": "int newHash = System.identityHashCode(lockService.getMemoryLocks().getLockMap().get(path))",
+        "dfgs": [
+            209
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 427,
+        "lineEnd": 427,
+        "lineMapIndex": -1,
+        "methodParents": [
+            164
+        ],
+        "nodeIndex": 208,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(oldHash == newHash)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 428,
+        "lineEnd": 428,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 209,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            211
+        ],
+        "code": "private void checkLockRelease(String path, MemoryLocksService lockService) ",
+        "dfgs": [
+            211,
+            213
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 431,
+        "lineEnd": 431,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 210,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            212
+        ],
+        "code": "if (lockService.getMemoryLocks().getLockMap().get(path) == null)",
+        "dfgs": [
+            213
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 432,
+        "lineEnd": 432,
+        "lineMapIndex": -1,
+        "methodParents": [
+            164
+        ],
+        "nodeIndex": 211,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            213
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 435,
+        "lineEnd": 435,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 212,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(lockService.getMemoryLocks().getLockMap().get(path).isWriteLocked())",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_lock_TestMemoryLocks.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 436,
+        "lineEnd": 436,
+        "lineMapIndex": 78,
+        "methodParents": [
+            164
+        ],
+        "nodeIndex": 213,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.oozie.lock.TestMemoryLocks",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 214,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkWaitWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": 79,
+        "methodParents": [
+            217
+        ],
+        "nodeIndex": 215,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkWaitWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 150,
+        "lineMapIndex": 80,
+        "methodParents": [
+            217
+        ],
+        "nodeIndex": 216,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void checkWaitWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": 81,
+        "methodParents": [],
+        "nodeIndex": 217,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkNoWaitWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": 82,
+        "methodParents": [
+            220
+        ],
+        "nodeIndex": 218,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkNoWaitWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 192,
+        "lineEnd": 192,
+        "lineMapIndex": 83,
+        "methodParents": [
+            220
+        ],
+        "nodeIndex": 219,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void checkNoWaitWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 200,
+        "lineEnd": 200,
+        "lineMapIndex": 84,
+        "methodParents": [],
+        "nodeIndex": 220,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkTimeoutWaitingWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": 85,
+        "methodParents": [
+            223
+        ],
+        "nodeIndex": 221,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkTimeoutWaitingWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": 86,
+        "methodParents": [
+            223
+        ],
+        "nodeIndex": 222,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void checkTimeoutWaitingWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": 87,
+        "methodParents": [],
+        "nodeIndex": 223,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkTimeoutTimingOutWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": 88,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 224,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkTimeoutTimingOutWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 276,
+        "lineEnd": 276,
+        "lineMapIndex": 98,
+        "methodParents": [
+            226
+        ],
+        "nodeIndex": 225,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void checkTimeoutTimingOutWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": 90,
+        "methodParents": [],
+        "nodeIndex": 226,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkReadLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": 97,
+        "methodParents": [
+            229
+        ],
+        "nodeIndex": 227,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkReadLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 318,
+        "lineEnd": 318,
+        "lineMapIndex": 89,
+        "methodParents": [
+            229
+        ],
+        "nodeIndex": 228,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void checkReadLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 326,
+        "lineEnd": 326,
+        "lineMapIndex": 93,
+        "methodParents": [],
+        "nodeIndex": 229,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkReadWriteLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": 91,
+        "methodParents": [
+            232
+        ],
+        "nodeIndex": 230,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkReadWriteLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 360,
+        "lineEnd": 360,
+        "lineMapIndex": 92,
+        "methodParents": [
+            232
+        ],
+        "nodeIndex": 231,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void checkReadWriteLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": 96,
+        "methodParents": [],
+        "nodeIndex": 232,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkWriteReadLock(zkls, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 388,
+        "lineEnd": 388,
+        "lineMapIndex": 94,
+        "methodParents": [
+            235
+        ],
+        "nodeIndex": 233,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkWriteReadLock(zkls1, zkls2)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 402,
+        "lineEnd": 402,
+        "lineMapIndex": 95,
+        "methodParents": [
+            235
+        ],
+        "nodeIndex": 234,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void checkWriteReadLock(ZKLocksService zkls1, ZKLocksService zkls2) throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 410,
+        "lineEnd": 410,
+        "lineMapIndex": 99,
+        "methodParents": [],
+        "nodeIndex": 235,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            237
+        ],
+        "code": "ZKLockToken lock = (ZKLockToken) zkls.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            237
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 431,
+        "lineEnd": 431,
+        "lineMapIndex": 100,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 236,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkLockRelease(path, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 434,
+        "lineEnd": 434,
+        "lineMapIndex": -1,
+        "methodParents": [
+            210
+        ],
+        "nodeIndex": 237,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            239
+        ],
+        "code": "ZKLockToken lock = (ZKLockToken) zkls.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            239
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 446,
+        "lineEnd": 446,
+        "lineMapIndex": 102,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 238,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            240
+        ],
+        "code": "lock = (ZKLockToken) zkls.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            240
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 447,
+        "lineEnd": 447,
+        "lineMapIndex": 103,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 239,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            241
+        ],
+        "code": "lock = (ZKLockToken) zkls.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            241
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": 104,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 240,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkLockRelease(path, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 455,
+        "lineEnd": 455,
+        "lineMapIndex": 105,
+        "methodParents": [
+            210
+        ],
+        "nodeIndex": 241,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            243
+        ],
+        "code": "checkLockRelease(path, zkls)",
+        "dfgs": [
+            243
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": 106,
+        "methodParents": [
+            210
+        ],
+        "nodeIndex": 242,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkLockRelease(path, zkls)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 477,
+        "lineEnd": 477,
+        "lineMapIndex": 107,
+        "methodParents": [
+            210
+        ],
+        "nodeIndex": 243,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            245
+        ],
+        "code": "public void testLocksAreGarbageCollected() throws ServiceException, InterruptedException ",
+        "dfgs": [
+            245,
+            246,
+            247,
+            257,
+            249,
+            251,
+            252,
+            256,
+            258,
+            261,
+            263,
+            250,
+            254,
+            259,
+            253,
+            255,
+            260
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 511,
+        "lineEnd": 511,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 244,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            246
+        ],
+        "code": "String path = new String(\"a\")",
+        "dfgs": [
+            250
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 512,
+        "lineEnd": 512,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 245,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            247
+        ],
+        "code": "String path1 = new String(\"a\")",
+        "dfgs": [
+            254
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 513,
+        "lineEnd": 513,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 246,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            248
+        ],
+        "code": "ZKLocksService lockService = new ZKLocksService()",
+        "dfgs": [
+            249
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 514,
+        "lineEnd": 514,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 247,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            249
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 515,
+        "lineEnd": 515,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 248,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            250
+        ],
+        "code": "lockService.init(Services.get())",
+        "dfgs": [
+            250
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 516,
+        "lineEnd": 516,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 249,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            251
+        ],
+        "code": "LockToken lock = lockService.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            251,
+            254,
+            252,
+            253
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 517,
+        "lineEnd": 517,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 250,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            252
+        ],
+        "code": "lock.release()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 518,
+        "lineEnd": 518,
+        "lineMapIndex": -1,
+        "methodParents": [
+            130
+        ],
+        "nodeIndex": 251,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            253
+        ],
+        "code": "assertEquals(lockService.getLocks().size(), 1)",
+        "dfgs": [
+            256,
+            253
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 519,
+        "lineEnd": 519,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 252,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            254
+        ],
+        "code": "int oldHash = lockService.getLocks().get(path).hashCode()",
+        "dfgs": [
+            254,
+            256,
+            259
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 520,
+        "lineEnd": 520,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 253,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            255
+        ],
+        "code": "lock = lockService.getWriteLock(path1, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            259,
+            255
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 521,
+        "lineEnd": 521,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 254,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            256
+        ],
+        "code": "int newHash = lockService.getLocks().get(path1).hashCode()",
+        "dfgs": [
+            256,
+            259
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 522,
+        "lineEnd": 522,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 255,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            257
+        ],
+        "code": "assertTrue(oldHash == newHash)",
+        "dfgs": [
+            261
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 523,
+        "lineEnd": 523,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 256,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            258
+        ],
+        "code": "lock = null",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 524,
+        "lineEnd": 524,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 257,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            259
+        ],
+        "code": "System.gc()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 525,
+        "lineEnd": 525,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 258,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            260
+        ],
+        "code": "lock = lockService.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            260
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 526,
+        "lineEnd": 526,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 259,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            261
+        ],
+        "code": "newHash = lockService.getLocks().get(path).hashCode()",
+        "dfgs": [
+            263,
+            261
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 527,
+        "lineEnd": 527,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 260,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            263
+        ],
+        "code": "assertFalse(oldHash == newHash)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 528,
+        "lineEnd": 528,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 261,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 530,
+        "lineEnd": 530,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 262,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lockService.destroy()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 531,
+        "lineEnd": 531,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 263,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            265
+        ],
+        "code": "public void testLocksAreReused() throws ServiceException, InterruptedException ",
+        "dfgs": [
+            265,
+            266,
+            268,
+            271,
+            272,
+            274,
+            276,
+            278,
+            269,
+            270,
+            273,
+            275
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 535,
+        "lineEnd": 535,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 264,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            266
+        ],
+        "code": "String path = \"a\"",
+        "dfgs": [
+            269
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 536,
+        "lineEnd": 536,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 265,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            267
+        ],
+        "code": "ZKLocksService lockService = new ZKLocksService()",
+        "dfgs": [
+            268
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 537,
+        "lineEnd": 537,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 266,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            268
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 538,
+        "lineEnd": 538,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 267,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            269
+        ],
+        "code": "lockService.init(Services.get())",
+        "dfgs": [
+            269
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 539,
+        "lineEnd": 539,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 268,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            270
+        ],
+        "code": "LockToken lock = lockService.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            272,
+            273,
+            270
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 540,
+        "lineEnd": 540,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 269,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            271
+        ],
+        "code": "int oldHash = System.identityHashCode(lockService.getLocks().get(path))",
+        "dfgs": [
+            271,
+            273,
+            276
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 541,
+        "lineEnd": 541,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 270,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            272
+        ],
+        "code": "System.gc()",
+        "dfgs": [
+            275
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 542,
+        "lineEnd": 542,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 271,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            273
+        ],
+        "code": "lock.release()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 543,
+        "lineEnd": 543,
+        "lineMapIndex": -1,
+        "methodParents": [
+            130
+        ],
+        "nodeIndex": 272,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            274
+        ],
+        "code": "lock = lockService.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            274,
+            275
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 544,
+        "lineEnd": 544,
+        "lineMapIndex": -1,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 273,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            275
+        ],
+        "code": "assertEquals(lockService.getLocks().size(), 1)",
+        "dfgs": [
+            276,
+            275
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 545,
+        "lineEnd": 545,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 274,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            276
+        ],
+        "code": "int newHash = System.identityHashCode(lockService.getLocks().get(path))",
+        "dfgs": [
+            278,
+            276
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 546,
+        "lineEnd": 546,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 275,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            278
+        ],
+        "code": "assertTrue(oldHash == newHash)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 547,
+        "lineEnd": 547,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 276,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 549,
+        "lineEnd": 549,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 277,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lockService.destroy()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 550,
+        "lineEnd": 550,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 278,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            280
+        ],
+        "code": "private void checkLockRelease(String path, ZKLocksService zkls) ",
+        "dfgs": [
+            280,
+            282
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 554,
+        "lineEnd": 554,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 279,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            281
+        ],
+        "code": "if (zkls.getLocks().get(path) == null)",
+        "dfgs": [
+            282
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 555,
+        "lineEnd": 555,
+        "lineMapIndex": -1,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 280,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            282
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 558,
+        "lineEnd": 558,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 281,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(zkls.getLocks().get(path).writeLock().isAcquiredInThisProcess())",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 559,
+        "lineEnd": 559,
+        "lineMapIndex": 101,
+        "methodParents": [
+            136
+        ],
+        "nodeIndex": 282,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            284
+        ],
+        "code": "lock = zkls.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [
+            284
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 576,
+        "lineEnd": 576,
+        "lineMapIndex": 108,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 283,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "lock = zkls.getWriteLock(path, TestMemoryLocks.DEFAULT_LOCK_TIMEOUT)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_service_TestZKLocksService.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 578,
+        "lineEnd": 578,
+        "lineMapIndex": 109,
+        "methodParents": [
+            114
+        ],
+        "nodeIndex": 284,
+        "rootcause": false,
+        "commits": []
+    }
+]

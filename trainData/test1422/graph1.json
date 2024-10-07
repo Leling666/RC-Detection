@@ -1,0 +1,254 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (assignedToUnknownValue && hasPropertyAssign)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 741,
+        "lineEnd": 741,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "747f2504d98e2d37c933ead6e40a0a1a1e36d6af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.mayHaveSecondarySideEffects =!assignNode.getParent().isExprResult() ||NodeUtil.mayHaveSideEffects(assignNode.getFirstChild()) ||NodeUtil.mayHaveSideEffects(assignNode.getLastChild())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 901,
+        "lineEnd": 904,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "39f629a8cfaab37da55288010640d7e516000b1f",
+            "747f2504d98e2d37c933ead6e40a0a1a1e36d6af"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testIssue618_1() ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_RemoveUnusedVarsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 739,
+        "lineEnd": 739,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.removeGlobal = false",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_RemoveUnusedVarsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 740,
+        "lineEnd": 740,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"function f() {\\n\" +\"  var a = [], b;\\n\" +\"  a.push(b = []);\\n\" +\"  b[0] = 1;\\n\" +\"  return a;\\n\" +\"}\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_RemoveUnusedVarsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 741,
+        "lineEnd": 747,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testIssue618_2() ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_RemoveUnusedVarsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 750,
+        "lineEnd": 750,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.removeGlobal = false",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_RemoveUnusedVarsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 751,
+        "lineEnd": 751,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"var b;\\n\" +\"a.push(b = []);\\n\" +\"b[0] = 1;\\n\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_RemoveUnusedVarsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 752,
+        "lineEnd": 755,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            9
+        ],
+        "code": "boolean maybeEscaped = false",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 732,
+        "lineEnd": 732,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            10
+        ],
+        "code": "if (assign.maybeAliased)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [
+            12
+        ],
+        "isDel": false,
+        "lineBeg": 740,
+        "lineEnd": 740,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "maybeEscaped = true",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 741,
+        "lineEnd": 741,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if ((assignedToUnknownValue || maybeEscaped) && hasPropertyAssign)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 745,
+        "lineEnd": 745,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final boolean maybeAliased",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 900,
+        "lineEnd": 900,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "this.maybeAliased = NodeUtil.isExpressionResultUsed(assignNode)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [
+            12
+        ],
+        "isDel": false,
+        "lineBeg": 908,
+        "lineEnd": 908,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.mayHaveSecondarySideEffects =maybeAliased ||NodeUtil.mayHaveSideEffects(assignNode.getFirstChild()) ||NodeUtil.mayHaveSideEffects(assignNode.getLastChild())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_RemoveUnusedVars.java",
+        "fieldParents": [
+            12
+        ],
+        "isDel": false,
+        "lineBeg": 909,
+        "lineEnd": 912,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    }
+]

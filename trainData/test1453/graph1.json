@@ -1,0 +1,1341 @@
+[
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/**@return {void}*/function foo(){ foo()--; }\",\"increment/decrement\\n\" +\"found   : undefined\\n\" +\"required: number\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 85,
+        "lineEnd": 88,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "de13c3313c05f4449c50c560324389d6905a214d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "parseError(\"[x, y] = foo();\", \"destructuring assignment forbidden\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_ParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 625,
+        "lineEnd": 625,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "3924ff1e4a236d68a0b5448d185537d90ca04419"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "noInline(\"var x; x = 1 || x = 2; print(x)\")",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var x; x = 1 && x = 2; print(x)\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var x = 1; x = (f(x) = (x = 10) + x);\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 366,
+        "lineEnd": 366,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "209cd96451c4c5bf1f4c5fee6453c481946aa596"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return processInfixExpression(assignmentNode)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(){a()}c=f()=z\",\"{var JSCompiler_inline_result$$0;a();}\" +\"c=JSCompiler_inline_result$$0=z\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1252,
+        "lineEnd": 1254,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "e33e925eea3a8e4de958864e531e1adc4da62e18",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/**@return {void}*/function foo(){ foo()--; }\",\"increment/decrement\\n\" +\"found   : undefined\\n\" +\"required: number\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 81,
+        "lineEnd": 84,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "77b7c78d4aeeb6471f2f668a06c0f61a68f95ccd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Node root = IRFactory.transformTree(script, string, config,new TestErrorReporter(null, null))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1053,
+        "lineEnd": 1054,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "3924ff1e4a236d68a0b5448d185537d90ca04419"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"function a() { return function() { this = 8; } }\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CheckGlobalThisTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "6d00ac1a68612aade8a19d7ecc9b180f00ae5234"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"var a = function() { return function() { this = 8; } }\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CheckGlobalThisTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "6d00ac1a68612aade8a19d7ecc9b180f00ae5234"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "inFunction(\"var x; x=2; if(0&&x=1){}; x\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/**@return {void}*/function foo(){ var x=foo(); x--; }\",\"increment/decrement\\n\" +\"found   : undefined\\n\" +\"required: number\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_LooseTypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 88,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "parseError(\"[x, y] = foo();\",\"destructuring assignment forbidden\",\"invalid assignment target\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_ParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 625,
+        "lineEnd": 627,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "noInline(\"var x; (x = 1) || (x = 2); print(x)\")",
+        "dfgs": [
+            15
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "noInline(\"var x; x = (1 || (x = 2)); print(x)\")",
+        "dfgs": [
+            16
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "noInline(\"var x;(x = 1) && (x = 2); print(x)\")",
+        "dfgs": [
+            17
+        ],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var x;x = (1 && (x = 2)); print(x)\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "noInline(\"var x = 1; x = (f(x) + (x = 10) + x);\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FlowSensitiveInlineVariablesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 368,
+        "lineEnd": 368,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "Node assign = processInfixExpression(assignmentNode)",
+        "dfgs": [
+            20,
+            21
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 340,
+        "lineEnd": 340,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "Node target = assign.getFirstChild()",
+        "dfgs": [
+            23,
+            21
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 341,
+        "lineEnd": 341,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22,
+            23
+        ],
+        "code": "if (!validAssignmentTarget(target))",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 342,
+        "lineEnd": 342,
+        "lineMapIndex": -1,
+        "methodParents": [
+            28
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "errorReporter.error(\"invalid assignment target\",sourceName,target.getLineno(), \"\", 0)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 343,
+        "lineEnd": 346,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return assign",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 348,
+        "lineEnd": 348,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (type == Token.INC || type == Token.DEC)",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 804,
+        "lineEnd": 804,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "if (!validAssignmentTarget(operand))",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 805,
+        "lineEnd": 805,
+        "lineMapIndex": -1,
+        "methodParents": [
+            28
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "String msg = (type == Token.INC)? \"invalid increment target\": \"invalid decrement target\"",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 806,
+        "lineEnd": 808,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "errorReporter.error(msg,sourceName,operand.getLineno(), \"\", 0)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 809,
+        "lineEnd": 812,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "private boolean validAssignmentTarget(Node target) ",
+        "dfgs": [
+            33,
+            29,
+            32
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 824,
+        "lineEnd": 824,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30,
+            31,
+            33
+        ],
+        "code": "switch (target.getType()) ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 825,
+        "lineEnd": 825,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "case Token.NAME",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 826,
+        "lineEnd": 826,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case Token.GETPROP",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 827,
+        "lineEnd": 827,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 829,
+        "lineEnd": 829,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_IRFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 831,
+        "lineEnd": 831,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function f(){a()}c=z=f()\",\"{var JSCompiler_inline_result$$0;a();}\" +\"c=z=JSCompiler_inline_result$$0\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1252,
+        "lineEnd": 1254,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/**@return {void}*/function foo(){ var x=foo(); x--; }\",\"increment/decrement\\n\" +\"found   : undefined\\n\" +\"required: number\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 84,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "final String INVALID_ASSIGNMENT_TARGET = \"invalid assignment target\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1018,
+        "lineEnd": 1018,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "final String INVALID_INCREMENT_TARGET = \"invalid increment target\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1019,
+        "lineEnd": 1019,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "final String INVALID_DECREMENT_TARGET = \"invalid decrement target\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1020,
+        "lineEnd": 1020,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "final String INVALID_INC_OPERAND = \"Invalid increment operand\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1022,
+        "lineEnd": 1022,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final String INVALID_DEC_OPERAND = \"Invalid decrement operand\"",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1023,
+        "lineEnd": 1023,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "public void testAssignmentValidation() ",
+        "dfgs": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1025,
+        "lineEnd": 1025,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "testNoParseError(\"x=1\")",
+        "dfgs": [
+            43
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1026,
+        "lineEnd": 1026,
+        "lineMapIndex": -1,
+        "methodParents": [
+            58
+        ],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "testNoParseError(\"x.y=1\")",
+        "dfgs": [
+            44
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1027,
+        "lineEnd": 1027,
+        "lineMapIndex": -1,
+        "methodParents": [
+            58
+        ],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "testNoParseError(\"f().y=1\")",
+        "dfgs": [
+            45
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1028,
+        "lineEnd": 1028,
+        "lineMapIndex": -1,
+        "methodParents": [
+            58
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "testParseError(\"(x||y)=1\", INVALID_ASSIGNMENT_TARGET)",
+        "dfgs": [
+            46
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            36
+        ],
+        "isDel": false,
+        "lineBeg": 1029,
+        "lineEnd": 1029,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "testParseError(\"(x?y:z)=1\", INVALID_ASSIGNMENT_TARGET)",
+        "dfgs": [
+            47
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            36
+        ],
+        "isDel": false,
+        "lineBeg": 1030,
+        "lineEnd": 1030,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "testParseError(\"f()=1\", INVALID_ASSIGNMENT_TARGET)",
+        "dfgs": [
+            48
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            36
+        ],
+        "isDel": false,
+        "lineBeg": 1031,
+        "lineEnd": 1031,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "testNoParseError(\"x+=1\")",
+        "dfgs": [
+            49
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1033,
+        "lineEnd": 1033,
+        "lineMapIndex": -1,
+        "methodParents": [
+            58
+        ],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "testNoParseError(\"x.y+=1\")",
+        "dfgs": [
+            50
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1034,
+        "lineEnd": 1034,
+        "lineMapIndex": -1,
+        "methodParents": [
+            58
+        ],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "testNoParseError(\"f().y+=1\")",
+        "dfgs": [
+            51
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1035,
+        "lineEnd": 1035,
+        "lineMapIndex": -1,
+        "methodParents": [
+            58
+        ],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "testParseError(\"(x||y)+=1\", INVALID_ASSIGNMENT_TARGET)",
+        "dfgs": [
+            52
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            36
+        ],
+        "isDel": false,
+        "lineBeg": 1036,
+        "lineEnd": 1036,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "testParseError(\"(x?y:z)+=1\", INVALID_ASSIGNMENT_TARGET)",
+        "dfgs": [
+            53
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            36
+        ],
+        "isDel": false,
+        "lineBeg": 1037,
+        "lineEnd": 1037,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "testParseError(\"f()+=1\", INVALID_ASSIGNMENT_TARGET)",
+        "dfgs": [
+            54
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            36
+        ],
+        "isDel": false,
+        "lineBeg": 1038,
+        "lineEnd": 1038,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "testParseError(\"f()++\", INVALID_INCREMENT_TARGET)",
+        "dfgs": [
+            55
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            37
+        ],
+        "isDel": false,
+        "lineBeg": 1040,
+        "lineEnd": 1040,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "testParseError(\"f()--\", INVALID_DECREMENT_TARGET)",
+        "dfgs": [
+            56
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            38
+        ],
+        "isDel": false,
+        "lineBeg": 1041,
+        "lineEnd": 1041,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "testParseError(\"++f()\", INVALID_INCREMENT_TARGET)",
+        "dfgs": [
+            57
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            37
+        ],
+        "isDel": false,
+        "lineBeg": 1042,
+        "lineEnd": 1042,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testParseError(\"--f()\", INVALID_DECREMENT_TARGET)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [
+            38
+        ],
+        "isDel": false,
+        "lineBeg": 1043,
+        "lineEnd": 1043,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "private void testNoParseError(String string) ",
+        "dfgs": [
+            59
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1046,
+        "lineEnd": 1046,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testParseError(string, (String)null)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1047,
+        "lineEnd": 1047,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "private void testParseError(String string, String error) ",
+        "dfgs": [
+            61
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1050,
+        "lineEnd": 1050,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testParseError(string, error == null ? null : new String[] { error })",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1051,
+        "lineEnd": 1051,
+        "lineMapIndex": -1,
+        "methodParents": [
+            60
+        ],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "private void testParseError(String string, String[] errors) ",
+        "dfgs": [
+            64,
+            65,
+            63
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1054,
+        "lineEnd": 1054,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "Node root = newParse(string, new TestErrorReporter(errors, null))",
+        "dfgs": [
+            64
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1055,
+        "lineEnd": 1055,
+        "lineMapIndex": -1,
+        "methodParents": [
+            67
+        ],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "assertTrue(\"unexpected warnings reported\",errorReporter.hasEncounteredAllWarnings())",
+        "dfgs": [
+            65
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1056,
+        "lineEnd": 1057,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(\"expected error were not reported\",errorReporter.hasEncounteredAllErrors())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1058,
+        "lineEnd": 1059,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return newParse(string, new TestErrorReporter(null, null))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1088,
+        "lineEnd": 1088,
+        "lineMapIndex": -1,
+        "methodParents": [
+            67
+        ],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "private Node newParse(String string, TestErrorReporter errorReporter) ",
+        "dfgs": [
+            68
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1091,
+        "lineEnd": 1091,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Node root = IRFactory.transformTree(script, string, config, errorReporter)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_IRFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1101,
+        "lineEnd": 1101,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"function a() { return function() { this.x = 8; } }\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CheckGlobalThisTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"var a = function() { return function() { this.x = 8; } }\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CheckGlobalThisTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "inFunction(\"var x; x=2; if(0&&(x=1)){}; x\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,440 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "final double c = divisor.getReal()",
+        "dfgs": [
+            1,
+            2
+        ],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "b29fc9645a7cb4e9ac2cab177794b14a39352052"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "final double d = divisor.getImaginary()",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "b29fc9645a7cb4e9ac2cab177794b14a39352052"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (c == 0.0 && d == 0.0)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "fd07147f86bb51e87908d3f1965bac4da3373996"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return NaN",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 255,
+        "lineEnd": 255,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "c5768f0660d4b26e222dbcc1ad3bc4019f59c7dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return NaN",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 288,
+        "lineEnd": 288,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "b29fc9645a7cb4e9ac2cab177794b14a39352052"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "Complex x = new Complex(1,1)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 352,
+        "lineEnd": 352,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "b29fc9645a7cb4e9ac2cab177794b14a39352052"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "yComplex = new Complex(yDouble)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 358,
+        "lineEnd": 358,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "b29fc9645a7cb4e9ac2cab177794b14a39352052"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(Complex.I.atan().isNaN())",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 570,
+        "lineEnd": 570,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "96c2ce398318fdc1c4ebb865ef06061e72c6e5fd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final transient boolean isZero",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "isZero = real == 0 && imaginary == 0",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            12
+        ],
+        "code": "if (divisor.isZero)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return isZero ? NaN : INF",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "final double c = divisor.getReal()",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final double d = divisor.getImaginary()",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return isZero ? NaN : INF",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_complex_Complex.java",
+        "fieldParents": [
+            8
+        ],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(z, Complex.INF)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testDivideZeroZero() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Complex x = new Complex(0.0, 0.0)",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": -1,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Complex z = x.divide(Complex.ZERO)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": -1,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "Complex x = new Complex(1, 1)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 359,
+        "lineEnd": 359,
+        "lineMapIndex": 5,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "yComplex = new Complex(yDouble)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testAtanI() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 575,
+        "lineEnd": 575,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23,
+            24
+        ],
+        "code": "for (int i = -10; i < 10; i++)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 576,
+        "lineEnd": 576,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "System.out.println(new Complex(0, 1 - 0.1 * i).atan())",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 577,
+        "lineEnd": 577,
+        "lineMapIndex": -1,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(Complex.I.atan().isInfinite())",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_complex_ComplexTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 579,
+        "lineEnd": 579,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    }
+]

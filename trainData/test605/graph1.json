@@ -1,0 +1,181 @@
+[
+    {
+        "cfgs": [],
+        "code": "return String.format(\"%1$tY%1$tm%1$td %1$tk:%1$tM:%1$tS.%1$tL,%2$d,%3$s,%4$s,\\\"%5$s\\\",%6$s,%7$s%n\", new Date(record.getMillis()), record.getThreadID(), record.getSourceClassName(), record.getLevel(), message, record.getLoggerName(), throwable)",
+        "dfgs": [],
+        "fName": "src_main_java_jscover_util_LogFormatter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 371,
+        "lineEnd": 379,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "efaf49e63da243a8e6a0a0e5fe8b009161f26e42",
+            "397e7def2459af38dbaa585893932917fa615822",
+            "14475c403c83989e61fc23a53022da6333c70ad7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "given(logRecord.getSourceClassName()).willReturn(\"SourceClassName\")",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 370,
+        "lineEnd": 370,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "14475c403c83989e61fc23a53022da6333c70ad7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(actual, equalTo(\"20130806 13:19:45.848,157,SourceClassName,FINER,\\\"Hello\\\",Loggy,\"+System.getProperty(\"line.separator\")))",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 386,
+        "lineEnd": 386,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "14475c403c83989e61fc23a53022da6333c70ad7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(actual, equalTo(\"20130806 13:19:45.848,157,SourceClassName,FINER,\\\"Hello World!\\\",Loggy,\"+System.getProperty(\"line.separator\")))",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 396,
+        "lineEnd": 396,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "14475c403c83989e61fc23a53022da6333c70ad7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(actual, equalTo(\"20130806 13:19:45.848,157,SourceClassName,FINER,\\\"Hello {0}!\\\",Loggy,\"+System.getProperty(\"line.separator\")))",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "14475c403c83989e61fc23a53022da6333c70ad7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(actual, startsWith(\"20130806 13:19:45.848,157,SourceClassName,FINER,\\\"Hello\\\",Loggy,\"))",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 415,
+        "lineEnd": 415,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "14475c403c83989e61fc23a53022da6333c70ad7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return String.format(\"%1$tY%1$tm%1$td %1$tk:%1$tM:%1$tS.%1$tL,%2$d,%3$s,\\\"%4$s\\\",%5$s,%6$s%n\", new Date(record.getMillis()), record.getThreadID(), record.getLevel(), message, record.getLoggerName(), throwable)",
+        "dfgs": [],
+        "fName": "src_main_java_jscover_util_LogFormatter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 371,
+        "lineEnd": 378,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(actual, equalTo(\"20130806 13:19:45.848,157,FINER,\\\"Hello\\\",Loggy,\"+System.getProperty(\"line.separator\")))",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 385,
+        "lineEnd": 385,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(actual, equalTo(\"20130806 13:19:45.848,157,FINER,\\\"Hello World!\\\",Loggy,\"+System.getProperty(\"line.separator\")))",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 395,
+        "lineEnd": 395,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(actual, equalTo(\"20130806 13:19:45.848,157,FINER,\\\"Hello {0}!\\\",Loggy,\"+System.getProperty(\"line.separator\")))",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(actual, startsWith(\"20130806 13:19:45.848,157,FINER,\\\"Hello\\\",Loggy,\"))",
+        "dfgs": [],
+        "fName": "src_test_java_jscover_util_LogFormatterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 414,
+        "lineEnd": 414,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    }
+]

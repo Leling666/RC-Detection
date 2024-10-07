@@ -1,0 +1,360 @@
+[
+    {
+        "cfgs": [],
+        "code": "int iBufSize = boundary.length",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "4379c2f95fb79d5066c9b0b6a0e7d14323d1e6b7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "multi = new MultipartStream(input, boundary, notifier)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_FileUploadBase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 994,
+        "lineEnd": 994,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "684984971e95ac0dff142934323d02df77168126"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.boundary = new byte[boundary.length + BOUNDARY_PREFIX.length]",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_MultipartStream.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 334,
+        "lineEnd": 334,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "1a5c690ecf9c1f90634b758fdae02766507d3d5b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "int iBufSize =boundary.length + MultipartStream.BOUNDARY_PREFIX.length + 1",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 42,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testSmallBuffer() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "final String strData = \"foobar\"",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "final byte[] contents = strData.getBytes()",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "InputStream input = new ByteArrayInputStream(contents)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "byte[] boundary = BOUNDARY_TEXT.getBytes()",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "int iBufSize = 1",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "@SuppressWarnings(\"unused\")MultipartStream ms = new MultipartStream(input,boundary,iBufSize,new MultipartStream.ProgressNotifier(null, contents.length))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_fileupload_MultipartStreamTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_FileUploadBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 994,
+        "lineEnd": 994,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "multi = new MultipartStream(input, boundary, notifier)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_FileUploadBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 995,
+        "lineEnd": 995,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "catch (IllegalArgumentException iae)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_FileUploadBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 996,
+        "lineEnd": 996,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new InvalidContentTypeException(format(\"The boundary specified in the %s header is too long\", CONTENT_TYPE), iae)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_FileUploadBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 997,
+        "lineEnd": 998,
+        "lineMapIndex": -1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "super()",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_FileUploadBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1191,
+        "lineEnd": 1191,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "public InvalidContentTypeException(String msg, Throwable cause) ",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_org_apache_commons_fileupload_FileUploadBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1204,
+        "lineEnd": 1204,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "super(msg, cause)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_FileUploadBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1205,
+        "lineEnd": 1205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19,
+            20
+        ],
+        "code": "if (bufSize < this.boundaryLength + 1)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_MultipartStream.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 330,
+        "lineEnd": 330,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "throw new IllegalArgumentException(\"The buffer size specified for the MultipartStream is too small\")",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_MultipartStream.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 331,
+        "lineEnd": 332,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.boundary = new byte[this.boundaryLength]",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_fileupload_MultipartStream.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 334,
+        "lineEnd": 334,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    }
+]

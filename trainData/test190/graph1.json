@@ -1,0 +1,230 @@
+[
+    {
+        "cfgs": [],
+        "code": "log.info(\"Creating UpdateShardHandler HTTP client with params: {}\", clientParams)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateShardHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "6674969a8995d694f73e58e706fec8eddcec92e3"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "if (params.get(PROP_SO_TIMEOUT) != null || params.get(PROP_CONNECTION_TIMEOUT) != null)",
+        "dfgs": [
+            3
+        ],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 224,
+        "lineEnd": 224,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "ce172acb8fec6c3bbb18837a4d640da6c5aad649"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "throw new SolrException(ErrorCode.SERVER_ERROR, \"The socket connect and read timeout cannot be set here and must be set\")",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 225,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "ce172acb8fec6c3bbb18837a4d640da6c5aad649"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "HttpClientBuilder builder = setupBuilder(newHttpClientBuilder, params == null ? new ModifiableSolrParams() : params)",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 264,
+        "lineEnd": 264,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "ce172acb8fec6c3bbb18837a4d640da6c5aad649"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            7
+        ],
+        "code": "if (cfg != null)",
+        "dfgs": [
+            7,
+            5
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateShardHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "clientParams.set(HttpClientUtil.PROP_SO_TIMEOUT, cfg.getDistributedSocketTimeout())",
+        "dfgs": [
+            10,
+            8,
+            9,
+            6
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateShardHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "clientParams.set(HttpClientUtil.PROP_CONNECTION_TIMEOUT, cfg.getDistributedConnectionTimeout())",
+        "dfgs": [
+            10,
+            8,
+            9,
+            7
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateShardHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8,
+            10
+        ],
+        "code": "if (cfg != null)",
+        "dfgs": [
+            8
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateShardHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "clientParams.set(HttpClientUtil.PROP_MAX_CONNECTIONS, cfg.getMaxUpdateConnections())",
+        "dfgs": [
+            9
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateShardHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "clientParams.set(HttpClientUtil.PROP_MAX_CONNECTIONS_PER_HOST, cfg.getMaxUpdateConnectionsPerHost())",
+        "dfgs": [
+            10
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateShardHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "log.info(\"Created UpdateShardHandler HTTP client with params: {}\", clientParams)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_update_UpdateShardHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "HttpClientBuilder builder = setupBuilder(newHttpClientBuilder, params)",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

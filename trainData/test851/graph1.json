@@ -1,0 +1,595 @@
+[
+    {
+        "cfgs": [],
+        "code": "final YamlSequence built = Yaml.createYamlSequenceBuilder().add(\"plain scalar\").add(Yaml.createYamlScalarBuilder().addLine(\"literal\").addLine(\"block\").addLine(\"scalar\").buildLiteralBlockScalar()).add(Yaml.createYamlScalarBuilder().addLine(\"a scalar folded\").addLine(\"on more lines\").addLine(\"for readability\").buildFoldedBlockScalar()).add(Yaml.createYamlMappingBuilder().add(\"key\", \"value\").build()).add(Yaml.createYamlSequenceBuilder().add(\"a sequence\").add(\"of plain scalars\").add(\"as child\").build()).add(Yaml.createYamlSequenceBuilder().build()).add(Yaml.createYamlMappingBuilder().build()).add(\" \").build()",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_YamlSequencePrintTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 80,
+        "lineEnd": 111,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "a113995d083f1b714338e7e115095826082cd841",
+            "2544fbc25448274884df543bf4e3d50a6afa6158"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "for (final YamlLine yamlLine : this.significant)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalar.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "dfc4e7fb7974945b8aa9fb42dcd406629c7d5b5c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "builder.append(System.lineSeparator())",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalar.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "dfc4e7fb7974945b8aa9fb42dcd406629c7d5b5c"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (indentation() + 2 > previousIndent)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "dfc4e7fb7974945b8aa9fb42dcd406629c7d5b5c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "contents = value",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "dfc4e7fb7974945b8aa9fb42dcd406629c7d5b5c"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (specialCharacters.contains(prevLineLastChar))",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "0f0ffb34644a756875cc30d23074a06bb232230e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "result = true",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "0f0ffb34644a756875cc30d23074a06bb232230e"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "0f0ffb34644a756875cc30d23074a06bb232230e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "result = false",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "0f0ffb34644a756875cc30d23074a06bb232230e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(scalar.value(),Matchers.is(\"First Line.\" + System.lineSeparator()+ \"Second Line.\" + System.lineSeparator()+ \"Third Line.\" + System.lineSeparator()))",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalarTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 62,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "fca664349d8ee245b8e327266c53f0c14620614e",
+            "dfc4e7fb7974945b8aa9fb42dcd406629c7d5b5c",
+            "9f6b74a630d0b4ec24e527a76dd8b8c788aec60d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(scalar.value(),Matchers.equalTo(\"line 1\\n line 2\\nend\\n\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalarTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 102,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "954f9635c2311f1b92f4b7d1cb11ca2984e06eaa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(scalar.value(),Matchers.equalTo(\"trailing spaces   \\ntrailing tab\\t\\n\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalarTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 117,
+        "lineEnd": 120,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "dfc4e7fb7974945b8aa9fb42dcd406629c7d5b5c"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "MatcherAssert.assertThat(Yaml.createYamlInput(\"|\" + System.lineSeparator()+ \"line1\" + System.lineSeparator()+ \"line2\").readLiteralBlockScalar().value(),Matchers.equalTo(\"line1\" + System.lineSeparator() + \"line2\"))",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_RtYamlInputTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 588,
+        "lineEnd": 595,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "060ca703d2bdaaa6990616382b3fd778eaedd4d1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(Yaml.createYamlInput(\"---\" + System.lineSeparator()+ \"|\" + System.lineSeparator()+ \"line1\" + System.lineSeparator()+ \"line2\" + System.lineSeparator()+ \"...\").readLiteralBlockScalar().value(),Matchers.equalTo(\"line1\" + System.lineSeparator() + \"line2\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_RtYamlInputTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 596,
+        "lineEnd": 605,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "060ca703d2bdaaa6990616382b3fd778eaedd4d1"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "Scalar block = Yaml.createYamlScalarBuilder().addLine(\"literal\").addLine(\"block\").addLine(\"scalar\").buildLiteralBlockScalar()",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_YamlSequencePrintTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final YamlSequence built = Yaml.createYamlSequenceBuilder().add(\"plain scalar\").add(block).add(Yaml.createYamlScalarBuilder().addLine(\"a scalar folded\").addLine(\"on more lines\").addLine(\"for readability\").buildFoldedBlockScalar()).add(Yaml.createYamlMappingBuilder().add(\"key\", \"value\").build()).add(Yaml.createYamlMappingBuilder().add(\"key\", block).build()).add(Yaml.createYamlSequenceBuilder().add(\"a sequence\").add(\"of plain scalars\").add(\"as child\").build()).add(Yaml.createYamlSequenceBuilder().build()).add(Yaml.createYamlMappingBuilder().build()).add(\" \").build()",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_YamlSequencePrintTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 115,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Iterator",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalar.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Iterator<YamlLine> lineIterator = this.significant.iterator()",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalar.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "while (lineIterator.hasNext())",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalar.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "YamlLine yamlLine = lineIterator.next()",
+        "dfgs": [
+            21,
+            20
+        ],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalar.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "if (lineIterator.hasNext())",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalar.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "builder.append(System.lineSeparator())",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalar.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.amihaiemil.eoyaml.exceptions.YamlReadingException",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "int indentation = indentation()",
+        "dfgs": [
+            24,
+            25
+        ],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25,
+            26
+        ],
+        "code": "if (indentation == 0)",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "contents = this.value",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "if (indentation > previousIndent)",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new YamlReadingException(\"Literal must be indented \"+ \"at least 2 spaces from previous element.\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 96,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "result = specialCharacters.contains(prevLineLastChar)",
+        "dfgs": [],
+        "fName": "src_main_java_com_amihaiemil_eoyaml_RtYamlLine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(scalar.value(),Matchers.is(\"First Line.\" + System.lineSeparator()+ \"Second Line.\" + System.lineSeparator()+ \"Third Line.\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 62,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(scalar.value(),Matchers.equalTo(\"line 1\\n line 2\\nend\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 102,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(scalar.value(),Matchers.equalTo(\"trailing spaces   \\ntrailing tab\\t\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_ReadLiteralBlockScalarTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 120,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "MatcherAssert.assertThat(Yaml.createYamlInput(\"|\" + System.lineSeparator()+ \"  line1\" + System.lineSeparator()+ \"  line2\").readLiteralBlockScalar().value(),Matchers.equalTo(\"line1\" + System.lineSeparator()+ \"line2\"))",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_RtYamlInputTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 588,
+        "lineEnd": 597,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "MatcherAssert.assertThat(Yaml.createYamlInput(\"---\" + System.lineSeparator()+ \"|\" + System.lineSeparator()+ \"line1\" + System.lineSeparator()+ \"line2\" + System.lineSeparator()+ \"...\").readLiteralBlockScalar().value(),Matchers.equalTo(\"line1\" + System.lineSeparator()+ \"line2\" + System.lineSeparator()))",
+        "dfgs": [],
+        "fName": "src_test_java_com_amihaiemil_eoyaml_RtYamlInputTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 598,
+        "lineEnd": 609,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    }
+]

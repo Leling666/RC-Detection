@@ -1,0 +1,1398 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "protected RunningJob submitJob(JobConf jobConf) throws Exception ",
+        "dfgs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "90c0685746f6115db9accdc05d80a099e116e873"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "String value = jobConf.get(\"oozie.pipes.map\")",
+        "dfgs": [
+            2
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "90c0685746f6115db9accdc05d80a099e116e873"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "value = jobConf.get(\"oozie.pipes.reduce\")",
+        "dfgs": [
+            3
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "90c0685746f6115db9accdc05d80a099e116e873"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "value = jobConf.get(\"oozie.pipes.inputformat\")",
+        "dfgs": [
+            4
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "90c0685746f6115db9accdc05d80a099e116e873"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "value = jobConf.get(\"oozie.pipes.partitioner\")",
+        "dfgs": [
+            5
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "90c0685746f6115db9accdc05d80a099e116e873"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "value = jobConf.get(\"oozie.pipes.writer\")",
+        "dfgs": [
+            6
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "90c0685746f6115db9accdc05d80a099e116e873"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "value = jobConf.get(\"oozie.pipes.program\")",
+        "dfgs": [],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "90c0685746f6115db9accdc05d80a099e116e873"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public void testStreaming() throws Exception ",
+        "dfgs": [
+            10,
+            8,
+            9
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 802,
+        "lineEnd": 802,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "04339dfe04bf67c52da42672e369642ea2e471b9"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Path inputDir = new Path(getFsTestCaseDir(), \"input\")",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 810,
+        "lineEnd": 810,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "04339dfe04bf67c52da42672e369642ea2e471b9"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Path outputDir = new Path(getFsTestCaseDir(), \"output\")",
+        "dfgs": [
+            10
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 811,
+        "lineEnd": 811,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "04339dfe04bf67c52da42672e369642ea2e471b9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String actionXml = \"<map-reduce>\" + \"<job-tracker>\" + getJobTrackerUri() + \"</job-tracker>\" + \"<name-node>\"+ getNameNodeUri() + \"</name-node>\" + \"      <streaming>\" + \"        <mapper>cat</mapper>\"+ \"        <reducer>wc</reducer>\" + \"      </streaming>\"+ getStreamingConfig(inputDir.toString(), outputDir.toString()).toXmlString(false) + \"<file>\"+ streamingJar + \"</file>\" + \"</map-reduce>\"",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 818,
+        "lineEnd": 822,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "04339dfe04bf67c52da42672e369642ea2e471b9"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "protected RunningJob submitJob(JobConf jobConf) throws Exception ",
+        "dfgs": [
+            12,
+            17,
+            13,
+            14,
+            15,
+            16
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "b54417b79b12b20450ff4758f3b690d4200a83dd"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "jobConf.set(\"stream.addenvironment\", \"\")",
+        "dfgs": [
+            13
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "String value = jobConf.get(\"oozie.streaming.mapper\")",
+        "dfgs": [
+            14
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "b54417b79b12b20450ff4758f3b690d4200a83dd"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "value = jobConf.get(\"oozie.streaming.reducer\")",
+        "dfgs": [
+            15
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "b54417b79b12b20450ff4758f3b690d4200a83dd"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "value = jobConf.get(\"oozie.streaming.record-reader\")",
+        "dfgs": [
+            16
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "b54417b79b12b20450ff4758f3b690d4200a83dd"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "String[] values = getStrings(jobConf, \"oozie.streaming.record-reader-mapping\")",
+        "dfgs": [
+            17
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "b54417b79b12b20450ff4758f3b690d4200a83dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "values = getStrings(jobConf, \"oozie.streaming.env\")",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "b54417b79b12b20450ff4758f3b690d4200a83dd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "protected void addActionConf(JobConf jobConf, Configuration actionConf) ",
+        "dfgs": [
+            25,
+            19
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "String value = actionConf.get(\"oozie.pipes.map\")",
+        "dfgs": [
+            25,
+            20
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "value = actionConf.get(\"oozie.pipes.reduce\")",
+        "dfgs": [
+            25,
+            21
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "value = actionConf.get(\"oozie.pipes.inputformat\")",
+        "dfgs": [
+            25,
+            22
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "value = actionConf.get(\"oozie.pipes.partitioner\")",
+        "dfgs": [
+            25,
+            23
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "value = actionConf.get(\"oozie.pipes.writer\")",
+        "dfgs": [
+            25,
+            24
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "value = actionConf.get(\"oozie.pipes.program\")",
+        "dfgs": [
+            25
+        ],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "super.addActionConf(jobConf, actionConf)",
+        "dfgs": [],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected RunningJob submitJob(JobConf jobConf) throws Exception ",
+        "dfgs": [],
+        "fName": "sharelib_oozie_src_main_java_org_apache_oozie_action_hadoop_PipesMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.fs.FSDataInputStream",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.fs.PathFilter",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.FileNotFoundException",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.IOException",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.io.SequenceFile",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.io.Text",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "private void runStreamingWordCountJob(Path inputDir, Path outputDir, XConfiguration streamingConf) throws Exception ",
+        "dfgs": [
+            35
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 809,
+        "lineEnd": 809,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String actionXml = \"<map-reduce>\" + \"<job-tracker>\" + getJobTrackerUri() + \"</job-tracker>\" + \"<name-node>\"+ getNameNodeUri() + \"</name-node>\" + \"      <streaming>\" + \"        <mapper>cat</mapper>\"+ \"        <reducer>wc</reducer>\" + \"      </streaming>\"+ streamingConf.toXmlString(false) + \"<file>\"+ streamingJar + \"</file>\" + \"</map-reduce>\"",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 822,
+        "lineEnd": 826,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "public void testStreaming() throws Exception ",
+        "dfgs": [
+            38,
+            39,
+            41,
+            44,
+            45,
+            46,
+            37,
+            40,
+            42,
+            43
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 830,
+        "lineEnd": 830,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "FileSystem fs = getFileSystem()",
+        "dfgs": [
+            38,
+            42
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 831,
+        "lineEnd": 831,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "Path inputDir = new Path(getFsTestCaseDir(), \"input\")",
+        "dfgs": [
+            39,
+            40
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 832,
+        "lineEnd": 832,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "Path outputDir = new Path(getFsTestCaseDir(), \"output\")",
+        "dfgs": [
+            40
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 833,
+        "lineEnd": 833,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "final XConfiguration streamingConf = getStreamingConfig(inputDir.toString(), outputDir.toString())",
+        "dfgs": [
+            41
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 834,
+        "lineEnd": 834,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "runStreamingWordCountJob(inputDir, outputDir, streamingConf)",
+        "dfgs": [
+            42
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 836,
+        "lineEnd": 836,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "final FSDataInputStream dis = fs.open(getOutputFile(outputDir, fs))",
+        "dfgs": [
+            45,
+            43
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 838,
+        "lineEnd": 838,
+        "lineMapIndex": -1,
+        "methodParents": [
+            61
+        ],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "final List<String> lines = org.apache.commons.io.IOUtils.readLines(dis)",
+        "dfgs": [
+            44,
+            45
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 839,
+        "lineEnd": 839,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "dis.close()",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 840,
+        "lineEnd": 840,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "assertEquals(1, lines.size())",
+        "dfgs": [
+            46
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 841,
+        "lineEnd": 841,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"2       2      14\", lines.get(0).trim())",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 843,
+        "lineEnd": 843,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "public void testStreamingConfOverride() throws Exception ",
+        "dfgs": [
+            49,
+            50,
+            54,
+            55,
+            52,
+            53,
+            59,
+            60,
+            48,
+            51,
+            56,
+            57,
+            58
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 846,
+        "lineEnd": 846,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "FileSystem fs = getFileSystem()",
+        "dfgs": [
+            49,
+            54
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 847,
+        "lineEnd": 847,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "Path inputDir = new Path(getFsTestCaseDir(), \"input\")",
+        "dfgs": [
+            50,
+            51
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 848,
+        "lineEnd": 848,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "Path outputDir = new Path(getFsTestCaseDir(), \"output\")",
+        "dfgs": [
+            51
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 849,
+        "lineEnd": 849,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "final XConfiguration streamingConf = getStreamingConfig(inputDir.toString(), outputDir.toString())",
+        "dfgs": [
+            52,
+            53
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 850,
+        "lineEnd": 850,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "streamingConf.set(\"mapred.output.format.class\", \"org.apache.hadoop.mapred.SequenceFileOutputFormat\")",
+        "dfgs": [
+            53
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 851,
+        "lineEnd": 851,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "runStreamingWordCountJob(inputDir, outputDir, streamingConf)",
+        "dfgs": [
+            54
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 853,
+        "lineEnd": 853,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "SequenceFile.Reader seqFile = new SequenceFile.Reader(fs, getOutputFile(outputDir, fs), getFileSystem().getConf())",
+        "dfgs": [
+            59,
+            56,
+            57
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 855,
+        "lineEnd": 855,
+        "lineMapIndex": -1,
+        "methodParents": [
+            61
+        ],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "Text key = new Text(), value = new Text()",
+        "dfgs": [
+            56
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 856,
+        "lineEnd": 856,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57,
+            59
+        ],
+        "code": "if (seqFile.next(key, value))",
+        "dfgs": [
+            59,
+            58,
+            57
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 857,
+        "lineEnd": 857,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "assertEquals(\"2       2      14\", key.toString().trim())",
+        "dfgs": [
+            59,
+            58
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 858,
+        "lineEnd": 858,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "assertEquals(\"\", value.toString())",
+        "dfgs": [
+            59
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 859,
+        "lineEnd": 859,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "assertFalse(seqFile.next(key, value))",
+        "dfgs": [
+            60
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 861,
+        "lineEnd": 861,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "seqFile.close()",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 862,
+        "lineEnd": 862,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "private Path getOutputFile(Path outputDir, FileSystem fs) throws FileNotFoundException, IOException ",
+        "dfgs": [
+            62
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 865,
+        "lineEnd": 865,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "final FileStatus[] files = fs.listStatus(outputDir, new PathFilter() {@Overridepublic boolean accept(Path path) {return path.getName().startsWith(\"part\");}})",
+        "dfgs": [
+            63
+        ],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 866,
+        "lineEnd": 872,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return files[0].getPath()",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_test_java_org_apache_oozie_action_hadoop_TestMapReduceActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 873,
+        "lineEnd": 873,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected void addActionConf(JobConf jobConf, Configuration actionConf) ",
+        "dfgs": [
+            70,
+            65
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "String value = actionConf.get(\"oozie.streaming.mapper\")",
+        "dfgs": [
+            70,
+            66
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "value = actionConf.get(\"oozie.streaming.reducer\")",
+        "dfgs": [
+            70,
+            67
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "value = actionConf.get(\"oozie.streaming.record-reader\")",
+        "dfgs": [
+            70,
+            68
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "String[] values = getStrings(actionConf, \"oozie.streaming.record-reader-mapping\")",
+        "dfgs": [
+            70,
+            69
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "values = getStrings(actionConf, \"oozie.streaming.env\")",
+        "dfgs": [
+            70
+        ],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "super.addActionConf(jobConf, actionConf)",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": -1,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected RunningJob submitJob(JobConf jobConf) throws Exception ",
+        "dfgs": [],
+        "fName": "sharelib_streaming_src_main_java_org_apache_oozie_action_hadoop_StreamingMain.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    }
+]

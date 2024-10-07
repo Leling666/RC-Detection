@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "private Optional<Date> timestamp",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_handler_OldBackupDirectory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "07be2c42ba24fea7c4e84836aa4c3f8d059f71d6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private Optional<Date> timestamp = Optional.empty()",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_handler_OldBackupDirectory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

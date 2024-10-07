@@ -1,0 +1,278 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "String nonExistListStr = nonExistList.toString()",
+        "dfgs": [
+            1
+        ],
+        "fName": "core_src_main_java_org_apache_oozie_command_coord_CoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "81ce22b6f23b2bba49df4733961ee82b58c38d0d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!nonExistListStr.isEmpty() && isPushDependenciesMet)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_command_coord_CoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 199,
+        "lineEnd": 199,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "81ce22b6f23b2bba49df4733961ee82b58c38d0d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testTimeoutWithUnResolved() throws Exception ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 758,
+        "lineEnd": 758,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "String jobId = \"0000000-\" + new Date().getTime() + \"-TestCoordActionInputCheckXCommand-C\"",
+        "dfgs": [
+            6
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 759,
+        "lineEnd": 759,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "Date startTime = DateUtils.parseDateOozieTZ(\"2009-02-15T23:59\" + TZ)",
+        "dfgs": [
+            5,
+            6
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 760,
+        "lineEnd": 760,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "Date endTime = DateUtils.parseDateOozieTZ(\"2009-02-16T23:59\" + TZ)",
+        "dfgs": [
+            6
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 761,
+        "lineEnd": 761,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "CoordinatorJobBean job = addRecordToCoordJobTable(jobId, startTime, endTime, \"latest\")",
+        "dfgs": [
+            9,
+            7
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 762,
+        "lineEnd": 762,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "new CoordMaterializeTransitionXCommand(job.getId(), 3600).call()",
+        "dfgs": [
+            8
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 763,
+        "lineEnd": 763,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "CoordinatorActionBean action = CoordActionQueryExecutor.getInstance().get(CoordActionQuery.GET_COORD_ACTION, job.getId() + \"@1\")",
+        "dfgs": [
+            9
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 764,
+        "lineEnd": 765,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "assertEquals(CoordCommandUtils.RESOLVED_UNRESOLVED_SEPARATOR + \"${coord:latestRange(-3,0)}\",action.getMissingDependencies())",
+        "dfgs": [
+            11
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 766,
+        "lineEnd": 767,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "long timeOutCreationTime = System.currentTimeMillis() - (13 * 60 * 1000)",
+        "dfgs": [
+            11
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 768,
+        "lineEnd": 768,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "setCoordActionCreationTime(action.getId(), timeOutCreationTime)",
+        "dfgs": [
+            13,
+            12
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 769,
+        "lineEnd": 769,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "new CoordActionInputCheckXCommand(action.getId(), action.getJobId()).call()",
+        "dfgs": [
+            13
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 770,
+        "lineEnd": 770,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkCoordActionStatus(action.getId(),  CoordinatorAction.Status.TIMEDOUT)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 771,
+        "lineEnd": 771,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (isPushDependenciesMet)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_command_coord_CoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    }
+]

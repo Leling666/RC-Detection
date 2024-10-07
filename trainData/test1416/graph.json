@@ -1,0 +1,782 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "addExpr(first, p, context)",
+        "dfgs": [
+            1,
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 0
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "cc.addOp(opstr, true)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 1
+    },
+    {
+        "cfgs": [],
+        "code": "addExpr(last, p + 1, rhsContext)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 2
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Node firstNonComma = n.getFirstChild()",
+        "dfgs": [
+            12,
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 3
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "while (firstNonComma.getType() == Token.COMMA)",
+        "dfgs": [
+            6,
+            5
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4
+    },
+    {
+        "cfgs": [],
+        "code": "firstNonComma = firstNonComma.getFirstChild()",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 229,
+        "lineEnd": 229,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "addExpr(firstNonComma, 0, context)",
+        "dfgs": [
+            7,
+            10,
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Node current = firstNonComma",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "d",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "current = current.getParent()",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 9
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "cc.listSeparator()",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 10
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "addExpr(current.getFirstChild().getNext(), 0, Context.OTHER)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 11
+    },
+    {
+        "cfgs": [],
+        "code": "while (current != n)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 239,
+        "lineEnd": 239,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12
+    },
+    {
+        "cfgs": [],
+        "code": "if (getLastChar() != ' ')",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodePrinter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 334,
+        "lineEnd": 334,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 13
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "addExpr(first, p, context)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 14
+    },
+    {
+        "cfgs": [],
+        "code": "cc.addOp(opstr, true)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 15
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "addExpr(first, p, context)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16
+    },
+    {
+        "cfgs": [],
+        "code": "cc.addOp(opstr, true)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17
+    },
+    {
+        "cfgs": [],
+        "code": "unrollBinaryOperator(n, type, opstr, context, rhsContext, p, p + 1)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": 2,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 18
+    },
+    {
+        "cfgs": [],
+        "code": "unrollBinaryOperator(n, Token.COMMA, \",\", context, Context.OTHER, 0, 0)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 223,
+        "lineEnd": 223,
+        "lineMapIndex": -1,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 19
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "private void unrollBinaryOperator(Node n, int op, String opStr, Context context,Context rhsContext, int leftPrecedence, int rightPrecedence)",
+        "dfgs": [
+            25,
+            24,
+            21,
+            22,
+            30,
+            28,
+            29,
+            23,
+            27
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 739,
+        "lineEnd": 741,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "Node firstNonOperator = n.getFirstChild()",
+        "dfgs": [
+            30,
+            22
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 742,
+        "lineEnd": 742,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 21
+    },
+    {
+        "cfgs": [
+            23,
+            24
+        ],
+        "code": "while (firstNonOperator.getType() == op)",
+        "dfgs": [
+            24,
+            23
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 743,
+        "lineEnd": 743,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22
+    },
+    {
+        "cfgs": [],
+        "code": "firstNonOperator = firstNonOperator.getFirstChild()",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 744,
+        "lineEnd": 744,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "addExpr(firstNonOperator, leftPrecedence, context)",
+        "dfgs": [
+            25,
+            28,
+            29
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 747,
+        "lineEnd": 747,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "Node current = firstNonOperator",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 749,
+        "lineEnd": 749,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "d",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 750,
+        "lineEnd": 750,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "current = current.getParent()",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 751,
+        "lineEnd": 751,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 27
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "cc.addOp(opStr, true)",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 752,
+        "lineEnd": 752,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 28
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "addExpr(current.getFirstChild().getNext(), rightPrecedence, rhsContext)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 753,
+        "lineEnd": 753,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 29
+    },
+    {
+        "cfgs": [],
+        "code": "while (current != n)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 754,
+        "lineEnd": 754,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "public void testCommaSpacing() ",
+        "dfgs": [
+            32,
+            33
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1357,
+        "lineEnd": 1357,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "assertPrint(\"var a = (b = 5, c = 5);\",\"var a=(b=5,c=5)\")",
+        "dfgs": [
+            33
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1358,
+        "lineEnd": 1359,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32
+    },
+    {
+        "cfgs": [],
+        "code": "assertPrettyPrint(\"var a = (b = 5, c = 5);\",\"var a = (b = 5, c = 5);\\n\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1360,
+        "lineEnd": 1361,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "public void testManyAdds() ",
+        "dfgs": [
+            35,
+            37,
+            38,
+            45,
+            36,
+            39,
+            43,
+            44,
+            41,
+            42,
+            40
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1382,
+        "lineEnd": 1382,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "int numAdds = 10000",
+        "dfgs": [
+            38
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1383,
+        "lineEnd": 1383,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "List<String> numbers = Lists.newArrayList(\"0\", \"1\")",
+        "dfgs": [
+            43,
+            41
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1384,
+        "lineEnd": 1384,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "Node current = new Node(Token.ADD, Node.newNumber(0), Node.newNumber(1))",
+        "dfgs": [
+            39,
+            44,
+            42
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1385,
+        "lineEnd": 1385,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37
+    },
+    {
+        "cfgs": [
+            39,
+            43
+        ],
+        "code": "for (int i = 2; i < numAdds; i++)",
+        "dfgs": [
+            40
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1386,
+        "lineEnd": 1386,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "current = new Node(Token.ADD, current)",
+        "dfgs": [
+            42
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1387,
+        "lineEnd": 1387,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "int num = i % 1000",
+        "dfgs": [
+            41
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1390,
+        "lineEnd": 1390,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "numbers.add(String.valueOf(num))",
+        "dfgs": [
+            43,
+            42
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1391,
+        "lineEnd": 1391,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41
+    },
+    {
+        "cfgs": [],
+        "code": "current.addChildToBack(Node.newNumber(num))",
+        "dfgs": [
+            44
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1392,
+        "lineEnd": 1392,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "String expected = Joiner.on(\"+\").join(numbers)",
+        "dfgs": [
+            45
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1395,
+        "lineEnd": 1395,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "String actual = printNode(current).replace(\"\\n\", \"\")",
+        "dfgs": [
+            45
+        ],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1396,
+        "lineEnd": 1396,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(expected, actual)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CodePrinterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1397,
+        "lineEnd": 1397,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45
+    },
+    {
+        "cfgs": [],
+        "code": "if (getLastChar() != ' ' && op.charAt(0) != ',')",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodePrinter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 334,
+        "lineEnd": 334,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 46
+    }
+]

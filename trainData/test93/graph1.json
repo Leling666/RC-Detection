@@ -1,0 +1,194 @@
+[
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.fs.CommonConfigurationKeys.HADOOP_KERBEROS_MIN_SECONDS_BEFORE_RELOGIN",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d50e06d9e0232dccf5681ae7dda5996046e7eb1c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.fs.CommonConfigurationKeys.HADOOP_KERBEROS_MIN_SECONDS_BEFORE_RELOGIN_DEFAULT",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "d50e06d9e0232dccf5681ae7dda5996046e7eb1c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "0c5734e4aca873f405fbf994e5fe7061e31731c8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.util.PlatformName.IBM_JAVA",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "776eb119acc9c79deb9ca2f76712a84470d2fac9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return Collections.unmodifiableCollection(getCredentialsInternal().getAllTokens())",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1417,
+        "lineEnd": 1418,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "6f6e170325d39f9f7b543a39791b2cb54692f83d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Map.Entry",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_Credentials.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "cbdad3d47150ef01440515128241af6bfd47a3ec"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.fs.CommonConfigurationKeysPublic.HADOOP_KERBEROS_MIN_SECONDS_BEFORE_RELOGIN",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.fs.CommonConfigurationKeysPublic.HADOOP_KERBEROS_MIN_SECONDS_BEFORE_RELOGIN_DEFAULT",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.util.PlatformName.IBM_JAVA",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.ArrayList",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Collections.unmodifiableCollection(new ArrayList<Token<?>>(getCredentialsInternal().getAllTokens()))",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_security_UserGroupInformation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1418,
+        "lineEnd": 1419,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "if(unescaped && ch == delimiter || ch == newLine)",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "70c7f98c46cf41fd205d545bd3334ed44b7ccc0a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if(unescaped && (ch == delimiter || ch == newLine))",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_csv_CsvParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 283,
+        "lineEnd": 283,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

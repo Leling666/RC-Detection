@@ -1,0 +1,174 @@
+[
+    {
+        "cfgs": [],
+        "code": "return Geometries.rectangle(minX1, minY1, maxX2, maxY2)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_davidmoten_rtree_internal_Util.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "a8e69c5ba91077dfe4fea6c2ce12e149455fa16c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(Geometries.rectangle(1d, 1, 2, 2), r.get())",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_davidmoten_rtree_RTreeTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 969,
+        "lineEnd": 969,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "4b4c7487ac40f68e6ef2d2edeb894a9d5682667c"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            5,
+            7
+        ],
+        "code": "boolean isDoublePrecision = false",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_davidmoten_rtree_internal_Util.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4,
+            5,
+            7
+        ],
+        "code": "if (r.isDoublePrecision())",
+        "dfgs": [
+            6,
+            8
+        ],
+        "fName": "src_main_java_com_github_davidmoten_rtree_internal_Util.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5,
+            7
+        ],
+        "code": "isDoublePrecision = true",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_davidmoten_rtree_internal_Util.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (isDoublePrecision)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_davidmoten_rtree_internal_Util.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Geometries.rectangle(minX1, minY1, maxX2, maxY2)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_davidmoten_rtree_internal_Util.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_davidmoten_rtree_internal_Util.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Geometries.rectangle((float) minX1, (float) minY1, (float) maxX2, (float) maxY2)",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_davidmoten_rtree_internal_Util.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(Geometries.rectangle(1, 1, 2, 2), r.get())",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_davidmoten_rtree_RTreeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 969,
+        "lineEnd": 969,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

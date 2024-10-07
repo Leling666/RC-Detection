@@ -1,0 +1,934 @@
+[
+    {
+        "cfgs": [],
+        "code": "this.value = value",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "0d82a1a488a836d1c37d1bfe221f26bd233bafa2"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "JSONObject value = getValueAsJSON()",
+        "dfgs": [
+            2,
+            8,
+            4
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "a7e6030cd0d9ae42207baa120f865d1350daf112"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "JSONObject usermeta = getUsermetaAsJSON()",
+        "dfgs": [
+            3,
+            5,
+            7
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "a7e6030cd0d9ae42207baa120f865d1350daf112"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            8
+        ],
+        "code": "JSONArray links = getLinksAsJSON()",
+        "dfgs": [
+            13,
+            14,
+            16,
+            12
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (value == null)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "a7e6030cd0d9ae42207baa120f865d1350daf112"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "value = new JSONObject().put(Constants.JIAK_FL_USERMETA, usermeta)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "a7e6030cd0d9ae42207baa120f865d1350daf112"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 310,
+        "lineEnd": 310,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "value.put(Constants.JIAK_FL_USERMETA, usermeta)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [
+            9,
+            10
+        ],
+        "code": "if (value != null)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 314,
+        "lineEnd": 314,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "a7e6030cd0d9ae42207baa120f865d1350daf112"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            12
+        ],
+        "code": "o.put(Constants.JIAK_FL_VALUE, value)",
+        "dfgs": [
+            14,
+            16,
+            12
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 315,
+        "lineEnd": 315,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 316,
+        "lineEnd": 316,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            12
+        ],
+        "code": "o.put(Constants.JIAK_FL_VALUE, new JSONObject())",
+        "dfgs": [
+            14,
+            16,
+            12
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "o.put(Constants.JIAK_FL_BUCKET, \"\")",
+        "dfgs": [
+            14,
+            16
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 327,
+        "lineEnd": 327,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [
+            14,
+            15
+        ],
+        "code": "if (links != null)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 329,
+        "lineEnd": 329,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "o.put(Constants.JIAK_FL_LINKS, links)",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 330,
+        "lineEnd": 330,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 331,
+        "lineEnd": 331,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "o.put(Constants.JIAK_FL_BUCKET, new JSONArray())",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 332,
+        "lineEnd": 332,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void links_never_null() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "a077aba01da934aa962666e7367e7d565b2b156e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void usermeta_never_null() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "0d82a1a488a836d1c37d1bfe221f26bd233bafa2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "impl.setUsermeta((Map<String, String>) null)",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "0d82a1a488a836d1c37d1bfe221f26bd233bafa2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "setValue(value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "JSONObject value = getValueAsJSON()",
+        "dfgs": [
+            24,
+            22
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "JSONArray links = getLinksAsJSON()",
+        "dfgs": [
+            25,
+            23
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "JSONObject usermeta = getUsermetaAsJSON()",
+        "dfgs": [
+            26,
+            27
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "o.put(Constants.JIAK_FL_VALUE, value)",
+        "dfgs": [
+            25,
+            26
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            27
+        ],
+        "code": "o.put(Constants.JIAK_FL_LINKS, links)",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "value.put(Constants.JIAK_FL_USERMETA, usermeta)",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "o.put(Constants.JIAK_FL_KEY, \"\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_basho_riak_client_jiak_JiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 321,
+        "lineEnd": 321,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void value_never_null() throws JSONException ",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl = new JiakObject(new JSONObject(\"{\\\"bucket\\\":\\\"b\\\",\\\"key\\\":\\\"k\\\"}\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValue())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValueAsJSON())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl = new JiakObject(\"b\", \"k\", null, null, null, null, null, null)",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValue())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValueAsJSON())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl.setValue((JSONObject) null)",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValue())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValueAsJSON())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl.setValue((String) null)",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValue())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 69,
+        "lineEnd": 69,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValueAsJSON())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl.copyData(new JiakObject(null, null))",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValue())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getValueAsJSON())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void links_never_null() throws JSONException ",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl = new JiakObject(new JSONObject(\"{\\\"bucket\\\":\\\"b\\\",\\\"key\\\":\\\"k\\\"}\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getLinks())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl.setLinks((JSONArray) null)",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getLinks())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void usermeta_never_null() throws JSONException ",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl = new JiakObject(new JSONObject(\"{\\\"bucket\\\":\\\"b\\\",\\\"key\\\":\\\"k\\\"}\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(impl.getUsermeta())",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "impl.setUsermeta(null)",
+        "dfgs": [],
+        "fName": "src_test_java_com_basho_riak_client_jiak_TestJiakObject.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    }
+]

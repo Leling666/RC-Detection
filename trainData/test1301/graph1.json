@@ -1,0 +1,549 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "assertTrue(MathUtils.equals(new double[] {Double.NaN, Double.POSITIVE_INFINITY,Double.NEGATIVE_INFINITY, 1d, 0d}, new double[] {Double.NaN, Double.POSITIVE_INFINITY,Double.NEGATIVE_INFINITY, 1d, 0d}))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_org_apache_commons_math_util_MathUtilsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 449,
+        "lineEnd": 455,
+        "lineMapIndex": 18,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d67bb46ed84a4beff61dff50c9076a5119985aff"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(MathUtils.equals(new double[] { 1d },new double[] { FastMath.nextAfter(1d, 2d) }))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_util_MathUtilsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 458,
+        "lineEnd": 459,
+        "lineMapIndex": 20,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "d67bb46ed84a4beff61dff50c9076a5119985aff",
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (Double.isNaN(x) && Double.isNaN(y)) || x == y",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 423,
+        "lineEnd": 423,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "5a63bb398ca7fc3951b1c2340512e120ad72a4e2"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "public static double nextAfter(double d, double direction) ",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1123,
+        "lineEnd": 1123,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "7ec35cf7f5d760cb6b31928c2622d528af11e406"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return FastMath.nextAfter(d, direction)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1124,
+        "lineEnd": 1124,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.floor(nextAfter(unscaled, Double.NEGATIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1321,
+        "lineEnd": 1321,
+        "lineMapIndex": 22,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.ceil(nextAfter(unscaled, Double.POSITIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1323,
+        "lineEnd": 1323,
+        "lineMapIndex": 23,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.floor(nextAfter(unscaled, Double.NEGATIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1327,
+        "lineEnd": 1327,
+        "lineMapIndex": 24,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.ceil(nextAfter(unscaled, Double.POSITIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1331,
+        "lineEnd": 1331,
+        "lineMapIndex": 25,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.floor(nextAfter(unscaled, Double.NEGATIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1333,
+        "lineEnd": 1333,
+        "lineMapIndex": 26,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = nextAfter(unscaled, Double.NEGATIVE_INFINITY)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1337,
+        "lineEnd": 1337,
+        "lineMapIndex": 27,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "7ec35cf7f5d760cb6b31928c2622d528af11e406"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = nextAfter(unscaled, Double.POSITIVE_INFINITY)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1364,
+        "lineEnd": 1364,
+        "lineMapIndex": 28,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "7ec35cf7f5d760cb6b31928c2622d528af11e406"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.ceil(nextAfter(unscaled,  Double.POSITIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1379,
+        "lineEnd": 1379,
+        "lineMapIndex": 29,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "0ec92a0fc205fb0704d3b9032b88ebb0d4e561a9"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "public static void checkOrder(double[] val, int dir, boolean strict) ",
+        "dfgs": [
+            14,
+            15,
+            17
+        ],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1917,
+        "lineEnd": 1917,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "ad63c1629dea162273b3448407545cdd3cb6b586"
+        ]
+    },
+    {
+        "cfgs": [
+            15,
+            16
+        ],
+        "code": "if (dir > 0)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1918,
+        "lineEnd": 1918,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "cab4f493398c1991218099c6cfa2c0cbf096b79a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "checkOrder(val, OrderDirection.INCREASING, strict)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1919,
+        "lineEnd": 1919,
+        "lineMapIndex": -1,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "e58f83acb8da8f2635fc29a366547ba7cf95d93c"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1920,
+        "lineEnd": 1920,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "cab4f493398c1991218099c6cfa2c0cbf096b79a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "checkOrder(val, OrderDirection.DECREASING, strict)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1921,
+        "lineEnd": 1921,
+        "lineMapIndex": -1,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "e58f83acb8da8f2635fc29a366547ba7cf95d93c"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "assertTrue(MathUtils.equals(new double[] {Double.POSITIVE_INFINITY,Double.NEGATIVE_INFINITY, 1d, 0d}, new double[] {Double.POSITIVE_INFINITY,Double.NEGATIVE_INFINITY, 1d, 0d}))",
+        "dfgs": [
+            19,
+            20
+        ],
+        "fName": "src_test_java_org_apache_commons_math_util_MathUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 449,
+        "lineEnd": 455,
+        "lineMapIndex": 0,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "assertFalse(MathUtils.equals(new double[] { Double.NaN },new double[] { Double.NaN }))",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_org_apache_commons_math_util_MathUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 456,
+        "lineEnd": 457,
+        "lineMapIndex": -1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(MathUtils.equals(new double[] { 1d },new double[] { FastMath.nextAfter(FastMath.nextAfter(1d, 2d), 2d) }))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_util_MathUtilsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 460,
+        "lineEnd": 461,
+        "lineMapIndex": 1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return equals(x, y, 1)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 417,
+        "lineEnd": 417,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.floor(FastMath.nextAfter(unscaled, Double.NEGATIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1286,
+        "lineEnd": 1286,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.ceil(FastMath.nextAfter(unscaled, Double.POSITIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1288,
+        "lineEnd": 1288,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.floor(FastMath.nextAfter(unscaled, Double.NEGATIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1292,
+        "lineEnd": 1292,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.ceil(FastMath.nextAfter(unscaled, Double.POSITIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1296,
+        "lineEnd": 1296,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.floor(FastMath.nextAfter(unscaled, Double.NEGATIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1298,
+        "lineEnd": 1298,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.nextAfter(unscaled, Double.NEGATIVE_INFINITY)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1302,
+        "lineEnd": 1302,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.nextAfter(unscaled, Double.POSITIVE_INFINITY)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1329,
+        "lineEnd": 1329,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unscaled = FastMath.ceil(FastMath.nextAfter(unscaled,  Double.POSITIVE_INFINITY))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_util_MathUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1344,
+        "lineEnd": 1344,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    }
+]

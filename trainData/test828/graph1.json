@@ -1,0 +1,818 @@
+[
+    {
+        "cfgs": [],
+        "code": "factory.writeDirectory = \".\"",
+        "dfgs": [],
+        "fName": "src_test_testproxy_ProxyTester.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 402,
+        "lineEnd": 402,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "91f6abdd9e1e637251e9bfae381afc0c6a47c1b9"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "proxyFactory.writeDirectory = \".\"",
+        "dfgs": [],
+        "fName": "src_test_testproxy_ProxyTester.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 420,
+        "lineEnd": 420,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "91f6abdd9e1e637251e9bfae381afc0c6a47c1b9"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "String key = m.getName() + ':' + RuntimeSupport.makeDescriptor(m)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1149,
+        "lineEnd": 1149,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "91f6abdd9e1e637251e9bfae381afc0c6a47c1b9"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "Method oldMethod = (Method)hash.put(key, methods[i])",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1155,
+        "lineEnd": 1155,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "3fcf471e97d82d5f7ad17d554bdd582c8a1a6986"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (null != oldMethod && Modifier.isPublic(oldMethod.getModifiers())&& !Modifier.isPublic(methods[i].getModifiers()) )",
+        "dfgs": [],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1158,
+        "lineEnd": 1159,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "3fcf471e97d82d5f7ad17d554bdd582c8a1a6986"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String value244",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public void testJIRA244() throws Exception ",
+        "dfgs": [
+            7,
+            9,
+            12,
+            16,
+            20,
+            8,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "ProxyFactory factory = new ProxyFactory()",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "factory.setSuperclass(Extended244.class)",
+        "dfgs": [
+            9,
+            15
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "Extended244 e = (Extended244)factory.create(null, null, new MethodHandler() {@Overridepublic Object invoke(Object self, Method thisMethod,Method proceed, Object[] args) throws Throwable {value244 += thisMethod.getDeclaringClass().getName();return proceed.invoke(self);}})",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "value244 += thisMethod.getDeclaringClass().getName()",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return proceed.invoke(self)",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "value244 = \"\"",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(\"base\", e.base())",
+        "dfgs": [
+            14,
+            15,
+            17
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": -1,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "System.out.println(value244)",
+        "dfgs": [
+            15,
+            18
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "assertEquals(Extended244.class.getName(), value244)",
+        "dfgs": [
+            17,
+            19
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "value244 = \"\"",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertEquals(\"ext\", e.extended())",
+        "dfgs": [
+            18,
+            19,
+            21
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": -1,
+        "methodParents": [
+            28
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "System.out.println(value244)",
+        "dfgs": [
+            19,
+            22
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "assertEquals(Extended244.class.getName(), value244)",
+        "dfgs": [
+            21,
+            23
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "value244 = \"\"",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "assertEquals(\"base2ext2\", e.base2())",
+        "dfgs": [
+            22,
+            23
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": -1,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "System.out.println(value244)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(Extended244.class.getName(), value244)",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static abstract class Base244 ",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public String base() ",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public String base2() ",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public static class Extended244 extends Base244 ",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 139,
+        "lineEnd": 139,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public String extended() ",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 140,
+        "lineEnd": 140,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public String base2() ",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return super.base2() + \"ext2\"",
+        "dfgs": [],
+        "fName": "src_test_test_javassist_proxy_ProxySimpleTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "String key = m.getName() + ':' + RuntimeSupport.makeDescriptor(m)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1149,
+        "lineEnd": 1149,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "Method oldMethod = (Method)hash.put(key, m)",
+        "dfgs": [
+            34,
+            35,
+            33
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1155,
+        "lineEnd": 1155,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34,
+            35
+        ],
+        "code": "if (null != oldMethod && isBridge(m)&& !Modifier.isPublic(oldMethod.getDeclaringClass().getModifiers())&& !Modifier.isAbstract(oldMethod.getModifiers()) && !isOverloaded(i, methods))",
+        "dfgs": [
+            35,
+            34
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1159,
+        "lineEnd": 1161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "hash.put(key, oldMethod)",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1162,
+        "lineEnd": 1162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (null != oldMethod && Modifier.isPublic(oldMethod.getModifiers())&& !Modifier.isPublic(m.getModifiers()) )",
+        "dfgs": [],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1165,
+        "lineEnd": 1166,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "private static boolean isOverloaded(int index, Method[] methods) ",
+        "dfgs": [
+            42,
+            38,
+            37,
+            39,
+            41,
+            40
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1174,
+        "lineEnd": 1174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "String name = methods[index].getName()",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1175,
+        "lineEnd": 1175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39,
+            42
+        ],
+        "code": "for (int i = 0; i < methods.length; i++)",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1176,
+        "lineEnd": 1176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "if (i != index)",
+        "dfgs": [],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1177,
+        "lineEnd": 1177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "if (name.equals(methods[i].getName()))",
+        "dfgs": [],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1178,
+        "lineEnd": 1178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1179,
+        "lineEnd": 1179,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_javassist_util_proxy_ProxyFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1181,
+        "lineEnd": 1181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    }
+]

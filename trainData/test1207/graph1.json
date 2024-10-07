@@ -1,0 +1,149 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (verificationMode instanceof MockAwareVerificationMode && ((MockAwareVerificationMode) verificationMode).getMock() == invocation.getMock())",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_MockHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "9b2cf8072ece7c7629eff6037853b3e14ab5f524"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.mockito.exceptions.verification.NeverWantedButInvoked",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_VerifyingWithAnExtraCallToADifferentMockTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_VerifyingWithAnExtraCallToADifferentMockTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "verify(mockTwo, never()).simpleMethod(mock.otherMethod())",
+        "dfgs": [
+            4
+        ],
+        "fName": "test_org_mockitousage_bugs_VerifyingWithAnExtraCallToADifferentMockTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fail()",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_VerifyingWithAnExtraCallToADifferentMockTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (NeverWantedButInvoked e)",
+        "dfgs": [],
+        "fName": "test_org_mockitousage_bugs_VerifyingWithAnExtraCallToADifferentMockTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "if (((MockAwareVerificationMode) verificationMode).getMock() == invocation.getMock())",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_MockHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_MockHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mockingProgress.verificationStarted(verificationMode)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_MockHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    }
+]

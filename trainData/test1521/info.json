@@ -1,0 +1,7 @@
+{
+    "repo": "jenkins",
+    "fix": "b2083a387a5bdb6f7ee7f7c81a1f6312aca2a558",
+    "induce": [
+        "db430b3896faf78023ecf03b043469a50bbf24e6"
+    ]
+}

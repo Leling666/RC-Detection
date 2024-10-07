@@ -1,0 +1,261 @@
+[
+    {
+        "cfgs": [],
+        "code": "private final HashMap<CharSequence, CharSequence> lookupMap",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_text_translate_LookupTranslator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6ef494b6f4e5bfc17bf4fa2fd8f69dbc129378e8"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "lookupMap = new HashMap<CharSequence, CharSequence>()",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_text_translate_LookupTranslator.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "697cb0fc1a88ac1e6ed4efebece8214180106319"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.lookupMap.put(seq[0], seq[1])",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_text_translate_LookupTranslator.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "77c0ffce3ce9b351f91fd56d71ac452444bc3f30"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final CharSequence result = lookupMap.get(subSeq)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_text_translate_LookupTranslator.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "5292526e476ffbb19c6613a98464054236c86ace"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final HashMap<String, CharSequence> lookupMap",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_text_translate_LookupTranslator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "lookupMap = new HashMap<String, CharSequence>()",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_text_translate_LookupTranslator.java",
+        "fieldParents": [
+            4
+        ],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.lookupMap.put(seq[0].toString(), seq[1])",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_text_translate_LookupTranslator.java",
+        "fieldParents": [
+            4
+        ],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final CharSequence result = lookupMap.get(subSeq.toString())",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_text_translate_LookupTranslator.java",
+        "fieldParents": [
+            4
+        ],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testLang882() throws IOException ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_text_translate_LookupTranslatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "final LookupTranslator lt = new LookupTranslator(new CharSequence[][] { { new StringBuffer(\"one\"), new StringBuffer(\"two\") } })",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_text_translate_LookupTranslatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "final StringWriter out = new StringWriter()",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_text_translate_LookupTranslatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "final int result = lt.translate(new StringBuffer(\"one\"), 0, out)",
+        "dfgs": [
+            12,
+            13
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_text_translate_LookupTranslatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "assertEquals(\"Incorrect codepoint consumption\", 3, result)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_text_translate_LookupTranslatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"Incorrect value\", \"two\", out.toString())",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_text_translate_LookupTranslatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    }
+]

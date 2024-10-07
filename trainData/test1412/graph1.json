@@ -1,0 +1,493 @@
+[
+    {
+        "cfgs": [],
+        "code": "checkCost(\"10 + foo(a,b)\", \"10+xx(xx,xx)\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineCostEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "add(\"null\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 553,
+        "lineEnd": 553,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "4e976ac213f448bab78f5c1432340c489b533d7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "add(\"false\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 563,
+        "lineEnd": 563,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "4e976ac213f448bab78f5c1432340c489b533d7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "add(\"true\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 568,
+        "lineEnd": 568,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "4e976ac213f448bab78f5c1432340c489b533d7b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "add(Long.toString(mantissa) + \"E\" + Integer.toString(exp))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "efd3c178e471df6a689c1a50fbd7c404e778bfaa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "add(Long.toString(value))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "efd3c178e471df6a689c1a50fbd7c404e778bfaa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "add(String.valueOf(x))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "checkCost(\"true\", \"1\")",
+        "dfgs": [
+            8
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineCostEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "checkCost(\"false\", \"1\")",
+        "dfgs": [
+            9
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineCostEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkCost(\"10 + foo(a,b)\", \"0+xx(xx,xx)\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineCostEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "cc.addConstant(\"null\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 553,
+        "lineEnd": 553,
+        "lineMapIndex": 1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "cc.addConstant(\"false\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 563,
+        "lineEnd": 563,
+        "lineMapIndex": 2,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "cc.addConstant(\"true\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeGenerator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 568,
+        "lineEnd": 568,
+        "lineMapIndex": 3,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "public void testIssue728() ",
+        "dfgs": [
+            14,
+            15,
+            16,
+            17,
+            20,
+            18,
+            19
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2167,
+        "lineEnd": 2167,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "String f = \"var f = function() { return false; };\"",
+        "dfgs": [
+            20
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2168,
+        "lineEnd": 2168,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "StringBuilder calls = new StringBuilder()",
+        "dfgs": [
+            20,
+            18
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2169,
+        "lineEnd": 2169,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "StringBuilder folded = new StringBuilder()",
+        "dfgs": [
+            20,
+            19
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2170,
+        "lineEnd": 2170,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18,
+            20
+        ],
+        "code": "for (int i = 0; i < 30; i++)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2171,
+        "lineEnd": 2171,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "calls.append(\"if (!f()) alert('x');\")",
+        "dfgs": [
+            20
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2172,
+        "lineEnd": 2172,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "folded.append(\"if (!false) alert('x');\")",
+        "dfgs": [
+            20
+        ],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2173,
+        "lineEnd": 2173,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(f + calls, folded.toString())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_InlineFunctionsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2176,
+        "lineEnd": 2176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "void addConstant(String newcode) ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_InlineCostEstimator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "add(\"0\")",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_InlineCostEstimator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addConstant(Long.toString(mantissa) + \"E\" + Integer.toString(exp))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": 4,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addConstant(Long.toString(value))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 262,
+        "lineEnd": 262,
+        "lineMapIndex": 5,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addConstant(String.valueOf(x))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 265,
+        "lineEnd": 265,
+        "lineMapIndex": 6,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "void addConstant(String newcode) ",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "add(newcode)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CodeConsumer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    }
+]

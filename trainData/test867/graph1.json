@@ -1,0 +1,125 @@
+[
+    {
+        "cfgs": [],
+        "code": "return InetAddress.getByName(HttpUrl.parse(url).host())",
+        "dfgs": [],
+        "fName": "src_main_java_org_influxdb_impl_InfluxDBImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "bf0ef8bdbf7693ff2cf348066c3ad1c464725007"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "\rpublic void shouldThrowIllegalArgumentWithInvalidUrl()",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_org_influxdb_InfluxDBFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "InfluxDBFactory.connect(\"invalidUrl\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_influxdb_InfluxDBFactoryTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "HttpUrl httpUrl = HttpUrl.parse(url)",
+        "dfgs": [
+            4,
+            5
+        ],
+        "fName": "src_main_java_org_influxdb_impl_InfluxDBImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (httpUrl == null)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_org_influxdb_impl_InfluxDBImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "throw new IllegalArgumentException(\"Unable to parse url: \" + url)",
+        "dfgs": [],
+        "fName": "src_main_java_org_influxdb_impl_InfluxDBImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return InetAddress.getByName(httpUrl.host())",
+        "dfgs": [],
+        "fName": "src_main_java_org_influxdb_impl_InfluxDBImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,1210 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "assertEquals(true, StringUtils.equals(null, null))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 442,
+        "lineEnd": 442,
+        "lineMapIndex": 45,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "6627f7ad8fb08d6c23b83d6c9f0a6830e9e7085a"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "assertEquals(true, StringUtils.equals(FOO, FOO))",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 443,
+        "lineEnd": 443,
+        "lineMapIndex": 46,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "6627f7ad8fb08d6c23b83d6c9f0a6830e9e7085a"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "assertEquals(true, StringUtils.equals(FOO, new String(new char[] { 'f', 'o', 'o' })))",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 444,
+        "lineEnd": 444,
+        "lineMapIndex": 47,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6627f7ad8fb08d6c23b83d6c9f0a6830e9e7085a"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "assertEquals(false, StringUtils.equals(FOO, new String(new char[] { 'f', 'O', 'O' })))",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 445,
+        "lineEnd": 445,
+        "lineMapIndex": 48,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "6627f7ad8fb08d6c23b83d6c9f0a6830e9e7085a"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "assertEquals(false, StringUtils.equals(FOO, BAR))",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 446,
+        "lineEnd": 446,
+        "lineMapIndex": 49,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "6627f7ad8fb08d6c23b83d6c9f0a6830e9e7085a"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "assertEquals(false, StringUtils.equals(FOO, null))",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 447,
+        "lineEnd": 447,
+        "lineMapIndex": 50,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "6627f7ad8fb08d6c23b83d6c9f0a6830e9e7085a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(false, StringUtils.equals(null, FOO))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": 51,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "6627f7ad8fb08d6c23b83d6c9f0a6830e9e7085a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return cs1 == null ? cs2 == null : cs1.equals(cs2)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 782,
+        "lineEnd": 782,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "7cfa8a932869b98c3737f4ed41312d92eb50d636"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.hamcrest.core.IsNot",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertThat",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static class CustomCharSequence implements CharSequence ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 447,
+        "lineEnd": 447,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private CharSequence seq",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "public CustomCharSequence(CharSequence seq) ",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 450,
+        "lineEnd": 450,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.seq = seq",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 451,
+        "lineEnd": 451,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "public char charAt(int index) ",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 454,
+        "lineEnd": 454,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return seq.charAt(index)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 455,
+        "lineEnd": 455,
+        "lineMapIndex": -1,
+        "methodParents": [
+            14
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "public int length() ",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 458,
+        "lineEnd": 458,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return seq.length()",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 459,
+        "lineEnd": 459,
+        "lineMapIndex": -1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "public CharSequence subSequence(int start, int end) ",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 462,
+        "lineEnd": 462,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new CustomCharSequence(seq.subSequence(start, end))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 463,
+        "lineEnd": 463,
+        "lineMapIndex": -1,
+        "methodParents": [
+            18
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "public boolean equals(Object obj) ",
+        "dfgs": [
+            23,
+            22,
+            21
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22,
+            23
+        ],
+        "code": "if (obj == null || !(obj instanceof CustomCharSequence))",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 468,
+        "lineEnd": 468,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "CustomCharSequence other = (CustomCharSequence) obj",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 471,
+        "lineEnd": 471,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return seq.equals(other.seq)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": -1,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "public String toString() ",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 475,
+        "lineEnd": 475,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return seq.toString()",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": false,
+        "lineBeg": 476,
+        "lineEnd": 476,
+        "lineMapIndex": -1,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "public void testCustomCharSequence() ",
+        "dfgs": [
+            28,
+            29,
+            30
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 480,
+        "lineEnd": 480,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "assertThat((CharSequence) new CustomCharSequence(FOO), IsNot.<CharSequence>not(FOO))",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 481,
+        "lineEnd": 481,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "assertThat((CharSequence) FOO, IsNot.<CharSequence>not(new CustomCharSequence(FOO)))",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 482,
+        "lineEnd": 482,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(new CustomCharSequence(FOO), new CustomCharSequence(FOO))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 483,
+        "lineEnd": 483,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "final CharSequence fooCs = FOO, barCs = BAR, foobarCs = FOOBAR",
+        "dfgs": [
+            33,
+            39,
+            42
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 487,
+        "lineEnd": 487,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "assertTrue(StringUtils.equals(null, null))",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 488,
+        "lineEnd": 488,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "assertTrue(StringUtils.equals(fooCs, fooCs))",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 489,
+        "lineEnd": 489,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "assertTrue(StringUtils.equals(fooCs, (CharSequence) new StringBuilder(FOO)))",
+        "dfgs": [
+            35,
+            36
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "assertTrue(StringUtils.equals(fooCs, (CharSequence) new String(new char[] { 'f', 'o', 'o' })))",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 491,
+        "lineEnd": 491,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "assertTrue(StringUtils.equals(fooCs, (CharSequence) new CustomCharSequence(FOO)))",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 492,
+        "lineEnd": 492,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "assertTrue(StringUtils.equals((CharSequence) new CustomCharSequence(FOO), fooCs))",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 493,
+        "lineEnd": 493,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "assertFalse(StringUtils.equals(fooCs, (CharSequence) new String(new char[] { 'f', 'O', 'O' })))",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 494,
+        "lineEnd": 494,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "assertFalse(StringUtils.equals(fooCs, barCs))",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 495,
+        "lineEnd": 495,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "assertFalse(StringUtils.equals(fooCs, null))",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 496,
+        "lineEnd": 496,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "assertFalse(StringUtils.equals(null, fooCs))",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 497,
+        "lineEnd": 497,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "assertFalse(StringUtils.equals(fooCs, foobarCs))",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 498,
+        "lineEnd": 498,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(StringUtils.equals(foobarCs, fooCs))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 499,
+        "lineEnd": 499,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "public void testEqualsOnStrings() ",
+        "dfgs": [
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 502,
+        "lineEnd": 502,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "assertTrue(StringUtils.equals(null, null))",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 503,
+        "lineEnd": 503,
+        "lineMapIndex": 0,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "assertTrue(StringUtils.equals(FOO, FOO))",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 504,
+        "lineEnd": 504,
+        "lineMapIndex": 1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "assertTrue(StringUtils.equals(FOO, new String(new char[] { 'f', 'o', 'o' })))",
+        "dfgs": [
+            48
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 505,
+        "lineEnd": 505,
+        "lineMapIndex": 2,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "assertFalse(StringUtils.equals(FOO, new String(new char[] { 'f', 'O', 'O' })))",
+        "dfgs": [
+            49
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 506,
+        "lineEnd": 506,
+        "lineMapIndex": 3,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "assertFalse(StringUtils.equals(FOO, BAR))",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": 4,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "assertFalse(StringUtils.equals(FOO, null))",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 508,
+        "lineEnd": 508,
+        "lineMapIndex": 5,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "assertFalse(StringUtils.equals(null, FOO))",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 509,
+        "lineEnd": 509,
+        "lineMapIndex": 6,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "assertFalse(StringUtils.equals(FOO, FOOBAR))",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 510,
+        "lineEnd": 510,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertFalse(StringUtils.equals(FOOBAR, FOO))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_StringUtilsEqualsIndexOfTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 511,
+        "lineEnd": 511,
+        "lineMapIndex": -1,
+        "methodParents": [
+            54
+        ],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55,
+            56
+        ],
+        "code": "if (cs1 == cs2)",
+        "dfgs": [
+            56,
+            58,
+            59,
+            60
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 782,
+        "lineEnd": 782,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 783,
+        "lineEnd": 783,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57,
+            58
+        ],
+        "code": "if (cs1 == null || cs2 == null)",
+        "dfgs": [
+            58,
+            59,
+            60
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 785,
+        "lineEnd": 785,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 786,
+        "lineEnd": 786,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59,
+            60
+        ],
+        "code": "if (cs1 instanceof String && cs2 instanceof String)",
+        "dfgs": [
+            59,
+            60
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 788,
+        "lineEnd": 788,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return cs1.equals(cs2)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 789,
+        "lineEnd": 789,
+        "lineMapIndex": 7,
+        "methodParents": [
+            20
+        ],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()))",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_StringUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 791,
+        "lineEnd": 791,
+        "lineMapIndex": -1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    }
+]

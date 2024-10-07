@@ -1,0 +1,266 @@
+[
+    {
+        "cfgs": [],
+        "code": "import java.util.regex.Pattern",
+        "dfgs": [],
+        "fName": "core_src_main_java_jenkins_model_Jenkins.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if(qs==null || !ICON_SIZE.matcher(qs).matches())",
+        "dfgs": [
+            2
+        ],
+        "fName": "core_src_main_java_jenkins_model_Jenkins.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 3420,
+        "lineEnd": 3420,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Cookie cookie = new Cookie(\"iconSize\", qs)",
+        "dfgs": [],
+        "fName": "core_src_main_java_jenkins_model_Jenkins.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3422,
+        "lineEnd": 3422,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Pattern ICON_SIZE = Pattern.compile(\"\\\\d+x\\\\d+\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_jenkins_model_Jenkins.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 3967,
+        "lineEnd": 3967,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "iconSize = req != null ? Functions.getCookie(req, \"iconSize\", \"32x32\") : \"32x32\"",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_View.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 769,
+        "lineEnd": 769,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "eb1a1ffa9432318afba67ada4cf8ba2b5d573bfd"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if(qs==null)",
+        "dfgs": [
+            6
+        ],
+        "fName": "core_src_main_java_jenkins_model_Jenkins.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3419,
+        "lineEnd": 3419,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Cookie cookie = new Cookie(\"iconSize\", Functions.validateIconSize(qs))",
+        "dfgs": [],
+        "fName": "core_src_main_java_jenkins_model_Jenkins.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 3421,
+        "lineEnd": 3421,
+        "lineMapIndex": 2,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.kohsuke.accmod.Restricted",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_Functions.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 126,
+        "lineEnd": 126,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.kohsuke.accmod.restrictions.NoExternalUse",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_Functions.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 127,
+        "lineEnd": 127,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Pattern ICON_SIZE = Pattern.compile(\"\\\\d+x\\\\d+\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_Functions.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 431,
+        "lineEnd": 431,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "public static String validateIconSize(String iconSize) throws SecurityException ",
+        "dfgs": [
+            13,
+            12,
+            11
+        ],
+        "fName": "core_src_main_java_hudson_Functions.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 433,
+        "lineEnd": 433,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12,
+            13
+        ],
+        "code": "if (!ICON_SIZE.matcher(iconSize).matches())",
+        "dfgs": [
+            13
+        ],
+        "fName": "core_src_main_java_hudson_Functions.java",
+        "fieldParents": [
+            9
+        ],
+        "isDel": false,
+        "lineBeg": 434,
+        "lineEnd": 434,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "throw new SecurityException(\"invalid iconSize\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_Functions.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 435,
+        "lineEnd": 435,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return iconSize",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_Functions.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 437,
+        "lineEnd": 437,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "iconSize = req != null ? Functions.validateIconSize(Functions.getCookie(req, \"iconSize\", \"32x32\")) : \"32x32\"",
+        "dfgs": [],
+        "fName": "core_src_main_java_hudson_model_View.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 769,
+        "lineEnd": 769,
+        "lineMapIndex": 4,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    }
+]

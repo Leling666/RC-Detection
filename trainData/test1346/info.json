@@ -1,0 +1,7 @@
+{
+    "repo": "commons-lang",
+    "fix": "c71d0f03dab384f98ef2c0ba0050822fba22a063",
+    "induce": [
+        "0a7381942ca183a63750cdcdcad6a6ac5c9aa95d"
+    ]
+}

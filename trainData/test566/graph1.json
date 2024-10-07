@@ -1,0 +1,341 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hikaricp-java6_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d71db82715782f7121132aea982478f7b6c77cd1"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "sharedList.add(bagEntry)",
+        "dfgs": [],
+        "fName": "hikaricp-java6_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": 13,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "d71db82715782f7121132aea982478f7b6c77cd1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "synchronizer.releaseShared(sequence.incrementAndGet())",
+        "dfgs": [],
+        "fName": "hikaricp-java6_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "d71db82715782f7121132aea982478f7b6c77cd1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "closeConnectionExecutor.submit(new Runnable() {public void run() {quietlyCloseConnection(bagEntry.connection);}})",
+        "dfgs": [],
+        "fName": "hikaricp-java6_src_main_java_com_zaxxer_hikari_pool_HikariPool.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 422,
+        "lineEnd": 426,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "c78fc35c27d6def1b4a86c379692cc7aebaa0cea"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "closeConnectionExecutor.submit(() -> { quietlyCloseConnection(bagEntry.connection); })",
+        "dfgs": [],
+        "fName": "hikaricp_src_main_java_com_zaxxer_hikari_pool_HikariPool.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "c78fc35c27d6def1b4a86c379692cc7aebaa0cea"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "config.setInitializationFailFast(true)",
+        "dfgs": [
+            6
+        ],
+        "fName": "hikaricp_src_test_java_com_zaxxer_hikari_PostgresTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "4c35cedcb16201a1c2ee21e34517a6693b5aece2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "config.setJdbc4ConnectionTest(false)",
+        "dfgs": [],
+        "fName": "hikaricp_src_test_java_com_zaxxer_hikari_PostgresTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "4c35cedcb16201a1c2ee21e34517a6693b5aece2"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "config.setInitializationFailFast(true)",
+        "dfgs": [
+            8
+        ],
+        "fName": "hikaricp_src_test_java_com_zaxxer_hikari_PostgresTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "4c35cedcb16201a1c2ee21e34517a6693b5aece2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "config.setJdbc4ConnectionTest(false)",
+        "dfgs": [],
+        "fName": "hikaricp_src_test_java_com_zaxxer_hikari_PostgresTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "4c35cedcb16201a1c2ee21e34517a6693b5aece2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "config.setJdbc4ConnectionTest(false)",
+        "dfgs": [],
+        "fName": "hikaricp_src_test_java_com_zaxxer_hikari_PostgresTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "4c35cedcb16201a1c2ee21e34517a6693b5aece2"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hikaricp_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "d71db82715782f7121132aea982478f7b6c77cd1"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "sharedList.add(bagEntry)",
+        "dfgs": [],
+        "fName": "hikaricp_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "d71db82715782f7121132aea982478f7b6c77cd1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "synchronizer.releaseShared(sequence.incrementAndGet())",
+        "dfgs": [],
+        "fName": "hikaricp_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "d71db82715782f7121132aea982478f7b6c77cd1"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "sharedList.add(bagEntry)",
+        "dfgs": [],
+        "fName": "hikaricp-java6_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": 1,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "synchronizer.releaseShared(sequence.incrementAndGet())",
+        "dfgs": [],
+        "fName": "hikaricp-java6_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "closeConnectionExecutor.execute(new Runnable() {public void run() {quietlyCloseConnection(bagEntry.connection);}})",
+        "dfgs": [],
+        "fName": "hikaricp-java6_src_main_java_com_zaxxer_hikari_pool_HikariPool.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 422,
+        "lineEnd": 426,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "closeConnectionExecutor.execute(() -> { quietlyCloseConnection(bagEntry.connection); })",
+        "dfgs": [],
+        "fName": "hikaricp_src_main_java_com_zaxxer_hikari_pool_HikariPool.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "sharedList.add(bagEntry)",
+        "dfgs": [],
+        "fName": "hikaricp_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [
+            13
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "synchronizer.releaseShared(sequence.incrementAndGet())",
+        "dfgs": [],
+        "fName": "hikaricp_src_main_java_com_zaxxer_hikari_util_ConcurrentBag.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    }
+]

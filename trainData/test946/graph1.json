@@ -1,0 +1,705 @@
+[
+    {
+        "cfgs": [],
+        "code": "public final class NumberOfModelsHandler extends ComputationHandler implements ModelEnumerationHandler ",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_handlers_NumberOfModelsHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "39295e6bfff6a49621135763fa92c359476ee00b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (aborted(handler))",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_primecomputation_PrimeCompiler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "if (aborted(handler))",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_org_logicng_primecomputation_PrimeCompiler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 169,
+        "lineEnd": 169,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (aborted(handler))",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_primecomputation_PrimeCompiler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            5
+        ],
+        "code": "if (aborted(handler))",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_org_logicng_explanations_smus_SmusComputation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (sat)",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_explanations_smus_SmusComputation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "throw new IllegalArgumentException(\"Cannot compute a smallest MUS for a satisfiable formula set.\")",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_explanations_smus_SmusComputation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (aborted(handler))",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_explanations_smus_SmusComputation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "minimumCorrectionSet.removeAll(maximumSatisfiableSet)",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_explanations_smus_SmusComputation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public final class NumberOfNodesBDDHandler extends ComputationHandler implements BDDHandler ",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_handlers_NumberOfNodesBDDHandler.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "39295e6bfff6a49621135763fa92c359476ee00b"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "final Backbone backbone = BackboneGeneration.compute(Collections.singletonList(formula), formula.variables(), BackboneType.POSITIVE_AND_NEGATIVE, satHandler(handler))",
+        "dfgs": [
+            11,
+            12,
+            14,
+            15
+        ],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "if (aborted(handler))",
+        "dfgs": [
+            12,
+            13
+        ],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "final PrimeResult primeResult = PrimeCompiler.getWithMinimization().compute(restrictedFormula, PrimeResult.CoverageType.IMPLICANTS_COMPLETE, handler)",
+        "dfgs": [
+            13,
+            14,
+            15
+        ],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 31,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "if (aborted(this.handler))",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "if (aborted(this.handler))",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assert minimizedPIs != null : \"The conjunction of a satisfiable formula and its negated prime implications is always a contradiction\"",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 122,
+        "lineEnd": 122,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "803b406b7310415eb66f6486e396797780293294"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.assertj.core.api.Assertions.assertThatThrownBy",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_explanations_smus_SmusComputationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThatThrownBy(() -> SmusComputation.computeSmusForFormulas(input, Collections.singletonList(this.f.parse(\"n|l\")), this.f)).isInstanceOf(IllegalArgumentException.class).hasMessage(\"Cannot compute a smallest MUS for a satisfiable formula set.\")",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_explanations_smus_SmusComputationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 98,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final List<Formula> formulas = DimacsReader.readCNF(\"src/test/resources/sat/unsat/bf0432-007.cnf\", f)",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_explanations_smus_SmusComputationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final List<Formula> result = SmusComputation.computeSmusForFormulas(formulas, Collections.emptyList(), f, handler)",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_explanations_smus_SmusComputationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "0371a73fcf50ee68f1f38c78254c9c64d847edf8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public abstract <T extends Proposition> UNSATCore<T> computeMUS(final List<T> propositions, final FormulaFactory f,final MUSConfig config)",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_explanations_mus_MUSAlgorithm.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 53,
+        "lineMapIndex": 38,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "803b406b7310415eb66f6486e396797780293294"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public class NumberOfModelsHandler extends ComputationHandler implements ModelEnumerationHandler ",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_handlers_NumberOfModelsHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (result == null || aborted(handler))",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_primecomputation_PrimeCompiler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "if (primeImplicant == null || aborted(handler))",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_org_logicng_primecomputation_PrimeCompiler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (primeImplicate == null || aborted(handler))",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_primecomputation_PrimeCompiler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 186,
+        "lineEnd": 186,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "if (sat || aborted(handler))",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_main_java_org_logicng_explanations_smus_SmusComputation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (h == null || aborted(handler))",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_explanations_smus_SmusComputation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "maximumSatisfiableSet.forEach(minimumCorrectionSet::remove)",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_explanations_smus_SmusComputation.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 180,
+        "lineEnd": 180,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public class NumberOfNodesBDDHandler extends ComputationHandler implements BDDHandler ",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_handlers_NumberOfNodesBDDHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "final Backbone backbone = BackboneGeneration.compute(Collections.singletonList(formula), formula.variables(), BackboneType.POSITIVE_AND_NEGATIVE, satHandler(this.handler))",
+        "dfgs": [
+            31,
+            30,
+            32,
+            33
+        ],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "if (backbone == null || aborted(this.handler))",
+        "dfgs": [
+            31,
+            32,
+            33
+        ],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "final PrimeResult primeResult = PrimeCompiler.getWithMinimization().compute(restrictedFormula, PrimeResult.CoverageType.IMPLICANTS_COMPLETE, this.handler)",
+        "dfgs": [
+            32,
+            33
+        ],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 12,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "if (primeResult == null || aborted(this.handler))",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (minimizedPIs == null || aborted(this.handler))",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_transformations_simplification_AdvancedSimplifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "final List<Formula> result = SmusComputation.computeSmusForFormulas(input, Collections.singletonList(this.f.parse(\"n|l\")), this.f)",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_test_java_org_logicng_explanations_smus_SmusComputationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(result).isNull()",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_explanations_smus_SmusComputationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final List<Formula> formulas = DimacsReader.readCNF(\"src/test/resources/sat/unsat/bf0432-007.cnf\", this.f)",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_explanations_smus_SmusComputationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 276,
+        "lineEnd": 276,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final List<Formula> result = SmusComputation.computeSmusForFormulas(formulas, Collections.emptyList(), this.f, handler)",
+        "dfgs": [],
+        "fName": "src_test_java_org_logicng_explanations_smus_SmusComputationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public abstract <T extends Proposition> UNSATCore<T> computeMUS(final List<T> propositions, final FormulaFactory f, final MUSConfig config)",
+        "dfgs": [],
+        "fName": "src_main_java_org_logicng_explanations_mus_MUSAlgorithm.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    }
+]

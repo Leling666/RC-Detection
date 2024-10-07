@@ -1,0 +1,355 @@
+[
+    {
+        "cfgs": [],
+        "code": "for (Object n : value.getChildren())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_incrementaldomsrc_GenIncrementalDomCodeVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 966,
+        "lineEnd": 966,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "514a6381287d732e41fcab660305ebf33920a42f"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (part instanceof BinaryOperation)",
+        "dfgs": [
+            2,
+            4,
+            7
+        ],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_Concatenation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "1a036446d5b4a5ec7d7e3062fb0a392d215ca3d6"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "BinaryOperation binaryOp = (BinaryOperation) part",
+        "dfgs": [
+            3
+        ],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_Concatenation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "1a036446d5b4a5ec7d7e3062fb0a392d215ca3d6"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            6
+        ],
+        "code": "if (binaryOp.operator().equals(Operator.PLUS.getTokenString()))",
+        "dfgs": [
+            4
+        ],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_Concatenation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "1a036446d5b4a5ec7d7e3062fb0a392d215ca3d6"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "partsBuilder.add(binaryOp.arg1())",
+        "dfgs": [
+            5
+        ],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_Concatenation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "1a036446d5b4a5ec7d7e3062fb0a392d215ca3d6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "partsBuilder.add(binaryOp.arg2())",
+        "dfgs": [
+            7
+        ],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_Concatenation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "1a036446d5b4a5ec7d7e3062fb0a392d215ca3d6"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_Concatenation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "1a036446d5b4a5ec7d7e3062fb0a392d215ca3d6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "partsBuilder.add(part)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_Concatenation.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "1a036446d5b4a5ec7d7e3062fb0a392d215ca3d6"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "expectedJsCode =JOINER.join(\"var $tmp;\",\"if (opt_data.boo) {\",\"  $tmp = 'Blah';\",\"} else if (!soy.$$strContains('' + (gooData8), 'goo')) {\",\"  $tmp = 'Bleh';\",\"} else {\",\"  $tmp = 'Bluh';\",\"}\",\"output += $tmp;\",\"\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_GenJsCodeVisitorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 641,
+        "lineEnd": 652,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "ffd8586cc39cd5bfb43ec8ddd9a293a999c43003",
+            "b53bbcefd9b321e14d2a7f538ec17953b11cc8c2",
+            "7dae5a1a2b6868da939e7643741b67db1610f190",
+            "2d6826df57ce5ffa1a43bddf3b372fe930226ad2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "expectedJsCode =\"\"+ \"if (opt_data.boo.foo > 0) {\\n\"+ \"  var i9ListLen = Math.max(0, Math.ceil((4 - 0) / 1));\\n\"+ \"  for (var i9Index = 0; i9Index < i9ListLen; i9Index++) {\\n\"+ \"    var i9Data = 0 + i9Index * 1;\\n\"+ \"    output += i9Data + 1 + '<br>';\\n\"+ \"  }\\n\"+ \"} else if (!soy.$$strContains('' + (gooData8), 'goo')) {\\n\"+ \"  output += 'Bleh';\\n\"+ \"} else {\\n\"+ \"  output += 'Bluh';\\n\"+ \"}\\n\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_GenJsCodeVisitorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 668,
+        "lineEnd": 680,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "ffd8586cc39cd5bfb43ec8ddd9a293a999c43003",
+            "4a7373333fee6c22784b48e29825b9cea3ffaae7",
+            "7dae5a1a2b6868da939e7643741b67db1610f190"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return concatChunks(ImmutableList.of(LITERAL_EMPTY_STRING, Group.create(concatChunks(chunks))))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_CodeChunkUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 81,
+        "lineEnd": 82,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "ffd8586cc39cd5bfb43ec8ddd9a293a999c43003",
+            "7dae5a1a2b6868da939e7643741b67db1610f190"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "assertThat(jcb.getCode()).isEqualTo(\"var output = '' + (boo);\\n\")",
+        "dfgs": [
+            12
+        ],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_JsCodeBuilderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "ffd8586cc39cd5bfb43ec8ddd9a293a999c43003"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(jcb.getCode()).isEqualTo(\"var output = '' + (boo);\\nparam5 += a - b + (c - d) + e * f;\\n\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_JsCodeBuilderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 51,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "ffd8586cc39cd5bfb43ec8ddd9a293a999c43003",
+            "dfd138b6ad98361d9faeaa9cc9d10bb83b308913"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "for (SoyNode n : value.getChildren())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_incrementaldomsrc_GenIncrementalDomCodeVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 966,
+        "lineEnd": 966,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "expectedJsCode =JOINER.join(\"var $tmp;\",\"if (opt_data.boo) {\",\"  $tmp = 'Blah';\",\"} else if (!soy.$$strContains('' + gooData8, 'goo')) {\",\"  $tmp = 'Bleh';\",\"} else {\",\"  $tmp = 'Bluh';\",\"}\",\"output += $tmp;\",\"\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_GenJsCodeVisitorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 641,
+        "lineEnd": 652,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "expectedJsCode =\"\"+ \"if (opt_data.boo.foo > 0) {\\n\"+ \"  var i9ListLen = Math.max(0, Math.ceil((4 - 0) / 1));\\n\"+ \"  for (var i9Index = 0; i9Index < i9ListLen; i9Index++) {\\n\"+ \"    var i9Data = 0 + i9Index * 1;\\n\"+ \"    output += i9Data + 1 + '<br>';\\n\"+ \"  }\\n\"+ \"} else if (!soy.$$strContains('' + gooData8, 'goo')) {\\n\"+ \"  output += 'Bleh';\\n\"+ \"} else {\\n\"+ \"  output += 'Bluh';\\n\"+ \"}\\n\"",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_GenJsCodeVisitorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 668,
+        "lineEnd": 680,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return concatChunks(ImmutableList.<Expression>builder().add(LITERAL_EMPTY_STRING).addAll(chunks).build())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jssrc_dsl_CodeChunkUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 82,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertThat(jcb.getCode()).isEqualTo(\"var output = '' + boo;\\n\")",
+        "dfgs": [
+            18
+        ],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_JsCodeBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(jcb.getCode()).isEqualTo(\"var output = '' + boo;\\nparam5 += a - b + (c - d) + e * f;\\n\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_JsCodeBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 51,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    }
+]

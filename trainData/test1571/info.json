@@ -1,0 +1,7 @@
+{
+    "repo": "retrofit",
+    "fix": "b9a7f6ad72073ddd40254c0058710e87a073047d",
+    "induce": [
+        "7ddaabb80d098909e3c809c865f9938d8a6eb18e"
+    ]
+}

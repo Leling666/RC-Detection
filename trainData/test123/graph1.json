@@ -1,0 +1,1313 @@
+[
+    {
+        "cfgs": [],
+        "code": "import java.io.IOException",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.PrintWriter",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 53,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.lang.management.ManagementFactory",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.lang.reflect.Array",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Iterator",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.logging.Log",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.logging.LogFactory",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.http.HttpServer2",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 49,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "33a47743a5f4263bc21b345587370c5ecf43f5b4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.codehaus.jackson.JsonFactory",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.codehaus.jackson.JsonGenerator",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final String CALLBACK_PARAM = \"callback\"",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "String jsonpcb = null",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "jsonpcb = request.getParameter(CALLBACK_PARAM)",
+        "dfgs": [
+            14
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": true,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            15,
+            17
+        ],
+        "code": "if (jsonpcb != null)",
+        "dfgs": [
+            19,
+            16
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "response.setContentType(\"application/javascript; charset=utf8\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 175,
+        "lineEnd": 175,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "writer.write(jsonpcb + \"(\")",
+        "dfgs": [
+            20
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 61,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "response.setContentType(\"application/json; charset=utf8\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": 60,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "if (jsonpcb != null)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 212,
+        "lineEnd": 212,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "writer.write(\");\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.net.URL",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 64,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.regex.Matcher",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.regex.Pattern",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.logging.Log",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.logging.LogFactory",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": 68,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private   static final Log LOG = LogFactory.getLog(TestJMXJsonServlet.class)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "LOG.info(\"/jmx?qry=java.lang:type=Runtime RESULT: \"+result)",
+        "dfgs": [
+            28
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": true,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "LOG.info(\"/jmx?qry=java.lang:type=Memory RESULT: \"+result)",
+        "dfgs": [
+            29
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "LOG.info(\"/jmx RESULT: \"+result)",
+        "dfgs": [
+            30
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": true,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": [
+            "babd19de331c875a1dffee908617c07c3e1eb31b"
+        ]
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "LOG.info(\"/jmx RESULT: \"+result)",
+        "dfgs": [
+            31
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": true,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": [
+            "9c83d16c81df608d8fa1075906a7a0b989faef80"
+        ]
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "LOG.info(\"/jmx RESULT: \"+result)",
+        "dfgs": [
+            34
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": true,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": [
+            "9c83d16c81df608d8fa1075906a7a0b989faef80"
+        ]
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "assertReFind(\"\\\"ERROR\\\"\", result)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": [
+            "9c83d16c81df608d8fa1075906a7a0b989faef80"
+        ]
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "result = readOutput(new URL(baseUrl, \"/jmx?qry=java.lang:type=Memory&callback=mycallback1\"))",
+        "dfgs": [
+            34,
+            35,
+            37
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "LOG.info(\"/jmx?qry=java.lang:type=Memory&callback=mycallback RESULT: \"+result)",
+        "dfgs": [
+            38
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": true,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "assertReFind(\"^mycallback1\\\\(\\\\{\", result)",
+        "dfgs": [
+            36
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "assertReFind(\"\\\\}\\\\);$\", result)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "result = readOutput(new URL(baseUrl,\"/jmx?get=java.lang:type=Memory::&callback=mycallback2\"))",
+        "dfgs": [
+            38,
+            39,
+            41
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 89,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "LOG.info(\"/jmx RESULT: \"+result)",
+        "dfgs": [
+            42
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": true,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "assertReFind(\"^mycallback2\\\\(\\\\{\", result)",
+        "dfgs": [
+            40
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "assertReFind(\"\\\\}\\\\);$\", result)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "result = readOutput(new URL(baseUrl,\"/jmx?get=java.lang:type=Memory::HeapMemoryUsage&callback=mycallback3\"))",
+        "dfgs": [
+            42,
+            43
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 97,
+        "lineEnd": 98,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "LOG.info(\"/jmx RESULT: \"+result)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [
+            26
+        ],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "assertReFind(\"^mycallback3\\\\(\\\\{\", result)",
+        "dfgs": [
+            44
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "assertReFind(\"\\\"name\\\"\\\\s*:\\\\s*\\\"java.lang:type=Memory\\\"\", result)",
+        "dfgs": [
+            45
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "assertReFind(\"\\\"committed\\\"\\\\s*:\", result)",
+        "dfgs": [
+            46
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertReFind(\"\\\\}\\\\);$\", result)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": [
+            "6a059dc40e0020acc64d8049bf7fe6c7c0aad358"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.logging.Log",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.logging.LogFactory",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.http.HttpServer2",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.codehaus.jackson.JsonFactory",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.codehaus.jackson.JsonGenerator",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.IOException",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.PrintWriter",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.lang.management.ManagementFactory",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.lang.reflect.Array",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Iterator",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "static final String ACCESS_CONTROL_ALLOW_METHODS =\"Access-Control-Allow-Methods\"",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "static final String ACCESS_CONTROL_ALLOW_ORIGIN =\"Access-Control-Allow-Origin\"",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 122,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "response.setContentType(\"application/json; charset=utf8\")",
+        "dfgs": [
+            61
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "response.setHeader(ACCESS_CONTROL_ALLOW_METHODS, \"GET\")",
+        "dfgs": [
+            62
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [
+            58
+        ],
+        "isDel": false,
+        "lineBeg": 171,
+        "lineEnd": 171,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "response.setHeader(ACCESS_CONTROL_ALLOW_ORIGIN, \"*\")",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_jmx_JMXJsonServlet.java",
+        "fieldParents": [
+            59
+        ],
+        "isDel": false,
+        "lineBeg": 172,
+        "lineEnd": 172,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.net.HttpURLConnection",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.net.URL",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.regex.Matcher",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.regex.Pattern",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.jmx.JMXJsonServlet.ACCESS_CONTROL_ALLOW_METHODS",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.apache.hadoop.jmx.JMXJsonServlet.ACCESS_CONTROL_ALLOW_ORIGIN",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "HttpURLConnection conn = (HttpURLConnection)new URL(baseUrl, \"/jmx?qry=java.lang:type=Memory\").openConnection()",
+        "dfgs": [
+            70
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 80,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "assertEquals(\"GET\", conn.getHeaderField(ACCESS_CONTROL_ALLOW_METHODS))",
+        "dfgs": [
+            71
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(conn.getHeaderField(ACCESS_CONTROL_ALLOW_ORIGIN))",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_jmx_TestJMXJsonServlet.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    }
+]

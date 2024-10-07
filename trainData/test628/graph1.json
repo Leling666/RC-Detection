@@ -1,0 +1,1392 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "final StringBuilder exprBuilder = new StringBuilder(expr.length())",
+        "dfgs": [
+            1,
+            20,
+            4
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "final char[] data = expr.toCharArray()",
+        "dfgs": [
+            6,
+            7,
+            8,
+            11
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "char lastChar = ' '",
+        "dfgs": [
+            13,
+            15
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 12,
+        "lineEnd": 12,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            20
+        ],
+        "code": "StringBuilder lastOperation = new StringBuilder()",
+        "dfgs": [
+            8,
+            13,
+            15
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 13,
+        "lineEnd": 13,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (exprBuilder.length() > 0)",
+        "dfgs": [
+            20,
+            19,
+            14,
+            16,
+            5,
+            18
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 15,
+        "lineEnd": 15,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "lastChar = exprBuilder.charAt(exprBuilder.length() - 1)",
+        "dfgs": [
+            20,
+            19,
+            14,
+            16,
+            13,
+            15,
+            18
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 16,
+        "lineEnd": 16,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "final char c = data[i]",
+        "dfgs": [
+            19,
+            14,
+            16
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            8,
+            11
+        ],
+        "code": "if (i > 0 && isOperatorCharacter(expr.charAt(i - 1), operators))",
+        "dfgs": [
+            8,
+            11,
+            13,
+            15
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            9,
+            10
+        ],
+        "code": "if (!operators.containsKey(lastOperation.toString() + expr.charAt(i - 1)))",
+        "dfgs": [
+            10,
+            13,
+            15
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "lastOperation = new StringBuilder()",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 37,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            15,
+            19
+        ],
+        "code": "lastOperation.append(expr.charAt(i - 1))",
+        "dfgs": [
+            11,
+            13,
+            15
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            12,
+            13,
+            15,
+            19
+        ],
+        "code": "if (i > 0 && !Character.isWhitespace(expr.charAt(i - 1)))",
+        "dfgs": [
+            13,
+            15
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            15,
+            19
+        ],
+        "code": "lastOperation = new StringBuilder()",
+        "dfgs": [
+            13,
+            15
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            14,
+            20
+        ],
+        "code": "if (i > 0 && lastChar != '(' && operators.get(lastOperation.toString()) == null)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "exprBuilder.append(c)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            16,
+            17
+        ],
+        "code": "if (i > 0 && lastChar != '(' && operators.get(lastOperation.toString()) == null)",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "exprBuilder.append(c)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "exprBuilder.append('\\'')",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "exprBuilder.append(c)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": 49,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "37f740ba567a6ce6bd3d75251fea37f4b0aaa104"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return exprBuilder.toString()",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "41359ea1a1bb5ebb2a289bc038d03e2098745906"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "validateRPNExpression(tokens,operators)",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 52,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "abf84e7ade12763f0913939be29e24a1773988bd"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "private static void validateRPNExpression(List<Token> tokens,Map<String,CustomOperator> operators) throws UnparsableExpressionException",
+        "dfgs": [
+            23,
+            24,
+            25
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 53,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "abf84e7ade12763f0913939be29e24a1773988bd"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "if (tokens.get(i - 1) instanceof NumberToken)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "9b52703a481b366f840c4f063f3bc054e92ef306"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (t instanceof VariableToken || (t instanceof ParenthesesToken && ((ParenthesesToken)t).isOpen()) ||t instanceof FunctionToken)",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 71,
+        "lineEnd": 73,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "abf84e7ade12763f0913939be29e24a1773988bd"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new UnparsableExpressionException(\"Implicit multiplication is not supported. E.g. always use '2*x' instead of '2x'\")",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "bfaeb2f64729e0755bb555845905d3d43a4d4f53"
+        ]
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "StringBuilder resultBuilder = new StringBuilder()",
+        "dfgs": [
+            51,
+            34,
+            36
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28,
+            51
+        ],
+        "code": "int whitespaceCount = 0",
+        "dfgs": [
+            36,
+            33
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "boolean afterOperator = false",
+        "dfgs": [
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 13,
+        "lineEnd": 13,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "boolean afterParantheses = false",
+        "dfgs": [
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 14,
+        "lineEnd": 14,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "boolean expressionStart = false",
+        "dfgs": [
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 15,
+        "lineEnd": 15,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "final char c = expr.charAt(i)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 16,
+        "lineEnd": 16,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33,
+            36
+        ],
+        "code": "if (Character.isWhitespace(c))",
+        "dfgs": [
+            34,
+            49,
+            44,
+            46
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 17,
+        "lineEnd": 17,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "whitespaceCount++",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "resultBuilder.append(c)",
+        "dfgs": [
+            51,
+            36
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37,
+            38
+        ],
+        "code": "if (resultBuilder.length() == whitespaceCount)",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 22,
+        "lineEnd": 22,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "expressionStart = true",
+        "dfgs": [
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39,
+            43,
+            45,
+            49
+        ],
+        "code": "if (resultBuilder.length() > whitespaceCount)",
+        "dfgs": [
+            49,
+            39,
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40,
+            41
+        ],
+        "code": "if (isOperatorCharacter(resultBuilder.charAt(resultBuilder.length() - 1 - whitespaceCount), operators))",
+        "dfgs": [
+            49,
+            41,
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            45,
+            49
+        ],
+        "code": "afterOperator = true",
+        "dfgs": [
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42,
+            43,
+            45,
+            49
+        ],
+        "code": "if (resultBuilder.charAt(resultBuilder.length() - 1 - whitespaceCount) == '(')",
+        "dfgs": [
+            49,
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            45,
+            49
+        ],
+        "code": "afterParantheses = true",
+        "dfgs": [
+            43,
+            45
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44,
+            50
+        ],
+        "code": "if (resultBuilder.length() > 0 && !afterOperator && !afterParantheses && !expressionStart)",
+        "dfgs": [
+            51,
+            45,
+            44
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "resultBuilder.append(c)",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46,
+            47
+        ],
+        "code": "if (resultBuilder.length() > 0 && !afterOperator && !afterParantheses && !expressionStart)",
+        "dfgs": [
+            46,
+            48
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "resultBuilder.append(c)",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "resultBuilder.append('\\'')",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "resultBuilder.append(c)",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "whitespaceCount = 0",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return resultBuilder.toString()",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "validateRPNExpression(tokens, operators)",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": 21,
+        "methodParents": [
+            53
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "private static void validateRPNExpression(List<Token> tokens, Map<String, CustomOperator> operators)throws UnparsableExpressionException",
+        "dfgs": [
+            54,
+            55,
+            56
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 109,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "if (tokens.get(i - 1) instanceof NumberToken)",
+        "dfgs": [
+            55
+        ],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "if (t instanceof VariableToken || (t instanceof ParenthesesToken && ((ParenthesesToken) t).isOpen())|| t instanceof FunctionToken)",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 114,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new UnparsableExpressionException(\"Implicit multiplication is not supported. E.g. always use '2*x' instead of '2x'\")",
+        "dfgs": [],
+        "fName": "src_main_java_de_congrace_exp4j_RPNConverter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 115,
+        "lineEnd": 116,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testUnaryMinusInParenthesisSpace() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1134,
+        "lineEnd": 1134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "ExpressionBuilder b = new ExpressionBuilder(\"( -1)^2\")",
+        "dfgs": [
+            59
+        ],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1135,
+        "lineEnd": 1135,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "double calculated = b.build().calculate()",
+        "dfgs": [
+            60
+        ],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1136,
+        "lineEnd": 1136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(calculated == 1d)",
+        "dfgs": [],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1137,
+        "lineEnd": 1137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testUnaryMinusSpace() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1141,
+        "lineEnd": 1141,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "ExpressionBuilder b = new ExpressionBuilder(\" -1\")",
+        "dfgs": [
+            63
+        ],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1142,
+        "lineEnd": 1142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "double calculated = b.build().calculate()",
+        "dfgs": [
+            64
+        ],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1143,
+        "lineEnd": 1143,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(calculated == -1d)",
+        "dfgs": [],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1144,
+        "lineEnd": 1144,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testUnaryMinusSpace1() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1148,
+        "lineEnd": 1148,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "ExpressionBuilder b = new ExpressionBuilder(\"-1\")",
+        "dfgs": [
+            67
+        ],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1149,
+        "lineEnd": 1149,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "double calculated = b.build().calculate()",
+        "dfgs": [
+            68
+        ],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1150,
+        "lineEnd": 1150,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(calculated == -1d)",
+        "dfgs": [],
+        "fName": "src_test_java_de_congrace_exp4j_ExpressionBuilderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1151,
+        "lineEnd": 1151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    }
+]

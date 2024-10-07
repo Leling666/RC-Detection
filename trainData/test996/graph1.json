@@ -1,0 +1,464 @@
+[
+    {
+        "cfgs": [],
+        "code": "import java.util.Map",
+        "dfgs": [],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "f1cd07bf0464c1789bac5293c66667beb76b7d2d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.healthmarketscience.jackcess.impl.ByteUtil",
+        "dfgs": [],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "bcbcda7563428dff2820ec142e05a31f342eb293"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "DEFAULT_TYPES.put(ALLOW_ZERO_LEN_PROP, DataType.MEMO)",
+        "dfgs": [],
+        "fName": "src_main_java_com_healthmarketscience_jackcess_impl_PropertyMapImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "d608f41a7ac08274eed9adc95ae18674050c8720"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.UUID",
+        "dfgs": [],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "public void testCreateDbProperties() throws Exception",
+        "dfgs": [
+            5,
+            11,
+            12,
+            14,
+            16,
+            18,
+            19,
+            21,
+            22,
+            6,
+            8,
+            9,
+            10,
+            13,
+            15,
+            17,
+            20,
+            7
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 351,
+        "lineEnd": 352,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "for(FileFormat ff : SUPPORTED_FILEFORMATS)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 353,
+        "lineEnd": 353,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "File file = DatabaseTest.createTempFile(false)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 354,
+        "lineEnd": 354,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Database db = new DatabaseBuilder(file).setFileFormat(ff).putUserDefinedProperty(\"testing\", \"123\").create()",
+        "dfgs": [
+            10,
+            13
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 355,
+        "lineEnd": 358,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "UUID u1 = UUID.randomUUID()",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 360,
+        "lineEnd": 360,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "UUID u2 = UUID.randomUUID()",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 361,
+        "lineEnd": 361,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "Table t = new TableBuilder(\"Test\").putProperty(\"awesome_table\", true).addColumn(new ColumnBuilder(\"id\", DataType.LONG).setAutoNumber(true).putProperty(PropertyMap.REQUIRED_PROP, true).putProperty(PropertyMap.GUID_PROP, u1)).addColumn(new ColumnBuilder(\"data\", DataType.TEXT).putProperty(PropertyMap.ALLOW_ZERO_LEN_PROP, false).putProperty(PropertyMap.GUID_PROP, u2)).toTable(db)",
+        "dfgs": [
+            11,
+            12,
+            18,
+            19,
+            21,
+            22
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 362,
+        "lineEnd": 371,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "t.addRow(Column.AUTO_NUMBER, \"value\")",
+        "dfgs": [],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "db.close()",
+        "dfgs": [],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "db = new DatabaseBuilder(file).open()",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(\"123\", db.getUserDefinedProperties().getValue(\"testing\"))",
+        "dfgs": [
+            16,
+            15
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "t = db.getTable(\"Test\")",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 381,
+        "lineEnd": 381,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "assertEquals(Boolean.TRUE, t.getProperties().getValue(\"awesome_table\"))",
+        "dfgs": [
+            18,
+            17
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 383,
+        "lineEnd": 384,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Column c = t.getColumn(\"id\")",
+        "dfgs": [
+            20,
+            18
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 386,
+        "lineEnd": 386,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "assertEquals(Boolean.TRUE, c.getProperties().getValue(PropertyMap.REQUIRED_PROP))",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 387,
+        "lineEnd": 388,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "assertEquals(\"{\" + u1.toString().toUpperCase() + \"}\",c.getProperties().getValue(PropertyMap.GUID_PROP))",
+        "dfgs": [
+            21,
+            22
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 389,
+        "lineEnd": 390,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "c = t.getColumn(\"data\")",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 392,
+        "lineEnd": 392,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "assertEquals(Boolean.FALSE,c.getProperties().getValue(PropertyMap.ALLOW_ZERO_LEN_PROP))",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 393,
+        "lineEnd": 394,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"{\" + u2.toString().toUpperCase() + \"}\", c.getProperties().getValue(PropertyMap.GUID_PROP))",
+        "dfgs": [],
+        "fName": "src_test_java_com_healthmarketscience_jackcess_PropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 395,
+        "lineEnd": 396,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "DEFAULT_TYPES.put(ALLOW_ZERO_LEN_PROP, DataType.BOOLEAN)",
+        "dfgs": [],
+        "fName": "src_main_java_com_healthmarketscience_jackcess_impl_PropertyMapImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    }
+]

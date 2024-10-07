@@ -1,0 +1,288 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (e[i + 1] == 0.0 && i >= j)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 564,
+        "lineEnd": 564,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "95627968c1d078f49d5b7feaab84e050130769ab"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "double criterion = 0",
+        "dfgs": [
+            4,
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "3a0df1ba4839d20d4ace6c0060c8e989b8c8f985"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            5
+        ],
+        "code": "for (int i = 0; i < rows; ++i)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "3a0df1ba4839d20d4ace6c0060c8e989b8c8f985"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "final double residual = residuals[i]",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "c37f06ed3ad2de8d49a80ac46aae3ab7748598a4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "criterion += residualsWeights[i] * residual * residual",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "0283b0c9350642134cb14a8c9ad466ab64653b3a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return Math.sqrt(criterion / rows)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "3a0df1ba4839d20d4ace6c0060c8e989b8c8f985"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "chiSquare += residual * residual / residualsWeights[i]",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 256,
+        "lineEnd": 256,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "0283b0c9350642134cb14a8c9ad466ab64653b3a"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "assertEquals(0.002, errors[0], 0.001)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizerTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 442,
+        "lineEnd": 442,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "c37f06ed3ad2de8d49a80ac46aae3ab7748598a4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0.002, errors[1], 0.001)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizerTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 443,
+        "lineEnd": 443,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "c37f06ed3ad2de8d49a80ac46aae3ab7748598a4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "matAAT[j][i]=matAAT[i][j]",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_SingularValueDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "05361c5a3409a9ca8e4e3438eb87d1cd55b713a8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (t == 0.0 && i >= j)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_EigenDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 564,
+        "lineEnd": 564,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Math.sqrt(getChiSquare() / rows)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": 5,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "chiSquare += residual * residual * residualsWeights[i]",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_general_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 253,
+        "lineEnd": 253,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "assertEquals(0.004, errors[0], 0.001)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 442,
+        "lineEnd": 442,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0.004, errors[1], 0.001)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_general_LevenbergMarquardtOptimizerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 443,
+        "lineEnd": 443,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "matAAT[j][i]=matAAT[i][j]",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_linear_SingularValueDecompositionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 111,
+        "lineEnd": 111,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    }
+]

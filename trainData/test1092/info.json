@@ -1,0 +1,7 @@
+{
+    "repo": "fastjson",
+    "fix": "62c589a402419d6d6af1818270d16a8d037f0d83",
+    "induce": [
+        "8946cec232b4cd95b35cb804f9f747c28286cce0"
+    ]
+}

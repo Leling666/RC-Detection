@@ -1,0 +1,762 @@
+[
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "if (!ignoreStar)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1358,
+        "lineEnd": 1358,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case ANNOTATION",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1378,
+        "lineEnd": 1378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "c25df7eca2462861bf42ad8b74215099c3f81ae6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case EOC",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1379,
+        "lineEnd": 1379,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "c25df7eca2462861bf42ad8b74215099c3f81ae6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case EOF",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1380,
+        "lineEnd": 1380,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "c25df7eca2462861bf42ad8b74215099c3f81ae6"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (!(option == WhitespaceOption.PRESERVE &&token == JsDocToken.ANNOTATION))",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1383,
+        "lineEnd": 1384,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "c25df7eca2462861bf42ad8b74215099c3f81ae6"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "ignoreStar = false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1405,
+        "lineEnd": 1405,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "state = State.SEARCHING_ANNOTATION",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1406,
+        "lineEnd": 1406,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (builder.length() > 0)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1408,
+        "lineEnd": 1408,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "builder.append(' ')",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1409,
+        "lineEnd": 1409,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\" Foo\\n Bar\\n\\n Baz\", node.getJSDocInfo().getLicense())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1278,
+        "lineEnd": 1278,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "c25df7eca2462861bf42ad8b74215099c3f81ae6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\" Foo\\n Bar\\n\\n Baz\", node.getJSDocInfo().getLicense())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1286,
+        "lineEnd": 1286,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "c25df7eca2462861bf42ad8b74215099c3f81ae6"
+        ]
+    },
+    {
+        "cfgs": [
+            15,
+            16,
+            12,
+            14
+        ],
+        "code": "int lineStartChar = -1",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1358,
+        "lineEnd": 1358,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "if (ignoreStar)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1363,
+        "lineEnd": 1363,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            16,
+            14
+        ],
+        "code": "lineStartChar = stream.getCharno() + 1",
+        "dfgs": [
+            18,
+            23,
+            25,
+            21,
+            20
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1365,
+        "lineEnd": 1365,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            16
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1366,
+        "lineEnd": 1366,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "lineStartChar = 0",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1384,
+        "lineEnd": 1384,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "ignoreStar = false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1389,
+        "lineEnd": 1389,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "state = State.SEARCHING_ANNOTATION",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1390,
+        "lineEnd": 1390,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "boolean isEOC = token == JsDocToken.EOC",
+        "dfgs": [
+            19,
+            27
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1392,
+        "lineEnd": 1392,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            27
+        ],
+        "code": "if (!isEOC)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1393,
+        "lineEnd": 1393,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21,
+            25
+        ],
+        "code": "if (lineStartChar != -1 && option == WhitespaceOption.PRESERVE)",
+        "dfgs": [
+            27,
+            21
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1394,
+        "lineEnd": 1394,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "int numSpaces = stream.getCharno() - lineStartChar",
+        "dfgs": [
+            23,
+            25,
+            22
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1395,
+        "lineEnd": 1395,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23,
+            24
+        ],
+        "code": "for (int i = 0; i < numSpaces; i++)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1396,
+        "lineEnd": 1396,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "builder.append(' ')",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1397,
+        "lineEnd": 1397,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "lineStartChar = -1",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1399,
+        "lineEnd": 1399,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26,
+            27
+        ],
+        "code": "if (builder.length() > 0)",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1400,
+        "lineEnd": 1400,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "builder.append(' ')",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1402,
+        "lineEnd": 1402,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (token == JsDocToken.EOC ||token == JsDocToken.EOF ||// When we're capturing a license block, annotations// in the block are ok.(token == JsDocToken.ANNOTATION &&option != WhitespaceOption.PRESERVE))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_parsing_JsDocInfoParser.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1406,
+        "lineEnd": 1411,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\" Foo\\nBar\\n\\nBaz\", node.getJSDocInfo().getLicense())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1278,
+        "lineEnd": 1278,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\" Foo\\nBar\\n\\nBaz\", node.getJSDocInfo().getLicense())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1286,
+        "lineEnd": 1286,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "public void testParseLicenseAscii() throws Exception ",
+        "dfgs": [
+            31,
+            33,
+            34,
+            35,
+            32
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1289,
+        "lineEnd": 1289,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "Node node = new Node(1)",
+        "dfgs": [
+            32
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1290,
+        "lineEnd": 1290,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "this.fileLevelJsDocBuilder = node.getJsDocBuilderForNode()",
+        "dfgs": [
+            34,
+            35
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1291,
+        "lineEnd": 1291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "String comment = \"@license Foo\\n *   Bar\\n\\n  Baz*/\"",
+        "dfgs": [
+            34
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1292,
+        "lineEnd": 1292,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "parse(comment)",
+        "dfgs": [
+            35
+        ],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1293,
+        "lineEnd": 1293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\" Foo\\n   Bar\\n\\n  Baz\", node.getJSDocInfo().getLicense())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_parsing_JsDocInfoParserTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1294,
+        "lineEnd": 1294,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "public void testIssue701() ",
+        "dfgs": [
+            37,
+            38,
+            39,
+            40
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1660,
+        "lineEnd": 1660,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "String ascii = \"/**\\n\" +\" * @preserve\\n\" +\"   This\\n\" +\"     is\\n\" +\"       ASCII    ART\\n\" +\"*/\"",
+        "dfgs": [
+            39
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1662,
+        "lineEnd": 1667,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "String result = \"/*\\n\\n\" +\"   This\\n\" +\"     is\\n\" +\"       ASCII    ART\\n\" +\"*/\\n\"",
+        "dfgs": [
+            40
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1668,
+        "lineEnd": 1672,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "testSame(createCompilerOptions(), ascii)",
+        "dfgs": [
+            40
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1673,
+        "lineEnd": 1673,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(result, lastCompiler.toSource())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1674,
+        "lineEnd": 1674,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    }
+]

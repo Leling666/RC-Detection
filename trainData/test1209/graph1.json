@@ -1,0 +1,321 @@
+[
+    {
+        "cfgs": [],
+        "code": "public void injectMocksOnFields(Set<Field> testClassFields, Set<Object> mocks, Object testClass) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_DefaultInjectionEngine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "32755003f012e4369c3bb812a1f6e83b4223bf1d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "mockCandidateFilter.filterCandidate(mocks, field, fieldInstance).thenInject()",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_DefaultInjectionEngine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 10,
+        "methodParents": [
+            6
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "77c6703f60d87b88b0e5b175b8fb0462483a8f69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public Injecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_NameBasedCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "77c6703f60d87b88b0e5b175b8fb0462483a8f69"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "public Injecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) ",
+        "dfgs": [
+            5,
+            4
+        ],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "77c6703f60d87b88b0e5b175b8fb0462483a8f69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new Injecter() {\rpublic boolean thenInject() {try {new FieldSetter(fieldInstance, field).set(matchingMock);} catch (Exception e) {throw new MockitoException(\"Problems injecting dependency in \" + field.getName(), e);}return true;}}",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 22,
+        "lineEnd": 31,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "77c6703f60d87b88b0e5b175b8fb0462483a8f69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new Injecter() {\rpublic boolean thenInject() {return false;}}",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 38,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "77c6703f60d87b88b0e5b175b8fb0462483a8f69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "77c6703f60d87b88b0e5b175b8fb0462483a8f69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public Injecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_TypeBasedCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 16,
+        "lineEnd": 16,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "77c6703f60d87b88b0e5b175b8fb0462483a8f69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Injecter filterCandidate(\rCollection<Object> mocks,Field fieldToBeInjected,Object fieldInstance)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_MockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 12,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "77c6703f60d87b88b0e5b175b8fb0462483a8f69"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void injectMocksOnFields(Set<Field> testClassFields, Set<Object> mocks, Object testClass) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_DefaultInjectionEngine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "mockCandidateFilter.filterCandidate(mocks, field, fieldInstance).thenInject()",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_DefaultInjectionEngine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 1,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_NameBasedCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.mockito.internal.util.reflection.BeanPropertySetter",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 4,
+        "lineEnd": 4,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14,
+            15
+        ],
+        "code": "public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) ",
+        "dfgs": [
+            15,
+            14
+        ],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new OngoingInjecter() {\rpublic boolean thenInject() {try {if (!new BeanPropertySetter(fieldInstance, field).set(matchingMock)) {new FieldSetter(fieldInstance, field).set(matchingMock);}} catch (Exception e) {throw new MockitoException(\"Problems injecting dependency in \" + field.getName(), e);}return true;}}",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 34,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new OngoingInjecter() {\rpublic boolean thenInject() {return false;}}",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 41,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_FinalMockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) ",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_TypeBasedCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 16,
+        "lineEnd": 16,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "OngoingInjecter filterCandidate(\rCollection<Object> mocks,Field fieldToBeInjected,Object fieldInstance)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_injection_MockCandidateFilter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 8,
+        "lineEnd": 12,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    }
+]

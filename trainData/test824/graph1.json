@@ -1,0 +1,2397 @@
+[
+    {
+        "cfgs": [],
+        "code": "return maxForeignAutoRefreshLevel",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_DatabaseFieldConfig.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 367,
+        "lineEnd": 367,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "54cf44b5902b227d5f99c215c9f59adbd84069ab"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final ThreadLocal<LevelCounters> threadLevelCounters = new ThreadLocal<LevelCounters>() {@Overrideprotected LevelCounters initialValue() {return new LevelCounters();}}",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 80,
+        "lineEnd": 85,
+        "lineMapIndex": 86,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "e65804bf0038e41a24621f65c5e97cbfd7e826cb"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Object foreignObject",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 531,
+        "lineEnd": 531,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "5e35f4d705b7499d7fce607ac1510d836a52fcfa"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "LevelCounters levelCounters = threadLevelCounters.get()",
+        "dfgs": [
+            4,
+            6,
+            13,
+            21,
+            22,
+            23
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 532,
+        "lineEnd": 532,
+        "lineMapIndex": 89,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "e65804bf0038e41a24621f65c5e97cbfd7e826cb"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (levelCounters.autoRefreshLevel == 0)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 534,
+        "lineEnd": 534,
+        "lineMapIndex": 95,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "ec38b1b016cbad20f288a3694d1a4dc0cc7dbaf6"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "levelCounters.autoRefreshLevelMax = fieldConfig.getMaxForeignAutoRefreshLevel()",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 535,
+        "lineEnd": 535,
+        "lineMapIndex": 98,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "ec38b1b016cbad20f288a3694d1a4dc0cc7dbaf6"
+        ]
+    },
+    {
+        "cfgs": [
+            7,
+            9
+        ],
+        "code": "if (levelCounters.autoRefreshLevel >= levelCounters.autoRefreshLevelMax)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 538,
+        "lineEnd": 538,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "ec38b1b016cbad20f288a3694d1a4dc0cc7dbaf6"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "foreignObject = foreignTableInfo.createObject()",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 540,
+        "lineEnd": 540,
+        "lineMapIndex": 116,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "f9edd9c5d27624a9114a2d6b0cbbf9e5190085af"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "foreignIdField.assignField(foreignObject, val, false, objectCache)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 541,
+        "lineEnd": 541,
+        "lineMapIndex": 117,
+        "methodParents": [
+            2
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "f93101d97495010798ccfc446fc8fb99b2c0a93d"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 542,
+        "lineEnd": 542,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "5e35f4d705b7499d7fce607ac1510d836a52fcfa"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            13
+        ],
+        "code": "if (mappedQueryForId == null)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 548,
+        "lineEnd": 548,
+        "lineMapIndex": 101,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "ec38b1b016cbad20f288a3694d1a4dc0cc7dbaf6"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "@SuppressWarnings(\"unchecked\")MappedQueryForId<Object, Object> castMappedQueryForId =(MappedQueryForId<Object, Object>) MappedQueryForId.build(connectionSource.getDatabaseType(),((BaseDaoImpl<?, ?>) foreignDao).getTableInfo(), foreignIdField)",
+        "dfgs": [
+            12,
+            15
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 549,
+        "lineEnd": 553,
+        "lineMapIndex": 102,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "ec38b1b016cbad20f288a3694d1a4dc0cc7dbaf6"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "mappedQueryForId = castMappedQueryForId",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 554,
+        "lineEnd": 554,
+        "lineMapIndex": 103,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": true,
+        "commits": [
+            "ec38b1b016cbad20f288a3694d1a4dc0cc7dbaf6"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "levelCounters.autoRefreshLevel++",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 556,
+        "lineEnd": 556,
+        "lineMapIndex": 104,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "ec38b1b016cbad20f288a3694d1a4dc0cc7dbaf6"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 557,
+        "lineEnd": 557,
+        "lineMapIndex": 105,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "54cf44b5902b227d5f99c215c9f59adbd84069ab"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "DatabaseConnection databaseConnection = connectionSource.getReadOnlyConnection()",
+        "dfgs": [
+            19,
+            17
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 558,
+        "lineEnd": 558,
+        "lineMapIndex": 106,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "5e35f4d705b7499d7fce607ac1510d836a52fcfa"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 559,
+        "lineEnd": 559,
+        "lineMapIndex": 107,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "5e35f4d705b7499d7fce607ac1510d836a52fcfa"
+        ]
+    },
+    {
+        "cfgs": [
+            21,
+            19,
+            24
+        ],
+        "code": "foreignObject = mappedQueryForId.execute(databaseConnection, val, objectCache)",
+        "dfgs": [
+            24,
+            19
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 561,
+        "lineEnd": 561,
+        "lineMapIndex": 87,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "f93101d97495010798ccfc446fc8fb99b2c0a93d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 562,
+        "lineEnd": 562,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "5e35f4d705b7499d7fce607ac1510d836a52fcfa"
+        ]
+    },
+    {
+        "cfgs": [
+            21,
+            24
+        ],
+        "code": "connectionSource.releaseConnection(databaseConnection)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 563,
+        "lineEnd": 563,
+        "lineMapIndex": 110,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "5e35f4d705b7499d7fce607ac1510d836a52fcfa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 565,
+        "lineEnd": 565,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "54cf44b5902b227d5f99c215c9f59adbd84069ab"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "levelCounters.autoRefreshLevel--",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 566,
+        "lineEnd": 566,
+        "lineMapIndex": 112,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "ec38b1b016cbad20f288a3694d1a4dc0cc7dbaf6"
+        ]
+    },
+    {
+        "cfgs": [
+            23,
+            24
+        ],
+        "code": "if (levelCounters.autoRefreshLevel <= 0)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 567,
+        "lineEnd": 567,
+        "lineMapIndex": 113,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "4055c36677259a61613980d804904f0e8fe69e3b"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "threadLevelCounters.remove()",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [
+            1
+        ],
+        "isDel": true,
+        "lineBeg": 568,
+        "lineEnd": 568,
+        "lineMapIndex": 114,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "4055c36677259a61613980d804904f0e8fe69e3b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "val = foreignObject",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 573,
+        "lineEnd": 573,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "5e35f4d705b7499d7fce607ac1510d836a52fcfa"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "if (methodName.equals(\"maxForeignAutoRefreshLevel\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_DatabaseFieldConfigReflectionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_DatabaseFieldConfigReflectionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28,
+            29
+        ],
+        "code": "if (foreignAutoRefresh)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_DatabaseFieldConfig.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 371,
+        "lineEnd": 371,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return maxForeignAutoRefreshLevel",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_DatabaseFieldConfig.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 372,
+        "lineEnd": 372,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_DatabaseFieldConfig.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 373,
+        "lineEnd": 373,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return NO_MAX_FOREIGN_AUTO_REFRESH_LEVEL_SPECIFIED",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_DatabaseFieldConfig.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 374,
+        "lineEnd": 374,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.ArrayList",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.j256.ormlite.table.DatabaseTableConfig",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testForeignConfigured() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 803,
+        "lineEnd": 803,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "ArrayList<DatabaseFieldConfig> foreignFieldConfigs = new ArrayList<DatabaseFieldConfig>()",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 805,
+        "lineEnd": 805,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "DatabaseFieldConfig fieldConfig = new DatabaseFieldConfig()",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 806,
+        "lineEnd": 806,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "fieldConfig.setFieldName(\"id\")",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            80
+        ],
+        "isDel": false,
+        "lineBeg": 807,
+        "lineEnd": 807,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "fieldConfig.setGeneratedId(true)",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 808,
+        "lineEnd": 808,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "foreignFieldConfigs.add(fieldConfig)",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 809,
+        "lineEnd": 809,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "fieldConfig = new DatabaseFieldConfig()",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 810,
+        "lineEnd": 810,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "fieldConfig.setFieldName(\"stuff\")",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            85
+        ],
+        "isDel": false,
+        "lineBeg": 811,
+        "lineEnd": 811,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "foreignFieldConfigs.add(fieldConfig)",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 812,
+        "lineEnd": 812,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "DatabaseTableConfig<ForeignObjectNoAnnotations> foreignTableConfig =new DatabaseTableConfig<ForeignObjectNoAnnotations>(ForeignObjectNoAnnotations.class,foreignFieldConfigs)",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 814,
+        "lineEnd": 816,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "Dao<ForeignObjectNoAnnotations, Integer> foreignDao = createDao(foreignTableConfig, true)",
+        "dfgs": [
+            55,
+            61,
+            58
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 817,
+        "lineEnd": 817,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "ArrayList<DatabaseFieldConfig> parentFieldConfigs = new ArrayList<DatabaseFieldConfig>()",
+        "dfgs": [
+            48
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 819,
+        "lineEnd": 819,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "fieldConfig = new DatabaseFieldConfig()",
+        "dfgs": [
+            46
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 820,
+        "lineEnd": 820,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "fieldConfig.setFieldName(\"id\")",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            80
+        ],
+        "isDel": false,
+        "lineBeg": 821,
+        "lineEnd": 821,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "fieldConfig.setGeneratedId(true)",
+        "dfgs": [
+            48
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 822,
+        "lineEnd": 822,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "parentFieldConfigs.add(fieldConfig)",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 823,
+        "lineEnd": 823,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "fieldConfig = new DatabaseFieldConfig()",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 824,
+        "lineEnd": 824,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "fieldConfig.setFieldName(\"name\")",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            81
+        ],
+        "isDel": false,
+        "lineBeg": 825,
+        "lineEnd": 825,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "parentFieldConfigs.add(fieldConfig)",
+        "dfgs": [
+            57
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 826,
+        "lineEnd": 826,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "fieldConfig = new DatabaseFieldConfig()",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 827,
+        "lineEnd": 827,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "fieldConfig.setFieldName(\"foreign\")",
+        "dfgs": [
+            54
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 828,
+        "lineEnd": 828,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "fieldConfig.setForeign(true)",
+        "dfgs": [
+            55
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 829,
+        "lineEnd": 829,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "fieldConfig.setForeignTableConfig(foreignTableConfig)",
+        "dfgs": [
+            56
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 830,
+        "lineEnd": 830,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "fieldConfig.setMaxForeignAutoRefreshLevel(2)",
+        "dfgs": [
+            57
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 831,
+        "lineEnd": 831,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "parentFieldConfigs.add(fieldConfig)",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 832,
+        "lineEnd": 832,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "Dao<ObjectNoAnnotations, Integer> parentDao =createDao(new DatabaseTableConfig<ObjectNoAnnotations>(ObjectNoAnnotations.class, parentFieldConfigs),true)",
+        "dfgs": [
+            65,
+            67
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 834,
+        "lineEnd": 836,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "ForeignObjectNoAnnotations foreign = new ForeignObjectNoAnnotations()",
+        "dfgs": [
+            61
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 838,
+        "lineEnd": 838,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "foreign.stuff = \"hello\"",
+        "dfgs": [
+            61
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 839,
+        "lineEnd": 839,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "foreignDao.create(foreign)",
+        "dfgs": [
+            64,
+            68,
+            66
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 840,
+        "lineEnd": 840,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "ObjectNoAnnotations parent = new ObjectNoAnnotations()",
+        "dfgs": [
+            65
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 842,
+        "lineEnd": 842,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "parent.name = \"wow lookie\"",
+        "dfgs": [
+            65
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            81
+        ],
+        "isDel": false,
+        "lineBeg": 843,
+        "lineEnd": 843,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "parent.foreign = foreign",
+        "dfgs": [
+            65
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 844,
+        "lineEnd": 844,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "parentDao.create(parent)",
+        "dfgs": [
+            73,
+            74,
+            71
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 845,
+        "lineEnd": 845,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "ForeignObjectNoAnnotations foreignResult = foreignDao.queryForId(foreign.id)",
+        "dfgs": [
+            67,
+            68
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            80
+        ],
+        "isDel": false,
+        "lineBeg": 847,
+        "lineEnd": 847,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "assertNotNull(foreignResult)",
+        "dfgs": [
+            68
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 848,
+        "lineEnd": 848,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "assertNotSame(foreign, foreignResult)",
+        "dfgs": [
+            69,
+            70,
+            76
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 849,
+        "lineEnd": 849,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "assertEquals(foreign.id, foreignResult.id)",
+        "dfgs": [
+            70,
+            76
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            80
+        ],
+        "isDel": false,
+        "lineBeg": 850,
+        "lineEnd": 850,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "assertEquals(foreign.stuff, foreignResult.stuff)",
+        "dfgs": [
+            72,
+            76
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 851,
+        "lineEnd": 851,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "ObjectNoAnnotations parentResult = parentDao.queryForId(parent.id)",
+        "dfgs": [
+            72,
+            73
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            80
+        ],
+        "isDel": false,
+        "lineBeg": 853,
+        "lineEnd": 853,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "assertNotNull(parentResult)",
+        "dfgs": [
+            73,
+            74,
+            75,
+            76
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 854,
+        "lineEnd": 854,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "assertEquals(parent.id, parentResult.id)",
+        "dfgs": [
+            74
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            80
+        ],
+        "isDel": false,
+        "lineBeg": 855,
+        "lineEnd": 855,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "assertEquals(parent.name, parentResult.name)",
+        "dfgs": [
+            75
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            81
+        ],
+        "isDel": false,
+        "lineBeg": 856,
+        "lineEnd": 856,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "assertNotNull(parentResult.foreign)",
+        "dfgs": [
+            76
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 857,
+        "lineEnd": 857,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "assertNotSame(foreign, parentResult.foreign)",
+        "dfgs": [
+            77
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 858,
+        "lineEnd": 858,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "assertEquals(foreign.id, parentResult.foreign.id)",
+        "dfgs": [
+            78
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            80
+        ],
+        "isDel": false,
+        "lineBeg": 859,
+        "lineEnd": 859,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNull(parentResult.foreign.stuff)",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [
+            82
+        ],
+        "isDel": false,
+        "lineBeg": 860,
+        "lineEnd": 860,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected static class ObjectNoAnnotations ",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1194,
+        "lineEnd": 1194,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int id",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1195,
+        "lineEnd": 1195,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String name",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1196,
+        "lineEnd": 1196,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ForeignObjectNoAnnotations foreign",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1197,
+        "lineEnd": 1197,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected static class ForeignObjectNoAnnotations ",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1200,
+        "lineEnd": 1200,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int id",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1201,
+        "lineEnd": 1201,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "String stuff",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_FieldTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1202,
+        "lineEnd": 1202,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final ThreadLocal<LevelCounters> threadLevelCounters = new ThreadLocal<LevelCounters>()",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "val = createForeignObject(val, objectCache)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 531,
+        "lineEnd": 531,
+        "lineMapIndex": 17,
+        "methodParents": [
+            88
+        ],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "private Object createForeignObject(Object val, ObjectCache objectCache) throws SQLException ",
+        "dfgs": [
+            90,
+            93,
+            95,
+            101,
+            102,
+            103,
+            94,
+            98,
+            100,
+            106,
+            91,
+            96,
+            92,
+            97,
+            108
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 945,
+        "lineEnd": 945,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90
+        ],
+        "code": "LevelCounters levelCounters = threadLevelCounters.get()",
+        "dfgs": [
+            90,
+            94
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [
+            86
+        ],
+        "isDel": false,
+        "lineBeg": 948,
+        "lineEnd": 948,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91,
+            95
+        ],
+        "code": "if (levelCounters == null)",
+        "dfgs": [
+            104,
+            95,
+            99
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 949,
+        "lineEnd": 949,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92,
+            93
+        ],
+        "code": "if (!fieldConfig.isForeignAutoRefresh())",
+        "dfgs": [
+            100,
+            96,
+            92
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 951,
+        "lineEnd": 951,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return createForeignShell(val, objectCache)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 952,
+        "lineEnd": 952,
+        "lineMapIndex": -1,
+        "methodParents": [
+            115
+        ],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            94
+        ],
+        "code": "levelCounters = new LevelCounters()",
+        "dfgs": [
+            94
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 954,
+        "lineEnd": 954,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "threadLevelCounters.set(levelCounters)",
+        "dfgs": [
+            104,
+            95,
+            99
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [
+            86
+        ],
+        "isDel": false,
+        "lineBeg": 955,
+        "lineEnd": 955,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96,
+            99
+        ],
+        "code": "if (levelCounters.autoRefreshLevel == 0)",
+        "dfgs": [
+            99
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 959,
+        "lineEnd": 959,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97,
+            98
+        ],
+        "code": "if (!fieldConfig.isForeignAutoRefresh())",
+        "dfgs": [
+            98,
+            97
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 961,
+        "lineEnd": 961,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return createForeignShell(val, objectCache)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 962,
+        "lineEnd": 962,
+        "lineMapIndex": -1,
+        "methodParents": [
+            115
+        ],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            99
+        ],
+        "code": "levelCounters.autoRefreshLevelMax = fieldConfig.getMaxForeignAutoRefreshLevel()",
+        "dfgs": [
+            99,
+            100
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 964,
+        "lineEnd": 964,
+        "lineMapIndex": 5,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            100,
+            101
+        ],
+        "code": "if (levelCounters.autoRefreshLevel >= levelCounters.autoRefreshLevelMax)",
+        "dfgs": [
+            104
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 967,
+        "lineEnd": 967,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return createForeignShell(val, objectCache)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 968,
+        "lineEnd": 968,
+        "lineMapIndex": -1,
+        "methodParents": [
+            115
+        ],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            102,
+            104
+        ],
+        "code": "if (mappedQueryForId == null)",
+        "dfgs": [
+            108
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 975,
+        "lineEnd": 975,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            103
+        ],
+        "code": "@SuppressWarnings(\"unchecked\")MappedQueryForId<Object, Object> castMappedQueryForId =(MappedQueryForId<Object, Object>) MappedQueryForId.build(connectionSource.getDatabaseType(),((BaseDaoImpl<?, ?>) foreignDao).getTableInfo(), foreignIdField)",
+        "dfgs": [
+            103,
+            106
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 976,
+        "lineEnd": 979,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 102,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            104
+        ],
+        "code": "mappedQueryForId = castMappedQueryForId",
+        "dfgs": [
+            108
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 980,
+        "lineEnd": 980,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 103,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            105
+        ],
+        "code": "levelCounters.autoRefreshLevel++",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 982,
+        "lineEnd": 982,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 104,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            106
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 983,
+        "lineEnd": 983,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 105,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            107
+        ],
+        "code": "DatabaseConnection databaseConnection = connectionSource.getReadOnlyConnection()",
+        "dfgs": [
+            108
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 984,
+        "lineEnd": 984,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 106,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            108
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 985,
+        "lineEnd": 985,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 107,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return mappedQueryForId.execute(databaseConnection, val, objectCache)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 987,
+        "lineEnd": 987,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 108,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 988,
+        "lineEnd": 988,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 109,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            112
+        ],
+        "code": "connectionSource.releaseConnection(databaseConnection)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 989,
+        "lineEnd": 989,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 110,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 991,
+        "lineEnd": 991,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 111,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            113
+        ],
+        "code": "levelCounters.autoRefreshLevel--",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 992,
+        "lineEnd": 992,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 112,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            114
+        ],
+        "code": "if (levelCounters.autoRefreshLevel <= 0)",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 993,
+        "lineEnd": 993,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 113,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "threadLevelCounters.remove()",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [
+            86
+        ],
+        "isDel": false,
+        "lineBeg": 994,
+        "lineEnd": 994,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 114,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            116
+        ],
+        "code": "private Object createForeignShell(Object val, ObjectCache objectCache) throws SQLException ",
+        "dfgs": [
+            117,
+            118,
+            116
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1002,
+        "lineEnd": 1002,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 115,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            117
+        ],
+        "code": "Object foreignObject = foreignTableInfo.createObject()",
+        "dfgs": [
+            117
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1003,
+        "lineEnd": 1003,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 116,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            118
+        ],
+        "code": "foreignIdField.assignField(foreignObject, val, false, objectCache)",
+        "dfgs": [
+            118
+        ],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1004,
+        "lineEnd": 1004,
+        "lineMapIndex": 8,
+        "methodParents": [
+            87
+        ],
+        "nodeIndex": 117,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return foreignObject",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_FieldType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1005,
+        "lineEnd": 1005,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 118,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            120
+        ],
+        "code": "fieldConfig.setForeignAutoRefresh(true)",
+        "dfgs": [
+            120
+        ],
+        "fName": "src_test_java_com_j256_ormlite_field_DatabaseFieldConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 119,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fieldConfig.setForeignAutoRefresh(false)",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_DatabaseFieldConfigTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 120,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            122
+        ],
+        "code": "foo.stringField = \"hello there\"",
+        "dfgs": [
+            122,
+            123
+        ],
+        "fName": "src_test_java_com_j256_ormlite_dao_BaseDaoImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1346,
+        "lineEnd": 1346,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 121,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            123
+        ],
+        "code": "assertNotNull(foreign2.foo)",
+        "dfgs": [
+            123
+        ],
+        "fName": "src_test_java_com_j256_ormlite_dao_BaseDaoImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1355,
+        "lineEnd": 1355,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 122,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNull(foreign2.foo.stringField)",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_dao_BaseDaoImplTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1359,
+        "lineEnd": 1359,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 123,
+        "rootcause": false,
+        "commits": []
+    }
+]

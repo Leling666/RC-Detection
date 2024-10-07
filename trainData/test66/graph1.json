@@ -1,0 +1,132 @@
+[
+    {
+        "cfgs": [],
+        "code": "requestsToInvalidate.add(entity.getRequestId())",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 637,
+        "lineEnd": 637,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "365c74b53c653a96fda189846ad5e07ab268e0fc"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Long requestId = entity.getRequestId()",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 637,
+        "lineEnd": 637,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3,
+            6
+        ],
+        "code": "if (requestId == null)",
+        "dfgs": [
+            6
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 638,
+        "lineEnd": 638,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "StageEntity stageEntity = entity.getStage()",
+        "dfgs": [
+            4
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 639,
+        "lineEnd": 639,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5,
+            6
+        ],
+        "code": "if (stageEntity != null)",
+        "dfgs": [
+            5
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 640,
+        "lineEnd": 640,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "requestId = stageEntity.getRequestId()",
+        "dfgs": [
+            6
+        ],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 641,
+        "lineEnd": 641,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "requestsToInvalidate.add(requestId)",
+        "dfgs": [],
+        "fName": "ambari-server_src_main_java_org_apache_ambari_server_orm_dao_HostRoleCommandDAO.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 645,
+        "lineEnd": 645,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,204 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "JsName name = getName(ns.name, false)",
+        "dfgs": [
+            1,
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_NameAnalyzer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 635,
+        "lineEnd": 635,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (name != null)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_NameAnalyzer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 636,
+        "lineEnd": 636,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "refNodes.add(new ClassDefiningFunctionNode(name, n, parent, parent.getParent()))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_NameAnalyzer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 637,
+        "lineEnd": 638,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "JsName name = getName(ns.name, true)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_NameAnalyzer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 635,
+        "lineEnd": 635,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "refNodes.add(new ClassDefiningFunctionNode(name, n, parent, parent.getParent()))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_NameAnalyzer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 636,
+        "lineEnd": 637,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "public void testIssue284() ",
+        "dfgs": [
+            6
+        ],
+        "fName": "test_com_google_javascript_jscomp_NameAnalyzerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1643,
+        "lineEnd": 1643,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var goog = {};\" +\"goog.inherits = function(x, y) {};\" +\"var ns = {};\" +\"/** @constructor */\" +\"ns.PageSelectionModel = function() {};\" +\"/** @constructor */\" +\"ns.PageSelectionModel.FooEvent = function() {};\" +\"/** @constructor */\" +\"ns.PageSelectionModel.SelectEvent = function() {};\" +\"goog.inherits(ns.PageSelectionModel.ChangeEvent,\" +\"    ns.PageSelectionModel.FooEvent);\",\"\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_NameAnalyzerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1644,
+        "lineEnd": 1656,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public void testIssue284() ",
+        "dfgs": [
+            9,
+            10,
+            8
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1766,
+        "lineEnd": 1766,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "CompilerOptions options = createCompilerOptions()",
+        "dfgs": [
+            10
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1767,
+        "lineEnd": 1767,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "options.smartNameRemoval = true",
+        "dfgs": [
+            10
+        ],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1768,
+        "lineEnd": 1768,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(options,\"var goog = {};\" +\"goog.inherits = function(x, y) {};\" +\"var ns = {};\" +\"/** @constructor */\" +\"ns.PageSelectionModel = function() {};\" +\"/** @constructor */\" +\"ns.PageSelectionModel.FooEvent = function() {};\" +\"/** @constructor */\" +\"ns.PageSelectionModel.SelectEvent = function() {};\" +\"goog.inherits(ns.PageSelectionModel.ChangeEvent,\" +\"    ns.PageSelectionModel.FooEvent);\",\"\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_IntegrationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1769,
+        "lineEnd": 1781,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    }
+]

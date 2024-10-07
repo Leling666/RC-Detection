@@ -1,0 +1,1670 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertGeneratedChunks(\"<script></script>\", \"'<script><\\\\/script>';\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_GenJsExprsVisitorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.template.soy.error.FormattingErrorReporter",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testUnmatchedContextChangingCloseTagUnquotedAttributeValue() ",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "runPass(\"<script>xxx</script>\")",
+        "dfgs": [
+            4
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "runPass(\"</div>\")",
+        "dfgs": [
+            7
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 380,
+        "lineEnd": 380,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "for (String tag : new String[] {\"</script>\", \"</style>\", \"</title>\", \"</textarea>\", \"</xmp>\"})",
+        "dfgs": [
+            7
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 381,
+        "lineEnd": 381,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "FormattingErrorReporter errorReporter = new FormattingErrorReporter()",
+        "dfgs": [
+            7
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 382,
+        "lineEnd": 382,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "runPass(tag, errorReporter)",
+        "dfgs": [
+            8
+        ],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 383,
+        "lineEnd": 383,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(errorReporter.getErrorMessages()).named(\"error message for: %s\", tag).containsExactly(\"Unexpected close tag for context-changing tag.\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 384,
+        "lineEnd": 386,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testRcDataTags() ",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 392,
+        "lineEnd": 392,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThatSourceString(runPass(\"<script>xxx</script>\")).isEqualTo(\"<script>xxx</script>\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_passes_HtmlRewritePassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 393,
+        "lineEnd": 393,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final SoyErrorKind UNEXPECTED_CLOSE_TAG =SoyErrorKind.of(\"Unexpected close tag for context-changing tag.\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 212,
+        "lineEnd": 213,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 219,
+        "lineEnd": 219,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_SCRIPT(StateFeature.RCDATA)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_TEXTAREA(StateFeature.RCDATA)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 233,
+        "lineEnd": 233,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_TITLE(StateFeature.RCDATA)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_STYLE(StateFeature.RCDATA)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": 72,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_XMP(StateFeature.RCDATA)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 334,
+        "lineEnd": 334,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "boolean isRcDataState() ",
+        "dfgs": [
+            20
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return stateTypes.contains(StateFeature.RCDATA)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 365,
+        "lineEnd": 365,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 656,
+        "lineEnd": 656,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "handleRcData(TagName.RcDataTagName.XMP)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 657,
+        "lineEnd": 657,
+        "lineMapIndex": -1,
+        "methodParents": [
+            25
+        ],
+        "nodeIndex": 22,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 658,
+        "lineEnd": 658,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 752,
+        "lineEnd": 752,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "handlePcData()",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 771,
+        "lineEnd": 771,
+        "lineMapIndex": 73,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1481,
+        "lineEnd": 1481,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1537,
+        "lineEnd": 1537,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1673,
+        "lineEnd": 1673,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1741,
+        "lineEnd": 1741,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1814,
+        "lineEnd": 1814,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1855,
+        "lineEnd": 1855,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return didYouForgetToCloseThe(\"<xmp> block\")",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1856,
+        "lineEnd": 1856,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "State tagStartState",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2054,
+        "lineEnd": 2054,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "if (tagStartState != null)",
+        "dfgs": [
+            35
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": true,
+        "lineBeg": 2173,
+        "lineEnd": 2173,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "error = format(error, \"Expected tagStartState to be null, got: %s\", tagStartState)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": true,
+        "lineBeg": 2174,
+        "lineEnd": 2174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "tagStartState = null",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": true,
+        "lineBeg": 2205,
+        "lineEnd": 2205,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "checkState(this.tagStartState == null)",
+        "dfgs": [
+            38
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": true,
+        "lineBeg": 2228,
+        "lineEnd": 2228,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.tagStartState = state",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": true,
+        "lineBeg": 2244,
+        "lineEnd": 2244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "State nextState = getNextState(tagName)",
+        "dfgs": [
+            40,
+            41
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2389,
+        "lineEnd": 2389,
+        "lineMapIndex": 74,
+        "methodParents": [
+            45
+        ],
+        "nodeIndex": 39,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            41,
+            42
+        ],
+        "code": "if (isCloseTag && nextState.isRcDataState() && tagStartState != nextState)",
+        "dfgs": [
+            42,
+            41
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": true,
+        "lineBeg": 2391,
+        "lineEnd": 2391,
+        "lineMapIndex": -1,
+        "methodParents": [
+            19
+        ],
+        "nodeIndex": 40,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "errorReporter.report(tagStartLocation(), UNEXPECTED_CLOSE_TAG)",
+        "dfgs": [
+            42
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [
+            11
+        ],
+        "isDel": true,
+        "lineBeg": 2392,
+        "lineEnd": 2392,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            43,
+            44
+        ],
+        "code": "if (selfClosing || isCloseTag)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2394,
+        "lineEnd": 2394,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "nextState = State.PCDATA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2396,
+        "lineEnd": 2396,
+        "lineMapIndex": 89,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "tagStartState = null",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [
+            33
+        ],
+        "isDel": true,
+        "lineBeg": 2406,
+        "lineEnd": 2406,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "private static State getNextState(TagName tagName) ",
+        "dfgs": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2412,
+        "lineEnd": 2412,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            47,
+            48
+        ],
+        "code": "if (tagName.getRcDataTagName() == null)",
+        "dfgs": [
+            48
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2413,
+        "lineEnd": 2413,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return State.PCDATA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2414,
+        "lineEnd": 2414,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [
+            50,
+            52,
+            54,
+            56,
+            58,
+            59
+        ],
+        "code": "switch (tagName.getRcDataTagName()) ",
+        "dfgs": [
+            59
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2416,
+        "lineEnd": 2416,
+        "lineMapIndex": 78,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case SCRIPT",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2417,
+        "lineEnd": 2417,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return State.RCDATA_SCRIPT",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2418,
+        "lineEnd": 2418,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case STYLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2419,
+        "lineEnd": 2419,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return State.RCDATA_STYLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2420,
+        "lineEnd": 2420,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case TEXTAREA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2421,
+        "lineEnd": 2421,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return State.RCDATA_TEXTAREA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2422,
+        "lineEnd": 2422,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case TITLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2423,
+        "lineEnd": 2423,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return State.RCDATA_TITLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2424,
+        "lineEnd": 2424,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2425,
+        "lineEnd": 2425,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return State.RCDATA_XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2426,
+        "lineEnd": 2426,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "throw new AssertionError(tagName.getRcDataTagName())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2428,
+        "lineEnd": 2428,
+        "lineMapIndex": 91,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertInjected(join(\"{template .foo}\\n\",\"<script src=\\\"one.js\\\"\" + nonce() + \"></script>\",strictHtmlEnabled ? \"\" : \"<script src=two.js\" + nonce() + \"></script>\",strictHtmlEnabled ? \"\" : \"<script src=three.js \" + nonce() + \"></script>\",\"<h1>Not a script</h1>\",\"<script type='text/javascript'\" + nonce() + \">main()</script>\\n\",\"{/template}\"),join(\"{template .foo}\\n\",\"<script src=\\\"one.js\\\"></script>\",strictHtmlEnabled ? \"\" : \"<script src=two.js></script>\",strictHtmlEnabled ? \"\" : \"<script src=three.js ></script>\",\"<h1>Not a script</h1>\",\"<script type='text/javascript'>main()</script>\\n\",\"{/template}\"))",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_parsepasses_contextautoesc_ContentSecurityPolicyPassTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 103,
+        "lineEnd": 119,
+        "lineMapIndex": 92,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": [
+            "d52dbfd5382729eb4dce8b59d6df0551adeb260b",
+            "f372df8646c37505319711423ed3f8b074c6d3e7",
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc",
+            "8ece726724f668bc80015e8371fc6feeaef1a47c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "TEXTAREA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TagName.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 93,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TagName.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "case \"xmp\"",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TagName.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "rcDataTagName = RcDataTagName.XMP",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TagName.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TagName.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": true,
+        "commits": [
+            "6efe470dc3d9119886827e70bc2641f62b23c4dc"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertGeneratedChunks(\"</script>\", \"'<\\\\/script>';\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_GenJsExprsVisitorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "assertRewriteFails(\"In file no-path:4:1, template ns.foo: \"+ \"Saw unmatched close tag for context-changing tag: script\",join(\"{namespace ns}\\n\\n\", \"{template .foo}\\n\", \"</script>\\n\", \"{/template}\"))",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_parsepasses_contextautoesc_ContextualAutoescaperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1556,
+        "lineEnd": 1559,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertRewriteFails(\"In file no-path:4:1, template ns.foo: \"+ \"Saw unmatched close tag for context-changing tag: xmp\",join(\"{namespace ns}\\n\\n\", \"{template .foo}\\n\", \"</xmp>\\n\", \"{/template}\"))",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_parsepasses_contextautoesc_ContextualAutoescaperTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1560,
+        "lineEnd": 1563,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_SCRIPT",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_TEXTAREA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 229,
+        "lineEnd": 229,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_TITLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "RCDATA_STYLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "context.setState(State.PCDATA, currentPoint())",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 758,
+        "lineEnd": 758,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "State nextState = State.PCDATA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2361,
+        "lineEnd": 2361,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "if (!selfClosing && !isCloseTag)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2362,
+        "lineEnd": 2362,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "TagName.RcDataTagName rcDataTag = tagName.getRcDataTagName()",
+        "dfgs": [
+            77
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2363,
+        "lineEnd": 2363,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80,
+            83,
+            86,
+            89,
+            91
+        ],
+        "code": "if (rcDataTag != null)",
+        "dfgs": [
+            91
+        ],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2364,
+        "lineEnd": 2364,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "switch (rcDataTag) ",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2365,
+        "lineEnd": 2365,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case SCRIPT",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2366,
+        "lineEnd": 2366,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "nextState = State.RCDATA_SCRIPT",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2367,
+        "lineEnd": 2367,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2368,
+        "lineEnd": 2368,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case STYLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2369,
+        "lineEnd": 2369,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "nextState = State.RCDATA_STYLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2370,
+        "lineEnd": 2370,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2371,
+        "lineEnd": 2371,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case TEXTAREA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2372,
+        "lineEnd": 2372,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "nextState = State.RCDATA_TEXTAREA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2373,
+        "lineEnd": 2373,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2374,
+        "lineEnd": 2374,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case TITLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2375,
+        "lineEnd": 2375,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "nextState = State.RCDATA_TITLE",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2376,
+        "lineEnd": 2376,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2377,
+        "lineEnd": 2377,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "throw new AssertionError(rcDataTag)",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_passes_HtmlRewritePass.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2379,
+        "lineEnd": 2379,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertInjected(join(\"{template .foo}\\n\",\"<script src=\\\"one.js\\\"\" + nonce() + \"></script>\",strictHtmlEnabled ? \"\" : \"<script src=two.js\" + nonce() + \"></script>\",strictHtmlEnabled ? \"\" : \"<script src=three.js \" + nonce() + \"/></script>\",\"<h1>Not a script</h1>\",\"<script type='text/javascript'\" + nonce() + \">main()</script>\\n\",\"{/template}\"),join(\"{template .foo}\\n\",\"<script src=\\\"one.js\\\"></script>\",strictHtmlEnabled ? \"\" : \"<script src=two.js></script>\",strictHtmlEnabled ? \"\" : \"<script src=three.js /></script>\",\"<h1>Not a script</h1>\",\"<script type='text/javascript'>main()</script>\\n\",\"{/template}\"))",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_parsepasses_contextautoesc_ContentSecurityPolicyPassTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 119,
+        "lineMapIndex": 60,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "TEXTAREA",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_soytree_TagName.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 61,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    }
+]

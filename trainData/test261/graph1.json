@@ -1,0 +1,66 @@
+[
+    {
+        "cfgs": [],
+        "code": "last = index",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_common_processor_core_AbstractBeanConversionProcessor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "d263bc58ab83b6ee2d0a0ab74f8ef52810046a46"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if(!handleConversionError(ex, row, -1))",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_common_processor_core_AbstractBeanConversionProcessor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 532,
+        "lineEnd": 532,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "8ebc2bea79ab83942e55f204343e9b265ff3dab7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "last = index + 1",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_common_processor_core_AbstractBeanConversionProcessor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 305,
+        "lineEnd": 305,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (!handleConversionError(ex, row, -1))",
+        "dfgs": [],
+        "fName": "src_main_java_com_univocity_parsers_common_processor_core_AbstractBeanConversionProcessor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 532,
+        "lineEnd": 532,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    }
+]

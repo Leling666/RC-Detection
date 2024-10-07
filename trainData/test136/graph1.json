@@ -1,0 +1,148 @@
+[
+    {
+        "cfgs": [],
+        "code": "private final Comparator<Spans> spanDocComparator = new Comparator<Spans>() {@Overridepublic int compare(Spans o1, Spans o2) {return o1.doc() - o2.doc();}}",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 75,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "e2f54df3ca7639f143b195f75adbc5ee97187b92",
+            "675597141b7fb711d18fb69562fdfc1f3081414b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return o1.doc() - o2.doc()",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "675597141b7fb711d18fb69562fdfc1f3081414b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ArrayUtil.timSort(subSpansByDoc, spanDocComparator)",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "b895ebde4340ed8ae903c7ae51750da3d9837394"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.lucene.util.InPlaceMergeSorter",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final InPlaceMergeSorter sorter = new InPlaceMergeSorter() {@Overrideprotected void swap(int i, int j) {ArrayUtil.swap(subSpansByDoc, i, j);}@Overrideprotected int compare(int i, int j) {return subSpansByDoc[i].doc() - subSpansByDoc[j].doc();}}",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 87,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ArrayUtil.swap(subSpansByDoc, i, j)",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected int compare(int i, int j) ",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return subSpansByDoc[i].doc() - subSpansByDoc[j].doc()",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "sorter.sort(0, subSpansByDoc.length)",
+        "dfgs": [],
+        "fName": "lucene_core_src_java_org_apache_lucene_search_spans_NearSpansOrdered.java",
+        "fieldParents": [
+            4
+        ],
+        "isDel": false,
+        "lineBeg": 214,
+        "lineEnd": 214,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    }
+]

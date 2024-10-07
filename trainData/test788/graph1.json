@@ -1,0 +1,413 @@
+[
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (o == null)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "f02d20e4c4a11c0bc4dab1113fe5f35b9699cd33"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "continue",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "f02d20e4c4a11c0bc4dab1113fe5f35b9699cd33"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            4
+        ],
+        "code": "if (o instanceof Map|| o instanceof List|| o.getClass().isArray())",
+        "dfgs": [
+            3,
+            4
+        ],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 102,
+        "lineEnd": 104,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "9b94aaab85c2e70add99dc173efc6421f737e354"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "replaceMorphiumIdByObjectId(o)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": 11,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "fa8e111e9428c4c2df9933c0bcdb22490b35b0e7"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (o instanceof MorphiumId)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "346ce060299092d6b473ed286352c35aa436729a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "o = new ObjectId(o.toString())",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "5641938b7d115d406639c4b55bdeafd740b42a31"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void nullValueListTest() ",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ListTests.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "6e13278d3c81f23fed1647e67dad8f7e2f91510f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "insert(db, collection, isnew, wc)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 971,
+        "lineEnd": 971,
+        "lineMapIndex": -1,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "f82c78e98cc1300481aae4eb48314fae10bf1a1f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "DriverHelper.doCall(() -> {MongoCollection c = mongo.getDatabase(db).getCollection(collection);if (lst.size() == 1) {//noinspection uncheckedif (currentTransaction.get() == null) {c.insertOne(lst.get(0));} else {c.insertOne(currentTransaction.get().getSession(), lst.get(0));}} else {InsertManyOptions imo = new InsertManyOptions();imo.ordered(false);//noinspection uncheckedif (currentTransaction.get() == null) {c.insertMany(lst, imo);} else {c.insertMany(currentTransaction.get().getSession(), lst, imo);}}for (int i = 0; i < lst.size(); i++) {Object id = lst.get(i).get(\"_id\");if (id instanceof ObjectId) {id = new MorphiumId(((ObjectId) id).toHexString());}objs.get(i).put(\"_id\", id);}return null;}, retriesOnNetworkError, sleepBetweenErrorRetries)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1032,
+        "lineEnd": 1061,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "3faed048fcadf12bf3496c6c752574c441143e4e",
+            "8e3a4fcfa59a85f192ceee0b450ff140e00e13ce",
+            "f02d20e4c4a11c0bc4dab1113fe5f35b9699cd33",
+            "1bbcf42945780f34db1d995c43e05fd06a7017a7",
+            "1426e06db1f0eb2d4908805f9812b3491d1d5542",
+            "bfb4e81f1d779ef98f81fb62e50d837138e1b250",
+            "af06a92fdc8570d8fdeec1047395b4dab0b95ebe"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "if (o != null)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            12
+        ],
+        "code": "if (o instanceof Map|| o instanceof List|| o.getClass().isArray())",
+        "dfgs": [
+            11,
+            12
+        ],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 100,
+        "lineEnd": 102,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "replaceMorphiumIdByObjectId(o)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": 3,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "if (o instanceof MorphiumId)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "o = new ObjectId(o.toString())",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_DriverHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void nullValueListTest() throws Exception ",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ListTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 104,
+        "lineEnd": 104,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "morphium.dropCollection(ListContainer.class)",
+        "dfgs": [],
+        "fName": "test_de_caluga_test_mongo_suite_ListTests.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.mongodb.client.model.InsertOneOptions",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 10,
+        "lineEnd": 10,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "if (!isnew.isEmpty())",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 972,
+        "lineEnd": 972,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "insert(db, collection, isnew, wc)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 973,
+        "lineEnd": 973,
+        "lineMapIndex": -1,
+        "methodParents": [
+            19
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            21
+        ],
+        "code": "InsertOneOptions op = new InsertOneOptions().bypassDocumentValidation(true)",
+        "dfgs": [
+            20,
+            21
+        ],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1038,
+        "lineEnd": 1038,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "c.insertOne(lst.get(0), op)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1040,
+        "lineEnd": 1040,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "c.insertOne(currentTransaction.get().getSession(), lst.get(0), op)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1042,
+        "lineEnd": 1042,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "imo.bypassDocumentValidation(true)",
+        "dfgs": [],
+        "fName": "src_de_caluga_morphium_driver_mongodb_Driver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1047,
+        "lineEnd": 1047,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    }
+]

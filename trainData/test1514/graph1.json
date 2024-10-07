@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "clazz = getParentClassLoader().loadClass(getServletClass())",
+        "dfgs": [],
+        "fName": "java_org_apache_catalina_core_StandardWrapper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1139,
+        "lineEnd": 1139,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "5fd4e9be3628708a9a9396c93a7297acc769350b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "clazz = getParent().getLoader().getClassLoader().loadClass(getServletClass())",
+        "dfgs": [],
+        "fName": "java_org_apache_catalina_core_StandardWrapper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1139,
+        "lineEnd": 1140,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

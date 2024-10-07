@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "printAlias(x.getAlias())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_oracle_visitor_OracleOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 252,
+        "lineEnd": 252,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "d66fcf737ea2d757611731275a4fc0c248d1c592"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "printAlias(x.getAlias())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_druid_sql_dialect_oracle_visitor_OracleOutputVisitor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 249,
+        "lineEnd": 249,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

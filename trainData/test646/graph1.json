@@ -1,0 +1,581 @@
+[
+    {
+        "cfgs": [],
+        "code": "catch (CompileExpressionErrorException e)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_aviator_test_function_GrammarUnitTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 843,
+        "lineEnd": 843,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "f3bb039143ada441d0824fbeb2f4d75c15fba12c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (CompileExpressionErrorException e)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_aviator_test_function_GrammarUnitTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 850,
+        "lineEnd": 850,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "f3bb039143ada441d0824fbeb2f4d75c15fba12c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final static ConcurrentHashMap<String/* text expression */, FutureTask<Expression>/** Compiled* expression* task*/> cacheExpressions =new ConcurrentHashMap<String, FutureTask<Expression>>()",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 259,
+        "lineEnd": 264,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "8e9be94ecc5e23dcc2e074986d937b9ee00509fb",
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return aviatorClassLoader",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "AviatorEvaluator.aviatorClassLoader = aviatorClassLoader",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 376,
+        "lineEnd": 376,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "public static Expression compile(final String expression, boolean cached) ",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return innerCompile(expression)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 419,
+        "lineEnd": 419,
+        "lineMapIndex": 25,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return innerCompile(expression)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 432,
+        "lineEnd": 432,
+        "lineMapIndex": 26,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "private static Expression innerCompile(final String expression) ",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 449,
+        "lineEnd": 449,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "CodeGenerator codeGenerator = newCodeGenerator()",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 451,
+        "lineEnd": 451,
+        "lineMapIndex": 28,
+        "methodParents": [
+            10
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            12
+        ],
+        "code": "private static CodeGenerator newCodeGenerator() ",
+        "dfgs": [
+            11,
+            12
+        ],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 457,
+        "lineEnd": 457,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ASMCodeGenerator asmCodeGenerator = new ASMCodeGenerator(aviatorClassLoader, traceOutputStream, trace)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 460,
+        "lineEnd": 460,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "fe1546585dbfc16f8e093b7503d863e37a8ae004"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new OptimizeCodeGenerator(aviatorClassLoader, traceOutputStream, trace)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 464,
+        "lineEnd": 464,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "5af9409e4749105d0160e0069b36753827f78195"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return execute(expression, env, true)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 550,
+        "lineEnd": 550,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "6b99fb40cc7de98cd15338439337c43d86d76016"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.googlecode.aviator.exception.ExpressionSyntaxErrorException",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_aviator_test_function_GrammarUnitTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (ExpressionSyntaxErrorException e)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_aviator_test_function_GrammarUnitTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 844,
+        "lineEnd": 844,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (ExpressionSyntaxErrorException e)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_aviator_test_function_GrammarUnitTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 851,
+        "lineEnd": 851,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final static ConcurrentHashMap<String/* text expression */, FutureTask<Expression>/** Compiled* expression* task*/> cacheExpressions =new ConcurrentHashMap<String, FutureTask<Expression>>()",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 265,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return getAviatorClassLoader(false)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 308,
+        "lineEnd": 308,
+        "lineMapIndex": -1,
+        "methodParents": [
+            19
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            22
+        ],
+        "code": "public static AviatorClassLoader getAviatorClassLoader(boolean cached) ",
+        "dfgs": [
+            20,
+            21,
+            23
+        ],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "if (cached)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 318,
+        "lineEnd": 318,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return aviatorClassLoader",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new AviatorClassLoader(Thread.currentThread().getContextClassLoader())",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 321,
+        "lineEnd": 321,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "public static Expression compile(final String expression, final boolean cached) ",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 421,
+        "lineEnd": 421,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return innerCompile(expression, cached)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 434,
+        "lineEnd": 434,
+        "lineMapIndex": 6,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return innerCompile(expression, cached)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 447,
+        "lineEnd": 447,
+        "lineMapIndex": 7,
+        "methodParents": [
+            27
+        ],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "private static Expression innerCompile(final String expression, boolean cached) ",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 464,
+        "lineEnd": 464,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "CodeGenerator codeGenerator = newCodeGenerator(cached)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 466,
+        "lineEnd": 466,
+        "lineMapIndex": 9,
+        "methodParents": [
+            29
+        ],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30,
+            31
+        ],
+        "code": "private static CodeGenerator newCodeGenerator(boolean cached) ",
+        "dfgs": [
+            30,
+            31
+        ],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "ASMCodeGenerator asmCodeGenerator =new ASMCodeGenerator(getAviatorClassLoader(cached), traceOutputStream, trace)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 475,
+        "lineEnd": 476,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new OptimizeCodeGenerator(getAviatorClassLoader(cached), traceOutputStream, trace)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 480,
+        "lineEnd": 480,
+        "lineMapIndex": 12,
+        "methodParents": [
+            19
+        ],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return execute(expression, env, false)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_aviator_AviatorEvaluator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 566,
+        "lineEnd": 566,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    }
+]

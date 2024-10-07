@@ -1,0 +1,49 @@
+[
+    {
+        "cfgs": [],
+        "code": "field.set(testClass, Mockito.spy(instance))",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_SpyAnnotationEngine.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "32755003f012e4369c3bb812a1f6e83b4223bf1d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.mockito.Mockito.withSettings",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_SpyAnnotationEngine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "field.set(testClass, Mockito.mock(instance.getClass(), withSettings()\r.spiedInstance(instance).defaultAnswer(Mockito.CALLS_REAL_METHODS).name(field.getName())))",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_configuration_SpyAnnotationEngine.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 53,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    }
+]

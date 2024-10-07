@@ -1,0 +1,256 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "final int n1n2prod = n1 * n2",
+        "dfgs": [
+            1,
+            2
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_stat_inference_MannWhitneyUTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "ddc27b4a15ebceca5552bd139bc0a4997defcb6f"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "final double EU = (double) n1n2prod / 2.0",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_stat_inference_MannWhitneyUTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "ddc27b4a15ebceca5552bd139bc0a4997defcb6f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final double VarU = (double) (n1n2prod * (n1 + n2 + 1)) / 12.0",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_stat_inference_MannWhitneyUTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "ddc27b4a15ebceca5552bd139bc0a4997defcb6f"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "final double n1n2prod = n1 * n2",
+        "dfgs": [
+            4,
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_stat_inference_MannWhitneyUTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "final double EU = n1n2prod / 2.0",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_stat_inference_MannWhitneyUTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final double VarU = n1n2prod * (n1 + n2 + 1) / 12.0",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_stat_inference_MannWhitneyUTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testBigDataSet() throws Exception ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_stat_inference_MannWhitneyUTestTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 105,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "double[] d1 = new double[1500]",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_stat_inference_MannWhitneyUTestTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "double[] d2 = new double[1500]",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_stat_inference_MannWhitneyUTestTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 107,
+        "lineEnd": 107,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10,
+            12
+        ],
+        "code": "for (int i = 0; i < 1500; i++)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_stat_inference_MannWhitneyUTestTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "d1[i] = 2 * i",
+        "dfgs": [
+            12,
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_stat_inference_MannWhitneyUTestTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "d2[i] = 2 * i + 1",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_stat_inference_MannWhitneyUTestTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "double result = testStatistic.mannWhitneyUTest(d1, d2)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_stat_inference_MannWhitneyUTestTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(result > 0.1)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_stat_inference_MannWhitneyUTestTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "cfgs": [],
+        "code": "String format = \"yyyy-MM-dd HH:mm:ss.SSS\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_types_DateStringTypeTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "712515b4fb3960b8a887285c32dc1e932fa9c5c7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "protected static final DateStringFormatConfig defaultDateFormatConfig = new DateStringFormatConfig(\"yyyy-MM-dd HH:mm:ss.SSS\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_types_BaseDateType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 19,
+        "lineEnd": 20,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "3c3636b5fa45f0e9839b4d5b2fbb852ef60efe1b",
+            "c31329bbbb339ddebf96394a7b51bc7ec3d124f0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String format = \"yyyy-MM-dd HH:mm:ss.SSSSSS\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_j256_ormlite_field_types_DateStringTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "protected static final DateStringFormatConfig defaultDateFormatConfig = new DateStringFormatConfig(\"yyyy-MM-dd HH:mm:ss.SSSSSS\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_j256_ormlite_field_types_BaseDateType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 20,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    }
+]

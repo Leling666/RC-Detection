@@ -1,0 +1,933 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (operator instanceof UnaryOperator)",
+        "dfgs": [],
+        "fName": "src_main_java_com_udojava_evalex_Expression.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1432,
+        "lineEnd": 1432,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "fd25536f2ee8a7749bd17feb710048905abb6b63"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Expression e = new Expression(\"STREQ(\\\"test\\\", \\\"test2\\\")\")",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "e.addLazyFunction(e.new LazyFunction(\"STREQ\", 2) {private LazyNumber ZERO = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ZERO;}public String getString() {return \"0\";}};private LazyNumber ONE = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ONE;}public String getString() {return null;}};@Overridepublic LazyNumber lazyEval(List<LazyNumber> lazyParams) {if (lazyParams.get(0).getString().equals(lazyParams.get(1).getString())) {return ZERO;}return ONE;}})",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 121,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public String getString() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return \"0\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 100,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private LazyNumber ONE = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ONE;}public String getString() {return null;}}",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 104,
+        "lineEnd": 112,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public String getString() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 109,
+        "lineEnd": 109,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public LazyNumber lazyEval(List<LazyNumber> lazyParams) ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (lazyParams.get(0).getString().equals(lazyParams.get(1).getString()))",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": 30,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ZERO",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ONE",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": true,
+        "lineBeg": 119,
+        "lineEnd": 119,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"1\", e.eval().toPlainString())",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 123,
+        "lineEnd": 123,
+        "lineMapIndex": 33,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Expression e = new Expression(\"STREQ(\\\"test\\\", \\\"test2\\\")\")",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 128,
+        "lineEnd": 128,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "c038da211138aefb739b0127edd2949a8640acca"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "e.addLazyFunction(e.new LazyFunction(\"STREQ\", 2) {private LazyNumber ZERO = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ZERO;}public String getString() {return \"0\";}};private LazyNumber ONE = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ONE;}public String getString() {return null;}};@Overridepublic LazyNumber lazyEval(List<LazyNumber> lazyParams) {if (lazyParams.get(0).getString().equals(lazyParams.get(1).getString())) {return ZERO;}return ONE;}})",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 157,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private LazyNumber ONE = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ONE;}public String getString() {return null;}}",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 140,
+        "lineEnd": 148,
+        "lineMapIndex": 39,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return BigDecimal.ONE",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": true,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public String getString() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public LazyNumber lazyEval(List<LazyNumber> lazyParams) ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 151,
+        "lineEnd": 151,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (lazyParams.get(0).getString().equals(lazyParams.get(1).getString()))",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": 44,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ZERO",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            3
+        ],
+        "isDel": true,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ONE",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            5
+        ],
+        "isDel": true,
+        "lineBeg": 155,
+        "lineEnd": 155,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"1\", e.eval().toPlainString())",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": 47,
+        "methodParents": [
+            16
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "b712e336e13c0bc27119d445050721515f71f6d4"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (operator instanceof AbstractUnaryOperator)",
+        "dfgs": [],
+        "fName": "src_main_java_com_udojava_evalex_Expression.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1432,
+        "lineEnd": 1432,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.udojava.evalex.Expression.UnaryOperator",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "Expression e = new Expression(\"STREQ(\\\"test\\\", \\\"test2\\\")\")",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "e.addLazyFunction(e.new LazyFunction(\"STREQ\", 2) {private LazyNumber ZERO = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ZERO;}public String getString() {return \"0\";}};private LazyNumber ONE = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ONE;}public String getString() {return null;}};@Overridepublic LazyNumber lazyEval(List<LazyNumber> lazyParams) {if (lazyParams.get(0).getString().equals(lazyParams.get(1).getString())) {return ZERO;}return ONE;}})",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 122,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private LazyNumber ONE = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ONE;}public String getString() {return null;}}",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 105,
+        "lineEnd": 113,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public LazyNumber lazyEval(List<LazyNumber> lazyParams) ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 116,
+        "lineEnd": 116,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (lazyParams.get(0).getString().equals(lazyParams.get(1).getString()))",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 117,
+        "lineEnd": 117,
+        "lineMapIndex": 9,
+        "methodParents": [
+            37
+        ],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return ZERO",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            36
+        ],
+        "isDel": false,
+        "lineBeg": 118,
+        "lineEnd": 118,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return ONE",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"1\", e.eval().toPlainString())",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 124,
+        "lineEnd": 124,
+        "lineMapIndex": 12,
+        "methodParents": [
+            36
+        ],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "Expression e = new Expression(\"STREQ(\\\"test\\\", \\\"test2\\\")\")",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "e.addLazyFunction(e.new LazyFunction(\"STREQ\", 2) {private LazyNumber ZERO = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ZERO;}public String getString() {return \"0\";}};private LazyNumber ONE = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ONE;}public String getString() {return null;}};@Overridepublic LazyNumber lazyEval(List<LazyNumber> lazyParams) {if (lazyParams.get(0).getString().equals(lazyParams.get(1).getString())) {return ZERO;}return ONE;}})",
+        "dfgs": [
+            47
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 158,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return BigDecimal.ZERO",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public String getString() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return \"0\"",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 137,
+        "lineEnd": 137,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private LazyNumber ONE = new LazyNumber() {public BigDecimal eval() {return BigDecimal.ONE;}public String getString() {return null;}}",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 141,
+        "lineEnd": 149,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return BigDecimal.ONE",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 143,
+        "lineEnd": 143,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public String getString() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 146,
+        "lineEnd": 146,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 147,
+        "lineEnd": 147,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public LazyNumber lazyEval(List<LazyNumber> lazyParams) ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 152,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (lazyParams.get(0).getString().equals(lazyParams.get(1).getString()))",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 153,
+        "lineEnd": 153,
+        "lineMapIndex": 20,
+        "methodParents": [
+            37
+        ],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return ZERO",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            36
+        ],
+        "isDel": false,
+        "lineBeg": 154,
+        "lineEnd": 154,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return ONE",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [
+            28
+        ],
+        "isDel": false,
+        "lineBeg": 156,
+        "lineEnd": 156,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"1\", e.eval().toPlainString())",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": 23,
+        "methodParents": [
+            36
+        ],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testUnary() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "Expression exp = new Expression(\"~23\")",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "exp.addOperator(new AbstractUnaryOperator(\"~\", 60, false) {@Overridepublic BigDecimal evalUnary(BigDecimal bigDecimal) {return bigDecimal;}})",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 172,
+        "lineMapIndex": -1,
+        "methodParents": [
+            24
+        ],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return bigDecimal",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"23\", exp.eval().toPlainString())",
+        "dfgs": [],
+        "fName": "src_test_java_com_udojava_evalex_TestCustoms.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": -1,
+        "methodParents": [
+            36
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    }
+]

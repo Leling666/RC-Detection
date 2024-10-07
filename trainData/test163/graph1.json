@@ -1,0 +1,109 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "defaultClient.getConnectionManager().shutdown()",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_handler_component_HttpShardHandlerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "f5b5d3e17f6ca8b649ef1364726726a0b92d9921"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "loadbalancer.shutdown()",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_handler_component_HttpShardHandlerFactory.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 170,
+        "lineEnd": 170,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "f5b5d3e17f6ca8b649ef1364726726a0b92d9921"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            4
+        ],
+        "code": "if(defaultClient != null)",
+        "dfgs": [
+            3
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_handler_component_HttpShardHandlerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 165,
+        "lineEnd": 165,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "defaultClient.getConnectionManager().shutdown()",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_handler_component_HttpShardHandlerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if(loadbalancer != null)",
+        "dfgs": [
+            5
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_handler_component_HttpShardHandlerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 172,
+        "lineEnd": 172,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "loadbalancer.shutdown()",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_handler_component_HttpShardHandlerFactory.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    }
+]

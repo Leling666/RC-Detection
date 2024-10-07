@@ -1,0 +1,1922 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if((start + 1 == buffer.sizeInWords()) && (buffer.getWord(start) == 0))",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_javaewah32_EWAHCompressedBitmap32.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "f627f406ba17e8b1c5a2147910eca7e950eea935"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "insertEmptyWord(false)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_javaewah32_EWAHCompressedBitmap32.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "f627f406ba17e8b1c5a2147910eca7e950eea935"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_javaewah32_EWAHCompressedBitmap32.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "f627f406ba17e8b1c5a2147910eca7e950eea935"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if((start + 1 == buffer.sizeInWords()) && (buffer.getWord(start) == 0))",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_javaewah_EWAHCompressedBitmap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "f627f406ba17e8b1c5a2147910eca7e950eea935"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "insertEmptyWord(false)",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_javaewah_EWAHCompressedBitmap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "f627f406ba17e8b1c5a2147910eca7e950eea935"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_googlecode_javaewah_EWAHCompressedBitmap.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "f627f406ba17e8b1c5a2147910eca7e950eea935"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "\rpublic void issue72a()",
+        "dfgs": [
+            7,
+            8,
+            9,
+            11,
+            13,
+            14,
+            10,
+            12
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "EWAHCompressedBitmap32 main = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "EWAHCompressedBitmap32 other = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "main.clear(70583)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "other = other.xor(main)",
+        "dfgs": [
+            11,
+            12
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "other.set(43013)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "other = other.xor(main)",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "Assert.assertEquals((long)other.intIterator().next(),43013)",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals((long)other.reverseIntIterator().next(),43013)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "\rpublic void issue72b()",
+        "dfgs": [
+            16,
+            17,
+            18,
+            21,
+            23,
+            24,
+            19,
+            20,
+            22
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "EWAHCompressedBitmap32 main = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "EWAHCompressedBitmap32 other = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "main.set(33209)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "other = other.and(main)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "other = other.xor(main)",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "System.out.println(other)",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "Iterator<Integer> i = other.iterator()",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "Assert.assertEquals(i.hasNext(),true)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals((long)i.next(),(long)33209)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 48,
+        "lineEnd": 48,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "\rpublic void issue72c()",
+        "dfgs": [
+            26,
+            27,
+            29,
+            32,
+            35,
+            37,
+            28,
+            30,
+            31,
+            33,
+            34,
+            36
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 51,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "EWAHCompressedBitmap32 main = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "EWAHCompressedBitmap32 other = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "main = main.and(other)",
+        "dfgs": [
+            29,
+            30
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "other.clear(96836)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "main = main.andNot(other)",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "main = main.and(other)",
+        "dfgs": [
+            32,
+            33
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "main.set(96118)",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "other = other.and(main)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "other = other.or(main)",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "System.out.println(other)",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "IntIterator intIterator = other.reverseIntIterator()",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals((long)intIterator.next(),96118)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 63,
+        "lineEnd": 63,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "\rpublic void issue73()",
+        "dfgs": [
+            39,
+            40,
+            41,
+            44,
+            42,
+            43
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "EWAHCompressedBitmap32 main = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "EWAHCompressedBitmap32 other = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 69,
+        "lineEnd": 69,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "main.clear(10684)",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "other = other.andNot(main)",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "other = other.or(main)",
+        "dfgs": [
+            44
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 72,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "new EWAHCompressedBitmap32().or(other)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "\rpublic void issue74()",
+        "dfgs": [
+            46,
+            47,
+            49,
+            50,
+            53,
+            48,
+            51,
+            52
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "EWAHCompressedBitmap32 main = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            48
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "EWAHCompressedBitmap32 other = new EWAHCompressedBitmap32()",
+        "dfgs": [
+            48
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "main = main.or(other)",
+        "dfgs": [
+            49,
+            50
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "other.set(7036)",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "main.set(44002)",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 82,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "other = other.and(main)",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "other = other.or(main)",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals((long)other.iterator().next(),(long)44002)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah32_EWAHCompressedBitmap32Test.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void issue72a() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "EWAHCompressedBitmap main = new EWAHCompressedBitmap()",
+        "dfgs": [
+            57
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "EWAHCompressedBitmap other = new EWAHCompressedBitmap()",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "main.clear(70583)",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "other = other.xor(main)",
+        "dfgs": [
+            59,
+            60
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "other.set(43013)",
+        "dfgs": [
+            60
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "other = other.xor(main)",
+        "dfgs": [
+            61
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "Assert.assertEquals((long)other.intIterator().next(),43013)",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals((long)other.reverseIntIterator().next(),43013)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void issue72b() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "EWAHCompressedBitmap main = new EWAHCompressedBitmap()",
+        "dfgs": [
+            66
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "EWAHCompressedBitmap other = new EWAHCompressedBitmap()",
+        "dfgs": [
+            67
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "main.set(33209)",
+        "dfgs": [
+            67
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "other = other.and(main)",
+        "dfgs": [
+            68
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 41,
+        "lineEnd": 41,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "other = other.xor(main)",
+        "dfgs": [
+            69
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "System.out.println(other)",
+        "dfgs": [
+            70
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "Iterator<Integer> i = other.iterator()",
+        "dfgs": [
+            71
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "Assert.assertEquals(i.hasNext(),true)",
+        "dfgs": [
+            72
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals((long)i.next(),(long)33209)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void issue72c() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "EWAHCompressedBitmap main = new EWAHCompressedBitmap()",
+        "dfgs": [
+            76
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "EWAHCompressedBitmap other = new EWAHCompressedBitmap()",
+        "dfgs": [
+            76
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 51,
+        "lineEnd": 51,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "main = main.and(other)",
+        "dfgs": [
+            77,
+            78
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "other.clear(96836)",
+        "dfgs": [
+            78
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "main = main.andNot(other)",
+        "dfgs": [
+            79
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "main = main.and(other)",
+        "dfgs": [
+            80,
+            81
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 55,
+        "lineEnd": 55,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "main.set(96118)",
+        "dfgs": [
+            81
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 56,
+        "lineEnd": 56,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "other = other.and(main)",
+        "dfgs": [
+            82
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 57,
+        "lineEnd": 57,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "other = other.or(main)",
+        "dfgs": [
+            83
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84
+        ],
+        "code": "System.out.println(other)",
+        "dfgs": [
+            84
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            85
+        ],
+        "code": "IntIterator intIterator = other.reverseIntIterator()",
+        "dfgs": [
+            85
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals((long)intIterator.next(),96118)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void issue73() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 75,
+        "lineEnd": 75,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            88
+        ],
+        "code": "EWAHCompressedBitmap main = new EWAHCompressedBitmap()",
+        "dfgs": [
+            89
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 76,
+        "lineEnd": 76,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 87,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            89
+        ],
+        "code": "EWAHCompressedBitmap other = new EWAHCompressedBitmap()",
+        "dfgs": [
+            90
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 77,
+        "lineEnd": 77,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 88,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            90
+        ],
+        "code": "main.clear(10684)",
+        "dfgs": [
+            90
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 89,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            91
+        ],
+        "code": "other = other.andNot(main)",
+        "dfgs": [
+            91
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 90,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            92
+        ],
+        "code": "other = other.or(main)",
+        "dfgs": [
+            92
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 91,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "new EWAHCompressedBitmap().or(other)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 81,
+        "lineEnd": 81,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 92,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void issue74() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 84,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 93,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            95
+        ],
+        "code": "EWAHCompressedBitmap main = new EWAHCompressedBitmap()",
+        "dfgs": [
+            96
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 94,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            96
+        ],
+        "code": "EWAHCompressedBitmap other = new EWAHCompressedBitmap()",
+        "dfgs": [
+            96
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 95,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            97
+        ],
+        "code": "main = main.or(other)",
+        "dfgs": [
+            97,
+            98
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 87,
+        "lineEnd": 87,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 96,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            98
+        ],
+        "code": "other.set(7036)",
+        "dfgs": [
+            99
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 88,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 97,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            99
+        ],
+        "code": "main.set(44002)",
+        "dfgs": [
+            99
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 98,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            100
+        ],
+        "code": "other = other.and(main)",
+        "dfgs": [
+            100
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 99,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            101
+        ],
+        "code": "other = other.or(main)",
+        "dfgs": [
+            101
+        ],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 100,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals((long)other.iterator().next(),(long)44002)",
+        "dfgs": [],
+        "fName": "src_test_java_com_googlecode_javaewah_EWAHCompressedBitmapTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 101,
+        "rootcause": false,
+        "commits": []
+    }
+]

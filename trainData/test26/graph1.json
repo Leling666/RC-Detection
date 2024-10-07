@@ -1,0 +1,1 @@
+[{"cfgs": [], "code": "requestedShutdown = true", "dfgs": [], "fName": "server_master_src_main_java_org_apache_accumulo_master_tserverOps_ShutdownTServer.java", "fieldParents": [], "isDel": false, "lineBeg": 61, "lineEnd": 61, "lineMapIndex": -1, "methodParents": [], "nodeIndex": 0, "rootcause": false, "commits": []}]

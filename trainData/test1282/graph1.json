@@ -1,0 +1,348 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "targetY = -REDUCTION_FACTOR * yB",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "c68662e25749d91723b457a20be4fced65640b40"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "targetY = -REDUCTION_FACTOR * yA",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "c68662e25749d91723b457a20be4fced65640b40"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return new int[] {1, 3, 8, 1, 9, 4, 8, 1, 12, 1, 14}",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "c68662e25749d91723b457a20be4fced65640b40"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "final int p = agingA - MAXIMAL_AGING",
+        "dfgs": [
+            7,
+            4
+        ],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 235,
+        "lineEnd": 235,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "final double weightA = (1 << p) - 1",
+        "dfgs": [
+            5,
+            6
+        ],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 236,
+        "lineEnd": 236,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "final double weightB = p + 1",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "targetY = (weightA * yA - weightB * REDUCTION_FACTOR * yB) / (weightA + weightB)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "final int p = agingB - MAXIMAL_AGING",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "final double weightA = p + 1",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "final double weightB = (1 << p) - 1",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "targetY = (weightB * yB - weightA * REDUCTION_FACTOR * yA) / (weightA + weightB)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolver.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new int[] {1, 3, 8, 1, 9, 4, 8, 1, 12, 1, 16}",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testIssue716() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "BracketingNthOrderBrentSolver solver =new BracketingNthOrderBrentSolver(1.0e-12, 1.0e-10, 1.0e-22, 5)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 86,
+        "lineEnd": 87,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "UnivariateFunction sharpTurn = new UnivariateFunction() {public double value(double x) {return (2 * x + 1) / (1.0e9 * (x + 1));}}",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 88,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "double result = solver.solve(100, sharpTurn, -0.9999999, 30, 15, AllowedSolution.RIGHT_SIDE)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "Assert.assertEquals(0, sharpTurn.value(result), solver.getFunctionValueAccuracy())",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Assert.assertTrue(sharpTurn.value(result) >= 0)",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 95,
+        "lineEnd": 95,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(-0.5, result, 1.0e-10)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_analysis_solvers_BracketingNthOrderBrentSolverTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 96,
+        "lineEnd": 96,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,1 @@
+[{"cfgs": [], "code": "count = offset", "dfgs": [], "fName": "src_main_java_com_alibaba_fastjson_serializer_SerializeWriter.java", "fieldParents": [], "isDel": false, "lineBeg": 1128, "lineEnd": 1128, "lineMapIndex": -1, "methodParents": [], "nodeIndex": 0, "rootcause": false, "commits": []}]

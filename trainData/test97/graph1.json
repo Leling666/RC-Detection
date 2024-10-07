@@ -1,0 +1,380 @@
+[
+    {
+        "cfgs": [],
+        "code": "private static final Map<ClassLoader, Map<String, Class<?>>>CACHE_CLASSES = new WeakHashMap<ClassLoader, Map<String, Class<?>>>()",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 222,
+        "lineEnd": 223,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "f95ec3f5bf12bee07c90943cff3b135e6a7e7a8b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Map<String, Class<?>> map",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1534,
+        "lineEnd": 1534,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "f95ec3f5bf12bee07c90943cff3b135e6a7e7a8b"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "map = Collections.synchronizedMap(new WeakHashMap<String, Class<?>>())",
+        "dfgs": [
+            3,
+            5,
+            4
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1539,
+        "lineEnd": 1540,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "f95ec3f5bf12bee07c90943cff3b135e6a7e7a8b"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            4
+        ],
+        "code": "Class<?> clazz = map.get(name)",
+        "dfgs": [
+            5,
+            4
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1545,
+        "lineEnd": 1545,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "76817c28a264968c294391827e6ae06ceb41014e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "map.put(name, NEGATIVE_CACHE_SENTINEL)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1551,
+        "lineEnd": 1551,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "76817c28a264968c294391827e6ae06ceb41014e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "map.put(name, clazz)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1555,
+        "lineEnd": 1555,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "063be5749df0e4ccb8f6fa4794b3d29a8f3a0afa"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.lang.ref.WeakReference",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final Map<ClassLoader, Map<String, WeakReference<Class<?>>>>CACHE_CLASSES = new WeakHashMap<ClassLoader, Map<String, WeakReference<Class<?>>>>()",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 223,
+        "lineEnd": 224,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Map<String, WeakReference<Class<?>>> map",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1535,
+        "lineEnd": 1535,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "map = Collections.synchronizedMap(new WeakHashMap<String, WeakReference<Class<?>>>())",
+        "dfgs": [
+            11,
+            15,
+            14
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1540,
+        "lineEnd": 1541,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "Class<?> clazz = null",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1546,
+        "lineEnd": 1546,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "WeakReference<Class<?>> ref = map.get(name)",
+        "dfgs": [
+            12,
+            15,
+            14
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1547,
+        "lineEnd": 1547,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13,
+            15,
+            14
+        ],
+        "code": "if (ref != null)",
+        "dfgs": [
+            13
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1548,
+        "lineEnd": 1548,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            14
+        ],
+        "code": "clazz = ref.get()",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1549,
+        "lineEnd": 1549,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "map.put(name, new WeakReference<Class<?>>(NEGATIVE_CACHE_SENTINEL))",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1557,
+        "lineEnd": 1557,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "map.put(name, new WeakReference<Class<?>>(clazz))",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_main_java_org_apache_hadoop_conf_Configuration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1561,
+        "lineEnd": 1561,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertNotNull",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_conf_TestConfiguration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "public void testGetClassByNameOrNull() throws Exception ",
+        "dfgs": [
+            18,
+            20,
+            19
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_conf_TestConfiguration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1161,
+        "lineEnd": 1161,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "Configuration config = new Configuration()",
+        "dfgs": [
+            19
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_conf_TestConfiguration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1162,
+        "lineEnd": 1162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "Class<?> clazz = config.getClassByNameOrNull(\"java.lang.Object\")",
+        "dfgs": [
+            20
+        ],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_conf_TestConfiguration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1163,
+        "lineEnd": 1163,
+        "lineMapIndex": -1,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertNotNull(clazz)",
+        "dfgs": [],
+        "fName": "hadoop-common-project_hadoop-common_src_test_java_org_apache_hadoop_conf_TestConfiguration.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1164,
+        "lineEnd": 1164,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    }
+]

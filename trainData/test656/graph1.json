@@ -1,0 +1,652 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertEquals(calls.get(0).getID(), calls.get(1).getAttribute(\"PARID\"))",
+        "dfgs": [],
+        "fName": "src_test_java_au_edu_wehi_idsv_MaximalEvidenceCliqueIteratorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(calls.get(1).getID(), calls.get(0).getAttribute(\"PARID\"))",
+        "dfgs": [],
+        "fName": "src_test_java_au_edu_wehi_idsv_MaximalEvidenceCliqueIteratorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "String parid = evidence.getAttributeAsString(VcfSvConstants.PARTNER_BREAKEND_ID_KEY, null)",
+        "dfgs": [
+            3,
+            5
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_validation_BreakpointFilterTracker.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "if (!StringUtils.isEmpty(parid))",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_validation_BreakpointFilterTracker.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "if (partner.containsKey(parid))",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_validation_BreakpointFilterTracker.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return isValidBreakpoint(evidence, partner.remove(parid))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_validation_BreakpointFilterTracker.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 23,
+        "methodParents": [
+            8
+        ],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "builder.breakpoint(bp, \"\").id(event + (bp.isLowBreakend() ? \"o\" : \"h\")).attribute(VcfSvConstants.BREAKEND_EVENT_ID_KEY, event).attribute(VcfSvConstants.PARTNER_BREAKEND_ID_KEY, event + (bp.isLowBreakend() ? \"h\" : \"o\")).attribute(VcfSvConstants.MATE_BREAKEND_ID_KEY, event + (bp.isLowBreakend() ? \"h\" : \"o\"))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_sim_SimulatedChromosome.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 119,
+        "lineEnd": 123,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "e7242e1d48154ccdc245295b4393cd82004fa47f",
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "VariantContextDirectedBreakpoint mate = id.get(bp.getAttribute(VcfSvConstants.PARTNER_BREAKEND_ID_KEY))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_BreakendToSimpleCallImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "VariantContextDirectedBreakpoint mate = id.get(bp.getAttribute(VcfSvConstants.PARTNER_BREAKEND_ID_KEY))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_BreakendToSimpleCallImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "adjustToContigBounds(record, reference.getSequenceDictionary())",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_SplitReadHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "542904c8471211cc90044af6cbf1ca345b66c533"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "for (SAMRecord r : alignments)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_SplitReadHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "542904c8471211cc90044af6cbf1ca345b66c533"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "adjustToContigBounds(r, reference.getSequenceDictionary())",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_SplitReadHelper.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "542904c8471211cc90044af6cbf1ca345b66c533"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private final String parid",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_SequentialEvidenceAllocator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "be322d3526f68d52f0563678cc59f3b5b623112b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.parid = call.hasID() ? (String)call.getAttribute(VcfSvConstants.PARTNER_BREAKEND_ID_KEY, null) : null",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_SequentialEvidenceAllocator.java",
+        "fieldParents": [
+            12
+        ],
+        "isDel": true,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "d7629fbff5e21e0b361376b96d763fe43562c335"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "VariantEvidenceSupport mate = bufferedVariantId.get(best.parid)",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_SequentialEvidenceAllocator.java",
+        "fieldParents": [
+            12
+        ],
+        "isDel": true,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "b61e763d3d5eb6c22694b989e25662130e7f1666"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "builder.attribute(VcfSvConstants.PARTNER_BREAKEND_ID_KEY, event + (isHighBreakend ? BREAKPOINT_ID_SUFFIX_LOW : BREAKPOINT_ID_SUFFIX_HIGH))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_MaximalEvidenceCliqueIterator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "f1babf35a828e19f086f5bf058ebe8d56787afb1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "header.addMetaDataLine(VcfStructuralVariantHeaderLines.PARTNER_BREAKEND_ID)",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_vcf_GridssVcfConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 31,
+        "lineEnd": 31,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "048b72b166cdec7e54183a5c1f926dd4d1bda920"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return getAttributeAsString(VcfSvConstants.PARTNER_BREAKEND_ID_KEY, null)",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_VariantContextDirectedBreakpoint.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": 36,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "2c8243d41bf2b5e68f654ce8bf10b96bc616b550"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(calls.get(0).getID(), calls.get(1).getAttribute(\"MATEID\"))",
+        "dfgs": [],
+        "fName": "src_test_java_au_edu_wehi_idsv_MaximalEvidenceCliqueIteratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(calls.get(1).getID(), calls.get(0).getAttribute(\"MATEID\"))",
+        "dfgs": [],
+        "fName": "src_test_java_au_edu_wehi_idsv_MaximalEvidenceCliqueIteratorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "String mateid = evidence.getAttributeAsString(VcfSvConstants.MATE_BREAKEND_ID_KEY, null)",
+        "dfgs": [
+            21,
+            23
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_validation_BreakpointFilterTracker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 58,
+        "lineEnd": 58,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "if (!StringUtils.isEmpty(mateid))",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_validation_BreakpointFilterTracker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "if (partner.containsKey(mateid))",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_validation_BreakpointFilterTracker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 60,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return isValidBreakpoint(evidence, partner.remove(mateid))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_validation_BreakpointFilterTracker.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 5,
+        "methodParents": [
+            26
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "builder.breakpoint(bp, \"\").id(event + (bp.isLowBreakend() ? \"o\" : \"h\")).attribute(VcfSvConstants.BREAKEND_EVENT_ID_KEY, event).attribute(VcfSvConstants.MATE_BREAKEND_ID_KEY, event + (bp.isLowBreakend() ? \"h\" : \"o\")).attribute(VcfSvConstants.MATE_BREAKEND_ID_KEY, event + (bp.isLowBreakend() ? \"h\" : \"o\"))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_sim_SimulatedChromosome.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 119,
+        "lineEnd": 123,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "VariantContextDirectedBreakpoint mate = id.get(bp.getAttribute(VcfSvConstants.MATE_BREAKEND_ID_KEY))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_BreakendToSimpleCallImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 125,
+        "lineEnd": 125,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "VariantContextDirectedBreakpoint mate = id.get(bp.getAttribute(VcfSvConstants.MATE_BREAKEND_ID_KEY))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_BreakendToSimpleCallImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 213,
+        "lineEnd": 213,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "if (reference != null)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_SplitReadHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "adjustToContigBounds(record, reference.getSequenceDictionary())",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_SplitReadHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 132,
+        "lineEnd": 132,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "for (SAMRecord r : alignments)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_main_java_au_edu_wehi_idsv_SplitReadHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 133,
+        "lineEnd": 133,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "adjustToContigBounds(r, reference.getSequenceDictionary())",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_SplitReadHelper.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 134,
+        "lineEnd": 134,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final String mateid",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_SequentialEvidenceAllocator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.mateid = call.hasID() ? (String)call.getAttribute(VcfSvConstants.MATE_BREAKEND_ID_KEY, null) : null",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_SequentialEvidenceAllocator.java",
+        "fieldParents": [
+            31
+        ],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 54,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "VariantEvidenceSupport mate = bufferedVariantId.get(best.mateid)",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_SequentialEvidenceAllocator.java",
+        "fieldParents": [
+            31
+        ],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "builder.attribute(VcfSvConstants.MATE_BREAKEND_ID_KEY, event + (isHighBreakend ? BREAKPOINT_ID_SUFFIX_LOW : BREAKPOINT_ID_SUFFIX_HIGH))",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_MaximalEvidenceCliqueIterator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "header.addMetaDataLine(VcfStructuralVariantHeaderLines.MATE_BREAKEND_ID)",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_vcf_GridssVcfConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return getAttributeAsString(VcfSvConstants.MATE_BREAKEND_ID_KEY, null)",
+        "dfgs": [],
+        "fName": "src_main_java_au_edu_wehi_idsv_VariantContextDirectedBreakpoint.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 168,
+        "lineEnd": 168,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    }
+]

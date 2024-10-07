@@ -1,0 +1,7 @@
+{
+    "repo": "lucene",
+    "fix": "376b331651bf3f5ab314eb3b3f66de836f8d1a9b",
+    "induce": [
+        "a8032b063715f4418ccc2fd5c7d0f93ba79c66ef"
+    ]
+}

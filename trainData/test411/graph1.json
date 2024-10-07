@@ -1,0 +1,1 @@
+[{"cfgs": [], "code": "FastJsonHttpMessageConverter converter = new FastJsonHttpMessageConverter()", "dfgs": [], "fName": "src_test_java_com_alibaba_json_bvt_issue_1300_Issue1367.java", "fieldParents": [], "isDel": false, "lineBeg": 95, "lineEnd": 95, "lineMapIndex": -1, "methodParents": [], "nodeIndex": 0, "rootcause": false, "commits": []}]

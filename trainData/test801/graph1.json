@@ -1,0 +1,133 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "private static final GoogRequire SANITIZED_CONTENT_KIND =GoogRequire.createWithAlias(\"goog.soy.data.SanitizedContentKind\", \"SanitizedContentKind\")",
+        "dfgs": [
+            1
+        ],
+        "fName": "java_src_com_google_template_soy_jssrc_internal_JsType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 201,
+        "lineEnd": 202,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "785d9ee6aae4c97ee84430301fdf6ef2eaa45639"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "private static final Expression IS_IDOM_FUNCTION_TYPE =GoogRequire.create(\"google3.javascript.template.soy.soyutils_directives\").googModuleGet().dotAccess(\"$$isIdomFunctionType\")",
+        "dfgs": [
+            2
+        ],
+        "fName": "java_src_com_google_template_soy_jssrc_internal_JsType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 205,
+        "lineEnd": 208,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "785d9ee6aae4c97ee84430301fdf6ef2eaa45639"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final JsType IDOM_HTML =builder().addType(\"!goog.soy.data.SanitizedContent\").addRequire(GoogRequire.create(\"goog.soy.data.SanitizedContent\")).addType(\"!google3.javascript.template.soy.element_lib_idom.IdomFunction\").addRequire(GoogRequire.createTypeRequire(\"google3.javascript.template.soy.element_lib_idom\")).addType(\"function()\").setPredicate(new TypePredicate() {@Overridepublic Optional<Expression> maybeCheck(Expression value, Generator codeGenerator) {return Optional.of(IS_IDOM_FUNCTION_TYPE.call(value, SANITIZED_CONTENT_KIND.dotAccess(\"HTML\")).or(value.instanceOf(GOOG_SOY_DATA_SANITIZED_CONTENT), codeGenerator));}}).build()",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jssrc_internal_JsType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 210,
+        "lineEnd": 228,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "f1ed5203535d5409392dc937810378f28342b78f",
+            "2d6d5c0fe22d9af973000026d87c91d1d06c6d00",
+            "785d9ee6aae4c97ee84430301fdf6ef2eaa45639",
+            "7185c119d0dc2d042316aa4740b8656b48c109f2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return Optional.of(IS_IDOM_FUNCTION_TYPE.call(value, SANITIZED_CONTENT_KIND.dotAccess(\"HTML\")).or(value.instanceOf(GOOG_SOY_DATA_SANITIZED_CONTENT), codeGenerator))",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jssrc_internal_JsType.java",
+        "fieldParents": [
+            0
+        ],
+        "isDel": true,
+        "lineBeg": 222,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "f1ed5203535d5409392dc937810378f28342b78f",
+            "2d6d5c0fe22d9af973000026d87c91d1d06c6d00",
+            "785d9ee6aae4c97ee84430301fdf6ef2eaa45639"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThatTypeExprStrict(HtmlType.getInstance()).isEqualTo(\"!goog.soy.data.SanitizedContent|\"+ \"!google3.javascript.template.soy.element_lib_idom.IdomFunction|function()\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_JsTypeTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 152,
+        "lineEnd": 155,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "785d9ee6aae4c97ee84430301fdf6ef2eaa45639",
+            "b4c508c20c7de60055b0be5fc41d0cc7311ba47a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final JsType IDOM_HTML =builder().addType(\"!goog.soy.data.SanitizedContent\").addRequire(GoogRequire.create(\"goog.soy.data.SanitizedContent\")).addType(\"function()\").setPredicate(new TypePredicate() {@Overridepublic Optional<Expression> maybeCheck(Expression value, Generator codeGenerator) {return Optional.of(GOOG_IS_FUNCTION.call(value).or(value.instanceOf(GOOG_SOY_DATA_SANITIZED_CONTENT), codeGenerator));}}).build()",
+        "dfgs": [],
+        "fName": "java_src_com_google_template_soy_jssrc_internal_JsType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 201,
+        "lineEnd": 216,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThatTypeExprStrict(HtmlType.getInstance()).isEqualTo(\"!goog.soy.data.SanitizedContent|function()\")",
+        "dfgs": [],
+        "fName": "java_tests_com_google_template_soy_jssrc_internal_JsTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 152,
+        "lineEnd": 153,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    }
+]

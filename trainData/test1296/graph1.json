@@ -1,0 +1,1085 @@
+[
+    {
+        "cfgs": [],
+        "code": "import static org.junit.Assert.assertEquals",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d9e60241d2986d3e7535c4c6a4fae843e32dff02"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "assertEquals(3496978.1837704973, parameters[0], 1e-4)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 196,
+        "lineEnd": 196,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "assertEquals(4.054933085999146, parameters[1], 1e-4)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0.015039355620304326, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 198,
+        "lineEnd": 198,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "assertEquals(233003.2967252038, parameters[0], 1e-4)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "assertEquals(-10.654887521095983, parameters[1], 1e-4)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(4.335937353196641, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "assertEquals(283863.81929180305, parameters[0], 1e-4)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "assertEquals(-13.29641995105174, parameters[1], 1e-4)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1.7297330293549908, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "assertEquals(285250.66754309234, parameters[0], 1e-4)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 276,
+        "lineEnd": 276,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "assertEquals(-13.528375695228455, parameters[1], 1e-4)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 277,
+        "lineEnd": 277,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(1.5204344894331614, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": 35,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testFit07()throws OptimizationException",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 287,
+        "lineEnd": 289,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "d9e60241d2986d3e7535c4c6a4fae843e32dff02",
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(3514384.729342235, parameters[0], 1e-4)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "assertEquals(4.054970307455625, parameters[1], 1e-4)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0.015029412832160017, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "super(optimizer)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return fit(new Gaussian.Parametric(),(new ParameterGuesser(getObservations())).guess())",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 81,
+        "lineEnd": 82,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "44adfaeb94022133fd720061cd526652efe2f817"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.junit.Assert",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "Assert.assertEquals(3496978.1837704973, parameters[0], 1e-4)",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "Assert.assertEquals(4.054933085999146, parameters[1], 1e-4)",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 196,
+        "lineEnd": 196,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(0.015039355620304326, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "Assert.assertEquals(233003.2967252038, parameters[0], 1e-4)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 241,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "Assert.assertEquals(-10.654887521095983, parameters[1], 1e-4)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(4.335937353196641, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "Assert.assertEquals(283863.81929180305, parameters[0], 1e-4)",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 258,
+        "lineEnd": 258,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "Assert.assertEquals(-13.29641995105174, parameters[1], 1e-4)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(1.7297330293549908, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 260,
+        "lineEnd": 260,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "Assert.assertEquals(285250.66754309234, parameters[0], 1e-4)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "Assert.assertEquals(-13.528375695228455, parameters[1], 1e-4)",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 276,
+        "lineEnd": 276,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(1.5204344894331614, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 277,
+        "lineEnd": 277,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testFit07()throws OptimizationException",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 286,
+        "lineEnd": 287,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "Assert.assertEquals(3514384.729342235, parameters[0], 1e-4)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "Assert.assertEquals(4.054970307455625, parameters[1], 1e-4)",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(0.015029412832160017, parameters[2], 1e-4)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testMath519() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "final double[] data = { 1.1143831578403364E-29,4.95281403484594E-28,1.1171347211930288E-26,1.7044813962636277E-25,1.9784716574832164E-24,1.8630236407866774E-23,1.4820532905097742E-22,1.0241963854632831E-21,6.275077366673128E-21,3.461808994532493E-20,1.7407124684715706E-19,8.056687953553974E-19,3.460193945992071E-18,1.3883326374011525E-17,5.233894983671116E-17,1.8630791465263745E-16,6.288759227922111E-16,2.0204433920597856E-15,6.198768938576155E-15,1.821419346860626E-14,5.139176445538471E-14,1.3956427429045787E-13,3.655705706448139E-13,9.253753324779779E-13,2.267636001476696E-12,5.3880460095836855E-12,1.2431632654852931E-11}",
+        "dfgs": [
+            39,
+            40
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 302,
+        "lineEnd": 330,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "GaussianFitter fitter = new GaussianFitter(new LevenbergMarquardtOptimizer())",
+        "dfgs": [
+            41,
+            40
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 332,
+        "lineEnd": 332,
+        "lineMapIndex": -1,
+        "methodParents": [
+            46
+        ],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40,
+            41
+        ],
+        "code": "for (int i = 0; i < data.length; i++)",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 333,
+        "lineEnd": 333,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fitter.addObservedPoint(i, data[i])",
+        "dfgs": [
+            41
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 334,
+        "lineEnd": 334,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "final double[] p = fitter.fit()",
+        "dfgs": [
+            42,
+            43
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 336,
+        "lineEnd": 336,
+        "lineMapIndex": -1,
+        "methodParents": [
+            59
+        ],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "Assert.assertEquals(53.1572792, p[1], 1e-7)",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 338,
+        "lineEnd": 338,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertEquals(5.75214622, p[2], 1e-8)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math_optimization_fitting_GaussianFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 339,
+        "lineEnd": 339,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.math.analysis.ParametricUnivariateRealFunction",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 24,
+        "lineEnd": 24,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.math.exception.NotStrictlyPositiveException",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "super(optimizer)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "public double[] fit(double[] initialGuess) ",
+        "dfgs": [
+            48,
+            58
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 83,
+        "lineEnd": 83,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "final ParametricUnivariateRealFunction f = new ParametricUnivariateRealFunction() {private final ParametricUnivariateRealFunction g = new Gaussian.Parametric();public double value(double x, double[] p) {double v = Double.POSITIVE_INFINITY;try {v = g.value(x, p);} catch (NotStrictlyPositiveException e) {// Do nothing.}return v;}public double[] gradient(double x, double[] p) {double[] v = { Double.POSITIVE_INFINITY,Double.POSITIVE_INFINITY,Double.POSITIVE_INFINITY };try {v = g.gradient(x, p);} catch (NotStrictlyPositiveException e) {// Do nothing.}return v;}}",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 84,
+        "lineEnd": 108,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "v = g.value(x, p)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [
+            49
+        ],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (NotStrictlyPositiveException e)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return v",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public double[] gradient(double x, double[] p) ",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 97,
+        "lineEnd": 97,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "double[] v = { Double.POSITIVE_INFINITY,Double.POSITIVE_INFINITY,Double.POSITIVE_INFINITY }",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 98,
+        "lineEnd": 100,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 101,
+        "lineEnd": 101,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "v = g.gradient(x, p)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 102,
+        "lineEnd": 102,
+        "lineMapIndex": -1,
+        "methodParents": [
+            52
+        ],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (NotStrictlyPositiveException e)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 103,
+        "lineEnd": 103,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return v",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 106,
+        "lineEnd": 106,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return fit(f, initialGuess)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 110,
+        "lineEnd": 110,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "final double[] guess = (new ParameterGuesser(getObservations())).guess()",
+        "dfgs": [
+            60
+        ],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 120,
+        "lineEnd": 120,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return fit(guess)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math_optimization_fitting_GaussianFitter.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 121,
+        "lineEnd": 121,
+        "lineMapIndex": -1,
+        "methodParents": [
+            47
+        ],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    }
+]

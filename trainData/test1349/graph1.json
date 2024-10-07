@@ -1,0 +1,181 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "assertEquals(sdf.format(date1), fdf.format(date1))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateFormatTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 219,
+        "lineEnd": 219,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "73ee6c3d270a91bd447f732b24c4d65169b0c8d6"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(sdf.format(date2), fdf.format(date2))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateFormatTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "ad9769189189fe6129eb1bf7ce8fcc7186e2e691"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            4
+        ],
+        "code": "if (tokenLen >= 4)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_time_FastDateFormat.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 489,
+        "lineEnd": 489,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "601000d724671cbf1240f41376a61cca7a61b776"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "rule = selectNumberRule(Calendar.YEAR, tokenLen)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_time_FastDateFormat.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "3aab5ae02692d3ceac2618ec0b4514787f4b17d7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_time_FastDateFormat.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 491,
+        "lineEnd": 491,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "6d4516cccc1cd836e6a594e2df9a3c920ef177df"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "assertEquals(sdf.format(date1).replaceAll(\"2003 03 03 03\", \"2003 2003 03 2003\"), fdf.format(date1))",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateFormatTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 220,
+        "lineEnd": 220,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(sdf.format(date2).replaceAll(\"2003 03 03 03\", \"2003 2003 03 2003\"), fdf.format(date2))",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_lang3_time_FastDateFormatTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 221,
+        "lineEnd": 221,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (tokenLen == 2)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_main_java_org_apache_commons_lang3_time_FastDateFormat.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 495,
+        "lineEnd": 495,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_time_FastDateFormat.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 497,
+        "lineEnd": 497,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "rule = selectNumberRule(Calendar.YEAR, tokenLen < 4 ? 4 : tokenLen)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_lang3_time_FastDateFormat.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 498,
+        "lineEnd": 498,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

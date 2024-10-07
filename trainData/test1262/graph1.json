@@ -1,0 +1,628 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "final EigenDecomposition dec = new EigenDecomposition(m)",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 266,
+        "lineEnd": 266,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "ed39d2dbe2522a7842d8f173af46b483d983cb0a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return dec.getSquareRoot()",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "ed39d2dbe2522a7842d8f173af46b483d983cb0a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.math3.linear.MatrixUtils",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_Weight.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "7ee7843ffe817f79a54f77feebd51506f36c7ef8"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "weightMatrix = MatrixUtils.createRealMatrix(dim, dim)",
+        "dfgs": [
+            4,
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_Weight.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "ed39d2dbe2522a7842d8f173af46b483d983cb0a"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "for (int i = 0; i < dim; i++)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_Weight.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 44,
+        "lineEnd": 44,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "ed39d2dbe2522a7842d8f173af46b483d983cb0a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "weightMatrix.setEntry(i, i, weight[i])",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_Weight.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 45,
+        "lineEnd": 45,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "ed39d2dbe2522a7842d8f173af46b483d983cb0a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.math3.linear.DiagonalMatrix",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 23,
+        "lineEnd": 23,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8,
+            13
+        ],
+        "code": "if (m instanceof DiagonalMatrix)",
+        "dfgs": [
+            8,
+            14
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "final int dim = m.getRowDimension()",
+        "dfgs": [
+            9,
+            11
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "final RealMatrix sqrtM = new DiagonalMatrix(dim)",
+        "dfgs": [
+            12,
+            10,
+            11
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "for (int i = 0; i < dim; i++)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 270,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "sqrtM.setEntry(i, i, FastMath.sqrt(m.getEntry(i, i)))",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return sqrtM",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 273,
+        "lineEnd": 273,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 274,
+        "lineEnd": 274,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "final EigenDecomposition dec = new EigenDecomposition(m)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 275,
+        "lineEnd": 275,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return dec.getSquareRoot()",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_jacobian_AbstractLeastSquaresOptimizer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 276,
+        "lineEnd": 276,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testLargeSample() ",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 224,
+        "lineEnd": 224,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "Random randomizer = new Random(0x5551480dca5b369bl)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 225,
+        "lineEnd": 225,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "double maxError = 0",
+        "dfgs": [
+            31,
+            29
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 226,
+        "lineEnd": 226,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            31
+        ],
+        "code": "for (int degree = 0; degree < 10; ++degree)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 227,
+        "lineEnd": 227,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "PolynomialFunction p = buildRandomPolynomial(degree, randomizer)",
+        "dfgs": [
+            25,
+            24,
+            28
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 228,
+        "lineEnd": 228,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "PolynomialFitter fitter = new PolynomialFitter(new LevenbergMarquardtOptimizer())",
+        "dfgs": [
+            26,
+            24
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 230,
+        "lineEnd": 230,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23,
+            25
+        ],
+        "code": "for (int i = 0; i < 40000; ++i)",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 231,
+        "lineEnd": 231,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "double x = -1.0 + i / 20000.0",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 232,
+        "lineEnd": 232,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fitter.addObservedPoint(1.0, x,p.value(x) + 0.1 * randomizer.nextGaussian())",
+        "dfgs": [
+            26,
+            28
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 233,
+        "lineEnd": 234,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "final double[] init = new double[degree + 1]",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 237,
+        "lineEnd": 237,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "PolynomialFunction fitted = new PolynomialFunction(fitter.fit(init))",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "for (double x = -1.0; x < 1.0; x += 0.01)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 240,
+        "lineEnd": 240,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "double error = FastMath.abs(p.value(x) - fitted.value(x)) /(1.0 + FastMath.abs(p.value(x)))",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 241,
+        "lineEnd": 242,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "maxError = FastMath.max(maxError, error)",
+        "dfgs": [
+            31,
+            30
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(FastMath.abs(error) < 0.01)",
+        "dfgs": [
+            31
+        ],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertTrue(maxError > 0.001)",
+        "dfgs": [],
+        "fName": "src_test_java_org_apache_commons_math3_fitting_PolynomialFitterTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.commons.math3.linear.DiagonalMatrix",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_Weight.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "weightMatrix = new DiagonalMatrix(weight)",
+        "dfgs": [],
+        "fName": "src_main_java_org_apache_commons_math3_optim_nonlinear_vector_Weight.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    }
+]

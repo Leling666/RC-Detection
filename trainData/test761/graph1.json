@@ -1,0 +1,589 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "Assert.assertFalse(instanceD.exec(input))",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_ml_shifu_shifu_udf_PurifyDataUDFTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertFalse(instanceD.exec(input))",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_udf_PurifyDataUDFTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import akka.actor.*",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.testng.annotations.Test",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "fe12eb3c89de753e43cfecef89711e9254b9857b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.File",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 32,
+        "lineEnd": 32,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.IOException",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 33,
+        "lineEnd": 33,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 34,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Scanner",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "modelConfig = CommonUtils.loadModelConfig(\"src/test/resources/example/cancer-judgement/ModelStore/ModelSet1/ModelConfig.json\", SourceType.LOCAL)",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 49,
+        "lineEnd": 49,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "90702ab88117a56011c6d35c9c4cf61fd7d29476"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "columnConfigList = CommonUtils.loadColumnConfigList(\"src/test/resources/example/cancer-judgement/ModelStore/ModelSet1/ColumnConfig.json\", SourceType.LOCAL)",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "90702ab88117a56011c6d35c9c4cf61fd7d29476"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "List<Scanner> scanners = ShifuFileUtils.getDataScanners(\"src/test/resources/example/cancer-judgement/DataStore/DataSet1\", SourceType.LOCAL)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "90702ab88117a56011c6d35c9c4cf61fd7d29476"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "while (!statsCalRef.isTerminated())",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (file.exists())",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "90339a6e18a2de1dfc705b135675efb9267d9da2"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "if(dataFilterExpr == null)",
+        "dfgs": [],
+        "fName": "src_main_java_ml_shifu_shifu_core_DataPurifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 98,
+        "lineEnd": 98,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "2dcf84d6de61d062d25a04434eae79be547d6e1f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_ml_shifu_shifu_core_DataPurifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 99,
+        "lineEnd": 99,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "2dcf84d6de61d062d25a04434eae79be547d6e1f"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "if(dataFilterExpr == null)",
+        "dfgs": [],
+        "fName": "src_main_java_ml_shifu_shifu_core_DataPurifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 135,
+        "lineEnd": 135,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "2dcf84d6de61d062d25a04434eae79be547d6e1f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_ml_shifu_shifu_core_DataPurifier.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 136,
+        "lineEnd": 136,
+        "lineMapIndex": 34,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "2dcf84d6de61d062d25a04434eae79be547d6e1f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.File",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 18,
+        "lineEnd": 18,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.io.IOException",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 19,
+        "lineEnd": 19,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 20,
+        "lineEnd": 20,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Scanner",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 21,
+        "lineEnd": 21,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import akka.actor.ActorRef",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 35,
+        "lineEnd": 35,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import akka.actor.ActorSystem",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import akka.actor.Props",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 37,
+        "lineEnd": 37,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import akka.actor.UntypedActor",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 38,
+        "lineEnd": 38,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import akka.actor.UntypedActorFactory",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 39,
+        "lineEnd": 39,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "modelConfig = CommonUtils.loadModelConfig(\"src/test/resources/example/cancer-judgement/ModelStore/ModelSet1/ModelConfig.json\", SourceType.LOCAL)",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 52,
+        "lineEnd": 53,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "columnConfigList = CommonUtils.loadColumnConfigList(\"src/test/resources/example/cancer-judgement/ModelStore/ModelSet1/ColumnConfig.json\", SourceType.LOCAL)",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 54,
+        "lineEnd": 55,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "List<Scanner> scanners = ShifuFileUtils.getDataScanners(\"src/test/resources/example/cancer-judgement/DataStore/DataSet1\", SourceType.LOCAL)",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 69,
+        "lineEnd": 70,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "while(!statsCalRef.isTerminated())",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 73,
+        "lineEnd": 73,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if(file.exists())",
+        "dfgs": [],
+        "fName": "src_test_java_ml_shifu_shifu_actor_CalculateStatsActorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 85,
+        "lineEnd": 85,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "if(dataFilterExpr == null)",
+        "dfgs": [],
+        "fName": "src_main_java_ml_shifu_shifu_core_DataPurifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_ml_shifu_shifu_core_DataPurifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "if(dataFilterExpr == null)",
+        "dfgs": [],
+        "fName": "src_main_java_ml_shifu_shifu_core_DataPurifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_ml_shifu_shifu_core_DataPurifier.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 131,
+        "lineEnd": 131,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    }
+]

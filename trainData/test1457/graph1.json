@@ -1,0 +1,535 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (type != Type.FUNCTION && aliasingGets > 0)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_GlobalNamespace.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 916,
+        "lineEnd": 916,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "d1459d88d5a1b3e79724b2302e8e5a537e150532"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a = function(){}; a.b = 1; var c = a; c.b = 2; a.b != c.b;\",\"var a = function(){}; var a$b = 1; var c = a; c.b = 2; a$b != c.b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 285,
+        "lineEnd": 286,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a = function(){}; a.b = 1; f(a); a.b;\",\"var a = function(){}; var a$b = 1; f(a); a$b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 290,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a = function(){}; a.b = 1; new f(a); a.b;\",\"var a = function(){}; var a$b = 1; new f(a); a$b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 295,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a = {}; a.b = function() {}; a.b.c = 1; var d = a.b;\" +\"a.b.c != d.c;\",\"var a$b = function() {}; var a$b$c = 1; var d = a$b;\" +\"a$b$c != d.c;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 300,
+        "lineEnd": 303,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function a() {} var c = a; (function() {a.b = 0;})(); a.b;\",\"function a() {} var a$b; var c = a; (function() {a$b = 0;})(); a$b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 522,
+        "lineEnd": 523,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"function a() {} a.b = {x: 0}; var c = a;\" +\"(function() {a.b.y = 0;})(); a.b.y;\",\"function a() {} var a$b$x = 0; var a$b$y; var c = a;\" +\"(function() {a$b$y = 0;})(); a$b$y;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 565,
+        "lineEnd": 568,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "if (rvalue != null && rvalue.getType() == Token.FUNCTION)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_com_google_javascript_jscomp_CollapseProperties.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 484,
+        "lineEnd": 484,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "checkForHosedThisReferences(rvalue, refName.docInfo, refName)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_CollapseProperties.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 485,
+        "lineEnd": 485,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (aliasingGets > 0)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_GlobalNamespace.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 920,
+        "lineEnd": 920,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"var a = function(){}; a.b = 1; var c = a; c.b = 2; a.b != c.b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 279,
+        "lineEnd": 279,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testAliasCreatedForCtorDepth1_1() ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"/** @constructor */ var a = function(){}; a.b = 1; \" +\"var c = a; c.b = 2; a.b != c.b;\",\"var a = function(){}; var a$b = 1; var c = a; c.b = 2; a$b != c.b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 289,
+        "lineEnd": 291,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"var a = function(){}; a.b = 1; f(a); a.b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testAliasCreatedForCtorDepth1_2() ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 298,
+        "lineEnd": 298,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"/** @constructor */ var a = function(){}; a.b = 1; f(a); a.b;\",\"var a = function(){}; var a$b = 1; f(a); a$b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 299,
+        "lineEnd": 300,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"var a = function(){}; a.b = 1; new f(a); a.b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testAliasCreatedForCtorDepth1_3() ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"/** @constructor */ var a = function(){}; a.b = 1; new f(a); a.b;\",\"var a = function(){}; var a$b = 1; new f(a); a$b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 308,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a = {}; a.b = function() {}; a.b.c = 1; var d = a.b;\" +\"a.b.c != d.c;\",\"var a$b = function() {}; a$b.c = 1; var d = a$b;\" +\"a$b.c != d.c;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 313,
+        "lineEnd": 317,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "public void testAliasCreatedForCtorDepth2() ",
+        "dfgs": [
+            21
+        ],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a = {}; /** @constructor */ a.b = function() {}; \" +\"a.b.c = 1; var d = a.b;\" +\"a.b.c != d.c;\",\"var a$b = function() {}; var a$b$c = 1; var d = a$b;\" +\"a$b$c != d.c;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 321,
+        "lineEnd": 325,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"function a() {} var c = a; (function() {a.b = 0;})(); a.b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 544,
+        "lineEnd": 544,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "public void testAddPropertyToUncollapsibleNamedCtorInLocalScopeDepth1() ",
+        "dfgs": [
+            24
+        ],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 547,
+        "lineEnd": 547,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"/** @constructor */ function a() {} var c = a; \" +\"(function() {a.b = 0;})(); a.b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 552,
+        "lineEnd": 554,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "public void testAddPropertyToUncollapsibleCtorInLocalScopeDepth1() ",
+        "dfgs": [
+            26
+        ],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 557,
+        "lineEnd": 557,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"/** @constructor */ var a = function() {}; var c = a; \" +\"(function() {a.b = 0;})(); a.b;\",\"var a = function() {}; var a$b; \" +\"var c = a; (function() {a$b = 0;})(); a$b;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 558,
+        "lineEnd": 561,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a = {}; a.b = function (){}; var d = a.b;\" +\"(function() {a.b.c = 0;})(); a.b.c;\",\"var a$b = function (){}; var d = a$b;\" +\"(function() {a$b.c = 0;})(); a$b.c;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 572,
+        "lineEnd": 575,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "public void testAddPropertyToUncollapsibleCtorInLocalScopeDepth2() ",
+        "dfgs": [
+            29
+        ],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 578,
+        "lineEnd": 578,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"var a = {}; /** @constructor */ a.b = function (){}; var d = a.b;\" +\"(function() {a.b.c = 0;})(); a.b.c;\",\"var a$b = function (){}; var a$b$c; var d = a$b;\" +\"(function() {a$b$c = 0;})(); a$b$c;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 579,
+        "lineEnd": 582,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testSame(\"function a() {} a.b = {x: 0}; var c = a;\" +\"(function() {a.b.y = 0;})(); a.b.y;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 610,
+        "lineEnd": 612,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "public void testAddPropertyToChildOfUncollapsibleCtorInLocalScope() ",
+        "dfgs": [
+            32
+        ],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 615,
+        "lineEnd": 615,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "test(\"/** @constructor */ var a = function() {}; a.b = {x: 0}; var c = a;\" +\"(function() {a.b.y = 0;})(); a.b.y;\",\"var a = function() {}; var a$b$x = 0; var a$b$y; var c = a;\" +\"(function() {a$b$y = 0;})(); a$b$y;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_CollapsePropertiesTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 616,
+        "lineEnd": 619,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    }
+]

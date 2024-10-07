@@ -1,0 +1,349 @@
+[
+    {
+        "cfgs": [
+            5,
+            1
+        ],
+        "code": "JSType type = getJSType(n)",
+        "dfgs": [
+            7,
+            5,
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 753,
+        "lineEnd": 753,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (dereference)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 754,
+        "lineEnd": 754,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "ObjectType dereferenced = type.dereference()",
+        "dfgs": [
+            5,
+            3
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 755,
+        "lineEnd": 755,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "d964d232de65db2370c06ce04de9865a3b2c8c9f"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "if (dereferenced != null)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 756,
+        "lineEnd": 756,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "d964d232de65db2370c06ce04de9865a3b2c8c9f"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "type = dereferenced",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 757,
+        "lineEnd": 757,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "d964d232de65db2370c06ce04de9865a3b2c8c9f"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            7
+        ],
+        "code": "if (type.isFunctionPrototypeType() ||(type.toObjectType() != null &&type.toObjectType().getConstructor() != null))",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 762,
+        "lineEnd": 764,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "a2d8936fae3eb0e3873c7f7c0233344c81436404",
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return type.toString()",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 765,
+        "lineEnd": 765,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (qualifiedName != null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 766,
+        "lineEnd": 766,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            9
+        ],
+        "code": "JSType type = getJSType(n)",
+        "dfgs": [
+            15,
+            13,
+            10
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 725,
+        "lineEnd": 725,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "if (dereference)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 726,
+        "lineEnd": 726,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "ObjectType dereferenced = type.dereference()",
+        "dfgs": [
+            13,
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 727,
+        "lineEnd": 727,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12,
+            13
+        ],
+        "code": "if (dereferenced != null)",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 728,
+        "lineEnd": 728,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "type = dereferenced",
+        "dfgs": [
+            13
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 729,
+        "lineEnd": 729,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14,
+            15
+        ],
+        "code": "if (type.isFunctionPrototypeType() ||(type.toObjectType() != null &&type.toObjectType().getConstructor() != null))",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 734,
+        "lineEnd": 736,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return type.toString()",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 737,
+        "lineEnd": 737,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (qualifiedName != null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_TypeValidator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 769,
+        "lineEnd": 769,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "public void testIssue1047() throws Exception ",
+        "dfgs": [
+            17
+        ],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6851,
+        "lineEnd": 6851,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "testTypes(\"/**\\n\" +\" * @constructor\\n\" +\" */\\n\" +\"function C2() {}\\n\" +\"\\n\" +\"/**\\n\" +\" * @constructor\\n\" +\" */\\n\" +\"function C3(c2) {\\n\" +\"  /**\\n\" +\"   * @type {C2} \\n\" +\"   * @private\\n\" +\"   */\\n\" +\"  this.c2_;\\n\" +\"\\n\" +\"  var x = this.c2_.prop;\\n\" +\"}\",\"Property prop never defined on C2\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_TypeCheckTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 6852,
+        "lineEnd": 6870,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    }
+]

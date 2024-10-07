@@ -1,0 +1,110 @@
+[
+    {
+        "cfgs": [],
+        "code": "return name() + cacheMap != null ? cacheMap.getValue().toString() : \"\"",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_search_LRUCache.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "e30cc70fddcdd6fddb5eedf9f38e77fcb3f33bd1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return name + cacheMap != null ? cacheMap.getValue().toString() : \"\"",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_search_LFUCache.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": -1,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "e30cc70fddcdd6fddb5eedf9f38e77fcb3f33bd1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return name() + cacheMap != null ? cacheMap.getValue().toString() : \"\"",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_search_FastLRUCache.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [
+            0
+        ],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "e30cc70fddcdd6fddb5eedf9f38e77fcb3f33bd1"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return name() + (cacheMap != null ? cacheMap.getValue().toString() : \"\")",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_search_LRUCache.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return name + (cacheMap != null ? cacheMap.getValue().toString() : \"\")",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_search_LFUCache.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return name() + (cacheMap != null ? cacheMap.getValue().toString() : \"\")",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_search_FastLRUCache.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [
+            3
+        ],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,1552 @@
+[
+    {
+        "cfgs": [],
+        "code": "injectInline(eConf.getChild(\"configuration\", ns), subWorkflowConf)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_oozie_SubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 208,
+        "lineEnd": 208,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Configuration childConf = new XConfiguration(new StringReader(wf.getConf()))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 233,
+        "lineEnd": 233,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Configuration childConf = new XConfiguration(new StringReader(wf.getConf()))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "f48c8834525fb6edf05fcb7f9e1d1d34181f5c3c"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Configuration childConf = new XConfiguration(new StringReader(wf.getConf()))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "8367900baf07705ec24e45e31a43c268c312bf14"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Configuration childConf = new XConfiguration(new StringReader(wf.getConf()))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 412,
+        "lineEnd": 412,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "994bc674a871a1f4e4be5cbd862ca1b057315317"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(job.getStatus(), WorkflowJob.Status.SUCCEEDED)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 632,
+        "lineEnd": 632,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "bac6d005e8718e9e6df94f47677c2d4d9726d5e5"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Path subWorkflowAppPath = getFsTestCaseDir()",
+        "dfgs": [
+            8,
+            7
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 643,
+        "lineEnd": 643,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "FileSystem fs = getFileSystem()",
+        "dfgs": [
+            9,
+            10
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 644,
+        "lineEnd": 644,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Path subWorkflowPath = new Path(subWorkflowAppPath, \"workflow.xml\")",
+        "dfgs": [
+            9,
+            13
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 645,
+        "lineEnd": 645,
+        "lineMapIndex": 72,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "Writer writer = new OutputStreamWriter(fs.create(subWorkflowPath))",
+        "dfgs": [
+            10
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 646,
+        "lineEnd": 646,
+        "lineMapIndex": 73,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": true,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "writer.write(getWorkflow())",
+        "dfgs": [
+            11,
+            12
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 647,
+        "lineEnd": 647,
+        "lineMapIndex": 74,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "writer.close()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 648,
+        "lineEnd": 648,
+        "lineMapIndex": 75,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "String workflowUri = getTestCaseFileUri(\"workflow.xml\")",
+        "dfgs": [
+            14
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 650,
+        "lineEnd": 650,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "String appXml = \"<workflow-app xmlns=\\\"uri:oozie:workflow:0.4\\\" name=\\\"workflow\\\">\" +\"<global>\" +\"   <configuration>\" +\"        <property>\" +\"            <name>foo2</name>\" +\"            <value>foo2</value>\" +\"        </property>\" +\"        <property>\" +\"            <name>foo3</name>\" +\"            <value>foo3</value>\" +\"        </property>\" +\"    </configuration>\" +\"</global>\" +\"<start to=\\\"subwf\\\"/>\" +\"<action name=\\\"subwf\\\">\" +\"     <sub-workflow xmlns='uri:oozie:workflow:0.4'>\" +\"          <app-path>\" + subWorkflowAppPath.toString() + \"</app-path>\" +\"<propagate-configuration/>\" +\"   <configuration>\" +\"        <property>\" +\"            <name>foo3</name>\" +\"            <value>actionconf</value>\" +\"        </property>\" +\"   </configuration>\" +\"     </sub-workflow>\" +\"     <ok to=\\\"end\\\"/>\" +\"     <error to=\\\"fail\\\"/>\" +\"</action>\" +\"<kill name=\\\"fail\\\">\" +\"     <message>Sub workflow failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>\" +\"</kill>\" +\"<end name=\\\"end\\\"/>\" +\"</workflow-app>\"",
+        "dfgs": [
+            14
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 651,
+        "lineEnd": 683,
+        "lineMapIndex": 66,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "writeToFile(appXml, workflowUri)",
+        "dfgs": [
+            15,
+            16
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 685,
+        "lineEnd": 685,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "Configuration subWorkflowConf = new XConfiguration(new StringReader(subWorkflow.getConf()))",
+        "dfgs": [
+            19,
+            16
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 703,
+        "lineEnd": 703,
+        "lineMapIndex": 56,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": true,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "assertEquals(actionConf.get(\"foo1\"), \"foo1\")",
+        "dfgs": [
+            17
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 707,
+        "lineEnd": 707,
+        "lineMapIndex": 58,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertEquals(actionConf.get(\"foo2\"), \"subconf\")",
+        "dfgs": [
+            18
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 708,
+        "lineEnd": 708,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "assertEquals(actionConf.get(\"foo3\"), \"foo3\")",
+        "dfgs": [
+            19
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 709,
+        "lineEnd": 709,
+        "lineMapIndex": 60,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(subWorkflowConf.get(\"foo3\"), \"actionconf\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 711,
+        "lineEnd": 711,
+        "lineMapIndex": 61,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "0f086d41b8f274abe0959705f76fa3225ab5ff2e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "injectInline(eConf.getChild(\"configuration\", ns), subWorkflowConf)",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_action_oozie_SubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Configuration childConf = getWorkflowConfig(wf)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 233,
+        "lineEnd": 233,
+        "lineMapIndex": 1,
+        "methodParents": [
+            62
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Configuration childConf = getWorkflowConfig(wf)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 284,
+        "lineEnd": 284,
+        "lineMapIndex": 2,
+        "methodParents": [
+            62
+        ],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Configuration childConf = getWorkflowConfig(wf)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 364,
+        "lineEnd": 364,
+        "lineMapIndex": 3,
+        "methodParents": [
+            62
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Configuration childConf = getWorkflowConfig(wf)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 412,
+        "lineEnd": 412,
+        "lineMapIndex": 4,
+        "methodParents": [
+            62
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(WorkflowJob.Status.SUCCEEDED, job.getStatus())",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 633,
+        "lineEnd": 633,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "Path subWorkflowAppPath = createSubWorkflowXml()",
+        "dfgs": [
+            27
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 644,
+        "lineEnd": 644,
+        "lineMapIndex": -1,
+        "methodParents": [
+            69
+        ],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "String workflowUri = createTestWorkflowXml(subWorkflowAppPath)",
+        "dfgs": [
+            31,
+            32
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 646,
+        "lineEnd": 646,
+        "lineMapIndex": -1,
+        "methodParents": [
+            64
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "LocalOozie.start()",
+        "dfgs": [
+            29
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 647,
+        "lineEnd": 647,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "final OozieClient wfClient = LocalOozie.getClient()",
+        "dfgs": [
+            48,
+            30
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 648,
+        "lineEnd": 648,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "Properties conf = wfClient.createConfiguration()",
+        "dfgs": [
+            31,
+            34
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 649,
+        "lineEnd": 649,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "conf.setProperty(OozieClient.APP_PATH, workflowUri)",
+        "dfgs": [
+            32
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 650,
+        "lineEnd": 650,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "conf.setProperty(OozieClient.USER_NAME, getTestUser())",
+        "dfgs": [
+            33,
+            36
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 651,
+        "lineEnd": 651,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "conf.setProperty(\"appName\", \"var-app-name\")",
+        "dfgs": [
+            34
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 652,
+        "lineEnd": 652,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "final String jobId = wfClient.submit(conf)",
+        "dfgs": [
+            35
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 653,
+        "lineEnd": 653,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "wfClient.start(jobId)",
+        "dfgs": [
+            38
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 654,
+        "lineEnd": 654,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "waitFor(JOB_TIMEOUT, new Predicate() {public boolean evaluate() throws Exception {return (wfClient.getJobInfo(jobId).getStatus() == WorkflowJob.Status.SUCCEEDED) &&(wfClient.getJobInfo(jobId).getActions().get(1).getStatus() == WorkflowAction.Status.OK);}})",
+        "dfgs": [
+            39
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 656,
+        "lineEnd": 661,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (wfClient.getJobInfo(jobId).getStatus() == WorkflowJob.Status.SUCCEEDED) &&(wfClient.getJobInfo(jobId).getActions().get(1).getStatus() == WorkflowAction.Status.OK)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 658,
+        "lineEnd": 659,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "WorkflowJob subWorkflow = wfClient.getJobInfo(wfClient.getJobInfo(jobId).getActions().get(1).getExternalId())",
+        "dfgs": [
+            39
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 662,
+        "lineEnd": 663,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "Configuration subWorkflowConf = getWorkflowConfig(subWorkflow)",
+        "dfgs": [
+            43,
+            46,
+            40
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 665,
+        "lineEnd": 665,
+        "lineMapIndex": -1,
+        "methodParents": [
+            62
+        ],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "Element eConf = XmlUtils.parseXml(subWorkflow.getActions().get(1).getConf())",
+        "dfgs": [
+            41,
+            42
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 666,
+        "lineEnd": 666,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "Element element = eConf.getChild(\"configuration\", eConf.getNamespace())",
+        "dfgs": [
+            42
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 667,
+        "lineEnd": 667,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "Configuration actionConf = new XConfiguration(new StringReader(XmlUtils.prettyPrint(element).toString()))",
+        "dfgs": [
+            43
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 668,
+        "lineEnd": 668,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "assertEquals(\"foo1\", actionConf.get(\"foo1\"))",
+        "dfgs": [
+            44
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 671,
+        "lineEnd": 671,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "assertEquals(\"subconf\", actionConf.get(\"foo2\"))",
+        "dfgs": [
+            45
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 672,
+        "lineEnd": 672,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "assertEquals(\"foo3\", actionConf.get(\"foo3\"))",
+        "dfgs": [
+            46
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 673,
+        "lineEnd": 673,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "assertEquals(\"actionconf\", subWorkflowConf.get(\"foo3\"))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 676,
+        "lineEnd": 676,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 677,
+        "lineEnd": 677,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "LocalOozie.stop()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 678,
+        "lineEnd": 678,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "public void testParentGlobalConfWithConfigDefault() throws Exception ",
+        "dfgs": [
+            58,
+            52,
+            54,
+            55,
+            56,
+            57,
+            59,
+            60,
+            61,
+            51,
+            53
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 682,
+        "lineEnd": 682,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 683,
+        "lineEnd": 683,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "Path subWorkflowAppPath = createSubWorkflowXml()",
+        "dfgs": [
+            52,
+            53
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 684,
+        "lineEnd": 684,
+        "lineMapIndex": -1,
+        "methodParents": [
+            69
+        ],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "createConfigDefaultXml()",
+        "dfgs": [
+            53
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 686,
+        "lineEnd": 686,
+        "lineMapIndex": -1,
+        "methodParents": [
+            77
+        ],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "String workflowUri = createTestWorkflowXml(subWorkflowAppPath)",
+        "dfgs": [
+            54,
+            55
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 688,
+        "lineEnd": 688,
+        "lineMapIndex": -1,
+        "methodParents": [
+            64
+        ],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "conf.setProperty(\"foo\", \"other\")",
+        "dfgs": [
+            55
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 696,
+        "lineEnd": 696,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "assertEquals(\"other\",new XConfiguration(new StringReader(wfClient.getJobInfo(jobId).getConf())).get(\"foo\"))",
+        "dfgs": [
+            56
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 700,
+        "lineEnd": 701,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "Configuration subWorkflowConf = getWorkflowConfig(subWorkflow)",
+        "dfgs": [
+            57,
+            58
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 712,
+        "lineEnd": 712,
+        "lineMapIndex": 15,
+        "methodParents": [
+            62
+        ],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "assertEquals(\"other\", subWorkflowConf.get(\"foo\"))",
+        "dfgs": [
+            58,
+            61
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 718,
+        "lineEnd": 718,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "assertEquals(\"foo1\", actionConf.get(\"foo1\"))",
+        "dfgs": [
+            59
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 720,
+        "lineEnd": 720,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "assertEquals(\"subconf\", actionConf.get(\"foo2\"))",
+        "dfgs": [
+            60
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 721,
+        "lineEnd": 721,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "assertEquals(\"foo3\", actionConf.get(\"foo3\"))",
+        "dfgs": [
+            61
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 722,
+        "lineEnd": 722,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"actionconf\", subWorkflowConf.get(\"foo3\"))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 724,
+        "lineEnd": 724,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "private Configuration getWorkflowConfig(WorkflowJob workflow) throws IOException ",
+        "dfgs": [
+            63
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 731,
+        "lineEnd": 731,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return new XConfiguration(new StringReader(workflow.getConf()))",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 732,
+        "lineEnd": 732,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "private String createTestWorkflowXml(Path subWorkflowAppPath) throws IOException ",
+        "dfgs": [
+            66,
+            67,
+            68,
+            65
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 735,
+        "lineEnd": 735,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "String workflowUri = getTestCaseFileUri(\"workflow.xml\")",
+        "dfgs": [
+            67
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 736,
+        "lineEnd": 736,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "String appXml = \"<workflow-app xmlns=\\\"uri:oozie:workflow:0.4\\\" name=\\\"workflow\\\">\" +\"<global>\" +\"   <configuration>\" +\"        <property>\" +\"            <name>foo2</name>\" +\"            <value>foo2</value>\" +\"        </property>\" +\"        <property>\" +\"            <name>foo3</name>\" +\"            <value>foo3</value>\" +\"        </property>\" +\"    </configuration>\" +\"</global>\" +\"<start to=\\\"subwf\\\"/>\" +\"<action name=\\\"subwf\\\">\" +\"     <sub-workflow xmlns='uri:oozie:workflow:0.4'>\" +\"          <app-path>\" + subWorkflowAppPath.toString() + \"</app-path>\" +\"<propagate-configuration/>\" +\"   <configuration>\" +\"        <property>\" +\"            <name>foo3</name>\" +\"            <value>actionconf</value>\" +\"        </property>\" +\"   </configuration>\" +\"     </sub-workflow>\" +\"     <ok to=\\\"end\\\"/>\" +\"     <error to=\\\"fail\\\"/>\" +\"</action>\" +\"<kill name=\\\"fail\\\">\" +\"     <message>Sub workflow failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>\" +\"</kill>\" +\"<end name=\\\"end\\\"/>\" +\"</workflow-app>\"",
+        "dfgs": [
+            67
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 737,
+        "lineEnd": 769,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "writeToFile(appXml, workflowUri)",
+        "dfgs": [
+            68
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 771,
+        "lineEnd": 771,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return workflowUri",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 772,
+        "lineEnd": 772,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "private Path createSubWorkflowXml() throws IOException ",
+        "dfgs": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            70,
+            71
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 775,
+        "lineEnd": 775,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "Path subWorkflowAppPath = getFsTestCaseDir()",
+        "dfgs": [
+            72,
+            71
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 776,
+        "lineEnd": 776,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "FileSystem fs = getFileSystem()",
+        "dfgs": [
+            73,
+            74
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 777,
+        "lineEnd": 777,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "Path subWorkflowPath = new Path(subWorkflowAppPath, \"workflow.xml\")",
+        "dfgs": [
+            76,
+            73
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 778,
+        "lineEnd": 778,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "Writer writer = new OutputStreamWriter(fs.create(subWorkflowPath))",
+        "dfgs": [
+            74
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 779,
+        "lineEnd": 779,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "writer.write(getWorkflow())",
+        "dfgs": [
+            75
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 780,
+        "lineEnd": 780,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "writer.close()",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 781,
+        "lineEnd": 781,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return subWorkflowAppPath",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 782,
+        "lineEnd": 782,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "private void createConfigDefaultXml() throws IOException ",
+        "dfgs": [
+            79,
+            80,
+            78
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 785,
+        "lineEnd": 785,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "String config_defaultUri=getTestCaseFileUri(\"config-default.xml\")",
+        "dfgs": [
+            80
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 786,
+        "lineEnd": 786,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "String config_default=\"<configuration>\\n\" +\"<property>\\n\" +\"<name>foo</name>\\n\" +\"<value>default</value>\\n\" +\"</property>\\n\" +\"</configuration>\"",
+        "dfgs": [
+            80
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 787,
+        "lineEnd": 792,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "writeToFile(config_default, config_defaultUri)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_action_oozie_TestSubWorkflowActionExecutor.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 794,
+        "lineEnd": 794,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    }
+]

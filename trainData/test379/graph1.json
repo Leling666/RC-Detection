@@ -1,0 +1,1156 @@
+[
+    {
+        "cfgs": [],
+        "code": "val = (T) new java.sql.Date(((BigDecimal) val).longValueExact())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_SqlDateDeserializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "6a910d48242e2df6209c65f9267e06f3bb31ef61"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) new java.sql.Timestamp(((BigDecimal) val).longValueExact())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_SqlDateDeserializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 93,
+        "lineEnd": 93,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "6a910d48242e2df6209c65f9267e06f3bb31ef61"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "intObj = number.intValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_IntegerCodec.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "37bd050e90535b0d58940eb2c406de4faee159f7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) new java.sql.Time(((BigDecimal) val).longValueExact())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_TimeDeserializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 52,
+        "lineEnd": 52,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "bf9a900bf281e1e48e92d552a3b56d9c97b9913a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) new java.util.Date(((BigDecimal) val).longValueExact())",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_DateCodec.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "6a910d48242e2df6209c65f9267e06f3bb31ef61"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "short shortValue = val.shortValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_NumberDeserializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "37bd050e90535b0d58940eb2c406de4faee159f7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "byte byteValue = val.byteValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_NumberDeserializer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "37bd050e90535b0d58940eb2c406de4faee159f7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ((BigDecimal) value).byteValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "37bd050e90535b0d58940eb2c406de4faee159f7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ((BigDecimal) value).shortValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": 28,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": true,
+        "commits": [
+            "37bd050e90535b0d58940eb2c406de4faee159f7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "longValue = ((BigDecimal) value).longValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": 29,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "6a910d48242e2df6209c65f9267e06f3bb31ef61"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "longValue = ((BigDecimal) value).longValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 435,
+        "lineEnd": 435,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "6a910d48242e2df6209c65f9267e06f3bb31ef61"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "longValue = ((BigDecimal) value).longValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 488,
+        "lineEnd": 488,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "bf9a900bf281e1e48e92d552a3b56d9c97b9913a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "longValue = ((BigDecimal) value).longValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 531,
+        "lineEnd": 531,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "6a910d48242e2df6209c65f9267e06f3bb31ef61"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ((BigDecimal) value).longValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 584,
+        "lineEnd": 584,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": true,
+        "commits": [
+            "37bd050e90535b0d58940eb2c406de4faee159f7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ((BigDecimal) value).intValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 642,
+        "lineEnd": 642,
+        "lineMapIndex": 62,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": true,
+        "commits": [
+            "37bd050e90535b0d58940eb2c406de4faee159f7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return ((BigDecimal) value).intValueExact() == 1",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 698,
+        "lineEnd": 698,
+        "lineMapIndex": 63,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "7d2599c6760df1bfd5500bfd5743169c4a7dc738"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "int ordinal = ((BigDecimal) obj).intValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 950,
+        "lineEnd": 950,
+        "lineMapIndex": 64,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "7d2599c6760df1bfd5500bfd5743169c4a7dc738"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "longObject = number.longValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_LongCodec.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "37bd050e90535b0d58940eb2c406de4faee159f7"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.alibaba.fastjson.util.TypeUtils",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_SqlDateDeserializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 13,
+        "lineEnd": 13,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "val = (T) new java.sql.Date(TypeUtils.longValue((BigDecimal) val))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_SqlDateDeserializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": 0,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) new java.sql.Timestamp(TypeUtils.longValue((BigDecimal) val))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_SqlDateDeserializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 94,
+        "lineEnd": 94,
+        "lineMapIndex": 1,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "intObj = TypeUtils.intValue(number)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_IntegerCodec.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 86,
+        "lineEnd": 86,
+        "lineMapIndex": 2,
+        "methodParents": [
+            48
+        ],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import com.alibaba.fastjson.util.TypeUtils",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_TimeDeserializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) new java.sql.Time(TypeUtils.longValue((BigDecimal) val))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_TimeDeserializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 53,
+        "lineEnd": 53,
+        "lineMapIndex": 3,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (T) new java.util.Date(TypeUtils.longValue((BigDecimal) val))",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_DateCodec.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": 4,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "short shortValue = TypeUtils.shortValue(val)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_NumberDeserializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": 5,
+        "methodParents": [
+            41
+        ],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "byte byteValue = TypeUtils.byteValue(val)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_deserializer_NumberDeserializer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": 6,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return byteValue((BigDecimal) value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 142,
+        "lineEnd": 142,
+        "lineMapIndex": 7,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return shortValue((BigDecimal) value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 187,
+        "lineEnd": 187,
+        "lineMapIndex": 8,
+        "methodParents": [
+            41
+        ],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "longValue = longValue((BigDecimal) value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": 9,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "longValue = longValue((BigDecimal) value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 435,
+        "lineEnd": 435,
+        "lineMapIndex": 10,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "longValue = longValue((BigDecimal) value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 488,
+        "lineEnd": 488,
+        "lineMapIndex": 11,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "longValue = longValue((BigDecimal) value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 531,
+        "lineEnd": 531,
+        "lineMapIndex": 12,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return longValue((BigDecimal) value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 584,
+        "lineEnd": 584,
+        "lineMapIndex": 13,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "public static byte byteValue(BigDecimal decimal) ",
+        "dfgs": [
+            35,
+            36,
+            37,
+            40,
+            38,
+            39
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 632,
+        "lineEnd": 632,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36,
+            37
+        ],
+        "code": "if (decimal == null)",
+        "dfgs": [
+            37
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 633,
+        "lineEnd": 633,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return 0",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 634,
+        "lineEnd": 634,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "int scale = decimal.scale()",
+        "dfgs": [
+            40,
+            38,
+            39
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 637,
+        "lineEnd": 637,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39,
+            40
+        ],
+        "code": "if (scale >= -100 && scale <= 100)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 638,
+        "lineEnd": 638,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimal.byteValue()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 639,
+        "lineEnd": 639,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimal.byteValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 642,
+        "lineEnd": 642,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "public static short shortValue(BigDecimal decimal) ",
+        "dfgs": [
+            42,
+            43,
+            44,
+            47,
+            45,
+            46
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 645,
+        "lineEnd": 645,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            44
+        ],
+        "code": "if (decimal == null)",
+        "dfgs": [
+            44
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 646,
+        "lineEnd": 646,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return 0",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 647,
+        "lineEnd": 647,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "int scale = decimal.scale()",
+        "dfgs": [
+            47,
+            45,
+            46
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 650,
+        "lineEnd": 650,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46,
+            47
+        ],
+        "code": "if (scale >= -100 && scale <= 100)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 651,
+        "lineEnd": 651,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimal.shortValue()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 652,
+        "lineEnd": 652,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimal.shortValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 655,
+        "lineEnd": 655,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "public static int intValue(BigDecimal decimal) ",
+        "dfgs": [
+            49,
+            50,
+            51,
+            54,
+            52,
+            53
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 658,
+        "lineEnd": 658,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50,
+            51
+        ],
+        "code": "if (decimal == null)",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 659,
+        "lineEnd": 659,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return 0",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 660,
+        "lineEnd": 660,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "int scale = decimal.scale()",
+        "dfgs": [
+            54,
+            52,
+            53
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 663,
+        "lineEnd": 663,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53,
+            54
+        ],
+        "code": "if (scale >= -100 && scale <= 100)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 664,
+        "lineEnd": 664,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimal.intValue()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 665,
+        "lineEnd": 665,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimal.intValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 668,
+        "lineEnd": 668,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "public static long longValue(BigDecimal decimal) ",
+        "dfgs": [
+            56,
+            57,
+            58,
+            61,
+            59,
+            60
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 671,
+        "lineEnd": 671,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57,
+            58
+        ],
+        "code": "if (decimal == null)",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 672,
+        "lineEnd": 672,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return 0",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 673,
+        "lineEnd": 673,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "int scale = decimal.scale()",
+        "dfgs": [
+            61,
+            59,
+            60
+        ],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 676,
+        "lineEnd": 676,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60,
+            61
+        ],
+        "code": "if (scale >= -100 && scale <= 100)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 677,
+        "lineEnd": 677,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimal.longValue()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 678,
+        "lineEnd": 678,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return decimal.longValueExact()",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 681,
+        "lineEnd": 681,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return intValue((BigDecimal) value)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 694,
+        "lineEnd": 694,
+        "lineMapIndex": 14,
+        "methodParents": [
+            48
+        ],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return intValue((BigDecimal) value) == 1",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 750,
+        "lineEnd": 750,
+        "lineMapIndex": 15,
+        "methodParents": [
+            48
+        ],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int ordinal = intValue((BigDecimal) obj)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_util_TypeUtils.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1002,
+        "lineEnd": 1002,
+        "lineMapIndex": 16,
+        "methodParents": [
+            48
+        ],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "longObject = TypeUtils.longValue(number)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_serializer_LongCodec.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 70,
+        "lineEnd": 70,
+        "lineMapIndex": 17,
+        "methodParents": [
+            55
+        ],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    }
+]

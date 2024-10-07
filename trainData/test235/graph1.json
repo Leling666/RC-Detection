@@ -1,0 +1,623 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "createDir(getTestCaseDir() + \"/2009/01/29/\")",
+        "dfgs": [
+            1
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "77f5d088acce7dfe0f4dd2091439a3afbdb77236"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "checkCoordAction(job.getId() + \"@1\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": 20,
+        "methodParents": [
+            5
+        ],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "2863beecac126fe42a69f153036b64f9c6f2325a"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "createDir(getTestCaseDir() + \"/2009/02/12/\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "77f5d088acce7dfe0f4dd2091439a3afbdb77236"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "int index = missDepsOrder.indexOf(\"/2009/02/12\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 193,
+        "lineEnd": 193,
+        "lineMapIndex": 27,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "77f5d088acce7dfe0f4dd2091439a3afbdb77236"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "else",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 839,
+        "lineEnd": 839,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "77f5d088acce7dfe0f4dd2091439a3afbdb77236"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "private void checkCoordAction(String actionId) ",
+        "dfgs": [
+            14,
+            9,
+            8,
+            10,
+            12,
+            15,
+            7,
+            11,
+            13
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 891,
+        "lineEnd": 891,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "9ee27f9a44ba357dcfe672c666a235418b756a95"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 892,
+        "lineEnd": 892,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "9ee27f9a44ba357dcfe672c666a235418b756a95"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "JPAService jpaService = Services.get().get(JPAService.class)",
+        "dfgs": [
+            8
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 893,
+        "lineEnd": 893,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "2863beecac126fe42a69f153036b64f9c6f2325a"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "CoordinatorActionBean action = jpaService.execute(new CoordActionGetJPAExecutor(actionId))",
+        "dfgs": [
+            15,
+            9
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 894,
+        "lineEnd": 894,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "9ee27f9a44ba357dcfe672c666a235418b756a95"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "System.out.println(\"missingDeps \" + action.getMissingDependencies() + \" Xml \" + action.getActionXml())",
+        "dfgs": [
+            10
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 895,
+        "lineEnd": 895,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "9ee27f9a44ba357dcfe672c666a235418b756a95"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            12
+        ],
+        "code": "if (action.getMissingDependencies().indexOf(\"/2009/01/29/\") >= 0)",
+        "dfgs": [
+            12,
+            11
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 896,
+        "lineEnd": 896,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "77f5d088acce7dfe0f4dd2091439a3afbdb77236"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "fail(\"directory should be resolved :\" + action.getMissingDependencies())",
+        "dfgs": [
+            15,
+            13,
+            12
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 897,
+        "lineEnd": 897,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "9ee27f9a44ba357dcfe672c666a235418b756a95"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            14
+        ],
+        "code": "if (action.getMissingDependencies().indexOf(\"/2009/01/15/\") < 0)",
+        "dfgs": [
+            13
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 899,
+        "lineEnd": 899,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "77f5d088acce7dfe0f4dd2091439a3afbdb77236"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "fail(\"directory should NOT be resolved :\" + action.getMissingDependencies())",
+        "dfgs": [
+            15
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 900,
+        "lineEnd": 900,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "9ee27f9a44ba357dcfe672c666a235418b756a95"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "catch (JPAExecutorException se)",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 903,
+        "lineEnd": 903,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "9ee27f9a44ba357dcfe672c666a235418b756a95"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fail(\"Action ID \" + actionId + \" was not stored properly in db\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 904,
+        "lineEnd": 904,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "9ee27f9a44ba357dcfe672c666a235418b756a95"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ParamChecker.checkLEZero(start, \"current:n\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_coord_CoordELFunctions.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 527,
+        "lineEnd": 527,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "24fedae651b26b0f5fb980e96f26ae39fc92e89f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "ParamChecker.checkLEZero(end, \"current:n\")",
+        "dfgs": [],
+        "fName": "core_src_main_java_org_apache_oozie_coord_CoordELFunctions.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 528,
+        "lineEnd": 528,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "24fedae651b26b0f5fb980e96f26ae39fc92e89f"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "createDir(getTestCaseDir() + \"/2009/02/05/\")",
+        "dfgs": [
+            23,
+            25
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "JPAService jpaService = Services.get().get(JPAService.class)",
+        "dfgs": [
+            20
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "CoordinatorActionBean action = jpaService.execute(new CoordActionGetJPAExecutor(job.getId() + \"@1\"))",
+        "dfgs": [
+            21
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 161,
+        "lineEnd": 161,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "System.out.println(\"missingDeps \" + action.getMissingDependencies() + \" Xml \" + action.getActionXml())",
+        "dfgs": [
+            22
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23,
+            24
+        ],
+        "code": "if (action.getMissingDependencies().indexOf(\"/2009/02/05/\") >= 0)",
+        "dfgs": [
+            24,
+            23
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 163,
+        "lineEnd": 163,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "fail(\"directory should be resolved :\" + action.getMissingDependencies())",
+        "dfgs": [
+            25,
+            24
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 164,
+        "lineEnd": 164,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "if (action.getMissingDependencies().indexOf(\"/2009/01/15/\") < 0)",
+        "dfgs": [
+            25
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fail(\"directory should NOT be resolved :\" + action.getMissingDependencies())",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 167,
+        "lineEnd": 167,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "createDir(getTestCaseDir() + \"/2009/02/19/\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "int index = missDepsOrder.indexOf(\"/2009/02/19\")",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 201,
+        "lineEnd": 201,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "if (dataInType.equals(\"latest\"))",
+        "dfgs": [
+            29
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 847,
+        "lineEnd": 847,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "if (dataInType.equals(\"current\"))",
+        "dfgs": [
+            30,
+            31
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 851,
+        "lineEnd": 851,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "appXml += \"<start-instance>${coord:\" + dataInType + \"(-3)}</start-instance>\"",
+        "dfgs": [
+            31
+        ],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 852,
+        "lineEnd": 852,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "appXml += \"<end-instance>${coord:\" + dataInType + \"(1)}</end-instance>\"",
+        "dfgs": [],
+        "fName": "core_src_test_java_org_apache_oozie_command_coord_TestCoordActionInputCheckXCommand.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 853,
+        "lineEnd": 853,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "cfgs": [],
+        "code": "import com.google.javascript.rhino.jstype.JSType.TypePair",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_UnionType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 46,
+        "lineEnd": 46,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "66485d3df654fa92b7500d5e15b58300677edca3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (result != null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_UnionType.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 292,
+        "lineEnd": 292,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "1be1c2636ef14071afa7da5cb8988972bd90149f"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "UnionType numStr = (UnionType) createUnionType(NULL_TYPE, EVAL_ERROR_TYPE, URI_ERROR_TYPE)",
+        "dfgs": [
+            3
+        ],
+        "fName": "test_com_google_javascript_rhino_jstype_UnionTypeTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 148,
+        "lineEnd": 149,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "1be1c2636ef14071afa7da5cb8988972bd90149f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(createUnionType(EVAL_ERROR_TYPE, URI_ERROR_TYPE),numStr.getGreatestSubtype(ERROR_TYPE))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_rhino_jstype_UnionTypeTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 150,
+        "lineEnd": 151,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "1be1c2636ef14071afa7da5cb8988972bd90149f"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!result.isNoType())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_rhino_jstype_UnionType.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "UnionType errUnion = (UnionType) createUnionType(NULL_TYPE, EVAL_ERROR_TYPE, URI_ERROR_TYPE)",
+        "dfgs": [
+            6
+        ],
+        "fName": "test_com_google_javascript_rhino_jstype_UnionTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 148,
+        "lineEnd": 149,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(createUnionType(EVAL_ERROR_TYPE, URI_ERROR_TYPE),errUnion.getGreatestSubtype(ERROR_TYPE))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_rhino_jstype_UnionTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 150,
+        "lineEnd": 151,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public void testGreatestSubtypeUnionTypes5() throws Exception ",
+        "dfgs": [
+            9,
+            8
+        ],
+        "fName": "test_com_google_javascript_rhino_jstype_UnionTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "JSType errUnion = createUnionType(EVAL_ERROR_TYPE, URI_ERROR_TYPE)",
+        "dfgs": [
+            9
+        ],
+        "fName": "test_com_google_javascript_rhino_jstype_UnionTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(NO_OBJECT_TYPE,errUnion.getGreatestSubtype(STRING_OBJECT_TYPE))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_rhino_jstype_UnionTypeTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 160,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    }
+]

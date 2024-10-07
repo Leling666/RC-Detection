@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "String finalValue = headerValue.replaceAll(\"\\\\s+\", \"\").replaceAll(\"\\\\n\",\"\").replaceAll(\"[^\\\\x20-\\\\x7E]+\", \" \")",
+        "dfgs": [],
+        "fName": "src_android_FileTransfer.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 222,
+        "lineEnd": 222,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "ad6647120db12f0e67ee4a952a71ea494a39a475"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "String finalValue = headerValue.replaceAll(\"\\\\s+\", \" \").replaceAll(\"\\\\n\",\" \").replaceAll(\"[^\\\\x20-\\\\x7E]+\", \" \")",
+        "dfgs": [],
+        "fName": "src_android_FileTransfer.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 222,
+        "lineEnd": 222,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

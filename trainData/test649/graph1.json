@@ -1,0 +1,1699 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "unionThetaLong_ = min(unionThetaLong_, sketchIn.getThetaLong())",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 267,
+        "lineEnd": 267,
+        "lineMapIndex": 41,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "efd59a262e01a6a70324333460b0b9b63acf686a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unionEmpty_ = unionEmpty_ && sketchIn.isEmpty()",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": 42,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "f0477af1db1bd4b8ea7f389ee1c43b87d7500b8d"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "unionThetaLong_ = min(unionThetaLong_, thetaLongIn)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 417,
+        "lineEnd": 417,
+        "lineMapIndex": 58,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "b43edcc9d2b128383d89b3e6b3f556717cd5870a"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "final int curCount = skMem.getInt(RETAINED_ENTRIES_INT)",
+        "dfgs": [
+            4,
+            5
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 418,
+        "lineEnd": 418,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "47f8346ca4be9154d01da246fedefaf4a9c57257"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "for (int i = 0; i < curCount; i++ )",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 420,
+        "lineEnd": 420,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "b43edcc9d2b128383d89b3e6b3f556717cd5870a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unionEmpty_ = unionEmpty_ && gadget_.isEmpty()",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 427,
+        "lineEnd": 427,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "f0477af1db1bd4b8ea7f389ee1c43b87d7500b8d"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Util.checkSeedHashes(seedHash_, skMem.getShort(SEED_HASH_SHORT))",
+        "dfgs": [
+            8,
+            7
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 433,
+        "lineEnd": 433,
+        "lineMapIndex": 43,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "e97422792b71f29c60ead3b8672da1846c90d1ff"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "unionThetaLong_ = min(unionThetaLong_, thetaLongIn)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 446,
+        "lineEnd": 446,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "b43edcc9d2b128383d89b3e6b3f556717cd5870a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unionEmpty_ = unionEmpty_ && gadget_.isEmpty()",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 454,
+        "lineEnd": 454,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "f0477af1db1bd4b8ea7f389ee1c43b87d7500b8d"
+        ]
+    },
+    {
+        "cfgs": [
+            11,
+            15,
+            17
+        ],
+        "code": "Util.checkSeedHashes(seedHash_, skMem.getShort(SEED_HASH_SHORT))",
+        "dfgs": [
+            22,
+            11,
+            15,
+            17
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 460,
+        "lineEnd": 460,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "e97422792b71f29c60ead3b8672da1846c90d1ff"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final int curCount",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 462,
+        "lineEnd": 462,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "15184ccaed36ddca77efbbcdc14847ca5a740e93"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "final int flags = skMem.getByte(FLAGS_BYTE)",
+        "dfgs": [
+            12,
+            22,
+            21
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 465,
+        "lineEnd": 465,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "15184ccaed36ddca77efbbcdc14847ca5a740e93"
+        ]
+    },
+    {
+        "cfgs": [
+            13,
+            14
+        ],
+        "code": "if (flags == (READ_ONLY_FLAG_MASK | COMPACT_FLAG_MASK | ORDERED_FLAG_MASK))",
+        "dfgs": [
+            22,
+            21
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 466,
+        "lineEnd": 466,
+        "lineMapIndex": 69,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "15184ccaed36ddca77efbbcdc14847ca5a740e93"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "curCount = 1",
+        "dfgs": [
+            21,
+            20
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": 70,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "15184ccaed36ddca77efbbcdc14847ca5a740e93"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 470,
+        "lineEnd": 470,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "efd59a262e01a6a70324333460b0b9b63acf686a"
+        ]
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "curCount = skMem.getInt(RETAINED_ENTRIES_INT)",
+        "dfgs": [
+            22,
+            21,
+            16
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": 72,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "15184ccaed36ddca77efbbcdc14847ca5a740e93"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "assert curCount > 0",
+        "dfgs": [
+            21,
+            20
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 475,
+        "lineEnd": 475,
+        "lineMapIndex": 73,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": [
+            "b43edcc9d2b128383d89b3e6b3f556717cd5870a"
+        ]
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "curCount = skMem.getInt(RETAINED_ENTRIES_INT)",
+        "dfgs": [
+            18,
+            19,
+            22,
+            21
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 479,
+        "lineEnd": 479,
+        "lineMapIndex": 74,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": [
+            "15184ccaed36ddca77efbbcdc14847ca5a740e93"
+        ]
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "assert curCount > 0",
+        "dfgs": [
+            21,
+            20
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 480,
+        "lineEnd": 480,
+        "lineMapIndex": 75,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": [
+            "15184ccaed36ddca77efbbcdc14847ca5a740e93"
+        ]
+    },
+    {
+        "cfgs": [
+            20,
+            21
+        ],
+        "code": "unionThetaLong_ = min(unionThetaLong_, thetaLongIn)",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 483,
+        "lineEnd": 483,
+        "lineMapIndex": 76,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": [
+            "2b8e741f891af66dd2d7851f7991caa2d2b22e4b"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "for (int i = 0; i < curCount; i++ )",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 486,
+        "lineEnd": 486,
+        "lineMapIndex": 78,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": [
+            "b43edcc9d2b128383d89b3e6b3f556717cd5870a"
+        ]
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "final int size = (compact) ? curCount : 1 << skMem.getByte(LG_ARR_LONGS_BYTE)",
+        "dfgs": [
+            22
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 495,
+        "lineEnd": 495,
+        "lineMapIndex": 79,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "47f8346ca4be9154d01da246fedefaf4a9c57257"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "unionEmpty_ = unionEmpty_ && gadget_.isEmpty()",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 504,
+        "lineEnd": 504,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "f0477af1db1bd4b8ea7f389ee1c43b87d7500b8d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void checkForDruidBug2() ",
+        "dfgs": [],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 806,
+        "lineEnd": 806,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "final int k = 16384",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 807,
+        "lineEnd": 807,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "final UpdateSketch usk = UpdateSketch.builder().setNominalEntries(k).build()",
+        "dfgs": [
+            28,
+            27,
+            31
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 808,
+        "lineEnd": 808,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27,
+            28
+        ],
+        "code": "for (int i = 0; i < 100000; i++)",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 809,
+        "lineEnd": 809,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "usk.update(Integer.toString(i))",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 810,
+        "lineEnd": 810,
+        "lineMapIndex": -1,
+        "methodParents": [
+            41
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "usk.rebuild()",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 812,
+        "lineEnd": 812,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "final WritableMemory memIn = WritableMemory.allocate(usk.getCurrentBytes(true))",
+        "dfgs": [
+            30,
+            31
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 813,
+        "lineEnd": 813,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "usk.compact(true, memIn)",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 814,
+        "lineEnd": 814,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "final WritableMemory mem = WritableMemory.wrap(new byte[getMaxUnionBytes(k)])",
+        "dfgs": [
+            35,
+            32
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 817,
+        "lineEnd": 817,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "Union union1 = SetOperation.builder().setNominalEntries(k).buildUnion(mem)",
+        "dfgs": [
+            33
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 818,
+        "lineEnd": 818,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "union1.update(memIn)",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 820,
+        "lineEnd": 820,
+        "lineMapIndex": -1,
+        "methodParents": [
+            41
+        ],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "CompactSketch csk = union1.getResult()",
+        "dfgs": [
+            35
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 822,
+        "lineEnd": 822,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "assertTrue(csk.getTheta() < 0.2)",
+        "dfgs": [
+            36
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 824,
+        "lineEnd": 824,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "assertEquals(csk.getRetainedEntries(), 16384)",
+        "dfgs": [
+            38,
+            37
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 825,
+        "lineEnd": 825,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "final double est = csk.getEstimate()",
+        "dfgs": [
+            38
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 826,
+        "lineEnd": 826,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "assertTrue(est > 98663.0)",
+        "dfgs": [
+            39
+        ],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 827,
+        "lineEnd": 827,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(est < 101530.0)",
+        "dfgs": [],
+        "fName": "src_test_java_com_yahoo_sketches_theta_DirectUnionTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 828,
+        "lineEnd": 828,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import static com.yahoo.sketches.theta.PreambleUtil.EMPTY_FLAG_MASK",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 11,
+        "lineEnd": 11,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "unionThetaLong_ = min(min(unionThetaLong_, sketchIn.getThetaLong()), gadget_.getThetaLong())",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 268,
+        "lineEnd": 268,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "unionEmpty_ = unionEmpty_ && sketchIn.isEmpty() && gadget_.isEmpty()",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 269,
+        "lineEnd": 269,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Util.checkSeedHashes(seedHash_, skMem.getShort(SEED_HASH_SHORT))",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 337,
+        "lineEnd": 337,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Util.checkSeedHashes(seedHash_, skMem.getShort(SEED_HASH_SHORT))",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "final int curCountIn = skMem.getInt(RETAINED_ENTRIES_INT)",
+        "dfgs": [
+            47,
+            50,
+            52,
+            51
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 420,
+        "lineEnd": 420,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "unionThetaLong_ = min(min(unionThetaLong_, thetaLongIn), gadget_.getThetaLong())",
+        "dfgs": [
+            50,
+            52,
+            51,
+            48
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 421,
+        "lineEnd": 421,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "final boolean emptyIn = curCountIn == 0",
+        "dfgs": [
+            49,
+            48
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 422,
+        "lineEnd": 422,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "unionEmpty_ = unionEmpty_ && emptyIn && gadget_.isEmpty()",
+        "dfgs": [
+            50,
+            52,
+            51
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 423,
+        "lineEnd": 423,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50
+        ],
+        "code": "for (int i = 0; i < curCountIn; i++ )",
+        "dfgs": [
+            50,
+            52,
+            51
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 426,
+        "lineEnd": 426,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "if (gadget_.hasMemory())",
+        "dfgs": [
+            51
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 433,
+        "lineEnd": 433,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "final WritableMemory wmem = (WritableMemory)gadget_.getMemory()",
+        "dfgs": [
+            52
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 434,
+        "lineEnd": 434,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "PreambleUtil.insertUnionThetaLong(wmem, unionThetaLong_)",
+        "dfgs": [
+            54,
+            56
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 435,
+        "lineEnd": 435,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54,
+            55
+        ],
+        "code": "if (unionEmpty_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 436,
+        "lineEnd": 436,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PreambleUtil.setEmpty(wmem)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 437,
+        "lineEnd": 437,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 438,
+        "lineEnd": 438,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PreambleUtil.clearEmpty(wmem)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 439,
+        "lineEnd": 439,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "final int flags = skMem.getByte(FLAGS_BYTE) & 0X3F",
+        "dfgs": [
+            60,
+            62,
+            61,
+            58,
+            59
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 450,
+        "lineEnd": 450,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "unionThetaLong_ = min(min(unionThetaLong_, thetaLongIn), gadget_.getThetaLong())",
+        "dfgs": [
+            60,
+            62,
+            61,
+            59
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 460,
+        "lineEnd": 460,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60
+        ],
+        "code": "unionEmpty_ = unionEmpty_ && ((flags & EMPTY_FLAG_MASK) > 0) && gadget_.isEmpty()",
+        "dfgs": [
+            60,
+            62,
+            61
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 461,
+        "lineEnd": 461,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "if (gadget_.hasMemory())",
+        "dfgs": [
+            61
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "final WritableMemory wmem = (WritableMemory)gadget_.getMemory()",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 470,
+        "lineEnd": 470,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "PreambleUtil.insertUnionThetaLong(wmem, unionThetaLong_)",
+        "dfgs": [
+            64,
+            66
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 471,
+        "lineEnd": 471,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64,
+            65
+        ],
+        "code": "if (unionEmpty_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PreambleUtil.setEmpty(wmem)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            66
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PreambleUtil.clearEmpty(wmem)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 475,
+        "lineEnd": 475,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final int curCountIn",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 484,
+        "lineEnd": 484,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69,
+            72,
+            74
+        ],
+        "code": "final int flags = skMem.getByte(FLAGS_BYTE) & 0X3F",
+        "dfgs": [
+            69,
+            80,
+            82,
+            81,
+            79,
+            77,
+            72,
+            74
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 486,
+        "lineEnd": 486,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70,
+            71
+        ],
+        "code": "if (flags == (READ_ONLY_FLAG_MASK | COMPACT_FLAG_MASK | ORDERED_FLAG_MASK))",
+        "dfgs": [
+            80,
+            82,
+            81,
+            79,
+            77
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 488,
+        "lineEnd": 488,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "curCountIn = 1",
+        "dfgs": [
+            79,
+            78
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 489,
+        "lineEnd": 489,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 493,
+        "lineEnd": 493,
+        "lineMapIndex": 14,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "curCountIn = skMem.getInt(RETAINED_ENTRIES_INT)",
+        "dfgs": [
+            80,
+            82,
+            81,
+            79,
+            73
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 497,
+        "lineEnd": 497,
+        "lineMapIndex": 15,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "assert curCountIn > 0",
+        "dfgs": [
+            79,
+            78
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 498,
+        "lineEnd": 498,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "curCountIn = skMem.getInt(RETAINED_ENTRIES_INT)",
+        "dfgs": [
+            75,
+            76,
+            80,
+            82,
+            81,
+            79
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 502,
+        "lineEnd": 502,
+        "lineMapIndex": 17,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "assert curCountIn > 0",
+        "dfgs": [
+            79,
+            78
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 503,
+        "lineEnd": 503,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "unionThetaLong_ = min(min(unionThetaLong_, thetaLongIn), gadget_.getThetaLong())",
+        "dfgs": [
+            80,
+            82,
+            81,
+            77
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 506,
+        "lineEnd": 506,
+        "lineMapIndex": 19,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78,
+            79
+        ],
+        "code": "unionEmpty_ = unionEmpty_ && ((flags & EMPTY_FLAG_MASK) > 0)  && gadget_.isEmpty()",
+        "dfgs": [
+            80,
+            82,
+            81
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "for (int i = 0; i < curCountIn; i++ )",
+        "dfgs": [
+            80,
+            82,
+            81
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 510,
+        "lineEnd": 510,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            80
+        ],
+        "code": "final int size = (compact) ? curCountIn : 1 << skMem.getByte(LG_ARR_LONGS_BYTE)",
+        "dfgs": [
+            80,
+            82,
+            81
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 519,
+        "lineEnd": 519,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "if (gadget_.hasMemory())",
+        "dfgs": [
+            81
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 528,
+        "lineEnd": 528,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            82
+        ],
+        "code": "final WritableMemory wmem = (WritableMemory)gadget_.getMemory()",
+        "dfgs": [
+            82
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 529,
+        "lineEnd": 529,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "PreambleUtil.insertUnionThetaLong(wmem, unionThetaLong_)",
+        "dfgs": [
+            84,
+            86
+        ],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 530,
+        "lineEnd": 530,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            84,
+            85
+        ],
+        "code": "if (unionEmpty_)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 531,
+        "lineEnd": 531,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PreambleUtil.setEmpty(wmem)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 532,
+        "lineEnd": 532,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 84,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            86
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 533,
+        "lineEnd": 533,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 85,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "PreambleUtil.clearEmpty(wmem)",
+        "dfgs": [],
+        "fName": "src_main_java_com_yahoo_sketches_theta_UnionImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 534,
+        "lineEnd": 534,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 86,
+        "rootcause": false,
+        "commits": []
+    }
+]

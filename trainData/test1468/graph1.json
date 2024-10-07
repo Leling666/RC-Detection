@@ -1,0 +1,357 @@
+[
+    {
+        "cfgs": [
+            1,
+            2,
+            4
+        ],
+        "code": "StringBuilder sb = new StringBuilder()",
+        "dfgs": [
+            4,
+            1,
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1477,
+        "lineEnd": 1477,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            4
+        ],
+        "code": "if (sb.length() > 0)",
+        "dfgs": [
+            4,
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1483,
+        "lineEnd": 1483,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            3,
+            4
+        ],
+        "code": "if (sb.length() > 0)",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1488,
+        "lineEnd": 1488,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "sb = new StringBuilder()",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1492,
+        "lineEnd": 1492,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (sb.length() > 0)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1500,
+        "lineEnd": 1500,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [
+            6,
+            9,
+            11
+        ],
+        "code": "StringBuilder sb = null",
+        "dfgs": [
+            11,
+            6,
+            9
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1477,
+        "lineEnd": 1477,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7,
+            8
+        ],
+        "code": "if (sb == null)",
+        "dfgs": [
+            11,
+            9
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1483,
+        "lineEnd": 1483,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9,
+            11
+        ],
+        "code": "sb = new StringBuilder()",
+        "dfgs": [
+            11,
+            9
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1484,
+        "lineEnd": 1484,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9,
+            11
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1485,
+        "lineEnd": 1485,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10,
+            11
+        ],
+        "code": "if (sb != null)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1490,
+        "lineEnd": 1490,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "sb = null",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1494,
+        "lineEnd": 1494,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "if (sb != null)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_FoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1502,
+        "lineEnd": 1502,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "foldSame(\"x = ['', foo].join(',')\")",
+        "dfgs": [
+            13
+        ],
+        "fName": "test_com_google_javascript_jscomp_FoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 646,
+        "lineEnd": 646,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "foldSame(\"x = ['', foo, ''].join(',')\")",
+        "dfgs": [
+            14
+        ],
+        "fName": "test_com_google_javascript_jscomp_FoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 647,
+        "lineEnd": 647,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "fold(\"x = ['', '', foo, ''].join(',')\", \"x = [',', foo, ''].join(',')\")",
+        "dfgs": [
+            15
+        ],
+        "fName": "test_com_google_javascript_jscomp_FoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 649,
+        "lineEnd": 649,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "fold(\"x = ['', '', foo, '', ''].join(',')\",\"x = [',', foo, ','].join(',')\")",
+        "dfgs": [
+            16
+        ],
+        "fName": "test_com_google_javascript_jscomp_FoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 650,
+        "lineEnd": 651,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "fold(\"x = ['', '', foo, '', '', bar].join(',')\",\"x = [',', foo, ',', bar].join(',')\")",
+        "dfgs": [
+            17
+        ],
+        "fName": "test_com_google_javascript_jscomp_FoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 653,
+        "lineEnd": 654,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fold(\"x = [1,2,3].join('abcdef')\",\"x = '1abcdef2abcdef3'\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_FoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 656,
+        "lineEnd": 657,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    }
+]

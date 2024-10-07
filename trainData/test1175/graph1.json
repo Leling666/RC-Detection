@@ -1,0 +1,228 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "Assert.assertSame(\"Totals connections not as expected\", 1, ds.pool.getTotalConnections())",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_test_java_com_zaxxer_hikari_CreationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "c967f3778d8e523f4be0fa1753ea294242a82f59"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "Assert.assertSame(\"Idle connections not as expected\", 0, ds.pool.getIdleConnections())",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "src_test_java_com_zaxxer_hikari_CreationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "c967f3778d8e523f4be0fa1753ea294242a82f59"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "Assert.assertSame(\"Totals connections not as expected\", 1, ds.pool.getTotalConnections())",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_test_java_com_zaxxer_hikari_CreationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "c967f3778d8e523f4be0fa1753ea294242a82f59"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertSame(\"Idle connections not as expected\", 1, ds.pool.getIdleConnections())",
+        "dfgs": [],
+        "fName": "src_test_java_com_zaxxer_hikari_CreationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "c967f3778d8e523f4be0fa1753ea294242a82f59"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "houseKeepingTimer.scheduleAtFixedRate(new HouseKeeper(), delayPeriod * 2, delayPeriod)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_main_java_com_zaxxer_hikari_HikariPool.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "509db370d79491aea34133e6886f57c2ed1b6908"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fillPool()",
+        "dfgs": [],
+        "fName": "src_main_java_com_zaxxer_hikari_HikariPool.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 115,
+        "lineEnd": 115,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "8b0911baabc2eb2d4b94f0a1389a5039a5661911"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "Assert.assertSame(\"Second totals connections not as expected\", 1, ds.pool.getTotalConnections())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_com_zaxxer_hikari_CreationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 112,
+        "lineEnd": 112,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Assert.assertSame(\"Second idle connections not as expected\", 0, ds.pool.getIdleConnections())",
+        "dfgs": [
+            8,
+            9
+        ],
+        "fName": "src_test_java_com_zaxxer_hikari_CreationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 113,
+        "lineEnd": 113,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "Assert.assertSame(\"Post totals connections not as expected\", 1, ds.pool.getTotalConnections())",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_test_java_com_zaxxer_hikari_CreationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 129,
+        "lineEnd": 129,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Assert.assertSame(\"Post idle connections not as expected\", 1, ds.pool.getIdleConnections())",
+        "dfgs": [],
+        "fName": "src_test_java_com_zaxxer_hikari_CreationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 130,
+        "lineEnd": 130,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "fillPool()",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_com_zaxxer_hikari_HikariPool.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 108,
+        "lineEnd": 108,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "houseKeepingTimer.scheduleAtFixedRate(new HouseKeeper(), delayPeriod, delayPeriod)",
+        "dfgs": [],
+        "fName": "src_main_java_com_zaxxer_hikari_HikariPool.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 114,
+        "lineEnd": 114,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    }
+]

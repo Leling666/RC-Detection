@@ -1,0 +1,823 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "switch (left.getType()) ",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 908,
+        "lineEnd": 908,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "c9e89727dc8063d087d28e42629606f4fd74a6e5"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3
+        ],
+        "code": "int rhType = right.getType()",
+        "dfgs": [
+            2,
+            3
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 926,
+        "lineEnd": 926,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "510ff24ac51a8c73ff3f2401379654c37a00546b"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "result = left.getType() == right.getType()",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 935,
+        "lineEnd": 935,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "c9e89727dc8063d087d28e42629606f4fd74a6e5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "result = left.getType() != right.getType()",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 940,
+        "lineEnd": 940,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "c9e89727dc8063d087d28e42629606f4fd74a6e5"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fold(\"x = true == true\", \"x = true\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 619,
+        "lineEnd": 619,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "9925370292834ea846727f1f9db76af0d40261df"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "fold(\"x = true === true\", \"x = true\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 669,
+        "lineEnd": 669,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "9925370292834ea846727f1f9db76af0d40261df"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "private static final List<String> LITERAL_OPERANDS =ImmutableList.of(\"null\",\"undefined\",\"void 0\",\"true\",\"false\",\"0\",\"1\",\"''\",\"'123'\",\"'abc'\",\"'def'\",\"NaN\",\"Infinity\"// TODO(nicksantos): Add more literals//-Infinity//\"({})\",//\"[]\",//\"[0]\",//\"Object\",//\"(function() {})\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 1042,
+        "lineEnd": 1064,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "bb877849306e221202b283f9b8eb3873d7bdc9ae",
+            "eaaa156632369f88e9667f55c7761cef8367cf57"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "int lhType = getNormalizedNodeType(left)",
+        "dfgs": [
+            8,
+            10,
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 907,
+        "lineEnd": 907,
+        "lineMapIndex": -1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10,
+            11
+        ],
+        "code": "int rhType = getNormalizedNodeType(right)",
+        "dfgs": [
+            10,
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 908,
+        "lineEnd": 908,
+        "lineMapIndex": 1,
+        "methodParents": [
+            12
+        ],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "switch (lhType) ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 909,
+        "lineEnd": 909,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "result = lhType == rhType",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 935,
+        "lineEnd": 935,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "result = lhType != rhType",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 940,
+        "lineEnd": 940,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "private int getNormalizedNodeType(Node n) ",
+        "dfgs": [
+            20,
+            13,
+            14,
+            16,
+            15,
+            17,
+            18,
+            19
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1074,
+        "lineEnd": 1074,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "int type = n.getType()",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1075,
+        "lineEnd": 1075,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            20
+        ],
+        "code": "if (type == Token.NOT)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1076,
+        "lineEnd": 1076,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18,
+            19,
+            20
+        ],
+        "code": "TernaryValue value = NodeUtil.getPureBooleanValue(n)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1077,
+        "lineEnd": 1077,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "switch (value) ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1078,
+        "lineEnd": 1078,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "case TRUE",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1079,
+        "lineEnd": 1079,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Token.TRUE",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1080,
+        "lineEnd": 1080,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return Token.FALSE",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1082,
+        "lineEnd": 1082,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return type",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_PeepholeFoldConstants.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1085,
+        "lineEnd": 1085,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fold(\"x = false == false\", \"x = true\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 619,
+        "lineEnd": 619,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fold(\"x = false === false\", \"x = true\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 669,
+        "lineEnd": 669,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "public void testFoldComparison3() ",
+        "dfgs": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 699,
+        "lineEnd": 699,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "fold(\"x = !1 == !0\", \"x = false\")",
+        "dfgs": [
+            25
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 700,
+        "lineEnd": 700,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "fold(\"x = !0 == !0\", \"x = true\")",
+        "dfgs": [
+            26
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 702,
+        "lineEnd": 702,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "fold(\"x = !1 == !1\", \"x = true\")",
+        "dfgs": [
+            27
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 703,
+        "lineEnd": 703,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "fold(\"x = !1 == null\", \"x = false\")",
+        "dfgs": [
+            28
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 704,
+        "lineEnd": 704,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "fold(\"x = !1 == !0\", \"x = false\")",
+        "dfgs": [
+            29
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 705,
+        "lineEnd": 705,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "fold(\"x = !0 == null\", \"x = false\")",
+        "dfgs": [
+            30
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 706,
+        "lineEnd": 706,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "fold(\"!0 == !0\", \"true\")",
+        "dfgs": [
+            31
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 708,
+        "lineEnd": 708,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "fold(\"!1 == null\", \"false\")",
+        "dfgs": [
+            32
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 709,
+        "lineEnd": 709,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "fold(\"!1 == !0\", \"false\")",
+        "dfgs": [
+            33
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 710,
+        "lineEnd": 710,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "fold(\"!0 == null\", \"false\")",
+        "dfgs": [
+            34
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 711,
+        "lineEnd": 711,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "fold(\"x = !0 === !0\", \"x = true\")",
+        "dfgs": [
+            35
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 713,
+        "lineEnd": 713,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            36
+        ],
+        "code": "fold(\"x = !1 === !1\", \"x = true\")",
+        "dfgs": [
+            36
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 714,
+        "lineEnd": 714,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "fold(\"x = !1 === null\", \"x = false\")",
+        "dfgs": [
+            37
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 715,
+        "lineEnd": 715,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "fold(\"x = !1 === !0\", \"x = false\")",
+        "dfgs": [
+            38
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 716,
+        "lineEnd": 716,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "fold(\"x = !0 === null\", \"x = false\")",
+        "dfgs": [
+            39
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 717,
+        "lineEnd": 717,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "fold(\"!0 === !0\", \"true\")",
+        "dfgs": [
+            40
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 719,
+        "lineEnd": 719,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "fold(\"!1 === null\", \"false\")",
+        "dfgs": [
+            41
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 720,
+        "lineEnd": 720,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "fold(\"!1 === !0\", \"false\")",
+        "dfgs": [
+            42
+        ],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 721,
+        "lineEnd": 721,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "fold(\"!0 === null\", \"false\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 722,
+        "lineEnd": 722,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final List<String> LITERAL_OPERANDS =ImmutableList.of(\"null\",\"undefined\",\"void 0\",\"true\",\"false\",\"!0\",\"!1\",\"0\",\"1\",\"''\",\"'123'\",\"'abc'\",\"'def'\",\"NaN\",\"Infinity\"// TODO(nicksantos): Add more literals// \"-Infinity\",//\"({})\",// \"[]\"//\"[0]\",//\"Object\",//\"(function() {})\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_PeepholeFoldConstantsTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 1068,
+        "lineEnd": 1092,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    }
+]

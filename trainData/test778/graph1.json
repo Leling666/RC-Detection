@@ -1,0 +1,1 @@
+[{"cfgs": [], "code": "seenObjects.clear()", "dfgs": [], "fName": "src_org_zoodb_internal_ObjectGraphTraverser.java", "fieldParents": [], "isDel": false, "lineBeg": 193, "lineEnd": 193, "lineMapIndex": -1, "methodParents": [], "nodeIndex": 0, "rootcause": false, "commits": []}]

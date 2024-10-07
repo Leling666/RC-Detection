@@ -1,0 +1,424 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"JSCompiler errors\\n\" +\"testcode:1: ERROR - Parse error. syntax error\\n\", e.getMessage())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_JsMessageExtractorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 60,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "d7a094a288f86ca58bf05c9867320096e468c45e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(\"JSCompiler errors\\n\" +\"testcode:2: ERROR - Parse error. syntax error\\n\", e.getMessage())",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_JsMessageExtractorTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 69,
+        "lineEnd": 70,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "d7a094a288f86ca58bf05c9867320096e468c45e"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return (js.indexOf('\\n', pos) == -1) ? null :js.substring(pos, js.indexOf('\\n', pos))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SourceFile.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 238,
+        "lineEnd": 239,
+        "lineMapIndex": 16,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "6b49cfd9022fe111bdad745c78ea877fbc2f7ba3"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "compiler.init(new JSSourceFile[] {}, new JSSourceFile[] {foo, bar}, options)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_JSCompilerSourceExcerptProviderTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 34,
+        "lineEnd": 35,
+        "lineMapIndex": 18,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "845f5ff65858fd0d1829f3d2f16f758725e8028f"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "assertTrue(e.getMessage().contains(\"JSCompiler errors\\n\"))",
+        "dfgs": [
+            5
+        ],
+        "fName": "test_com_google_javascript_jscomp_JsMessageExtractorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "assertTrue(e.getMessage().contains(\"testcode:1: ERROR - Parse error. syntax error\\n\"))",
+        "dfgs": [
+            6
+        ],
+        "fName": "test_com_google_javascript_jscomp_JsMessageExtractorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 60,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(e.getMessage().contains(\"if (true) {}}\\n\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_JsMessageExtractorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "assertTrue(e.getMessage().contains(\"JSCompiler errors\\n\"))",
+        "dfgs": [
+            8
+        ],
+        "fName": "test_com_google_javascript_jscomp_JsMessageExtractorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 71,
+        "lineEnd": 71,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "assertTrue(e.getMessage().contains(\"testcode:2: ERROR - Parse error. syntax error\\n\"))",
+        "dfgs": [
+            9
+        ],
+        "fName": "test_com_google_javascript_jscomp_JsMessageExtractorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 72,
+        "lineEnd": 73,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertTrue(e.getMessage().contains(\"if (true) {}}\\n\"))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_JsMessageExtractorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 74,
+        "lineEnd": 74,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11,
+            15
+        ],
+        "code": "if (js.indexOf('\\n', pos) == -1)",
+        "dfgs": [
+            11,
+            16
+        ],
+        "fName": "src_com_google_javascript_jscomp_SourceFile.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12,
+            13
+        ],
+        "code": "if (pos >= js.length())",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_com_google_javascript_jscomp_SourceFile.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return null",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SourceFile.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SourceFile.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 244,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return js.substring(pos, js.length())",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SourceFile.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 245,
+        "lineEnd": 245,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SourceFile.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 247,
+        "lineEnd": 247,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return js.substring(pos, js.indexOf('\\n', pos))",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_SourceFile.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "JSSourceFile foo2 = JSSourceFile.fromCode(\"foo2\",\"foo2:first line\\nfoo2:second line\\nfoo2:third line\")",
+        "dfgs": [
+            18
+        ],
+        "fName": "test_com_google_javascript_jscomp_JSCompilerSourceExcerptProviderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 32,
+        "lineEnd": 33,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "compiler.init(new JSSourceFile[] {}, new JSSourceFile[] {foo, bar, foo2}, options)",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_JSCompilerSourceExcerptProviderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 37,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "public void testExceptNoNewLine() throws Exception ",
+        "dfgs": [
+            20,
+            21,
+            22,
+            23
+        ],
+        "fName": "test_com_google_javascript_jscomp_JSCompilerSourceExcerptProviderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "assertEquals(\"foo2:first line\", provider.getSourceLine(\"foo2\", 1))",
+        "dfgs": [
+            21
+        ],
+        "fName": "test_com_google_javascript_jscomp_JSCompilerSourceExcerptProviderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 65,
+        "lineEnd": 65,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "assertEquals(\"foo2:second line\", provider.getSourceLine(\"foo2\", 2))",
+        "dfgs": [
+            22
+        ],
+        "fName": "test_com_google_javascript_jscomp_JSCompilerSourceExcerptProviderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 66,
+        "lineEnd": 66,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "assertEquals(\"foo2:third line\", provider.getSourceLine(\"foo2\", 3))",
+        "dfgs": [
+            23
+        ],
+        "fName": "test_com_google_javascript_jscomp_JSCompilerSourceExcerptProviderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 67,
+        "lineEnd": 67,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(null, provider.getSourceLine(\"foo2\", 4))",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_JSCompilerSourceExcerptProviderTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 68,
+        "lineEnd": 68,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    }
+]

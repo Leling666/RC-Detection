@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (!exp && count < 20)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 2475,
+        "lineEnd": 2475,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "ef6c08a304ba53d376d8dcde9c4eff2476e27b40"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (!exp && count < 18)",
+        "dfgs": [],
+        "fName": "src_main_java_com_alibaba_fastjson_parser_JSONLexerBase.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 2475,
+        "lineEnd": 2475,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

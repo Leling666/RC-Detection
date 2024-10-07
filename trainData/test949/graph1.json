@@ -1,0 +1,66 @@
+[
+    {
+        "cfgs": [],
+        "code": "assertThat(streetAddressNumber, matchesRegularExpression(\"[0-9]+ [A-Za-z0-9' ]+\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_javafaker_AddressTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "0704d8a53847d1eccd389172282527f877fc1cd0"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return resolve(\"address.street_address\")",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_javafaker_Address.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "ecba78d9994f949d28fceb179af3a55dc0791c20"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(streetAddressNumber, matchesRegularExpression(\"[0-9]+\"))",
+        "dfgs": [],
+        "fName": "src_test_java_com_github_javafaker_AddressTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 30,
+        "lineEnd": 30,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return String.valueOf(randomService.nextInt(1000))",
+        "dfgs": [],
+        "fName": "src_main_java_com_github_javafaker_Address.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 25,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    }
+]

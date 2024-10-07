@@ -1,0 +1,234 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "schemaRegistryProvider = new SchemaRegistryProvider() {@Overridepublic Registry<ConnectionSocketFactory> getSchemaRegistry() {return RegistryBuilder.<ConnectionSocketFactory> create().register(\"http\", PlainConnectionSocketFactory.getSocketFactory()).build();}}",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 175,
+        "lineEnd": 182,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "ce172acb8fec6c3bbb18837a4d640da6c5aad649"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return RegistryBuilder.<ConnectionSocketFactory> create().register(\"http\", PlainConnectionSocketFactory.getSocketFactory()).build()",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 179,
+        "lineEnd": 180,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "ce172acb8fec6c3bbb18837a4d640da6c5aad649"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "PoolingHttpClientConnectionManager cm = new PoolingHttpClientConnectionManager(schemaRegistryProvider.getSchemaRegistry())",
+        "dfgs": [
+            3
+        ],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 195,
+        "lineEnd": 195,
+        "lineMapIndex": -1,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "ce172acb8fec6c3bbb18837a4d640da6c5aad649"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return createClient(params, cm)",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 197,
+        "lineEnd": 197,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "ce172acb8fec6c3bbb18837a4d640da6c5aad649"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 50,
+        "lineEnd": 50,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "schemaRegistryProvider = new DefaultSchemaRegistryProvider()",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private static final class DefaultSchemaRegistryProvider extends SchemaRegistryProvider ",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "public Registry<ConnectionSocketFactory> getSchemaRegistry() ",
+        "dfgs": [
+            9,
+            10,
+            8,
+            11
+        ],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 183,
+        "lineEnd": 183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "RegistryBuilder<ConnectionSocketFactory> builder = RegistryBuilder.<ConnectionSocketFactory>create()",
+        "dfgs": [
+            9
+        ],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 188,
+        "lineEnd": 188,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "builder.register(\"http\", PlainConnectionSocketFactory.getSocketFactory())",
+        "dfgs": [
+            10
+        ],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 189,
+        "lineEnd": 189,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "builder.register(\"https\", SSLConnectionSocketFactory.getSystemSocketFactory())",
+        "dfgs": [
+            11
+        ],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 190,
+        "lineEnd": 190,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return builder.build()",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 191,
+        "lineEnd": 191,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return createClient(params, new PoolingHttpClientConnectionManager(schemaRegistryProvider.getSchemaRegistry()))",
+        "dfgs": [],
+        "fName": "solr_solrj_src_java_org_apache_solr_client_solrj_impl_HttpClientUtil.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 203,
+        "lineEnd": 203,
+        "lineMapIndex": -1,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    }
+]

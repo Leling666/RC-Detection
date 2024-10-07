@@ -1,0 +1,1572 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "for(Node sibling = n.getNext(); sibling != null;sibling = sibling.getNext())",
+        "dfgs": [
+            1
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 293,
+        "lineEnd": 294,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (!ControlFlowGraph.isEnteringNewCfgNode(sibling))",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "VariableLiveness state = isVariableReadBeforeKill(sibling, variable)",
+        "dfgs": [
+            3
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": 27,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "6a17da87f9e132bdc147b33223826da040c77a6b"
+        ]
+    },
+    {
+        "cfgs": [
+            4,
+            5
+        ],
+        "code": "if (state == VariableLiveness.READ)",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 299,
+        "lineEnd": 299,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": 31,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "if (state == VariableLiveness.KILL)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 301,
+        "lineEnd": 301,
+        "lineMapIndex": 32,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": 33,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "for (Node child = n.getFirstChild();child != null; child = child.getNext())",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 343,
+        "lineEnd": 344,
+        "lineMapIndex": 52,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "if (!ControlFlowGraph.isEnteringNewCfgNode(child))",
+        "dfgs": [
+            9
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 345,
+        "lineEnd": 345,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "6a17da87f9e132bdc147b33223826da040c77a6b"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "VariableLiveness state = isVariableReadBeforeKill(child, variable)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 346,
+        "lineEnd": 346,
+        "lineMapIndex": 53,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "6a17da87f9e132bdc147b33223826da040c77a6b"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "if (state != VariableLiveness.MAYBE_LIVE)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 347,
+        "lineEnd": 347,
+        "lineMapIndex": 54,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "return state",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 348,
+        "lineEnd": 348,
+        "lineMapIndex": 55,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": true,
+        "commits": [
+            "fe64e87cccd2c38524c0b36c49beb4c988d1453a"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "public void testInExpression() ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": 65,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "6a17da87f9e132bdc147b33223826da040c77a6b"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "VariableLiveness state = VariableLiveness.MAYBE_LIVE",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            16,
+            22,
+            26
+        ],
+        "code": "switch (n.getParent().getType()) ",
+        "dfgs": [
+            17,
+            26,
+            23
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 294,
+        "lineEnd": 294,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "case Token.OR",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 295,
+        "lineEnd": 295,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "case Token.AND",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 296,
+        "lineEnd": 296,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18,
+            30
+        ],
+        "code": "if (n.getNext() != null)",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 300,
+        "lineEnd": 300,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "state = isVariableReadBeforeKill(n.getNext(), variable)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 301,
+        "lineEnd": 302,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20,
+            30
+        ],
+        "code": "if (state == VariableLiveness.KILL)",
+        "dfgs": [
+            30,
+            32
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 303,
+        "lineEnd": 303,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "state = VariableLiveness.MAYBE_LIVE",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 304,
+        "lineEnd": 304,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 307,
+        "lineEnd": 307,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "case Token.HOOK",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 309,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24,
+            30
+        ],
+        "code": "if (n.getNext() != null && n.getNext().getNext() != null)",
+        "dfgs": [
+            24
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 313,
+        "lineEnd": 313,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "state = checkHookBranchReadBeforeKill(n.getNext(), n.getNext().getNext(), variable)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 314,
+        "lineEnd": 315,
+        "lineMapIndex": -1,
+        "methodParents": [
+            56
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27,
+            30
+        ],
+        "code": "for(Node sibling = n.getNext(); sibling != null;sibling = sibling.getNext())",
+        "dfgs": [
+            27
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 320,
+        "lineEnd": 321,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "state = isVariableReadBeforeKill(sibling, variable)",
+        "dfgs": [
+            28
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": 2,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "if (state != VariableLiveness.MAYBE_LIVE)",
+        "dfgs": [
+            30
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 323,
+        "lineEnd": 323,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "break",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31,
+            32
+        ],
+        "code": "if (state == VariableLiveness.READ)",
+        "dfgs": [
+            32
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 330,
+        "lineEnd": 330,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 331,
+        "lineEnd": 331,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "if (state == VariableLiveness.KILL)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 332,
+        "lineEnd": 332,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return false",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 333,
+        "lineEnd": 333,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35,
+            36
+        ],
+        "code": "if (ControlFlowGraph.isEnteringNewCfgNode(n))",
+        "dfgs": [
+            36,
+            39,
+            48,
+            53
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 354,
+        "lineEnd": 354,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return VariableLiveness.MAYBE_LIVE",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 355,
+        "lineEnd": 355,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37,
+            38,
+            47,
+            52
+        ],
+        "code": "switch (n.getType()) ",
+        "dfgs": [
+            39,
+            48,
+            52
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 375,
+        "lineEnd": 375,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38
+        ],
+        "code": "case Token.OR",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 377,
+        "lineEnd": 377,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "case Token.AND",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 378,
+        "lineEnd": 378,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "VariableLiveness v1 = isVariableReadBeforeKill(n.getFirstChild(), variable)",
+        "dfgs": [
+            40,
+            41
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 379,
+        "lineEnd": 380,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "VariableLiveness v2 = isVariableReadBeforeKill(n.getLastChild(), variable)",
+        "dfgs": [
+            43
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 381,
+        "lineEnd": 382,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42,
+            43
+        ],
+        "code": "if (v1 != VariableLiveness.MAYBE_LIVE)",
+        "dfgs": [
+            42,
+            46
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 385,
+        "lineEnd": 385,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return v1",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 386,
+        "lineEnd": 386,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44,
+            45
+        ],
+        "code": "if (v2 == VariableLiveness.READ)",
+        "dfgs": [
+            44
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 387,
+        "lineEnd": 387,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return VariableLiveness.READ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 388,
+        "lineEnd": 388,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 389,
+        "lineEnd": 389,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return VariableLiveness.MAYBE_LIVE",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 390,
+        "lineEnd": 390,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "case Token.HOOK",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 392,
+        "lineEnd": 392,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "VariableLiveness first = isVariableReadBeforeKill(n.getFirstChild(), variable)",
+        "dfgs": [
+            49,
+            51
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 393,
+        "lineEnd": 394,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            50,
+            51
+        ],
+        "code": "if (first != VariableLiveness.MAYBE_LIVE)",
+        "dfgs": [
+            50
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 395,
+        "lineEnd": 395,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return first",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 396,
+        "lineEnd": 396,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return checkHookBranchReadBeforeKill(n.getFirstChild().getNext(), n.getLastChild(), variable)",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 398,
+        "lineEnd": 399,
+        "lineMapIndex": -1,
+        "methodParents": [
+            56
+        ],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "for (Node child = n.getFirstChild();child != null; child = child.getNext())",
+        "dfgs": [
+            53
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 403,
+        "lineEnd": 404,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54
+        ],
+        "code": "VariableLiveness state = isVariableReadBeforeKill(child, variable)",
+        "dfgs": [
+            54
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 405,
+        "lineEnd": 405,
+        "lineMapIndex": 9,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            55
+        ],
+        "code": "if (state != VariableLiveness.MAYBE_LIVE)",
+        "dfgs": [
+            55
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 406,
+        "lineEnd": 406,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return state",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 407,
+        "lineEnd": 407,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            57
+        ],
+        "code": "private VariableLiveness checkHookBranchReadBeforeKill(Node trueCase, Node falseCase, String variable)",
+        "dfgs": [
+            57,
+            58,
+            59,
+            61,
+            64
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 415,
+        "lineEnd": 416,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "VariableLiveness v1 = isVariableReadBeforeKill(trueCase, variable)",
+        "dfgs": [
+            58,
+            59
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 417,
+        "lineEnd": 418,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "VariableLiveness v2 = isVariableReadBeforeKill(falseCase, variable)",
+        "dfgs": [
+            59,
+            61
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 419,
+        "lineEnd": 420,
+        "lineMapIndex": -1,
+        "methodParents": [
+            34
+        ],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            60,
+            61
+        ],
+        "code": "if (v1 == VariableLiveness.READ || v2 == VariableLiveness.READ)",
+        "dfgs": [
+            60,
+            61
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 424,
+        "lineEnd": 424,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return VariableLiveness.READ",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 425,
+        "lineEnd": 425,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62,
+            63
+        ],
+        "code": "if (v1 == VariableLiveness.KILL && v2 == VariableLiveness.KILL)",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 426,
+        "lineEnd": 426,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return VariableLiveness.KILL",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 427,
+        "lineEnd": 427,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            64
+        ],
+        "code": "else",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 428,
+        "lineEnd": 428,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return VariableLiveness.MAYBE_LIVE",
+        "dfgs": [],
+        "fName": "src_com_google_javascript_jscomp_DeadAssignmentsElimination.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 429,
+        "lineEnd": 429,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void testInExpression1() ",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 448,
+        "lineEnd": 448,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67
+        ],
+        "code": "public void testInExpression2() ",
+        "dfgs": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 456,
+        "lineEnd": 456,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "inFunction(\"var a; a = 1; if ((a = 2) || (a = 3) || (a)) {}\",\"var a; a = 1; if ((    2) || (a = 3) || (a)) {}\")",
+        "dfgs": [
+            68
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 459,
+        "lineEnd": 461,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            69
+        ],
+        "code": "inFunction(\"var a; (a = 1) || (a = 2)\",\"var a; 1 || 2\")",
+        "dfgs": [
+            69
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 463,
+        "lineEnd": 465,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "inFunction(\"var a; (a = 1) || (a = 2); return a\")",
+        "dfgs": [
+            70
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 467,
+        "lineEnd": 467,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            71
+        ],
+        "code": "inFunction(\"var a; a = 1; a ? a = 2 : a;\",\"var a; a = 1; a ?     2 : a;\")",
+        "dfgs": [
+            71
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 471,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            72
+        ],
+        "code": "inFunction(\"var a; a = 1; a ? a = 2 : a; return a\")",
+        "dfgs": [
+            72
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            73
+        ],
+        "code": "inFunction(\"var a; a = 1; a ? a : a = 2;\",\"var a; a = 1; a ? a : 2;\")",
+        "dfgs": [
+            73
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 475,
+        "lineEnd": 477,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            74
+        ],
+        "code": "inFunction(\"var a; a = 1; a ? a : a =2; return a\")",
+        "dfgs": [
+            74
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 479,
+        "lineEnd": 479,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "inFunction(\"var a; (a = 1) ? a = 2 : a = 3;\",\"var a;      1  ?     2 :     3;\")",
+        "dfgs": [
+            75
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 481,
+        "lineEnd": 483,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "inFunction(\"var a; (a = 1) ? a = 2 : a = 3; return a\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 487,
+        "lineEnd": 487,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "public void testIssue384a() ",
+        "dfgs": [
+            77
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 490,
+        "lineEnd": 490,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "inFunction(\" var a, b;\\n\" +\" if (f(b = true) || f(b = false))\\n\" +\"   a = b;\\n\" +\" else\\n\" +\"   a = null;\\n\" +\" return a;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 491,
+        "lineEnd": 497,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            79
+        ],
+        "code": "public void testIssue384b() ",
+        "dfgs": [
+            79
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 500,
+        "lineEnd": 500,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "inFunction(\" var a, b;\\n\" +\" (f(b = true) || f(b = false)) ? (a = b) : (a = null);\\n\" +\" return a;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 501,
+        "lineEnd": 504,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 79,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            81
+        ],
+        "code": "public void testIssue384c() ",
+        "dfgs": [
+            81
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 80,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "inFunction(\" var a, b;\\n\" +\" (a ? f(b = true) : f(b = false)) && (a = b);\\n\" +\" return a;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 508,
+        "lineEnd": 511,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 81,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            83
+        ],
+        "code": "public void testIssue384d() ",
+        "dfgs": [
+            83
+        ],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 514,
+        "lineEnd": 514,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 82,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "inFunction(\" var a, b;\\n\" +\" (f(b = true) || f(b = false)) && (a = b);\\n\" +\" return a;\")",
+        "dfgs": [],
+        "fName": "test_com_google_javascript_jscomp_DeadAssignmentsEliminationTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 515,
+        "lineEnd": 518,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 83,
+        "rootcause": false,
+        "commits": []
+    }
+]

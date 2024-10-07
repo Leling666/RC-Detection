@@ -1,0 +1,573 @@
+[
+    {
+        "cfgs": [
+            1
+        ],
+        "code": "if (allResourcePaths.add(relativePath)// If resource is whitelisted&& (parentMatchStatus == ScanSpecPathMatch.HAS_WHITELISTED_PATH_PREFIX|| parentMatchStatus == ScanSpecPathMatch.AT_WHITELISTED_PATH|| (parentMatchStatus == ScanSpecPathMatch.AT_WHITELISTED_CLASS_PACKAGE&& scanSpec.classfileIsSpecificallyWhitelisted(relativePath))|| (scanSpec.enableClassInfo && relativePath.equals(\"module-info.class\"))))",
+        "dfgs": [
+            2,
+            1
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementModule.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 319,
+        "lineEnd": 325,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "70afafe6d88bbd749244bce8293c65aa206b4e46"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "final Resource resource = newResource(relativePath)",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementModule.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 327,
+        "lineEnd": 327,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "798c665d574c5fb7fae3774371f9abed96a7d54d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(resource, parentMatchStatus, subLog)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementModule.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 328,
+        "lineEnd": 328,
+        "lineMapIndex": -1,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "798c665d574c5fb7fae3774371f9abed96a7d54d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(resource, parentMatchStatus, subLog)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementDir.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 399,
+        "lineEnd": 399,
+        "lineMapIndex": 18,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "798c665d574c5fb7fae3774371f9abed96a7d54d"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(resource, parentMatchStatus, subLog)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementDir.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 415,
+        "lineEnd": 415,
+        "lineMapIndex": 19,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 4,
+        "rootcause": true,
+        "commits": [
+            "afc0608581e529a7df80e8ef4589eed581a73061"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "src_test_java_io_github_classgraph_issues_issue352_Issue352.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 7,
+        "lineEnd": 7,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "dc2035188d2082324e5bda8f8037a91cd8545465"
+        ]
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "try (ScanResult scanResult = new ClassGraph().overrideClasspath(resolvedFile).whitelistPackagesNonRecursive(\"\").enableClassInfo().scan())",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_java_io_github_classgraph_issues_issue352_Issue352.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 26,
+        "lineEnd": 27,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "dc2035188d2082324e5bda8f8037a91cd8545465"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "final List<String> classNames = scanResult.getAllClasses().getNames()",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_io_github_classgraph_issues_issue352_Issue352.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 28,
+        "lineEnd": 28,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "dc2035188d2082324e5bda8f8037a91cd8545465"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(classNames).doesNotContain(\"module-info\")",
+        "dfgs": [],
+        "fName": "src_test_java_io_github_classgraph_issues_issue352_Issue352.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 29,
+        "lineEnd": 29,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "dc2035188d2082324e5bda8f8037a91cd8545465"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "protected void addWhitelistedResource(final Resource resource, final ScanSpecPathMatch parentMatchStatus,final LogNode log)",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElement.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 241,
+        "lineEnd": 242,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "798c665d574c5fb7fae3774371f9abed96a7d54d",
+            "3ab13590e6af3c2b9e6c06297b31484624eaf156"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "whitelistedResources.add(resource)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElement.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 259,
+        "lineEnd": 259,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "00b313f06a0d0890bfc3f3a7081eb790d9a8feb3"
+        ]
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "if (relativePathToResource.putIfAbsent(relativePath, resource) == null// If resource is whitelisted&& (parentMatchStatus == ScanSpecPathMatch.HAS_WHITELISTED_PATH_PREFIX|| parentMatchStatus == ScanSpecPathMatch.AT_WHITELISTED_PATH|| (parentMatchStatus == ScanSpecPathMatch.AT_WHITELISTED_CLASS_PACKAGE&& scanSpec.classfileIsSpecificallyWhitelisted(relativePath))|| (scanSpec.enableClassInfo && relativePath.equals(\"module-info.class\"))))",
+        "dfgs": [
+            12
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementZip.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 507,
+        "lineEnd": 513,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "70afafe6d88bbd749244bce8293c65aa206b4e46"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(resource, parentMatchStatus, subLog)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementZip.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 515,
+        "lineEnd": 515,
+        "lineMapIndex": 27,
+        "methodParents": [
+            9
+        ],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "70afafe6d88bbd749244bce8293c65aa206b4e46"
+        ]
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "if (allResourcePaths.add(relativePath))",
+        "dfgs": [
+            14,
+            15,
+            17,
+            16
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementModule.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15,
+            16
+        ],
+        "code": "if (parentMatchStatus == ScanSpecPathMatch.HAS_WHITELISTED_PATH_PREFIX|| parentMatchStatus == ScanSpecPathMatch.AT_WHITELISTED_PATH|| (parentMatchStatus == ScanSpecPathMatch.AT_WHITELISTED_CLASS_PACKAGE&& scanSpec.classfileIsSpecificallyWhitelisted(relativePath)))",
+        "dfgs": [
+            15,
+            17,
+            16
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementModule.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 321,
+        "lineEnd": 324,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(newResource(relativePath), parentMatchStatus,/* isClassfileOnly = */ false, subLog)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementModule.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 326,
+        "lineEnd": 327,
+        "lineMapIndex": -1,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "if (scanSpec.enableClassInfo && relativePath.equals(\"module-info.class\"))",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementModule.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 328,
+        "lineEnd": 328,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(newResource(relativePath), parentMatchStatus,/* isClassfileOnly = */ true, subLog)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementModule.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 332,
+        "lineEnd": 333,
+        "lineMapIndex": -1,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(resource, parentMatchStatus, /* isClassfileOnly = */ false, subLog)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementDir.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 399,
+        "lineEnd": 399,
+        "lineMapIndex": 3,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(resource, parentMatchStatus, /* isClassfileOnly = */ true, subLog)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementDir.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 415,
+        "lineEnd": 415,
+        "lineMapIndex": 4,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "try (ScanResult scanResult = new ClassGraph().overrideClasspath(resolvedFile).whitelistPackages(\"com.sun.istack\").enableClassInfo().scan())",
+        "dfgs": [
+            21
+        ],
+        "fName": "src_test_java_io_github_classgraph_issues_issue352_Issue352.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 25,
+        "lineEnd": 26,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertThat(scanResult.getAllResources().getPaths()).doesNotContain(\"module-info.class\")",
+        "dfgs": [],
+        "fName": "src_test_java_io_github_classgraph_issues_issue352_Issue352.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 27,
+        "lineEnd": 27,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "protected void addWhitelistedResource(final Resource resource, final ScanSpecPathMatch parentMatchStatus,final boolean isClassfileOnly, final LogNode log)",
+        "dfgs": [
+            24,
+            23
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElement.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 244,
+        "lineEnd": 245,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "if (!isClassfileOnly)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElement.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 261,
+        "lineEnd": 261,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "whitelistedResources.add(resource)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElement.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 263,
+        "lineEnd": 263,
+        "lineMapIndex": 10,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "if (relativePathToResource.putIfAbsent(relativePath, resource) == null)",
+        "dfgs": [
+            27,
+            29,
+            26,
+            28
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementZip.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 507,
+        "lineEnd": 507,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27,
+            28
+        ],
+        "code": "if (parentMatchStatus == ScanSpecPathMatch.HAS_WHITELISTED_PATH_PREFIX|| parentMatchStatus == ScanSpecPathMatch.AT_WHITELISTED_PATH|| (parentMatchStatus == ScanSpecPathMatch.AT_WHITELISTED_CLASS_PACKAGE&& scanSpec.classfileIsSpecificallyWhitelisted(relativePath)))",
+        "dfgs": [
+            27,
+            29,
+            28
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementZip.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 509,
+        "lineEnd": 512,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(resource, parentMatchStatus, /* isClassfileOnly = */ false, subLog)",
+        "dfgs": [
+            29
+        ],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementZip.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 514,
+        "lineEnd": 514,
+        "lineMapIndex": 12,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "if (scanSpec.enableClassInfo && relativePath.equals(\"module-info.class\"))",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementZip.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 515,
+        "lineEnd": 515,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "addWhitelistedResource(resource, parentMatchStatus, /* isClassfileOnly = */ true, subLog)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_classgraph_ClasspathElementZip.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 519,
+        "lineEnd": 519,
+        "lineMapIndex": -1,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    }
+]

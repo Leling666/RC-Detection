@@ -1,0 +1,7 @@
+{
+    "repo": "blade",
+    "fix": "6710db8ff2b39e340ffc8b385a2cd1e93c32105f",
+    "induce": [
+        "4c6d6ff73f3a9f5dccbc0be0531c7f4b1e47900f"
+    ]
+}

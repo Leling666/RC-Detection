@@ -1,0 +1,462 @@
+[
+    {
+        "cfgs": [],
+        "code": "final int cols = problem.getAllParameters().length",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_estimation_AbstractEstimator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "376834acf1c807d231a40b76fffe7d92ed3b4c17"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "int p = problem.getAllParameters().length",
+        "dfgs": [
+            2
+        ],
+        "fName": "src_java_org_apache_commons_math_estimation_AbstractEstimator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "376834acf1c807d231a40b76fffe7d92ed3b4c17"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "double[] errors = new double[problem.getAllParameters().length]",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_estimation_AbstractEstimator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": true,
+        "commits": [
+            "376834acf1c807d231a40b76fffe7d92ed3b4c17"
+        ]
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "public void testBoundParameters() throws EstimationException ",
+        "dfgs": [
+            5,
+            6,
+            10,
+            7,
+            8,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20,
+            4,
+            9,
+            11,
+            12,
+            13,
+            18
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 451,
+        "lineEnd": 451,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "EstimatedParameter[] p = {new EstimatedParameter(\"unbound0\", 2, false),new EstimatedParameter(\"unbound1\", 2, false),new EstimatedParameter(\"bound\",    2, true)}",
+        "dfgs": [
+            5
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 452,
+        "lineEnd": 456,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "LinearProblem problem = new LinearProblem(new LinearMeasurement[] {new LinearMeasurement(new double[] { 1.0, 1.0, 1.0 },new EstimatedParameter[] { p[0], p[1], p[2] },3.0),new LinearMeasurement(new double[] { 1.0, -1.0, 1.0 },new EstimatedParameter[] { p[0], p[1], p[2] },1.0),new LinearMeasurement(new double[] { 1.0, 3.0, 2.0 },new EstimatedParameter[] { p[0], p[1], p[2] },7.0)})",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 457,
+        "lineEnd": 467,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "GaussNewtonEstimator estimator = new GaussNewtonEstimator(100, 1.0e-6, 1.0e-6)",
+        "dfgs": [
+            7
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 469,
+        "lineEnd": 469,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "estimator.estimate(problem)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 470,
+        "lineEnd": 470,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "assertTrue(estimator.getRMS(problem) < 1.0e-10)",
+        "dfgs": [
+            14,
+            9
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 471,
+        "lineEnd": 471,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "double[][] covariances = estimator.getCovariances(problem)",
+        "dfgs": [
+            18,
+            11
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": -1,
+        "methodParents": [
+            21
+        ],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "int i0 = 0, i1 = 1",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 473,
+        "lineEnd": 473,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12,
+            14
+        ],
+        "code": "if (problem.getUnboundParameters()[0].getName().endsWith(\"1\"))",
+        "dfgs": [
+            18
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 474,
+        "lineEnd": 474,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13
+        ],
+        "code": "i0 = 1",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 475,
+        "lineEnd": 475,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            14
+        ],
+        "code": "i1 = 0",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 476,
+        "lineEnd": 476,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "assertEquals(11.0 / 24, covariances[i0][i0], 1.0e-10)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 478,
+        "lineEnd": 478,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "assertEquals(-3.0 / 24, covariances[i0][i1], 1.0e-10)",
+        "dfgs": [
+            16
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 479,
+        "lineEnd": 479,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "assertEquals(-3.0 / 24, covariances[i1][i0], 1.0e-10)",
+        "dfgs": [
+            17
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 480,
+        "lineEnd": 480,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertEquals( 3.0 / 24, covariances[i1][i1], 1.0e-10)",
+        "dfgs": [
+            19
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 481,
+        "lineEnd": 481,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "double[] errors = estimator.guessParametersErrors(problem)",
+        "dfgs": [
+            19,
+            20
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 483,
+        "lineEnd": 483,
+        "lineMapIndex": -1,
+        "methodParents": [
+            22
+        ],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "assertEquals(0, errors[i0], 1.0e-10)",
+        "dfgs": [
+            20
+        ],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 484,
+        "lineEnd": 484,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "assertEquals(0, errors[i1], 1.0e-10)",
+        "dfgs": [],
+        "fName": "src_test_org_apache_commons_math_estimation_GaussNewtonEstimatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 485,
+        "lineEnd": 485,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final int cols = problem.getUnboundParameters().length",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_estimation_AbstractEstimator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 166,
+        "lineEnd": 166,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "int p = problem.getUnboundParameters().length",
+        "dfgs": [
+            23
+        ],
+        "fName": "src_java_org_apache_commons_math_estimation_AbstractEstimator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 202,
+        "lineEnd": 202,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "double[] errors = new double[problem.getUnboundParameters().length]",
+        "dfgs": [],
+        "fName": "src_java_org_apache_commons_math_estimation_AbstractEstimator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 207,
+        "lineEnd": 207,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,7 @@
+{
+    "repo": "activemq",
+    "fix": "9fd5cb7dfe0fcc431f99d5e14206e0090e72f36b",
+    "induce": [
+        "e6d20f3932b556377218ac2e353a2cc99d26d1ea"
+    ]
+}

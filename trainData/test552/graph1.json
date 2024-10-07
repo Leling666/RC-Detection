@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "if (i == manifest.length - 2)",
+        "dfgs": [],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fastzipfilereader_LogicalZipFile.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "e14beb165300b459881fb571b90f24b8e728bc79"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (i >= manifest.length - 2)",
+        "dfgs": [],
+        "fName": "src_main_java_nonapi_io_github_classgraph_fastzipfilereader_LogicalZipFile.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 282,
+        "lineEnd": 282,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

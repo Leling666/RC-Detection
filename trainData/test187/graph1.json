@@ -1,0 +1,919 @@
+[
+    {
+        "cfgs": [],
+        "code": "core.getUpdateHandler().getSolrCoreState().setLastReplicateIndexSuccess(successfulInstall)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_handler_IndexFetcher.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 568,
+        "lineEnd": 568,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "57b47fed018c1e77cabd3d31a0fc7965a3badf16"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "if (core.getCoreDescriptor().getCoreContainer().isZooKeeperAware())",
+        "dfgs": [
+            2
+        ],
+        "fName": "solr_core_src_java_org_apache_solr_handler_IndexFetcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 568,
+        "lineEnd": 568,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "core.getUpdateHandler().getSolrCoreState().setLastReplicateIndexSuccess(successfulInstall)",
+        "dfgs": [],
+        "fName": "solr_core_src_java_org_apache_solr_handler_IndexFetcher.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 570,
+        "lineEnd": 570,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import org.apache.solr.common.params.CommonParams",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 61,
+        "lineEnd": 61,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void doTestIndexFetchOnMasterRestart() throws Exception  ",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 596,
+        "lineEnd": 596,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "useFactory(null)",
+        "dfgs": [
+            7
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 597,
+        "lineEnd": 597,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            7
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 598,
+        "lineEnd": 598,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "clearIndexWithReplication()",
+        "dfgs": [
+            8,
+            9,
+            10,
+            14,
+            13,
+            15
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 599,
+        "lineEnd": 599,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "master.copyConfigFile(CONF_DIR + \"solrconfig-master2.xml\",\"solrconfig.xml\")",
+        "dfgs": [
+            13,
+            15
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 601,
+        "lineEnd": 602,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "masterJetty.stop()",
+        "dfgs": [
+            10
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 604,
+        "lineEnd": 604,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "masterJetty.start()",
+        "dfgs": [
+            13,
+            15
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 605,
+        "lineEnd": 605,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            12
+        ],
+        "code": "nDocs--",
+        "dfgs": [
+            12
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 607,
+        "lineEnd": 607,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            13,
+            14
+        ],
+        "code": "for (int i = 0; i < nDocs; i++)",
+        "dfgs": [
+            13,
+            15
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 608,
+        "lineEnd": 608,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "index(masterClient, \"id\", i, \"name\", \"name = \" + i)",
+        "dfgs": [
+            14,
+            15
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 609,
+        "lineEnd": 609,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "masterClient.commit()",
+        "dfgs": [
+            15
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 611,
+        "lineEnd": 611,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            16
+        ],
+        "code": "NamedList masterQueryRsp = rQuery(nDocs, \"*:*\", masterClient)",
+        "dfgs": [
+            17,
+            16
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 613,
+        "lineEnd": 613,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "SolrDocumentList masterQueryResult = (SolrDocumentList) masterQueryRsp.get(\"response\")",
+        "dfgs": [
+            17,
+            21
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 614,
+        "lineEnd": 614,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            18
+        ],
+        "code": "assertEquals(nDocs, numFound(masterQueryRsp))",
+        "dfgs": [
+            18
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 615,
+        "lineEnd": 615,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            19
+        ],
+        "code": "NamedList slaveQueryRsp = rQuery(nDocs, \"*:*\", slaveClient)",
+        "dfgs": [
+            20,
+            19
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 618,
+        "lineEnd": 618,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            20
+        ],
+        "code": "SolrDocumentList slaveQueryResult = (SolrDocumentList) slaveQueryRsp.get(\"response\")",
+        "dfgs": [
+            20,
+            21
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 619,
+        "lineEnd": 619,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            21
+        ],
+        "code": "assertEquals(nDocs, numFound(slaveQueryRsp))",
+        "dfgs": [
+            22,
+            30
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 620,
+        "lineEnd": 620,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            22
+        ],
+        "code": "String cmp = BaseDistributedSearchTestCase.compare(masterQueryResult, slaveQueryResult, 0, null)",
+        "dfgs": [
+            22
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 623,
+        "lineEnd": 623,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "assertEquals(null, cmp)",
+        "dfgs": [
+            23
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 624,
+        "lineEnd": 624,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "assertEquals(1, Integer.parseInt(getSlaveDetails(\"timesIndexReplicated\")))",
+        "dfgs": [
+            24,
+            25
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 626,
+        "lineEnd": 626,
+        "lineMapIndex": -1,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "String timesFailed = getSlaveDetails(\"timesFailed\")",
+        "dfgs": [
+            25
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 627,
+        "lineEnd": 627,
+        "lineMapIndex": -1,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "assertEquals(0, Integer.parseInt(timesFailed != null ?  timesFailed : \"0\"))",
+        "dfgs": [
+            26,
+            28,
+            30,
+            33
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 628,
+        "lineEnd": 628,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            27
+        ],
+        "code": "masterJetty.stop()",
+        "dfgs": [
+            28
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 630,
+        "lineEnd": 630,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            28
+        ],
+        "code": "Thread.sleep(2000)",
+        "dfgs": [
+            29
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 633,
+        "lineEnd": 633,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            29
+        ],
+        "code": "masterJetty.start()",
+        "dfgs": [
+            30
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 635,
+        "lineEnd": 635,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            30
+        ],
+        "code": "Thread.sleep(2000)",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 638,
+        "lineEnd": 638,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "slaveQueryRsp = rQuery(nDocs, \"*:*\", slaveClient)",
+        "dfgs": [
+            32,
+            31
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 641,
+        "lineEnd": 641,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            32
+        ],
+        "code": "slaveQueryResult = (SolrDocumentList) slaveQueryRsp.get(\"response\")",
+        "dfgs": [
+            32
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 642,
+        "lineEnd": 642,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "assertEquals(nDocs, numFound(slaveQueryRsp))",
+        "dfgs": [
+            33
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 643,
+        "lineEnd": 643,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "int failed = Integer.parseInt(getSlaveDetails(\"timesFailed\"))",
+        "dfgs": [
+            34,
+            35
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 645,
+        "lineEnd": 645,
+        "lineMapIndex": -1,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            35
+        ],
+        "code": "assertTrue(failed > 0)",
+        "dfgs": [
+            35
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 646,
+        "lineEnd": 646,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            37
+        ],
+        "code": "assertEquals(1, Integer.parseInt(getSlaveDetails(\"timesIndexReplicated\")) - failed)",
+        "dfgs": [
+            37
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 647,
+        "lineEnd": 647,
+        "lineMapIndex": -1,
+        "methodParents": [
+            38
+        ],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 648,
+        "lineEnd": 648,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "resetFactory()",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 649,
+        "lineEnd": 649,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "private String getSlaveDetails(String keyName) throws SolrServerException, IOException ",
+        "dfgs": [
+            39,
+            44,
+            45,
+            40,
+            41,
+            43,
+            47,
+            42,
+            46
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 653,
+        "lineEnd": 653,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "ModifiableSolrParams params = new ModifiableSolrParams()",
+        "dfgs": [
+            40
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 654,
+        "lineEnd": 654,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "params.set(CommonParams.QT, \"/replication\")",
+        "dfgs": [
+            41
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 655,
+        "lineEnd": 655,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            42
+        ],
+        "code": "params.set(\"command\", \"details\")",
+        "dfgs": [
+            42
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 656,
+        "lineEnd": 656,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "QueryResponse response = slaveClient.query(params)",
+        "dfgs": [
+            43
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 657,
+        "lineEnd": 657,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            44
+        ],
+        "code": "System.out.println(\"SHALIN: \" + response.getResponse())",
+        "dfgs": [
+            44
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 658,
+        "lineEnd": 658,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45
+        ],
+        "code": "NamedList<Object> details = (NamedList<Object>) response.getResponse().get(\"details\")",
+        "dfgs": [
+            45
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 660,
+        "lineEnd": 660,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            46
+        ],
+        "code": "NamedList<Object> slave = (NamedList<Object>) details.get(\"slave\")",
+        "dfgs": [
+            46
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 661,
+        "lineEnd": 661,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            47
+        ],
+        "code": "Object o = slave.get(keyName)",
+        "dfgs": [
+            47
+        ],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 662,
+        "lineEnd": 662,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return o != null ? o.toString() : null",
+        "dfgs": [],
+        "fName": "solr_core_src_test_org_apache_solr_handler_TestReplicationHandler.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 663,
+        "lineEnd": 663,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    }
+]

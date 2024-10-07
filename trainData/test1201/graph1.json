@@ -1,0 +1,51 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.mockito.exceptions.verification.junit.ArgumentsAreDifferent",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_verification_VerificationOverTimeImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 8,
+        "lineEnd": 8,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "4a3f2df6afa3cc58db73f29c587ee1c5a4216c32"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (ArgumentsAreDifferent e)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_verification_VerificationOverTimeImpl.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 92,
+        "lineEnd": 92,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": true,
+        "commits": [
+            "4a3f2df6afa3cc58db73f29c587ee1c5a4216c32"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "catch (AssertionError e)",
+        "dfgs": [],
+        "fName": "src_org_mockito_internal_verification_VerificationOverTimeImpl.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    }
+]

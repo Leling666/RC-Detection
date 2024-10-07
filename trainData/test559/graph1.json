@@ -1,0 +1,1505 @@
+[
+    {
+        "cfgs": [],
+        "code": "private final ArrayList<FilePathMatcher> filePathMatchers = new ArrayList<>()",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 59,
+        "lineEnd": 59,
+        "lineMapIndex": 30,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": false,
+        "commits": [
+            "0da5baefe5dd75884d0767e02d7655058d2b4df5"
+        ]
+    },
+    {
+        "cfgs": [
+            2,
+            3,
+            5
+        ],
+        "code": "private void scanZipfile(final File classpathElt, final ZipFile zipFile, final String zipfilePath,final String zipInternalRootPath, final long zipFileLastModified, final boolean scanTimestampsOnly)",
+        "dfgs": [
+            6,
+            5,
+            3,
+            4,
+            2
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 185,
+        "lineEnd": 186,
+        "lineMapIndex": 44,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": [
+            "be533e6f2d7963f46d675bf41f955a92d15e1fed"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            3
+        ],
+        "code": "Log.log(4, \"Jarfile \" + zipfilePath+ \" contains modification timestamps newer than the current system time\")",
+        "dfgs": [
+            6,
+            5,
+            4
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 240,
+        "lineEnd": 241,
+        "lineMapIndex": 45,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": [
+            "340bb3939964796a6d55d4a08e7d19b717c4b205"
+        ]
+    },
+    {
+        "cfgs": [
+            5,
+            4
+        ],
+        "code": "if (fileMatcher.filePathMatches(classpathElt, path))",
+        "dfgs": [
+            6,
+            5,
+            4
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 248,
+        "lineEnd": 248,
+        "lineMapIndex": 46,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": [
+            "be533e6f2d7963f46d675bf41f955a92d15e1fed"
+        ]
+    },
+    {
+        "cfgs": [
+            5
+        ],
+        "code": "fileMatcher.processMatch(classpathElt, path, inputStream, (int) entry.getSize())",
+        "dfgs": [
+            5,
+            6
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 254,
+        "lineEnd": 254,
+        "lineMapIndex": 47,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": [
+            "be533e6f2d7963f46d675bf41f955a92d15e1fed"
+        ]
+    },
+    {
+        "cfgs": [
+            6
+        ],
+        "code": "Log.log(4, \"Scanned jarfile entry \" + zipfilePath + \"!\" + path,System.nanoTime() - entryStartTime)",
+        "dfgs": [
+            6
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 262,
+        "lineEnd": 263,
+        "lineMapIndex": 48,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": [
+            "340bb3939964796a6d55d4a08e7d19b717c4b205"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Log.log(3, \"Scanned jarfile \" + zipfilePath, System.nanoTime() - startTime)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 271,
+        "lineEnd": 271,
+        "lineMapIndex": 49,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": [
+            "340bb3939964796a6d55d4a08e7d19b717c4b205"
+        ]
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "private void scanZipfile(final File classpathElt, final String path, final String zipInternalRootPath,final boolean scanTimestampsOnly)",
+        "dfgs": [
+            8,
+            10,
+            11,
+            9
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 278,
+        "lineEnd": 279,
+        "lineMapIndex": 50,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": [
+            "08c8b1f1dfe9701f22d2bc7846a2d418fc8f39f8",
+            "be533e6f2d7963f46d675bf41f955a92d15e1fed"
+        ]
+    },
+    {
+        "cfgs": [
+            9
+        ],
+        "code": "final String jarName = classpathElt.getName()",
+        "dfgs": [
+            10,
+            11,
+            9
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 280,
+        "lineEnd": 280,
+        "lineMapIndex": 51,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": [
+            "be533e6f2d7963f46d675bf41f955a92d15e1fed"
+        ]
+    },
+    {
+        "cfgs": [
+            10
+        ],
+        "code": "try (ZipFile zipfile = new ZipFile(classpathElt)) ",
+        "dfgs": [
+            10
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 286,
+        "lineEnd": 286,
+        "lineMapIndex": 57,
+        "methodParents": [],
+        "nodeIndex": 9,
+        "rootcause": false,
+        "commits": [
+            "be533e6f2d7963f46d675bf41f955a92d15e1fed"
+        ]
+    },
+    {
+        "cfgs": [
+            11
+        ],
+        "code": "scanZipfile(classpathElt, zipfile, path, zipInternalRootPath, classpathElt.lastModified(),scanTimestampsOnly)",
+        "dfgs": [
+            11
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 287,
+        "lineEnd": 288,
+        "lineMapIndex": 58,
+        "methodParents": [
+            1
+        ],
+        "nodeIndex": 10,
+        "rootcause": false,
+        "commits": [
+            "be533e6f2d7963f46d675bf41f955a92d15e1fed"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Log.log(3, \"Error while opening zipfile \" + classpathElt + \" : \" + e.toString())",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 291,
+        "lineEnd": 291,
+        "lineMapIndex": 59,
+        "methodParents": [],
+        "nodeIndex": 11,
+        "rootcause": false,
+        "commits": [
+            "340bb3939964796a6d55d4a08e7d19b717c4b205"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "Log.log(2, \"Scanning path: \" + relativePath)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": 60,
+        "methodParents": [],
+        "nodeIndex": 12,
+        "rootcause": false,
+        "commits": [
+            "340bb3939964796a6d55d4a08e7d19b717c4b205"
+        ]
+    },
+    {
+        "cfgs": [
+            15,
+            14
+        ],
+        "code": "final File zipFile = Paths.get(pathStr.substring(0, bangPos)).toFile()",
+        "dfgs": [
+            14
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 417,
+        "lineEnd": 417,
+        "lineMapIndex": 67,
+        "methodParents": [],
+        "nodeIndex": 13,
+        "rootcause": false,
+        "commits": [
+            "3914965c5d6127d2ffd87b338bcd63fd4e60a7ed"
+        ]
+    },
+    {
+        "cfgs": [
+            15
+        ],
+        "code": "scanZipfile(zipFile, path, zipInternalRootPath, scanTimestampsOnly)",
+        "dfgs": [
+            15
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 424,
+        "lineEnd": 424,
+        "lineMapIndex": 69,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 14,
+        "rootcause": false,
+        "commits": [
+            "08c8b1f1dfe9701f22d2bc7846a2d418fc8f39f8"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "scanZipfile(classpathElt, path, \"\", scanTimestampsOnly)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 452,
+        "lineEnd": 452,
+        "lineMapIndex": 70,
+        "methodParents": [
+            7
+        ],
+        "nodeIndex": 15,
+        "rootcause": false,
+        "commits": [
+            "be533e6f2d7963f46d675bf41f955a92d15e1fed"
+        ]
+    },
+    {
+        "cfgs": [
+            17
+        ],
+        "code": "final ScanSpec scanSpecParsed = this.scanSpec",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_FastClasspathScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 16,
+        "rootcause": true,
+        "commits": [
+            "0f7234b8c785296872b0f9a05f4674e8c3389716"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "this.matchFilenameExtension(\"class\", new FileMatchProcessor() {@Overridepublic void processMatch(final String relativePath, final InputStream inputStream, //final int lengthBytes) throws IOException {final boolean classScannedSuccessfully = ClassfileBinaryParser.readClassInfoFromClassfileHeader(relativePath, inputStream, classNameToStaticFinalFieldsToMatch, scanSpecParsed,classNameToClassInfo);if (classScannedSuccessfully) {numClassfilesParsed++;}}})",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_FastClasspathScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 177,
+        "lineEnd": 188,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 17,
+        "rootcause": true,
+        "commits": [
+            "0f7234b8c785296872b0f9a05f4674e8c3389716"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final boolean classScannedSuccessfully = ClassfileBinaryParser.readClassInfoFromClassfileHeader(relativePath, inputStream, classNameToStaticFinalFieldsToMatch, scanSpecParsed,classNameToClassInfo)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_FastClasspathScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 181,
+        "lineEnd": 183,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 18,
+        "rootcause": true,
+        "commits": [
+            "0f7234b8c785296872b0f9a05f4674e8c3389716"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "if (classScannedSuccessfully)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_FastClasspathScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 184,
+        "lineEnd": 184,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 19,
+        "rootcause": true,
+        "commits": [
+            "0f7234b8c785296872b0f9a05f4674e8c3389716"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "numClassfilesParsed++",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_FastClasspathScanner.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 185,
+        "lineEnd": 185,
+        "lineMapIndex": 71,
+        "methodParents": [],
+        "nodeIndex": 20,
+        "rootcause": true,
+        "commits": [
+            "0f7234b8c785296872b0f9a05f4674e8c3389716"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "final HashSet<String> fieldNames = new HashSet<String>()",
+        "dfgs": [],
+        "fName": "src_test_java_io_github_lukehutch_fastclasspathscanner_test_FastClasspathScannerTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": 73,
+        "methodParents": [],
+        "nodeIndex": 21,
+        "rootcause": false,
+        "commits": [
+            "badf3f5d1cb85c66fa91a101d92ab39d84d35b36"
+        ]
+    },
+    {
+        "cfgs": [
+            23
+        ],
+        "code": "Set<ClassInfo> directlyRelatedClasses = this.getRelatedClasses(relType)",
+        "dfgs": [
+            23,
+            26
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": 74,
+        "methodParents": [],
+        "nodeIndex": 22,
+        "rootcause": false,
+        "commits": [
+            "68503af2437f5022439e173ab6a89294dd4e27ef"
+        ]
+    },
+    {
+        "cfgs": [
+            24
+        ],
+        "code": "Set<ClassInfo> reachableClasses = new HashSet<>(directlyRelatedClasses)",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": 75,
+        "methodParents": [],
+        "nodeIndex": 23,
+        "rootcause": false,
+        "commits": [
+            "68503af2437f5022439e173ab6a89294dd4e27ef"
+        ]
+    },
+    {
+        "cfgs": [
+            25
+        ],
+        "code": "LinkedList<ClassInfo> queue = new LinkedList<>()",
+        "dfgs": [
+            25
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 239,
+        "lineEnd": 239,
+        "lineMapIndex": 76,
+        "methodParents": [],
+        "nodeIndex": 24,
+        "rootcause": false,
+        "commits": [
+            "68503af2437f5022439e173ab6a89294dd4e27ef"
+        ]
+    },
+    {
+        "cfgs": [
+            26
+        ],
+        "code": "ClassInfo head = queue.removeFirst()",
+        "dfgs": [
+            26
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": 77,
+        "methodParents": [],
+        "nodeIndex": 25,
+        "rootcause": false,
+        "commits": [
+            "68503af2437f5022439e173ab6a89294dd4e27ef"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "for (ClassInfo directlyReachableFromHead : head.getRelatedClasses(relType))",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": 78,
+        "methodParents": [],
+        "nodeIndex": 26,
+        "rootcause": false,
+        "commits": [
+            "68503af2437f5022439e173ab6a89294dd4e27ef"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import java.nio.file.Path",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 36,
+        "lineEnd": 36,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 27,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.HashSet",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 40,
+        "lineEnd": 40,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 28,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.Set",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 42,
+        "lineEnd": 42,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 29,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            31
+        ],
+        "code": "private final List<FilePathMatcher> filePathMatchers = new ArrayList<>()",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 62,
+        "lineEnd": 62,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 30,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "private final Set<String> scannedAbsolutePaths = new HashSet<>()",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 64,
+        "lineEnd": 64,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 31,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            33
+        ],
+        "code": "private boolean isNewUniqueRealPath(final Path path) ",
+        "dfgs": [
+            34
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 157,
+        "lineEnd": 157,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 32,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            34
+        ],
+        "code": "try ",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 158,
+        "lineEnd": 158,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 33,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return scannedAbsolutePaths.add(path.toRealPath().toString())",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [
+            31
+        ],
+        "isDel": false,
+        "lineBeg": 159,
+        "lineEnd": 159,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 34,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "catch (final IOException e)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 160,
+        "lineEnd": 160,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 35,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return true",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 162,
+        "lineEnd": 162,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 36,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            38,
+            39
+        ],
+        "code": "if (FastClasspathScanner.verbose)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 173,
+        "lineEnd": 173,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 37,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            39
+        ],
+        "code": "Log.log(2, \"Scanning file: \" + file.getPath())",
+        "dfgs": [
+            39,
+            42
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 174,
+        "lineEnd": 174,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 38,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            40
+        ],
+        "code": "final Path filePath = file.toPath()",
+        "dfgs": [
+            40
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 176,
+        "lineEnd": 176,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 39,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            41
+        ],
+        "code": "if (!isNewUniqueRealPath(filePath))",
+        "dfgs": [
+            42
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 177,
+        "lineEnd": 177,
+        "lineMapIndex": -1,
+        "methodParents": [
+            32
+        ],
+        "nodeIndex": 40,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43,
+            42
+        ],
+        "code": "if (FastClasspathScanner.verbose)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 178,
+        "lineEnd": 178,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 41,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            43
+        ],
+        "code": "Log.log(3, \"Reached duplicate file, ignoring: \" + filePath)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 179,
+        "lineEnd": 179,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 42,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 181,
+        "lineEnd": 181,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 43,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            45,
+            46,
+            48
+        ],
+        "code": "private void scanZipfile(final File zipfileClasspathElt, final ZipFile zipFile,final String zipInternalRootPath, final long zipFileLastModified, final boolean scanTimestampsOnly)",
+        "dfgs": [
+            49,
+            48,
+            46,
+            47,
+            45
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 215,
+        "lineEnd": 216,
+        "lineMapIndex": 1,
+        "methodParents": [],
+        "nodeIndex": 44,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48,
+            46
+        ],
+        "code": "Log.log(4, \"Jarfile \" + zipfileClasspathElt+ \" contains modification timestamps newer than the current system time\")",
+        "dfgs": [
+            49,
+            48,
+            47
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 270,
+        "lineEnd": 271,
+        "lineMapIndex": 2,
+        "methodParents": [],
+        "nodeIndex": 45,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48,
+            47
+        ],
+        "code": "if (fileMatcher.filePathMatches(zipfileClasspathElt, path))",
+        "dfgs": [
+            49,
+            48,
+            47
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 278,
+        "lineEnd": 278,
+        "lineMapIndex": 3,
+        "methodParents": [],
+        "nodeIndex": 46,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            48
+        ],
+        "code": "fileMatcher.processMatch(zipfileClasspathElt, path, inputStream,(int) entry.getSize())",
+        "dfgs": [
+            49,
+            48
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 284,
+        "lineEnd": 285,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 47,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            49
+        ],
+        "code": "Log.log(4, \"Scanned jarfile entry \" + zipfileClasspathElt + \"!\" + path,System.nanoTime() - entryStartTime)",
+        "dfgs": [
+            49
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 294,
+        "lineMapIndex": 5,
+        "methodParents": [],
+        "nodeIndex": 48,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Log.log(3, \"Scanned jarfile \" + zipfileClasspathElt, System.nanoTime() - startTime)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 302,
+        "lineEnd": 302,
+        "lineMapIndex": 6,
+        "methodParents": [],
+        "nodeIndex": 49,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            51
+        ],
+        "code": "private void scanZipfile(final File zipfileClasspathElt, final String zipInternalRootPath,final boolean scanTimestampsOnly)",
+        "dfgs": [
+            51,
+            58,
+            55,
+            59,
+            53,
+            57,
+            52,
+            56
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 309,
+        "lineEnd": 310,
+        "lineMapIndex": 7,
+        "methodParents": [],
+        "nodeIndex": 50,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            52
+        ],
+        "code": "final String jarName = zipfileClasspathElt.getName()",
+        "dfgs": [
+            58,
+            55,
+            59,
+            53,
+            52
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 311,
+        "lineEnd": 311,
+        "lineMapIndex": 8,
+        "methodParents": [],
+        "nodeIndex": 51,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            53
+        ],
+        "code": "final Path zipfilePath = zipfileClasspathElt.toPath()",
+        "dfgs": [
+            57,
+            53
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 317,
+        "lineEnd": 317,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 52,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            54,
+            57
+        ],
+        "code": "if (!isNewUniqueRealPath(zipfilePath))",
+        "dfgs": [
+            58,
+            55
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 318,
+        "lineEnd": 318,
+        "lineMapIndex": -1,
+        "methodParents": [
+            32
+        ],
+        "nodeIndex": 53,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56,
+            55
+        ],
+        "code": "if (FastClasspathScanner.verbose)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 319,
+        "lineEnd": 319,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 54,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            56
+        ],
+        "code": "Log.log(3, \"Reached duplicate zipfile, ignoring: \" + zipfilePath)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 320,
+        "lineEnd": 320,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 55,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 322,
+        "lineEnd": 322,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 56,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            58
+        ],
+        "code": "try (ZipFile zipfile = new ZipFile(zipfileClasspathElt)) ",
+        "dfgs": [
+            58
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 324,
+        "lineEnd": 324,
+        "lineMapIndex": 9,
+        "methodParents": [],
+        "nodeIndex": 57,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            59
+        ],
+        "code": "scanZipfile(zipfileClasspathElt, zipfile, zipInternalRootPath, zipfileClasspathElt.lastModified(),scanTimestampsOnly)",
+        "dfgs": [
+            59
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 325,
+        "lineEnd": 326,
+        "lineMapIndex": 10,
+        "methodParents": [
+            44
+        ],
+        "nodeIndex": 58,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "Log.log(3, \"Error while opening zipfile \" + zipfileClasspathElt + \" : \" + e.toString())",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 329,
+        "lineEnd": 329,
+        "lineMapIndex": 11,
+        "methodParents": [],
+        "nodeIndex": 59,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            61
+        ],
+        "code": "Log.log(2, \"Scanning directory: \" + relativePath)",
+        "dfgs": [
+            64
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 349,
+        "lineEnd": 349,
+        "lineMapIndex": 12,
+        "methodParents": [],
+        "nodeIndex": 60,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            62
+        ],
+        "code": "final Path dirPath = dir.toPath()",
+        "dfgs": [
+            62
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 351,
+        "lineEnd": 351,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 61,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            63
+        ],
+        "code": "if (!isNewUniqueRealPath(dirPath))",
+        "dfgs": [
+            64
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 352,
+        "lineEnd": 352,
+        "lineMapIndex": -1,
+        "methodParents": [
+            32
+        ],
+        "nodeIndex": 62,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65,
+            64
+        ],
+        "code": "if (FastClasspathScanner.verbose)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 353,
+        "lineEnd": 353,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 63,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            65
+        ],
+        "code": "Log.log(3, \"Reached duplicate directory, ignoring: \" + dirPath)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 354,
+        "lineEnd": 354,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 64,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 356,
+        "lineEnd": 356,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 65,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            67,
+            70
+        ],
+        "code": "scannedAbsolutePaths.clear()",
+        "dfgs": [
+            70,
+            69
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [
+            31
+        ],
+        "isDel": false,
+        "lineBeg": 449,
+        "lineEnd": 449,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 66,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            68
+        ],
+        "code": "final Path zipPath = Paths.get(pathStr.substring(0, bangPos))",
+        "dfgs": [
+            68,
+            69
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 463,
+        "lineEnd": 463,
+        "lineMapIndex": 13,
+        "methodParents": [],
+        "nodeIndex": 67,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70,
+            69
+        ],
+        "code": "final File zipFile = zipPath.toFile()",
+        "dfgs": [
+            69
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 465,
+        "lineEnd": 465,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 68,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            70
+        ],
+        "code": "scanZipfile(zipFile, zipInternalRootPath, scanTimestampsOnly)",
+        "dfgs": [
+            70
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 472,
+        "lineEnd": 472,
+        "lineMapIndex": 14,
+        "methodParents": [
+            50
+        ],
+        "nodeIndex": 69,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "scanZipfile(classpathElt, \"\", scanTimestampsOnly)",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_scanner_RecursiveScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 500,
+        "lineEnd": 500,
+        "lineMapIndex": 15,
+        "methodParents": [
+            50
+        ],
+        "nodeIndex": 70,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "this.matchFilenameExtension(\"class\", new FileMatchProcessor() {@Overridepublic void processMatch(final String relativePath, final InputStream inputStream, //final int lengthBytes) throws IOException {if (ClassfileBinaryParser.readClassInfoFromClassfileHeader(relativePath, inputStream,classNameToStaticFinalFieldsToMatch, getScanSpec(), classNameToClassInfo)) {numClassfilesParsed++;}}})",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_FastClasspathScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 139,
+        "lineEnd": 148,
+        "lineMapIndex": 20,
+        "methodParents": [],
+        "nodeIndex": 71,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "numClassfilesParsed++",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_FastClasspathScanner.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 145,
+        "lineEnd": 145,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 72,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "final HashSet<String> fieldNames = new HashSet<>()",
+        "dfgs": [],
+        "fName": "src_test_java_io_github_lukehutch_fastclasspathscanner_test_FastClasspathScannerTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 293,
+        "lineEnd": 293,
+        "lineMapIndex": 21,
+        "methodParents": [],
+        "nodeIndex": 73,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            75
+        ],
+        "code": "final Set<ClassInfo> directlyRelatedClasses = this.getRelatedClasses(relType)",
+        "dfgs": [
+            75,
+            78
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 234,
+        "lineEnd": 234,
+        "lineMapIndex": 22,
+        "methodParents": [],
+        "nodeIndex": 74,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            76
+        ],
+        "code": "final Set<ClassInfo> reachableClasses = new HashSet<>(directlyRelatedClasses)",
+        "dfgs": [
+            77
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 238,
+        "lineEnd": 238,
+        "lineMapIndex": 23,
+        "methodParents": [],
+        "nodeIndex": 75,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            77
+        ],
+        "code": "final LinkedList<ClassInfo> queue = new LinkedList<>()",
+        "dfgs": [
+            77
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 239,
+        "lineEnd": 239,
+        "lineMapIndex": 24,
+        "methodParents": [],
+        "nodeIndex": 76,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            78
+        ],
+        "code": "final ClassInfo head = queue.removeFirst()",
+        "dfgs": [
+            78
+        ],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 242,
+        "lineEnd": 242,
+        "lineMapIndex": 25,
+        "methodParents": [],
+        "nodeIndex": 77,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "for (final ClassInfo directlyReachableFromHead : head.getRelatedClasses(relType))",
+        "dfgs": [],
+        "fName": "src_main_java_io_github_lukehutch_fastclasspathscanner_classfileparser_ClassInfo.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 243,
+        "lineEnd": 243,
+        "lineMapIndex": 26,
+        "methodParents": [],
+        "nodeIndex": 78,
+        "rootcause": false,
+        "commits": []
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "cfgs": [],
+        "code": "import org.apache.hadoop.metrics2.sink.relocated.google.common.collect.Lists",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_metadata_RoleGraphTest.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 43,
+        "lineEnd": 43,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "e10f6922eb972c581102b75d7fa50eabe0487fa2"
+        ]
+    },
+    {
+        "cfgs": [],
+        "code": "import com.google.common.collect.Lists",
+        "dfgs": [],
+        "fName": "ambari-server_src_test_java_org_apache_ambari_server_metadata_RoleGraphTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 47,
+        "lineEnd": 47,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    }
+]

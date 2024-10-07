@@ -1,0 +1,157 @@
+[
+    {
+        "cfgs": [],
+        "code": "return (Class<S>)builder.name(new NamingStrategy.Fixed(superclass.getName() + \"$$DynamicSubclass\")).make().load(superclass.getClassLoader(), ClassLoadingStrategy.Default.INJECTION).getLoaded()",
+        "dfgs": [],
+        "fName": "src_main_java_nl_jqno_equalsverifier_internal_Instantiator.java",
+        "fieldParents": [],
+        "isDel": true,
+        "lineBeg": 88,
+        "lineEnd": 92,
+        "lineMapIndex": 4,
+        "methodParents": [],
+        "nodeIndex": 0,
+        "rootcause": true,
+        "commits": [
+            "6fedf6c696962b634ebc7bb6161b10226687f3d9",
+            "bed2d3db75a41cf2a65d1a0a1e41df83791abf89"
+        ]
+    },
+    {
+        "cfgs": [
+            2
+        ],
+        "code": "boolean isSystemClass = superclass.getName().startsWith(\"java\")",
+        "dfgs": [
+            3,
+            4
+        ],
+        "fName": "src_main_java_nl_jqno_equalsverifier_internal_Instantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 89,
+        "lineEnd": 89,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 1,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            3
+        ],
+        "code": "String namePrefix = isSystemClass ? \"$\" : \"\"",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_nl_jqno_equalsverifier_internal_Instantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 90,
+        "lineEnd": 90,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 2,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            4
+        ],
+        "code": "ClassLoader classLoader = isSystemClass ? Instantiator.class.getClassLoader() : superclass.getClassLoader()",
+        "dfgs": [
+            4
+        ],
+        "fName": "src_main_java_nl_jqno_equalsverifier_internal_Instantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 91,
+        "lineEnd": 91,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 3,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "return (Class<S>)builder.name(new NamingStrategy.Fixed(namePrefix + superclass.getName() + \"$$DynamicSubclass\")).make().load(classLoader, ClassLoadingStrategy.Default.INJECTION).getLoaded()",
+        "dfgs": [],
+        "fName": "src_main_java_nl_jqno_equalsverifier_internal_Instantiator.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 93,
+        "lineEnd": 97,
+        "lineMapIndex": 0,
+        "methodParents": [],
+        "nodeIndex": 4,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "import java.util.List",
+        "dfgs": [],
+        "fName": "src_test_java_nl_jqno_equalsverifier_internal_InstantiatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 26,
+        "lineEnd": 26,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 5,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "public void instantiateJavaApiClassWhichHasBootstrapClassLoader() ",
+        "dfgs": [],
+        "fName": "src_test_java_nl_jqno_equalsverifier_internal_InstantiatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 78,
+        "lineEnd": 78,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 6,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [
+            8
+        ],
+        "code": "Instantiator<List> instantiator = Instantiator.of(List.class)",
+        "dfgs": [
+            8
+        ],
+        "fName": "src_test_java_nl_jqno_equalsverifier_internal_InstantiatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 79,
+        "lineEnd": 79,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 7,
+        "rootcause": false,
+        "commits": []
+    },
+    {
+        "cfgs": [],
+        "code": "instantiator.instantiateAnonymousSubclass()",
+        "dfgs": [],
+        "fName": "src_test_java_nl_jqno_equalsverifier_internal_InstantiatorTest.java",
+        "fieldParents": [],
+        "isDel": false,
+        "lineBeg": 80,
+        "lineEnd": 80,
+        "lineMapIndex": -1,
+        "methodParents": [],
+        "nodeIndex": 8,
+        "rootcause": false,
+        "commits": []
+    }
+]
